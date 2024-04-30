@@ -1,0 +1,45 @@
+name: PhishFeed Update
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+
+jobs:
+  update-phishfeed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install sqlite-utils
+
+      - name: Download PhishFeed
+        run: curl -o feed.txt https://openphish.com/feed.txt
+
+      - name: Filter and Sort PhishFeed
+        run: |
+          cat feed.txt | sort -u > filtered_feed.txt
+
+      - name: Ensure SQLite Database
+        run: sqlite-utils init database.db domains --ddl="CREATE TABLE domains (domain TEXT PRIMARY KEY, last_seen TEXT)"
+
+      - name: Update Database and PhishFeed List
+        run: |
+          python update.py ${{ github.workspace }}
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add openphish.agh
+          git commit -m "Update PhishFeed List"
+          git push
