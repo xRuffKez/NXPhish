@@ -13,18 +13,19 @@ def load_whitelist_domains():
     whitelist_url = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-urlshortener.txt"
     response = requests.get(whitelist_url)
     if response.status_code == 200:
-        return response.text.splitlines()
+        lines = response.text.splitlines()
+        domains = []
+        for line in lines:
+            # Remove @@||
+            line = line.replace("@@||", "")
+            # Remove leading ^
+            line = line.lstrip("^")
+            # Remove lines starting with [ or !
+            if not line.startswith("[") and not line.startswith("!"):
+                domains.append(line)
+        return domains
     else:
         print("Failed to load whitelist domains:", response.status_code)
-        return []
-
-def load_repository_domains():
-    repository_path = "white.list"
-    if os.path.exists(repository_path):
-        with open(repository_path, 'r') as file:
-            return file.read().splitlines()
-    else:
-        print("Repository domains file not found:", repository_path)
         return []
 
 def update_phishfeed(workspace):
@@ -36,12 +37,6 @@ def update_phishfeed(workspace):
     # Load whitelist domains
     whitelist_domains = load_whitelist_domains()
 
-    # Load domains from repository
-    repository_domains = load_repository_domains()
-
-    # Combine whitelist and repository domains
-    all_domains = set(whitelist_domains + repository_domains)
-
     # Connect to SQLite database
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
@@ -52,7 +47,7 @@ def update_phishfeed(workspace):
         for domain in domains:
             parsed_domain = urlparse(domain)
             cleaned_domain = parsed_domain.netloc.split(":")[0]  # Remove port if present
-            if is_valid_domain(cleaned_domain) and cleaned_domain not in all_domains:
+            if is_valid_domain(cleaned_domain) and cleaned_domain not in whitelist_domains:
                 cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?)", (cleaned_domain, datetime.now().isoformat()))
 
     # Remove domains older than 180 days
@@ -66,7 +61,7 @@ def update_phishfeed(workspace):
     # Write sorted domains to file with prefix
     with open(output_path, 'w') as output_file:
         for domain in domains:
-            output_file.write("||" + domain + "^\n")
+            output_file.write("||" + domain + "\n")
 
     # Commit changes and close connection
     conn.commit()
