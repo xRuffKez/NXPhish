@@ -42,3 +42,4 @@ def update_phishfeed(workspace):
 if __name__ == "__main__":
     import sys
     update_phishfeed(sys.argv[1])
+    
