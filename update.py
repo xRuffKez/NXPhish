@@ -65,7 +65,7 @@ def update_phishfeed(workspace):
     # Write sorted domains to file with prefix
     with open(output_path, 'w') as output_file:
         for domain in domains:
-            output_file.write("||" + domain + "\n")
+            output_file.write("||" + domain + "^\n")
 
     # Commit changes and close connection
     conn.commit()
