@@ -2,12 +2,16 @@ import sqlite3
 from datetime import datetime, timedelta
 import os
 import requests
+import re
 from urllib.parse import urlparse
 
 def is_valid_domain(domain):
-    # This function checks if the given string is a valid domain name
+    # This function checks if the given string is a valid domain name and not an IP address
     # You can add more advanced validation logic if needed
-    return '.' in domain
+    if re.match(r'^(([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\-]*[a-zA-Z0-9])\.)*([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9\-]*[A-Za-z0-9])$', domain):
+        return True
+    else:
+        return False
 
 def load_whitelist_domains():
     whitelist_url = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-urlshortener.txt"
