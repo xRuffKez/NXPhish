@@ -30,7 +30,7 @@ jobs:
           cat feed.txt | sort -u > filtered_feed.txt
 
       - name: Ensure SQLite Database
-        run: sqlite-utils insert database.db domains domain TEXT --pk --nl
+        run: sqlite3 database.db "CREATE TABLE IF NOT EXISTS domains (domain TEXT PRIMARY KEY, last_seen TEXT)"
 
       - name: Update Database and PhishFeed List
         run: |
