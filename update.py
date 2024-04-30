@@ -6,21 +6,18 @@ import re
 from urllib.parse import urlparse
 
 def is_valid_domain(domain):
-    # This function checks if the given string is a valid domain name and not an IP address
-    # You can add more advanced validation logic if needed
-    if re.match(r'^(([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\-]*[a-zA-Z0-9])\.)*([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9\-]*[A-Za-z0-9])$', domain):
-        return True
-    else:
-        return False
+    # Improved regular expression for domain validation
+    return bool(re.match(r'^([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9])\.([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9-]*[A-Za-z0-9])$', domain))
 
 def load_whitelist_domains():
     whitelist_url = "https://raw.githubusercontent.com/xRuffKez/NXPhish/main/white.list"
-    response = requests.get(whitelist_url)
-    if response.status_code == 200:
-        lines = response.text.splitlines()
-    else:
-        print("Failed to load whitelist domains:", response.status_code)
-        return []
+    try:
+        response = requests.get(whitelist_url)
+        response.raise_for_status()  # Raise exception for HTTP errors
+        return set(response.text.splitlines())
+    except requests.RequestException as e:
+        print("Failed to load whitelist domains:", e)
+        return set()
 
 def update_phishfeed(workspace):
     db_path = os.path.join(workspace, 'database.db')
@@ -31,35 +28,31 @@ def update_phishfeed(workspace):
     # Load whitelist domains
     whitelist_domains = load_whitelist_domains()
 
-    # Connect to SQLite database
-    conn = sqlite3.connect(db_path)
-    cursor = conn.cursor()
+    # Connect to SQLite database using context manager
+    with sqlite3.connect(db_path) as conn:
+        cursor = conn.cursor()
 
-    # Update database with new domains
-    with open(feed_path, 'r') as feed_file:
-        domains = set(feed_file.read().splitlines())
-        for domain in domains:
-            parsed_domain = urlparse(domain)
-            cleaned_domain = parsed_domain.netloc.split(":")[0]  # Remove port if present
-            if is_valid_domain(cleaned_domain) and cleaned_domain not in whitelist_domains:
-                cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?)", (cleaned_domain, datetime.now().isoformat()))
+        # Update database with new domains
+        with open(feed_path, 'r') as feed_file:
+            domains = set(map(lambda d: urlparse(d).netloc.split(":")[0], feed_file.read().splitlines()))
+            domains.difference_update(whitelist_domains)  # Exclude whitelisted domains
 
-    # Remove domains older than 180 days
-    cursor.execute("DELETE FROM domains WHERE last_seen < ?", (max_age.isoformat(),))
+            # Bulk insertion into the database
+            if domains:
+                current_time = datetime.now().isoformat()
+                data = [(domain, current_time) for domain in domains]
+                cursor.executemany("INSERT OR REPLACE INTO domains VALUES (?, ?)", data)
 
-    # Fetch and sort domains
-    cursor.execute("SELECT domain FROM domains ORDER BY domain")
-    result = cursor.fetchall()
-    domains = [row[0] for row in result]
+        # Remove domains older than 180 days
+        cursor.execute("DELETE FROM domains WHERE last_seen < ?", (max_age.isoformat(),))
 
-    # Write sorted domains to file with prefix
-    with open(output_path, 'w') as output_file:
-        for domain in domains:
-            output_file.write("||" + domain + "^\n")
+        # Fetch domains
+        cursor.execute("SELECT domain FROM domains ORDER BY domain")
+        domains = [row[0] for row in cursor.fetchall()]
 
-    # Commit changes and close connection
-    conn.commit()
-    conn.close()
+        # Write sorted domains to file
+        with open(output_path, 'w') as output_file:
+            output_file.writelines("||" + domain + "^\n" for domain in domains)
 
 if __name__ == "__main__":
     import sys
