@@ -2,6 +2,7 @@ import sqlite3
 from datetime import datetime, timedelta
 import os
 import requests
+from urllib.parse import urlparse
 
 def is_valid_domain(domain):
     # This function checks if the given string is a valid domain name
