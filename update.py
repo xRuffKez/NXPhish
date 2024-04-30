@@ -12,10 +12,6 @@ def update_phishfeed(workspace):
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
-    # Create table if not exists
-    cursor.execute('''CREATE TABLE IF NOT EXISTS domains
-                      (domain TEXT PRIMARY KEY, last_seen TEXT)''')
-    
     # Update database with new domains
     with open(feed_path, 'r') as feed_file:
         domains = set(feed_file.read().splitlines())
@@ -42,4 +38,3 @@ def update_phishfeed(workspace):
 if __name__ == "__main__":
     import sys
     update_phishfeed(sys.argv[1])
-    
