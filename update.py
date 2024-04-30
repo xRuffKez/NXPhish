@@ -1,6 +1,7 @@
 import sqlite3
 from datetime import datetime, timedelta
 import os
+from urllib.parse import urlparse
 
 def update_phishfeed(workspace):
     db_path = os.path.join(workspace, 'database.db')
@@ -16,7 +17,9 @@ def update_phishfeed(workspace):
     with open(feed_path, 'r') as feed_file:
         domains = set(feed_file.read().splitlines())
         for domain in domains:
-            cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?)", (domain, datetime.now().isoformat()))
+            parsed_domain = urlparse(domain)
+            cleaned_domain = parsed_domain.netloc.split(":")[0]  # Remove port if present
+            cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?)", (cleaned_domain, datetime.now().isoformat()))
 
     # Remove domains older than 180 days
     cursor.execute("DELETE FROM domains WHERE last_seen < ?", (max_age.isoformat(),))
@@ -29,7 +32,7 @@ def update_phishfeed(workspace):
     # Write sorted domains to file with prefix and suffix
     with open(output_path, 'w') as output_file:
         for domain in domains:
-            output_file.write("||" + domain + "^ # PHISHING!\n")
+            output_file.write("||" + domain + "^\n")
 
     # Commit changes and close connection
     conn.commit()
