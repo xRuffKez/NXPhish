@@ -3,6 +3,11 @@ from datetime import datetime, timedelta
 import os
 from urllib.parse import urlparse
 
+def is_valid_domain(domain):
+    # This function checks if the given string is a valid domain name
+    # You can add more advanced validation logic if needed
+    return '.' in domain
+
 def update_phishfeed(workspace):
     db_path = os.path.join(workspace, 'database.db')
     feed_path = os.path.join(workspace, 'filtered_feed.txt')
@@ -19,7 +24,8 @@ def update_phishfeed(workspace):
         for domain in domains:
             parsed_domain = urlparse(domain)
             cleaned_domain = parsed_domain.netloc.split(":")[0]  # Remove port if present
-            cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?)", (cleaned_domain, datetime.now().isoformat()))
+            if is_valid_domain(cleaned_domain):
+                cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?)", (cleaned_domain, datetime.now().isoformat()))
 
     # Remove domains older than 180 days
     cursor.execute("DELETE FROM domains WHERE last_seen < ?", (max_age.isoformat(),))
@@ -29,10 +35,10 @@ def update_phishfeed(workspace):
     result = cursor.fetchall()
     domains = [row[0] for row in result]
 
-    # Write sorted domains to file with prefix and suffix
+    # Write sorted domains to file with prefix
     with open(output_path, 'w') as output_file:
         for domain in domains:
-            output_file.write("||" + domain + "^\n")
+            output_file.write("||" + domain + "\n")
 
     # Commit changes and close connection
     conn.commit()
