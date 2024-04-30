@@ -14,20 +14,10 @@ def is_valid_domain(domain):
         return False
 
 def load_whitelist_domains():
-    whitelist_url = "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-urlshortener.txt"
+    whitelist_url = "https://raw.githubusercontent.com/xRuffKez/NXPhish/main/white.list"
     response = requests.get(whitelist_url)
     if response.status_code == 200:
         lines = response.text.splitlines()
-        domains = []
-        for line in lines:
-            # Remove @@||
-            line = line.replace("@@||", "")
-            # Remove leading ^
-            line = line.lstrip("^")
-            # Remove lines starting with [ or !
-            if not line.startswith("[") and not line.startswith("!"):
-                domains.append(line)
-        return domains
     else:
         print("Failed to load whitelist domains:", response.status_code)
         return []
