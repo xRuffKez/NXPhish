@@ -3,7 +3,7 @@
 Protect your network from phishing attacks with the OpenPhish blocklist for AdGuard Home.
 
 ![Phishing](https://img.shields.io/badge/Phishing-Blocked-red)
-![License](https://img.shields.io/github/license/yourusername/openphish-adguard)
+![License](https://img.shields.io/github/license/xRuffKez/NXPhish)
 
 ## Overview
 
