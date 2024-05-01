@@ -4,6 +4,7 @@ Protect your network from phishing attacks with the OpenPhish blocklist for AdGu
 
 ![Phishing](https://img.shields.io/badge/Phishing-Blocked-red)
 ![License](https://img.shields.io/github/license/xRuffKez/NXPhish)
+[![PhishFeed Update](https://github.com/xRuffKez/NXPhish/actions/workflows/phishnet.yml/badge.svg)](https://github.com/xRuffKez/NXPhish/actions/workflows/phishnet.yml)
 
 ## Overview
 
