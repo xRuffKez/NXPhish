@@ -15,8 +15,6 @@ To use this blocklist in AdGuard Home, simply add the following URL to your cust
 
 [https://raw.githubusercontent.com/xRuffKez/NXPhish/main/openphish.agh](https://raw.githubusercontent.com/xRuffKez/NXPhish/main/openphish.agh)
 
-less
-
 
 This will automatically block phishing domains from your network.
 
