@@ -40,6 +40,12 @@ jobs:
         run: |
           python update.py ${{ github.workspace }}
 
+      - name: Update openphish.agh File
+        run: |
+          sqlite3 database.db "SELECT domain FROM domains ORDER BY domain" > openphish.agh
+          git add openphish.agh
+
+
       - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
