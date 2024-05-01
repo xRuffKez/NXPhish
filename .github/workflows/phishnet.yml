@@ -39,14 +39,11 @@ jobs:
       - name: Update Database and PhishFeed List
         run: |
           python update.py ${{ github.workspace }}
-          
-      - name: Push Changes to Remote Branch
-        run: |
-          git pull origin main
-          git push origin HEAD
 
       - name: Commit and Push Changes
         run: |
+          git pull origin main
+          git push origin HEAD
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add openphish.agh database.db
