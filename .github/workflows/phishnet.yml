@@ -39,6 +39,11 @@ jobs:
       - name: Update Database and PhishFeed List
         run: |
           python update.py ${{ github.workspace }}
+          
+      - name: Push Changes to Remote Branch
+        run: |
+          git pull origin main
+          git push origin HEAD
 
       - name: Commit and Push Changes
         run: |
