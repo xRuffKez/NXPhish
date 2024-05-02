@@ -23,12 +23,15 @@ jobs:
           pip install requests
           pip install sqlite-utils
 
-      - name: Download PhishFeed
-        run: curl -o feed.txt https://openphish.com/feed.txt
+      - name: Download PhishFeed from OpenPhish
+        run: curl -o openphish_feed.txt https://openphish.com/feed.txt
 
-      - name: Filter and Sort PhishFeed
+      - name: Download PhishFeed from Phishunt
+        run: curl -o phishunt_feed.txt https://phishunt.io/feed.txt
+
+      - name: Combine and Sort PhishFeeds
         run: |
-          cat feed.txt | sort -u > filtered_feed.txt
+          cat openphish_feed.txt phishunt_feed.txt | sort -u > combined_feed.txt
 
       - name: Ensure SQLite Database
         run: |
@@ -38,12 +41,12 @@ jobs:
 
       - name: Update Database and PhishFeed List
         run: |
-          python update.py ${{ github.workspace }}
+          python update.py ${{ github.workspace }} combined_feed.txt
 
       - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add openphish.agh database.db
+          git add openphish_feed.txt phishunt_feed.txt database.db
           git commit -m "Update PhishFeed List"
           git push
