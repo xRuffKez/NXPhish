@@ -103,7 +103,9 @@ def update_phishfeed(workspace):
             output_file.write("! Domains removed after 180 days if not re-added through feed.\n")
             output_file.write("\n")
             for domain, age in domains_with_info:
-                output_file.write("||{}^ # Domain age in Database: {} days\n".format(domain, age))
+                # output_file.write("||{}^ # Domain age in Database: {} days\n".format(domain, age))
+                output_file.write("||{}\n".format(domain))
+
 
     # Clean up CSV file
     os.remove(csv_file_path)
