@@ -16,8 +16,8 @@ jobs:
         with:
           route: GET /repos/xRuffKez/NXPhish/actions/workflows/PhishFeed-Update.yml/runs
           mediaType: '{"previews":["antiope"]}'
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Trigger PhishFeed Update Workflow
         if: steps.get_workflow_runs.outputs.data != '[]'  # Trigger nur wenn es vorherige Workflow runs gibt
