@@ -3,7 +3,7 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-02 18:27:03
+! Last updated: 2024-05-02 18:33:53
 ! Number of phishing domains: 642
 ! Number of NXDOMAIN domains: 7
 ! Number of SERVFAIL domains: 1
