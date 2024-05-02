@@ -1,11 +1,11 @@
-import sqlite3
+import csv
 import os
+import sqlite3
 import requests
 import re
+import zipfile
 from datetime import datetime, timedelta
 from urllib.parse import urlparse
-import csv
-import zipfile
 
 def is_valid_domain(domain):
     # Improved regular expression for domain validation
@@ -38,6 +38,27 @@ def download_extract_csv(url, destination_folder):
         print("Failed to download and extract CSV file:", e)
         return False
 
+def extract_domains_from_csv(csv_url):
+    try:
+        response = requests.get(csv_url)
+        response.raise_for_status()  # Raise exception for HTTP errors
+
+        # Create a set to store unique domains
+        domains = set()
+
+        # Read CSV content and extract domains
+        csv_data = response.text.splitlines()
+        csv_reader = csv.reader(csv_data)
+        for row in csv_reader:
+            if len(row) > 0:
+                domain = row[0]
+                domains.add(domain)
+
+        return domains
+    except Exception as e:
+        print("Failed to extract domains from CSV:", e)
+        return set()
+
 def update_phishfeed(workspace):
     db_path = os.path.join(workspace, 'database.db')
     feed_path = os.path.join(workspace, 'filtered_feed.txt')
@@ -51,6 +72,10 @@ def update_phishfeed(workspace):
     csv_url = "http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip"
     if not download_extract_csv(csv_url, workspace):
         return
+
+    # Extract domains from phish_score.csv
+    phish_score_csv_url = "https://phishstats.info/phish_score.csv"
+    phish_domains = extract_domains_from_csv(phish_score_csv_url)
 
     # Read CSV file and extract domains
     csv_file_path = os.path.join(workspace, "top-1m.csv")
@@ -68,6 +93,7 @@ def update_phishfeed(workspace):
         # Update database with new domains
         with open(feed_path, 'r') as feed_file:
             domains = {urlparse(d).netloc.split(":")[0] for d in feed_file}
+            domains |= phish_domains
             domains -= whitelist_domains
             domains -= domains_to_remove
 
