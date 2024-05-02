@@ -1,10 +1,7 @@
 name: PhishFeed Update
 
 on:
-  workflow_run:
-    workflows: ["PhishFeed Update"]
-    types:
-      - completed
+  workflow_dispatch:
 
 jobs:
   update-phishfeed:
