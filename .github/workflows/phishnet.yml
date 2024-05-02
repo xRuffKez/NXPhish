@@ -37,7 +37,7 @@ jobs:
       - name: Ensure SQLite Database
         run: |
           if [ ! -f cache.db ]; then
-            sqlite3 cache.db "CREATE TABLE IF NOT EXISTS domains (domain TEXT PRIMARY KEY, last_seen TEXT)"
+            sqlite3 cache.db "(CREATE TABLE IF NOT EXISTS domains (domain TEXT PRIMARY KEY, last_seen TEXT, status TEXT)"
           fi
 
       - name: Update Database and PhishFeed List
