@@ -58,9 +58,18 @@ def update_phishfeed(workspace):
         csv_reader = csv.reader(csvfile)
         domains_to_remove = {row[1] for row in csv_reader}
 
-    # Connect to SQLite database using context manager
-    with sqlite3.connect(db_path) as conn:
-        cursor = conn.cursor()
+# Connect to SQLite database using context manager
+with sqlite3.connect(db_path) as conn:
+    cursor = conn.cursor()
+
+    # Create the 'domains' table if it doesn't exist
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS domains (
+            domain TEXT PRIMARY KEY,
+            last_seen TEXT
+        )
+    """)
+
 
         # Start transaction
         cursor.execute("BEGIN TRANSACTION")
