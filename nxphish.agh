@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-02 17:52:28
-! Number of phishing domains: 641
+! Last updated: 2024-05-02 18:03:02
+! Number of phishing domains: 642
 ! Number of NXDOMAIN domains: 7
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 237
@@ -53,6 +53,7 @@
 ||amazon-clone-aku.pages.dev^
 ||amazon-cloneapp-html-css.netlify.app^
 ||amazon-hun.com^
+||amazon-idn.net^
 ||amazon-idn.shop^
 ||amazon-line1.xyz^
 ||amazon-pet2.xyz^
