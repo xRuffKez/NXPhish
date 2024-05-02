@@ -41,12 +41,12 @@ jobs:
 
       - name: Update Database and PhishFeed List
         run: |
-          python update.py ${{ github.workspace }} filtered_feed.txt
+          python update.py ${{ github.workspace }}
 
       - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add openphish_feed.txt phishunt_feed.txt database.db
+          git add openphish.agh database.db
           git commit -m "Update PhishFeed List"
           git push
