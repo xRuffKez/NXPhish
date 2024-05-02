@@ -85,11 +85,11 @@ def update_phishfeed(workspace):
         # Commit transaction
         cursor.execute("COMMIT")
 
-        # Fetch domains with their ages and last_seen dates
-        cursor.execute("SELECT domain, (julianday('now') - julianday(last_seen)) as age, date(last_seen) FROM domains ORDER BY domain")
-        domains_with_info = [(row[0], int(row[1]), row[2]) for row in cursor.fetchall()]
+        # Fetch domains with their ages
+        cursor.execute("SELECT domain, (julianday('now') - julianday(last_seen)) as age FROM domains ORDER BY domain")
+        domains_with_info = [(row[0], int(row[1])) for row in cursor.fetchall()]
 
-        # Write sorted domains with their ages and last_seen dates to file
+        # Write sorted domains with their ages to file
         with open(output_path, 'w') as output_file:
             output_file.write("! Title: OpenPhish Feed - Phishing Domains\n")
             output_file.write("! Description: This file contains a list of known phishing domains from the OpenPhish feed.\n")
@@ -99,12 +99,12 @@ def update_phishfeed(workspace):
             output_file.write("! Last updated: {}\n".format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
             output_file.write("! Database last updated: {}\n".format(datetime.fromtimestamp(os.path.getmtime(db_path)).strftime("%Y-%m-%d %H:%M:%S")))
             output_file.write("! Number of phishing domains: {}\n".format(len(domains_with_info)))
-            output_file.write("! Removed duplicates: {}\n".format(len(domains_with_info) - len(set(domain for domain, _, _ in domains_with_info))))
+            output_file.write("! Removed duplicates: {}\n".format(len(domains_with_info) - len(set(domain for domain, _ in domains_with_info))))
             output_file.write("! Database size: {} bytes\n".format(os.path.getsize(db_path)))
             output_file.write("! Domains removed after 180 days if not re-added through feed.\n")
             output_file.write("\n")
-            for domain, age, last_seen in domains_with_info:
-                output_file.write("||{}^ # Domain age in Database: {} days, Last seen: {}\n".format(domain, age, last_seen))
+            for domain, age in domains_with_info:
+                output_file.write("||{}^ # Domain age in Database: {} days\n".format(domain, age))
 
     # Clean up CSV file
     os.remove(csv_file_path)
