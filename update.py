@@ -90,6 +90,7 @@ def update_phishfeed(workspace):
     # Clean up CSV file
     os.remove(csv_file_path)
 
+
 if __name__ == "__main__":
     import sys
     if len(sys.argv) != 2:
