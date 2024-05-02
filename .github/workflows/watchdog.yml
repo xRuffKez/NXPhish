@@ -14,18 +14,17 @@ jobs:
         id: get_workflow_runs
         uses: octokit/request-action@v2.x
         with:
-          route: GET /repos/:owner/:repo/actions/workflows/:workflow_id/runs
-          owner: ${{ github.repository_owner }}
-          repo: ${{ github.repository }}
-          workflow_id: PhishFeed-Update.yml
-          per_page: 1
+          route: GET /repos/xRuffKez/NXPhish/actions/workflows/PhishFeed-Update.yml/runs
+          mediaType: '{"previews":["antiope"]}'
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Trigger PhishFeed Update Workflow
         if: steps.get_workflow_runs.outputs.data != '[]'  # Trigger nur wenn es vorherige Workflow runs gibt
         run: |
-          latest_run_id=$(echo "${{ steps.get_workflow_runs.outputs.data }}" | jq -r '.[0].id')
+          latest_run_id=$(echo "${{ steps.get_workflow_runs.outputs.data }}" | jq -r '.workflow_runs[0].id')
           echo "Latest run ID: $latest_run_id"
           curl -X POST \
             -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
-            "https://api.github.com/repos/${{ github.repository }}/actions/runs/$latest_run_id/rerun"
+            "https://api.github.com/repos/xRuffKez/NXPhish/actions/runs/$latest_run_id/rerun"
