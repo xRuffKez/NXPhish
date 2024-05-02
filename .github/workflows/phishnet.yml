@@ -1,4 +1,4 @@
-name: PhishFeed Update
+name: PhishFeed
 
 on:
   workflow_dispatch:
