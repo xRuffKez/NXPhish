@@ -32,23 +32,10 @@ jobs:
       - name: Install dependencies
         run: pip install --upgrade pip && pip install -r requirements.txt
 
-      - name: Check if Database Needs Update
-        id: check_db_update
-        run: |
-          last_update=$(git log -1 --format="%ct" cache.db)
-          current_time=$(date +%s)
-          if [ $((current_time - last_update)) -gt $((15*60)) ]; then
-            echo "::set-output name=update_required::true"
-          else
-            echo "::set-output name=update_required::false"
-          fi
-
       - name: Run PhishFeed Update Script
-        if: steps.check_db_update.outputs.update_required == 'true'
         run: python update.py ${{ github.workspace }}
 
       - name: Commit and Push Changes
-        if: steps.check_db_update.outputs.update_required == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
