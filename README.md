@@ -1,6 +1,6 @@
-# OpenPhish Blocklist for AdGuard Home 🎣
+# OpenPhish and Phishunt and Phishunt Blocklist for AdGuard Home 🎣
 
-Protect your network from phishing attacks with the OpenPhish blocklist for AdGuard Home.
+Protect your network from phishing attacks with the OpenPhish and Phishunt blocklist for AdGuard Home.
 
 ![Phishing](https://img.shields.io/badge/Phishing-Blocked-red)
 ![License](https://img.shields.io/github/license/xRuffKez/NXPhish)
@@ -8,7 +8,7 @@ Protect your network from phishing attacks with the OpenPhish blocklist for AdGu
 
 ## Overview
 
-This repository provides an automatically updated list of phishing domains sourced from [OpenPhish](https://openphish.com/). The list is formatted for use with AdGuard Home, a network-wide ad and tracker blocker.
+This repository provides an automatically updated list of phishing domains sourced from [OpenPhish](https://OpenPhish.com/) and [Phishunt](https://phishunt.io/). The list is formatted for use with AdGuard Home, a network-wide ad and tracker blocker.
 
 ## How to Use
 
@@ -25,7 +25,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgements
 
-- [OpenPhish](https://openphish.com/) for providing the phishing feed.
+- [OpenPhish](https://OpenPhish.com/) and [Phishunt](https://phishunt.io/) for providing the phishing feed.
 - [AdGuard Home](https://adguard.com/adguard-home/overview.html) for its excellent network-wide ad blocking capabilities.
 
 🛡️ Stay safe online!
