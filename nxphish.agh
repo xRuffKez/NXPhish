@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-02 22:52:30
-! Number of phishing domains: 644
+! Last updated: 2024-05-02 23:02:50
+! Number of phishing domains: 645
 ! Number of NXDOMAIN domains: 9
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 237
@@ -400,6 +400,7 @@
 ||metamasklogiinb.gitbook.io^
 ||metamasks.world^
 ||metamaskvalidation.sensoryworks.com^
+||metamasskluginn.blogspot.my^
 ||metamesloefgin.gitbook.io^
 ||metanesk-login.gitbook.io^
 ||mg7149.activehosted.com^
