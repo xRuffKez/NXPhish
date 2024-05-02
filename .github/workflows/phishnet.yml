@@ -35,8 +35,8 @@ jobs:
 
       - name: Ensure SQLite Database
         run: |
-          if [ ! -f database.db ]; then
-            sqlite3 database.db "CREATE TABLE IF NOT EXISTS domains (domain TEXT PRIMARY KEY, last_seen TEXT)"
+          if [ ! -f cache.db ]; then
+            sqlite3 cache.db "CREATE TABLE IF NOT EXISTS domains (domain TEXT PRIMARY KEY, last_seen TEXT)"
           fi
 
       - name: Update Database and PhishFeed List
@@ -47,6 +47,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add nxphish.agh database.db
+          git add nxphish.agh cache.db
           git commit -m "Update PhishFeed List"
           git push
