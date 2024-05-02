@@ -1,0 +1,33 @@
+name: Watch PhishFeed Update Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-phishfeed-update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger PhishFeed Update Workflow
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { data: workflows } = await github.actions.listRepoWorkflows({
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            });
+
+            const phishFeedUpdateWorkflow = workflows.workflows.find(w => w.name === 'PhishFeed Update');
+
+            if (phishFeedUpdateWorkflow) {
+              await github.actions.reRunWorkflow({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                run_id: phishFeedUpdateWorkflow.latest_run.id
+              });
+            } else {
+              console.log("PhishFeed Update workflow not found.");
+            }
