@@ -41,7 +41,7 @@ def download_extract_csv(url, destination_folder):
 def update_phishfeed(workspace):
     db_path = os.path.join(workspace, 'database.db')
     feed_path = os.path.join(workspace, 'filtered_feed.txt')
-    output_path = os.path.join(workspace, 'nxphish.agh')
+    output_path = os.path.join(workspace, 'openphish.agh')
     max_age = datetime.now() - timedelta(days=180)
 
     # Load whitelist domains
@@ -85,27 +85,24 @@ def update_phishfeed(workspace):
         # Commit transaction
         cursor.execute("COMMIT")
 
-        # Fetch domains with their ages
-        cursor.execute("SELECT domain, (julianday('now') - julianday(last_seen)) as age FROM domains ORDER BY domain")
-        domains_with_info = [(row[0], int(row[1])) for row in cursor.fetchall()]
+        # Fetch domains
+        cursor.execute("SELECT domain FROM domains ORDER BY domain")
+        domains = [row[0] for row in cursor.fetchall()]
 
-        # Write sorted domains with their ages to file
+        # Write sorted domains to file
         with open(output_path, 'w') as output_file:
-            output_file.write("! Title: OpenPhish and Phishunt Feed - Phishing Domains\n")
-            output_file.write("! Description: This file contains a list of known phishing domains from the OpenPhish and Phishunt feed.\n")
+            output_file.write("! Title: OpenPhish Feed - Phishing Domains\n")
+            output_file.write("! Description: This file contains a list of known phishing domains from the OpenPhish feed.\n")
             output_file.write("! URL shorteners have been removed to reduce false positives.\n")
             output_file.write("! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.\n")
             output_file.write("! Author: xRuffKez\n")
             output_file.write("! Last updated: {}\n".format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
-            output_file.write("! Number of phishing domains: {}\n".format(len(domains_with_info)))
-            # output_file.write("! Removed duplicates: {}\n".format(len(domains_with_info) - len(set(domain for domain, _ in domains_with_info))))
-            output_file.write("! Domains removed based on white.list: {}\n".format(len(whitelist_domains)))
+            output_file.write("! Number of phishing domains: {}\n".format(len(domains)))
+            output_file.write("! Database size: {} bytes\n".format(os.path.getsize(db_path)))
             output_file.write("! Domains removed after 180 days if not re-added through feed.\n")
             output_file.write("\n")
-            for domain, age in domains_with_info:
-                # output_file.write("||{}^ # Domain age in Database: {} days\n".format(domain, age))
+            for domain in domains:
                 output_file.write("||{}^\n".format(domain))
-
 
     # Clean up CSV file
     os.remove(csv_file_path)
