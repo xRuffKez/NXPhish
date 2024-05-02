@@ -81,7 +81,7 @@ def update_phishfeed(workspace):
                         current_time = datetime.now().isoformat()
                         cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
                         if status in ['NXDOMAIN', 'SERVFAIL', 'ERROR']:
-                            cursor.execute("INSERT OR REPLACE INTO domains_cache VALUES (?, ?)", (domain, status))
+                            cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
         cursor.execute("DELETE FROM domains WHERE last_seen < ?", (max_age.isoformat(),))
         cursor.execute("COMMIT")
         conn.commit()
