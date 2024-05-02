@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-02 07:21:55
-! Number of phishing domains: 948
+! Last updated: 2024-05-02 07:31:04
+! Number of phishing domains: 952
 ! Removed duplicates: 0
 ! Domains removed based on white.list: 1907
 ! Domains removed after 180 days if not re-added through feed.
@@ -261,6 +261,7 @@
 ||cool-forest-8578.fuinss.workers.dev^ # Domain age in Database: 0 days
 ||correo-s.online^ # Domain age in Database: 0 days
 ||correos-esxpress.tempurl.host^ # Domain age in Database: 0 days
+||correos-mi-paquete.com^ # Domain age in Database: 0 days
 ||cpcontacts.blockemporio.com^ # Domain age in Database: 0 days
 ||credits-receivables-linkedin.com^ # Domain age in Database: 0 days
 ||creditsandcollections-linkedin.com^ # Domain age in Database: 0 days
@@ -299,6 +300,7 @@
 ||environmentliv.wpenginepowered.com^ # Domain age in Database: 0 days
 ||escolanauticasetemares.com.br^ # Domain age in Database: 0 days
 ||f7ac.zip-locks.workers.dev^ # Domain age in Database: 0 days
+||facebook-domain-verificationfc9bv2aaxcp1sa5azjcjrzs3u0gk8y.com^ # Domain age in Database: 0 days
 ||facebook-ten-tawny.vercel.app^ # Domain age in Database: 0 days
 ||facebook.check-protect-account.me^ # Domain age in Database: 0 days
 ||facebook.savezonephotography.com.ng^ # Domain age in Database: 0 days
@@ -307,6 +309,7 @@
 ||facebooksecuritys.blogspot.ro^ # Domain age in Database: 0 days
 ||facebookzaman.blogspot.com^ # Domain age in Database: 0 days
 ||facebookzaman.blogspot.ru^ # Domain age in Database: 0 days
+||facturation-netflix.com^ # Domain age in Database: 0 days
 ||falling-rain-dbb7.bemlehumle8227.workers.dev^ # Domain age in Database: 0 days
 ||fasadebanjaluka.com^ # Domain age in Database: 0 days
 ||fasterunlocks.com^ # Domain age in Database: 0 days
@@ -403,6 +406,7 @@
 ||in-informaalersuspen.github.io^ # Domain age in Database: 0 days
 ||inc-108674.weeblysite.com^ # Domain age in Database: 0 days
 ||inf-5e4.pages.dev^ # Domain age in Database: 0 days
+||info-apple.support^ # Domain age in Database: 0 days
 ||info-bancosantander-app.com^ # Domain age in Database: 0 days
 ||iniciaaaa02.webcindario.com^ # Domain age in Database: 0 days
 ||inovareacabamentos.com.br^ # Domain age in Database: 0 days
