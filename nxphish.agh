@@ -3,9 +3,9 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-02 18:42:37
-! Number of phishing domains: 642
-! Number of NXDOMAIN domains: 7
+! Last updated: 2024-05-02 18:52:59
+! Number of phishing domains: 640
+! Number of NXDOMAIN domains: 9
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 237
 ! Domains removed after 60 days if not re-added through feed.
@@ -569,13 +569,11 @@
 ||t0kenpoekct.moe^
 ||telegram.sdfsdsdf.top^
 ||telegram.tg-accas.top^
-||telegram.webserve.ltd^
 ||telegrann.131tg.cc^
 ||telegrem.tv^
 ||telegrom-fw.com^
 ||telstra-104631.weeblysite.com^
 ||telstra-107152.weeblysite.com^
-||tgadminuser.webserve.ltd^
 ||thedogeverrse.pages.dev^
 ||tibagimotos.com.br^
 ||tojbjh2.tokena-imapp.com^
