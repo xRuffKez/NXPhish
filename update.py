@@ -86,7 +86,7 @@ def update_phishfeed(workspace):
         cursor.execute("COMMIT")
 
         # Fetch domains with their ages and last_seen dates
-        cursor.execute("SELECT domain, (julianday('now') - julianday(last_seen)) as age, last_seen FROM domains ORDER BY domain")
+        cursor.execute("SELECT domain, (julianday('now') - julianday(last_seen)) as age, date(last_seen) FROM domains ORDER BY domain")
         domains_with_info = [(row[0], int(row[1]), row[2]) for row in cursor.fetchall()]
 
         # Write sorted domains with their ages and last_seen dates to file
