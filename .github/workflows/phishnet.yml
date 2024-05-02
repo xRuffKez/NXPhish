@@ -1,8 +1,10 @@
 name: PhishFeed Update
 
 on:
-  schedule:
-    - cron: '*/10 * * * *'
+  workflow_run:
+    workflows: ["PhishFeed Update"]
+    types:
+      - completed
 
 jobs:
   update-phishfeed:
@@ -23,31 +25,24 @@ jobs:
           pip install requests
           pip install sqlite-utils
 
-      - name: Download PhishFeeds
-        run: |
-          curl -o openphish_feed.txt https://openphish.com/feed.txt
-          curl -o phishunt_feed.txt https://phishunt.io/feed.txt
+      - name: Download PhishFeed from OpenPhish
+        run: curl -o openphish_feed.txt https://openphish.com/feed.txt
+
+      - name: Download PhishFeed from Phishunt
+        run: curl -o phishunt_feed.txt https://phishunt.io/feed.txt
 
       - name: Combine and Sort PhishFeeds
         run: |
-          sort -u openphish_feed.txt phishunt_feed.txt > filtered_feed.txt
+          cat openphish_feed.txt phishunt_feed.txt | sort -u > filtered_feed.txt
 
-      - name: Ensure SQLite Database
-        run: |
-          sqlite3 cache.db "CREATE TABLE IF NOT EXISTS domains (domain TEXT PRIMARY KEY, last_seen TEXT)"
-
-      - name: Update Database and PhishFeed List
-        run: |
-          python update.py ${{ github.workspace }}
-
-      - name: Create nxphish.agh
-        run: |
-          python create_nxphish.py
+      - name: Run PhishFeed Update
+        run: python update.py ${{ github.workspace }}
 
       - name: Commit and Push Changes
+        if: always()  # Always execute, regardless of previous steps
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add cache.db nxphish.agh
+          git add nxphish.agh cache.db
           git commit -m "Update PhishFeed List"
           git push
