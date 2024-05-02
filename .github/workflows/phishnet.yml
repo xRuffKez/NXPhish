@@ -47,6 +47,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add openphish.agh database.db
+          git add nxphish.agh database.db
           git commit -m "Update PhishFeed List"
           git push
