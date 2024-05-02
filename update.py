@@ -41,7 +41,7 @@ def download_extract_csv(url, destination_folder):
 def update_phishfeed(workspace):
     db_path = os.path.join(workspace, 'database.db')
     feed_path = os.path.join(workspace, 'filtered_feed.txt')
-    output_path = os.path.join(workspace, 'openphish.agh')
+    output_path = os.path.join(workspace, 'nxphish.agh')
     max_age = datetime.now() - timedelta(days=180)
 
     # Load whitelist domains
@@ -91,8 +91,8 @@ def update_phishfeed(workspace):
 
         # Write sorted domains with their ages to file
         with open(output_path, 'w') as output_file:
-            output_file.write("! Title: OpenPhish Feed - Phishing Domains\n")
-            output_file.write("! Description: This file contains a list of known phishing domains from the OpenPhish feed.\n")
+            output_file.write("! Title: OpenPhish and Phishunt Feed - Phishing Domains\n")
+            output_file.write("! Description: This file contains a list of known phishing domains from the OpenPhish and Phishunt feed.\n")
             output_file.write("! URL shorteners have been removed to reduce false positives.\n")
             output_file.write("! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.\n")
             output_file.write("! Author: xRuffKez\n")
