@@ -63,6 +63,7 @@ def update_phishfeed(workspace):
         cursor = conn.cursor()
 
         # Start transaction
+        cursor.execute("CREATE TABLE IF NOT EXISTS domains (domain TEXT PRIMARY KEY, last_seen TEXT)")
         cursor.execute("BEGIN TRANSACTION")
 
         # Update database with new domains
