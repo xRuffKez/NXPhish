@@ -14,7 +14,7 @@ This repository provides an automatically updated list of phishing domains sourc
 
 To use this blocklist in AdGuard Home, simply add the following URL to your custom filters:
 
-[https://raw.githubusercontent.com/xRuffKez/NXPhish/main/openphish.agh](https://raw.githubusercontent.com/xRuffKez/NXPhish/main/openphish.agh)
+[https://raw.githubusercontent.com/xRuffKez/NXPhish/main/nxphish.agh](https://raw.githubusercontent.com/xRuffKez/NXPhish/main/nxphish.agh)
 
 
 This will automatically block phishing domains from your network.
