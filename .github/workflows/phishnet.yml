@@ -22,6 +22,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
           pip install sqlite-utils
+          pip install dnspython
 
       - name: Download PhishFeed from OpenPhish
         run: curl -o openphish_feed.txt https://openphish.com/feed.txt
