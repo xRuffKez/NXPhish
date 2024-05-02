@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-02 05:51:06
-! Number of phishing domains: 942
+! Last updated: 2024-05-02 06:01:36
+! Number of phishing domains: 948
 ! Removed duplicates: 0
 ! Domains removed based on white.list: 1907
 ! Domains removed after 180 days if not re-added through feed.
@@ -73,6 +73,7 @@
 ||amazon-am0.pages.dev^ # Domain age in Database: 0 days
 ||amazon-clone-aku.pages.dev^ # Domain age in Database: 0 days
 ||amazon-cloneapp-html-css.netlify.app^ # Domain age in Database: 0 days
+||amazon-hun.com^ # Domain age in Database: 0 days
 ||amazon-line1.xyz^ # Domain age in Database: 0 days
 ||amazon-pet2.xyz^ # Domain age in Database: 0 days
 ||amazon.fr.primevideogns.com^ # Domain age in Database: 0 days
@@ -90,6 +91,8 @@
 ||app-b859672e-cc8f-4539-b4fe-74c325a3bcc5.cleverapps.io^ # Domain age in Database: 0 days
 ||apple-clone-by-rebie.netlify.app^ # Domain age in Database: 0 days
 ||apple-clone.com^ # Domain age in Database: 0 days
+||apple-days.com^ # Domain age in Database: 0 days
+||apple-find-connect.com^ # Domain age in Database: 0 days
 ||apple-home-page-in-bootstrap.netlify.app^ # Domain age in Database: 0 days
 ||apple-itunes.net^ # Domain age in Database: 0 days
 ||apple-itunes.org^ # Domain age in Database: 0 days
@@ -98,6 +101,7 @@
 ||apple-premios.shop^ # Domain age in Database: 0 days
 ||apple-rabbit1320.com^ # Domain age in Database: 0 days
 ||apple-replicaevan.netlify.app^ # Domain age in Database: 0 days
+||apple-track.online^ # Domain age in Database: 0 days
 ||apple-with-bootstrap.netlify.app^ # Domain age in Database: 0 days
 ||appleflys.com^ # Domain age in Database: 0 days
 ||appleid-find.info^ # Domain age in Database: 0 days
@@ -240,6 +244,7 @@
 ||cloud-new-grass-82b7.ptakptasyenlki.workers.dev^ # Domain age in Database: 0 days
 ||codestreamz.tech^ # Domain age in Database: 0 days
 ||coiinbaasprolggn.webflow.io^ # Domain age in Database: 0 days
+||coinbase-assets.com^ # Domain age in Database: 0 days
 ||coinbase-user-vlogin.tradewindpropertiescr.com^ # Domain age in Database: 0 days
 ||coinbase.solidosn.com^ # Domain age in Database: 0 days
 ||coinbaselogiin.blogspot.co.za^ # Domain age in Database: 0 days
@@ -627,6 +632,7 @@
 ||netflix-clone-soham2395.vercel.app^ # Domain age in Database: 0 days
 ||netflix-clone.carum.dev^ # Domain age in Database: 0 days
 ||netflix-final-red.vercel.app^ # Domain age in Database: 0 days
+||netflix-invoicing.com^ # Domain age in Database: 0 days
 ||netflix-liard-seven.vercel.app^ # Domain age in Database: 0 days
 ||netflix-max.com^ # Domain age in Database: 0 days
 ||netflix-website-clone-two.vercel.app^ # Domain age in Database: 0 days
