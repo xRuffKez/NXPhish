@@ -3,9 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-02 08:51:14
+! Last updated: 2024-05-02 09:01:35
 ! Number of phishing domains: 952
-! Removed duplicates: 0
 ! Domains removed based on white.list: 1907
 ! Domains removed after 180 days if not re-added through feed.
 
