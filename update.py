@@ -7,6 +7,7 @@ import zipfile
 import logging
 from datetime import datetime, timedelta
 from urllib.parse import urlparse
+import dns.resolver
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -53,6 +54,8 @@ def update_phishfeed(workspace):
         csv_reader = csv.reader(csvfile)
         domains_to_remove = {row[1] for row in csv_reader}
 
+    resolver = dns.resolver.Resolver()
+
     with sqlite3.connect(db_path) as conn:
         cursor = conn.cursor()
         cursor.execute("CREATE TABLE IF NOT EXISTS domains (domain TEXT PRIMARY KEY, last_seen TEXT, status TEXT)")
@@ -61,14 +64,28 @@ def update_phishfeed(workspace):
             for line in feed_file:
                 domain = urlparse(line.strip()).netloc.split(":")[0]
                 if domain not in whitelist_domains and domain not in domains_to_remove:
-                    status = "SERVFAIL" if "SERVFAIL" in line else ("NXDOMAIN" if "NXDOMAIN" in line else "OK")
-                    current_time = datetime.now().isoformat()
-                    cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
-                    if status in ['NXDOMAIN', 'SERVFAIL']:
-                        cursor.execute("INSERT OR REPLACE INTO domains_cache VALUES (?, ?)", (domain, status))
+                    try:
+                        response = resolver.resolve(domain)
+                        status = "OK"
+                    except dns.resolver.NXDOMAIN:
+                        status = "NXDOMAIN"
+                    except dns.resolver.NoAnswer:
+                        status = "SERVFAIL"
+                    except Exception as e:
+                        logger.error("Error resolving domain %s: %s", domain, e)
+                        status = "ERROR"
+                        
+                    cursor.execute("SELECT status FROM domains WHERE domain=?", (domain,))
+                    existing_status = cursor.fetchone()
+                    if existing_status is None or existing_status[0] != status:  # Check if status has changed
+                        current_time = datetime.now().isoformat()
+                        cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
+                        if status in ['NXDOMAIN', 'SERVFAIL', 'ERROR']:
+                            cursor.execute("INSERT OR REPLACE INTO domains_cache VALUES (?, ?)", (domain, status))
         cursor.execute("DELETE FROM domains WHERE last_seen < ?", (max_age.isoformat(),))
         cursor.execute("COMMIT")
         conn.commit()
+
         cursor.execute("SELECT domain, status FROM domains ORDER BY domain")
         all_domains = cursor.fetchall()
         phishing_domains = [row[0] for row in all_domains if row[1] == 'OK']
@@ -88,7 +105,6 @@ def update_phishfeed(workspace):
             for domain in phishing_domains:
                 output_file.write("||{}^\n".format(domain))
     os.remove(csv_file_path)
-    conn.close()
 
 if __name__ == "__main__":
     import sys
