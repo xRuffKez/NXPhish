@@ -39,7 +39,7 @@ jobs:
         run: python update.py ${{ github.workspace }}
 
       - name: Commit and Push Changes
-        if: always()  # Always execute, regardless of previous steps
+        if: always() && success()  # Always execute, regardless of previous steps and only if the previous step was successful
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
