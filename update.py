@@ -2,26 +2,33 @@ import sqlite3
 import os
 import requests
 import re
-from datetime import datetime, timedelta
-from urllib.parse import urlparse
 import csv
 import zipfile
+import logging
+from datetime import datetime, timedelta
+from urllib.parse import urlparse
+
+# Konfiguration des Loggings
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 def is_valid_domain(domain):
-    # Improved regular expression for domain validation
+    """Überprüft, ob eine Domain gültig ist."""
     return bool(re.match(r'^([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9])\.([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9-]*[A-Za-z0-9])$', domain))
 
 def load_whitelist_domains():
+    """Lädt die Whitelist-Domänen aus einer URL."""
     whitelist_url = "https://raw.githubusercontent.com/xRuffKez/NXPhish/main/white.list"
     try:
         response = requests.get(whitelist_url)
         response.raise_for_status()  # Raise exception for HTTP errors
         return set(response.text.splitlines())
     except requests.RequestException as e:
-        print("Failed to load whitelist domains:", e)
+        logger.error("Failed to load whitelist domains: %s", e)
         return set()
 
 def download_extract_csv(url, destination_folder):
+    """Lädt eine CSV-Datei von einer URL herunter und extrahiert sie."""
     try:
         response = requests.get(url)
         response.raise_for_status()  # Raise exception for HTTP errors
@@ -29,44 +36,46 @@ def download_extract_csv(url, destination_folder):
         with open(os.path.join(destination_folder, 'top-1m.csv.zip'), 'wb') as f:
             f.write(response.content)
 
-        # Extract the zip file
+        # Extrahiert die ZIP-Datei
         with zipfile.ZipFile(os.path.join(destination_folder, 'top-1m.csv.zip'), 'r') as zip_ref:
             zip_ref.extractall(destination_folder)
 
         return True
     except Exception as e:
-        print("Failed to download and extract CSV file:", e)
+        logger.error("Failed to download and extract CSV file: %s", e)
         return False
 
 def update_phishfeed(workspace):
+    """Aktualisiert den Phishing-Feed."""
     db_path = os.path.join(workspace, 'database.db')
     feed_path = os.path.join(workspace, 'filtered_feed.txt')
     output_path = os.path.join(workspace, 'nxphish.agh')
+    cache_db_path = os.path.join(workspace, 'cache.db')
     max_age = datetime.now() - timedelta(days=60)
 
-    # Load whitelist domains
+    # Lädt die Whitelist-Domänen
     whitelist_domains = load_whitelist_domains()
 
-    # Download and extract CSV file
+    # Lädt und extrahiert die CSV-Datei
     csv_url = "http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip"
     if not download_extract_csv(csv_url, workspace):
         return
 
-    # Read CSV file and extract domains
+    # Liest die CSV-Datei und extrahiert die Domänen
     csv_file_path = os.path.join(workspace, "top-1m.csv")
     with open(csv_file_path, 'r') as csvfile:
         csv_reader = csv.reader(csvfile)
         domains_to_remove = {row[1] for row in csv_reader}
 
-    # Connect to SQLite database using context manager
+    # Verbindung zur SQLite-Datenbank herstellen
     with sqlite3.connect(db_path) as conn:
         cursor = conn.cursor()
 
-        # Start transaction
+        # Transaktion starten
         cursor.execute("CREATE TABLE IF NOT EXISTS domains (domain TEXT PRIMARY KEY, last_seen TEXT, status TEXT)")
         cursor.execute("BEGIN TRANSACTION")
 
-        # Update database with new domains
+        # Datenbank mit neuen Domänen aktualisieren
         with open(feed_path, 'r') as feed_file:
             for line in feed_file:
                 domain = urlparse(line.strip()).netloc.split(":")[0]
@@ -74,14 +83,18 @@ def update_phishfeed(workspace):
                     status = "SERVFAIL" if "SERVFAIL" in line else ("NXDOMAIN" if "NXDOMAIN" in line else "OK")
                     current_time = datetime.now().isoformat()
                     cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
+                    
+                    # Falls die Domain NXDOMAIN oder SERVFAIL ist, füge sie auch zur cache.db hinzu
+                    if status in ['NXDOMAIN', 'SERVFAIL']:
+                        cursor.execute("INSERT OR REPLACE INTO domains_cache VALUES (?, ?)", (domain, status))
 
-        # Remove domains older than 60 days
+        # Domänen entfernen, die älter als 60 Tage sind
         cursor.execute("DELETE FROM domains WHERE last_seen < ?", (max_age.isoformat(),))
 
-        # Commit transaction
+        # Transaktion abschließen
         cursor.execute("COMMIT")
 
-        # Fetch domains for nxphish.agh
+        # Domänen für nxphish.agh abrufen
         cursor.execute("SELECT domain, status FROM domains ORDER BY domain")
         all_domains = cursor.fetchall()
         phishing_domains = [row[0] for row in all_domains if row[1] == 'OK']
@@ -89,7 +102,7 @@ def update_phishfeed(workspace):
         servfails = [row[0] for row in all_domains if row[1] == 'SERVFAIL']
         removed_by_whitelist = len(whitelist_domains.intersection(domains_to_remove))
 
-        # Write sorted domains to file
+        # Sortierte Domänen in Datei schreiben
         with open(output_path, 'w') as output_file:
             output_file.write("! Title: OpenPhish and Phishunt Feed - Phishing Domains\n")
             output_file.write("! Description: This file contains a list of known phishing domains from the OpenPhish and Phishunt feed.\n")
@@ -106,12 +119,11 @@ def update_phishfeed(workspace):
             for domain in phishing_domains:
                 output_file.write("||{}^\n".format(domain))
 
-    # Clean up CSV file
+    # CSV-Datei bereinigen
     os.remove(csv_file_path)
 
 if __name__ == "__main__":
-    import sys
     if len(sys.argv) != 2:
-        print("Usage: python update.py <workspace_directory>")
+        logger.error("Usage: python update.py <workspace_directory>")
         sys.exit(1)
     update_phishfeed(sys.argv[1])
