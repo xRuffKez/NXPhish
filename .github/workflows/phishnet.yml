@@ -2,40 +2,49 @@ name: PhishFeed Update
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Führe alle 15 Minuten aus
+    - cron: '*/10 * * * *'
 
 jobs:
   update-phishfeed:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        python-version: [3.x]
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Set up Python ${{ matrix.python-version }}
+      - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: ${{ matrix.python-version }}
-
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
+          python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install --upgrade pip && pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+          pip install sqlite-utils
 
-      - name: Run PhishFeed Update Script
-        run: python update.py ${{ github.workspace }}
+      - name: Download PhishFeed from OpenPhish
+        run: curl -o openphish_feed.txt https://openphish.com/feed.txt
+
+      - name: Download PhishFeed from Phishunt
+        run: curl -o phishunt_feed.txt https://phishunt.io/feed.txt
+
+      - name: Combine and Sort PhishFeeds
+        run: |
+          cat openphish_feed.txt phishunt_feed.txt | sort -u > filtered_feed.txt
+
+      - name: Ensure SQLite Database
+        run: |
+          if [ ! -f cache.db ]; then
+            sqlite3 cache.db "CREATE TABLE IF NOT EXISTS domains (domain TEXT PRIMARY KEY, last_seen TEXT)"
+          fi
+
+      - name: Update Database and PhishFeed List
+        run: |
+          python update.py ${{ github.workspace }}
 
       - name: Commit and Push Changes
+        if: success()
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
