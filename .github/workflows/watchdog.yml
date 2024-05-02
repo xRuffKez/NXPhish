@@ -14,7 +14,8 @@ jobs:
         id: get_workflow_runs
         uses: octokit/request-action@v2.x
         with:
-          route: GET /repos/xRuffKez/NXPhish/actions/workflows/PhishFeed-Update.yml/runs
+          route: GET /repos/xRuffKez/NXPhish/actions/workflows/{workflow_id}/runs
+          workflow_id: PhishFeed-Update.yml
           mediaType: '{"previews":["antiope"]}'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
