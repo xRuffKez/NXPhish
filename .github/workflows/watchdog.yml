@@ -14,8 +14,16 @@ jobs:
         id: get_workflow_runs
         uses: octokit/request-action@v2.x
         with:
-          route: GET /repos/xRuffKez/NXPhish/actions/workflows/{workflow_id}/runs
-          workflow_id: phishnet.yml
+          route: GET /repos/xRuffKez/NXPhish/actions/workflows
+          mediaType: '{"previews":["antiope"]}'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get latest PhishFeed Update Workflow run
+        id: get_latest_run
+        uses: octokit/request-action@v2.x
+        with:
+          route: GET /repos/xRuffKez/NXPhish/actions/workflows/phishnet.yml/runs
           mediaType: '{"previews":["antiope"]}'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -23,7 +31,7 @@ jobs:
       - name: Trigger PhishFeed Update Workflow
         if: steps.get_workflow_runs.outputs.data != '[]'  # Trigger nur wenn es vorherige Workflow runs gibt
         run: |
-          latest_run_id=$(echo "${{ steps.get_workflow_runs.outputs.data }}" | jq -r '.workflow_runs[0].id')
+          latest_run_id=$(echo "${{ steps.get_latest_run.outputs.data }}" | jq -r '.workflow_runs[0].id')
           echo "Latest run ID: $latest_run_id"
           curl -X POST \
             -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
