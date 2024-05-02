@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-02 14:37:03
-! Number of phishing domains: 656
+! Last updated: 2024-05-02 15:41:29
+! Number of phishing domains: 653
 ! Number of NXDOMAIN domains: 0
 ! Number of SERVFAIL domains: 0
 ! Number of domains removed by whitelist: 237
@@ -61,6 +61,7 @@
 ||amazon-clone-aku.pages.dev^
 ||amazon-cloneapp-html-css.netlify.app^
 ||amazon-hun.com^
+||amazon-idn.shop^
 ||amazon-line1.xyz^
 ||amazon-pet2.xyz^
 ||amazonmall889.com^
@@ -185,7 +186,6 @@
 ||djv3ugd.ktt55.my.id^
 ||document.pdf-asset.workers.dev^
 ||doloressagne-e44c98.ingress-haven.ewp.live^
-||drcavic.com^
 ||e.3656240125.top^
 ||edfhjgfvkiredkjigfv.blogspot.tw^
 ||ee-pending-payment.firebaseapp.com^
@@ -635,10 +635,8 @@
 ||wp.3381811460.workers.dev^
 ||wss-bk7.pages.dev^
 ||ww25.steamcomunnitlly.com^
-||www-birnance-us.com^
 ||www-facebook-com.vn^
 ||www.365abn.com^
-||www.applepark.in^
 ||www.bamazon.xyz^
 ||www.bbva-es-info-appp.com^
 ||www.bbva-movil-es.com^
@@ -660,7 +658,6 @@
 ||www.solutionfun.info^
 ||www.subdomain.lcloud.mx-ln3.store.com-id.click^
 ||www.tajmahalluxurytour.com^
-||www.tiny.cc^
 ||www.vip333366.com^
 ||www.whatsapp-ws.top^
 ||www1.appleid-find.info^
