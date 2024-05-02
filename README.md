@@ -1,4 +1,4 @@
-# OpenPhish and Phishunt and Phishunt Blocklist for AdGuard Home 🎣
+# OpenPhish and Phishunt Blocklist for AdGuard Home 🎣
 
 Protect your network from phishing attacks with the OpenPhish and Phishunt blocklist for AdGuard Home.
 
