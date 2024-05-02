@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-02 19:22:29
-! Number of phishing domains: 640
+! Last updated: 2024-05-02 19:32:38
+! Number of phishing domains: 642
 ! Number of NXDOMAIN domains: 9
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 237
@@ -115,6 +115,7 @@
 ||bafybeihfyohzirpraloi7bjacry4oi7rpmzvyrx7n3hf2njkjkvbix5sne.ipfs.w3s.link^
 ||bafybeihmwp45earyqmevp3kfmgi4dcc5qr4y33g76cvmnoe5tlgvw46pnm.ipfs.cf-ipfs.com^
 ||bafybeihzus6c4egogjb25ghuoyulrnwmnlimik5wvmdtycrrqvhrqavpwq.ipfs.dweb.link^
+||banco.santander.cl.sonogirl.com^
 ||barclayschat-livehelp.com^
 ||bbvanetcash.mx9k291l.com.mx^
 ||best-painterscalgary.com^
@@ -178,6 +179,7 @@
 ||djv3ugd.ktt55.my.id^
 ||document.pdf-asset.workers.dev^
 ||doloressagne-e44c98.ingress-haven.ewp.live^
+||dropbox.readyro0fer.com^
 ||e.3656240125.top^
 ||edfhjgfvkiredkjigfv.blogspot.tw^
 ||ee-pending-payment.firebaseapp.com^
@@ -221,7 +223,6 @@
 ||generatorfreeaccounts.blogspot.sg^
 ||generatorfreeaccounts.blogspot.sn^
 ||get-windows-replaced.today^
-||gonjangganjingseruduk.my.id^
 ||google-bard-ai.org^
 ||google-cashincome5639.pages.dev^
 ||google-cashmachine79.pages.dev^
@@ -543,6 +544,7 @@
 ||rtm-att.directly.com^
 ||s8p7nyr.tokena-imapp.com^
 ||samartrace.co.ke^
+||santander.cl.sonogirl.com^
 ||saumyamahajan.github.io^
 ||secure-paypal.pages.dev^
 ||securelogin-paypal.pages.dev^
