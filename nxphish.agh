@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-02 22:32:36
-! Number of phishing domains: 642
+! Last updated: 2024-05-02 22:42:36
+! Number of phishing domains: 645
 ! Number of NXDOMAIN domains: 9
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 237
@@ -223,6 +223,7 @@
 ||generatorfreeaccounts.blogspot.sg^
 ||generatorfreeaccounts.blogspot.sn^
 ||get-windows-replaced.today^
+||gonjangganjingseruduk.my.id^
 ||google-bard-ai.org^
 ||google-cashincome5639.pages.dev^
 ||google-cashmachine79.pages.dev^
@@ -288,6 +289,7 @@
 ||instagramprofiileurl.blogspot.mk^
 ||instagramprofiileurl.blogspot.nl^
 ||instagramprofiileurl.blogspot.pe^
+||instagramprofiileurl.blogspot.pt^
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.rs^
 ||instagramprofiileurl.blogspot.sg^
@@ -334,6 +336,7 @@
 ||meta-support-sfscnlmibk-25cd12301.netlify.app^
 ||metaamskkloggiinn.gitbook.io^
 ||metamaaskelogines.gitbook.io^
+||metamask-9co.pages.dev^
 ||metamask-beta.club^
 ||metamask-download-extension.com^
 ||metamask-wallett.blogspot.al^
