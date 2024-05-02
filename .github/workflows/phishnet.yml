@@ -23,30 +23,31 @@ jobs:
           pip install requests
           pip install sqlite-utils
 
-      - name: Download PhishFeed from OpenPhish
-        run: curl -o openphish_feed.txt https://openphish.com/feed.txt
-
-      - name: Download PhishFeed from Phishunt
-        run: curl -o phishunt_feed.txt https://phishunt.io/feed.txt
+      - name: Download PhishFeeds
+        run: |
+          curl -o openphish_feed.txt https://openphish.com/feed.txt
+          curl -o phishunt_feed.txt https://phishunt.io/feed.txt
 
       - name: Combine and Sort PhishFeeds
         run: |
-          cat openphish_feed.txt phishunt_feed.txt | sort -u > filtered_feed.txt
+          sort -u openphish_feed.txt phishunt_feed.txt > filtered_feed.txt
 
       - name: Ensure SQLite Database
         run: |
-          if [ ! -f cache.db ]; then
-            sqlite3 cache.db "CREATE TABLE IF NOT EXISTS domains (domain TEXT PRIMARY KEY, last_seen TEXT)"
-          fi
+          sqlite3 cache.db "CREATE TABLE IF NOT EXISTS domains (domain TEXT PRIMARY KEY, last_seen TEXT)"
 
       - name: Update Database and PhishFeed List
         run: |
           python update.py ${{ github.workspace }}
 
+      - name: Create nxphish.agh
+        run: |
+          python create_nxphish.py
+
       - name: Commit and Push Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add nxphish.agh cache.db
+          git add cache.db nxphish.agh
           git commit -m "Update PhishFeed List"
           git push
