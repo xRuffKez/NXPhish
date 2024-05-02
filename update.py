@@ -1,6 +1,5 @@
 import sqlite3
 import os
-import sys
 import requests
 import re
 import csv
@@ -124,6 +123,7 @@ def update_phishfeed(workspace):
     os.remove(csv_file_path)
 
 if __name__ == "__main__":
+    import sys
     if len(sys.argv) != 2:
         logger.error("Usage: python update.py <workspace_directory>")
         sys.exit(1)
