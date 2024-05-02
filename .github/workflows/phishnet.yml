@@ -26,7 +26,7 @@ jobs:
       - name: Check if Database Needs Update
         id: check_db_update
         run: |
-          last_update=$(git log -1 --format="%ct" database.db)
+          last_update=$(git log -1 --format="%ct" cache.db)
           current_time=$(date +%s)
           if [ $((current_time - last_update)) -gt $((15*60)) ]; then
             echo "::set-output name=update_required::true"
