@@ -39,7 +39,7 @@ def download_extract_csv(url, destination_folder):
         return False
 
 def update_phishfeed(workspace):
-    db_path = os.path.join(workspace, 'database.db')
+    db_path = os.path.join(workspace, 'cache.db')
     feed_path = os.path.join(workspace, 'filtered_feed.txt')
     output_path = os.path.join(workspace, 'nxphish.agh')
     max_age = datetime.now() - timedelta(days=180)
