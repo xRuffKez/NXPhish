@@ -97,10 +97,10 @@ def update_phishfeed(workspace):
             output_file.write("! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.\n")
             output_file.write("! Author: xRuffKez\n")
             output_file.write("! Last updated: {}\n".format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
-            output_file.write("! Database last updated: {}\n".format(datetime.fromtimestamp(os.path.getmtime(db_path)).strftime("%Y-%m-%d %H:%M:%S")))
             output_file.write("! Number of phishing domains: {}\n".format(len(domains_with_info)))
             output_file.write("! Removed duplicates: {}\n".format(len(domains_with_info) - len(set(domain for domain, _ in domains_with_info))))
-            output_file.write("! Database size: {} bytes\n".format(os.path.getsize(db_path)))
+            output_file.write("! Domains removed based on whitelist: {}\n".format(len(whitelist_domains)))
+            output_file.write("! Domains removed based on Umbrella list: {}\n".format(len(domains_to_remove)))
             output_file.write("! Domains removed after 180 days if not re-added through feed.\n")
             output_file.write("\n")
             for domain, age in domains_with_info:
