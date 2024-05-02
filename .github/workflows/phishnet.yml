@@ -2,26 +2,35 @@ name: PhishFeed Update
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Führe alle 15 Minuten aus
+    - cron: '*/10 * * * *'  # Führe alle 15 Minuten aus
 
 jobs:
   update-phishfeed:
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        python-version: [3.x]
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Set up Python
+      - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
+          python-version: ${{ matrix.python-version }}
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests
-          pip install sqlite-utils
+        run: pip install --upgrade pip && pip install -r requirements.txt
 
       - name: Check if Database Needs Update
         id: check_db_update
@@ -37,3 +46,12 @@ jobs:
       - name: Run PhishFeed Update Script
         if: steps.check_db_update.outputs.update_required == 'true'
         run: python update.py ${{ github.workspace }}
+
+      - name: Commit and Push Changes
+        if: steps.check_db_update.outputs.update_required == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add cache.db nxphish.agh
+          git commit -m "Update PhishFeed List"
+          git push
