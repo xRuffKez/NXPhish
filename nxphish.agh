@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 10:33:56
-! Number of phishing domains: 1101
+! Last updated: 2024-05-03 10:42:35
+! Number of phishing domains: 1103
 ! Number of NXDOMAIN domains: 16
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 244
@@ -843,6 +843,7 @@
 ||pulkitkhatter.github.io^
 ||qa5jezcggzkcadmno.pages.dev^
 ||qdo0ogp1f6o.pages.dev^
+||qj9w7mqewt.imtokend.top^
 ||qq3114.com^
 ||qrty.btleat.xyz^
 ||qualityaccount.my.id^
@@ -974,6 +975,7 @@
 ||tokenpocket-tpnko.net^
 ||tokenpocket-tpnvu.com^
 ||tokenpocket-tpokm.org^
+||tokenpocket-tpuvn.net^
 ||tokenpockqt.mom^
 ||tokenpockxt.mom^
 ||tokeom.im^
