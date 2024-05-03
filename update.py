@@ -55,7 +55,7 @@ def update_phishfeed(workspace):
         domains_to_remove = {row[1] for row in csv_reader}
 
     resolver = dns.resolver.Resolver()
-    resolver.nameservers = ['9.9.9.10', '149.112.112.10']
+    #resolver.nameservers = ['9.9.9.10', '149.112.112.10']
 
     with sqlite3.connect(db_path) as conn:
         cursor = conn.cursor()
