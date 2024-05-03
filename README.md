@@ -1,6 +1,6 @@
 # OpenPhish and Phishunt Blocklist for AdGuard Home 🎣
 
-Protect your network from phishing attacks with the OpenPhish, Phishstats and Phishunt blocklist for AdGuard Home.
+Protect your network from phishing attacks with the OpenPhish and Phishunt blocklist for AdGuard Home.
 
 ![Phishing](https://img.shields.io/badge/Phishing-Blocked-red)
 ![License](https://img.shields.io/github/license/xRuffKez/NXPhish)
