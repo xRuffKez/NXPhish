@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 02:33:01
-! Number of phishing domains: 1094
+! Last updated: 2024-05-03 02:44:39
+! Number of phishing domains: 1097
 ! Number of NXDOMAIN domains: 13
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 237
@@ -372,6 +372,7 @@
 ||formulir-daftar-kartu.resmi-vip.art^
 ||fr3ds1ovn.vyiz.my.id^
 ||frumentaceous-threa.000webhostapp.com^
+||ftp.spotify-cloaning.freewebhostmost.com^
 ||ftrvn1y8kq.pages.dev^
 ||fygykjjkmh.weebly.com^
 ||g2wq8.shop^
@@ -428,6 +429,7 @@
 ||hgyqpwjn.work-shp.com^
 ||hjkkkkk.pages.dev^
 ||homebtlogiin.weebly.com^
+||homeloans.bankofamerica.com^
 ||hotel-booking-app-green.vercel.app^
 ||hotelin1172.eu^
 ||hotmail-alerts.chelsie15.workers.dev^
@@ -768,6 +770,7 @@
 ||photosfileavailabel.github.io^
 ||pikay13.github.io^
 ||policies-community1873.pages.dev^
+||pop.spotify-cloaning.freewebhostmost.com^
 ||portal.mbltrading.workers.dev^
 ||power-equip.nepaltourspackages.com^
 ||prakhardev423.github.io^
