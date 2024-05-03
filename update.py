@@ -88,6 +88,7 @@ def update_phishfeed(workspace):
 
         cursor.execute("SELECT domain, status FROM domains ORDER BY domain")
         all_domains = cursor.fetchall()
+        total_domains = sum(count for _, count in sorted_tlds)
         phishing_domains = [row[0] for row in all_domains if row[1] == 'OK']
         with open(output_path, 'w') as output_file:
             output_file.write("! Title: OpenPhish and Phishunt Feed - Phishing Domains\n")
