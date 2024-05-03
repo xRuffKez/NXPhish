@@ -1,6 +1,6 @@
-# OpenPhish and Phishunt Blocklist for AdGuard Home 🎣
+# NXPhish: Combined Phishing Blocklist for AdGuard Home 🎣
 
-Protect your network from phishing attacks with the OpenPhish and Phishunt blocklist for AdGuard Home.
+Protect your network from phishing attacks with the OpenPhish, Phishunt and Phishtank blocklist for AdGuard Home.
 
 ![Phishing](https://img.shields.io/badge/Phishing-Blocked-red)
 ![License](https://img.shields.io/github/license/xRuffKez/NXPhish)
@@ -8,7 +8,7 @@ Protect your network from phishing attacks with the OpenPhish and Phishunt block
 
 ## Overview
 
-This repository provides an automatically updated list of phishing domains sourced from [OpenPhish](https://OpenPhish.com/) and [Phishunt](https://phishunt.io/). The list is formatted for use with AdGuard Home, a network-wide ad and tracker blocker.
+This repository provides an automatically updated list of phishing domains sourced from [OpenPhish](https://OpenPhish.com/), [Phishunt](https://phishunt.io/) and [Phishtank](https://phishtank.com/). The list is formatted for use with AdGuard Home, a network-wide ad and tracker blocker.
 
 ## How to Use
 
@@ -26,6 +26,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgements
 
 - [OpenPhish](https://OpenPhish.com/) and [Phishunt](https://phishunt.io/) for providing the phishing feed.
+- [Zaczero](https://github.com/Zaczero/) for providing the [Phishtank](https://phishtank.com/) list.
 - [AdGuard Home](https://adguard.com/adguard-home/overview.html) for its excellent network-wide ad blocking capabilities.
 - [HaGeZi DNS Blocklists](https://github.com/hagezi/dns-blocklists) for the Shortener Whitelist.
 
