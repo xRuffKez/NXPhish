@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 03:26:49
-! Number of phishing domains: 1097
+! Last updated: 2024-05-03 03:33:23
+! Number of phishing domains: 1096
 ! Number of NXDOMAIN domains: 13
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 237
@@ -612,7 +612,6 @@
 ||metamask-wallett.blogspot.sn^
 ||metamask-wallett.blogspot.ug^
 ||metamask-walllets.webflow.io^
-||metamask.llc^
 ||metamaskinc.blogspot.ch^
 ||metamaskinc.blogspot.co.at^
 ||metamaskinc.blogspot.co.id^
