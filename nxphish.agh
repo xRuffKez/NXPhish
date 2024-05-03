@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 13:52:23
-! Number of phishing domains: 1479
+! Last updated: 2024-05-03 14:03:05
+! Number of phishing domains: 1477
 ! Number of NXDOMAIN domains: 19
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 244
@@ -641,7 +641,6 @@
 ||instagramprofiileurl.blogspot.ug^
 ||instagramsupport.now.sh^
 ||instagramsupport.vercel.app^
-||instantgrami.work.gd^
 ||interface-git-fork-chenxsan-bugfix-fix-scroll-top-uniswap.vercel.app^
 ||intsa.vercel.app^
 ||irntoken-zc.biz^
@@ -1444,7 +1443,6 @@
 ||www.epmtrucking.com^
 ||www.faridpromax.site^
 ||www.formtools.com^
-||www.icloud.comlogins.us^
 ||www.ios2fawallet.com^
 ||www.jilalibabadiour.site^
 ||www.keepo.io^
