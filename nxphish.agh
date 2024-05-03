@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 12:42:37
-! Number of phishing domains: 1473
+! Last updated: 2024-05-03 12:55:09
+! Number of phishing domains: 1472
 ! Number of NXDOMAIN domains: 19
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 244
@@ -348,7 +348,6 @@
 ||coinbuselproogui.godaddysites.com^
 ||coinsbiaesign-ins.gitbook.io^
 ||colnbase.info^
-||comfinds.info^
 ||complaint.hotel-01465.eu^
 ||complaint.hotel-26483.eu^
 ||complaint.hotel-76698.eu^
