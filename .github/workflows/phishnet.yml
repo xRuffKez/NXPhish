@@ -1,6 +1,7 @@
 name: PhishFeed Update
 
 on:
+ workflow_dispatch:
 
 jobs:
   update-phishfeed:
