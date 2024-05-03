@@ -1,7 +1,21 @@
 import sqlite3
 import dns.resolver
-import os
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
+
+def resolve_domain(domain):
+    resolver = dns.resolver.Resolver()
+    try:
+        # Resolve the domain
+        response = resolver.resolve(domain)
+        return "OK"
+    except dns.resolver.NXDOMAIN:
+        return "NXDOMAIN"
+    except dns.resolver.NoAnswer:
+        return "SERVFAIL"
+    except Exception as e:
+        print(f"Error resolving domain {domain}: {e}")
+        return "ERROR"
 
 def update_dns_status():
     # Path to the cache.db file
@@ -18,26 +32,21 @@ def update_dns_status():
     cursor.execute("SELECT domain FROM domains")
     domains = cursor.fetchall()
 
-    # Resolver object for DNS resolution
-    resolver = dns.resolver.Resolver()
+    # Close connection
+    conn.close()
 
-    # Update status for each domain
-    for domain in domains:
+    # Multithreading DNS resolution
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        results = executor.map(resolve_domain, (domain[0] for domain in domains))
+
+    # Connect again to update database
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+
+    # Update status for each domain in the database
+    for domain, result in zip(domains, results):
         domain = domain[0]
-        try:
-            # Resolve the domain
-            response = resolver.resolve(domain)
-            status = "OK"
-        except dns.resolver.NXDOMAIN:
-            status = "NXDOMAIN"
-        except dns.resolver.NoAnswer:
-            status = "SERVFAIL"
-        except Exception as e:
-            print(f"Error resolving domain {domain}: {e}")
-            status = "ERROR"
-
-        # Update status in the database
-        cursor.execute("UPDATE domains SET status=? WHERE domain=?", (status, domain))
+        cursor.execute("UPDATE domains SET status=? WHERE domain=?", (result, domain))
 
     # Commit changes and close connection
     conn.commit()
