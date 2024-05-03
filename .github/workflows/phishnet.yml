@@ -29,19 +29,19 @@ jobs:
       - name: Download PhishFeed from OpenPhish
         run: |
           echo "Downloading PhishFeed from OpenPhish..."
-          curl -o openphish_feed.txt https://openphish.com/feed.txt
+          wget -O openphish_feed.txt https://openphish.com/feed.txt
           echo "PhishFeed from OpenPhish downloaded successfully."
 
       - name: Download PhishFeed from Phishunt
         run: |
           echo "Downloading PhishFeed from Phishunt..."
-          curl -o phishunt_feed.txt https://phishunt.io/feed.txt
+          wget -O phishunt_feed.txt https://phishunt.io/feed.txt
           echo "PhishFeed from Phishunt downloaded successfully."
 
       - name: Download Phishtank from Zaczero Repo
         run: |
           echo "Downloading Phishtank from Zaczero Repo..."
-          curl -o phishtank.txt https://raw.githubusercontent.com/Zaczero/pihole-phishtank/main/hosts.txt
+          wget -O phishtank.txt https://raw.githubusercontent.com/Zaczero/pihole-phishtank/main/hosts.txt
           echo "Phishtank from Zaczero Repo downloaded successfully."
 
       - name: Combine and Sort PhishFeeds
