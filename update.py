@@ -107,7 +107,8 @@ def update_phishfeed(workspace):
             sorted_tlds = sorted(tld_counts.items(), key=lambda x: x[1], reverse=True)[:10]
             output_file.write("! Top 10 abused TLDs:\n")
             for tld, count in sorted_tlds:
-                output_file.write("! - {}: {}\n".format(tld, count))
+                percentage_tld_domains = (count / total_domains) * 100
+                output_file.write("! - {}: {} ({}%)\n".format(tld, count, round(percentage_tld_domains, 2)))
             output_file.write("! Domains removed after 60 days if not re-added through feed.\n")
             output_file.write("\n")
             for domain in phishing_domains:
