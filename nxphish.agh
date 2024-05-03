@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 07:03:13
-! Number of phishing domains: 1099
+! Last updated: 2024-05-03 07:15:08
+! Number of phishing domains: 1106
 ! Number of NXDOMAIN domains: 13
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 244
@@ -29,10 +29,12 @@
 ||365ccx.com^
 ||365f11.com^
 ||365uuh.com^
+||365wwm.com^
 ||38bdjg.ktt55.my.id^
 ||3ihvdd.ktt55.my.id^
 ||3th-qc-e-i2-w4qj-i74-ol-td9wlkg-o.vercel.app^
 ||3u6v5wkx.xyz^
+||435671-coinbase.com^
 ||4523259b3c19.godaddysites.com^
 ||491752-coinbase.com^
 ||49c3614541bb717a583e9202ede838f4a08690239f97358f7f328af276.pages.dev^
@@ -70,6 +72,7 @@
 ||a995534.com^
 ||aa12e.luckbaby.club^
 ||aaa-jc.cn^
+||aazon-jp.aahur.com^
 ||aburcm-a2ce.vteunnrebieirv.workers.dev^
 ||accounts-apple.us.bigboss-mx.com^
 ||accounts.synchronizing.googlemail.www2.vectorstrategies.com^
@@ -145,6 +148,7 @@
 ||att-yahoo-mail-103756.square.site^
 ||auth-serviceapp-idconfig001.vercel.app^
 ||authenticated.datings-upgrade-ourtime.workers.dev^
+||auths-apple.com^
 ||avrasyahastanesi.com.tr^
 ||axiom-windows.com^
 ||azuki-110716005.vercel.app^
@@ -213,6 +217,7 @@
 ||beomoweryrichuyg.saphhieire.workers.dev^
 ||berik-crypt.kz^
 ||best-painterscalgary.com^
+||bet365880.com^
 ||bet365vip1.com^
 ||bettinamarks.com^
 ||bfk.pages.dev^
@@ -220,6 +225,7 @@
 ||bilalalirizvi.github.io^
 ||billingsreceivablecredits-linkedin.org^
 ||binance-app.click^
+||binance-defi.vip^
 ||binances.christmas^
 ||binances.city^
 ||binpromocash.com^
@@ -340,7 +346,6 @@
 ||facebook-ten-tawny.vercel.app^
 ||facebook.check-protect-account.me^
 ||facebookconnect.pages.dev^
-||facebooks.biz.id^
 ||facebooksecurity.blogspot.com^
 ||facebooksecurity.blogspot.com.by^
 ||facebooksecurity.blogspot.lt^
@@ -400,6 +405,7 @@
 ||google-bard-ai.org^
 ||google-cashincome5639.pages.dev^
 ||google-cashmachine79.pages.dev^
+||google-in.life^
 ||google-jobsoffer7655.pages.dev^
 ||google-jobsoffer78005.pages.dev^
 ||google-jobspro89.pages.dev^
@@ -461,6 +467,7 @@
 ||instagram-clone-ruby.vercel.app^
 ||instagram-clone-wine.vercel.app^
 ||instagram-login-coral.vercel.app^
+||instagram-wiki.com^
 ||instagramprofiileurl.blogspot.am^
 ||instagramprofiileurl.blogspot.bg^
 ||instagramprofiileurl.blogspot.ca^
