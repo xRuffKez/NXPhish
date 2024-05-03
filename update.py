@@ -109,6 +109,9 @@ def update_phishfeed(workspace):
             for tld, count in sorted_tlds:
                 output_file.write("! - {}: {}\n".format(tld, count))
             output_file.write("! Domains removed after 60 days if not re-added through feed.\n")
+            output_file.write("\n")
+            for domain in phishing_domains:
+                output_file.write("||{}^\n".format(domain))
     os.remove(csv_file_path)
 
 if __name__ == "__main__":
