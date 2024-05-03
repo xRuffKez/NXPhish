@@ -1,0 +1,35 @@
+name: Update DNS Status
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight
+
+jobs:
+  update_dns_status:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dnspython
+      run: pip install dnspython
+
+    - name: Run Python script
+      run: python update_dns_status.py
+
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add cache.db
+        git commit -m "Update DNS status"
+        git push
