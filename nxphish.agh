@@ -3,7 +3,7 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 12:55:09
+! Last updated: 2024-05-03 13:02:57
 ! Number of phishing domains: 1472
 ! Number of NXDOMAIN domains: 19
 ! Number of SERVFAIL domains: 1
@@ -348,6 +348,7 @@
 ||coinbuselproogui.godaddysites.com^
 ||coinsbiaesign-ins.gitbook.io^
 ||colnbase.info^
+||comfinds.info^
 ||complaint.hotel-01465.eu^
 ||complaint.hotel-26483.eu^
 ||complaint.hotel-76698.eu^
@@ -1423,7 +1424,6 @@
 ||www.agensolution.co.in^
 ||www.aideaya.com^
 ||www.alliforum.com^
-||www.app-confrim-page.duckdns.org^
 ||www.applepark.in^
 ||www.bamazon.xyz^
 ||www.bbva-es-info-appp.com^
