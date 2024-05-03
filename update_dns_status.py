@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 
 def resolve_domain(domain):
     resolver = dns.resolver.Resolver()
+    resolver.nameservers = ['8.8.8.8', '8.8.4.4', '1.1.1.1', '1.0.0.1']
     try:
         # Resolve the domain
         response = resolver.resolve(domain)
