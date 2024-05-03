@@ -9,7 +9,6 @@ from datetime import datetime, timedelta
 from urllib.parse import urlparse
 import dns.resolver
 
-# Set up logging to print logs to the console
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -18,29 +17,21 @@ def is_valid_domain(domain):
 
 def load_whitelist_domains():
     try:
-        logger.info("Loading whitelist domains...")
         response = requests.get("https://raw.githubusercontent.com/xRuffKez/NXPhish/main/white.list")
         response.raise_for_status()
-        whitelist_domains = set(response.text.splitlines())
-        logger.debug("Whitelist domains loaded: %s", whitelist_domains)
-        return whitelist_domains
+        return set(response.text.splitlines())
     except requests.RequestException as e:
         logger.error("Failed to load whitelist domains: %s", e)
         return set()
 
 def download_extract_csv(url, destination_folder):
     try:
-        logger.info("Downloading CSV file from %s...", url)
         response = requests.get(url)
         response.raise_for_status()
-        logger.debug("CSV file content: %s", response.content[:100])  # Log first 100 characters of content for debug
         with open(os.path.join(destination_folder, 'top-1m.csv.zip'), 'wb') as f:
             f.write(response.content)
-        logger.info("CSV file downloaded successfully.")
-        logger.info("Extracting CSV file...")
         with zipfile.ZipFile(os.path.join(destination_folder, 'top-1m.csv.zip'), 'r') as zip_ref:
             zip_ref.extractall(destination_folder)
-        logger.info("CSV file extracted successfully.")
         return True
     except Exception as e:
         logger.error("Failed to download and extract CSV file: %s", e)
@@ -64,7 +55,6 @@ def update_phishfeed(workspace):
         domains_to_remove = {row[1] for row in csv_reader}
 
     resolver = dns.resolver.Resolver()
-    #resolver.nameservers = ['9.9.9.10', '149.112.112.10']
 
     with sqlite3.connect(db_path) as conn:
         cursor = conn.cursor()
@@ -73,27 +63,25 @@ def update_phishfeed(workspace):
         with open(feed_path, 'r') as feed_file:
             for line in feed_file:
                 domain = urlparse(line.strip()).netloc.split(":")[0]
-                logger.debug("Processing domain: %s", domain)
-                if domain not in whitelist_domains and domain not in domains_to_remove:
-                    try:
-                        response = resolver.resolve(domain)
-                        status = "OK"
-                    except dns.resolver.NXDOMAIN:
-                        status = "NXDOMAIN"
-                    except dns.resolver.NoAnswer:
-                        status = "SERVFAIL"
-                    except Exception as e:
-                        logger.error("Error resolving domain %s: %s", domain, e)
-                        status = "ERROR"
-                        
-                    cursor.execute("SELECT status FROM domains WHERE domain=?", (domain,))
-                    existing_status = cursor.fetchone()
-                    if existing_status is None or existing_status[0] != status:  # Check if status has changed
-                        current_time = datetime.now().isoformat()
-                        cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
-                        if status in ['NXDOMAIN', 'SERVFAIL', 'ERROR']:
+                if domain:
+                    if not domain.startswith("http") and "/" in domain:
+                        domain = domain.split("/")[0]
+                    if domain not in whitelist_domains and domain not in domains_to_remove:
+                        try:
+                            response = resolver.resolve(domain)
+                            status = "OK"
+                        except dns.resolver.NXDOMAIN:
+                            status = "NXDOMAIN"
+                        except dns.resolver.NoAnswer:
+                            status = "SERVFAIL"
+                        except Exception as e:
+                            logger.error("Error resolving domain %s: %s", domain, e)
+                            status = "ERROR"
+                        cursor.execute("SELECT status FROM domains WHERE domain=?", (domain,))
+                        existing_status = cursor.fetchone()
+                        if existing_status is None or existing_status[0] != status:
+                            current_time = datetime.now().isoformat()
                             cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
-                    logger.debug("Domain processed: %s, Status: %s", domain, status)
         cursor.execute("DELETE FROM domains WHERE last_seen < ?", (max_age.isoformat(),))
         cursor.execute("COMMIT")
         conn.commit()
@@ -112,10 +100,15 @@ def update_phishfeed(workspace):
             output_file.write("! Number of NXDOMAIN domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'NXDOMAIN'])))
             output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
             output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(domains_to_remove))))
+            tld_counts = {}
+            for domain in all_domains:
+                tld = domain[0].split('.')[-1]
+                tld_counts[tld] = tld_counts.get(tld, 0) + 1
+            sorted_tlds = sorted(tld_counts.items(), key=lambda x: x[1], reverse=True)[:10]
+            output_file.write("! Top 10 abused TLDs:\n")
+            for tld, count in sorted_tlds:
+                output_file.write("! - {}: {}\n".format(tld, count))
             output_file.write("! Domains removed after 60 days if not re-added through feed.\n")
-            output_file.write("\n")
-            for domain in phishing_domains:
-                output_file.write("||{}^\n".format(domain))
     os.remove(csv_file_path)
 
 if __name__ == "__main__":
@@ -123,5 +116,4 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         logger.error("Usage: python update.py <workspace_directory>")
         sys.exit(1)
-    logger.info("Starting phishing feed update process...")
     update_phishfeed(sys.argv[1])
