@@ -88,8 +88,14 @@ def update_phishfeed(workspace):
 
         cursor.execute("SELECT domain, status FROM domains ORDER BY domain")
         all_domains = cursor.fetchall()
-        total_domains = sum(count for _, count in sorted_tlds)
         phishing_domains = [row[0] for row in all_domains if row[1] == 'OK']
+        tld_counts = {}
+        for domain in all_domains:
+            tld = domain[0].split('.')[-1]
+            tld_counts[tld] = tld_counts.get(tld, 0) + 1
+        sorted_tlds = sorted(tld_counts.items(), key=lambda x: x[1], reverse=True)[:10]
+        total_domains = sum(count for _, count in sorted_tlds)
+
         with open(output_path, 'w') as output_file:
             output_file.write("! Title: OpenPhish and Phishunt Feed - Phishing Domains\n")
             output_file.write("! Description: This file contains a list of known phishing domains from the OpenPhish and Phishunt feed.\n")
@@ -101,11 +107,6 @@ def update_phishfeed(workspace):
             output_file.write("! Number of NXDOMAIN domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'NXDOMAIN'])))
             output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
             output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(domains_to_remove))))
-            tld_counts = {}
-            for domain in all_domains:
-                tld = domain[0].split('.')[-1]
-                tld_counts[tld] = tld_counts.get(tld, 0) + 1
-            sorted_tlds = sorted(tld_counts.items(), key=lambda x: x[1], reverse=True)[:10]
             output_file.write("! Top 10 abused TLDs:\n")
             for tld, count in sorted_tlds:
                 percentage_tld_domains = (count / total_domains) * 100
