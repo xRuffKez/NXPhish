@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 15:32:43
-! Number of phishing domains: 1477
+! Last updated: 2024-05-03 15:42:27
+! Number of phishing domains: 1476
 ! Number of NXDOMAIN domains: 20
 ! Number of SERVFAIL domains: 2
 ! Number of domains removed by whitelist: 244
@@ -1346,7 +1346,6 @@
 ||us-exodus-auth.webflow.io^
 ||userviceps.blogspot.com^
 ||userviceps.blogspot.hk^
-||usforgot-cloud-com.us^
 ||ushjdkcnm.hmwnu.my.id^
 ||usps.com.uspop.shop^
 ||usps.ecycztctij.top^
