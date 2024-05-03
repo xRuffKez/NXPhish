@@ -49,7 +49,7 @@ def update_database(domains):
             if is_valid_domain(domain):
                 status = check_dns_status(domain)
                 if status == "OK":
-                    cursor.execute("INSERT OR IGNORE INTO domains (domain, age, status) VALUES (?, ?, ?)", (domain, datetime.now(), status))
+                    cursor.execute("INSERT OR IGNORE INTO domains (domain, last_seen, status) VALUES (?, ?, ?)", (domain, datetime.now(), status))
         conn.commit()
         conn.close()
         print("Database updated successfully.")
