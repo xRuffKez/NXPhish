@@ -9,7 +9,8 @@ from datetime import datetime, timedelta
 from urllib.parse import urlparse
 import dns.resolver
 
-logging.basicConfig(level=logging.INFO)
+# Set up logging to print logs to the console
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
 def is_valid_domain(domain):
@@ -17,21 +18,29 @@ def is_valid_domain(domain):
 
 def load_whitelist_domains():
     try:
+        logger.info("Loading whitelist domains...")
         response = requests.get("https://raw.githubusercontent.com/xRuffKez/NXPhish/main/white.list")
         response.raise_for_status()
-        return set(response.text.splitlines())
+        whitelist_domains = set(response.text.splitlines())
+        logger.debug("Whitelist domains loaded: %s", whitelist_domains)
+        return whitelist_domains
     except requests.RequestException as e:
         logger.error("Failed to load whitelist domains: %s", e)
         return set()
 
 def download_extract_csv(url, destination_folder):
     try:
+        logger.info("Downloading CSV file from %s...", url)
         response = requests.get(url)
         response.raise_for_status()
+        logger.debug("CSV file content: %s", response.content[:100])  # Log first 100 characters of content for debug
         with open(os.path.join(destination_folder, 'top-1m.csv.zip'), 'wb') as f:
             f.write(response.content)
+        logger.info("CSV file downloaded successfully.")
+        logger.info("Extracting CSV file...")
         with zipfile.ZipFile(os.path.join(destination_folder, 'top-1m.csv.zip'), 'r') as zip_ref:
             zip_ref.extractall(destination_folder)
+        logger.info("CSV file extracted successfully.")
         return True
     except Exception as e:
         logger.error("Failed to download and extract CSV file: %s", e)
@@ -64,6 +73,7 @@ def update_phishfeed(workspace):
         with open(feed_path, 'r') as feed_file:
             for line in feed_file:
                 domain = urlparse(line.strip()).netloc.split(":")[0]
+                logger.debug("Processing domain: %s", domain)
                 if domain not in whitelist_domains and domain not in domains_to_remove:
                     try:
                         response = resolver.resolve(domain)
@@ -83,6 +93,7 @@ def update_phishfeed(workspace):
                         cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
                         if status in ['NXDOMAIN', 'SERVFAIL', 'ERROR']:
                             cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
+                    logger.debug("Domain processed: %s, Status: %s", domain, status)
         cursor.execute("DELETE FROM domains WHERE last_seen < ?", (max_age.isoformat(),))
         cursor.execute("COMMIT")
         conn.commit()
@@ -112,4 +123,5 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         logger.error("Usage: python update.py <workspace_directory>")
         sys.exit(1)
+    logger.info("Starting phishing feed update process...")
     update_phishfeed(sys.argv[1])
