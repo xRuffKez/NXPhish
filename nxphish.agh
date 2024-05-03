@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 03:53:08
-! Number of phishing domains: 1097
+! Last updated: 2024-05-03 04:03:15
+! Number of phishing domains: 1098
 ! Number of NXDOMAIN domains: 13
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 237
@@ -544,6 +544,7 @@
 ||livewalletconnect.blogspot.it^
 ||livewalletconnect.blogspot.tw^
 ||llwebmail-attupdate-k6kjd7.mystrikingly.com^
+||lnstagram-security.es^
 ||lnstagram.xn--hlp-kra.com^
 ||locze-c726.butheonevernn.workers.dev^
 ||login-kucoin.weebly.com^
