@@ -27,5 +27,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [OpenPhish](https://OpenPhish.com/) and [Phishunt](https://phishunt.io/) for providing the phishing feed.
 - [AdGuard Home](https://adguard.com/adguard-home/overview.html) for its excellent network-wide ad blocking capabilities.
+- [HaGeZi DNS Blocklists](https://github.com/hagezi/dns-blocklists) for the Shortener Whitelist.
 
 🛡️ Stay safe online!
