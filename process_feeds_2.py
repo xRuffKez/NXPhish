@@ -2,7 +2,6 @@ import sqlite3
 import requests
 import dns.resolver
 from datetime import datetime
-import os
 import re
 
 # Function to check if a domain is valid
@@ -40,8 +39,13 @@ def process_domains():
         return []
 
 # Function to update the database with new domains
-def update_database(domains):
+def update_database():
     db_path = "cache.db"
+    domains = process_domains()
+    if not domains:
+        print("No domains to process.")
+        return
+
     try:
         conn = sqlite3.connect(db_path)
         cursor = conn.cursor()
@@ -56,18 +60,9 @@ def update_database(domains):
     except Exception as e:
         print("Failed to update database: {}".format(e))
 
-# Function to push the cache.db file to the repository
-def push_cache_db():
-    os.system("git add cache.db")
-    os.system("git commit -m 'Update cache.db'")
-    os.system("git push")
-
 # Main function
 def main():
-    domains = process_domains()
-    if domains:
-        update_database(domains)
-        push_cache_db()
+    update_database()
 
 if __name__ == "__main__":
     main()
