@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 19:22:44
-! Number of phishing domains: 668
+! Last updated: 2024-05-03 19:32:34
+! Number of phishing domains: 670
 ! Number of NXDOMAIN domains: 11
 ! Number of SERVFAIL domains: 2
 ! Number of domains removed by whitelist: 244
@@ -585,6 +585,7 @@
 ||sky-ckv.pages.dev^
 ||snowy-wildflower-6ce7.rnjdole9454.workers.dev^
 ||solitary-term-806b.sales031108.workers.dev^
+||sportday66.mwk.ac.th^
 ||spotify-clone31.netlify.app^
 ||spotifycoin.club^
 ||ssb-amazon.top^
@@ -664,6 +665,7 @@
 ||www.discardless.eu^
 ||www.faridpromax.site^
 ||www.formtools.com^
+||www.icloud.comlogins.us^
 ||www.jilalibabadiour.site^
 ||www.keepo.io^
 ||www.mrm-linkedin.com^
