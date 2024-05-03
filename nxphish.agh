@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 17:45:49
-! Number of phishing domains: 1478
+! Last updated: 2024-05-03 17:52:22
+! Number of phishing domains: 1477
 ! Number of NXDOMAIN domains: 22
 ! Number of SERVFAIL domains: 3
 ! Number of domains removed by whitelist: 244
@@ -1427,7 +1427,6 @@
 ||www.853993.com^
 ||www.aeroportist.com^
 ||www.agensolution.co.in^
-||www.aideaya.com^
 ||www.alliforum.com^
 ||www.app-confrim-page.duckdns.org^
 ||www.applepark.in^
