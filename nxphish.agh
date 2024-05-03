@@ -3,7 +3,7 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 12:16:51
+! Last updated: 2024-05-03 12:30:21
 ! Number of phishing domains: 1471
 ! Number of NXDOMAIN domains: 19
 ! Number of SERVFAIL domains: 1
@@ -1341,7 +1341,6 @@
 ||us-exodus-auth.webflow.io^
 ||userviceps.blogspot.com^
 ||userviceps.blogspot.hk^
-||usforgot-cloud-com.us^
 ||ushjdkcnm.hmwnu.my.id^
 ||usps.com.uspop.shop^
 ||usps.ecycztctij.top^
@@ -1437,6 +1436,7 @@
 ||www.epmtrucking.com^
 ||www.faridpromax.site^
 ||www.formtools.com^
+||www.icloud.comlogins.us^
 ||www.ios2fawallet.com^
 ||www.jilalibabadiour.site^
 ||www.keepo.io^
