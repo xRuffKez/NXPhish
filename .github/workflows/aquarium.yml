@@ -36,3 +36,18 @@ jobs:
           git commit -m "Update Phishtank to Cache"
           git push
           echo "Changes committed and pushed successfully."
+
+      - name: Trigger Phishnet
+        uses: actions/github-script@v3
+        with:
+          script: |
+            const response = await octokit.request('POST /repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches', {
+              owner: '${{ github.repository_owner }}',
+              repo: '${{ github.event.repository.name }}',
+              workflow_id: 'phishnet.yml',
+              ref: 'main',
+              inputs: {}
+            });
+            console.log(response.data);
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
