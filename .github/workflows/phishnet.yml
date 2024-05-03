@@ -46,9 +46,9 @@ jobs:
 
       - name: Combine and Sort PhishFeeds
         run: |
-          echo "Combining and sorting PhishFeeds..."
-          cat openphish_feed.txt phishunt_feed.txt phishtank.txt | sort -u > filtered_feed.txt
-          echo "PhishFeeds combined and sorted successfully."
+         echo "Combining and sorting PhishFeeds..."
+         python process_feeds.py openphish_feed.txt phishunt_feed.txt phishtank.txt
+         echo "PhishFeeds combined and sorted successfully."
 
       - name: Ensure SQLite Database
         run: |
