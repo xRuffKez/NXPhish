@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 07:15:08
-! Number of phishing domains: 1106
+! Last updated: 2024-05-03 07:23:36
+! Number of phishing domains: 1103
 ! Number of NXDOMAIN domains: 13
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 244
@@ -29,7 +29,6 @@
 ||365ccx.com^
 ||365f11.com^
 ||365uuh.com^
-||365wwm.com^
 ||38bdjg.ktt55.my.id^
 ||3ihvdd.ktt55.my.id^
 ||3th-qc-e-i2-w4qj-i74-ol-td9wlkg-o.vercel.app^
@@ -217,7 +216,6 @@
 ||beomoweryrichuyg.saphhieire.workers.dev^
 ||berik-crypt.kz^
 ||best-painterscalgary.com^
-||bet365880.com^
 ||bet365vip1.com^
 ||bettinamarks.com^
 ||bfk.pages.dev^
@@ -1100,7 +1098,6 @@
 ||www.xn--qkr86qr3ifl0a.com^
 ||www1.appleid-find.info^
 ||www1.miamicrete.com^
-||wwwtoken.com^
 ||xeihdd3.ktt55.my.id^
 ||xke9a.ktt55.my.id^
 ||xvtizliizwrkjl0kymu9.pages.dev^
