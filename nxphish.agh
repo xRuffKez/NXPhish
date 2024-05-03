@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 08:33:16
-! Number of phishing domains: 1102
+! Last updated: 2024-05-03 08:42:33
+! Number of phishing domains: 1103
 ! Number of NXDOMAIN domains: 16
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 244
@@ -121,6 +121,7 @@
 ||apple-locatephone.app^
 ||apple-locator.live^
 ||apple-premios.shop^
+||apple-privacypolice.com^
 ||apple-rabbit1320.com^
 ||apple-replicaevan.netlify.app^
 ||appleflys.com^
