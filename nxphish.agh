@@ -3,21 +3,21 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 21:21:13
-! Number of phishing domains: 2210
-! Number of NXDOMAIN domains: 12
+! Last updated: 2024-05-03 22:27:06
+! Number of phishing domains: 2207
+! Number of NXDOMAIN domains: 14
 ! Number of SERVFAIL domains: 2
 ! Number of domains removed by whitelist: 244
 ! Top 10 abused TLDs:
-! - com: 1283 (71.84%)
-! - dev: 158 (8.85%)
+! - com: 1285 (71.87%)
+! - dev: 158 (8.84%)
 ! - net: 74 (4.14%)
 ! - app: 72 (4.03%)
 ! - top: 69 (3.86%)
-! - io: 43 (2.41%)
-! - de: 26 (1.46%)
-! - in: 21 (1.18%)
-! - ru: 21 (1.18%)
+! - io: 43 (2.4%)
+! - de: 26 (1.45%)
+! - in: 21 (1.17%)
+! - ru: 21 (1.17%)
 ! - org: 19 (1.06%)
 ! Domains removed after 60 days if not re-added through feed.
 
@@ -228,7 +228,6 @@
 ||atualizaocadastral.com^
 ||atualizeprogramass.com^
 ||auamp-portal.com^
-||auarrange-package.vip^
 ||audience-upholstery.net^
 ||auservices-recordscenter24.com^
 ||ausparcel-rearrange.vip^
@@ -365,7 +364,6 @@
 ||cigarpress.com^
 ||cisco-italy.com^
 ||citasbcr.top^
-||claim-dana-kaget.javweb.biz.id^
 ||claim-dragon.web.app^
 ||click17.vercel.app^
 ||clicksclaim91.vercel.app^
@@ -805,7 +803,6 @@
 ||instagramprofiileurl.blogspot.co.za^
 ||instagramprofiileurl.blogspot.com^
 ||instagramprofiileurl.blogspot.com.ar^
-||instagramprofiileurl.blogspot.com.br^
 ||instagramprofiileurl.blogspot.com.cy^
 ||instagramprofiileurl.blogspot.com.es^
 ||instagramprofiileurl.blogspot.com.ng^
@@ -1500,11 +1497,13 @@
 ||ridgewaykite.com^
 ||riikodmodkaoozxz.lorenso5.workers.dev^
 ||rimuovicollegamento-app.com^
+||riomeridianhotels.com^
 ||ripristiaccessoweb.com^
 ||rollingthunderracingseries.com^
 ||rolzplus.com^
 ||rondo.su^
 ||ronovel.com^
+||rootblowerindonesia.com^
 ||rosemarieagathaallora.com^
 ||rossanarossi.pe^
 ||roundcubermail.weebly.com^
@@ -1601,6 +1600,7 @@
 ||solicitudprobenefitaprobado-com.site^
 ||solitary-term-806b.sales031108.workers.dev^
 ||soluciones.shop^
+||sonatahouse.school^
 ||sonnoao.it^
 ||southamericanlifespa.com^
 ||sp-kcheck2.net^
@@ -2062,7 +2062,6 @@
 ||uspsserve.com^
 ||uspsspostoffice.com^
 ||uspsupc.top^
-||ustnfps.com^
 ||uverdnes.cz^
 ||uzbancolish.shop^
 ||uzmanplatform.com^
@@ -2172,10 +2171,8 @@
 ||www.benoitaudifonos.pe^
 ||www.coinbase-user-vlogin.tradewindpropertiescr.com^
 ||www.discardless.eu^
-||www.faridpromax.site^
 ||www.formtools.com^
 ||www.icloud.comlogins.us^
-||www.jilalibabadiour.site^
 ||www.keepo.io^
 ||www.mrm-linkedin.com^
 ||www.netflix-max.com^
