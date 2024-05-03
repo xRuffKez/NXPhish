@@ -3,11 +3,11 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 06:42:47
-! Number of phishing domains: 1099
+! Last updated: 2024-05-03 06:53:20
+! Number of phishing domains: 1097
 ! Number of NXDOMAIN domains: 13
 ! Number of SERVFAIL domains: 1
-! Number of domains removed by whitelist: 237
+! Number of domains removed by whitelist: 244
 ! Domains removed after 60 days if not re-added through feed.
 
 ||001-a6j.pages.dev^
@@ -340,7 +340,6 @@
 ||facebook-ten-tawny.vercel.app^
 ||facebook.check-protect-account.me^
 ||facebookconnect.pages.dev^
-||facebooks.biz.id^
 ||facebooksecurity.blogspot.com^
 ||facebooksecurity.blogspot.com.by^
 ||facebooksecurity.blogspot.lt^
@@ -970,7 +969,6 @@
 ||tokenpocket-tpmeo.net^
 ||tokenpocket-tpnko.net^
 ||tokenpocket-tpnvu.com^
-||tokenpocket-tpokm.org^
 ||tokenpocket-tpuvn.net^
 ||tokenpockqt.mom^
 ||tokenpockxt.mom^
