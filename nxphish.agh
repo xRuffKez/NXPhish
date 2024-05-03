@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 03:42:47
-! Number of phishing domains: 1094
+! Last updated: 2024-05-03 03:53:08
+! Number of phishing domains: 1097
 ! Number of NXDOMAIN domains: 13
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 237
@@ -205,6 +205,7 @@
 ||bafybeihmwp45earyqmevp3kfmgi4dcc5qr4y33g76cvmnoe5tlgvw46pnm.ipfs.cf-ipfs.com^
 ||bafybeihzus6c4egogjb25ghuoyulrnwmnlimik5wvmdtycrrqvhrqavpwq.ipfs.dweb.link^
 ||bahdu.klugh.my.id^
+||banco.santander.cl.sonogirl.com^
 ||bar-dac1.reconfirmation-zip.workers.dev^
 ||barclayschat-livehelp.com^
 ||bbvanetcash.mx9k291l.com.mx^
@@ -313,6 +314,7 @@
 ||doiw0zuhcw9rosjhic.pages.dev^
 ||doloressagne-e44c98.ingress-haven.ewp.live^
 ||dot1.edtt.workers.dev^
+||dropbox.readyro0fer.com^
 ||dsfdsfdfssdfsdf.blogspot.com^
 ||dsfdsfdfssdfsdf.blogspot.sn^
 ||dtanko.github.io^
@@ -852,6 +854,7 @@
 ||sahil-pillania.github.io^
 ||samartrace.co.ke^
 ||san65.915vip23.xyz^
+||santander.cl.sonogirl.com^
 ||sasumpro.anakembok.de^
 ||saumyamahajan.github.io^
 ||sdfg-25n.pages.dev^
