@@ -3,7 +3,7 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 19:14:48
+! Last updated: 2024-05-03 19:22:44
 ! Number of phishing domains: 668
 ! Number of NXDOMAIN domains: 11
 ! Number of SERVFAIL domains: 2
@@ -585,7 +585,6 @@
 ||sky-ckv.pages.dev^
 ||snowy-wildflower-6ce7.rnjdole9454.workers.dev^
 ||solitary-term-806b.sales031108.workers.dev^
-||sportday66.mwk.ac.th^
 ||spotify-clone31.netlify.app^
 ||spotifycoin.club^
 ||ssb-amazon.top^
@@ -627,6 +626,7 @@
 ||updatenow.pages.dev^
 ||urlscannerfireeye.com^
 ||us-exodus-auth.webflow.io^
+||usforgot-cloud-com.us^
 ||ushjdkcnm.hmwnu.my.id^
 ||uzuikp2.token-imapp.com^
 ||vcseeveattt.weebly.com^
@@ -654,6 +654,7 @@
 ||www.agensolution.co.in^
 ||www.aideaya.com^
 ||www.alliforum.com^
+||www.app-confrim-page.duckdns.org^
 ||www.applepark.in^
 ||www.bamazon.xyz^
 ||www.bbva-es-info-appp.com^
@@ -663,7 +664,6 @@
 ||www.discardless.eu^
 ||www.faridpromax.site^
 ||www.formtools.com^
-||www.icloud.comlogins.us^
 ||www.jilalibabadiour.site^
 ||www.keepo.io^
 ||www.mrm-linkedin.com^
