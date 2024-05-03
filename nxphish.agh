@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 10:52:41
-! Number of phishing domains: 1101
+! Last updated: 2024-05-03 11:03:21
+! Number of phishing domains: 1103
 ! Number of NXDOMAIN domains: 16
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 244
@@ -674,6 +674,7 @@
 ||micro-rouge.vercel.app^
 ||microsoft-102406.weeblysite.com^
 ||microsoft-104083.weeblysite.com^
+||microsoft-104978.weeblysite.com^
 ||microsoft-105425.weeblysite.com^
 ||microsoft-106368.weeblysite.com^
 ||microsoft-109153.weeblysite.com^
@@ -971,6 +972,7 @@
 ||tokenpocket-tpenk.net^
 ||tokenpocket-tpern.net^
 ||tokenpocket-tpmeo.net^
+||tokenpocket-tpnko.net^
 ||tokenpocket-tpnvu.com^
 ||tokenpocket-tpokm.org^
 ||tokenpocket-tpuvn.net^
