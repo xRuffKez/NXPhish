@@ -3,10 +3,10 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 17:19:17
-! Number of phishing domains: 1474
+! Last updated: 2024-05-03 17:45:49
+! Number of phishing domains: 1478
 ! Number of NXDOMAIN domains: 22
-! Number of SERVFAIL domains: 2
+! Number of SERVFAIL domains: 3
 ! Number of domains removed by whitelist: 244
 ! Domains removed after 60 days if not re-added through feed.
 
@@ -76,6 +76,7 @@
 ||853993.bet^
 ||8a7844b31fd508a3b5c5a22f207114353782aa6b677137a83fbdab09ae.pages.dev^
 ||907855.net^
+||9127876789.audio-securedocument-signature.workers.dev^
 ||98iuy98o.s3.eu-north-1.amazonaws.com^
 ||a.3656240210.xyz^
 ||a995534.com^
@@ -323,6 +324,7 @@
 ||cefaaren.blogspot.com^
 ||cf-ipfs.com^
 ||cgb.pages.dev^
+||checkpoint-1.pages.dev^
 ||chewie.co.za^
 ||chimaris.github.io^
 ||circus-oskani.de^
@@ -633,6 +635,7 @@
 ||instagramprofiileurl.blogspot.li^
 ||instagramprofiileurl.blogspot.lu^
 ||instagramprofiileurl.blogspot.mk^
+||instagramprofiileurl.blogspot.nl^
 ||instagramprofiileurl.blogspot.pe^
 ||instagramprofiileurl.blogspot.pt^
 ||instagramprofiileurl.blogspot.qa^
@@ -1179,6 +1182,7 @@
 ||sharepoint-proxy.natsuu.workers.dev^
 ||sharepoint365.skyland-zero.workers.dev^
 ||shdmhnqeo.weebly.com^
+||sheet.invoice-pdf.workers.dev^
 ||sheetg-a014.tyron1133.workers.dev^
 ||shockaholic.net^
 ||shubham0202.github.io^
