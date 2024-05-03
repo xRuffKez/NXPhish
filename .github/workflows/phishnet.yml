@@ -1,8 +1,6 @@
 name: PhishFeed Update
 
 on:
-  schedule:
-    - cron: '*/10 * * * *'
 
 jobs:
   update-phishfeed:
