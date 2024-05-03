@@ -11,6 +11,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
         with:
+          ref: main
           fetch-depth: 0  # Fetch complete history for git log access
 
       - name: Set up Python
