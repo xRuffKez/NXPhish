@@ -11,6 +11,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 def check_dns_status(domain):
     try:
         resolver = dns.resolver.Resolver()
+        resolver.nameservers = ['8.8.8.8', '8.8.4.4', '1.1.1.1', '1.0.0.1']
         response = resolver.resolve(domain)
         return "OK"
     except dns.resolver.NXDOMAIN:
