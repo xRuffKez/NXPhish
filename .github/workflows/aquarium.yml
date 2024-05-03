@@ -31,7 +31,7 @@ jobs:
           echo "Committing and pushing changes..."
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add cache.db
+          git add -f cache.db
           git commit -m "Update Phishtank to Cache"
           git push
           echo "Changes committed and pushed successfully."
