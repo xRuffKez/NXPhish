@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 06:03:28
-! Number of phishing domains: 1098
+! Last updated: 2024-05-03 06:16:55
+! Number of phishing domains: 1096
 ! Number of NXDOMAIN domains: 13
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 237
@@ -352,7 +352,6 @@
 ||facebooksecuritys.blogspot.ro^
 ||facebookzaman.blogspot.com^
 ||facebookzaman.blogspot.ru^
-||facturation-netflix.com^
 ||falling-glade-209a.vlins8889076.workers.dev^
 ||fargas.klugh.my.id^
 ||fastnodesync.pages.dev^
@@ -888,7 +887,6 @@
 ||spotifycoin.club^
 ||square-cell-3082.charles-ourtime.workers.dev^
 ||square-smoke-4c62.4tjwj7mx.workers.dev^
-||ssb-amazon.top^
 ||ssq17.luckbaby.club^
 ||steamcommujiity.com^
 ||steamcommunitty.wallst.ru^
