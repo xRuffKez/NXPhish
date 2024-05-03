@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 18:52:36
-! Number of phishing domains: 670
+! Last updated: 2024-05-03 19:03:02
+! Number of phishing domains: 669
 ! Number of NXDOMAIN domains: 11
 ! Number of SERVFAIL domains: 2
 ! Number of domains removed by whitelist: 244
@@ -589,7 +589,6 @@
 ||spotify-clone31.netlify.app^
 ||spotifycoin.club^
 ||ssb-amazon.top^
-||ssl7034208ssl34247443682324.searchmarketingservices.dev^
 ||steamcommujiity.com^
 ||steamcommunitylog.chez.com^
 ||steamcomumnlty.ru^
