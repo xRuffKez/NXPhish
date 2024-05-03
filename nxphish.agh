@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 13:15:33
-! Number of phishing domains: 1473
+! Last updated: 2024-05-03 13:25:38
+! Number of phishing domains: 1477
 ! Number of NXDOMAIN domains: 19
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 244
@@ -145,6 +145,9 @@
 ||apple-privacypolice.com^
 ||apple-rabbit1320.com^
 ||apple-replicaevan.netlify.app^
+||apple.gpatmcq.com^
+||apple.hysboya.com^
+||apple.xsjboya.com^
 ||appleflys.com^
 ||apples-24x7-support.com^
 ||appleservices-online.com^
@@ -282,6 +285,7 @@
 ||binance-defi.vip^
 ||binances.christmas^
 ||binances.city^
+||binances.run^
 ||binpromocash.com^
 ||bkfbfgwvkv.fyfyvfytvghv.workers.dev^
 ||blockchainlogin.iwopop.com^
@@ -637,7 +641,6 @@
 ||instagramprofiileurl.blogspot.ug^
 ||instagramsupport.now.sh^
 ||instagramsupport.vercel.app^
-||instantgrami.work.gd^
 ||interface-git-fork-chenxsan-bugfix-fix-scroll-top-uniswap.vercel.app^
 ||intsa.vercel.app^
 ||irntoken-zc.biz^
@@ -962,6 +965,7 @@
 ||oon-1ur.pages.dev^
 ||open-6lz.pages.dev^
 ||openea.zor404.icu^
+||opensea-claim-com.freepet.shop^
 ||optimum3.weeblysite.com^
 ||orangeassitanceinf.wixsite.com^
 ||oss.kyro.pp.ua^
@@ -1179,6 +1183,7 @@
 ||shockaholic.net^
 ||shubham0202.github.io^
 ||shubhamsharma20061998.github.io^
+||siamakrasouli.ir^
 ||sibelco.liflic.in^
 ||sign-in-102339.weeblysite.com^
 ||signclosing.ymjls22.workers.dev^
@@ -1341,7 +1346,6 @@
 ||us-exodus-auth.webflow.io^
 ||userviceps.blogspot.com^
 ||userviceps.blogspot.hk^
-||usforgot-cloud-com.us^
 ||ushjdkcnm.hmwnu.my.id^
 ||usps.com.uspop.shop^
 ||usps.ecycztctij.top^
