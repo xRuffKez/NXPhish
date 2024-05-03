@@ -27,7 +27,6 @@ jobs:
         run: python process_feeds_2.py
 
       - name: Commit and Push Changes
-        if: success()
         run: |
           echo "Committing and pushing changes..."
           git config --local user.email "action@github.com"
