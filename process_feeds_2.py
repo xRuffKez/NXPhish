@@ -7,11 +7,6 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Function to check if a domain is valid
-def is_valid_domain(domain):
-    domain_regex = r'^([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9])\.([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9-]*[A-Za-z0-9])$'
-    return bool(re.match(domain_regex, domain))
-
 # Function to check DNS status for a domain
 def check_dns_status(domain):
     try:
@@ -55,10 +50,9 @@ def update_database():
         sqlite3.register_adapter(datetime, lambda val: val.isoformat())
         cursor = conn.cursor()
         for domain in domains:
-            if is_valid_domain(domain):
-                status = check_dns_status(domain)
-                if status == "OK":
-                    cursor.execute("INSERT OR IGNORE INTO domains (domain, last_seen, status) VALUES (?, ?, ?)", (domain, datetime.now(), status))
+            status = check_dns_status(domain)
+            if status == "OK":
+                cursor.execute("INSERT OR IGNORE INTO domains (domain, last_seen, status) VALUES (?, ?, ?)", (domain, datetime.now(), status))
         conn.commit()
         logging.info("Database updated successfully.")
     except Exception as e:
