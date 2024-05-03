@@ -3,9 +3,9 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 07:23:36
-! Number of phishing domains: 1103
-! Number of NXDOMAIN domains: 13
+! Last updated: 2024-05-03 07:33:16
+! Number of phishing domains: 1104
+! Number of NXDOMAIN domains: 14
 ! Number of SERVFAIL domains: 1
 ! Number of domains removed by whitelist: 244
 ! Domains removed after 60 days if not re-added through feed.
@@ -344,6 +344,7 @@
 ||facebook-ten-tawny.vercel.app^
 ||facebook.check-protect-account.me^
 ||facebookconnect.pages.dev^
+||facebooks.biz.id^
 ||facebooksecurity.blogspot.com^
 ||facebooksecurity.blogspot.com.by^
 ||facebooksecurity.blogspot.lt^
@@ -899,7 +900,6 @@
 ||steamcommujiity.com^
 ||steamcommunitty.wallst.ru^
 ||steamcommunitylog.chez.com^
-||steamncomnunlty.ru^
 ||storageapi-new.fleek.co^
 ||summer-mouse-6968.vhake.workers.dev^
 ||support-account-4428047634-19asb10.netlify.app^
@@ -1098,6 +1098,7 @@
 ||www.xn--qkr86qr3ifl0a.com^
 ||www1.appleid-find.info^
 ||www1.miamicrete.com^
+||wwwtoken.com^
 ||xeihdd3.ktt55.my.id^
 ||xke9a.ktt55.my.id^
 ||xvtizliizwrkjl0kymu9.pages.dev^
