@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-03 18:16:16
-! Number of phishing domains: 669
+! Last updated: 2024-05-03 18:26:50
+! Number of phishing domains: 670
 ! Number of NXDOMAIN domains: 11
 ! Number of SERVFAIL domains: 2
 ! Number of domains removed by whitelist: 244
@@ -110,6 +110,7 @@
 ||binance-defi.vip^
 ||binances.christmas^
 ||binances.city^
+||binances.rest^
 ||binances.run^
 ||blockchainlogin.iwopop.com^
 ||booking-pre-approved-3e6b-49e1-a66b-b0b89a1e46e1.alamr.cfd^
@@ -125,7 +126,6 @@
 ||cefaaren.blogspot.com^
 ||cf-ipfs.com^
 ||checkpoint-1.pages.dev^
-||claim-dana-kaget.javweb.biz.id^
 ||claim-dragon.web.app^
 ||click17.vercel.app^
 ||clicksclaim91.vercel.app^
@@ -279,6 +279,7 @@
 ||instagramprofiileurl.blogspot.rs^
 ||instagramprofiileurl.blogspot.sg^
 ||instagramprofiileurl.blogspot.ug^
+||instantgrami.work.gd^
 ||isaacmodale.wixsite.com^
 ||isoport.info^
 ||itsssl.com^
