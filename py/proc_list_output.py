@@ -78,8 +78,6 @@ def update_phishfeed(workspace):
                                 status = "NXDOMAIN"
                             except dns.resolver.NoAnswer:
                                 status = "SERVFAIL"
-                            except dns.resolver.REFUSED:
-                                status = "REFUSED"
                             except Exception as e:
                                 logger.error("Error resolving domain %s: %s", domain, e)
                                 status = "ERROR"
@@ -91,7 +89,7 @@ def update_phishfeed(workspace):
 
         cursor.execute("SELECT domain, status FROM domains ORDER BY domain")
         all_domains = cursor.fetchall()
-        phishing_domains = [row[0] for row in all_domains if row[1] != 'NXDOMAIN' and row[1] != 'SERVFAIL' and row[1] != 'REFUSED']
+        phishing_domains = [row[0] for row in all_domains if row[1] != 'NXDOMAIN' and row[1] != 'SERVFAIL']
         tld_counts = {}
         for domain in all_domains:
             tld = domain[0].split('.')[-1]
@@ -109,7 +107,6 @@ def update_phishfeed(workspace):
             output_file.write("! Number of phishing domains: {}\n".format(len(phishing_domains)))
             output_file.write("! Number of NXDOMAIN domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'NXDOMAIN'])))
             output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
-            output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'REFUSED'])))
             output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(domains_to_remove))))
             output_file.write("! Top 10 abused TLDs:\n")
             for tld, count in sorted_tlds:
