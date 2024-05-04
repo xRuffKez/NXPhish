@@ -27,10 +27,12 @@ def update_dns_status(verbose=True):
         domains_to_check = cursor.fetchall()
 
     with ThreadPoolExecutor(max_workers=4) as executor:
+        results = []
         for domain, _ in domains_to_check:
             if verbose:
                 print("Processing domain:", domain)
             result = resolve_domain(domain)
+            results.append(result)
             if verbose:
                 print("Result for", domain, ":", result)
 
