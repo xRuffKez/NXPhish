@@ -3,19 +3,19 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 15:59:43
-! Number of phishing domains: 983
+! Last updated: 2024-05-04 17:11:14
+! Number of phishing domains: 984
 ! Number of NXDOMAIN domains: 11
 ! Number of SERVFAIL domains: 2
 ! Number of domains removed by whitelist: 240
 ! Top 10 abused TLDs:
-! - dev: 254 (32.36%)
-! - com: 210 (26.75%)
-! - io: 199 (25.35%)
-! - app: 54 (6.88%)
-! - id: 17 (2.17%)
-! - net: 13 (1.66%)
-! - br: 13 (1.66%)
+! - dev: 254 (32.32%)
+! - com: 211 (26.84%)
+! - io: 199 (25.32%)
+! - app: 54 (6.87%)
+! - id: 17 (2.16%)
+! - net: 13 (1.65%)
+! - br: 13 (1.65%)
 ! - me: 10 (1.27%)
 ! - ng: 8 (1.02%)
 ! - xyz: 7 (0.89%)
@@ -93,6 +93,7 @@
 ||apple-premios.shop^
 ||apple-rabbit1320.com^
 ||apple-replicaevan.netlify.app^
+||apple.leica66.com^
 ||apple.xsjboya.com^
 ||appleflys.com^
 ||apples-24x7-support.com^
