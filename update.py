@@ -68,21 +68,21 @@ def update_phishfeed(workspace):
                     if not domain.startswith("http") and "/" in domain:
                         domain = domain.split("/")[0]
                     if domain not in whitelist_domains and domain not in domains_to_remove:
-                        try:
-                            response = resolver.resolve(domain)
-                            status = "OK"
-                        except dns.resolver.NXDOMAIN:
-                            status = "NXDOMAIN"
-                        except dns.resolver.NoAnswer:
-                            status = "SERVFAIL"
-                        except Exception as e:
-                            logger.error("Error resolving domain %s: %s", domain, e)
-                            status = "ERROR"
-                        cursor.execute("SELECT status FROM domains WHERE domain=?", (domain,))
-                        existing_status = cursor.fetchone()
-                        if existing_status is None or existing_status[0] != status:
+                        cursor.execute("SELECT domain FROM domains WHERE domain=?", (domain,))
+                        existing_domain = cursor.fetchone()
+                        if existing_domain is None:
+                            try:
+                                response = resolver.resolve(domain)
+                                status = "OK"
+                            except dns.resolver.NXDOMAIN:
+                                status = "NXDOMAIN"
+                            except dns.resolver.NoAnswer:
+                                status = "SERVFAIL"
+                            except Exception as e:
+                                logger.error("Error resolving domain %s: %s", domain, e)
+                                status = "ERROR"
                             current_time = datetime.now().isoformat()
-                            cursor.execute("INSERT OR REPLACE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
+                            cursor.execute("INSERT INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
         cursor.execute("DELETE FROM domains WHERE last_seen < ?", (max_age.isoformat(),))
         cursor.execute("COMMIT")
         conn.commit()
@@ -116,6 +116,7 @@ def update_phishfeed(workspace):
             output_file.write("\n")
             for domain in phishing_domains:
                 output_file.write("||{}^\n".format(domain))
+    conn.close()
     os.remove(csv_file_path)
 
 if __name__ == "__main__":
