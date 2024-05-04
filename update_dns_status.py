@@ -37,7 +37,7 @@ def update_dns_status():
     conn.close()
 
     # Multithreading DNS resolution
-    with ThreadPoolExecutor(max_workers=2) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         results = executor.map(resolve_domain, (domain[0] for domain in domains))
 
     # Connect again to update database
