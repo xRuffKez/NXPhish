@@ -17,7 +17,7 @@ def is_valid_domain(domain):
 
 def load_whitelist_domains():
     try:
-        response = requests.get("https://raw.githubusercontent.com/xRuffKez/NXPhish/main/white.list")
+        response = requests.get("https://raw.githubusercontent.com/xRuffKez/NXPhish/main/stor/white.list")
         response.raise_for_status()
         return set(response.text.splitlines())
     except requests.RequestException as e:
@@ -38,7 +38,7 @@ def download_extract_csv(url, destination_folder):
         return False
 
 def update_phishfeed(workspace):
-    db_path = os.path.join(workspace, 'cache.db')
+    db_path = os.path.join(workspace, 'stor/cache.db')
     feed_path = os.path.join(workspace, 'filtered_feed.txt')
     output_path = os.path.join(workspace, 'nxphish.agh')
     max_age = datetime.now() - timedelta(days=60)
