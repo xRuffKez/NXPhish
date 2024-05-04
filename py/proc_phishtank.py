@@ -28,7 +28,7 @@ def process_domains_not_in_database():
         domains = response.text.splitlines()
         domains = [domain.strip() for domain in domains if domain.strip() and not domain.strip().startswith('#')]
         
-        conn = sqlite3.connect("cache.db")
+        conn = sqlite3.connect("stor/cache.db")
         cursor = conn.cursor()
         
         cursor.execute("SELECT domain FROM domains")
