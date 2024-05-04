@@ -32,6 +32,11 @@ plt.yticks(fontsize=10)  # Customize y-axis tick font size
 plt.grid(True, linestyle='--', alpha=0.5)  # Add grid lines with custom style and transparency
 plt.tight_layout()
 
+# Customize x-axis to show only dates from the last 60 days without future dates
+date_range = pd.date_range(start=start_date, end=datetime.now())
+date_range = date_range[date_range <= datetime.now()]
+plt.xticks(date_range.date, fontsize=10)  # Show dates only
+
 # Add branding text
 branding_index = min(len(daily_counts.index) - 1, 10)  # Ensure we don't go out of bounds
 plt.text(daily_counts.index[branding_index], daily_counts.values.max() * 0.9, 'NXPhish', fontsize=14, color='#FF5733', fontweight='bold')  # Adjust position and style
