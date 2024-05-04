@@ -31,4 +31,5 @@ jobs:
           git config --global user.name "GitHub Actions"
           git add stor/stats.png
           git commit -m "Update stats.png [skip ci]"
+          git pull
           git push
