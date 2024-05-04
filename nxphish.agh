@@ -3,16 +3,16 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 17:11:14
-! Number of phishing domains: 984
+! Last updated: 2024-05-04 17:37:03
+! Number of phishing domains: 985
 ! Number of NXDOMAIN domains: 11
 ! Number of SERVFAIL domains: 2
 ! Number of domains removed by whitelist: 240
 ! Top 10 abused TLDs:
-! - dev: 254 (32.32%)
-! - com: 211 (26.84%)
-! - io: 199 (25.32%)
-! - app: 54 (6.87%)
+! - dev: 254 (32.27%)
+! - com: 212 (26.94%)
+! - io: 199 (25.29%)
+! - app: 54 (6.86%)
 ! - id: 17 (2.16%)
 ! - net: 13 (1.65%)
 ! - br: 13 (1.65%)
@@ -392,6 +392,7 @@
 ||liveprivatevideo2.malaysia2024.my.id^
 ||lnstagram.xn--hlp-kra.com^
 ||login-microsoftonline.pages.dev^
+||login.coinbase.bmgp.com^
 ||loginaccount10.wixsite.com^
 ||loginmailaccount1.wixsite.com^
 ||loginn-akun-dana-id.get-csinfo23.biz.id^
