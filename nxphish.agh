@@ -3,15 +3,15 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 22:38:43
-! Number of phishing domains: 50735
+! Last updated: 2024-05-04 22:45:04
+! Number of phishing domains: 50736
 ! Number of NXDOMAIN domains: 81955
 ! Number of SERVFAIL domains: 1799
 ! Number of domains removed by whitelist: 240
 ! Top 10 abused TLDs:
-! - com: 57281 (58.05%)
+! - com: 57281 (58.04%)
 ! - dev: 6362 (6.45%)
-! - org: 5991 (6.07%)
+! - org: 5992 (6.07%)
 ! - app: 5488 (5.56%)
 ! - net: 5343 (5.41%)
 ! - xyz: 5100 (5.17%)
@@ -43368,6 +43368,7 @@
 ||unstoppable-domains.top^
 ||unstoppabledomains.games^
 ||unstoppabledomains.metaducks.com.ru^
+||unsual-wellsfargo-bank.duckdns.org^
 ||unswapp.org^
 ||unukf8.webwave.dev^
 ||unusualaccountrestricted90.github.io^
