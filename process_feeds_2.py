@@ -2,12 +2,10 @@ import sqlite3
 import requests
 import dns.resolver
 from datetime import datetime
-import re
 import logging
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Function to check DNS status for a domain
 def check_dns_status(domain):
     try:
         resolver = dns.resolver.Resolver()
@@ -22,32 +20,38 @@ def check_dns_status(domain):
         logging.error("Error resolving domain %s: %s", domain, e)
         return "ERROR"
 
-# Function to process domains from the given URL
-def process_domains():
+def process_domains_not_in_database():
     url = "https://raw.githubusercontent.com/Zaczero/pihole-phishtank/main/hosts.txt"
     try:
         response = requests.get(url)
         response.raise_for_status()
         domains = response.text.splitlines()
-        # Ignore empty lines and lines starting with '#'
         domains = [domain.strip() for domain in domains if domain.strip() and not domain.strip().startswith('#')]
-        return domains
+        
+        conn = sqlite3.connect("cache.db")
+        cursor = conn.cursor()
+        
+        cursor.execute("SELECT domain FROM domains")
+        existing_domains = set(row[0] for row in cursor.fetchall())
+        
+        domains_not_in_database = [domain for domain in domains if domain not in existing_domains]
+        
+        conn.close()
+        
+        return domains_not_in_database
     except requests.RequestException as e:
         logging.error("Failed to fetch domains from %s: %s", url, e)
         return []
 
-# Function to update the database with new domains
 def update_database():
     db_path = "cache.db"
-    domains = process_domains()
+    domains = process_domains_not_in_database()
     if not domains:
-        logging.info("No domains to process.")
+        logging.info("No new domains to process.")
         return
 
     try:
-        # Connect to the database
         conn = sqlite3.connect(db_path)
-        # Register the custom adapter for datetime objects
         sqlite3.register_adapter(datetime, lambda val: val.isoformat())
         cursor = conn.cursor()
         for domain in domains:
@@ -59,10 +63,8 @@ def update_database():
     except Exception as e:
         logging.error("Failed to update database: %s", e)
     finally:
-        # Close the database connection
         conn.close()
 
-# Main function
 def main():
     update_database()
 
