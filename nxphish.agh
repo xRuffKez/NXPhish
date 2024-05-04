@@ -3,13 +3,13 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 08:07:01
-! Number of phishing domains: 23823
+! Last updated: 2024-05-04 08:08:06
+! Number of phishing domains: 23826
 ! Number of NXDOMAIN domains: 1668
 ! Number of SERVFAIL domains: 127
 ! Number of domains removed by whitelist: 240
 ! Top 10 abused TLDs:
-! - com: 12291 (52.49%)
+! - com: 12293 (52.49%)
 ! - dev: 4941 (21.1%)
 ! - app: 2419 (10.33%)
 ! - org: 977 (4.17%)
@@ -10841,6 +10841,7 @@
 ||home-107844.weeblysite.com^
 ||home-107866.weeblysite.com^
 ||home-107903.weeblysite.com^
+||home-107907.weeblysite.com^
 ||home-108180.weeblysite.com^
 ||home-108245.weeblysite.com^
 ||home-108532.weeblysite.com^
@@ -11900,6 +11901,7 @@
 ||journalmalaysia.com^
 ||jouturez.firebaseapp.com^
 ||jouturez.web.app^
+||jpagods.vip^
 ||jpmorganpurchase.firebaseapp.com^
 ||jpmorganpurchase.web.app^
 ||jptgl.pages.dev^
@@ -12088,6 +12090,7 @@
 ||kaliteiptvtr4.com^
 ||kaliteserverip.com^
 ||kamagabauwamgbedekammaaakyematayebeihunanyanafomadiebeorde.pages.dev^
+||kanamachitg.com^
 ||kansasstateuniversiity.ukit.me^
 ||karlgis.pages.dev^
 ||karresults-nic-in.in^
