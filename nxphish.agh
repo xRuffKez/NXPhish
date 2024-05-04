@@ -3,9 +3,9 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 02:34:30
-! Number of phishing domains: 24040
-! Number of NXDOMAIN domains: 1670
+! Last updated: 2024-05-04 02:44:33
+! Number of phishing domains: 24037
+! Number of NXDOMAIN domains: 1671
 ! Number of SERVFAIL domains: 126
 ! Number of domains removed by whitelist: 244
 ! Top 10 abused TLDs:
@@ -17721,7 +17721,6 @@
 ||reviews-fakessboockpagescontasertpageskilike-2024.info.vn^
 ||reviews-page-57d26.firebaseapp.com^
 ||reviews-page-57d26.web.app^
-||revisionaportale-app.com^
 ||revojutiofrtis.firebaseapp.com^
 ||revojutiofrtis.web.app^
 ||revokecash.fi^
@@ -18519,7 +18518,6 @@
 ||servinfo-client.web.app^
 ||servismail6.figomif911.workers.dev^
 ||serviupdate.weebly.com^
-||serviziorestrizione.com^
 ||servupgrd-2024.weebly.com^
 ||serwer2434649.home.pl^
 ||serwer2453964.home.pl^
@@ -23990,7 +23988,6 @@
 ||zinu-access.pages.dev^
 ||zinzus.pages.dev^
 ||zip-uspn.com^
-||zissbrmaey.com^
 ||zjooas.webwave.dev^
 ||zjpxt.com^
 ||zkapes.pages.dev^
