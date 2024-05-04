@@ -33,7 +33,8 @@ plt.grid(True, linestyle='--', alpha=0.5)  # Add grid lines with custom style an
 plt.tight_layout()
 
 # Add branding text
-plt.text(daily_counts.index[10], daily_counts.values.max() * 0.9, 'NXPhish', fontsize=14, color='#FF5733', fontweight='bold')  # Adjust position and style
+branding_index = min(len(daily_counts.index) - 1, 10)  # Ensure we don't go out of bounds
+plt.text(daily_counts.index[branding_index], daily_counts.values.max() * 0.9, 'NXPhish', fontsize=14, color='#FF5733', fontweight='bold')  # Adjust position and style
 
 # Save the graph as an image
 os.makedirs('stor', exist_ok=True)
