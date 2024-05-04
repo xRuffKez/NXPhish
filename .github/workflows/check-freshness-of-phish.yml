@@ -31,3 +31,11 @@ jobs:
         git add cache.db
         git commit -m "Update DNS status"
         git push
+
+    - name: Trigger Random Database Cleanup
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/${{ github.repository_owner }}/${{ github.event.repository.name }}/actions/workflows/aquarium.yml/dispatches \
+            -d '{"ref":"main"}'
