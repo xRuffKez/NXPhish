@@ -89,7 +89,7 @@ def update_phishfeed(workspace):
 
         cursor.execute("SELECT domain, status FROM domains ORDER BY domain")
         all_domains = cursor.fetchall()
-        phishing_domains = [row[0] for row in all_domains if row[1] == 'OK']
+        phishing_domains = [row[0] for row in all_domains if row[1] != 'NXDOMAIN' and row[1] != 'SERVFAIL']
         tld_counts = {}
         for domain in all_domains:
             tld = domain[0].split('.')[-1]
