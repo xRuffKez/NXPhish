@@ -3,22 +3,22 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 02:18:42
-! Number of phishing domains: 24041
-! Number of NXDOMAIN domains: 17
-! Number of SERVFAIL domains: 3
+! Last updated: 2024-05-04 02:34:30
+! Number of phishing domains: 24040
+! Number of NXDOMAIN domains: 1670
+! Number of SERVFAIL domains: 126
 ! Number of domains removed by whitelist: 244
 ! Top 10 abused TLDs:
-! - com: 11756 (52.75%)
-! - dev: 4956 (22.24%)
-! - app: 2434 (10.92%)
-! - org: 962 (4.32%)
-! - io: 514 (2.31%)
-! - site: 404 (1.81%)
-! - me: 385 (1.73%)
-! - link: 347 (1.56%)
-! - id: 278 (1.25%)
-! - top: 249 (1.12%)
+! - com: 12370 (52.33%)
+! - dev: 5012 (21.2%)
+! - app: 2441 (10.33%)
+! - org: 989 (4.18%)
+! - top: 783 (3.31%)
+! - io: 516 (2.18%)
+! - site: 413 (1.75%)
+! - me: 388 (1.64%)
+! - cn: 378 (1.6%)
+! - link: 348 (1.47%)
 ! Domains removed after 60 days if not re-added through feed.
 
 ||00-ird.weebly.com^
@@ -13622,7 +13622,6 @@
 ||me7zbkiu5.duckdns.org^
 ||meadow-star-meter.glitch.me^
 ||meaier-1e60.aaumdlayetreoks.workers.dev^
-||meaine.org^
 ||meamasklogin8.godaddysites.com^
 ||meaoee-fc3f.elamzioehr.workers.dev^
 ||meartoklnbhgta.firebaseapp.com^
@@ -17840,6 +17839,7 @@
 ||rommangin.weebly.com^
 ||ron-supp.pages.dev^
 ||ronamon.firebaseapp.com^
+||rondo.su^
 ||rondolanuce.firebaseapp.com^
 ||rondpoint-trajet.firebaseapp.com^
 ||rondpoint-trajet.web.app^
@@ -23617,7 +23617,6 @@
 ||xxzcajadeahorro.webcindario.com^
 ||xy2.eu^
 ||xyj6dbd42.duckdns.org^
-||xylem.ewebtel.com^
 ||xymeulukmt.duckdns.org^
 ||xyxuplxszb.duckdns.org^
 ||xz2.ikun6.love^
