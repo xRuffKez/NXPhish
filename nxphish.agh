@@ -3,22 +3,22 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 00:24:00
-! Number of phishing domains: 24007
+! Last updated: 2024-05-04 01:01:45
+! Number of phishing domains: 24041
 ! Number of NXDOMAIN domains: 15
 ! Number of SERVFAIL domains: 3
 ! Number of domains removed by whitelist: 244
 ! Top 10 abused TLDs:
-! - com: 11729 (52.71%)
-! - dev: 4955 (22.27%)
-! - app: 2433 (10.93%)
-! - org: 958 (4.31%)
+! - com: 11755 (52.75%)
+! - dev: 4956 (22.24%)
+! - app: 2434 (10.92%)
+! - org: 962 (4.32%)
 ! - io: 514 (2.31%)
-! - site: 404 (1.82%)
+! - site: 404 (1.81%)
 ! - me: 385 (1.73%)
 ! - link: 347 (1.56%)
 ! - id: 278 (1.25%)
-! - top: 248 (1.11%)
+! - top: 249 (1.12%)
 ! Domains removed after 60 days if not re-added through feed.
 
 ||00-ird.weebly.com^
@@ -37,6 +37,7 @@
 ||02d772vb82.webcindario.com^
 ||0365online.pages.dev^
 ||0365viewsonline.pages.dev^
+||03ty0g1g3.duckdns.org^
 ||04283.weebly.com^
 ||0439ve.weebly.com^
 ||048stroninternetowych.weebly.com^
@@ -5718,6 +5719,7 @@
 ||boepsetle.web.app^
 ||bogged-finance.github.io^
 ||bogotaweb.kinahost.pw^
+||bohli.online^
 ||boisdargentbio-fabios.firebaseapp.com^
 ||boisdargentbio-fabios.web.app^
 ||boite-vocale-repondeur.hubside.fr^
@@ -8001,6 +8003,7 @@
 ||de-ing.firebaseapp.com^
 ||de-ing.web.app^
 ||de.dssd-upsp.shop^
+||de037145fb1d7db85152b68cc671adcf.dashboard-spoti8875110132415678432168.pages.dev^
 ||de10027.firebaseapp.com^
 ||de10027.web.app^
 ||de25.lastinv-files.workers.dev^
@@ -11572,6 +11575,7 @@
 ||instagramprofiileurl.blogspot.ug^
 ||instagrams.free.nf^
 ||instagramsupport.vercel.app^
+||instalead.app^
 ||install-bonus-72fc.redironinstall.workers.dev^
 ||instantgrami.work.gd^
 ||instgram.azurewebsites.net^
@@ -11887,6 +11891,7 @@
 ||jhl.rajixa1446.workers.dev^
 ||jhldsrconfig.weebly.com^
 ||jhvsdsjhvbs.fyfyvfytvghv.workers.dev^
+||jhwjzp.com^
 ||jhytrtdcbvbcxzaeqwetrtuyiuilkjnmbvcvx.pages.dev^
 ||jiafensi.com^
 ||jicot.pages.dev^
@@ -11903,6 +11908,7 @@
 ||jiophones.epizy.com^
 ||jiqimao2.top^
 ||jira.allegrolokalnie.pk^
+||jiugui.usp-in.top^
 ||jiuytgatt.weebly.com^
 ||jiyoe7.webwave.dev^
 ||jj-ig.vercel.app^
@@ -12364,6 +12370,7 @@
 ||l2nxj4.webwave.dev^
 ||l30inp6s4.duckdns.org^
 ||l52wp2.webwave.dev^
+||l5ig2fdnt.duckdns.org^
 ||l6et5c.webwave.dev^
 ||l6r943.csb.app^
 ||l7om8h.webwave.dev^
@@ -18311,6 +18318,7 @@
 ||seeveattbnm.pory.app^
 ||seeview.pages.dev^
 ||sefaz-pb-gob.weebly.com^
+||seffasee.blogspot.com^
 ||segreteria-telefonica.hubside.fr^
 ||seguridad-bancolombia.012.zya.me^
 ||seguridad-bancolombia.02.zya.me^
@@ -21198,7 +21206,31 @@
 ||urpst.com^
 ||urpyg.com^
 ||urpyk.com^
+||ursgw.com^
+||ursgy.com^
 ||urshjaywernaedgagerfwsdhvxiuegghdu1.pages.dev^
+||urskb.com^
+||urskq.com^
+||urskx.com^
+||ursrc.com^
+||ursrf.com^
+||ursrj.com^
+||ursrk.com^
+||ursrs.com^
+||ursrz.com^
+||urstf.com^
+||urstg.com^
+||urstz.com^
+||urswb.com^
+||urswc.com^
+||urswf.com^
+||urswj.com^
+||urswk.com^
+||urswx.com^
+||urswz.com^
+||ursyq.com^
+||ursyr.com^
+||ursyw.com^
 ||urtbp.com^
 ||urtbr.com^
 ||urtbt.com^
@@ -23481,6 +23513,7 @@
 ||xc6u1euw5.duckdns.org^
 ||xca.pages.dev^
 ||xcavqnavct.duckdns.org^
+||xcb6an.duckdns.org^
 ||xcbrf.aqgiu.xyz^
 ||xcbrfu.pcdsd.xyz^
 ||xcbrfy.yvvht.xyz^
@@ -23573,6 +23606,7 @@
 ||xvqlysmged.duckdns.org^
 ||xvrlfznhey.duckdns.org^
 ||xvtry4.webwave.dev^
+||xw2zgkt.duckdns.org^
 ||xw9i6lmif.duckdns.org^
 ||xwh46oy5.duckdns.org^
 ||xwhatsappgroup.pages.dev^
