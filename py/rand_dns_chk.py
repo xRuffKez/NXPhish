@@ -11,7 +11,9 @@ def resolve_domain(domain):
         return "OK"
     except dns.resolver.NXDOMAIN:
         return None
-    except dns.resolver.NoAnswer:
+    except dns.resolver.SERVFAIL:
+        return None
+    except dns.resolver.REFUSED:
         return None
     except Exception as e:
         return str(e)
@@ -23,7 +25,7 @@ def update_dns_status(verbose=True):
     with sqlite3.connect(db_path) as conn:
         cursor = conn.cursor()
         cursor.execute("SELECT domain, status FROM domains WHERE status NOT IN (?, ?) ORDER BY RANDOM() LIMIT 5000",
-                       ("NXDOMAIN", "SERVFAIL"))
+                       ("NXDOMAIN", "SERVFAIL", "REFUSED"))
         domains_to_check = cursor.fetchall()
 
     with ThreadPoolExecutor(max_workers=4) as executor:
