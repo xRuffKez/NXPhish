@@ -28,8 +28,11 @@ daily_counts = df.groupby([df['last_seen'].dt.date, 'status']).size().unstack(fi
 yesterday = datetime.now() - timedelta(days=1)
 daily_counts_yesterday = df[df['last_seen'].dt.date == yesterday.date()].groupby('status').size()
 
+# Fill missing values with zeros
+daily_counts_yesterday = daily_counts_yesterday.reindex(daily_counts.columns, fill_value=0)
+
 # Calculate changes in counts compared to yesterday
-changes_from_yesterday = daily_counts.sub(daily_counts_yesterday, fill_value=0)
+changes_from_yesterday = daily_counts.subtract(daily_counts_yesterday)
 
 # Get top 10 abused TLDs for today and yesterday
 top_tlds_today = df[(df['status'] == 'OK') & (df['last_seen'].dt.date == datetime.now().date())]['domain'].apply(lambda x: x.split('.')[-1]).value_counts().head(10)
