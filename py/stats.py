@@ -23,8 +23,11 @@ daily_counts_ok = df[df['status'] == 'OK'].groupby(df['last_seen'].dt.date).size
 daily_counts_nxdomain = df[df['status'] == 'NXDOMAIN'].groupby(df['last_seen'].dt.date).size()
 daily_counts_servfail = df[df['status'] == 'SERVFAIL'].groupby(df['last_seen'].dt.date).size()
 
-# Get top 10 abused TLDs with DNS status OK
-top_tlds = df[df['status'] == 'OK']['domain'].apply(lambda x: x.split('.')[-1]).value_counts().head(10)
+# Get data for yesterday
+yesterday = (datetime.now() - timedelta(days=1)).strftime('%Y-%m-%d')
+daily_counts_ok_yesterday = df[(df['status'] == 'OK') & (df['last_seen'].dt.date == yesterday)].shape[0]
+daily_counts_nxdomain_yesterday = df[(df['status'] == 'NXDOMAIN') & (df['last_seen'].dt.date == yesterday)].shape[0]
+daily_counts_servfail_yesterday = df[(df['status'] == 'SERVFAIL') & (df['last_seen'].dt.date == yesterday)].shape[0]
 
 # Create the figure with subplots
 fig = go.Figure()
@@ -40,15 +43,31 @@ fig.update_layout(title='Daily Phishing Domain Counts (Last 60 Days)',
                   yaxis_title='Count',
                   xaxis=dict(tickangle=-45),
                   xaxis_range=[start_date, datetime.now()],  # Adjust x-axis range
-                  template='plotly_white')
+                  template='plotly_white',
+                  legend=dict(font=dict(size=12)))  # Adjust legend font size
 
 # Create a subplot for top 10 abused TLDs
-fig.add_trace(go.Bar(x=top_tlds.index[::-1], y=top_tlds.values[::-1], name='TLDs', marker_color='lightsalmon', yaxis='y2'))
+fig.add_trace(go.Bar(x=top_tlds_today.index[::-1], y=top_tlds_today.values[::-1], name='TLDs', marker_color='lightsalmon', yaxis='y2'))
 
 # Update layout for subplot
 fig.update_layout(yaxis2=dict(title='TLD Count', anchor='x2', overlaying='y', side='right'),  # Adjust y-axis2 properties
                   template='plotly_white',
                   height=800)  # Adjust height of the plot
+
+# Add annotations for statistics in text format
+stats_text = f"""
+Statistics:
+- Number of OK domains: {daily_counts_ok.sum()} ({daily_counts_ok.sum() - daily_counts_ok_yesterday} from yesterday)
+- Number of NXDOMAIN domains: {daily_counts_nxdomain.sum()} ({daily_counts_nxdomain.sum() - daily_counts_nxdomain_yesterday} from yesterday)
+- Number of SERVFAIL domains: {daily_counts_servfail.sum()} ({daily_counts_servfail.sum() - daily_counts_servfail_yesterday} from yesterday)
+
+Top 10 Abused TLDs (Today):
+{top_tlds_today.to_string()}
+
+Change from Yesterday:
+{top_tlds_change.to_string()}
+"""
+fig.add_annotation(text=stats_text, xref='paper', yref='paper', x=0.5, y=-0.3, showarrow=False)
 
 # Save the graph as an image
 os.makedirs('stor', exist_ok=True)
