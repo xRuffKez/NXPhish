@@ -28,7 +28,7 @@ def process_domains_not_in_database():
         response.raise_for_status()
         domains = response.json()
         
-        conn = sqlite3.connect("cache.db")
+        conn = sqlite3.connect("stor/cache.db")
         cursor = conn.cursor()
         
         cursor.execute("SELECT domain FROM domains")
