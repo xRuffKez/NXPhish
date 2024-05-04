@@ -29,6 +29,13 @@ daily_counts_ok_yesterday = df[(df['status'] == 'OK') & (df['last_seen'].dt.date
 daily_counts_nxdomain_yesterday = df[(df['status'] == 'NXDOMAIN') & (df['last_seen'].dt.date == yesterday)].shape[0]
 daily_counts_servfail_yesterday = df[(df['status'] == 'SERVFAIL') & (df['last_seen'].dt.date == yesterday)].shape[0]
 
+# Get top 10 abused TLDs with DNS status OK for today and yesterday
+top_tlds_today = df[(df['status'] == 'OK') & (df['last_seen'].dt.date == datetime.now().strftime('%Y-%m-%d'))]['domain'].apply(lambda x: x.split('.')[-1]).value_counts().head(10)
+top_tlds_yesterday = df[(df['status'] == 'OK') & (df['last_seen'].dt.date == yesterday)]['domain'].apply(lambda x: x.split('.')[-1]).value_counts().head(10)
+
+# Calculate changes in top TLDs compared to yesterday
+top_tlds_change = top_tlds_today.sub(top_tlds_yesterday, fill_value=0)
+
 # Create the figure with subplots
 fig = go.Figure()
 
