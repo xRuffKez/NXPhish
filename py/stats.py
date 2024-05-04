@@ -43,11 +43,10 @@ fig.update_layout(title='Daily Phishing Domain Counts (Last 60 Days)',
                   template='plotly_white')
 
 # Create a subplot for top 10 abused TLDs
-fig.add_trace(go.Bar(x=top_tlds.index[::-1], y=top_tlds.values[::-1], name='TLDs', marker_color='lightsalmon'))
+fig.add_trace(go.Bar(x=top_tlds.index[::-1], y=top_tlds.values[::-1], name='TLDs', marker_color='lightsalmon', yaxis='y2'))
 
 # Update layout for subplot
-fig.update_layout(yaxis2_title='TLD Count',  # Y-axis title for subplot
-                  yaxis2=dict(anchor='x2', overlaying='y', side='right'),  # Position and overlaying of y-axis
+fig.update_layout(yaxis2=dict(title='TLD Count', anchor='x2', overlaying='y', side='right'),  # Adjust y-axis2 properties
                   template='plotly_white',
                   height=800)  # Adjust height of the plot
 
