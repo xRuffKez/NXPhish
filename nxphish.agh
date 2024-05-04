@@ -3,14 +3,13 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 19:48:58
-! Number of phishing domains: 24149
+! Last updated: 2024-05-04 19:56:31
+! Number of phishing domains: 24150
 ! Number of NXDOMAIN domains: 1556
 ! Number of SERVFAIL domains: 97
-! Number of SERVFAIL domains: 0
 ! Number of domains removed by whitelist: 240
 ! Top 10 abused TLDs:
-! - com: 12294 (52.18%)
+! - com: 12295 (52.18%)
 ! - dev: 4982 (21.14%)
 ! - app: 2415 (10.25%)
 ! - org: 942 (4.0%)
@@ -13161,6 +13160,7 @@
 ||m-pro.hubside.fr^
 ||m-pros.hubside.fr^
 ||m.77225115.com^
+||m.apple.ekolpano.com^
 ||m.help.insecurpage.workers.dev^
 ||m.telegram-xy.com^
 ||m04hpqw63.ukit.me^
