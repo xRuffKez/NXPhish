@@ -17,8 +17,6 @@ def check_dns_status(domain):
         return "NXDOMAIN"
     except dns.resolver.NoAnswer:
         return "SERVFAIL"
-    except dns.resolver.REFUSED:
-        return "REFUSED"
     except Exception as e:
         logging.error("Error resolving domain %s: %s", domain, e)
         return "ERROR"
@@ -61,7 +59,7 @@ def update_database():
             result = cursor.fetchone()
             if result[0] == 0:
                 status = check_dns_status(domain)
-                if status in ["OK", "NXDOMAIN", "SERVFAIL", "REFUSED", "ERROR"]:
+                if status in ["OK", "NXDOMAIN", "SERVFAIL", "ERROR"]:
                     cursor.execute("INSERT INTO domains (domain, last_seen, status) VALUES (?, ?, ?)", (domain, datetime.now(), status))
             else:
                 logging.info("Domain %s already exists in the database, skipping DNS check.", domain)
