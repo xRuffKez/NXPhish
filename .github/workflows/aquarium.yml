@@ -25,14 +25,14 @@ jobs:
           pip install dnspython
 
       - name: Process Phishtank Domains
-        run: python process_feeds_2.py
+        run: python py/proc_phishtank.py
 
       - name: Commit and Push Changes
         run: |
           echo "Committing and pushing changes..."
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -f cache.db
+          git add -f stor/cache.db
           git commit -m "Update Phishtank to Cache"
           git pull origin main --ff-only  # Pull changes from the remote repository
           git push
