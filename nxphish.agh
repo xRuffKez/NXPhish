@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 02:50:55
-! Number of phishing domains: 23840
+! Last updated: 2024-05-04 02:51:48
+! Number of phishing domains: 23855
 ! Number of NXDOMAIN domains: 1654
 ! Number of SERVFAIL domains: 128
 ! Number of domains removed by whitelist: 244
@@ -95,6 +95,7 @@
 ||0w4vew3.duckdns.org^
 ||0w73s727sh73ushsy377shartcc36ff0aee0039ff0.pages.dev^
 ||0web.pages.dev^
+||0xo5uk1.duckdns.org^
 ||0y87h4ni9.duckdns.org^
 ||1-88y.pages.dev^
 ||1-inch.vercel.app^
@@ -649,6 +650,7 @@
 ||96fdc00ebc43cb5105b240b7f528dbf718bed7567d62799635359bed0a.pages.dev^
 ||975b1fbf.1266b8dd0c622df28d9af103.workers.dev^
 ||978652324598773248676.hyperphp.com^
+||98.qvicmj.workers.dev^
 ||983bayg.duckdns.org^
 ||9876543.pages.dev^
 ||98765467890.jehsleek.workers.dev^
@@ -1025,6 +1027,7 @@
 ||adoring-saha-b50c1a.netlify.app^
 ||adp-payroll-verify.kijab73941.workers.dev^
 ||adrescotargo.firebaseapp.com^
+||adrescotargo.web.app^
 ||adrianabilea.com^
 ||ads-manage-verify.miracle-chain.com^
 ||ads-manager-team-sp-accounts-restricted-01.vercel.app^
@@ -3082,6 +3085,7 @@
 ||authflow-template.webflow.io^
 ||authgrup.firebaseapp.com^
 ||authgrup.web.app^
+||authnovopt.com^
 ||authorange-page-login.vercel.app^
 ||authorise-added-device.firebaseapp.com^
 ||authorise-apple.web.app^
@@ -4099,6 +4103,7 @@
 ||bafybeibhstpbgvp4rqmisle5dd7azz7gpj5zk2wtfsw3loz57a5rh6f74e.ipfs.cf-ipfs.com^
 ||bafybeibiciodyuhqob45epu4pfnznexovmfmy4y3ydwmpfp56viuhk72sq.ipfs.cf-ipfs.com^
 ||bafybeibidzv65zgeiorlpivmhkskoeydrqjsceprs7fu6n4hsefkq2of4i.ipfs.cf-ipfs.com^
+||bafybeibifa3faxhatjifnn3kadzfenihmfbsys6cxfob366ummxxbisyai.ipfs.cf-ipfs.com^
 ||bafybeibifu4huxyo6agqu6lq5irjutqvh23ttugevtspcqqptt343zvgdy.ipfs.cf-ipfs.com^
 ||bafybeibig2644djc3ynur4vz74lvpso7hhg4mdy4okd5yrbnls76bqlsoi.ipfs.cf-ipfs.com^
 ||bafybeibig7vmruppemc72mztvq4yhdrujcdtiaoxsm6fhwsiscuuygq2fi.ipfs.cf-ipfs.com^
@@ -5477,6 +5482,7 @@
 ||bhnyjtvhyk.duckdns.org^
 ||bi-enlinea.webcindario.com^
 ||bi-live-industrial-09.atsnx.com^
+||bibienvenido.webcindario.com^
 ||biemadepur.firebaseapp.com^
 ||biemadepur.web.app^
 ||bienbonvoyage.com^
@@ -7391,7 +7397,6 @@
 ||consantration-agire.firebaseapp.com^
 ||consantration-agire.web.app^
 ||consensys-verification.com^
-||consentirestrizioni-web.com^
 ||consopostfrcom.firebaseapp.com^
 ||consopostfrcom.web.app^
 ||consorcio.ntic.cl^
@@ -7419,7 +7424,6 @@
 ||control-keys.pages.dev^
 ||control-session-user-active.vercel.app^
 ||controle-deestoque.com^
-||controllaportale-elimina.com^
 ||controlloareaprivata.com^
 ||controllowebapp.com^
 ||conttacdirectfr.firebaseapp.com^
@@ -7680,6 +7684,7 @@
 ||customcedarfencesmichigan.com^
 ||customer-care-101830.square.site^
 ||customer-care-101830.weeblysite.com^
+||customer-p.firebaseapp.com^
 ||customer-p.web.app^
 ||customer-update.com^
 ||customeralertserviceatt.weebly.com^
@@ -11169,6 +11174,7 @@
 ||id48572394823472512.firebaseapp.com^
 ||id48572394823472512.web.app^
 ||id8123784123332131.firebaseapp.com^
+||id8123784123332131.web.app^
 ||id8237462222123.firebaseapp.com^
 ||id8237462222123.web.app^
 ||id8237482374712374123.firebaseapp.com^
@@ -12482,6 +12488,7 @@
 ||linktoken.supply^
 ||linktpayingaccount.com^
 ||linkupdate35.weeblysite.com^
+||linkuperupdate.weeblysite.com^
 ||linnenlaw.myportfolio.com^
 ||linphomite.firebaseapp.com^
 ||linphomite.web.app^
@@ -12578,9 +12585,11 @@
 ||lo-barnechea-6a202.web.app^
 ||lo0aow-c191.temp-onlineserv.workers.dev^
 ||lo9pg7.webwave.dev^
+||load-page-1000452879.firebaseapp.com^
 ||load-page-1000452879.web.app^
 ||load-page-100054287954.firebaseapp.com^
 ||load-page-100054287954.web.app^
+||load-page-genius-1000542978.firebaseapp.com^
 ||load-page-genius-1000542978.web.app^
 ||load-page-joanson-10054286.firebaseapp.com^
 ||load-page-joanson-10054286.web.app^
@@ -12978,6 +12987,7 @@
 ||mabnpparbas.vercel.app^
 ||mac01.atsnx.com^
 ||macasjuz.blogspot.com^
+||machine-service.pages.dev^
 ||macimixrt.firebaseapp.com^
 ||macimixrt.web.app^
 ||madcashxfinity.weebly.com^
@@ -15142,6 +15152,7 @@
 ||northridgebc.pages.dev^
 ||northwestfloridastatecollege.ukit.me^
 ||norusderma.com.br^
+||not-authen.hubside.fr^
 ||notchlandtv.bitbucket.io^
 ||note-67d5e.firebaseapp.com^
 ||note-67d5e.web.app^
@@ -18493,6 +18504,7 @@
 ||shipping532.weebly.com^
 ||shiseiki.com^
 ||shjurieoldkman3905jur8723ys7459iksjabsoamskiejunamshdm2.pages.dev^
+||shoayuywgsajnvxlzkowiuytazuhdgve01.pages.dev^
 ||shockaholic.net^
 ||shop.getmehalal.com^
 ||shop.marzi.it^
@@ -19067,6 +19079,7 @@
 ||sp584857.sitebeat.crazydomains.com^
 ||sp597238.sitebeat.crazydomains.com^
 ||sp604616.sitebeat.crazydomains.com^
+||sp620323.sitebeat.crazydomains.com^
 ||sp671705.sitebeat.crazydomains.com^
 ||sp706284.sitebeat.crazydomains.com^
 ||sp715601.sitebeat.crazydomains.com^
@@ -20718,6 +20731,7 @@
 ||umjihdtphxvfs.web.app^
 ||ump10.pages.dev^
 ||un34zm9g.duckdns.org^
+||unaee-e796.catroeggste.workers.dev^
 ||unam.myfreesites.net^
 ||unby4ekgd.duckdns.org^
 ||uncruise-4d1.pages.dev^
@@ -21284,6 +21298,7 @@
 ||uspv.usspxj.com^
 ||uss.ussprx.top^
 ||usss.vercel.app^
+||ustnfps.com^
 ||usto.us01wr33b7.co^
 ||usto.us02wr25b8.co^
 ||usto.us08wr31b5.co^
