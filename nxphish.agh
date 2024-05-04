@@ -3,10 +3,10 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 02:44:33
-! Number of phishing domains: 24037
+! Last updated: 2024-05-04 02:45:33
+! Number of phishing domains: 24036
 ! Number of NXDOMAIN domains: 1671
-! Number of SERVFAIL domains: 126
+! Number of SERVFAIL domains: 127
 ! Number of domains removed by whitelist: 244
 ! Top 10 abused TLDs:
 ! - com: 12370 (52.33%)
@@ -23499,7 +23499,6 @@
 ||x73kqu.duckdns.org^
 ||x786699.com^
 ||x8tlgw.webwave.dev^
-||x98ultratvonline.com^
 ||xa00m3.duckdns.org^
 ||xaimon.pages.dev^
 ||xamsconect.firebaseapp.com^
