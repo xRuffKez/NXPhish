@@ -18,8 +18,8 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install matplotlib
-        run: python -m pip install plotly
+      - name: Install plotly
+        run: python -m pip install plotly kaleido
 
       - name: Install pandas
         run: python -m pip install pandas
