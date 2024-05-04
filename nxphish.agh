@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 02:51:48
-! Number of phishing domains: 23855
+! Last updated: 2024-05-04 02:52:44
+! Number of phishing domains: 23867
 ! Number of NXDOMAIN domains: 1654
 ! Number of SERVFAIL domains: 128
 ! Number of domains removed by whitelist: 244
@@ -3021,6 +3021,7 @@
 ||aucrumecygue.web.app^
 ||audience-upholstery.net^
 ||auebg-8a9e.bosrmeadeklc.workers.dev^
+||aug8btcomms.weebly.com^
 ||augnentindgri.firebaseapp.com^
 ||auht0att-home-104984.weeblysite.com^
 ||aui493849934324zim.web.app^
@@ -4018,6 +4019,7 @@
 ||bafybeiazx2jieuujdz3tsw7biqm7m62fvpktorgub7u2wrczlyc25zkm5q.ipfs.cf-ipfs.com^
 ||bafybeib27nxocilkanl6xfkiyxj2nmgjkmod7rt6fokuicrxiv4bpmzokm.ipfs.dweb.link^
 ||bafybeib2okcdxysq2kxt6dgloaqlt3jd5isdtnmi7dlhchrumhgrt2owoa.ipfs.dweb.link^
+||bafybeib2usbfwnoqevkuucxezhzveqzsaub4vehqegav7cluwgzgzkppx4.ipfs.cf-ipfs.com^
 ||bafybeib2usbfwnoqevkuucxezhzveqzsaub4vehqegav7cluwgzgzkppx4.ipfs.nftstorage.link^
 ||bafybeib2yfbnuk54fa7oqqfe4puwcrsgzcrrkeangym5wtxpbsdcyipgj4.ipfs.cf-ipfs.com^
 ||bafybeib3a34sjyrfuenufdu6qjwttwtbbtlmioh2y3hzhmgfsksp2t64fq.ipfs.cf-ipfs.com^
@@ -4060,6 +4062,7 @@
 ||bafybeibawmmirhjij6vxuc5p7toeki2ks3oabom7twvah53trrfqxc35ie.ipfs.cf-ipfs.com^
 ||bafybeibaxya67uf3ilfcqql5fgh6wmmp54ouzv4vwjhi6h477l7x56n4dq.ipfs.cf-ipfs.com^
 ||bafybeibb32dlcs3g7q6gysaxhfvcijluegcqzmpw3fdcs4wfqdjwwf4eqi.ipfs.dweb.link^
+||bafybeibb3j3v26gmz6wmwzebeqvhvehvr67rbz3lrbwtq2j5fjtnj64nau.ipfs.cf-ipfs.com^
 ||bafybeibb4htxyvzfw2xhx24fqbaksymqdhlcsvzcopqut54rxmsdjldrsm.ipfs.cf-ipfs.com^
 ||bafybeibbgcenkg5sxyq5nxcoufj63uxhmeaus2guo3cvk2pffyquxh6wwu.ipfs.cf-ipfs.com^
 ||bafybeibcfbnidj2vcafusu5ywjuiwoukbxewgd3v24ykcqgdpfllvwtj7m.ipfs.cf-ipfs.com^
@@ -4763,6 +4766,7 @@
 ||bafybeifc2dufysyhqeun52mk5yomz6qac4tnvxsbvtzp2veor5c2smhpju.ipfs.cf-ipfs.com^
 ||bafybeifccrymqchnzylh6kyimqlr27az6tffikfb4sen2bwzqo23dn2qom.ipfs.cf-ipfs.com^
 ||bafybeifcfe5xorgq2rm5cwebwgksa72gyifrf3tmfjqrwcnwpr5qpglvb4.ipfs.dweb.link^
+||bafybeifcfpdewisednabyoetphfuqko3omaohrqdyb5x5xehdaotai43mu.ipfs.cf-ipfs.com^
 ||bafybeifchw3ezx2hvmvfotogvjapkikhulhhiuqmwgkduzumnhy6re2s6y.ipfs.w3s.link^
 ||bafybeifctoadowmziddug2wdwj5r2um2kpwgs35sxrw6bp6pl567a7pqhu.ipfs.cf-ipfs.com^
 ||bafybeifcu7fupuhukbwqiiwvscrqxaelpnyf3rheop26onyaweigkys2fe.ipfs.cf-ipfs.com^
@@ -8774,6 +8778,7 @@
 ||eki.zhouluoji.com^
 ||eklcrl5.duckdns.org^
 ||electricianslexingtonky.com^
+||elementingstore.firebaseapp.com^
 ||elementingstore.web.app^
 ||eleoelswka.blogspot.com^
 ||elfin-knotty-toothpaste.glitch.me^
@@ -8967,6 +8972,7 @@
 ||espacioroma.com^
 ||espacorange-85c9f.firebaseapp.com^
 ||espacorange-85c9f.web.app^
+||espalubdes.firebaseapp.com^
 ||espalubdes.web.app^
 ||esrickis.firebaseapp.com^
 ||esrickis.web.app^
@@ -9827,6 +9833,7 @@
 ||gazetka-prawna.eu^
 ||gbchat.viral-baruuu.my.id^
 ||gbhs.pages.dev^
+||gbjm.weeblysite.com^
 ||gbp.pages.dev^
 ||gbvfrcd2.pages.dev^
 ||gcbf.rentthatboat.ca^
@@ -11488,6 +11495,7 @@
 ||instagramprofiileurl.blogspot.pt^
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.rs^
+||instagramprofiileurl.blogspot.sg^
 ||instagramprofiileurl.blogspot.ug^
 ||instagrams.free.nf^
 ||instagramsupport.vercel.app^
@@ -15617,6 +15625,7 @@
 ||open-serviceapp-idconfig098.vercel.app^
 ||openaverification-ac.weebly.com^
 ||openea.zor404.icu^
+||openfamilyfedcu.pages.dev^
 ||openfixepr0.ukit.me^
 ||opensea-nft.web.app^
 ||operativerservernotification16677.weebly.com^
@@ -18845,6 +18854,7 @@
 ||sky-108649.weeblysite.com^
 ||sky-108712.weeblysite.com^
 ||sky-108924.weeblysite.com^
+||sky-108991.weeblysite.com^
 ||sky-109081.weeblysite.com^
 ||sky-109082.weeblysite.com^
 ||sky-109106.square.site^
@@ -22868,6 +22878,7 @@
 ||www.bkjxxpc.top^
 ||www.booking.mrityunjyatourism.com^
 ||www.bookmarkindia.in^
+||www.bqhnovl.cn^
 ||www.bradenstoke.com^
 ||www.bridalacquai.net^
 ||www.brooksonlineuk.com^
@@ -23220,6 +23231,7 @@
 ||www.vwyolym.cn^
 ||www.walletcomect.top^
 ||www.walletconnectupdate.iaac-parts.com^
+||www.wanjk.com^
 ||www.web3helpers.xyz^
 ||www.wen.guk.temporary.site^
 ||www.wmocsqq.cn^
