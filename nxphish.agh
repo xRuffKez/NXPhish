@@ -3,18 +3,18 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 04:11:05
-! Number of phishing domains: 23813
+! Last updated: 2024-05-04 04:12:17
+! Number of phishing domains: 23823
 ! Number of NXDOMAIN domains: 1668
 ! Number of SERVFAIL domains: 127
 ! Number of domains removed by whitelist: 244
 ! Top 10 abused TLDs:
-! - com: 12285 (52.49%)
-! - dev: 4940 (21.11%)
-! - app: 2417 (10.33%)
+! - com: 12291 (52.49%)
+! - dev: 4941 (21.1%)
+! - app: 2419 (10.33%)
 ! - org: 977 (4.17%)
 ! - top: 780 (3.33%)
-! - io: 492 (2.1%)
+! - io: 493 (2.11%)
 ! - site: 408 (1.74%)
 ! - me: 382 (1.63%)
 ! - cn: 378 (1.61%)
@@ -1299,6 +1299,7 @@
 ||amtexinsurance-8n3.pages.dev^
 ||amueni-fdec.cllneifebrotliud.workers.dev^
 ||amukaigpe.com^
+||amxservers.zonufafu.workers.dev^
 ||amxupdates.zonufafu.workers.dev^
 ||amzus9.wwelove3.workers.dev^
 ||anaknekskkdkdokdjkshfjdhdjsksllsoppke.ttrbru.eu.org^
@@ -7077,6 +7078,7 @@
 ||ckyppgkpyd.pages.dev^
 ||cl.s13.exct.net^
 ||claiim-promonyaa-segeraa.id-ofcc.my.id^
+||claim-dragon.firebaseapp.com^
 ||claim-pancakeswep.firebaseapp.com^
 ||claimcasbacktukarpoint.efiles.my.id^
 ||claimdanahadiah.efiles.my.id^
@@ -7316,6 +7318,7 @@
 ||comunicationmailserverdomailserviceintelactual1.pages.dev^
 ||comusoportecam-produccion.appspot.com^
 ||comveryx.web.app^
+||conbasiiextension.webflow.io^
 ||conbueiprel0gi.godaddysites.com^
 ||conctso2.firebaseapp.com^
 ||conctso2.web.app^
@@ -9755,6 +9758,7 @@
 ||fulltermsservicefr.web.app^
 ||funeralescuscatlan.com^
 ||funkadelicrelic.com^
+||fusenb.com^
 ||fuygu.pages.dev^
 ||fuzzy-octo-computing-machinefuzzy-octo-computing-machine.pages.dev^
 ||fvfg.pages.dev^
@@ -11098,6 +11102,7 @@
 ||hugwioywhkoygwhhos03.pages.dev^
 ||hugwioywhkoygwhhos04.pages.dev^
 ||huitianpay.com^
+||huixuzhan.com^
 ||huiyujfbshdjzhkredfy8uhegvgg7ugjszsut73ujhafwehbe.pages.dev^
 ||hukoomi.govnit.com^
 ||humaza.net^
@@ -12336,6 +12341,7 @@
 ||laposte-net-accueil.hubside.fr^
 ||lapostemail.hubside.fr^
 ||laraou.com^
+||largesingle.com^
 ||lastsed.firebaseapp.com^
 ||lastsed.web.app^
 ||latam-oab.cd-brasil.com^
@@ -14183,6 +14189,7 @@
 ||micsft.pages.dev^
 ||midco.pages.dev^
 ||midstatesd-letters.pages.dev^
+||mieragspace.com^
 ||mifnndjlks.firebaseapp.com^
 ||mifnndjlks.web.app^
 ||mifoatt-104021100272.weeblysite.com^
@@ -15627,6 +15634,7 @@
 ||open-oproc24.ru^
 ||open-serviceapp-idconfig098.vercel.app^
 ||openaverification-ac.weebly.com^
+||opendoordc.com^
 ||openea.zor404.icu^
 ||openfamilyfedcu.pages.dev^
 ||openfixepr0.ukit.me^
@@ -16029,10 +16037,12 @@
 ||pancakeswap.medium.comm.drfernandosilveira.com.br^
 ||pancakeswap.pages.dev^
 ||pancakeswap.unaux.com^
+||pancakeswapclaim6754.vercel.app^
 ||pancakeswapfinances.pages.dev^
 ||pancakeswapp.pro^
 ||pancakeswapv2-testnet.vercel.app^
 ||pancakeswep.pro^
+||pancakev2-drirxno8g-brilliantedgar.vercel.app^
 ||pancaks.com^
 ||pancdn.xiaochen.workers.dev^
 ||panckaeswap.xyz^
