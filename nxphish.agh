@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 08:43:01
-! Number of phishing domains: 23826
+! Last updated: 2024-05-04 08:46:46
+! Number of phishing domains: 23830
 ! Number of NXDOMAIN domains: 1668
 ! Number of SERVFAIL domains: 127
 ! Number of domains removed by whitelist: 240
@@ -1271,6 +1271,7 @@
 ||amazoncomcode.onepage.website^
 ||amazonmall889.com^
 ||amazonnnnn-co-jp.x3322.net^
+||amazono.buzz^
 ||amazonyogesh.pages.dev^
 ||ambernamesweb.com^
 ||ambildisinigraris.xerrc.my.id^
@@ -1753,7 +1754,9 @@
 ||apple-clone.com^
 ||apple-days.com^
 ||apple-find-connect.com^
+||apple-golden-store.ru^
 ||apple-home-page-in-bootstrap.netlify.app^
+||apple-in.co^
 ||apple-itunes.net^
 ||apple-itunes.org^
 ||apple-kicker-1870.typedream.app^
@@ -10046,6 +10049,7 @@
 ||google-cashincome5639.pages.dev^
 ||google-cashmachine79.pages.dev^
 ||google-docs.vercel.app^
+||google-ehrt.de^
 ||google-jobsoffer7655.pages.dev^
 ||google-jobsoffer78005.pages.dev^
 ||google-jobspro89.pages.dev^
