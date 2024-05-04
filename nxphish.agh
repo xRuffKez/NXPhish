@@ -3,10 +3,10 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 02:55:43
-! Number of phishing domains: 23900
+! Last updated: 2024-05-04 02:56:41
+! Number of phishing domains: 23909
 ! Number of NXDOMAIN domains: 1656
-! Number of SERVFAIL domains: 128
+! Number of SERVFAIL domains: 129
 ! Number of domains removed by whitelist: 244
 ! Top 10 abused TLDs:
 ! - com: 12370 (52.33%)
@@ -159,6 +159,7 @@
 ||1sh4r3-leaf-d95a.hjhjg8968.workers.dev^
 ||1tnplus.com^
 ||1tr7dus.duckdns.org^
+||1update.weebly.com^
 ||1vtimcb72.duckdns.org^
 ||1w3inkjet.pages.dev^
 ||1wi2j4.duckdns.org^
@@ -1425,6 +1426,7 @@
 ||aol-100374.weeblysite.com^
 ||aol-100381.weeblysite.com^
 ||aol-100383.weeblysite.com^
+||aol-100386.weeblysite.com^
 ||aol-100388.weeblysite.com^
 ||aol-100399.weeblysite.com^
 ||aol-100402.weeblysite.com^
@@ -7440,7 +7442,6 @@
 ||control-session-user-active.vercel.app^
 ||controle-deestoque.com^
 ||controlloareaprivata.com^
-||controllowebapp.com^
 ||conttacdirectfr.firebaseapp.com^
 ||conuant.firebaseapp.com^
 ||conuant.web.app^
@@ -8073,6 +8074,7 @@
 ||derver.pages.dev^
 ||derw-me.web.app^
 ||desarrollo-rural.zya.me^
+||desbloquear-yape.webcindario.com^
 ||descontosja.com^
 ||desembolsoinmediato-aplicaenlinea.top^
 ||desenhesuafattura1.blogspot.com^
@@ -8521,6 +8523,7 @@
 ||dqggp3.webwave.dev^
 ||dqskdlqskdqsodlksqdq.blogspot.am^
 ||dqskdlqskdqsodlksqdq.blogspot.co.ke^
+||dqskdlqskdqsodlksqdq.blogspot.com^
 ||dqt5xl.webwave.dev^
 ||dr-usp.firebaseapp.com^
 ||dr-usp.web.app^
@@ -8965,7 +8968,6 @@
 ||esaboterosce.firebaseapp.com^
 ||escapingsubicfr.firebaseapp.com^
 ||escapingsubicfr.web.app^
-||escchs.com^
 ||escolanauticasetemares.com.br^
 ||esdgte2.pages.dev^
 ||esdjhbosd.komi.io^
@@ -9578,6 +9580,7 @@
 ||fopbjpgoe.weebly.com^
 ||forecobatservicefr.firebaseapp.com^
 ||forecobatservicefr.web.app^
+||forlsoidhtewayczxweygoiuya01.pages.dev^
 ||formactivity-issue-matter.web.app^
 ||formationalstatisticesdomainnameservers1.pages.dev^
 ||formationalstatisticesdomainnameservers2.pages.dev^
@@ -11509,6 +11512,7 @@
 ||instagramprofiileurl.blogspot.lu^
 ||instagramprofiileurl.blogspot.mk^
 ||instagramprofiileurl.blogspot.nl^
+||instagramprofiileurl.blogspot.pe^
 ||instagramprofiileurl.blogspot.pt^
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.rs^
@@ -13055,6 +13059,7 @@
 ||mail-100204.weeblysite.com^
 ||mail-100264.weeblysite.com^
 ||mail-100296.weeblysite.com^
+||mail-100365.square.site^
 ||mail-100515.weeblysite.com^
 ||mail-100567.weeblysite.com^
 ||mail-100642.weeblysite.com^
@@ -14941,6 +14946,7 @@
 ||netzero-webmail-106421.weeblysite.com^
 ||netzero-webmail-106441.weeblysite.com^
 ||netzero-webmail-106530.weeblysite.com^
+||netzero-webmail-106700.weeblysite.com^
 ||netzero-webmail-106714.weeblysite.com^
 ||netzero-webmail-106878.weeblysite.com^
 ||netzero-webmail-107255.weeblysite.com^
@@ -20556,6 +20562,7 @@
 ||trustwalletrestore.kareesi.com^
 ||truyu.pages.dev^
 ||tshatt.weebly.com^
+||tshost.com.br^
 ||tsuiewn-sroeng-doonn.yolasite.com^
 ||tsxawg.com^
 ||tt-100377.weeblysite.com^
@@ -21823,6 +21830,7 @@
 ||vurgbxtpml.duckdns.org^
 ||vurlxwsnjk.duckdns.org^
 ||vuwteam.weebly.com^
+||vuzmubhqmw.duckdns.org^
 ||vv1-8qb.pages.dev^
 ||vveb3-ex0duse-vvalletes.top^
 ||vveb3-ex0duse-vvallets.top^
@@ -22235,6 +22243,7 @@
 ||webonsync2.pages.dev^
 ||weborane.hubside.fr^
 ||weborangamoofr.godaddysites.com^
+||webqwestofficeteamm.weebly.com^
 ||webreatheeasy.com^
 ||webrectification.pages.dev^
 ||webrectificationauths.pages.dev^
