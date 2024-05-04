@@ -30,20 +30,21 @@ top_tlds = df[df['status'] == 'OK']['domain'].apply(lambda x: x.split('.')[-1]).
 fig = go.Figure()
 
 # Add traces for each status
-fig.add_trace(go.Scatter(x=daily_counts_ok.index, y=daily_counts_ok.values, mode='lines+markers', name='OK'))
-fig.add_trace(go.Scatter(x=daily_counts_nxdomain.index, y=daily_counts_nxdomain.values, mode='lines+markers', name='NXDOMAIN'))
-fig.add_trace(go.Scatter(x=daily_counts_servfail.index, y=daily_counts_servfail.values, mode='lines+markers', name='SERVFAIL'))
+fig.add_trace(go.Scatter(x=daily_counts_ok.index[::-1], y=daily_counts_ok.values[::-1], mode='lines+markers', name='OK'))
+fig.add_trace(go.Scatter(x=daily_counts_nxdomain.index[::-1], y=daily_counts_nxdomain.values[::-1], mode='lines+markers', name='NXDOMAIN'))
+fig.add_trace(go.Scatter(x=daily_counts_servfail.index[::-1], y=daily_counts_servfail.values[::-1], mode='lines+markers', name='SERVFAIL'))
 
 # Add traces for top 10 abused TLDs with DNS status OK
 for tld in top_tlds.index:
     tld_counts = df[(df['status'] == 'OK') & (df['domain'].str.endswith(tld))].groupby(df['last_seen'].dt.date).size()
-    fig.add_trace(go.Scatter(x=tld_counts.index, y=tld_counts.values, mode='lines+markers', name=tld))
+    fig.add_trace(go.Scatter(x=tld_counts.index[::-1], y=tld_counts.values[::-1], mode='lines+markers', name=tld, line=dict(width=1)))  # Adjust line thickness
 
 # Update layout
 fig.update_layout(title='Daily Phishing Domain Counts (Last 60 Days)',
                   xaxis_title='Date',
                   yaxis_title='Count',
                   xaxis=dict(tickangle=-45),
+                  xaxis_range=[start_date, datetime.now()],  # Adjust x-axis range
                   template='plotly_white')
 
 # Save the graph as an image
