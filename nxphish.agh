@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 02:53:49
-! Number of phishing domains: 23875
+! Last updated: 2024-05-04 02:54:42
+! Number of phishing domains: 23887
 ! Number of NXDOMAIN domains: 1656
 ! Number of SERVFAIL domains: 128
 ! Number of domains removed by whitelist: 244
@@ -3264,6 +3264,7 @@
 ||bafkreiakofpgbvghsw4ice6vuqpah4zakpiatyxwxprl76uieh4gul5sai.ipfs.cf-ipfs.com^
 ||bafkreial2wj2z4lmtl52xq7ufrxxsbtnemp3j5rl7q6ka53g3rkq34cqbe.ipfs.cf-ipfs.com^
 ||bafkreial3ypwqb6k33finuvbignmoszrzkgfjykrecivklokijay5pcopq.ipfs.cf-ipfs.com^
+||bafkreial3ypwqb6k33finuvbignmoszrzkgfjykrecivklokijay5pcopq.ipfs.nftstorage.link^
 ||bafkreials4fmrsipegdxefc7bdr344rry42f4u2zbp42ikzqrdewokojnu.ipfs.cf-ipfs.com^
 ||bafkreiam4rmgo4boayvuawenj4jwupdrvnlbyz3n7ws7bgsd6ndsi3m4ha.ipfs.cf-ipfs.com^
 ||bafkreiamym4ubytxdzt5qqnlnkg3gfbux7if2o25sr6g2gbsmpohl4j3eu.ipfs.cf-ipfs.com^
@@ -4029,6 +4030,7 @@
 ||bafybeib3nmao6prgdpykx5jtngmkonb2kp3n5rgmnupzjos3rvbgnhkztq.ipfs.cf-ipfs.com^
 ||bafybeib3rno5vlysobi76k6pllsyutlz6plnkttzrpa34ttcgpvar4l2gu.ipfs.cf-ipfs.com^
 ||bafybeib3sibknqhr457idlvddorgixicw5qyqtmviiqcx44nc42qlardk4.ipfs.cf-ipfs.com^
+||bafybeib43dvjrbjsgjiqbl5gl732xm2cx3lktjdd4sifjla4ccl5wpp7zq.ipfs.dweb.link^
 ||bafybeib462fkeopcnf2oqbw466m37waslyaotfhra6xsai6tyox3r47lw4.ipfs.cf-ipfs.com^
 ||bafybeib4awubgczyernpjtvxvibsjmhdeystoru6ltrlrvfmdmonhpzs2q.ipfs.cf-ipfs.com^
 ||bafybeib4etrxyoxgwi4sa6kc7zgpnmzdu6rypirptfq2br25wanp3vingu.ipfs.dweb.link^
@@ -6094,6 +6096,7 @@
 ||bt-internet-109329.weeblysite.com^
 ||bt-internet-109900.weeblysite.com^
 ||bt-internet-109904.weeblysite.com^
+||bt-internet-2024.weeblysite.com^
 ||bt-internet-broadband-108993.weeblysite.com^
 ||bt-internet-ddddjdj.square.site^
 ||bt-login-102393.weeblysite.com^
@@ -6754,6 +6757,7 @@
 ||castelclean-pdf.pages.dev^
 ||castillodetabernas.com^
 ||castoretoscano5otc.blogspot.com^
+||catarinareginasub.blogspot.com^
 ||catchinghost.com^
 ||cateringbyliz.org^
 ||catur.com^
@@ -8512,6 +8516,7 @@
 ||dqskdlqskdqsodlksqdq.blogspot.co.ke^
 ||dqt5xl.webwave.dev^
 ||dr-usp.firebaseapp.com^
+||dr-usp.web.app^
 ||dr8so5l.duckdns.org^
 ||draddywe.firebaseapp.com^
 ||draddywe.web.app^
@@ -8887,6 +8892,7 @@
 ||eneeeetsowww.blogspot.com^
 ||enfindieubenira.firebaseapp.com^
 ||enfindieubenira.web.app^
+||eng-doc-shape-a7e8.ereoaeggnlscihkt.workers.dev^
 ||engineersclubindia.com^
 ||enimerosi-katastasis.firebaseapp.com^
 ||enimerosi-katastasis.web.app^
@@ -11227,6 +11233,7 @@
 ||identifiez-vous9.godaddysites.com^
 ||identifiiezvous1132.yolasite.com^
 ||identity-purification361298.io.vn^
+||identity.auth-secure-datings.workers.dev^
 ||identity.update-ourtime.workers.dev^
 ||identofo.hubside.fr^
 ||idhelpbusiness23948512354123.firebaseapp.com^
@@ -14740,6 +14747,7 @@
 ||myvmi-sti.web.app^
 ||myweb2mail4354121.weeblysite.com^
 ||myworkingthing.lijiwon124e-fasfa-fasfafa-fas.workers.dev^
+||mywtqfzuur.duckdns.org^
 ||myxshdysbc.duckdns.org^
 ||mzposlstele.firebaseapp.com^
 ||mzposlstele.web.app^
@@ -17441,6 +17449,7 @@
 ||reft44-1eaef.web.app^
 ||reftxamyjgov.pages.dev^
 ||refundbill24.firebaseapp.com^
+||refundbill24.web.app^
 ||refundpay.weebly.com^
 ||regalgraphics.pages.dev^
 ||regentnegombo.lk^
@@ -17903,6 +17912,7 @@
 ||sac-pyltau.webcindario.com^
 ||sac2hs-paraguay.webcindario.com^
 ||sacitaupyverify.webcindario.com^
+||sadadaas.hstn.me^
 ||saddlebrown-crocodile-mxb8w47oe8fk7djb.builder-preview.com^
 ||sadfjkyjnhaeafewfeagege.weebly.com^
 ||sadfxs.direh.xyz^
@@ -22443,6 +22453,7 @@
 ||worker-cool-firefly-e4da.im-swellen.workers.dev^
 ||worker-cool-forest-522f.simelo7979.workers.dev^
 ||worker-cool-salad-5859.ggodfortesting.workers.dev^
+||worker-crimson-haze-aeb1.vvxzasqwwqq1345.workers.dev^
 ||worker-crimson-waterfall-f5ca.les-losell.workers.dev^
 ||worker-crimson-wind-9afb.jaxaxok871.workers.dev^
 ||worker-curly-frost-4570.bellajonea00.workers.dev^
@@ -22496,6 +22507,7 @@
 ||worker-jolly-block-6f75.mailboxretrieval.workers.dev^
 ||worker-jolly-boat-f082.xxvxdsers3vivirll.workers.dev^
 ||worker-jolly-haze-c83e.snoker18.workers.dev^
+||worker-jolly-lab-1268.allahblessboxx2024.workers.dev^
 ||worker-jolly-pond-f051.shootingrange2020.workers.dev^
 ||worker-jolly-water-b12c.jorzosustu.workers.dev^
 ||worker-late-forest-e569.jmassell.workers.dev^
