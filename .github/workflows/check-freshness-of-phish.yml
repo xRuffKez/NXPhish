@@ -1,8 +1,8 @@
 name: Update DNS Status
 
 on:
- workflow_dispatch:
- 
+  workflow_dispatch:
+
 jobs:
   update_dns_status:
     runs-on: ubuntu-latest
@@ -13,26 +13,26 @@ jobs:
         with:
           ref: main
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
 
-    - name: Install dnspython
-      run: pip install dnspython
+      - name: Install dnspython
+        run: pip install dnspython
 
-    - name: Run Python script
-      run: python update_dns_status.py
+      - name: Run Python script
+        run: python update_dns_status.py
 
-    - name: Commit and push changes
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add cache.db
-        git commit -m "Update DNS status"
-        git push
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add cache.db
+          git commit -m "Update DNS status"
+          git push
 
-    - name: Trigger Random Database Cleanup
+      - name: Trigger Random Database Cleanup
         run: |
           curl -X POST \
             -H "Accept: application/vnd.github.v3+json" \
