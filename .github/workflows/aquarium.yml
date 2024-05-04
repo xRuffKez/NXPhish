@@ -34,7 +34,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add -f stor/cache.db
           git commit -m "Update Phishtank to Cache"
-          git pull origin main  # Pull changes from the remote repository
+          git pull origin main --rebase # Pull changes from the remote repository
           git push
           echo "Changes committed and pushed successfully."
 
