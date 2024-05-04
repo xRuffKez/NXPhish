@@ -14,30 +14,28 @@ def resolve_domain(domain):
     except dns.resolver.NoAnswer:
         return None
     except Exception as e:
-        print(f"Error resolving domain {domain}: {e}")
-        return None
+        return str(e)
 
 def update_dns_status():
     db_path = "cache.db"
     max_age = datetime.now() - timedelta(days=60)
-    conn = sqlite3.connect(db_path)
-    cursor = conn.cursor()
-    cursor.execute("SELECT domain, status FROM domains ORDER BY RANDOM() LIMIT 2000")
-    domains = cursor.fetchall()
-    conn.close()
 
-    domains_to_check = [(domain, status) for domain, status in domains if status not in ["NXDOMAIN", "SERVFAIL"]]
+    # Open database connection
+    with sqlite3.connect(db_path) as conn:
+        cursor = conn.cursor()
+        cursor.execute("SELECT domain, status FROM domains WHERE status NOT IN (?, ?) ORDER BY RANDOM() LIMIT 2000",
+                       ("NXDOMAIN", "SERVFAIL"))
+        domains_to_check = cursor.fetchall()
 
-    with ThreadPoolExecutor(max_workers=10) as executor:
+    with ThreadPoolExecutor(max_workers=20) as executor:
         results = executor.map(resolve_domain, [domain for domain, _ in domains_to_check])
     
-    conn = sqlite3.connect(db_path)
-    cursor = conn.cursor()
-    for (domain, status), result in zip(domains_to_check, results):
-        if result is not None:
-            cursor.execute("UPDATE domains SET status=? WHERE domain=?", (result, domain))
-    conn.commit()
-    conn.close()
+    # Open database connection again for updating
+    with sqlite3.connect(db_path) as conn:
+        cursor = conn.cursor()
+        update_values = [(result, domain) for (domain, _), result in zip(domains_to_check, results) if result is not None]
+        cursor.executemany("UPDATE domains SET status=? WHERE domain=?", update_values)
+        conn.commit()
 
 if __name__ == "__main__":
     update_dns_status()
