@@ -78,6 +78,8 @@ def update_phishfeed(workspace):
                                 status = "NXDOMAIN"
                             except dns.resolver.NoAnswer:
                                 status = "SERVFAIL"
+                            except dns.resolver.REFUSED:
+                                status = "REFUSED"
                             except Exception as e:
                                 logger.error("Error resolving domain %s: %s", domain, e)
                                 status = "ERROR"
