@@ -16,7 +16,7 @@ def resolve_domain(domain):
     except Exception as e:
         return str(e)
 
-def update_dns_status():
+def update_dns_status(verbose=True):
     db_path = "stor/cache.db"
     max_age = datetime.now() - timedelta(days=60)
 
@@ -27,7 +27,12 @@ def update_dns_status():
         domains_to_check = cursor.fetchall()
 
     with ThreadPoolExecutor(max_workers=4) as executor:
-        results = executor.map(resolve_domain, [domain for domain, _ in domains_to_check])
+        for domain, _ in domains_to_check:
+            if verbose:
+                print("Processing domain:", domain)
+            result = resolve_domain(domain)
+            if verbose:
+                print("Result for", domain, ":", result)
 
     with sqlite3.connect(db_path) as conn:
         cursor = conn.cursor()
