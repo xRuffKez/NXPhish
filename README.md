@@ -27,6 +27,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [OpenPhish](https://OpenPhish.com/) and [Phishunt](https://phishunt.io/) for providing the phishing feed.
 - [Zaczero](https://github.com/Zaczero/) for providing the [Phishtank](https://phishtank.com/) list.
+- [Phishfort](https://phishfort.com) for making their List accessible for the Community.
+- [ControlD](https://controld.com) for their public accessible, unfiltered DNS Resolver.
 - [AdGuard Home](https://adguard.com/adguard-home/overview.html) for its excellent network-wide ad blocking capabilities.
 - [HaGeZi DNS Blocklists](https://github.com/hagezi/dns-blocklists) for the Shortener Whitelist.
 
