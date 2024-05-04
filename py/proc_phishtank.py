@@ -31,7 +31,7 @@ def process_domains_not_in_database():
         conn = sqlite3.connect("cache.db")
         cursor = conn.cursor()
         
-        cursor.execute("SELECT domain FROM domain")
+        cursor.execute("SELECT domain FROM domains")
         existing_domains = set(row[0] for row in cursor.fetchall())
         
         domains_not_in_database = [domain for domain in domains if domain not in existing_domains]
