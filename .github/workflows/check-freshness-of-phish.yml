@@ -28,11 +28,24 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add cache.db
+          git add -f cache.db
           git commit -m "Update DNS status"
+          git pull origin main --ff-only  # Pull changes from the remote repository
           git push
 
+      - name: Check if branch is up to date
+        run: |
+          git fetch origin
+          LOCAL=$(git rev-parse @)
+          REMOTE=$(git rev-parse @{u})
+          if [ $LOCAL = $REMOTE ]; then
+            echo "Branch is up to date."
+          else
+            echo "Branch is not up to date."
+          fi
+
       - name: Trigger Random Database Cleanup
+        if: ${{ !success() || always() }}
         run: |
           curl -X POST \
             -H "Accept: application/vnd.github.v3+json" \
