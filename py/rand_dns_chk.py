@@ -36,6 +36,7 @@ def update_dns_status():
         update_values = [(result, domain) for (domain, _), result in zip(domains_to_check, results) if result is not None]
         cursor.executemany("UPDATE domains SET status=? WHERE domain=?", update_values)
         conn.commit()
+        conn.close()
 
 if __name__ == "__main__":
     update_dns_status()
