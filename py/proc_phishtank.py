@@ -14,7 +14,7 @@ def check_dns_status(domain):
         return "OK"
     except dns.resolver.NXDOMAIN:
         return "NXDOMAIN"
-    except dns.resolver.NoAnswer:
+    except (dns.resolver.NoAnswer, dns.resolver.SERVFAIL):
         return "SERVFAIL"
     except dns.resolver.REFUSED:
         return "REFUSED"
