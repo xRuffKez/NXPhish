@@ -7,7 +7,6 @@ def resolve_domain(domain):
     resolver = dns.resolver.Resolver()
     resolver.nameservers = ['8.8.8.8', '8.8.4.4', '1.1.1.1', '1.0.0.1']
     try:
-        # Resolve the domain
         response = resolver.resolve(domain)
         return "OK"
     except dns.resolver.NXDOMAIN:
@@ -19,37 +18,20 @@ def resolve_domain(domain):
         return "ERROR"
 
 def update_dns_status():
-    # Path to the cache.db file
     db_path = "cache.db"
-
-    # Maximum age for domains to be considered
     max_age = datetime.now() - timedelta(days=60)
-
-    # Connect to the database
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
-
-    # Retrieve domains from the database
-    cursor.execute("SELECT domain FROM domains")
+    cursor.execute("SELECT domain FROM domains ORDER BY RANDOM() LIMIT 2000")
     domains = cursor.fetchall()
-
-    # Close connection
     conn.close()
-
-    # Multithreading DNS resolution
     with ThreadPoolExecutor(max_workers=10) as executor:
         results = executor.map(resolve_domain, (domain[0] for domain in domains))
-
-    # Connect again to update database
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
-
-    # Update status for each domain in the database
     for domain, result in zip(domains, results):
         domain = domain[0]
         cursor.execute("UPDATE domains SET status=? WHERE domain=?", (result, domain))
-
-    # Commit changes and close connection
     conn.commit()
     conn.close()
 
