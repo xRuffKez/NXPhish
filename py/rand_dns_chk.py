@@ -23,11 +23,11 @@ def update_dns_status():
     # Open database connection
     with sqlite3.connect(db_path) as conn:
         cursor = conn.cursor()
-        cursor.execute("SELECT domain, status FROM domains WHERE status NOT IN (?, ?) ORDER BY RANDOM() LIMIT 2000",
+        cursor.execute("SELECT domain, status FROM domains WHERE status NOT IN (?, ?) ORDER BY RANDOM() LIMIT 5000",
                        ("NXDOMAIN", "SERVFAIL"))
         domains_to_check = cursor.fetchall()
 
-    with ThreadPoolExecutor(max_workers=20) as executor:
+    with ThreadPoolExecutor(max_workers=4) as executor:
         results = executor.map(resolve_domain, [domain for domain, _ in domains_to_check])
     
     # Open database connection again for updating
