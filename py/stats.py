@@ -7,6 +7,11 @@ import os
 # Connect to the database
 conn = sqlite3.connect('stor/cache.db')  # Adjust the path to the database
 
+# Delete old stats.png if it exists
+old_stats_path = 'stor/stats.png'
+if os.path.exists(old_stats_path):
+    os.remove(old_stats_path)
+
 # Retrieve all data from the database
 query = "SELECT * FROM domains"
 df = pd.read_sql_query(query, conn)
