@@ -17,7 +17,7 @@ def resolve_domain(domain):
         return str(e)
 
 def update_dns_status():
-    db_path = "cache.db"
+    db_path = "stor/cache.db"
     max_age = datetime.now() - timedelta(days=60)
 
     # Open database connection
