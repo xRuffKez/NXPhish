@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 02:54:42
-! Number of phishing domains: 23887
+! Last updated: 2024-05-04 02:55:43
+! Number of phishing domains: 23900
 ! Number of NXDOMAIN domains: 1656
 ! Number of SERVFAIL domains: 128
 ! Number of domains removed by whitelist: 244
@@ -1060,6 +1060,7 @@
 ||aeshanteen.firebaseapp.com^
 ||aeshanteen.web.app^
 ||afaron.punuj.my.id^
+||afcu-userid.firebaseapp.com^
 ||afcu-userid.web.app^
 ||afcvru.pages.dev^
 ||affactor-f4180.firebaseapp.com^
@@ -3615,6 +3616,7 @@
 ||bafkreienbn3rwmlicdpwtwmt3gbeb7qvlb3dlpnuidsf3j6dnxf67mtbyy.ipfs.nftstorage.link^
 ||bafkreienpka6lgl2bk4leergcch4xy4mgif45ml2tb3i3a3fh2hjuz5t2q.ipfs.cf-ipfs.com^
 ||bafkreieoagxmj5ssouxuk7vuolq72npprkvd5vp6s3mnk2f6xztz73dayy.ipfs.cf-ipfs.com^
+||bafkreieoisdt2qhcxxpsrgavdyjq2tqjnujcakzlfrsspixnjlyg2gcgke.ipfs.cf-ipfs.com^
 ||bafkreieoisdt2qhcxxpsrgavdyjq2tqjnujcakzlfrsspixnjlyg2gcgke.ipfs.nftstorage.link^
 ||bafkreiepk27pt62nymn2enlcqquynwtepojb6jowe74v6yciualj4slgcy.ipfs.cf-ipfs.com^
 ||bafkreieq4ribbzpqelx5swrhuslimzmw2d2kvj44q4vi4rg7nfhnrqbjki.ipfs.cf-ipfs.com^
@@ -4253,6 +4255,7 @@
 ||bafybeicdzm5mesjhwc73vsg5gymabxmzjjl3k263hyeks6twi5vnyw3qfm.ipfs.nftstorage.link^
 ||bafybeice32erudy53wyhbuznnwl7zwgoguscgff4qsu5nirzcpuc2direu.ipfs.cf-ipfs.com^
 ||bafybeice3zqem5cvgybvsuatrxqsx7m77a2sqwm5kotw6fql6fpy4et6ya.ipfs.cf-ipfs.com^
+||bafybeice7wezvlxb43qnunhxuuxxacodb57xpiemicmdlnc3hbjbrvv3z4.ipfs.cf-ipfs.com^
 ||bafybeicec6fx5dgxcixeyy7ebadwcq22wnwq4yde2qa7trlej4g6qji4ae.ipfs.cf-ipfs.com^
 ||bafybeiceff6fxoytv3c2cwp6v7to7rej7syvzrdzuy4mpekuff27xrmud4.ipfs.cf-ipfs.com^
 ||bafybeicefrte7tfgyddmow6j7ntwlnlc2o3syg47oohagk2fc375bzixmq.ipfs.cf-ipfs.com^
@@ -5346,6 +5349,7 @@
 ||bcq3bc.webcindario.com^
 ||bcrxxsistema.eshost.com.ar^
 ||bcxzaqwertyhbvcde3212345678jnyftyhnmmmmnbvcdfytr43wsaqasdf.pages.dev^
+||bda.nfp.mybluehost.me^
 ||bdbenlineaa.webcindario.com^
 ||bdbseguridadsp2.webcindario.com^
 ||bdbwagptx.firebaseapp.com^
@@ -7538,6 +7542,7 @@
 ||cpanel-webmail-w968fqbxmq.pages.dev^
 ||cpanel-webmail-zeiiyzf9h7.pages.dev^
 ||cpanel.old.allegrolokalnie.pk^
+||cpanel.test.allegrolokalnie.pk^
 ||cpaofredmond.com^
 ||cpcontacts.accounts-protect.com^
 ||cpfreeactivision.com^
@@ -7585,6 +7590,7 @@
 ||crkyoq.webwave.dev^
 ||crmjv.mauricebauge.workers.dev^
 ||crocodile-7dwc-yxz1.pryuj78f8.workers.dev^
+||croisthegame.firebaseapp.com^
 ||croisthegame.web.app^
 ||cross-docs-32e7.ygtemanallomm.workers.dev^
 ||crossfitlux.com^
@@ -8034,6 +8040,7 @@
 ||delivery-dhlswitzerland.firebaseapp.com^
 ||delivery-dhlswitzerland.web.app^
 ||delivery-website.pages.dev^
+||deliverydhl-invoice.firebaseapp.com^
 ||deliverydhl-invoice.web.app^
 ||dell-iq-platevs.firebaseapp.com^
 ||dell-iq-platevs.web.app^
@@ -11562,6 +11569,7 @@
 ||invoice17172c8a.myportfolio.com^
 ||invoice17176274.myportfolio.com^
 ||invoice2.irs857426.workers.dev^
+||invoice2328e9dc.myportfolio.com^
 ||invoice6534ba5d.myportfolio.com^
 ||invoice76542dfb.myportfolio.com^
 ||invoice76890e456.myportfolio.com^
@@ -17307,6 +17315,7 @@
 ||reagan-mail-100181.weeblysite.com^
 ||reagan-mail-100357.weeblysite.com^
 ||reagan-mail-101085.weeblysite.com^
+||reagan-mail-101758.weeblysite.com^
 ||reagan-mail-102528.weeblysite.com^
 ||reagan-mail-104191.weeblysite.com^
 ||reagan-mail-104197.weeblysite.com^
@@ -17827,6 +17836,7 @@
 ||rqfhz9l.duckdns.org^
 ||rrchartertwc.weebly.com^
 ||rreeaaggaann.weebly.com^
+||rrpsd7.webwave.dev^
 ||rrrrrrrrrrrrrrrrrr.hyperphp.com^
 ||rrutjfndjf.weebly.com^
 ||rrzefpze.duckdns.org^
@@ -19386,6 +19396,7 @@
 ||styatt.weebly.com^
 ||su5i82.webwave.dev^
 ||suaq.pages.dev^
+||subb.id329086.com^
 ||submit---review.glitch.me^
 ||submit-for-violation.vercel.app^
 ||submit-here-page-violation.replit.app^
@@ -20621,6 +20632,7 @@
 ||tv-online-news.com^
 ||tvdawljdby.duckdns.org^
 ||tvnewsjdapp.firebaseapp.com^
+||tvnewsjdapp.web.app^
 ||tvps-yntrnt-shl-tsvvt.webflow.io^
 ||tvw8tv.webwave.dev^
 ||tw-dj0.pages.dev^
@@ -23304,6 +23316,7 @@
 ||wwweb-zimbra-free.hubside.fr^
 ||wwwenterviacredtc.blogspot.com^
 ||wwwinfoview.sangfengyun.com^
+||wwwonlineluizafacil.blogspot.com^
 ||wwwvocalappulste888.ukit.me^
 ||wwww-milesmorekarte.com^
 ||wwww.aeonto.com^
