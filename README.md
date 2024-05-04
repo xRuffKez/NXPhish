@@ -19,6 +19,11 @@ To use this blocklist in AdGuard Home, simply add the following URL to your cust
 
 This will automatically block phishing domains from your network.
 
+## Statistics
+
+![Statistics](stor/stats.png)
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
