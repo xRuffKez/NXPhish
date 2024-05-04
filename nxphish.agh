@@ -3,10 +3,10 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 02:50:01
-! Number of phishing domains: 23822
+! Last updated: 2024-05-04 02:50:55
+! Number of phishing domains: 23840
 ! Number of NXDOMAIN domains: 1654
-! Number of SERVFAIL domains: 126
+! Number of SERVFAIL domains: 128
 ! Number of domains removed by whitelist: 244
 ! Top 10 abused TLDs:
 ! - com: 12370 (52.33%)
@@ -787,6 +787,7 @@
 ||academi-arena.web.app^
 ||academie-creteil.hubside.fr^
 ||academie-de-message.hubside.fr^
+||academie.hubside.fr^
 ||acbcba.com.bo^
 ||accedaa-valida-tu-banca-cajadeahorros.hstn.me^
 ||accedaatucuentapersonalpichinche.hstn.me^
@@ -3141,6 +3142,7 @@
 ||axkiujdhfnfyets394808iokglkdmjuyhnshdtganxnhdb1.pages.dev^
 ||axosdigitalassets.pages.dev^
 ||axsdsd.webcindario.com^
+||axtflxnq.square.site^
 ||ay6bp7a.duckdns.org^
 ||ayameclub-pan.yoimiya.workers.dev^
 ||ayfjkg.taplink.ws^
@@ -5375,6 +5377,7 @@
 ||bellsouth-104558.weeblysite.com^
 ||bellsouth-107740.weeblysite.com^
 ||bellsouth-107860.weeblysite.com^
+||bellsouth-global-communication.webflow.io^
 ||bellsouth-verify-access-ffaed4.webflow.io^
 ||bellsouth-verify-log-7137b1.webflow.io^
 ||bellsouthhkdjfvrofiddfjv.webflow.io^
@@ -6179,6 +6182,7 @@
 ||btinternet-102233.weeblysite.com^
 ||btinternet-102307.weeblysite.com^
 ||btinternet-102638.weeblysite.com^
+||btinternet-102755.weeblysite.com^
 ||btinternet-102928.weeblysite.com^
 ||btinternet-102934.weeblysite.com^
 ||btinternet-103036.weeblysite.com^
@@ -8007,6 +8011,7 @@
 ||delfinoarcuri4iad.blogspot.com^
 ||delicate-hazac0.iod8h2mi.workers.dev^
 ||delicate-sky-9370.f3r0q4i2.workers.dev^
+||delicate-sun-056a.tetykula187.workers.dev^
 ||delicate-wood-6fa6.soremattest1980.workers.dev^
 ||delivery-dhlmanage.firebaseapp.com^
 ||delivery-dhlmanage.web.app^
@@ -8111,6 +8116,7 @@
 ||dev-msnmantenerlive52452.pantheonsite.io^
 ||dev-o204g.pantheonsite.io^
 ||dev-ocabluee.pantheonsite.io^
+||dev-ols24.pantheonsite.io^
 ||dev-oro2g.pantheonsite.io^
 ||dev-txtxdiagg.pantheonsite.io^
 ||dev-uenouenouenoueno-com-py.pantheonsite.io^
@@ -9252,6 +9258,7 @@
 ||fb-ticket-case-47122.pages.dev^
 ||fb-ticket-case-47123.pages.dev^
 ||fb.meta-pages.workers.dev^
+||fb.phoenixcloud.workers.dev^
 ||fbcenter-case100510563211.firebaseapp.com^
 ||fbcenter-case100510563211.web.app^
 ||fbclid8123471236748129583.firebaseapp.com^
@@ -9716,6 +9723,7 @@
 ||fuagdunadgdge01.pages.dev^
 ||fuagdunadgdge02.pages.dev^
 ||fuagdunadgdge04.pages.dev^
+||fuagdunadgdge1.pages.dev^
 ||fuegoydelicia.mx^
 ||fuh9js.webwave.dev^
 ||fukushimarecords.com^
@@ -10482,6 +10490,7 @@
 ||helpid9485723849185962813.firebaseapp.com^
 ||helpid9485723849185962813.web.app^
 ||helpid9598203945274524.firebaseapp.com^
+||helpid9598203945274524.web.app^
 ||helpid96655723849185962813.firebaseapp.com^
 ||helpid96655723849185962813.web.app^
 ||helpid96655723849185962814.firebaseapp.com^
@@ -12954,6 +12963,7 @@
 ||m3dzk9.duckdns.org^
 ||m4agence.firebaseapp.com^
 ||m4agence.web.app^
+||m4rfpj.webwave.dev^
 ||m5e7c3t0r.duckdns.org^
 ||m6zr1y.webwave.dev^
 ||m76387ht.firebaseapp.com^
@@ -15138,6 +15148,7 @@
 ||note-dust-36ec.kamakiy9848734.workers.dev^
 ||note-secure.myportfolio.com^
 ||notebellsouth.weebly.com^
+||notedefraisbist.firebaseapp.com^
 ||notedefraisbist.web.app^
 ||notekeeper-dd199.firebaseapp.com^
 ||notekeeper-dd199.web.app^
@@ -15676,7 +15687,6 @@
 ||orsotoscani6ito.blogspot.com^
 ||oscottmanorbhamsch.myportfolio.com^
 ||oscqub.webwave.dev^
-||oss.kyro.pp.ua^
 ||osthaubrazzz.blogspot.com^
 ||ostrv5.duckdns.org^
 ||osturah.com^
@@ -18348,6 +18358,7 @@
 ||serviceupdate.jepsuyarza.workers.dev^
 ||serviceupdate.tefyeciste.workers.dev^
 ||serviceupdate.vastuferdu.workers.dev^
+||servicewebformoes.weebly.com^
 ||servicio-olineeess.0hi.me^
 ||serviciodecorreo.es^
 ||serviciodetuper.0hi.me^
@@ -19275,6 +19286,7 @@
 ||stepp11-a7e2a.firebaseapp.com^
 ||stepp16-52ee1.firebaseapp.com^
 ||stepp16-52ee1.web.app^
+||stepp17-d761f.firebaseapp.com^
 ||stepp17-d761f.web.app^
 ||stepp19-ced6c.firebaseapp.com^
 ||stepp19-ced6c.web.app^
@@ -20084,6 +20096,7 @@
 ||telstra-109229.weeblysite.com^
 ||telstra-109242.weeblysite.com^
 ||telstra-109250.weeblysite.com^
+||telstra-109285.weeblysite.com^
 ||telstra-109473.weeblysite.com^
 ||telstra-109487.weeblysite.com^
 ||telstra-109517.weeblysite.com^
@@ -21108,6 +21121,7 @@
 ||usp.usspxv.top^
 ||usp.usspzf.top^
 ||uspk.usspau.top^
+||uspk.usspbl.top^
 ||uspm.us06wr11b3.co^
 ||uspo.usspbo.top^
 ||usportalservice-apps.dynnamn.ru^
@@ -21362,6 +21376,7 @@
 ||validar-datos--mx.royalwebhosting.net^
 ||validar420.webcindario.com^
 ||validarbac.webcindario.com^
+||validarbhd24do.webcindario.com^
 ||validarbhd34do.webcindario.com^
 ||validarcard.webcindario.com^
 ||validarcredencia.webcindario.com^
@@ -22189,6 +22204,7 @@
 ||wedw2a.ukit.me^
 ||weeeqweeattt.weebly.com^
 ||weilogin.com^
+||wejsited.weebly.com^
 ||welakamoma.000.pe^
 ||welcombnr.webcindario.com^
 ||welcometimeupfstemsilnowwebnet.weebly.com^
@@ -22210,6 +22226,7 @@
 ||weslinshoserihaecutetzinspon02.pages.dev^
 ||weslinshoserihaecutetzinspon03.pages.dev^
 ||wesportynt.weebly.com^
+||wespynetflix.vercel.app^
 ||wessamoptical.com^
 ||westernencounters.pages.dev^
 ||westgatecars.pages.dev^
@@ -22562,6 +22579,7 @@
 ||worker-summer-lake-aca8.bonstaan2000.workers.dev^
 ||worker-summer-pond-1a8c.potijo9433.workers.dev^
 ||worker-super-f355.kelila1968.workers.dev^
+||worker-super-leaf-a2ad.laramp903.workers.dev^
 ||worker-sweet-field-1466.lopsekukke.workers.dev^
 ||worker-sweet-lake-e7af.derzuteydo.workers.dev^
 ||worker-throbbing-pine-e2f5.brent-langen.workers.dev^
