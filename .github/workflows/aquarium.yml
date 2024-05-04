@@ -49,7 +49,7 @@ jobs:
             echo "Branch is not up to date."
           fi
 
-      - name: Trigger Phishnet
+      - name: Trigger Phishfort
         if: ${{ !success() || always() }}
         run: |
           curl -X POST \
