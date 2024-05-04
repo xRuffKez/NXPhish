@@ -2,6 +2,7 @@ import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
+import os
 
 # Connect to the database
 conn = sqlite3.connect('stor/cache.db')  # Adjust the path to the database
@@ -21,26 +22,24 @@ df_hist = pd.read_sql_query(query_hist, conn)
 # Concatenate current and historical data
 df = pd.concat([df_current, df_hist])
 
-# Calculate statistics
-status_counts = df['status'].value_counts()
-tld_counts = df['domain'].apply(lambda x: x.split('.')[-1]).value_counts().head(10)
+# Convert 'last_seen' column to datetime
+df['last_seen'] = pd.to_datetime(df['last_seen'])
 
-# Create and display the graphs
-fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(12, 6))
+# Group by date and calculate counts
+daily_counts = df.groupby(df['last_seen'].dt.date).size()
 
-status_counts.plot(kind='bar', ax=axes[0], color='skyblue')
-axes[0].set_title('Domain Status (Last 60 Days)')
-axes[0].set_xlabel('Status')
-axes[0].set_ylabel('Count')
-
-tld_counts.plot(kind='bar', ax=axes[1], color='lightgreen')
-axes[1].set_title('Top 10 TLDs (Last 60 Days)')
-axes[1].set_xlabel('TLD')
-axes[1].set_ylabel('Count')
-
+# Create and display the line graph
+plt.figure(figsize=(10, 6))
+plt.plot(daily_counts.index, daily_counts.values, marker='o', linestyle='-')
+plt.title('Daily Domain Counts (Last 60 Days)')
+plt.xlabel('Date')
+plt.ylabel('Count')
+plt.xticks(rotation=45)
+plt.grid(True)
 plt.tight_layout()
 
 # Save the graph as an image
+os.makedirs('stor', exist_ok=True)
 plt.savefig('stor/stats.png')
 
 # Close the database connection
