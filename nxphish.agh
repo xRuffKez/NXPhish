@@ -3,8 +3,8 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 01:01:45
-! Number of phishing domains: 24041
+! Last updated: 2024-05-04 01:13:00
+! Number of phishing domains: 24042
 ! Number of NXDOMAIN domains: 15
 ! Number of SERVFAIL domains: 3
 ! Number of domains removed by whitelist: 244
@@ -15398,6 +15398,7 @@
 ||o2-account-unlock.web.app^
 ||o2-home-verify.firebaseapp.com^
 ||o2-home-verify.web.app^
+||o2-mobilefunkvetrag.de^
 ||o2simkarten-update.app^
 ||o2sre1q.hyperphp.com^
 ||o30dao4s.ajsik.my.id^
