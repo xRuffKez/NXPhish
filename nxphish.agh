@@ -3,11 +3,11 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 06:32:49
+! Last updated: 2024-05-04 06:33:44
 ! Number of phishing domains: 23823
 ! Number of NXDOMAIN domains: 1668
 ! Number of SERVFAIL domains: 127
-! Number of domains removed by whitelist: 244
+! Number of domains removed by whitelist: 240
 ! Top 10 abused TLDs:
 ! - com: 12291 (52.49%)
 ! - dev: 4941 (21.1%)
