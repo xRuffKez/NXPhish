@@ -3,13 +3,13 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 02:06:29
-! Number of phishing domains: 24042
-! Number of NXDOMAIN domains: 15
+! Last updated: 2024-05-04 02:18:42
+! Number of phishing domains: 24041
+! Number of NXDOMAIN domains: 17
 ! Number of SERVFAIL domains: 3
 ! Number of domains removed by whitelist: 244
 ! Top 10 abused TLDs:
-! - com: 11755 (52.75%)
+! - com: 11756 (52.75%)
 ! - dev: 4956 (22.24%)
 ! - app: 2434 (10.92%)
 ! - org: 962 (4.32%)
@@ -11349,6 +11349,7 @@
 ||ijohuiygutyr567.webcindario.com^
 ||ijsdfhjk.weeblysite.com^
 ||ijwlacqfsy.duckdns.org^
+||ikea.kampanj-se.com^
 ||ikesakibrazz.blogspot.com^
 ||ikmaloa.com^
 ||iksrujkrsujkdujsdkfjoldfioldf.weeblysite.com^
@@ -18070,7 +18071,6 @@
 ||sanjuancruiseport.pages.dev^
 ||sanpix.com.br^
 ||santander8.godaddysites.com^
-||santiraomd.com^
 ||santos-99117.firebaseapp.com^
 ||santos-99117.web.app^
 ||saodmeonvizxooksa.jonathon5.workers.dev^
@@ -22451,7 +22451,6 @@
 ||wfalerts-srp.firebaseapp.com^
 ||wfalerts-srp.web.app^
 ||wfdstplkon.duckdns.org^
-||wfgmapewbh.com^
 ||wfow-8ab44.firebaseapp.com^
 ||wfow-8ab44.web.app^
 ||wfyhsdhjhahfhksdjgjhfsgg63.weebly.com^
