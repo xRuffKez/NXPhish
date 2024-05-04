@@ -3,9 +3,9 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 02:52:44
-! Number of phishing domains: 23867
-! Number of NXDOMAIN domains: 1654
+! Last updated: 2024-05-04 02:53:49
+! Number of phishing domains: 23875
+! Number of NXDOMAIN domains: 1656
 ! Number of SERVFAIL domains: 128
 ! Number of domains removed by whitelist: 244
 ! Top 10 abused TLDs:
@@ -1945,6 +1945,7 @@
 ||astarinegbfr.web.app^
 ||astekinsaat.com^
 ||asterix-af2a5.firebaseapp.com^
+||asterix-af2a5.web.app^
 ||astij.oftnb.workers.dev^
 ||astoundsecuredocument.pages.dev^
 ||astroingboy.firebaseapp.com^
@@ -3322,6 +3323,7 @@
 ||bafkreibdyko4ct45fhmxdsodk5kiqekzgdrtpunrpjg2dgzv3mugxrncba.ipfs.cf-ipfs.com^
 ||bafkreibegn25nte7brgbwnqlyto6vkohldxccq66n72n44zuerdsroioyi.ipfs.cf-ipfs.com^
 ||bafkreibegn25nte7brgbwnqlyto6vkohldxccq66n72n44zuerdsroioyi.ipfs.dweb.link^
+||bafkreibegn25nte7brgbwnqlyto6vkohldxccq66n72n44zuerdsroioyi.ipfs.nftstorage.link^
 ||bafkreibfftaan2drft2ozmm43o455qfeyd77zrwlcxkeq42lmjboekgerq.ipfs.cf-ipfs.com^
 ||bafkreibfftaan2drft2ozmm43o455qfeyd77zrwlcxkeq42lmjboekgerq.ipfs.nftstorage.link^
 ||bafkreibfjz5knpslg3wadke2qupq4bhex56m6kg4zkpwnp4qfm432t5pdq.ipfs.cf-ipfs.com^
@@ -4933,6 +4935,7 @@
 ||bafybeigcj3j5xaektxfupoeqkl5y3iyv237cferzrioeh7jhgyq23hlydu.ipfs.cf-ipfs.com^
 ||bafybeigcyoanawq5dguze4zm7szcdwh43gjk6l5li6zt7g7xbcbsrtqyp4.ipfs.cf-ipfs.com^
 ||bafybeigd7bthqwl2ubficq4cxeoeuut25x74nwy73kiyggcgdbnxpip4am.ipfs.cf-ipfs.com^
+||bafybeigd7fun3gacdiroa66puvsej5o7ahrlu6pdnw4z7nuycef4sfrmfm.ipfs.cf-ipfs.com^
 ||bafybeige2difgc34gwk7u4p74vfuuzpxrfwsgrmst63adhrnnagqikmz5y.ipfs.cf-ipfs.com^
 ||bafybeige4ynunutqwofsyoulk6c4vvzqaflivmkb6yjxhcfoutmykypi4u.ipfs.cf-ipfs.com^
 ||bafybeigebg52tnrman3jxh43imuthz74gd4o2g5xgxeqo557p7gdno4x44.ipfs.dweb.link^
@@ -9493,6 +9496,7 @@
 ||fkposcertle.web.app^
 ||fl021ks92ha.webcindario.com^
 ||fla-1001.square.site^
+||flashipa.com^
 ||flaskoio.pages.dev^
 ||flat-fire-7ec0.nluergriho8053.workers.dev^
 ||flat-king-b0d3.zebwcorp.workers.dev^
@@ -10585,7 +10589,6 @@
 ||hgjdtufy.webflow.io^
 ||hgje94e.duckdns.org^
 ||hgs.pages.dev^
-||hgsitjavp-applicationreportads.pages.dev^
 ||hgwhjdgwhjwhjw.weeblysite.com^
 ||hh1iil.firebaseapp.com^
 ||hh1iil.web.app^
@@ -13062,6 +13065,7 @@
 ||mail-101827.square.site^
 ||mail-101827.weeblysite.com^
 ||mail-102093.weeblysite.com^
+||mail-102112.weeblysite.com^
 ||mail-102118.weeblysite.com^
 ||mail-102126.weeblysite.com^
 ||mail-102193.weeblysite.com^
@@ -14150,6 +14154,7 @@
 ||microsoft-outlook-100999.square.site^
 ||microsoft-outlook-101391.weeblysite.com^
 ||microsoft-outlook-101439.weeblysite.com^
+||microsoft-outlook-101733.weeblysite.com^
 ||microsoft-outlook-104490.weeblysite.com^
 ||microsoft-outlook-105517.weeblysite.com^
 ||microsoft-outlook-106195.weeblysite.com^
@@ -17589,6 +17594,7 @@
 ||review-page-info.vercel.app^
 ||review-violation-chek.vercel.app^
 ||review-violation-w.vercel.app^
+||review-violaton-866.replit.app^
 ||review-worddocx.myportfolio.com^
 ||reviewdocum.myportfolio.com^
 ||reviewdocumen03132023.myportfolio.com^
@@ -18374,6 +18380,7 @@
 ||serviceswebmaildomailnaturazetioncompititions1.pages.dev^
 ||serviceswebmaildomailnaturazetioncompititions3.pages.dev^
 ||servicetelepaiementfpsenligne3dsecure.vercel.app^
+||serviceupd4te.befavetrziv.workers.dev^
 ||serviceupdate-huiopoil.weeblysite.com^
 ||serviceupdate.jepsuyarza.workers.dev^
 ||serviceupdate.tefyeciste.workers.dev^
@@ -19506,6 +19513,7 @@
 ||sweepstakeswinner.godaddysites.com^
 ||sweeptakes298.godaddysites.com^
 ||sweet-boat-7259.fpuddhg067.workers.dev^
+||sweet-credit-1101.9bllu15-2614.workers.dev^
 ||sweet-truth-af82.igtyitifweh.workers.dev^
 ||sweete.treechoose.workers.dev^
 ||sweyre.wixsite.com^
