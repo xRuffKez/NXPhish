@@ -41,21 +41,21 @@ jobs:
       - name: Combine and Sort PhishFeeds
         run: |
          echo "Combining and sorting PhishFeeds..."
-         python process_feeds.py openphish_feed.txt phishunt_feed.txt
+         python py/proc_openphish_phishunt.py openphish_feed.txt phishunt_feed.txt
          echo "PhishFeeds combined and sorted successfully."
 
       - name: Ensure SQLite Database
         run: |
           echo "Ensuring SQLite Database..."
-          if [ ! -f cache.db ]; then
-            sqlite3 cache.db "CREATE TABLE IF NOT EXISTS domains (domain TEXT PRIMARY KEY, last_seen TEXT, status TEXT)"
+          if [ ! -f stor/cache.db ]; then
+            sqlite3 stor/cache.db "CREATE TABLE IF NOT EXISTS domains (domain TEXT PRIMARY KEY, last_seen TEXT, status TEXT)"
           fi
           echo "SQLite Database ensured successfully."
 
       - name: Update Database and PhishFeed List
         run: |
           echo "Updating Database and PhishFeed List..."
-          python update.py ${{ github.workspace }}
+          python py/proc_list_output.py ${{ github.workspace }}
           echo "Database and PhishFeed List updated successfully."
 
       - name: Commit and Push Changes
@@ -64,7 +64,7 @@ jobs:
           echo "Committing and pushing changes..."
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add cache.db nxphish.agh
+          git add stor/cache.db nxphish.agh
           git commit -m "Update PhishFeed List"
           git push
           echo "Changes committed and pushed successfully."
