@@ -11,7 +11,7 @@ def resolve_domain(domain):
         return "OK"
     except dns.resolver.NXDOMAIN:
         return None
-    except dns.resolver.NoAnswer:
+    except (dns.resolver.NoAnswer, dns.resolver.SERVFAIL):
         return None
     except dns.resolver.REFUSED:
         return None
