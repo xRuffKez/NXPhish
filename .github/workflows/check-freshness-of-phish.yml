@@ -24,13 +24,13 @@ jobs:
         run: pip install dnspython
 
       - name: Run Python script
-        run: python update_dns_status.py
+        run: python py/rand_dns_chk.py
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -f cache.db
+          git add -f stor/cache.db
           git commit -m "Update DNS status"
           git pull origin main  # Pull changes from the remote repository
           git push
