@@ -34,7 +34,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add -f stor/cache.db
           git commit -m "Update Phishfort to Cache"
-          git pull origin main --ff-only  # Pull changes from the remote repository
+          git pull origin main --rebase  # Pull changes from the remote repository
           git push
           echo "Changes committed and pushed successfully."
 
