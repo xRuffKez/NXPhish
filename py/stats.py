@@ -28,6 +28,9 @@ tld_counts = df['domain'].apply(lambda x: x.split('.')[-1]).value_counts().head(
 # Create and display the graphs
 fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(12, 6))
 
+# Debugging statements
+print("Size of axes array:", len(axes))
+
 status_counts.plot(kind='bar', ax=axes[0], color='skyblue')
 axes[0].set_title('Domain Status (Last 60 Days)')
 axes[0].set_xlabel('Status')
