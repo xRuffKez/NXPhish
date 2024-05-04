@@ -66,6 +66,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add stor/cache.db nxphish.agh
           git commit -m "Update PhishFeed List"
+          git pull
           git push
           echo "Changes committed and pushed successfully."
 
