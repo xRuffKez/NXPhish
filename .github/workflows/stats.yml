@@ -31,4 +31,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: statistics
-          path: stor/stats.png
+          path: stor/stats.png  # Ensure the correct path to stats.png
