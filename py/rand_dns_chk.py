@@ -30,19 +30,22 @@ def update_dns_status(verbose=True):
 
     with ThreadPoolExecutor(max_workers=4) as executor:
         results = []
-        for domain, _ in domains_to_check:
+        for domain, existing_status in domains_to_check:
             if verbose:
                 print("Processing domain:", domain)
-            result = resolve_domain(domain)
-            results.append(result)
+            new_status = resolve_domain(domain)
+            results.append((domain, new_status))
             if verbose:
-                print("Result for", domain, ":", result)
+                print("Result for", domain, ":", new_status)
 
-    with sqlite3.connect(db_path) as conn:
-        cursor = conn.cursor()
-        update_values = [(result, domain) for (domain, _), result in zip(domains_to_check, results) if result is not None]
-        cursor.executemany("UPDATE domains SET status=? WHERE domain=?", update_values)
-        conn.commit()
+    # Update only if the status has changed
+    updated_domains = [(new_status, domain) for domain, new_status in results if new_status is not None and new_status != existing_status]
+
+    if updated_domains:
+        with sqlite3.connect(db_path) as conn:
+            cursor = conn.cursor()
+            cursor.executemany("UPDATE domains SET status=? WHERE domain=?", updated_domains)
+            conn.commit()
 
 if __name__ == "__main__":
     update_dns_status()
