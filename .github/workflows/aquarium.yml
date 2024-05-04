@@ -41,7 +41,11 @@ jobs:
       - name: Trigger Phishnet
         uses: actions/github-script@v3
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
+            const { Octokit } = require("@octokit/core");
+            const octokit = new Octokit({ auth: "${{ secrets.GITHUB_TOKEN }}" });
+
             const response = await octokit.request('POST /repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches', {
               owner: '${{ github.repository_owner }}',
               repo: '${{ github.event.repository.name }}',
@@ -50,5 +54,3 @@ jobs:
               inputs: {}
             });
             console.log(response.data);
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
