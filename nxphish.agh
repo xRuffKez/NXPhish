@@ -3,9 +3,9 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-04 02:49:00
-! Number of phishing domains: 23801
-! Number of NXDOMAIN domains: 1651
+! Last updated: 2024-05-04 02:50:01
+! Number of phishing domains: 23822
+! Number of NXDOMAIN domains: 1654
 ! Number of SERVFAIL domains: 126
 ! Number of domains removed by whitelist: 244
 ! Top 10 abused TLDs:
@@ -509,6 +509,7 @@
 ||6ucwpuz3.duckdns.org^
 ||6vmrp7pw.duckdns.org^
 ||6w6thw6u6u6w46yw46.pages.dev^
+||6w9fucheq.duckdns.org^
 ||6w9my5.duckdns.org^
 ||6wfjr1.duckdns.org^
 ||6y6s56yhh56y6y656.pages.dev^
@@ -566,6 +567,7 @@
 ||7xdjqj.duckdns.org^
 ||7ye9wt8ro.duckdns.org^
 ||7yu3v.csb.app^
+||8.modtrmvivrb.workers.dev^
 ||805k0t1kpgescmmnty.work.gd^
 ||8080.sxforge.com^
 ||81z9hw.duckdns.org^
@@ -3066,6 +3068,7 @@
 ||authenac1.weebly.com^
 ||authenbatereteil021.hubside.fr^
 ||authenticate-fix.firebaseapp.com^
+||authenticate-fix.web.app^
 ||authenticate-user-online.web.app^
 ||authenticateacess.pages.dev^
 ||authenticatefix-io.firebaseapp.com^
@@ -5508,6 +5511,7 @@
 ||billowing-scene-36bb.abqerxo669.workers.dev^
 ||billowing-shape-02dc.jegoqyxe7453.workers.dev^
 ||billowing-tree-b282.dattings-our.workers.dev^
+||billowing-unit-3e82.kem-datings.workers.dev^
 ||billsforcheckreadyfortoday101.weebly.com^
 ||billtobox-b4acc.firebaseapp.com^
 ||billtobox-b4acc.web.app^
@@ -6326,6 +6330,7 @@
 ||btweebley.weebly.com^
 ||btworldxx63.komi.io^
 ||btworldxxx32.komi.io^
+||btwrld.weeblysite.com^
 ||btxmailler.weeblysite.com^
 ||btyxqgg107999.weeblysite.com^
 ||buccalupdental.pages.dev^
@@ -7268,7 +7273,6 @@
 ||compensarenlinea.co^
 ||competent-franklin-c73842.netlify.app^
 ||competent-gates-5312e4.netlify.app^
-||compila-restrizioni.com^
 ||complaint.hotel-01465.eu^
 ||comporium01sign.weebly.com^
 ||compras-argentina.hstn.me^
@@ -9538,6 +9542,7 @@
 ||foodservicerefrigeration.godaddysites.com^
 ||fopbjpgoe.weebly.com^
 ||forecobatservicefr.firebaseapp.com^
+||forecobatservicefr.web.app^
 ||formactivity-issue-matter.web.app^
 ||formationalstatisticesdomainnameservers1.pages.dev^
 ||formationalstatisticesdomainnameservers2.pages.dev^
@@ -9595,6 +9600,7 @@
 ||fr-messnotif.firebaseapp.com^
 ||fr-messnotif.web.app^
 ||fr-micfrance.firebaseapp.com^
+||fr-micfrance.web.app^
 ||fr-microcko.firebaseapp.com^
 ||fr-microcko.web.app^
 ||fr-mirabelles-89d18.firebaseapp.com^
@@ -10017,6 +10023,7 @@
 ||googleaccounts.ali-m.workers.dev^
 ||googleaccounts.jiqigushi.top^
 ||googwebmailspectrum.weebly.com^
+||gopdflibsg.firebaseapp.com^
 ||gopdflibsg.web.app^
 ||gordaisbas-assiais.firebaseapp.com^
 ||gordaisbas-assiais.web.app^
@@ -10200,6 +10207,7 @@
 ||h7a1aizb.duckdns.org^
 ||h7ztqb.webwave.dev^
 ||h8vq1ctki.duckdns.org^
+||h96azlgxq.duckdns.org^
 ||h9m6ad.duckdns.org^
 ||ha5fge.pages.dev^
 ||haalapayswiden.blogspot.com^
@@ -12730,6 +12738,7 @@
 ||loginauth-12.firebaseapp.com^
 ||loginauth-12.web.app^
 ||logindustrias.com^
+||logingalicia.pages.dev^
 ||loginhomepage-sharefile.myportfolio.com^
 ||loginmailaccount1.wixsite.com^
 ||loginmetamskus.gitbook.io^
@@ -13133,6 +13142,7 @@
 ||mail-107494.weeblysite.com^
 ||mail-107573.weeblysite.com^
 ||mail-107620.weeblysite.com^
+||mail-107765.weeblysite.com^
 ||mail-107820.weeblysite.com^
 ||mail-108017.weeblysite.com^
 ||mail-108083.weeblysite.com^
@@ -15968,6 +15978,7 @@
 ||palrmfra.firebaseapp.com^
 ||palrmfra.web.app^
 ||panacak.com^
+||pancakaswp-finance.xyz^
 ||pancake-frontend-9urm4h6ap-chefilip.vercel.app^
 ||pancake-frontend-dejmy38ut-chefilip.vercel.app^
 ||pancake-frontend-flznr5rp3-chefilip.vercel.app^
@@ -16365,6 +16376,7 @@
 ||portail-chorus-pro.hubside.fr^
 ||portail-messagerie02.free.nf^
 ||portail-web.weebly.com^
+||portal-amb.firebaseapp.com^
 ||portal-amb.web.app^
 ||portal-bravolog.com^
 ||portal-logs.myportfolio.com^
@@ -16599,6 +16611,7 @@
 ||proorange.godaddysites.com^
 ||proposal-ce2a.cullen1015.workers.dev^
 ||proposal.securefile.workers.dev^
+||proposal43589presentation83139document93920.analawncare.workers.dev^
 ||proposal893link9340.analawncare.workers.dev^
 ||props2.pages.dev^
 ||props3.pages.dev^
@@ -17855,6 +17868,7 @@
 ||sac2hs-paraguay.webcindario.com^
 ||sacitaupyverify.webcindario.com^
 ||saddlebrown-crocodile-mxb8w47oe8fk7djb.builder-preview.com^
+||sadfjkyjnhaeafewfeagege.weebly.com^
 ||sadfxs.direh.xyz^
 ||sadikkoliqanit.firebaseapp.com^
 ||sadikkoliqanit.web.app^
@@ -18407,6 +18421,7 @@
 ||share-wcloud-4b35.uytsaiteqcnljwr.workers.dev^
 ||shared-disk-a805.xexan36629.workers.dev^
 ||shared-folder-docs.memwendo.workers.dev^
+||shared-folder-private.nhilenhil.workers.dev^
 ||shared-grass-549a.uriahmontague.workers.dev^
 ||shared-smiles4kidsdental-0113.pakela3445.workers.dev^
 ||shared-spin2-2.pages.dev^
@@ -19011,6 +19026,7 @@
 ||sp187492.sitebeat.crazydomains.com^
 ||sp188047.sitebeat.crazydomains.com^
 ||sp231237.sitebeat.crazydomains.com^
+||sp269870.sitebeat.crazydomains.com^
 ||sp280701.sitebeat.crazydomains.com^
 ||sp282154.sitebeat.crazydomains.com^
 ||sp284322.sitebeat.crazydomains.com^
@@ -19764,6 +19780,7 @@
 ||telstra-100150.weeblysite.com^
 ||telstra-100214.weeblysite.com^
 ||telstra-100218.weeblysite.com^
+||telstra-100234.weeblysite.com^
 ||telstra-100247.weeblysite.com^
 ||telstra-100254.weeblysite.com^
 ||telstra-100270.weeblysite.com^
@@ -20542,6 +20559,7 @@
 ||turbo-chainsaw-deck.pages.dev^
 ||tuseguridad-bhd-leon.weebly.com^
 ||tuskegeeeuniversity.ukit.me^
+||tuttevadavantirol.firebaseapp.com^
 ||tuttivadavantity.firebaseapp.com^
 ||tuu99x.webwave.dev^
 ||tuuu555585.godaddysites.com^
@@ -22504,6 +22522,7 @@
 ||worker-sharedd-87d1.zirdevuydo.workers.dev^
 ||worker-shrill-queen-6b96.danny23biz.workers.dev^
 ||worker-shrill-wood-50f3.jln95cha.workers.dev^
+||worker-shy-cake-ce75.pjjmackey.workers.dev^
 ||worker-silent-queen-f142.jamesbelcher3074.workers.dev^
 ||worker-silent-surf-f9cd.i-w-foster.workers.dev^
 ||worker-small-bird-ac42.naknijirdo.workers.dev^
@@ -23373,6 +23392,7 @@
 ||xvqlysmged.duckdns.org^
 ||xvrlfznhey.duckdns.org^
 ||xvtry4.webwave.dev^
+||xw2zgkt.duckdns.org^
 ||xw9i6lmif.duckdns.org^
 ||xwh46oy5.duckdns.org^
 ||xwhatsappgroup.pages.dev^
@@ -23452,6 +23472,7 @@
 ||yahoo-world-nameless-scene-2159.girkumegno.workers.dev^
 ||yahoo.begniherzi.workers.dev^
 ||yahoo.caydecalmo.workers.dev^
+||yahoo.festukarzu.workers.dev^
 ||yahoo.mumlurorde.workers.dev^
 ||yahoo.nortifafyi.workers.dev^
 ||yahoo.nospivegno.workers.dev^
