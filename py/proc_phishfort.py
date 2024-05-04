@@ -44,7 +44,7 @@ def process_domains_not_in_database():
         return []
 
 def update_database():
-    db_path = "cache.db"
+    db_path = "stor/cache.db"
     domains = process_domains_not_in_database()
     if not domains:
         logging.info("No new domains to process.")
