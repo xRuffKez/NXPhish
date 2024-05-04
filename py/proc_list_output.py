@@ -76,7 +76,7 @@ def update_phishfeed(workspace):
                                 status = "OK"
                             except dns.resolver.NXDOMAIN:
                                 status = "NXDOMAIN"
-                            except dns.resolver.NoAnswer:
+                            except (dns.resolver.NoAnswer, dns.resolver.SERVFAIL):
                                 status = "SERVFAIL"
                             except dns.resolver.REFUSED:
                                 status = "REFUSED"
