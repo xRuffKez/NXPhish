@@ -1,4 +1,4 @@
-name: Process Phishtank Domains
+name: Process Phishfort Domains
 
 on:
   workflow_dispatch:
