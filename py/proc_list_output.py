@@ -51,7 +51,7 @@ def update_phishfeed(workspace):
                                     status = "NXDOMAIN"
                                 except Exception as e:
                                     logger.error("Error resolving domain %s: %s", domain, e)
-                                    status = "ERROR"
+                                    status = "SERVFAIL"
                             current_time = datetime.now().isoformat()
                             cursor.execute("INSERT INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
         cursor.execute("DELETE FROM domains WHERE last_seen < ?", (max_age.isoformat(),))
