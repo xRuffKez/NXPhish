@@ -14,7 +14,7 @@ def check_dns_status(domain):
         return "OK"
     except dns.resolver.NXDOMAIN:
         return "NXDOMAIN"
-    except dns.resolver.NoAnswer:
+    except (dns.resolver.NoAnswer, dns.resolver.Timeout):
         return "SERVFAIL"
     except Exception as e:
         logging.error("Error resolving domain %s: %s", domain, e)
