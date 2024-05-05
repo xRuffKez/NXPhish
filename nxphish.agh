@@ -4,16 +4,16 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 08:05:02
+! Last updated: 2024-05-05 08:17:35
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50992
-! Number of NXDOMAIN domains: 81961
-! Number of SERVFAIL domains: 1803
+! Number of phishing domains: 50991
+! Number of NXDOMAIN domains: 81963
+! Number of SERVFAIL domains: 1810
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 57337 (58.0%)
+! - com: 57340 (58.0%)
 ! - dev: 6389 (6.46%)
-! - org: 6022 (6.09%)
+! - org: 6027 (6.1%)
 ! - app: 5502 (5.57%)
 ! - net: 5347 (5.41%)
 ! - xyz: 5109 (5.17%)
@@ -1151,6 +1151,7 @@
 ||9m95yljr.duckdns.org^
 ||9macu.info^
 ||9og780x8.duckdns.org^
+||9p7ph5n4.duckdns.org^
 ||9pirateara.ru.com^
 ||9s8f.cn^
 ||9sgj.cfd^
@@ -10476,7 +10477,6 @@
 ||c7987.top^
 ||c7bo07.duckdns.org^
 ||c7ed7c0a-a3f0-4a62-9092-b1bb34dc0ec4-00-2hhxxwsgft7jv.janeway.replit.dev^
-||c7o1tf.duckdns.org^
 ||c7wgj4.webwave.dev^
 ||c7wif.ycra.net^
 ||c8048.top^
@@ -22167,7 +22167,6 @@
 ||ip222.ip-54-38-120.eu^
 ||ip6v7nf2.duckdns.org^
 ||ipaboost.optum.link^
-||ipb.ac.id^
 ||ipdfosose.web.app^
 ||ipfs-safe.org^
 ||ipfs.best-practice.se^
@@ -30569,7 +30568,6 @@
 ||nodevalidation.netlify.app^
 ||nodevalidation.pages.dev^
 ||nodevalidator.netlify.app^
-||nodeweb3fix.com^
 ||nodewebcontest.netlify.app^
 ||nodewebexapp.com^
 ||nodexplorer.netlify.app^
@@ -31027,6 +31025,7 @@
 ||ohbestdayever.com^
 ||ohcp1v.webwave.dev^
 ||ohigfdgfdzsfxhghb.weebly.com^
+||ohiocircuit.com^
 ||ohiohistory.myportfolio.com^
 ||ohksxitservicefr.firebaseapp.com^
 ||ohksxitservicefr.web.app^
@@ -31311,6 +31310,7 @@
 ||onnonetworks.com^
 ||onpolkadot.js.org^
 ||onpublishies-data69-centers.start.page^
+||onrappel.com^
 ||ont.web3-airdrop.net^
 ||ontario-courtspayment.com^
 ||ontario407etr.com^
@@ -49753,7 +49753,6 @@
 ||x2shiba.com^
 ||x2sol.com^
 ||x2solana.com^
-||x2szgqxyv.duckdns.org^
 ||x2xejc.webwave.dev^
 ||x2y2.fi^
 ||x2y2.icu^
