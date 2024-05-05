@@ -4,19 +4,19 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 22:34:06
+! Last updated: 2024-05-05 22:44:14
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51636
-! Number of NXDOMAIN domains: 82042
-! Number of SERVFAIL domains: 1919
+! Number of phishing domains: 51632
+! Number of NXDOMAIN domains: 82043
+! Number of SERVFAIL domains: 1922
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 23363 (55.66%)
 ! - dev: 6011 (14.32%)
 ! - app: 4618 (11.0%)
-! - org: 1937 (4.61%)
+! - org: 1935 (4.61%)
 ! - io: 1647 (3.92%)
-! - net: 1451 (3.46%)
+! - net: 1450 (3.45%)
 ! - xyz: 879 (2.09%)
 ! - top: 799 (1.9%)
 ! - site: 756 (1.8%)
@@ -30792,7 +30792,6 @@
 ||njedxgh.romerodrashraf581.workers.dev^
 ||njee58.weebly.com^
 ||njetdsy.reytnmx.workers.dev^
-||njeuqkhccw.duckdns.org^
 ||njfhb.duckdns.org^
 ||njfzi1.webwave.dev^
 ||njkbhjghf.pages.dev^
@@ -37588,7 +37587,6 @@
 ||rp.khelaia.com^
 ||rpc-debugextensiondapps.pages.dev^
 ||rpc-flodapps.online^
-||rpc-interface.net^
 ||rpc-mainnet.dev^
 ||rpc-metafix.pages.dev^
 ||rpc-node-fix.org^
@@ -45925,7 +45923,6 @@
 ||wallet-fix-error.firebaseapp.com^
 ||wallet-fix-error.web.app^
 ||wallet-fixers.netlify.app^
-||wallet-id.109-71-253-24.plesk.page^
 ||wallet-ksamatam.godaddysites.com^
 ||wallet-luanch.netlify.app^
 ||wallet-metamask.com^
@@ -47149,7 +47146,6 @@
 ||wf3g81.webwave.dev^
 ||wfalerts-srp.firebaseapp.com^
 ||wfalerts-srp.web.app^
-||wfdstplkon.duckdns.org^
 ||wfow-8ab44.firebaseapp.com^
 ||wfow-8ab44.web.app^
 ||wfyhsdhjhahfhksdjgjhfsgg63.weebly.com^
