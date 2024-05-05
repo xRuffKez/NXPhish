@@ -4,17 +4,17 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 22:54:39
+! Last updated: 2024-05-05 23:04:51
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51633
-! Number of NXDOMAIN domains: 82043
-! Number of SERVFAIL domains: 1922
+! Number of phishing domains: 51631
+! Number of NXDOMAIN domains: 82044
+! Number of SERVFAIL domains: 1923
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23363 (55.66%)
+! - com: 23362 (55.66%)
 ! - dev: 6011 (14.32%)
 ! - app: 4618 (11.0%)
-! - org: 1935 (4.61%)
+! - org: 1934 (4.61%)
 ! - io: 1647 (3.92%)
 ! - net: 1450 (3.45%)
 ! - xyz: 879 (2.09%)
@@ -23218,7 +23218,6 @@
 ||k62oy9.webwave.dev^
 ||k63nug.webwave.dev^
 ||k6kjba.webwave.dev^
-||k6s7869q.duckdns.org^
 ||k7ixue4ho.duckdns.org^
 ||k8jpnb.com^
 ||k8mc42.webwave.dev^
@@ -34913,7 +34912,6 @@
 ||portalau.pages.dev^
 ||portalclaim.co^
 ||portalcoin.cc^
-||portalcoinbase.com^
 ||portaldigitalclientefeliz.blogspot.com^
 ||portaldiscover19.firebaseapp.com^
 ||portaldiscover19.web.app^
