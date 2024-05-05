@@ -3,21 +3,21 @@
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-05 00:10:52
-! Number of phishing domains: 50941
+! Last updated: 2024-05-05 00:30:15
+! Number of phishing domains: 50986
 ! Number of NXDOMAIN domains: 81957
 ! Number of SERVFAIL domains: 1799
 ! Number of domains removed by whitelist: 240
 ! Top 10 abused TLDs:
-! - com: 57327 (58.02%)
-! - dev: 6389 (6.47%)
-! - org: 5993 (6.07%)
+! - com: 57332 (58.0%)
+! - dev: 6389 (6.46%)
+! - org: 6021 (6.09%)
 ! - app: 5502 (5.57%)
 ! - net: 5347 (5.41%)
 ! - xyz: 5108 (5.17%)
 ! - online: 3492 (3.53%)
-! - site: 3405 (3.45%)
-! - io: 3144 (3.18%)
+! - site: 3405 (3.44%)
+! - io: 3156 (3.19%)
 ! - top: 3096 (3.13%)
 ! Domains removed after 60 days if not re-added through feed.
 
@@ -195,6 +195,7 @@
 ||163-1ew.pages.dev^
 ||16jdzbfjger.ru^
 ||16om74czh53t8019i8st34p0qswhpp-479.pages.dev^
+||16z0v0.duckdns.org^
 ||17-track.info^
 ||1757651919.com^
 ||1776coin.org^
@@ -358,6 +359,7 @@
 ||1isd8w1sl.duckdns.org^
 ||1itnch.space^
 ||1j5dca.duckdns.org^
+||1l2rvdlc.duckdns.org^
 ||1lhch.pro^
 ||1linch.pages.dev^
 ||1linchclaim.top^
@@ -481,6 +483,7 @@
 ||2b3a2372-5410-4587-b9a8-eeca1c8b096c.htmlpasta.com^
 ||2bb7.zip-release.workers.dev^
 ||2bh9w0.duckdns.org^
+||2cc3o77fm.duckdns.org^
 ||2cd6e164.209189fbad78d1394fea44cc.workers.dev^
 ||2crlw.pro^
 ||2czyp0.duckdns.org^
@@ -501,6 +504,7 @@
 ||2g7p6t.duckdns.org^
 ||2gdlzz3.duckdns.org^
 ||2hdypkcr.ajsik.my.id^
+||2hi6ngg.duckdns.org^
 ||2inch.net^
 ||2j4x0uznb.duckdns.org^
 ||2jgerhsd.ru^
@@ -639,8 +643,10 @@
 ||436578vodafone-de.weebly.com^
 ||437578ghjvbgftryuiyt678iu7y6897u.pages.dev^
 ||43l.s3o98.com^
+||43n84d0.duckdns.org^
 ||44.236.127.39^
 ||4424242t4r--habilitar00.repl.co^
+||442hj92z.duckdns.org^
 ||444444-ai9.pages.dev^
 ||44a3.secure-lllc.workers.dev^
 ||44dvdwleui.pages.dev^
@@ -736,6 +742,7 @@
 ||5367653454-665.start.page^
 ||53952815e0429b07bb3f41951d4638567.pages.dev^
 ||53mhgxt82.duckdns.org^
+||53q86v2r.duckdns.org^
 ||54437893478234e3qrycu234878c3-profile-update-unitedairline.pages.dev^
 ||559630791122980.graficaaoquadrado.com.br^
 ||55ec934e.5b947268055fa71d8a766191.workers.dev^
@@ -762,6 +769,7 @@
 ||5eplay.gosaishi-bisai.com^
 ||5f0id1ksy.duckdns.org^
 ||5f8d9eb3.d10f05e59e81e2f9cfa61b7e.workers.dev^
+||5fgffgfg4g4gh4hfg4fg.blogspot.com^
 ||5fgffgfgfg4g4gh4tf.blogspot.com^
 ||5fgffgfgfg4g4gh4tf.blogspot.com.tr^
 ||5fgfgffgfg4g4gg.blogspot.com^
@@ -987,6 +995,7 @@
 ||7kdgw.pro^
 ||7ksync.net^
 ||7mia9hm2.duckdns.org^
+||7mn8ew.duckdns.org^
 ||7ndgxvk.duckdns.org^
 ||7oh3ya.cn^
 ||7polkadot.js.org^
@@ -996,6 +1005,7 @@
 ||7trfj.ktt55.my.id^
 ||7txhjdncdblxdco3c.square.site^
 ||7u3mep7s.co^
+||7uvegkv.duckdns.org^
 ||7wk5den.duckdns.org^
 ||7wn4b7.duckdns.org^
 ||7xdjqj.duckdns.org^
@@ -1061,6 +1071,7 @@
 ||8xjdjsl.duckdns.org^
 ||8xy4v7nw.duckdns.org^
 ||8yiujkb.3jp63gh5nt4256.workers.dev^
+||8zapq5ln.duckdns.org^
 ||8zlyni.duckdns.org^
 ||9-2.pages.dev^
 ||9043347edinburghukin.weebly.com^
@@ -5614,6 +5625,7 @@
 ||awrm.xyz^
 ||awsbilling-www.internal.pancakeswape.finance^
 ||awswispasauth0-serverauthi7474.web.app^
+||awz8ow.duckdns.org^
 ||ax2rby410.ukit.me^
 ||axeinfinity.com^
 ||axeinifinity.com^
@@ -9939,6 +9951,7 @@
 ||bt-voice-100638.weeblysite.com^
 ||bt-voice-109318.weeblysite.com^
 ||bt-voice-a1e426.webflow.io^
+||bt-voice-mail-5133ea.webflow.io^
 ||bt-voice-mail.weeblysite.com^
 ||bt-voice.webullar.site^
 ||bt-voive-mail-b60b3f.webflow.io^
@@ -13025,8 +13038,11 @@
 ||cox-100175.weeblysite.com^
 ||cox-ccommunicationscox.webflow.io^
 ||cox-communication-100483.weeblysite.com^
+||cox-communicationss-dandy.webflow.io^
+||cox-email-90c611.webflow.io^
 ||cox-hub.webflow.io^
 ||cox-net-5f88d0.webflow.io^
+||cox-net-new-sites.webflow.io^
 ||cox-online-dce003.webflow.io^
 ||cox-webmail-1f60a3.webflow.io^
 ||cox-webmail-2bb771.webflow.io^
@@ -15058,6 +15074,7 @@
 ||dij.cna.mybluehost.me^
 ||dikemex.com^
 ||diliiasfg.com^
+||diluag.duckdns.org^
 ||diluteoil.com^
 ||dimensional.netlify.app^
 ||dimensionals.web3-airdrop.net^
@@ -15695,6 +15712,7 @@
 ||dustlabs2.netlify.app^
 ||dutton.co.nz^
 ||duvidrobrazz.blogspot.com^
+||dv7qx20.duckdns.org^
 ||dvhuh.pages.dev^
 ||dvsd.pages.dev^
 ||dw97eg.webwave.dev^
@@ -17680,6 +17698,7 @@
 ||fb-ticket-case-47123.pages.dev^
 ||fb.meta-pages.workers.dev^
 ||fb.phoenixcloud.workers.dev^
+||fb9d6j.duckdns.org^
 ||fbc-limited.com^
 ||fbcenter-case100510563211.firebaseapp.com^
 ||fbcenter-case100510563211.web.app^
@@ -19303,6 +19322,7 @@
 ||gfrywu0946hz.vyiz.my.id^
 ||gfsaryyy.weebly.com^
 ||gft-ray.web.app^
+||gfxyaet.duckdns.org^
 ||gfygu69ghg.htfmjv8uordfy.workers.dev^
 ||gfyj.ktt55.my.id^
 ||gg-acess-account.blogspot.com^
@@ -19473,6 +19493,7 @@
 ||giveaway.at.ua^
 ||giveaway.neocities.org^
 ||giveaway.optlmism.xyz^
+||giveaway8.godaddysites.com^
 ||giveawaycheck.netlify.app^
 ||giveaways-mint.sergiupopa.com^
 ||giveawaysmeta.com^
@@ -19537,8 +19558,10 @@
 ||gmvendorbillinginterest.com^
 ||gmx-exchanges.com^
 ||gmx-launch.io^
+||gmx-mail-a82ba3.webflow.io^
 ||gmx-mainnet.com^
 ||gmx-reward.com^
+||gmx-services.webflow.io^
 ||gmxclaim.xyz^
 ||gmxde-101522.weeblysite.com^
 ||gmxdret324bdgqq.yolasite.com^
@@ -20873,6 +20896,7 @@
 ||home-bltkub-petshop.blogspot.com^
 ||home-bltkub.blogspot.com^
 ||home-bold-office-07eb.sebidoy177.workers.dev^
+||home-coinbase.webflow.io^
 ||home-fixedfloat.com^
 ||home-followup-american-f56c.hegok59888.workers.dev^
 ||home-fxt89hgp.weeblysite.com^
@@ -23309,6 +23333,7 @@
 ||kttpczwrxt.duckdns.org^
 ||ktysi.top^
 ||ku-cinlogginsef.godaddysites.com^
+||ku3j86q.duckdns.org^
 ||ku40pz.duckdns.org^
 ||kua.tid.temporary.site^
 ||kuacoiinlogg.godaddysites.com^
@@ -23447,6 +23472,7 @@
 ||l5ig2fdnt.duckdns.org^
 ||l6et5c.webwave.dev^
 ||l6r943.csb.app^
+||l6yqayun.duckdns.org^
 ||l7om8h.webwave.dev^
 ||l816w5.webwave.dev^
 ||l8c1stwqe.duckdns.org^
@@ -24900,6 +24926,7 @@
 ||lrtgsnd.cn^
 ||lrtoepo.firebaseapp.com^
 ||lrtoepo.web.app^
+||ls-site-f8fd9c.webflow.io^
 ||lscryptv.com^
 ||lsdahx.weebly.com^
 ||lse-crypto.com^
@@ -25566,6 +25593,7 @@
 ||mailegrmsueduwebmailrough-bird-2005.daeunj6213.workers.dev^
 ||mailemintheden.blogspot.com^
 ||mailer03recoveryandsecurity985029askjflsdzkfjisjhnzujfchth.pages.dev^
+||mailer1.godaddysites.com^
 ||mailerserveratt.urest.org^
 ||mailes099.yolasite.com^
 ||maileyhoo-folder-969b.maile-l.workers.dev^
@@ -25912,6 +25940,7 @@
 ||mardsklo.web.app^
 ||marg.habibitsolutions.com^
 ||marginfi-drop.netlify.app^
+||marilus-fabulous-site.webflow.io^
 ||marinade-finance.com^
 ||marinadefinance.claims^
 ||marinadefinance.com^
@@ -29860,6 +29889,7 @@
 ||ndjqweke9283893emwmw839203fdkks8493jds.myportfolio.com^
 ||ndk.pages.dev^
 ||ndlions.netlify.app^
+||ndwjop.duckdns.org^
 ||ne.cion-defi.pro^
 ||ne12juridcanetempresa.blogspot.com^
 ||ne2v59.webwave.dev^
@@ -30872,6 +30902,7 @@
 ||oepdnhyoe.duckdns.org^
 ||oepzxvfciy.duckdns.org^
 ||oeth.cash^
+||oetppvh.duckdns.org^
 ||of0vfqj5n.duckdns.org^
 ||of8f37.webwave.dev^
 ||ofdfgfucjgtuq2t.shared-www.mx2.pancakeswape.finance^
@@ -35505,6 +35536,7 @@
 ||qdirjj.webwave.dev^
 ||qe9rruv5o.supersurvey.com^
 ||qenetec.com^
+||qertbii1.duckdns.org^
 ||qfs-quantumfidelity.com^
 ||qfsassetsledger.com^
 ||qfssecvault.com^
@@ -36793,6 +36825,7 @@
 ||rga158.webwave.dev^
 ||rgcikynbzn.duckdns.org^
 ||rgm-pdf.pages.dev^
+||rgty703g4.duckdns.org^
 ||rgu.s3o98.com^
 ||rgumd.pages.dev^
 ||rheiantz-schmeaulls-mcouy.yolasite.com^
@@ -36906,6 +36939,7 @@
 ||rnetarnask.one^
 ||rnetarnesk.top^
 ||rnhff2sa.duckdns.org^
+||rnjqvoy.duckdns.org^
 ||rnmnt.pages.dev^
 ||rnooodys.com^
 ||rntl381492booking.com^
@@ -37224,6 +37258,7 @@
 ||rtyui-c9f06.web.app^
 ||rtyuiuytrtyyt.weebly.com^
 ||ru.vnmod.net^
+||ru4jak87.duckdns.org^
 ||ru5x9r8g6.duckdns.org^
 ||rubberflooringindonesia.com^
 ||rubic-exchange.life^
@@ -37264,6 +37299,7 @@
 ||rwbby-18ae0.web.app^
 ||rwbpyjur.firebaseapp.com^
 ||rwbpyjur.web.app^
+||rwczr41up.duckdns.org^
 ||rwqf0ji.relzhost.biz.id^
 ||rwu-co.webflow.io^
 ||rwvconstruction.com^
@@ -39531,6 +39567,7 @@
 ||sp905700.sitebeat.crazydomains.com^
 ||sp91045.sitebeat.crazydomains.com^
 ||sp924810.sitebeat.crazydomains.com^
+||sp951612.sitebeat.crazydomains.com^
 ||sp956782.sitebeat.crazydomains.com^
 ||sp961939.sitebeat.crazydomains.com^
 ||sp963532.sitebeat.crazydomains.com^
@@ -41077,6 +41114,7 @@
 ||tazanews18.in^
 ||tbayr543dvr2hxnf25hjxnm4rpzjhw3c7mwvzwj6oatzilgnxqqq.arweave.net^
 ||tbht.webflow.io^
+||tbt-a9ccc4.webflow.io^
 ||tcdl42.webwave.dev^
 ||tcix61.webwave.dev^
 ||td34hiwuoyrvv1y.www.demo.pancakeswaps.it^
@@ -43025,6 +43063,7 @@
 ||u-sp-sredirec.web.app^
 ||u02lzh.webwave.dev^
 ||u1923043.cp.regruhosting.ru^
+||u1j04rwv.duckdns.org^
 ||u1tdo6ln3itu4fp.www.shared-www.mx2.pancakeswape.finance^
 ||u20662064.ct.sendgrid.net^
 ||u21oeo.webwave.dev^
@@ -43602,6 +43641,7 @@
 ||updatenow.pages.dev^
 ||updatenow10111454.weebly.com^
 ||updatenow367.weebly.com^
+||updateoutlookaccess.webflow.io^
 ||updateserver.pages.dev^
 ||updatesyracuseuniversity0099.ukit.me^
 ||updateweekslawfirm.weebly.com^
@@ -44407,6 +44447,7 @@
 ||v6hd3.pro^
 ||v6ii0r.duckdns.org^
 ||v70bowv4vx4adzc.shared-www.mx2.pancakeswape.finance^
+||v7cqtci.duckdns.org^
 ||v7h2kj.duckdns.org^
 ||v7jr59a.duckdns.org^
 ||v7ujgjhgyjgyu.komi.io^
@@ -45257,6 +45298,7 @@
 ||wa11et.nnymonero.com^
 ||wa12000.pages.dev^
 ||wabanetworks.com^
+||wac59mo.duckdns.org^
 ||wadeheld-abry.ourhobby.com^
 ||waegjehonceprinnsadhg01.pages.dev^
 ||waegjehonceprinnsadhg3.pages.dev^
@@ -46696,6 +46738,7 @@
 ||winklevoss-brothers-bonus.blogspot.com^
 ||winklevoss-events.blogspot.com^
 ||winnebago.ru^
+||winning3000.godaddysites.com^
 ||winningcointrde.com^
 ||winpremium.xyz^
 ||winrprotocol.netlify.app^
@@ -50168,6 +50211,7 @@
 ||y54vxm8p.duckdns.org^
 ||y5nwzo.webwave.dev^
 ||y7f9zzu3.duckdns.org^
+||y8b4g3.duckdns.org^
 ||y8kdua.duckdns.org^
 ||y98wr0.webwave.dev^
 ||y9n2erts.xzf.my.id^
@@ -50372,6 +50416,7 @@
 ||yhz.pages.dev^
 ||yhzt-525a9.firebaseapp.com^
 ||yhzt-525a9.web.app^
+||yichang.webflow.io^
 ||yieldguild.online^
 ||yieldguildgames.web3-airdrop.net^
 ||yieldmagnet.app^
