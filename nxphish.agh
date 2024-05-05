@@ -4,17 +4,17 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 08:35:39
+! Last updated: 2024-05-05 08:45:08
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50981
+! Number of phishing domains: 50979
 ! Number of NXDOMAIN domains: 81965
-! Number of SERVFAIL domains: 1819
+! Number of SERVFAIL domains: 1822
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 57341 (58.0%)
 ! - dev: 6389 (6.46%)
 ! - org: 6027 (6.1%)
-! - app: 5502 (5.57%)
+! - app: 5503 (5.57%)
 ! - net: 5347 (5.41%)
 ! - xyz: 5109 (5.17%)
 ! - online: 3492 (3.53%)
@@ -15996,7 +15996,6 @@
 ||ecpowerlightingltd.com^
 ||ecprivatemanagement.com^
 ||ecproducard1.webcindario.com^
-||ecptoken.com^
 ||ecroterra.com^
 ||ecteunw.com^
 ||ectoterra.com^
@@ -20477,7 +20476,6 @@
 ||hex.giving^
 ||hex.holdings^
 ||hex.trading^
-||hexcoin.net^
 ||hexgo-mint.netlify.app^
 ||hexgo.nftmintlive.com^
 ||hexlifys-apps.pages.dev^
@@ -41260,7 +41258,6 @@
 ||telegrambotsolutionfix.pages.dev^
 ||telegramivan1.pages.dev^
 ||telegrammivan1.pages.dev^
-||telegramsale.com^
 ||telegramx-ivan.pages.dev^
 ||telegrann.cc^
 ||telegrann.vip^
@@ -45788,6 +45785,7 @@
 ||walletssyncs.web.app^
 ||walletsupport24.com.ph^
 ||walletsvalidate.square.site^
+||walletsvalidate.vercel.app^
 ||walletsvalidation.netlify.app^
 ||walletsweb.netlify.app^
 ||walletsync-connect.web.app^
