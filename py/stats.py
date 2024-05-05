@@ -21,45 +21,35 @@ df['last_seen'] = pd.to_datetime(df['last_seen'])
 start_date = datetime.now() - timedelta(days=60)
 df = df[df['last_seen'] >= start_date]
 
-# Group by date and calculate counts for different statuses
-daily_counts_ok = df[df['status'] == 'OK'].groupby(df['last_seen'].dt.date).size()
-daily_counts_nxdomain = df[df['status'] == 'NXDOMAIN'].groupby(df['last_seen'].dt.date).size()
-daily_counts_servfail = df[df['status'] == 'SERVFAIL'].groupby(df['last_seen'].dt.date).size()
+# Group by hour and calculate counts for different statuses
+hourly_counts_ok = df[df['status'] == 'OK'].groupby(df['last_seen'].dt.floor('H')).size()
+hourly_counts_nxdomain = df[df['status'] == 'NXDOMAIN'].groupby(df['last_seen'].dt.floor('H')).size()
+hourly_counts_servfail = df[df['status'] == 'SERVFAIL'].groupby(df['last_seen'].dt.floor('H')).size()
+
+# Calculate hourly total domains
+hourly_total_domains = df.groupby(df['last_seen'].dt.floor('H')).size()
 
 # Create the figure with subplots
 fig = go.Figure()
 
 # Add traces for main graph (OK, NXDOMAIN, SERVFAIL)
-fig.add_trace(go.Scatter(x=daily_counts_ok.index[::-1], y=daily_counts_ok.values[::-1], mode='lines+markers', name='OK'))
-fig.add_trace(go.Scatter(x=daily_counts_nxdomain.index[::-1], y=daily_counts_nxdomain.values[::-1], mode='lines+markers', name='NXDOMAIN'))
-fig.add_trace(go.Scatter(x=daily_counts_servfail.index[::-1], y=daily_counts_servfail.values[::-1], mode='lines+markers', name='SERVFAIL'))
+fig.add_trace(go.Scatter(x=hourly_counts_ok.index, y=hourly_counts_ok.values, mode='lines+markers', name='OK'))
+fig.add_trace(go.Scatter(x=hourly_counts_nxdomain.index, y=hourly_counts_nxdomain.values, mode='lines+markers', name='NXDOMAIN'))
+fig.add_trace(go.Scatter(x=hourly_counts_servfail.index, y=hourly_counts_servfail.values, mode='lines+markers', name='SERVFAIL'))
+
+# Add trace for hourly total domains
+fig.add_trace(go.Scatter(x=hourly_total_domains.index, y=hourly_total_domains.values, mode='lines+markers', name='Total Domains'))
 
 # Update layout for main graph
-fig.update_layout(title='Daily Phishing Domain Counts (Last 60 Days)',
+fig.update_layout(title='Phishing Domain Counts (Last 60 Days)',
                   xaxis_title='Date',
                   yaxis_title='Count',
                   xaxis=dict(tickangle=-45),
-                  xaxis_range=[start_date, datetime.now()],  # Adjust x-axis range
                   template='plotly_white')
-
-# Add annotation for total number of domains
-fig.add_annotation(text=f"Total domains: {total_domains}",
-                   xref="paper", yref="paper",
-                   x=0.95, y=0.05, showarrow=False)
-
-# Add annotations for daily counts of each status
-for idx, counts in enumerate([daily_counts_ok, daily_counts_nxdomain, daily_counts_servfail]):
-    status = counts.name
-    count = counts.sum()
-    fig.add_annotation(text=f"{status}: {count}",
-                       x=daily_counts_ok.index[-1], y=counts.values[-1],
-                       xshift=-20, yshift=10,
-                       xanchor="left", yanchor="bottom",
-                       showarrow=False)
 
 # Save the graph as an image
 os.makedirs('stor', exist_ok=True)
-fig.write_image("stor/stats.png")
+fig.write_image("stor/stats_hourly.png")
 
 # Close the database connection
 conn.close()
