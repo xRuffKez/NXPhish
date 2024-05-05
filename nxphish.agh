@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 09:35:03
+! Last updated: 2024-05-05 09:44:45
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50967
-! Number of NXDOMAIN domains: 81968
-! Number of SERVFAIL domains: 1831
+! Number of phishing domains: 50961
+! Number of NXDOMAIN domains: 81971
+! Number of SERVFAIL domains: 1834
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 57341 (58.0%)
@@ -112,7 +112,6 @@
 ||0pernsea.com^
 ||0pt12rrx2.duckdns.org^
 ||0ptimism.live^
-||0ra3u90.duckdns.org^
 ||0riq97qd.square.site^
 ||0sdlj8v.duckdns.org^
 ||0se7k6.duckdns.org^
@@ -1849,7 +1848,6 @@
 ||aern-ne-jp.fxxzjr.cn^
 ||aern-ne-jp.hhhaac.cn^
 ||aern-ne-jp.hzxxyx.com^
-||aeropax.xyz^
 ||aerordome.finance^
 ||aeshanteen.firebaseapp.com^
 ||aeshanteen.web.app^
@@ -18025,7 +18023,6 @@
 ||fixbugs.pages.dev^
 ||fixbugsdapps.netlify.app^
 ||fixbugsnow.netlify.app^
-||fixbugstm.com^
 ||fixchain.pages.dev^
 ||fixconnect.click^
 ||fixconnect.net^
@@ -37272,7 +37269,6 @@
 ||run-73m.pages.dev^
 ||run-sun-a3dc.santanaharmon.workers.dev^
 ||runjokab.wpenginepowered.com^
-||runkz6.duckdns.org^
 ||runnenxwaallxtz.godaddysites.com^
 ||rural1.webcindario.com^
 ||ruraltel-webmail-101477.square.site^
@@ -43686,7 +43682,6 @@
 ||uploadropbox1.web.app^
 ||uploadsecure.xyz^
 ||upnews18.com^
-||upniz.duckdns.org^
 ||upnpe.weebly.com^
 ||upod.pages.dev^
 ||upok.pages.dev^
@@ -44170,7 +44165,6 @@
 ||usps.eirdpwxysl.top^
 ||usps.eswhrwvuyj.top^
 ||usps.eyjkhacrqn.top^
-||usps.ffjhivdhwe.top^
 ||usps.fqosbfgwvj.top^
 ||usps.gggeebb.com^
 ||usps.gggrrerf.com^
