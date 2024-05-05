@@ -4,21 +4,21 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 18:53:42
+! Last updated: 2024-05-05 19:04:35
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51622
+! Number of phishing domains: 51620
 ! Number of NXDOMAIN domains: 82023
-! Number of SERVFAIL domains: 1890
+! Number of SERVFAIL domains: 1893
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23359 (55.65%)
+! - com: 23358 (55.65%)
 ! - dev: 6011 (14.32%)
 ! - app: 4619 (11.0%)
-! - org: 1948 (4.64%)
+! - org: 1946 (4.64%)
 ! - io: 1640 (3.91%)
 ! - net: 1448 (3.45%)
 ! - xyz: 882 (2.1%)
-! - top: 797 (1.9%)
+! - top: 798 (1.9%)
 ! - site: 755 (1.8%)
 ! - me: 516 (1.23%)
 ! Domains removed after 60 days if not re-added through feed.
@@ -1657,6 +1657,7 @@
 ||acount-verifieds.start.page^
 ||acountverifmeta.start.page^
 ||acoustic-house-rapping.on-fleek.app^
+||acquaintrecurrence.top^
 ||acraven.rowellcravenshort.workers.dev^
 ||acredit.pages.dev^
 ||acriaswap.com^
@@ -20249,7 +20250,6 @@
 ||h7a1aizb.duckdns.org^
 ||h7ztqb.webwave.dev^
 ||h8fl00.cc^
-||h8vq1ctki.duckdns.org^
 ||h96azlgxq.duckdns.org^
 ||h9h0lgajjh6gizw.elb-host86.pancakeswape.finance^
 ||h9m6ad.duckdns.org^
@@ -30688,7 +30688,6 @@
 ||nga-pv.com^
 ||ngbvpjeqss.duckdns.org^
 ||ngdzupcxax.duckdns.org^
-||ngheaqmiqp.duckdns.org^
 ||nghereviewer.com^
 ||nghmghnfgnfg.boxmode.io^
 ||ngknss.cc^
@@ -39495,7 +39494,6 @@
 ||skysigninpage.weebly.com^
 ||skyverify.godaddysites.com^
 ||skyverse.top^
-||skywardsemirates.com^
 ||skyweavervs.net^
 ||sl-gm.com^
 ||slaohow.com^
