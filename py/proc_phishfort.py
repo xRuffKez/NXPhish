@@ -28,8 +28,7 @@ def check_dns_status(domain):
         except dns.resolver.NXDOMAIN:
             return "NXDOMAIN"
     except Exception as e:
-        logging.error("Error resolving domain %s: %s", domain, e)
-        return "ERROR"
+        return "SERVFAIL"
 
 def process_domains_not_in_database():
     url = "https://raw.githubusercontent.com/phishfort/phishfort-lists/master/blacklists/domains.json"
