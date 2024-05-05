@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 11:44:53
+! Last updated: 2024-05-05 11:54:29
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50917
-! Number of NXDOMAIN domains: 81983
-! Number of SERVFAIL domains: 1866
+! Number of phishing domains: 50913
+! Number of NXDOMAIN domains: 81986
+! Number of SERVFAIL domains: 1867
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 23260 (55.77%)
@@ -5663,7 +5663,6 @@
 ||axieinfinity.live^
 ||axieinfinity.quest^
 ||axieinfinity.stitfatahillah.ac.id^
-||axieinfinity.su^
 ||axieinfinity.tips^
 ||axieinfinity.vc^
 ||axieinfinity3x.com^
@@ -14896,7 +14895,6 @@
 ||dexconnetweb.com^
 ||dexfins.top^
 ||dexgatedirectory.pages.dev^
-||dexgunru.link^
 ||dexgzuru.link^
 ||dexlaunchlive.pages.dev^
 ||dexlaunchpadlive.pages.dev^
@@ -46723,7 +46721,6 @@
 ||wk.pl^
 ||wkbanckapichinch.webcindario.com^
 ||wkhxdwm97.urest.org^
-||wkkuail.vip^
 ||wkq77k.webwave.dev^
 ||wkt36.com^
 ||wlalctphnhtamus.godaddysites.com^
@@ -50115,7 +50112,6 @@
 ||xymeulukmt.duckdns.org^
 ||xyxuplxszb.duckdns.org^
 ||xyzh.indiancater.com^
-||xz2.ikun6.love^
 ||xz8125.webwave.dev^
 ||xzm1um.webwave.dev^
 ||xzo26e.duckdns.org^
