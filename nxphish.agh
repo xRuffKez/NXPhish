@@ -4,17 +4,17 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 10:34:49
+! Last updated: 2024-05-05 10:45:08
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50933
+! Number of phishing domains: 50929
 ! Number of NXDOMAIN domains: 81980
-! Number of SERVFAIL domains: 1853
+! Number of SERVFAIL domains: 1857
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23264 (55.76%)
+! - com: 23263 (55.76%)
 ! - dev: 5960 (14.29%)
 ! - app: 4617 (11.07%)
-! - org: 1961 (4.7%)
+! - org: 1958 (4.69%)
 ! - io: 1556 (3.73%)
 ! - net: 1427 (3.42%)
 ! - xyz: 885 (2.12%)
@@ -32247,7 +32247,6 @@
 ||pancake.svap.us.com^
 ||pancake.swap.finance.v2walletconnected.space^
 ||pancake.swap.finance.walletv2connect.space^
-||pancake888.com^
 ||pancakeappswap.ru^
 ||pancakebridge.com^
 ||pancakecakeswap.godaddysites.com^
@@ -32403,7 +32402,6 @@
 ||pancakeswap.com.de^
 ||pancakeswap.de^
 ||pancakeswap.doge-ceo.online^
-||pancakeswap.duckdns.org^
 ||pancakeswap.ecproevents.com^
 ||pancakeswap.epizy.com^
 ||pancakeswap.eu.com^
@@ -36881,7 +36879,6 @@
 ||rktft-cryptokicks.com^
 ||rktwzc.webwave.dev^
 ||rlbtbox.com^
-||rlx10ld2n.duckdns.org^
 ||rlynetwork.co^
 ||rm3jv6.duckdns.org^
 ||rmailldeli.weebly.com^
@@ -39054,7 +39051,6 @@
 ||skywardsemirates.com^
 ||skyweavervs.net^
 ||sl-gm.com^
-||sl33b1jc2.duckdns.org^
 ||slaohow.com^
 ||slarknet.shop^
 ||slatkigreh.com^
