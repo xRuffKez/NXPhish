@@ -4,23 +4,23 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 20:04:30
+! Last updated: 2024-05-05 20:16:53
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51616
-! Number of NXDOMAIN domains: 82028
-! Number of SERVFAIL domains: 1894
+! Number of phishing domains: 51671
+! Number of NXDOMAIN domains: 82029
+! Number of SERVFAIL domains: 1897
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23357 (55.65%)
-! - dev: 6011 (14.32%)
-! - app: 4618 (11.0%)
-! - org: 1946 (4.64%)
-! - io: 1640 (3.91%)
-! - net: 1448 (3.45%)
-! - xyz: 881 (2.1%)
-! - top: 798 (1.9%)
-! - site: 755 (1.8%)
-! - me: 516 (1.23%)
+! - com: 23373 (55.64%)
+! - dev: 6011 (14.31%)
+! - app: 4618 (10.99%)
+! - org: 1955 (4.65%)
+! - io: 1647 (3.92%)
+! - net: 1451 (3.45%)
+! - xyz: 880 (2.09%)
+! - top: 799 (1.9%)
+! - site: 756 (1.8%)
+! - me: 517 (1.23%)
 ! Domains removed after 60 days if not re-added through feed.
 
 ||00-ird.weebly.com^
@@ -441,6 +441,7 @@
 ||220q.cn^
 ||221i.cn^
 ||223d2465.716ba97704172b520b43d814.workers.dev^
+||22bb9y0r.duckdns.org^
 ||23398383820000122.hyperphp.com^
 ||2340940324893io3.hyperphp.com^
 ||23456yutrdfrgtyy43deiyuty.weebly.com^
@@ -1107,6 +1108,7 @@
 ||93wnnww8j.duckdns.org^
 ||9478i76543293oi20.hyperphp.com^
 ||95.216.40.229^
+||953a42.duckdns.org^
 ||9585759kzfj-gov-br.weebly.com^
 ||95kzw91gm.duckdns.org^
 ||95o2gn4bg.duckdns.org^
@@ -1587,6 +1589,7 @@
 ||acct-signinnow.firebaseapp.com^
 ||acct-signinnow.web.app^
 ||accts-rcvryd3.rf.gd^
+||acctudalcexamizacion.weebly.com^
 ||accueil-academie.hubside.fr^
 ||accueil-wels.webflow.io^
 ||acdmie-website.weebly.com^
@@ -1772,6 +1775,7 @@
 ||admin-attverify.ukit.me^
 ||admin-for-sex-offender-and-korean.vercel.app^
 ||admin-form-fn-prod-ods.insolvency-development.co.uk^
+||admin-ww.webflow.io^
 ||admin.allegros.shop^
 ||admin.dasjgntiqf.icu^
 ||admin.lcryptos.com^
@@ -4331,6 +4335,7 @@
 ||at-ts-awesome-site-4525af.webflow.io^
 ||at-ts-beautiful-site-3bab82.webflow.io^
 ||at-ts-cool-site-98e2e5.webflow.io^
+||at-ts-dandy-site-805d90.webflow.io^
 ||at-ts-dynamite-site-45ea92.webflow.io^
 ||at-ts-fabulous-site-79d27e.webflow.io^
 ||at-ts-fantastic-site-08d91c.webflow.io^
@@ -7962,6 +7967,7 @@
 ||bajwasq.square.site^
 ||bakedbeans.site^
 ||bakersdyswap.blogspot.com^
+||bakersfieldcollegee.ukit.me^
 ||bakerswap.trading^
 ||bakersyswap.xyz^
 ||bakery-staking.org^
@@ -9064,6 +9070,7 @@
 ||blendswaps.xyz^
 ||blgem.blogspot.com^
 ||blittrex.intrenational.com^
+||blixter.co^
 ||blkgbyujjg.duckdns.org^
 ||blknoiz06.net^
 ||bllaast.com^
@@ -11415,6 +11422,7 @@
 ||choudarybrothers.com^
 ||choupettesolana.com^
 ||chrin-caarly-scribly.yolasite.com^
+||chriss-exceptional-site-7c300b.webflow.io^
 ||christainminglespic.weebly.com^
 ||christies.app^
 ||christy-007.github.io^
@@ -12658,6 +12666,7 @@
 ||companygloogdrivefile.webflow.io^
 ||companylawinfo.com^
 ||compassionate-lalande.96-9-210-124.plesk.page^
+||compassvisa.myfreesites.net^
 ||compensadosscursel.blogspot.com^
 ||compensar.dev.bop-tech.com^
 ||compensar.medical.qa.bop-tech.com^
@@ -14346,6 +14355,7 @@
 ||dbs-bank65.wiki^
 ||dbs.anfa.com.cn^
 ||dbsbank-sg.top^
+||dbsfinance.net^
 ||dbslogistic.com^
 ||dbspaylah-sg.shop^
 ||dc-collab-land.app^
@@ -14358,6 +14368,7 @@
 ||dcontestd.blogspot.com^
 ||dcv.pages.dev^
 ||dd4h6j.webwave.dev^
+||ddafvfidsangefls444.weeblysite.com^
 ||dddddhh.site^
 ||dddfffffffhhhhf.vggghffdddghhhhj.workers.dev^
 ||ddexx.io^
@@ -17691,6 +17702,7 @@
 ||facbook-systeam.start.page^
 ||faccrackspace99.weebly.com^
 ||face-book-web-13gew.vercel.app^
+||facebbok.businesso.net^
 ||facebok-account.start.page^
 ||facebok-verified.start.page^
 ||facebooc-system.start.page^
@@ -18034,6 +18046,7 @@
 ||fgjhdgdjhjtg1111.blogspot.nl^
 ||fgjhdgdjhjtg1111.blogspot.sk^
 ||fgnjiu.bhtrdm.workers.dev^
+||fgocah.duckdns.org^
 ||fgt3.za.com^
 ||fgzyamxkv.duckdns.org^
 ||fh-jy.com^
@@ -18156,6 +18169,7 @@
 ||finlesuvr.firebaseapp.com^
 ||finlesuvr.web.app^
 ||finmaxbo.com^
+||finraman.blogspot.com^
 ||finty.com^
 ||finupdrop.com^
 ||fiouo01.info^
@@ -18423,7 +18437,6 @@
 ||flybitex.com^
 ||flydaddys.com^
 ||flydubai-staging-app-current.azureedge.net^
-||flyemiratesonline.com^
 ||flyemiratestoursandtravels.in^
 ||flyingredfish.com^
 ||flyingtogether.info^
@@ -18908,6 +18921,7 @@
 ||g0b158.webwave.dev^
 ||g13bsgf.duckdns.org^
 ||g1nz36.webwave.dev^
+||g2bank.godaddysites.com^
 ||g2er7dsn6.duckdns.org^
 ||g2uam2.duckdns.org^
 ||g30e8e99389694bda43f2e738605e6b8.pages.dev^
@@ -20925,6 +20939,7 @@
 ||hkinu.network^
 ||hkn.aes.mybluehost.me^
 ||hknmmc.weeblysite.com^
+||hksam.weebly.com^
 ||hlosackvv.firebaseapp.com^
 ||hlosackvv.web.app^
 ||hlpchckvrvy-1099283.glitch.me^
@@ -21180,6 +21195,7 @@
 ||home-outlook-7d75.digic16060.workers.dev^
 ||home-repair-tucson.com^
 ||home-shard-file-550b.nofene8869.workers.dev^
+||home-site-104138.weeblysite.com^
 ||home-sitekub.blogspot.com^
 ||home-uniswap.org^
 ||home-white-field-a130.gokisax566.workers.dev^
@@ -22644,6 +22660,7 @@
 ||jancrypto.blogspot.com^
 ||jane-ai.com^
 ||janemorris-jones.wixsite.com^
+||janjyakol.blogspot.com^
 ||janushenderson.agenciastatus.com.br^
 ||jaodpeozix.firebaseapp.com^
 ||jaodpeozix.web.app^
@@ -22940,6 +22957,7 @@
 ||jordancoin.online^
 ||jorge-agay.com^
 ||jorimts.com^
+||joseph-es-fantabulous-site.webflow.io^
 ||josephcolarusso.yahool0gin.workers.dev^
 ||joshbystrom.com^
 ||jouer0.blogspot.com^
@@ -22989,6 +23007,7 @@
 ||jsy490.com^
 ||jsydrt.qhpuw.xyz^
 ||jt1kaw.webwave.dev^
+||jt3sku.duckdns.org^
 ||jtfhesfesgd435436.firebaseapp.com^
 ||jtl11.com^
 ||jtlt0eq5.duckdns.org^
@@ -23367,6 +23386,7 @@
 ||ker3412.shop^
 ||keuicuoeinlueioginx.godaddysites.com^
 ||keurr-mcliaofy-kluobly.yolasite.com^
+||kevin-s-wondrous-site-3467bf.webflow.io^
 ||key.staging.pancakeswape.finance^
 ||key23456-698e6.firebaseapp.com^
 ||key23456-698e6.web.app^
@@ -26380,6 +26400,7 @@
 ||matamesk-tn.com^
 ||matamesklinog.godaddysites.com^
 ||matamieskwal1et.godaddysites.com^
+||matamisekllgin.webflow.io^
 ||match.lookatmynewphotos.com^
 ||matcmask.io^
 ||matemask-io.duckdns.org^
@@ -26866,6 +26887,7 @@
 ||meta-mconnect.web.app^
 ||meta-monsters.xyz^
 ||meta-mskwalle-us.godaddysites.com^
+||meta-notify.info^
 ||meta-online-server.vercel.app^
 ||meta-parfolio.info^
 ||meta-reboot-server.vercel.app^
@@ -27958,6 +27980,7 @@
 ||metask.website^
 ||metaskelginin.webflow.io^
 ||metasmaslk.azurewebsites.net^
+||metasmassikxtnsioin.webflow.io^
 ||metasolution-team.netlify.app^
 ||metastrust.net^
 ||metasupp-7324-1001.free.nf^
@@ -30688,6 +30711,7 @@
 ||nghereviewer.com^
 ||nghmghnfgnfg.boxmode.io^
 ||ngknss.cc^
+||ngonlu957.duckdns.org^
 ||ngstruart.com^
 ||ngstruart.info^
 ||ngstruart.org^
@@ -33646,6 +33670,17 @@
 ||paypal.optima.org^
 ||paypal.paytrader.com.ng^
 ||paypal.trinityfrench.org^
+||paypay-account.ne.jp^
+||paypay-checkpoint.ne.jp^
+||paypay-notice.ne.jp^
+||paypay-pointadd.ne.jp^
+||paypay-pointed.ne.jp^
+||paypay-pointout.ne.jp^
+||paypay-server.ne.jp^
+||paypay-services.ne.jp^
+||paypay-seve.ne.jp^
+||paypay-started.ne.jp^
+||paypay-xshell.ne.jp^
 ||payrefundcontest.firebaseapp.com^
 ||payrefundcontest.web.app^
 ||paysenger.web3-airdrop.net^
@@ -34381,6 +34416,7 @@
 ||pispealn.firebaseapp.com^
 ||pispealn.web.app^
 ||piv-cfe.pages.dev^
+||pixar.awskeytech.com^
 ||pixelartfcontest.pages.dev^
 ||pixelartfcontests.pages.dev^
 ||pixelartricontest.pages.dev^
@@ -34582,6 +34618,7 @@
 ||poi.bilitv.workers.dev^
 ||poi90ok.info^
 ||point-jup.web.app^
+||point-paypay.ne.jp^
 ||pointronds.firebaseapp.com^
 ||points-0n1force.com^
 ||poionlex.com^
@@ -36203,6 +36240,8 @@
 ||raffl-e4071.web.app^
 ||raffle-gives.com^
 ||ragtapa344.start.page^
+||raharharx.blogspot.ca^
+||raharharx.blogspot.com^
 ||rahdhdjkdh.firebaseapp.com^
 ||rahdhdjkdh.web.app^
 ||rahelesadeghi.ir^
@@ -37898,6 +37937,7 @@
 ||sanpix.com.br^
 ||sanrdbox.com^
 ||sanshumigration.web.app^
+||sansrad.blogspot.com^
 ||sanswap.com^
 ||santander8.godaddysites.com^
 ||santos-99117.firebaseapp.com^
@@ -37908,6 +37948,7 @@
 ||sappyseals.web3-airdrop.net^
 ||sarafaa6666.blogspot.com^
 ||sardagnapoeta.com.br^
+||sardatago.blogspot.com^
 ||sareachbuy.com^
 ||sarsinfoletter.weebly.com^
 ||sartononline.blogspot.com^
@@ -37958,6 +37999,7 @@
 ||sayforceusoijdlmsaundgs02.pages.dev^
 ||sayforceusoijdlmsaundgs03.pages.dev^
 ||sayforceusoijdlmsaundgs04.pages.dev^
+||sayjana.blogspot.com^
 ||saylor.events^
 ||saylorbtc.net^
 ||sazzcfzadsd.blogspot.com^
@@ -38794,6 +38836,7 @@
 ||sheeth-d068.kadencleveland.workers.dev^
 ||sheetrm-1c7f.krystengraff.workers.dev^
 ||sheets-term-2b6f.amariruth.workers.dev^
+||shefasweess.blogspot.com^
 ||shein.adomi.app^
 ||shein.com.pk^
 ||shein.gifts^
@@ -39616,6 +39659,7 @@
 ||smashdorlayert.firebaseapp.com^
 ||smashverse-game.netlify.app^
 ||smashverse.netlify.app^
+||smb-id.aomxzlexnzcb.com^
 ||smbc-card-vpass-id.com^
 ||smbc.gzjcba8.com^
 ||smbc.mbmistaz.com^
@@ -40303,7 +40347,6 @@
 ||stake-injective.com^
 ||stake-lido.nl^
 ||stake-lido.web.app^
-||stake-lido.xyz^
 ||stake-lidofit.net^
 ||stake-offer.com^
 ||stake-pepe.com^
@@ -41580,6 +41623,8 @@
 ||teiegrom-n.com^
 ||teiegrom-w.com^
 ||teiegrom-xb.com^
+||tejnzjhn.blogspot.com^
+||tejnzjhn.blogspot.de^
 ||teju2312.github.io^
 ||teklz9bq4r5ah6s.swnbdgfgzy.ru^
 ||tektekdunk.blogspot.com^
@@ -42437,6 +42482,7 @@
 ||thesniperbot.io^
 ||thesolutionscenter.info^
 ||thestockmarketcoin.xyz^
+||thesupporrtbusiness.evolutionclick.click^
 ||theta-date.com^
 ||thetabugs.pages.dev^
 ||thetalib.com^
@@ -42939,6 +42985,7 @@
 ||tplgbykeba.duckdns.org^
 ||tpnkeeper.com^
 ||tpoken.im^
+||tporfkrv.duckdns.org^
 ||tpsamerica.outegg336-8e2.workers.dev^
 ||tpw7uibw.duckdns.org^
 ||tq00ms4z.duckdns.org^
@@ -45645,6 +45692,7 @@
 ||vtopm.duckdns.org^
 ||vtrhcyupnk.duckdns.org^
 ||vtrsucxpz904.weebly.com^
+||vtsaq6e2.duckdns.org^
 ||vtumsj.webwave.dev^
 ||vtxmail2018.myfreesites.net^
 ||vtxmailch.weebly.com^
@@ -47648,6 +47696,7 @@
 ||worldcoinpass.com^
 ||worldehesapblokekaldirmakonlinesorgu.line.pm^
 ||worldiscoveryperu.com^
+||worldkarmalinkf.world^
 ||worldwide-webb.web3-airdrop.net^
 ||worldwidewebfr-9b75e.firebaseapp.com^
 ||worldwidewebfr-9b75e.web.app^
@@ -48058,6 +48107,7 @@
 ||www.adfjusi.cn^
 ||www.aegtecnoservice.it^
 ||www.aeon.ne.jq.lvtnod.cn^
+||www.aeonbank24.top^
 ||www.afjzbts.cn^
 ||www.aflacxvmlyr.com^
 ||www.agoda-org.com^
@@ -50385,6 +50435,7 @@
 ||x2y2x.com^
 ||x320a4or.duckdns.org^
 ||x3evm2.webwave.dev^
+||x3vz4t.duckdns.org^
 ||x4b0lz.webwave.dev^
 ||x4pbzj.calasavacj.com^
 ||x5gveh.webwave.dev^
@@ -50458,6 +50509,7 @@
 ||xeroxm32.web.app^
 ||xeth2.github.io^
 ||xexchangedapps.pages.dev^
+||xfdfuky354434sdfd.weebly.com^
 ||xffinttypine-549c.taxgummud.workers.dev^
 ||xfgf51.webwave.dev^
 ||xfihome.weebly.com^
@@ -50902,6 +50954,7 @@
 ||yahoocomlink-100929.weeblysite.com^
 ||yahooconnectatt.weebly.com^
 ||yahooincdepartment.weebly.com^
+||yahooindextext.weebly.com^
 ||yahooinfocentre.weebly.com^
 ||yahoologinwebmail5.weebly.com^
 ||yahoolteam.varkucemli.workers.dev^
@@ -51196,6 +51249,7 @@
 ||yxr65t.webwave.dev^
 ||yxu.pages.dev^
 ||yxzqyzc.com^
+||yzdq69s.duckdns.org^
 ||yzytzjixyi0wmaitmdakaeyaaao5.weebly.com^
 ||z09sok9z.duckdns.org^
 ||z17hp7odu.duckdns.org^
@@ -51366,6 +51420,7 @@
 ||zi0034034323.web.app^
 ||zi992883923923.web.app^
 ||ziber.io^
+||zibrawebmail2.brizy.site^
 ||zidneapoteke.com^
 ||zignaly.q58h2p.com^
 ||zigzag.exchange.yt^
