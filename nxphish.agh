@@ -4,20 +4,20 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 20:24:59
+! Last updated: 2024-05-05 20:33:57
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51669
-! Number of NXDOMAIN domains: 82031
+! Number of phishing domains: 51666
+! Number of NXDOMAIN domains: 82034
 ! Number of SERVFAIL domains: 1897
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23373 (55.64%)
+! - com: 23370 (55.64%)
 ! - dev: 6011 (14.31%)
 ! - app: 4618 (10.99%)
 ! - org: 1955 (4.65%)
 ! - io: 1647 (3.92%)
 ! - net: 1451 (3.45%)
-! - xyz: 880 (2.09%)
+! - xyz: 880 (2.1%)
 ! - top: 799 (1.9%)
 ! - site: 756 (1.8%)
 ! - me: 517 (1.23%)
@@ -11835,7 +11835,6 @@
 ||claiming.lensr.xyz^
 ||claiming.lezs.xyz^
 ||claimitemff.efiles.my.id^
-||claimitnowm4.com^
 ||claimlink.org^
 ||claimmetadrop.nl^
 ||claimnftgift.com^
@@ -42978,7 +42977,6 @@
 ||tpay-paxful.com^
 ||tpcontact.co.za^
 ||tpe-store.pancakeswape.finance^
-||tpgcapitallca.com^
 ||tpgcapitalrul.com^
 ||tpgsnesbv763ty.weebly.com^
 ||tplgbykeba.duckdns.org^
@@ -48183,7 +48181,6 @@
 ||www.aoen.co.jo.p0t3wh.cn^
 ||www.aoen.co.jo.t3l9pb.cn^
 ||www.aoen.co.jo.ts17og.cn^
-||www.aperbord.com^
 ||www.api.myadmin.1inch.fusiondim.com^
 ||www.api05-collab.com^
 ||www.apk20.com^
