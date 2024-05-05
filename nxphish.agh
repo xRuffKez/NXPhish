@@ -4,17 +4,17 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 14:53:30
+! Last updated: 2024-05-05 15:04:53
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51471
+! Number of phishing domains: 51470
 ! Number of NXDOMAIN domains: 82006
-! Number of SERVFAIL domains: 1882
+! Number of SERVFAIL domains: 1883
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 23349 (55.67%)
 ! - dev: 5997 (14.3%)
 ! - app: 4619 (11.01%)
-! - org: 1946 (4.64%)
+! - org: 1945 (4.64%)
 ! - io: 1638 (3.91%)
 ! - net: 1443 (3.44%)
 ! - xyz: 883 (2.11%)
@@ -38003,7 +38003,6 @@
 ||sbi-kyc.pages.dev^
 ||sbikyc-4g.pages.dev^
 ||sbikycupdate-249.pages.dev^
-||sbkr9iwz7.duckdns.org^
 ||sbmemimemore.blogspot.com^
 ||sbofaeddprepaid.w3spaces.com^
 ||sbpautomation.com^
