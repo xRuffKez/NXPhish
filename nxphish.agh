@@ -4,23 +4,23 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 09:44:45
+! Last updated: 2024-05-05 10:27:23
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50961
-! Number of NXDOMAIN domains: 81971
-! Number of SERVFAIL domains: 1834
+! Number of phishing domains: 50945
+! Number of NXDOMAIN domains: 81977
+! Number of SERVFAIL domains: 1844
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 57341 (58.0%)
-! - dev: 6389 (6.46%)
-! - org: 6027 (6.1%)
-! - app: 5503 (5.57%)
-! - net: 5347 (5.41%)
-! - xyz: 5109 (5.17%)
-! - online: 3492 (3.53%)
-! - site: 3405 (3.44%)
-! - io: 3156 (3.19%)
-! - top: 3098 (3.13%)
+! - com: 23272 (55.76%)
+! - dev: 5960 (14.28%)
+! - app: 4617 (11.06%)
+! - org: 1963 (4.7%)
+! - io: 1556 (3.73%)
+! - net: 1427 (3.42%)
+! - xyz: 886 (2.12%)
+! - top: 784 (1.88%)
+! - site: 756 (1.81%)
+! - me: 512 (1.23%)
 ! Domains removed after 60 days if not re-added through feed.
 
 ||00-ird.weebly.com^
@@ -1148,7 +1148,6 @@
 ||9m95yljr.duckdns.org^
 ||9macu.info^
 ||9og780x8.duckdns.org^
-||9p7ph5n4.duckdns.org^
 ||9pirateara.ru.com^
 ||9s8f.cn^
 ||9sgj.cfd^
@@ -3914,7 +3913,6 @@
 ||arbdogee.com^
 ||arbdogie.com^
 ||arbeitrum-bridge.org^
-||arbevpad.top^
 ||arbfoundation.vip^
 ||arbgetting.com^
 ||arbgift.org^
@@ -9315,7 +9313,6 @@
 ||bomebome.cc^
 ||bomeonsol.xyz^
 ||bomkxmas.com^
-||bondexapp.network^
 ||boneclaims.com^
 ||bonelp.com^
 ||boner-get.netlify.app^
@@ -16342,7 +16339,6 @@
 ||emiratesgroupllc.com^
 ||emiratesvacationspackages.com^
 ||emmatully.com^
-||emmawalton.autos^
 ||emmjclf.duckdns.org^
 ||emoplamsndf.weebly.com^
 ||empa-----------ch.weebly.com^
@@ -16387,7 +16383,6 @@
 ||en.vnmod.net^
 ||en.webmainnet.com^
 ||en407etr.com^
-||en8s3sw61.duckdns.org^
 ||enabler-rgw.pages.dev^
 ||enacip.edu.pe^
 ||enattentedeconnexiondeserveur.mydurable.com^
@@ -23722,7 +23717,6 @@
 ||layzero-access.vercel.app^
 ||lazebit.com^
 ||lazy-lions.nft2print.com^
-||lazylions.claimnft.app^
 ||lb.jieiq.chileinsumos.cl.^
 ||lbast.io^
 ||lbeldi.com^
@@ -27427,7 +27421,6 @@
 ||metamaskofficial.com^
 ||metamaskogin.github.io^
 ||metamaskondemand.com^
-||metamaskonline.com^
 ||metamaskpad.com^
 ||metamaskpendingverification.duckdns.org^
 ||metamaskprints.com^
@@ -29017,7 +29010,6 @@
 ||mxs-collabland.pages.dev^
 ||mxtamvskwallvtte.godaddysites.com^
 ||mxupkhuqur.duckdns.org^
-||mxvuplzuza.duckdns.org^
 ||my-acount-free.hubside.fr^
 ||my-att-2a54.at35756.workers.dev^
 ||my-bill-refer.com^
@@ -29299,7 +29291,6 @@
 ||myetherwa.llet.com^
 ||myetherwaallet.com^
 ||myetherwadlet.com^
-||myetherwailet.com^
 ||myetherwaillet.com^
 ||myetherwaklet.com^
 ||myetherwakllet.com^
@@ -31416,7 +31407,6 @@
 ||opensca.io^
 ||openscanft-us.godaddysites.com^
 ||opensdea.io^
-||opense.net^
 ||opensea-1h-trending.argus-api.workers.dev^
 ||opensea-8025.netlify.app^
 ||opensea-air.vercel.app^
@@ -35552,7 +35542,6 @@
 ||qkmu7745b.duckdns.org^
 ||qldkorean.net^
 ||qlinertucking.com^
-||qmhcwrlgvs.duckdns.org^
 ||qminime.com^
 ||qmjgxurnlj.duckdns.org^
 ||qmpzgalf.weebly.com^
@@ -36020,7 +36009,6 @@
 ||rburb.pages.dev^
 ||rc-webby.firebaseapp.com^
 ||rc-webby.web.app^
-||rc1whtdfx.duckdns.org^
 ||rc48rwin.square.site^
 ||rcakci.com^
 ||rcav.pages.dev^
@@ -41656,7 +41644,6 @@
 ||tensorians.site^
 ||tensors.site^
 ||tenx-tech.com^
-||tepco-co-jp.quest^
 ||tera-vip.com^
 ||terabitdex.com^
 ||terantbwateam.weebly.com^
@@ -44165,7 +44152,6 @@
 ||usps.eirdpwxysl.top^
 ||usps.eswhrwvuyj.top^
 ||usps.eyjkhacrqn.top^
-||usps.fqosbfgwvj.top^
 ||usps.gggeebb.com^
 ||usps.gggrrerf.com^
 ||usps.gggttvv.com^
@@ -45189,7 +45175,6 @@
 ||vyovqaa.duckdns.org^
 ||vys.inpro.edu.mx^
 ||vys05cuth.dns04.com^
-||vysstar6-ccu.duckdns.org^
 ||vysta-auth.web.app^
 ||vystar-auten.web.app^
 ||vystar-member1.firebaseapp.com^
@@ -50815,7 +50800,6 @@
 ||zks.zkssync.online^
 ||zksclaim-dashboard.com^
 ||zksclaimreward.net^
-||zkshield.blog^
 ||zksinc.github.io^
 ||zkskull.com^
 ||zksnp.network^
