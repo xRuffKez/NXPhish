@@ -4,9 +4,9 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 05:43:57
+! Last updated: 2024-05-05 05:54:18
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50994
+! Number of phishing domains: 50997
 ! Number of NXDOMAIN domains: 81958
 ! Number of SERVFAIL domains: 1799
 ! Number of domains removed by whitelist: 233
@@ -3707,7 +3707,9 @@
 ||apple-locator.live^
 ||apple-premios.shop^
 ||apple-rabbit1320.com^
+||apple-realm.de^
 ||apple-replicaevan.netlify.app^
+||apple-strong.ru^
 ||apple-tsuchiya.com^
 ||apple-verify.com^
 ||apple.leica66.com^
@@ -23993,6 +23995,7 @@
 ||levofcunionacc.weebly.com^
 ||lewellensiding.com^
 ||lf7n0c.webwave.dev^
+||lfacebook.com.mx^
 ||lfg-jup-claims.pages.dev^
 ||lg-onecom-io.web.app^
 ||lgn-aolomaile.mailei.workers.dev^
