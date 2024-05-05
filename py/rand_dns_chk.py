@@ -22,7 +22,7 @@ def update_dns_status(verbose=True):
 
     with sqlite3.connect(db_path) as conn:
         cursor = conn.cursor()
-        cursor.execute("SELECT domain FROM domains WHERE status = 'OK' ORDER BY RANDOM() LIMIT 500")
+        cursor.execute("SELECT domain FROM domains WHERE status = 'OK' ORDER BY RANDOM() LIMIT 1000")
         domains_to_check = cursor.fetchall()
 
     with ThreadPoolExecutor(max_workers=4) as executor:
