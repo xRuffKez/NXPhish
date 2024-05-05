@@ -4,14 +4,14 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 14:44:24
+! Last updated: 2024-05-05 14:53:30
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51473
-! Number of NXDOMAIN domains: 82004
+! Number of phishing domains: 51471
+! Number of NXDOMAIN domains: 82006
 ! Number of SERVFAIL domains: 1882
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23350 (55.67%)
+! - com: 23349 (55.67%)
 ! - dev: 5997 (14.3%)
 ! - app: 4619 (11.01%)
 ! - org: 1946 (4.64%)
@@ -36066,7 +36066,6 @@
 ||quiet-glitter-91ba.jennifergill-50-68147.workers.dev^
 ||quikswap.io^
 ||quilling.xii.jp^
-||quintonchan.autos^
 ||quipmede.duckdns.org^
 ||quirkies.web3-airdrop.net^
 ||quiveux-double.firebaseapp.com^
@@ -42481,7 +42480,6 @@
 ||tiburon-bitkub.blogspot.com^
 ||ticket.elsumo.xyz^
 ||ticket.universalprotocoldapp.io^
-||tickets-cb.com^
 ||tickets-paris24.com^
 ||ticomsoftware.com^
 ||tidal-claims-rewards-erc20.airdrop-holder.com^
