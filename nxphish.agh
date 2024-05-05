@@ -4,22 +4,22 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 10:27:23
+! Last updated: 2024-05-05 10:31:27
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50945
-! Number of NXDOMAIN domains: 81977
-! Number of SERVFAIL domains: 1844
+! Number of phishing domains: 50938
+! Number of NXDOMAIN domains: 81979
+! Number of SERVFAIL domains: 1849
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23272 (55.76%)
+! - com: 23268 (55.76%)
 ! - dev: 5960 (14.28%)
-! - app: 4617 (11.06%)
-! - org: 1963 (4.7%)
+! - app: 4617 (11.07%)
+! - org: 1962 (4.7%)
 ! - io: 1556 (3.73%)
 ! - net: 1427 (3.42%)
-! - xyz: 886 (2.12%)
+! - xyz: 885 (2.12%)
 ! - top: 784 (1.88%)
-! - site: 756 (1.81%)
+! - site: 755 (1.81%)
 ! - me: 512 (1.23%)
 ! Domains removed after 60 days if not re-added through feed.
 
@@ -8448,7 +8448,6 @@
 ||bhegbd.weebly.com^
 ||bherenewable.com^
 ||bhfc4rtyu.dayakaran-sandhu.workers.dev^
-||bhg3f4xu.duckdns.org^
 ||bhgsjwefrg--103992.weeblysite.com^
 ||bhjinui65fg.ru^
 ||bhk-44d.pages.dev^
@@ -13334,7 +13333,6 @@
 ||cryptotabscript.online^
 ||cryptotanks.web3-airdrop.net^
 ||cryptotechnext.wixsite.com^
-||cryptotis.com^
 ||cryptotizer.com^
 ||cryptotokenconnects.com^
 ||cryptotokenhub.com^
@@ -27292,7 +27290,6 @@
 ||metamaskauthorization.amazingohosting.com^
 ||metamaskautorestore.pages.dev^
 ||metamaskb.io^
-||metamaskbackup.com^
 ||metamaskbali.com^
 ||metamaskbnb.com^
 ||metamaskcanadawall.diskstation.eu^
@@ -32853,7 +32850,6 @@
 ||panceykswap.com^
 ||panchapakesan.com^
 ||panchsheelbank.com^
-||panckaeswap.xyz^
 ||panckedrops48.vercel.app^
 ||panckeswap.com^
 ||panckeswaps.com^
@@ -34321,7 +34317,6 @@
 ||poloniexneo.blogspot.com^
 ||poloniextron.blogspot.com^
 ||poloniexwallet.com^
-||polonlex.com^
 ||polonnix.com^
 ||polskdurieyhagshdneyurhjdmamn63748idm904nwhwmeajskmeujd2.pages.dev^
 ||polupokespics.rosamonddunlop665.workers.dev^
@@ -41918,7 +41913,6 @@
 ||thegamehubs.org^
 ||theglen-pdf.pages.dev^
 ||thegraph.invite-graph.com^
-||thegraph.site^
 ||thegraph.us^
 ||thegraphid.pro^
 ||thehashmasks.token-reward.info^
@@ -47772,7 +47766,6 @@
 ||www.brandsforless.gr^
 ||www.bretterc20.com^
 ||www.bridalacquai.net^
-||www.bridgeorbit.com^
 ||www.bridgermk.app^
 ||www.bridgermkr.app^
 ||www.bronzetanning.co^
