@@ -4,17 +4,17 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 14:34:28
+! Last updated: 2024-05-05 14:44:24
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51476
-! Number of NXDOMAIN domains: 82002
-! Number of SERVFAIL domains: 1881
+! Number of phishing domains: 51473
+! Number of NXDOMAIN domains: 82004
+! Number of SERVFAIL domains: 1882
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 23350 (55.67%)
 ! - dev: 5997 (14.3%)
 ! - app: 4619 (11.01%)
-! - org: 1947 (4.64%)
+! - org: 1946 (4.64%)
 ! - io: 1638 (3.91%)
 ! - net: 1443 (3.44%)
 ! - xyz: 883 (2.11%)
@@ -34670,7 +34670,6 @@
 ||polkastarters-spot.com^
 ||polkastratrer.com^
 ||polkastrstre.site^
-||polkastrstre.space^
 ||polkastrstre.website^
 ||polkasupport.netlify.app^
 ||polkaswap.info^
@@ -39977,7 +39976,6 @@
 ||spaatial.net^
 ||space-catch.web.app^
 ||space-fi.org^
-||space-id-protocol.online^
 ||space-id.web3-airdrop.net^
 ||space.id-drop.com^
 ||spacebitcoin.info^
@@ -50823,7 +50821,6 @@
 ||yaypegs-minting.netlify.app^
 ||yaypegs-web3.netlify.app^
 ||yaypegsnft.netlify.app^
-||ybbomlcbdp.duckdns.org^
 ||ybhfkwx.com^
 ||ybhfplw.com^
 ||ybhfubd.com^
