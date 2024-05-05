@@ -57,4 +57,4 @@ def update_dns_status(verbose=True):
             conn.commit()
 
 if __name__ == "__main__":
-    update_dns_status()
+    asyncio.run(update_dns_status())
