@@ -4,20 +4,20 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 20:53:40
+! Last updated: 2024-05-05 21:06:05
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51663
-! Number of NXDOMAIN domains: 82036
-! Number of SERVFAIL domains: 1898
+! Number of phishing domains: 51658
+! Number of NXDOMAIN domains: 82038
+! Number of SERVFAIL domains: 1901
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23370 (55.64%)
+! - com: 23369 (55.64%)
 ! - dev: 6011 (14.31%)
-! - app: 4618 (10.99%)
-! - org: 1953 (4.65%)
+! - app: 4618 (11.0%)
+! - org: 1950 (4.64%)
 ! - io: 1647 (3.92%)
-! - net: 1451 (3.45%)
-! - xyz: 880 (2.1%)
+! - net: 1451 (3.46%)
+! - xyz: 879 (2.09%)
 ! - top: 799 (1.9%)
 ! - site: 756 (1.8%)
 ! - me: 517 (1.23%)
@@ -18410,7 +18410,6 @@
 ||floral-thunder-2ced.thcoaimakup.workers.dev^
 ||floranda-seydoux.systeme.io^
 ||florenca-bitkub.blogspot.com^
-||florencess.test.suopu8.com^
 ||flores-jardimloja.blogspot.com^
 ||floridaiinternationaluniversity.ukit.me^
 ||floridainternationaluniversal.ukit.me^
@@ -30838,7 +30837,6 @@
 ||nljcyusoth.duckdns.org^
 ||nljxtplhkf.duckdns.org^
 ||nljyuplhgc.duckdns.org^
-||nljyvrronj.duckdns.org^
 ||nlzvqkfzyn.duckdns.org^
 ||nmdqw.oeanymufmdhoy169.workers.dev^
 ||nmewjlphrwgubceuwygewyrvcbnjnr.pages.dev^
@@ -43153,7 +43151,6 @@
 ||trembo-lopez.firebaseapp.com^
 ||trembo-lopez.web.app^
 ||trend-drops.top^
-||trend.0nchainsummer.xyz^
 ||trendpads.top^
 ||trentino.edu.pe^
 ||trerzor.io^
@@ -45834,7 +45831,6 @@
 ||wa11et.nnymonero.com^
 ||wa12000.pages.dev^
 ||wabanetworks.com^
-||wac59mo.duckdns.org^
 ||wadeheld-abry.ourhobby.com^
 ||waegjehonceprinnsadhg01.pages.dev^
 ||waegjehonceprinnsadhg3.pages.dev^
@@ -51085,7 +51081,6 @@
 ||yhopvg.webwave.dev^
 ||yhryhthy78.godaddysites.com^
 ||yhs-world-aged-dust-4671.aubrey744.workers.dev^
-||yhwtokeacg.duckdns.org^
 ||yhz.pages.dev^
 ||yhzt-525a9.firebaseapp.com^
 ||yhzt-525a9.web.app^
