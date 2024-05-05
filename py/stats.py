@@ -27,7 +27,7 @@ hourly_counts_nxdomain = df[df['status'] == 'NXDOMAIN'].groupby(df['last_seen'].
 hourly_counts_servfail = df[df['status'] == 'SERVFAIL'].groupby(df['last_seen'].dt.floor('H')).size()
 
 # Calculate hourly total domains
-hourly_total_domains = df.groupby(df['last_seen'].dt.floor('H')).size()
+hourly_total_domains = df.groupby(df['last_seen'].dt.floor('h')).size()
 
 # Create the figure with subplots
 fig = go.Figure()
