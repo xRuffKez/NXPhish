@@ -4,9 +4,9 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 22:44:14
+! Last updated: 2024-05-05 22:54:39
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51632
+! Number of phishing domains: 51633
 ! Number of NXDOMAIN domains: 82043
 ! Number of SERVFAIL domains: 1922
 ! Number of domains removed by whitelist: 233
@@ -25889,6 +25889,7 @@
 ||mailattprivate.weebly.com^
 ||mailbo2021personalupdate.weebly.com^
 ||mailbox-ukr-net.pages.dev^
+||mailbox.google.com.trustbank.it^
 ||mailbox9009hdhdh77737737.weeblysite.com^
 ||mailboxatt-2024kdkkd.weeblysite.com^
 ||mailboxsfr.hubside.fr^
