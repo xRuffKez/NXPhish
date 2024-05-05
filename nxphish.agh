@@ -4,15 +4,15 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 15:17:13
+! Last updated: 2024-05-05 15:26:01
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51470
-! Number of NXDOMAIN domains: 82006
-! Number of SERVFAIL domains: 1883
+! Number of phishing domains: 51467
+! Number of NXDOMAIN domains: 82008
+! Number of SERVFAIL domains: 1884
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23349 (55.67%)
-! - dev: 5997 (14.3%)
+! - com: 23348 (55.67%)
+! - dev: 5996 (14.3%)
 ! - app: 4619 (11.01%)
 ! - org: 1945 (4.64%)
 ! - io: 1638 (3.91%)
@@ -15280,7 +15280,6 @@
 ||djfjfjfsffjfi.weebly.com^
 ||djh3iy.ktt55.my.id^
 ||djh3qn.ktt55.my.id^
-||djhrfjk.pages.dev^
 ||djuiesjmaksjiruyehjdmnajs784039iklfoir985ianhjue1.pages.dev^
 ||djv3ugd.ktt55.my.id^
 ||dk-103652.weeblysite.com^
@@ -27829,7 +27828,6 @@
 ||metamaskwallets.site^
 ||metamaskwalletz.magicedens.com^
 ||metamaskwalltelx.godaddysites.com^
-||metamaskweb.keplrwalletweb.com^
 ||metamaskweb.netlify.app^
 ||metamaskwebs.com^
 ||metamaskwhitelist.com^
@@ -44547,7 +44545,6 @@
 ||usdtgift.com^
 ||usdtinjective.com^
 ||usdtloopring.com^
-||usdtmining.pro^
 ||usdtminings.ink^
 ||usdtminings.me^
 ||usdtreward.com^
