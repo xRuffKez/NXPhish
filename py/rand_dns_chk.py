@@ -10,9 +10,9 @@ def resolve_domain(domain):
         response = resolver.resolve(domain)
         return "OK"
     except dns.resolver.NXDOMAIN:
-        return None
+        return "NXDOMAIN"
     except dns.resolver.NoAnswer:
-        return None
+        return "SERVFAIL"
     except Exception as e:
         return str(e)
 
@@ -22,22 +22,22 @@ def update_dns_status(verbose=True):
 
     with sqlite3.connect(db_path) as conn:
         cursor = conn.cursor()
-        cursor.execute("SELECT domain, status FROM domains WHERE status NOT IN (?, ?) ORDER BY RANDOM() LIMIT 500",
-                       ("NXDOMAIN", "SERVFAIL"))
+        cursor.execute("SELECT domain FROM domains WHERE status = 'OK' ORDER BY RANDOM() LIMIT 500")
         domains_to_check = cursor.fetchall()
 
     with ThreadPoolExecutor(max_workers=4) as executor:
         results = []
-        for domain, existing_status in domains_to_check:
+        for domain in domains_to_check:
+            domain = domain[0]
             if verbose:
                 print("Processing domain:", domain)
             new_status = resolve_domain(domain)
-            results.append((domain, new_status))
+            results.append((new_status, domain))
             if verbose:
                 print("Result for", domain, ":", new_status)
 
     # Update only if the status has changed
-    updated_domains = [(new_status, domain) for domain, new_status in results if new_status is not None and new_status != existing_status]
+    updated_domains = [(status, domain) for status, domain in results if status != "OK"]
 
     if updated_domains:
         with sqlite3.connect(db_path) as conn:
