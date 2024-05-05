@@ -4,14 +4,14 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 22:17:20
+! Last updated: 2024-05-05 22:27:42
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51641
-! Number of NXDOMAIN domains: 82041
-! Number of SERVFAIL domains: 1915
+! Number of phishing domains: 51637
+! Number of NXDOMAIN domains: 82042
+! Number of SERVFAIL domains: 1918
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23366 (55.66%)
+! - com: 23363 (55.65%)
 ! - dev: 6011 (14.32%)
 ! - app: 4618 (11.0%)
 ! - org: 1938 (4.62%)
@@ -16335,7 +16335,6 @@
 ||electrum-download.com^
 ||electrum.app.electrumconnect.site^
 ||electrum.mx^
-||electrumapps.com^
 ||electrumofficial.com^
 ||electrumwallet.org^
 ||electrun.org^
@@ -29302,7 +29301,6 @@
 ||muskgift.com^
 ||muskgive.com^
 ||muskgive.info^
-||muskgiving.com^
 ||muskingumcounty.myportfolio.com^
 ||muskofficial-event.com^
 ||muskswap.pages.dev^
@@ -43306,7 +43304,6 @@
 ||trustwallectconnect.vercel.app^
 ||trustwallel.com^
 ||trustwallet-app.erpnext.com^
-||trustwallet-community.109-71-253-24.plesk.page^
 ||trustwallet-crypto.com.h7textil.com.br^
 ||trustwallet-dai.web.app^
 ||trustwallet-direct-io.netlify.app^
@@ -49930,7 +49927,6 @@
 ||www.subulussalamkota.desa.id^
 ||www.suezlng.com^
 ||www.supersegbrasil.com.br^
-||www.superstarex.com^
 ||www.superstep.org^
 ||www.supplierss.com^
 ||www.support.metamasks.icu^
