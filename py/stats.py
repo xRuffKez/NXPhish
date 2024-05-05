@@ -11,6 +11,9 @@ conn = sqlite3.connect('stor/cache.db')  # Adjust the path to the database
 query = "SELECT * FROM domains"
 df = pd.read_sql_query(query, conn)
 
+# Get the total number of domains
+total_domains = len(df)
+
 # Convert 'last_seen' column to datetime
 df['last_seen'] = pd.to_datetime(df['last_seen'])
 
@@ -22,9 +25,6 @@ df = df[df['last_seen'] >= start_date]
 daily_counts_ok = df[df['status'] == 'OK'].groupby(df['last_seen'].dt.date).size()
 daily_counts_nxdomain = df[df['status'] == 'NXDOMAIN'].groupby(df['last_seen'].dt.date).size()
 daily_counts_servfail = df[df['status'] == 'SERVFAIL'].groupby(df['last_seen'].dt.date).size()
-
-# Get top 10 abused TLDs with DNS status OK
-top_tlds = df[df['status'] == 'OK']['domain'].apply(lambda x: x.split('.')[-1]).value_counts().head(10)
 
 # Create the figure with subplots
 fig = go.Figure()
@@ -42,13 +42,20 @@ fig.update_layout(title='Daily Phishing Domain Counts (Last 60 Days)',
                   xaxis_range=[start_date, datetime.now()],  # Adjust x-axis range
                   template='plotly_white')
 
-# Create a subplot for top 10 abused TLDs
-fig.add_trace(go.Bar(x=top_tlds.index[::-1], y=top_tlds.values[::-1], name='TLDs', marker_color='lightsalmon', yaxis='y2'))
+# Add annotation for total number of domains
+fig.add_annotation(text=f"Total domains: {total_domains}",
+                   xref="paper", yref="paper",
+                   x=0.95, y=0.05, showarrow=False)
 
-# Update layout for subplot
-fig.update_layout(yaxis2=dict(title='TLD Count', anchor='x2', overlaying='y', side='right'),  # Adjust y-axis2 properties
-                  template='plotly_white',
-                  height=800)  # Adjust height of the plot
+# Add annotations for daily counts of each status
+for idx, counts in enumerate([daily_counts_ok, daily_counts_nxdomain, daily_counts_servfail]):
+    status = counts.name
+    count = counts.sum()
+    fig.add_annotation(text=f"{status}: {count}",
+                       x=daily_counts_ok.index[-1], y=counts.values[-1],
+                       xshift=-20, yshift=10,
+                       xanchor="left", yanchor="bottom",
+                       showarrow=False)
 
 # Save the graph as an image
 os.makedirs('stor', exist_ok=True)
