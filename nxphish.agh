@@ -4,16 +4,16 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 19:16:02
+! Last updated: 2024-05-05 19:23:30
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51621
-! Number of NXDOMAIN domains: 82023
+! Number of phishing domains: 51619
+! Number of NXDOMAIN domains: 82025
 ! Number of SERVFAIL domains: 1893
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 23358 (55.65%)
 ! - dev: 6011 (14.32%)
-! - app: 4619 (11.0%)
+! - app: 4618 (11.0%)
 ! - org: 1946 (4.64%)
 ! - io: 1640 (3.91%)
 ! - net: 1448 (3.45%)
@@ -12835,7 +12835,6 @@
 ||connect.watchkava.xyz^
 ||connect.web3authenticatehub.com^
 ||connect.xn--colab-0sa.land^
-||connect.xn--collb-jra.land^
 ||connect3rivers-fcu.firebaseapp.com^
 ||connect3rivers-fcu.web.app^
 ||connectapeterminal.io^
@@ -23894,7 +23893,6 @@
 ||launchmywallet.netlify.app^
 ||launchpad-cryptohub.vercel.app^
 ||launchpad-dymension.com^
-||launchpad-metis.app^
 ||launchpad-opti.com^
 ||launchpad-optinnism.com^
 ||launchpad-seedify.fund^
