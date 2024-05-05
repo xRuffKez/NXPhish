@@ -4,10 +4,10 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 15:49:14
+! Last updated: 2024-05-05 15:54:03
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51463
-! Number of NXDOMAIN domains: 82009
+! Number of phishing domains: 51461
+! Number of NXDOMAIN domains: 82011
 ! Number of SERVFAIL domains: 1887
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
@@ -17,7 +17,7 @@
 ! - org: 1945 (4.64%)
 ! - io: 1638 (3.91%)
 ! - net: 1443 (3.44%)
-! - xyz: 883 (2.11%)
+! - xyz: 882 (2.1%)
 ! - top: 794 (1.89%)
 ! - site: 755 (1.8%)
 ! - me: 516 (1.23%)
@@ -2476,7 +2476,6 @@
 ||allegro.arkigrafix.com^
 ||allegro.myessencewriter.com^
 ||allegro0lokalnie.0989237.xyz^
-||allegro1okalnie.73826323.xyz^
 ||allegro82.com^
 ||allegroc.cz^
 ||allegroguanwang.com^
@@ -27001,7 +27000,6 @@
 ||metagiveaway.io^
 ||metagmask.azurewebsites.net^
 ||metahelpsupp.web.app^
-||metahomeriviewdatelock.my.id^
 ||metaiimsk_us_wallut.godaddysites.com^
 ||metaim-ask-wilatl.godaddysites.com^
 ||metaimask_us_awallat.godaddysites.com^
