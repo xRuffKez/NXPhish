@@ -4,14 +4,14 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 19:53:43
+! Last updated: 2024-05-05 20:04:30
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51618
-! Number of NXDOMAIN domains: 82026
-! Number of SERVFAIL domains: 1893
+! Number of phishing domains: 51616
+! Number of NXDOMAIN domains: 82028
+! Number of SERVFAIL domains: 1894
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23358 (55.65%)
+! - com: 23357 (55.65%)
 ! - dev: 6011 (14.32%)
 ! - app: 4618 (11.0%)
 ! - org: 1946 (4.64%)
@@ -5693,7 +5693,6 @@
 ||axieinfinity-app.icu^
 ||axieinfinity-birthday.com^
 ||axieinfinity-com.com^
-||axieinfinity-game.ru^
 ||axieinfinity.claims^
 ||axieinfinity.com.aave.defi-universe.vip^
 ||axieinfinity.com.marketplace.wallet.connect.techspert.net^
@@ -12808,6 +12807,7 @@
 ||connect-restore.netlify.app^
 ||connect-rocketpool.io^
 ||connect-rpc-auth.net^
+||connect-secure-wellsfargo.com.citrinocoin.co^
 ||connect-shapshifti.blogspot.com^
 ||connect-shibaswap-oa.blogspot.com^
 ||connect-syncapp.xyz^
@@ -15641,7 +15641,6 @@
 ||doubleway.rf.gd^
 ||doubleyourbitcoin.com^
 ||doufatin.blogspot.com^
-||douglassuarez.autos^
 ||dovu-migration.net^
 ||dow-chemicals.net^
 ||dowaba-s2dhl.blogspot.com^
@@ -27641,7 +27640,6 @@
 ||metamaskclaims.io^
 ||metamaskcompliance.com^
 ||metamaskconnect.com^
-||metamaskconnects.4nmn.com^
 ||metamaskcrypto.com^
 ||metamaskdek.azurewebsites.net^
 ||metamaskdesk.com^
