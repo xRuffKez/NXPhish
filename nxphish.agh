@@ -4,14 +4,14 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 00:52:05
+! Last updated: 2024-05-05 01:22:13
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50986
+! Number of phishing domains: 50988
 ! Number of NXDOMAIN domains: 81957
 ! Number of SERVFAIL domains: 1799
 ! Number of domains removed by whitelist: 240
 ! Top 10 abused TLDs:
-! - com: 57332 (58.0%)
+! - com: 57334 (58.0%)
 ! - dev: 6389 (6.46%)
 ! - org: 6021 (6.09%)
 ! - app: 5502 (5.57%)
@@ -22060,6 +22060,7 @@
 ||interpreteri.firebaseapp.com^
 ||interpreteri.web.app^
 ||interseptionaldownloadsseprationdomainsaech03.pages.dev^
+||intesa-sanpaolo-conto.holyrosaryinternational.com^
 ||intro-access-myapp-preview.000webhostapp.com^
 ||inu.guimeme.xyz^
 ||inugonz.com^
@@ -33232,6 +33233,7 @@
 ||paxuntamcolate.godaddysites.com^
 ||paxxxfull-offer-lc9hfadgokprxly6a3e6jd.netlify.app^
 ||pay-connect.pancakeswape.finance^
+||pay-jp-aazon.aahur.com^
 ||pay-paypay-ne.replit.app^
 ||pay-www.connect.pancakeswape.finance^
 ||pay.acig.insure^
