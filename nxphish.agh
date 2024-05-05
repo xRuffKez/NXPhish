@@ -4,17 +4,17 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 11:16:46
+! Last updated: 2024-05-05 11:24:12
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50924
+! Number of phishing domains: 50922
 ! Number of NXDOMAIN domains: 81981
-! Number of SERVFAIL domains: 1861
+! Number of SERVFAIL domains: 1863
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 23262 (55.77%)
 ! - dev: 5960 (14.29%)
 ! - app: 4617 (11.07%)
-! - org: 1956 (4.69%)
+! - org: 1954 (4.68%)
 ! - io: 1556 (3.73%)
 ! - net: 1427 (3.42%)
 ! - xyz: 885 (2.12%)
@@ -23746,7 +23746,6 @@
 ||lct0ss.webwave.dev^
 ||lcvk5j.webwave.dev^
 ||ld-icloud-recovery.us^
-||ld4j5qymz.duckdns.org^
 ||lddfm.weebly.com^
 ||ldme-verification-authorization.pages.dev^
 ||ldo-lido.finance^
@@ -30376,7 +30375,6 @@
 ||nigwwnwhs.duckdns.org^
 ||nih2tvju2cwwsh3.www.03-www.host25.pancakeswape.finance^
 ||nihdykezys.duckdns.org^
-||nihmbmkocp.duckdns.org^
 ||nikelodeon.xyz^
 ||nikentfs.xyz^
 ||nikomoremaizxijas.caysen70.workers.dev^
