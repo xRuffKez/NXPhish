@@ -4,17 +4,17 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 20:44:13
+! Last updated: 2024-05-05 20:53:40
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51665
-! Number of NXDOMAIN domains: 82034
+! Number of phishing domains: 51663
+! Number of NXDOMAIN domains: 82036
 ! Number of SERVFAIL domains: 1898
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 23370 (55.64%)
 ! - dev: 6011 (14.31%)
 ! - app: 4618 (10.99%)
-! - org: 1954 (4.65%)
+! - org: 1953 (4.65%)
 ! - io: 1647 (3.92%)
 ! - net: 1451 (3.45%)
 ! - xyz: 880 (2.1%)
@@ -12709,7 +12709,6 @@
 ||conbea4.dream.press^
 ||conbueiprel0gi.godaddysites.com^
 ||conc-wallets.square.site^
-||concha.wjfh.info^
 ||concordium-bridge.phi-blockchain.com^
 ||conctso2.firebaseapp.com^
 ||conctso2.web.app^
@@ -42866,7 +42865,6 @@
 ||toncoin.bnbethbtc.xyz^
 ||toncoin.cfd^
 ||toncoin.eng-ton.org^
-||toncoins.org^
 ||toncoinwallet.co^
 ||tone-lamer.firebaseapp.com^
 ||tone-lamer.web.app^
