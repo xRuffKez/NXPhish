@@ -4,17 +4,17 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 21:24:50
+! Last updated: 2024-05-05 21:34:41
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51649
-! Number of NXDOMAIN domains: 82040
-! Number of SERVFAIL domains: 1908
+! Number of phishing domains: 51645
+! Number of NXDOMAIN domains: 82041
+! Number of SERVFAIL domains: 1911
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23369 (55.65%)
+! - com: 23368 (55.66%)
 ! - dev: 6011 (14.32%)
 ! - app: 4618 (11.0%)
-! - org: 1943 (4.63%)
+! - org: 1940 (4.62%)
 ! - io: 1647 (3.92%)
 ! - net: 1451 (3.46%)
 ! - xyz: 879 (2.09%)
@@ -15862,7 +15862,6 @@
 ||dustlabs2.netlify.app^
 ||dutton.co.nz^
 ||duvidrobrazz.blogspot.com^
-||dv7qx20.duckdns.org^
 ||dvhuh.pages.dev^
 ||dvsd.pages.dev^
 ||dw97eg.webwave.dev^
@@ -28860,7 +28859,6 @@
 ||monerosharpversa.pages.dev^
 ||monerotumbler.io^
 ||monespacecomptetc.com^
-||money90.com^
 ||moneyback-pb.com^
 ||moneycontrol.me^
 ||moneycontrols.in^
@@ -35999,7 +35997,6 @@
 ||qpass.pages.dev^
 ||qphant0mvvilletv.godaddysites.com^
 ||qppqmntpq-brbpqrbneoeprnpqppqrntpnnqb--bqb--prto--ioqpoeo.pages.dev^
-||qq4pa2ct.duckdns.org^
 ||qqjnx3.duckdns.org^
 ||qqrfi.pages.dev^
 ||qr-p1atnosc.com^
@@ -43559,7 +43556,6 @@
 ||tz0kp5.webwave.dev^
 ||tzcdn.pages.dev^
 ||tzt.pages.dev^
-||tzysyl.duckdns.org^
 ||u-coinbase.47-89-175-195.cprapid.com^
 ||u-pphholfd.godaddysites.com^
 ||u-sp-sredirec.firebaseapp.com^
