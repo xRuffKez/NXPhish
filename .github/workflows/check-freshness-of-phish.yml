@@ -28,8 +28,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "92758042+xRuffKez@users.noreply.github.com"
+          git config --local user.name "xRuffKez"
           git add -f stor/cache.db
           git commit -m "Update DNS status"
           git pull origin main --rebase # Pull changes from the remote repository
