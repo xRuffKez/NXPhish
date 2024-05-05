@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 08:21:34
+! Last updated: 2024-05-05 08:27:06
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50986
-! Number of NXDOMAIN domains: 81963
-! Number of SERVFAIL domains: 1815
+! Number of phishing domains: 50980
+! Number of NXDOMAIN domains: 81965
+! Number of SERVFAIL domains: 1819
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 57340 (58.0%)
@@ -1912,7 +1912,6 @@
 ||agninetwork.xyz^
 ||ago-tt.clicketcloud.com^
 ||agoda-bookhotel.top^
-||agoda-com.payoners.com^
 ||agoda-confirm.com-id591057.com^
 ||agoda-jp.co^
 ||agoda-jp.xyz^
@@ -2038,7 +2037,6 @@
 ||aidoge-dashboard.app^
 ||aidoge-platform.dev^
 ||aidoge-presale.org^
-||aidoge.eu^
 ||aidoge.pw^
 ||aidogechain.pages.dev^
 ||aidogecoin.net^
@@ -27320,7 +27318,6 @@
 ||metamaskclaim.io^
 ||metamaskclaims.io^
 ||metamaskcompliance.com^
-||metamaskconnect.4nmn.com^
 ||metamaskconnect.com^
 ||metamaskconnects.4nmn.com^
 ||metamaskcrypto.com^
@@ -27854,7 +27851,6 @@
 ||mganicwrgl.duckdns.org^
 ||mgaxrmyttu.duckdns.org^
 ||mgbvspjgvr.duckdns.org^
-||mgbwqlyuuq.duckdns.org^
 ||mgel.com.br^
 ||mgetherwallet.com^
 ||mgfryjd.pages.dev^
@@ -42152,7 +42148,6 @@
 ||tlscontact.co.za^
 ||tm2iwo.csb.app^
 ||tmac.finance^
-||tmc2fm.duckdns.org^
 ||tmdl.info^
 ||tmplogs-outlook.pancakeswape.finance^
 ||tmrwsb.blogspot.com^
@@ -49863,7 +49858,6 @@
 ||xion.bonusblock.in^
 ||xionbonusblock.io^
 ||xiq5hzxl3l6410c7eae98a7.parmal.ru^
-||xjijifvtzw.duckdns.org^
 ||xjkla.pages.dev^
 ||xjn2t36k.duckdns.org^
 ||xjsyfsilz.duckdns.org^
