@@ -4,17 +4,17 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 23:16:48
+! Last updated: 2024-05-05 23:25:32
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51630
+! Number of phishing domains: 51627
 ! Number of NXDOMAIN domains: 82044
-! Number of SERVFAIL domains: 1924
+! Number of SERVFAIL domains: 1927
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 23362 (55.66%)
 ! - dev: 6011 (14.32%)
 ! - app: 4618 (11.0%)
-! - org: 1934 (4.61%)
+! - org: 1931 (4.6%)
 ! - io: 1647 (3.92%)
 ! - net: 1450 (3.45%)
 ! - xyz: 879 (2.09%)
@@ -810,7 +810,6 @@
 ||5fggfgfgfg4g4gh4fg4.blogspot.com^
 ||5fggfgfgfg4g4gh4g4.blogspot.com^
 ||5fhfrg3f3f2f3.blogspot.com^
-||5fsrm0sqk.duckdns.org^
 ||5gg.ktt55.my.id^
 ||5ghgfg4g4g4g4g.blogspot.com^
 ||5ghghghh54h.blogspot.tw^
@@ -25386,7 +25385,6 @@
 ||lyjhcgi.duckdns.org^
 ||lyneer-1db.pages.dev^
 ||lyra-finance.pages.dev^
-||lyrpjjkno.duckdns.org^
 ||lyzwsocyji.duckdns.org^
 ||lz0.solutions^
 ||lz64lmznev2oulhukzcomq-on.drv.tw^
@@ -30105,7 +30103,6 @@
 ||mzposlstele.web.app^
 ||n1og74.webwave.dev^
 ||n2mafl630.ukit.me^
-||n3g5mls.duckdns.org^
 ||n3i3kl.webwave.dev^
 ||n4ci02023.webcindario.com^
 ||n4gtu2.webwave.dev^
