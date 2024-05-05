@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 23:34:34
+! Last updated: 2024-05-05 23:44:38
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51625
+! Number of phishing domains: 51624
 ! Number of NXDOMAIN domains: 82045
-! Number of SERVFAIL domains: 1928
+! Number of SERVFAIL domains: 1929
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 23362 (55.66%)
@@ -1594,7 +1594,6 @@
 ||ace-preservation.com^
 ||acecoins.pro^
 ||aceder-particular.com^
-||acefusionist.network^
 ||acehfoto.com^
 ||aceiba-assist.freshdesk.com^
 ||acentoken.com^
