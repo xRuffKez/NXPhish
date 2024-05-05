@@ -98,12 +98,14 @@ def update_phishfeed(workspace):
         total_domains = sum(count for _, count in sorted_tlds)
 
         with open(output_path, 'w') as output_file:
-            output_file.write("! Title: OpenPhish and Phishunt Feed - Phishing Domains\n")
-            output_file.write("! Description: This file contains a list of known phishing domains from the OpenPhish and Phishunt feed.\n")
+            output_file.write("! Title: NXPhish - Active Phishing Domains\n")
+            output_file.write("! Description: This file contains a list of known phishing domains from various feeds.\n")
             output_file.write("! URL shorteners have been removed to reduce false positives.\n")
             output_file.write("! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.\n")
             output_file.write("! Author: xRuffKez\n")
+            output_file.write("! Repository: github.com/xRuffKez/NXPhish\n")
             output_file.write("! Last updated: {}\n".format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
+            output_file.write("! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):\n")
             output_file.write("! Number of phishing domains: {}\n".format(len(phishing_domains)))
             output_file.write("! Number of NXDOMAIN domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'NXDOMAIN'])))
             output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
