@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 08:54:40
+! Last updated: 2024-05-05 09:05:54
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50975
-! Number of NXDOMAIN domains: 81966
-! Number of SERVFAIL domains: 1825
+! Number of phishing domains: 50972
+! Number of NXDOMAIN domains: 81967
+! Number of SERVFAIL domains: 1827
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 57341 (58.0%)
@@ -610,7 +610,6 @@
 ||3r1qmre.duckdns.org^
 ||3rdandtaylor.com^
 ||3rp5xuus51ch4lh.nautiluswww.outlook.pancakeswape.finance^
-||3rv8372rv.duckdns.org^
 ||3s64mv.duckdns.org^
 ||3snk7gk.duckdns.org^
 ||3th-qc-e-i2-w4qj-i74-ol-td9wlkg-o.vercel.app^
@@ -22711,7 +22710,6 @@
 ||juiceboxmoney.xyz^
 ||juicy-opikeses.org.ua^
 ||jujfrv.duckdns.org^
-||jul2lnpu8.duckdns.org^
 ||juliegr.com^
 ||julswap.co^
 ||july-13th.pages.dev^
@@ -34319,7 +34317,6 @@
 ||polkastarter.space^
 ||polkastarters-spot.com^
 ||polkastratrer.com^
-||polkastrstre.online^
 ||polkastrstre.site^
 ||polkastrstre.space^
 ||polkastrstre.website^
