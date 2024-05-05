@@ -4,10 +4,10 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 07:44:23
+! Last updated: 2024-05-05 07:47:39
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50999
-! Number of NXDOMAIN domains: 81958
+! Number of phishing domains: 50998
+! Number of NXDOMAIN domains: 81959
 ! Number of SERVFAIL domains: 1799
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
@@ -42377,7 +42377,6 @@
 ||tonkeepee.com^
 ||tonkeepeer.com^
 ||tonkeeper-web.pages.dev^
-||tonkeeper.cc^
 ||tonkeeper.help^
 ||tonkeeper.io^
 ||tonkeeper.pages.dev^
