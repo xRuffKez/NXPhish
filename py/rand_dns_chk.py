@@ -24,7 +24,7 @@ def resolve_domain(domain):
         except dns.resolver.NXDOMAIN:
             return "NXDOMAIN"
     except Exception as e:
-        return str(e)
+        return "SERVFAIL"
 
 def update_dns_status(verbose=True):
     db_path = "stor/cache.db"
