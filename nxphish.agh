@@ -4,17 +4,17 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 16:35:23
+! Last updated: 2024-05-05 16:38:25
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51635
-! Number of NXDOMAIN domains: 82012
-! Number of SERVFAIL domains: 1887
+! Number of phishing domains: 51633
+! Number of NXDOMAIN domains: 82013
+! Number of SERVFAIL domains: 1888
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 23363 (55.65%)
 ! - dev: 6010 (14.32%)
 ! - app: 4619 (11.0%)
-! - org: 1949 (4.64%)
+! - org: 1948 (4.64%)
 ! - io: 1640 (3.91%)
 ! - net: 1448 (3.45%)
 ! - xyz: 883 (2.1%)
@@ -3948,7 +3948,6 @@
 ||arbdogedrop.com^
 ||arbdogee.com^
 ||arbdogie.com^
-||arbeitrum-bridge.org^
 ||arbfoundation.vip^
 ||arbgetting.com^
 ||arbgift.org^
@@ -17142,7 +17141,6 @@
 ||etherwallet.org^
 ||ethesrcan.pro^
 ||ethevent.us^
-||ethewrscan.link^
 ||ethez.com^
 ||ethfc.com^
 ||ethfinance.vip^
