@@ -49,7 +49,7 @@ fig.update_layout(title='Phishing Domain Counts (Last 60 Days)',
 
 # Save the graph as an image
 os.makedirs('stor', exist_ok=True)
-fig.write_image("stor/stats_hourly.png")
+fig.write_image("stor/stats.png")
 
 # Close the database connection
 conn.close()
