@@ -1,9 +1,11 @@
-! Title: OpenPhish and Phishunt Feed - Phishing Domains
-! Description: This file contains a list of known phishing domains from the OpenPhish and Phishunt feed.
+! Title: NXPhish - Active Phishing Domains
+! Description: This file contains a list of known phishing domains from various feeds.
 ! URL shorteners have been removed to reduce false positives.
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
-! Last updated: 2024-05-05 00:30:15
+! Repository: github.com/xRuffKez/NXPhish
+! Last updated: 2024-05-05 00:52:05
+! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
 ! Number of phishing domains: 50986
 ! Number of NXDOMAIN domains: 81957
 ! Number of SERVFAIL domains: 1799
