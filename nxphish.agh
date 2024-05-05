@@ -4,14 +4,14 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 15:34:10
+! Last updated: 2024-05-05 15:44:01
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51467
-! Number of NXDOMAIN domains: 82008
-! Number of SERVFAIL domains: 1884
+! Number of phishing domains: 51465
+! Number of NXDOMAIN domains: 82009
+! Number of SERVFAIL domains: 1885
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23348 (55.67%)
+! - com: 23347 (55.67%)
 ! - dev: 5996 (14.3%)
 ! - app: 4619 (11.01%)
 ! - org: 1945 (4.64%)
@@ -41293,7 +41293,6 @@
 ||syncprotocols.online^
 ||syncprotocols.pagen.dev^
 ||syncrdapps.netlify.app^
-||syncrodapps.line.pm^
 ||syncroniize-wallet.square.site^
 ||syncronizationapp.pages.dev^
 ||syncs-dapptool.com^
@@ -48295,7 +48294,6 @@
 ||www.btcmusk2x.com^
 ||www.btcst.finance^
 ||www.btec20.com^
-||www.btsfamen.com^
 ||www.btycqnk.top^
 ||www.buddhacollective.com.au^
 ||www.buhgeexhange.com^
