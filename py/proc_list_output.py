@@ -77,7 +77,17 @@ def update_phishfeed(workspace):
                             except dns.resolver.NXDOMAIN:
                                 status = "NXDOMAIN"
                             except (dns.resolver.NoAnswer, dns.resolver.Timeout):
-                                status = "SERVFAIL"
+                                try:
+                                    # If resolver timed out, try resolving with Google's DNS servers
+                                    resolver_google = dns.resolver.Resolver()
+                                    resolver_google.nameservers = ['8.8.8.8', '8.8.4.4']  # Google's DNS servers
+                                    resolver_google.timeout = 10  # Set timeout to 10 seconds for Google DNS
+                                    response_google = resolver_google.resolve(domain)
+                                    return "OK"
+                                except (dns.resolver.Timeout, dns.resolver.NoAnswer):
+                                    return "SERVFAIL"
+                                except dns.resolver.NXDOMAIN:
+                                    return "NXDOMAIN"
                             except Exception as e:
                                 logger.error("Error resolving domain %s: %s", domain, e)
                                 status = "ERROR"
