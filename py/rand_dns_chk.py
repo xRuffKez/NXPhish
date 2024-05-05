@@ -29,7 +29,7 @@ async def resolve_domains(domains):
             results[domain] = "SERVFAIL"
     return results
 
-def update_dns_status(verbose=True):
+async def update_dns_status(verbose=True):
     db_path = "stor/cache.db"
     max_age = datetime.now() - timedelta(days=60)
 
@@ -42,8 +42,7 @@ def update_dns_status(verbose=True):
     chunk_size = 100
     chunks = [domains_to_check[i:i + chunk_size] for i in range(0, len(domains_to_check), chunk_size)]
 
-    loop = asyncio.get_event_loop()
-    results = loop.run_until_complete(asyncio.gather(*(resolve_domains(chunk) for chunk in chunks)))
+    results = await asyncio.gather(*(resolve_domains(chunk) for chunk in chunks))
 
     # Flatten results
     results = {k: v for d in results for k, v in d.items()}
@@ -56,5 +55,8 @@ def update_dns_status(verbose=True):
             cursor.executemany("UPDATE domains SET status=? WHERE domain=?", updated_domains)
             conn.commit()
 
-if __name__ == "__main__":
+def main():
     asyncio.run(update_dns_status())
+
+if __name__ == "__main__":
+    main()
