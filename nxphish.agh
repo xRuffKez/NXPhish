@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 09:26:43
+! Last updated: 2024-05-05 09:35:03
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50969
-! Number of NXDOMAIN domains: 81967
-! Number of SERVFAIL domains: 1830
+! Number of phishing domains: 50967
+! Number of NXDOMAIN domains: 81968
+! Number of SERVFAIL domains: 1831
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 57341 (58.0%)
@@ -12362,7 +12362,6 @@
 ||coinspurdo.com^
 ||coinsqgecko.link^
 ||coinsray.com^
-||coinstoo.com^
 ||coinstorezat.com^
 ||coinsupportlive.com^
 ||coinswallet.info^
@@ -28963,7 +28962,6 @@
 ||muskswap.pages.dev^
 ||muskway.com^
 ||musnlcywxt.duckdns.org^
-||muspnjgcec.duckdns.org^
 ||mustthuameshuk-wacllet.godaddysites.com^
 ||mustunivrsity.firebaseapp.com^
 ||mustunivrsity.web.app^
