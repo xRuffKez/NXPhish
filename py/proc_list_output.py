@@ -101,7 +101,7 @@ def update_phishfeed(workspace):
         all_domains = cursor.fetchall()
         phishing_domains = [row[0] for row in all_domains if row[1] != 'NXDOMAIN' and row[1] != 'SERVFAIL']
         tld_counts = {}
-        for domain in all_domains:
+        for domain in phishing_domains:
             tld = domain[0].split('.')[-1]
             tld_counts[tld] = tld_counts.get(tld, 0) + 1
         sorted_tlds = sorted(tld_counts.items(), key=lambda x: x[1], reverse=True)[:10]
@@ -122,7 +122,7 @@ def update_phishfeed(workspace):
             output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(domains_to_remove))))
             output_file.write("! Top 10 abused TLDs:\n")
             for tld, count in sorted_tlds:
-                percentage_tld_domains = (count / total_domains) * 100
+                percentage_tld_domains = (count / phishing_domains) * 100
                 output_file.write("! - {}: {} ({}%)\n".format(tld, count, round(percentage_tld_domains, 2)))
             output_file.write("! Domains removed after 60 days if not re-added through feed.\n")
             output_file.write("\n")
