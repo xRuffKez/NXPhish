@@ -4,10 +4,10 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 07:47:39
+! Last updated: 2024-05-05 07:50:58
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50998
-! Number of NXDOMAIN domains: 81959
+! Number of phishing domains: 50996
+! Number of NXDOMAIN domains: 81961
 ! Number of SERVFAIL domains: 1799
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
@@ -15032,7 +15032,6 @@
 ||digchain.world^
 ||diggie.vip^
 ||digi-byte.pages.dev^
-||digicoin-cry.com^
 ||digidaigaku.web.app^
 ||digidaigakudragoneggs.netlify.app^
 ||digiitoads.world^
@@ -44711,7 +44710,6 @@
 ||verfolgung-lieferung.com^
 ||verft4ajett.webcindario.com^
 ||verfyacounthelp.start.page^
-||verhbeyikk.etherealix.top^
 ||veri-fied-admin-br.weebly.com^
 ||veri-safe.de^
 ||veridirekt2.net^
