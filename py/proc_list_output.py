@@ -1,3 +1,42 @@
+import sqlite3
+import os
+import requests
+import re
+import csv
+import zipfile
+import logging
+from datetime import datetime, timedelta
+from urllib.parse import urlparse
+import dns.resolver
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+def is_valid_domain(domain):
+    return bool(re.match(r'^([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9])\.([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9-]*[A-Za-z0-9])$', domain))
+
+def load_whitelist_domains():
+    try:
+        response = requests.get("https://raw.githubusercontent.com/xRuffKez/NXPhish/main/stor/white.list")
+        response.raise_for_status()
+        return set(response.text.splitlines())
+    except requests.RequestException as e:
+        logger.error("Failed to load whitelist domains: %s", e)
+        return set()
+
+def download_extract_csv(url, destination_folder):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        with open(os.path.join(destination_folder, 'top-1m.csv.zip'), 'wb') as f:
+            f.write(response.content)
+        with zipfile.ZipFile(os.path.join(destination_folder, 'top-1m.csv.zip'), 'r') as zip_ref:
+            zip_ref.extractall(destination_folder)
+        return True
+    except Exception as e:
+        logger.error("Failed to download and extract CSV file: %s", e)
+        return False
+
 def update_phishfeed(workspace):
     db_path = os.path.join(workspace, 'stor/cache.db')
     feed_path = os.path.join(workspace, 'filtered_feed.txt')
@@ -90,3 +129,10 @@ def update_phishfeed(workspace):
             for domain in phishing_domains:
                 output_file.write("||{}^\n".format(domain))
     os.remove(csv_file_path)
+
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) != 2:
+        logger.error("Usage: python update.py <workspace_directory>")
+        sys.exit(1)
+    update_phishfeed(sys.argv[1])
