@@ -12,7 +12,17 @@ def resolve_domain(domain):
     except dns.resolver.NXDOMAIN:
         return "NXDOMAIN"
     except (dns.resolver.NoAnswer, dns.resolver.Timeout):
-        return "SERVFAIL"
+        try:
+            # If resolver timed out, try resolving with Google's DNS servers
+            resolver_google = dns.resolver.Resolver()
+            resolver_google.nameservers = ['8.8.8.8', '8.8.4.4']  # Google's DNS servers
+            resolver_google.timeout = 10  # Set timeout to 10 seconds for Google DNS
+            response_google = resolver_google.resolve(domain)
+            return "OK"
+        except (dns.resolver.Timeout, dns.resolver.NoAnswer):
+            return "SERVFAIL"
+        except dns.resolver.NXDOMAIN:
+            return "NXDOMAIN"
     except Exception as e:
         return str(e)
 
