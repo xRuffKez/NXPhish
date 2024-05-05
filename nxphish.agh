@@ -4,17 +4,17 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 21:17:08
+! Last updated: 2024-05-05 21:24:50
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51657
-! Number of NXDOMAIN domains: 82039
-! Number of SERVFAIL domains: 1901
+! Number of phishing domains: 51649
+! Number of NXDOMAIN domains: 82040
+! Number of SERVFAIL domains: 1908
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23369 (55.64%)
-! - dev: 6011 (14.31%)
+! - com: 23369 (55.65%)
+! - dev: 6011 (14.32%)
 ! - app: 4618 (11.0%)
-! - org: 1950 (4.64%)
+! - org: 1943 (4.63%)
 ! - io: 1647 (3.92%)
 ! - net: 1451 (3.46%)
 ! - xyz: 879 (2.09%)
@@ -84,7 +84,6 @@
 ||0g5o9qnh.duckdns.org^
 ||0gas.io^
 ||0hk9dtm.duckdns.org^
-||0i84o595.duckdns.org^
 ||0ibs9774x.duckdns.org^
 ||0ii-meta-confirm-info.start.page^
 ||0iv.pages.dev^
@@ -9325,7 +9324,6 @@
 ||bnmperc.firebaseapp.com^
 ||bnmperc.web.app^
 ||bnokas.hbnilmn.workers.dev^
-||bnokjbvuzw.duckdns.org^
 ||bnp-sinistre-billeterie-neat-eu.vercel.app^
 ||bnpbancoit.firebaseapp.com^
 ||bnpbancoit.web.app^
@@ -10476,7 +10474,6 @@
 ||by-pay.net^
 ||bybit-win.gift^
 ||bynvs.blogspot.com^
-||byp4c4id0.duckdns.org^
 ||bypf8bm.pro^
 ||byshz.com^
 ||bytedog.pro^
@@ -21955,7 +21952,6 @@
 ||impotgouv-amendes.com^
 ||improveourservicemyid.kesug.com^
 ||impt-reward.pages.dev^
-||imqh8rw.duckdns.org^
 ||imshivamnair.github.io^
 ||imtoken-3s.xyz^
 ||imtoken-app.biz^
@@ -23653,7 +23649,6 @@
 ||ktysi.top^
 ||ku-cinlogginsef.godaddysites.com^
 ||ku3j86q.duckdns.org^
-||ku40pz.duckdns.org^
 ||kua.tid.temporary.site^
 ||kuacoiinlogg.godaddysites.com^
 ||kub-brinquedos-com.blogspot.com^
@@ -30241,7 +30236,6 @@
 ||ndk.pages.dev^
 ||ndlions.netlify.app^
 ||ndsantha.github.io^
-||ndwjop.duckdns.org^
 ||ne.cion-defi.pro^
 ||ne12juridcanetempresa.blogspot.com^
 ||ne2v59.webwave.dev^
@@ -37756,7 +37750,6 @@
 ||s67s83sfa5262t72er2ww2562a0029aldag338sh.pages.dev^
 ||s6imd6.webwave.dev^
 ||s6y-105490.weeblysite.com^
-||s86l50ii.duckdns.org^
 ||s8p7nyr.tokena-imapp.com^
 ||sa-aramex.firebaseapp.com^
 ||sa-aramex.web.app^
@@ -42386,7 +42379,6 @@
 ||theapi.pro^
 ||theappreciators.io^
 ||theapps.datapps.xyz^
-||theaptlab.live^
 ||theaubergroup.zmailcloud.com^
 ||theaudazity.com^
 ||thebabytheater.com^
