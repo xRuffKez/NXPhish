@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 08:45:08
+! Last updated: 2024-05-05 08:54:40
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50979
-! Number of NXDOMAIN domains: 81965
-! Number of SERVFAIL domains: 1822
+! Number of phishing domains: 50975
+! Number of NXDOMAIN domains: 81966
+! Number of SERVFAIL domains: 1825
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
 ! - com: 57341 (58.0%)
@@ -997,7 +997,6 @@
 ||7kdgw.pro^
 ||7ksync.net^
 ||7mia9hm2.duckdns.org^
-||7mn8ew.duckdns.org^
 ||7ndgxvk.duckdns.org^
 ||7oh3ya.cn^
 ||7polkadot.js.org^
@@ -18298,7 +18297,6 @@
 ||forodhaniparkhotel.com^
 ||forologiki-enimerosi.firebaseapp.com^
 ||forologiki-enimerosi.web.app^
-||fortemag.com^
 ||fortes.life^
 ||fortewebklap.pages.dev^
 ||fortexwallet.com^
@@ -29658,7 +29656,6 @@
 ||mysecurelink-attmail.pory.app^
 ||mysetherwallet.com^
 ||mysloganmadeeasy.pages.dev^
-||mysmetemask.com^
 ||mysonicwall.ir^
 ||mysoulitude.com^
 ||mysql.allegrolokalnie.pk^
@@ -48521,7 +48518,6 @@
 ||www.metamaskey.com^
 ||www.metamaskio.net^
 ||www.metamaskipn.com^
-||www.metamasknodes.com^
 ||www.metamaskrecovery.com^
 ||www.metamasks-drop.com^
 ||www.metamasks.app^
