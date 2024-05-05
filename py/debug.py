@@ -17,3 +17,4 @@ def set_servfail_domains_to_ok():
 
 if __name__ == "__main__":
     set_servfail_domains_to_ok()
+    conn.close()
