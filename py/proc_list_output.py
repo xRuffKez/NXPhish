@@ -1,42 +1,3 @@
-import sqlite3
-import os
-import requests
-import re
-import csv
-import zipfile
-import logging
-from datetime import datetime, timedelta
-from urllib.parse import urlparse
-import dns.resolver
-
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
-
-def is_valid_domain(domain):
-    return bool(re.match(r'^([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9])\.([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9-]*[A-Za-z0-9])$', domain))
-
-def load_whitelist_domains():
-    try:
-        response = requests.get("https://raw.githubusercontent.com/xRuffKez/NXPhish/main/stor/white.list")
-        response.raise_for_status()
-        return set(response.text.splitlines())
-    except requests.RequestException as e:
-        logger.error("Failed to load whitelist domains: %s", e)
-        return set()
-
-def download_extract_csv(url, destination_folder):
-    try:
-        response = requests.get(url)
-        response.raise_for_status()
-        with open(os.path.join(destination_folder, 'top-1m.csv.zip'), 'wb') as f:
-            f.write(response.content)
-        with zipfile.ZipFile(os.path.join(destination_folder, 'top-1m.csv.zip'), 'r') as zip_ref:
-            zip_ref.extractall(destination_folder)
-        return True
-    except Exception as e:
-        logger.error("Failed to download and extract CSV file: %s", e)
-        return False
-
 def update_phishfeed(workspace):
     db_path = os.path.join(workspace, 'stor/cache.db')
     feed_path = os.path.join(workspace, 'filtered_feed.txt')
@@ -83,14 +44,14 @@ def update_phishfeed(workspace):
                                     resolver_google.nameservers = ['8.8.8.8', '8.8.4.4']  # Google's DNS servers
                                     resolver_google.timeout = 10  # Set timeout to 10 seconds for Google DNS
                                     response_google = resolver_google.resolve(domain)
-                                    return "OK"
+                                    status = "OK"
                                 except (dns.resolver.Timeout, dns.resolver.NoAnswer):
-                                    return "SERVFAIL"
+                                    status = "SERVFAIL"
                                 except dns.resolver.NXDOMAIN:
-                                    return "NXDOMAIN"
-                            except Exception as e:
-                                logger.error("Error resolving domain %s: %s", domain, e)
-                                status = "ERROR"
+                                    status = "NXDOMAIN"
+                                except Exception as e:
+                                    logger.error("Error resolving domain %s: %s", domain, e)
+                                    status = "ERROR"
                             current_time = datetime.now().isoformat()
                             cursor.execute("INSERT INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
         cursor.execute("DELETE FROM domains WHERE last_seen < ?", (max_age.isoformat(),))
@@ -102,7 +63,7 @@ def update_phishfeed(workspace):
         phishing_domains = [row[0] for row in all_domains if row[1] != 'NXDOMAIN' and row[1] != 'SERVFAIL']
         tld_counts = {}
         for domain in phishing_domains:
-            tld = domain[0].split('.')[-1]
+            tld = domain.split('.')[-1]
             tld_counts[tld] = tld_counts.get(tld, 0) + 1
         sorted_tlds = sorted(tld_counts.items(), key=lambda x: x[1], reverse=True)[:10]
         total_domains = sum(count for _, count in sorted_tlds)
@@ -122,18 +83,10 @@ def update_phishfeed(workspace):
             output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(domains_to_remove))))
             output_file.write("! Top 10 abused TLDs:\n")
             for tld, count in sorted_tlds:
-                percentage_tld_domains = (count / phishing_domains) * 100
+                percentage_tld_domains = (count / total_domains) * 100
                 output_file.write("! - {}: {} ({}%)\n".format(tld, count, round(percentage_tld_domains, 2)))
             output_file.write("! Domains removed after 60 days if not re-added through feed.\n")
             output_file.write("\n")
             for domain in phishing_domains:
                 output_file.write("||{}^\n".format(domain))
-    conn.close()
     os.remove(csv_file_path)
-
-if __name__ == "__main__":
-    import sys
-    if len(sys.argv) != 2:
-        logger.error("Usage: python update.py <workspace_directory>")
-        sys.exit(1)
-    update_phishfeed(sys.argv[1])
