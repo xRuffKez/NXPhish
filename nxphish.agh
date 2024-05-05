@@ -4,14 +4,14 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 14:16:53
+! Last updated: 2024-05-05 14:25:42
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
 ! Number of phishing domains: 51477
-! Number of NXDOMAIN domains: 81998
+! Number of NXDOMAIN domains: 82001
 ! Number of SERVFAIL domains: 1881
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23351 (55.67%)
+! - com: 23350 (55.67%)
 ! - dev: 5997 (14.3%)
 ! - app: 4619 (11.01%)
 ! - org: 1947 (4.64%)
@@ -2644,6 +2644,7 @@
 ||amazon.wiki.pancakeswape.finance^
 ||amazonbuy.top^
 ||amazoncomcode.onepage.website^
+||amazone-concept.com^
 ||amazoneksespromailyahoo.duckdns.org^
 ||amazoni.vip^
 ||amazonibijapan.gotdns.ch^
@@ -14784,7 +14785,6 @@
 ||denewpolstlewx.firebaseapp.com^
 ||denewpolstlewx.web.app^
 ||denisonisd.pages.dev^
-||denizkoy.com^
 ||denobrega.com^
 ||denoenamovinz.cobi.workers.dev^
 ||densillama.com^
@@ -17696,6 +17696,7 @@
 ||facebook.business-home-186615446.id.vn^
 ||facebook.byethost31.com^
 ||facebook.check-protect-account.me^
+||facebook.coms-s.guru^
 ||facebook.discount.workers.dev^
 ||facebook.haodechi1756.workers.dev^
 ||facebook.help-meta-businessappealcase.com^
@@ -22207,6 +22208,7 @@
 ||instagram-login-coral.vercel.app^
 ||instagram-r6ilolsa3-boude35.vercel.app^
 ||instagram-security.pages.dev^
+||instagram.coms-s.guru^
 ||instagram.hari-acharya.com.np^
 ||instagram.huxefamalik.workers.dev^
 ||instagram.usaab.workers.dev^
@@ -46077,7 +46079,6 @@
 ||walletconnect-verify.netlify.app^
 ||walletconnect-website-omega.vercel.app^
 ||walletconnect-zfss.onrender.com^
-||walletconnect.adekunleajasinuniversity.com^
 ||walletconnect.app.dapps.im^
 ||walletconnect.biz^
 ||walletconnect.com.cn^
@@ -48010,7 +48011,6 @@
 ||www.247loanpros.com^
 ||www.2kyactt.com^
 ||www.2metamaks-secure.akaltan.com^
-||www.31333254566.cloud^
 ||www.4f-online.top^
 ||www.4f-shop.top^
 ||www.5ypsvgv.cn^
