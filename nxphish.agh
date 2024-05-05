@@ -4,17 +4,17 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 10:31:27
+! Last updated: 2024-05-05 10:34:49
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 50938
-! Number of NXDOMAIN domains: 81979
-! Number of SERVFAIL domains: 1849
+! Number of phishing domains: 50933
+! Number of NXDOMAIN domains: 81980
+! Number of SERVFAIL domains: 1853
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23268 (55.76%)
-! - dev: 5960 (14.28%)
+! - com: 23264 (55.76%)
+! - dev: 5960 (14.29%)
 ! - app: 4617 (11.07%)
-! - org: 1962 (4.7%)
+! - org: 1961 (4.7%)
 ! - io: 1556 (3.73%)
 ! - net: 1427 (3.42%)
 ! - xyz: 885 (2.12%)
@@ -19307,7 +19307,6 @@
 ||gfrywu0946hz.vyiz.my.id^
 ||gfsaryyy.weebly.com^
 ||gft-ray.web.app^
-||gfxyaet.duckdns.org^
 ||gfygu69ghg.htfmjv8uordfy.workers.dev^
 ||gfyj.ktt55.my.id^
 ||gg-acess-account.blogspot.com^
@@ -25786,7 +25785,6 @@
 ||manlla.network^
 ||manlte.xyz^
 ||manmta.network^
-||mannamarkets.com^
 ||manpta.network^
 ||mans-vid.firebaseapp.com^
 ||mans-vid.web.app^
@@ -32916,7 +32914,6 @@
 ||pansakeswap.com^
 ||panscakeswads.com^
 ||panscakeswads.net^
-||panscakeswapes.com^
 ||pansiecakes.com^
 ||panskakewasp.com^
 ||panskeswap-finance.net^
@@ -40797,7 +40794,6 @@
 ||sync-resolvelive.web.app^
 ||sync-securedwallet.com^
 ||sync-solution.com^
-||sync-swap.com^
 ||sync-swaps.com^
 ||sync-tool.com^
 ||sync-validator.vercel.app^
@@ -45715,7 +45711,6 @@
 ||wallets2-form.web.app^
 ||walletsapi.netlify.app^
 ||walletsappsupport.com^
-||walletsbridge.com^
 ||walletsconect.site^
 ||walletsconnect-app.herokuapp.com^
 ||walletsconnect.app^
