@@ -14,7 +14,8 @@ def set_servfail_domains_to_ok():
             print("Updated", len(updated_domains), "domains from SERVFAIL to OK.")
         else:
             print("No domains with SERVFAIL status found.")
+    conn.close()
 
 if __name__ == "__main__":
     set_servfail_domains_to_ok()
-    conn.close()
+    
