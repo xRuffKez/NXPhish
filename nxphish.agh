@@ -4,9 +4,9 @@
 ! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 17:36:21
+! Last updated: 2024-05-06 18:35:49
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 40907
+! Number of phishing domains: 40876
 ! Number of NXDOMAIN domains: 0
 ! Number of SERVFAIL domains: 0
 ! Number of domains matched and removed by whitelist:
@@ -251,7 +251,6 @@
 ||1innch.org^
 ||1innch.space^
 ||1irnch.net^
-||1j5dca.duckdns.org^
 ||1l2rvdlc.duckdns.org^
 ||1linchclaim.top^
 ||1linchs.top^
@@ -662,7 +661,6 @@
 ||805k0t1kpgescmmnty.work.gd^
 ||8080.sxforge.com^
 ||811c6338.aa7a82058237000860386781.workers.dev^
-||81p5dkun0.duckdns.org^
 ||8203239928320io30.hyperphp.com^
 ||827032971.pages.dev^
 ||832a1f5a.6e6248522346e7b34cdee839.workers.dev^
@@ -698,7 +696,6 @@
 ||8lements.xyz^
 ||8lrml8r.duckdns.org^
 ||8ng.013.mytemp.website^
-||8nmnhu.duckdns.org^
 ||8p3lbcrvgiog9j43.weiyikuai.top^
 ||8sgc.dew4.my.id^
 ||8txrl.cc^
@@ -1104,7 +1101,6 @@
 ||ace-preservation.com^
 ||acecoins.pro^
 ||aceder-particular.com^
-||acehfoto.com^
 ||aceiba-assist.freshdesk.com^
 ||acentoken.com^
 ||acertderisofe.firebaseapp.com^
@@ -1238,7 +1234,6 @@
 ||adgfuspp0rt.my03.com^
 ||adhzf1.webwave.dev^
 ||adidas-nft-claim.xyz^
-||adik-dev.bidikmisi.info^
 ||adilc0070.github.io^
 ||adisabebai.firebaseapp.com^
 ||adisabebai.web.app^
@@ -1253,6 +1248,7 @@
 ||admin-for-sex-offender-and-korean.vercel.app^
 ||admin-ww.webflow.io^
 ||admin.allegros.shop^
+||admin.ebay9988.com^
 ||admin.takataka.impactscope.com^
 ||admincieueijniwiwieoeikcmnckaqooooeeeencnjc.pages.dev^
 ||admincieueijniwiwieoeikcmnckaqooooeeeencnjcutyrewrtyutrewr.pages.dev^
@@ -4374,7 +4370,6 @@
 ||b7ts.ktt55.my.id^
 ||b86zs.check-health.com^
 ||b888n.com^
-||b9.loan-top.top^
 ||b9030.top^
 ||b97bca39.srvr-cloudmail-srvr6754e5rte.pages.dev^
 ||b9c17e3c.host.njalla.net^
@@ -4694,7 +4689,6 @@
 ||base-pass.co^
 ||base-protocol.app^
 ||base.com.co^
-||base.link3.su^
 ||basecb.com^
 ||basechain.cc^
 ||basecoinbase.com^
@@ -8177,7 +8171,6 @@
 ||coinbashiprolgie.godaddysites.com^
 ||coinbck.com^
 ||coinbene.net^
-||coinbeside.net^
 ||coinbeside.tech^
 ||coinbest.us^
 ||coinbgecko.com^
@@ -10753,7 +10746,6 @@
 ||diyqmnvsd.web.app^
 ||dizivefilim.com^
 ||dj0zhbi.duckdns.org^
-||dj17cv.duckdns.org^
 ||dj3ita.ktt55.my.id^
 ||dj3iua.ktt55.my.id^
 ||dj6n4f.webwave.dev^
@@ -12073,7 +12065,6 @@
 ||eth-bob.com^
 ||eth-bonus.net^
 ||eth-box.xf.cz^
-||eth-che.com^
 ||eth-che.cyou^
 ||eth-che.shop^
 ||eth-coin.cc^
@@ -12729,7 +12720,6 @@
 ||f40e.auth-datts.workers.dev^
 ||f43d2915.bf64a7f6a27c86c9bbb1d0db.workers.dev^
 ||f570eo.webwave.dev^
-||f5apcvve0.duckdns.org^
 ||f5lo67a5.duckdns.org^
 ||f5skb66hzt666vdse.ra36q761u5t5.workers.dev^
 ||f7ac.zip-locks.workers.dev^
@@ -14859,7 +14849,6 @@
 ||guccinft.club^
 ||gucciofficial.top^
 ||gudrus.com^
-||guestreserv-17bnb.com^
 ||guf.pages.dev^
 ||guideforcommunity.my.id^
 ||guidetonfts.dynamic-dns.net^
@@ -14896,7 +14885,6 @@
 ||gvvgrapps.web.app^
 ||gwabagu.pages.dev^
 ||gwayaugust.blogspot.com^
-||gwjpc5.duckdns.org^
 ||gworldgroup.com^
 ||gwwkz-myaaa-aaaad-qef5a-cai.raw.ic0.app^
 ||gy-trustpad.com^
@@ -15347,7 +15335,6 @@
 ||helploginamaz00.authorizeddns.net^
 ||helps-acccountt-change-emailxxx.com^
 ||hepton-airdrop.com^
-||her67.com^
 ||herbersillers.com^
 ||hergzomei.firebaseapp.com^
 ||hergzomei.web.app^
@@ -15785,7 +15772,6 @@
 ||hook.contact^
 ||hooplsshko.pages.dev^
 ||hoorainz.com^
-||hoosierwarriorcoffeemarianaquin.org^
 ||hootcms.s3.ap-south-1.amazonaws.com^
 ||hop-bridge.xyz^
 ||hop-exchange.cn.com^
@@ -16272,8 +16258,6 @@
 ||ifswgtofuxi.firebaseapp.com^
 ||ifswgtofuxi.web.app^
 ||iftucs.hnuplsn.workers.dev^
-||ig0v6k.duckdns.org^
-||igecqefb.duckdns.org^
 ||ighkn.mwztc0i1tv2853.workers.dev^
 ||igiowo1.pages.dev^
 ||igkm52.webwave.dev^
@@ -17163,7 +17147,6 @@
 ||jklhj-3f968.web.app^
 ||jksddf.weebly.com^
 ||jkwwpacj.elementor.cloud^
-||jky71djj.duckdns.org^
 ||jl-galagames-1ethereumm-kpo.blogspot.com^
 ||jlg-vip.cc^
 ||jmdyvf.chyre.xyz^
@@ -17258,7 +17241,6 @@
 ||joyouslinkew.world^
 ||jp1ysv5e.duckdns.org^
 ||jpagoda.icu^
-||jpagoda.top^
 ||jpagods.top^
 ||jpmorganpurchase.firebaseapp.com^
 ||jpmorganpurchase.web.app^
@@ -17902,7 +17884,6 @@
 ||kv609.com^
 ||kvh9h1.webwave.dev^
 ||kw45xw.duckdns.org^
-||kw70rt.duckdns.org^
 ||kwbaf9.webwave.dev^
 ||kwdbtrmww.web.app^
 ||kwjjjjka.vrl2023.com^
@@ -20489,7 +20470,6 @@
 ||mercanza.es^
 ||mercari-update.zksync.pub^
 ||mercarl.duckdns.org^
-||mercarl1.duckdns.org^
 ||mercarl7.duckdns.org^
 ||mercatox.net^
 ||mercatura.co.id^
@@ -22325,7 +22305,6 @@
 ||mrhankey-about.com^
 ||mrhankey-app.com^
 ||mridulsaggi.github.io^
-||mrqnihcxvr.duckdns.org^
 ||mrspongy.com^
 ||mrtouklnhgra.firebaseapp.com^
 ||mrtouklnhgra.web.app^
@@ -22359,7 +22338,6 @@
 ||mstsmsaskwol1st.godaddysites.com^
 ||msvcoae.com^
 ||msw.pages.dev^
-||msyetherwallet.com^
 ||mt-9s8.pages.dev^
 ||mt-e0a64.firebaseapp.com^
 ||mt-e0a64.web.app^
@@ -22638,7 +22616,6 @@
 ||mxmoajs-github-csnvioze8-sowerby202s-projects.vercel.app^
 ||mxs-collabland.pages.dev^
 ||mxtamvskwallvtte.godaddysites.com^
-||mxupkhuqur.duckdns.org^
 ||my-acount-free.hubside.fr^
 ||my-att-2a54.at35756.workers.dev^
 ||my-bill-refer.com^
@@ -24066,7 +24043,6 @@
 ||o365-onedrive64563534.webflow.io^
 ||o4sk2x.webwave.dev^
 ||o5g8x1h3f9c.s3v.ru^
-||o7jzkmx.duckdns.org^
 ||o7omarketplace.co.uk^
 ||o90ubo.duckdns.org^
 ||o9m1.weebly.com^
@@ -33000,7 +32976,6 @@
 ||telegram-chian.org.cn^
 ||telegram-com-zhcn.pages.dev^
 ||telegram-gods.net^
-||telegram-hb.org^
 ||telegram-tt-koval-dev.pages.dev^
 ||telegram-ut.com^
 ||telegram-web.pages.dev^
@@ -33017,7 +32992,6 @@
 ||telegram.tokyo^
 ||telegram.ttmirrors.eu.org^
 ||telegram.tw^
-||telegram.web-ca.ren^
 ||telegram.webbaa.club^
 ||telegram.webcsc.ren^
 ||telegram.webtgap.top^
@@ -35737,7 +35711,6 @@
 ||uuser89accept.start.page^
 ||uuser90accept.start.page^
 ||uusps.jpscdy.cn^
-||uvcnqrf.duckdns.org^
 ||uvieneufsemt.firebaseapp.com^
 ||uvieneufsemt.web.app^
 ||uvuouov.pages.dev^
@@ -36832,7 +36805,6 @@
 ||walletconnectmobile.dapps.im^
 ||walletconnectonline.pages.dev^
 ||walletconnectpay.com^
-||walletconnectpro440957.duckdns.org^
 ||walletconnectpro465433.duckdns.org^
 ||walletconnects.org^
 ||walletconnects.xyz^
@@ -39737,7 +39709,6 @@
 ||www.ychrieb.cn^
 ||www.yikouqi.cn^
 ||www.yiyingjuquan.top^
-||www.yizhebian.com^
 ||www.yjoji.com^
 ||www.ylfyhwz.cn^
 ||www.yljyfz.cn^
@@ -40558,7 +40529,6 @@
 ||yxr65t.webwave.dev^
 ||yxu.pages.dev^
 ||yxzqyzc.com^
-||yzdq69s.duckdns.org^
 ||yzytzjixyi0wmaitmdakaeyaaao5.weebly.com^
 ||z24410.webwave.dev^
 ||z2j0dl.webwave.dev^
@@ -40751,7 +40721,6 @@
 ||zip-uspn.com^
 ||zip.qso.mybluehost.me^
 ||zjooas.webwave.dev^
-||zjpxt.com^
 ||zk-alt-sync.vercel.app^
 ||zk-coins.com^
 ||zk-manta-airdrop.pages.dev^
