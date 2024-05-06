@@ -131,10 +131,6 @@ def update_phishfeed(workspace):
                                 if status is not None:
                                     current_time = datetime.now().isoformat()
                                     cursor.execute("INSERT OR IGNORE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
-                # Update domains status in cache.db
-                for domain in all_domains:
-                    if domain[0] not in phishing_domains:
-                        cursor.execute("UPDATE domains SET status='WHITELIST' WHERE domain=?", (domain[0],))
             cursor.execute("UPDATE domains SET status='REMOVED' WHERE last_seen < ? AND status != 'OK'", (max_age.isoformat(),))
             cursor.execute("UPDATE domains SET status='WHITELIST' WHERE domain IN (SELECT domain FROM domains WHERE status = 'REMOVED')")
             cursor.execute("COMMIT")
@@ -209,8 +205,8 @@ def write_output_file(output_path, phishing_domains, all_domains, umbrella_domai
         output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
         output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(umbrella_domains | tranco_domains))))
         output_file.write("! Number of domains removed older than 60 days: {}\n".format(len([row[0] for row in all_domains if row[1] == 'REMOVED'])))
-        output_file.write("! Number of domains removed by Umbrella list: {}\n".format(len(umbrella_domains)))
-        output_file.write("! Number of domains removed by Tranco list: {}\n".format(len(tranco_domains)))
+        output_file.write("! Number of domains removed by Umbrella list: {}\n".format(len(umbrella_domains))))
+        output_file.write("! Number of domains removed by Tranco list: {}\n".format(len(tranco_domains))))
         output_file.write("\n")
 
         for domain in phishing_domains:
