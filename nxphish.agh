@@ -4,14 +4,14 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 00:11:11
+! Last updated: 2024-05-06 00:28:20
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51693
-! Number of NXDOMAIN domains: 82046
+! Number of phishing domains: 51695
+! Number of NXDOMAIN domains: 82047
 ! Number of SERVFAIL domains: 1930
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23385 (55.66%)
+! - com: 23386 (55.66%)
 ! - dev: 6019 (14.33%)
 ! - app: 4619 (10.99%)
 ! - org: 1932 (4.6%)
@@ -30135,6 +30135,7 @@
 ||mzposlstele.firebaseapp.com^
 ||mzposlstele.web.app^
 ||n-wwspottrise.blogspot.com^
+||n-wwspottrise.blogspot.cz^
 ||n-wwspottrise.blogspot.mk^
 ||n-wwspottrise.blogspot.sn^
 ||n1og74.webwave.dev^
@@ -34742,7 +34743,6 @@
 ||polkastarters-spot.com^
 ||polkastratrer.com^
 ||polkastrstre.site^
-||polkastrstre.website^
 ||polkasupport.netlify.app^
 ||polkaswap.info^
 ||polkqstarter.com^
@@ -41644,6 +41644,7 @@
 ||teiegrom-n.com^
 ||teiegrom-w.com^
 ||teiegrom-xb.com^
+||tejnzjhn.blogspot.ca^
 ||tejnzjhn.blogspot.com^
 ||tejnzjhn.blogspot.de^
 ||teju2312.github.io^
@@ -50973,6 +50974,7 @@
 ||yahoo.processingmail.workers.dev^
 ||yahoo45456.wendy-fane.workers.dev^
 ||yahoo76766.wmmiller-2000.workers.dev^
+||yahoo838392.weebly.com^
 ||yahoocomlink-100929.weeblysite.com^
 ||yahooconnectatt.weebly.com^
 ||yahooincdepartment.weebly.com^
