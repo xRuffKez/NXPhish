@@ -4,21 +4,21 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 00:49:32
+! Last updated: 2024-05-06 01:18:04
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51693
-! Number of NXDOMAIN domains: 82047
-! Number of SERVFAIL domains: 1932
+! Number of phishing domains: 51681
+! Number of NXDOMAIN domains: 82048
+! Number of SERVFAIL domains: 1943
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23386 (55.66%)
-! - dev: 6019 (14.33%)
-! - app: 4619 (10.99%)
-! - org: 1930 (4.59%)
+! - com: 23383 (55.67%)
+! - dev: 6017 (14.33%)
+! - app: 4617 (10.99%)
+! - org: 1929 (4.59%)
 ! - io: 1651 (3.93%)
 ! - net: 1452 (3.46%)
-! - xyz: 880 (2.09%)
-! - top: 799 (1.9%)
+! - xyz: 879 (2.09%)
+! - top: 798 (1.9%)
 ! - site: 757 (1.8%)
 ! - me: 520 (1.24%)
 ! Domains removed after 60 days if not re-added through feed.
@@ -3693,7 +3693,6 @@
 ||appbancodebogota.webcindario.com^
 ||appbittrex.com^
 ||appbunnyswap.web.app^
-||appc-galagames.blogspot.com^
 ||appcitadelswap.xyz^
 ||appclecb.com^
 ||appclece.com^
@@ -8502,7 +8501,6 @@
 ||bhd-leon-aqui.webcindario.com^
 ||bhd-solucione.webcindario.com^
 ||bhd-soluciones.webcindario.com^
-||bhd2.pages.dev^
 ||bhddrs.webcindario.com^
 ||bhdleon-aca.webcindario.com^
 ||bhdleon-administrador.actualplataforma.com^
@@ -10442,7 +10440,6 @@
 ||butterfly-ayj1-6udj.pryuj78f8.workers.dev^
 ||butterfly-z30w-6ucm.bidget3307.workers.dev^
 ||buxbyte-message.pages.dev^
-||buy-amazon.link^
 ||buy-gala-games.blogspot.com^
 ||buy1inch.org^
 ||buybonk.co^
@@ -10817,7 +10814,6 @@
 ||case1009601563058632012962.web.app^
 ||case1009601563058632012963.firebaseapp.com^
 ||case1009601563058632012963.web.app^
-||case100962085634120.firebaseapp.com^
 ||case100962085634120.web.app^
 ||case1009621986519654153220.firebaseapp.com^
 ||case1009621986519654153220.web.app^
@@ -19676,7 +19672,6 @@
 ||git.pancakeswap.finances.kiowaden.com^
 ||gitcoin-dr-explorer.vercel.app^
 ||gitcoln.co^
-||gitlab.alpha.traderjjoe.xyz^
 ||gitlab.git.fs.twitter-events22.com^
 ||gitlab.git.git.app.goblintown-miint.com^
 ||gitlab.git.git.banner.ttraderjoe.xyz^
@@ -23459,7 +23454,6 @@
 ||kimyoungfung.com^
 ||kin-0c8b.xilih94477.workers.dev^
 ||kindlymail-3bb52.firebaseapp.com^
-||kindlymail-3bb52.web.app^
 ||kindmetalroofing.com^
 ||kinectonz3.weebly.com^
 ||kinetic-terms.pages.dev^
@@ -32267,7 +32261,6 @@
 ||oulooklive-21g.pages.dev^
 ||ouououvu.pages.dev^
 ||ourgez.firebaseapp.com^
-||ourgez.web.app^
 ||ourheritagebank.com^
 ||ourtime-cdn.datings-idn.workers.dev^
 ||ourtime-sign.dating-base.workers.dev^
@@ -37557,7 +37550,6 @@
 ||round-lab-0758.nynleefa.workers.dev^
 ||round-leaf-8b20.shoota02342691.workers.dev^
 ||round-sky-9de0.rackupdate.workers.dev^
-||round1-uniswap.org^
 ||roundcub8.firebaseapp.com^
 ||roundcub8.web.app^
 ||roundcube-5ae8a.firebaseapp.com^
@@ -45541,7 +45533,6 @@
 ||visit-altlayer.io^
 ||visit-farcana.pages.dev^
 ||visit-otherside.xyz^
-||visitcakovec.com^
 ||visjfklsdfgaa.ygto.com^
 ||vistashopee.com^
 ||visualadvocacystrategies.com^
@@ -48211,7 +48202,6 @@
 ||www.apos.cl^
 ||www.app-changenow.io^
 ||www.app-ecckotera.pro^
-||www.app-eigenlayer.co^
 ||www.app-ethena.finance^
 ||www.app-ether.com^
 ||www.app-gala-games-site-k0.com^
@@ -48913,7 +48903,6 @@
 ||www.jaebxl.cn^
 ||www.jamiod.com^
 ||www.japanposit.pyictc.top^
-||www.japanposit.tneklx.top^
 ||www.japanpost.gfxxkqy.top^
 ||www.japanpost.twjfxid.top^
 ||www.jckfirs.punctulcentral.org^
@@ -50463,7 +50452,6 @@
 ||x73kqu.duckdns.org^
 ||x786699.com^
 ||x8cm.xyz^
-||x8tlgw.webwave.dev^
 ||xa00m3.duckdns.org^
 ||xai-claim.netlify.app^
 ||xaimint.com^
