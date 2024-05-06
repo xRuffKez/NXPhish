@@ -146,6 +146,9 @@ def update_phishfeed(workspace):
             sorted_tlds = sorted(tld_counts.items(), key=lambda x: x[1], reverse=True)[:10]
             total_domains = sum(count for _, count in sorted_tlds)
 
+            umbrella_removed_domains = len(domains_to_remove.intersection(phishing_domains))
+            tranco_removed_domains = len(domains_to_remove) - umbrella_removed_domains
+
             with open(output_path, 'w') as output_file:
                 output_file.write("! Title: NXPhish - Active Phishing Domains\n")
                 output_file.write("! Description: This file contains a list of known phishing domains from various feeds.\n")
@@ -160,8 +163,8 @@ def update_phishfeed(workspace):
                 output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
                 output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(domains_to_remove))))
                 output_file.write("! Number of domains removed older than 60 days: {}\n".format(len([row[0] for row in all_domains if row[1] == 'REMOVED'])))
-                output_file.write("! Number of domains removed from Umbrella list: {}\n".format(len(domains_to_remove)))
-                output_file.write("! Number of domains removed from Tranco list: {}\n".format(len(domains_to_remove) - len(phishing_domains)))
+                output_file.write("! Number of domains removed by Umbrella list: {}\n".format(umbrella_removed_domains))
+                output_file.write("! Number of domains removed by Tranco list: {}\n".format(tranco_removed_domains))
                 output_file.write("! Top 10 abused TLDs:\n")
                 for tld, count in sorted_tlds:
                     percentage_tld_domains = (count / total_domains) * 100
