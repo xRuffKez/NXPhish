@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Cisco Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 21:10:51
+! Last updated: 2024-05-06 22:08:10
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 135846
-! Number of NXDOMAIN domains: 82233
-! Number of SERVFAIL domains: 2187
+! Number of phishing domains: 135849
+! Number of NXDOMAIN domains: 82236
+! Number of SERVFAIL domains: 2570
 ! Number of domains matched and removed by Umbrella: 33492
 ! Number of domains matched and removed by white.list: 38
 ! Number of domains removed older than 60 days: 0
@@ -758,6 +758,7 @@
 ||1inch2023.com^
 ||1inch23.com^
 ||1inch23.net^
+||1incha.coinmarketcap-app.com^
 ||1incha.com^
 ||1incha.net^
 ||1incha.org^
@@ -69830,6 +69831,7 @@
 ||mod.bc8kwz7u.com^
 ||modadasemana.fun^
 ||modafemininbr.com^
+||modaggm.com^
 ||modaxtei.com^
 ||modde.network^
 ||mode-network.org^
@@ -97273,6 +97275,7 @@
 ||saksfifthavenueusa.shop^
 ||saksfifthavenueysl.com^
 ||saksfifthavenuezone.com^
+||saksfifthpartner.com^
 ||saksof5th.club^
 ||saksoff-55th.com^
 ||saksoff.sakskoesad.com^
@@ -135859,5 +135862,5 @@
 ||zzzzmetamaskzzzz.dray-dns.de^
 ||𝐚𝐦𝐧𝐰𝐢𝐠𝐫.𝐜𝐧^
 ||𝐬𝐧𝐬𝐰𝐜𝐰.𝐜𝐧^
-! Number of NXDOMAIN domains in cache.db: 82233
-! Number of SERVFAIL domains in cache.db: 2187
+! Number of NXDOMAIN domains in cache.db: 82236
+! Number of SERVFAIL domains in cache.db: 2570
