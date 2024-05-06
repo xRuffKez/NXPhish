@@ -1,21 +1,21 @@
-name: Manual Git Reset
+name: Revert Main Branch
 
 on:
   workflow_dispatch: # This event triggers the workflow manually
 
 jobs:
-  git_reset:
+  revert_commits:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2 # This action checks out your repository's code
 
-      - name: Git Reset
+      - name: Revert Commits
         run: |
-          git revert HEAD~15..HEAD
+          git checkout main
+          git revert --no-edit HEAD~17..HEAD # Revert the last 15 commits on the main branch
 
-      - name: Wait for manual intervention
-        uses: jakejarvis/wait-action@master # This action waits for manual intervention
-        with:
-          time: '24h' # Adjust the time as needed
+      - name: Push changes
+        run: |
+          git push origin main
