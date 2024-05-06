@@ -4,24 +4,24 @@
 ! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 04:43:12
+! Last updated: 2024-05-06 05:14:43
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51636
-! Number of NXDOMAIN domains: 82091
-! Number of SERVFAIL domains: 2003
-! Number of domains removed by whitelist: 465
+! Number of phishing domains: 51626
+! Number of NXDOMAIN domains: 82099
+! Number of SERVFAIL domains: 2007
+! Number of domains removed by whitelist: 230
 ! Number of domains removed older than 60 days: 0
-! Number of domains removed by Umbrella list: 80
+! Number of domains removed by Umbrella list: 57
 ! Number of domains removed by Tranco list: 0
 ! Top 10 abused TLDs:
-! - com: 23356 (55.6%)
+! - com: 23351 (55.6%)
 ! - dev: 6016 (14.32%)
-! - app: 4615 (10.99%)
+! - app: 4616 (10.99%)
 ! - org: 1969 (4.69%)
 ! - io: 1650 (3.93%)
 ! - net: 1448 (3.45%)
-! - xyz: 878 (2.09%)
-! - top: 796 (1.89%)
+! - xyz: 877 (2.09%)
+! - top: 796 (1.9%)
 ! - site: 758 (1.8%)
 ! - me: 520 (1.24%)
 ! Domains removed after 60 days if not re-added through feed.
@@ -5479,7 +5479,6 @@
 ||auservices-recordscenter24.com^
 ||ausff.firebaseapp.com^
 ||ausff.web.app^
-||ausparcel-rearrange.vip^
 ||austinl33.github.io^
 ||australiawidewealth.com^
 ||austroactualiza.webcindario.com^
@@ -8243,6 +8242,7 @@
 ||bbsystreanes.firebaseapp.com^
 ||bbsystreanes.web.app^
 ||bbuff163.com^
+||bbva.appsecureguide.com^
 ||bbva.movil-aviso.com^
 ||bbvanetcash.mx9k291l.com.mx^
 ||bbvcdedtfkygljhgtfrdcghjbtuyghbkgvc.pages.dev^
@@ -11477,7 +11477,6 @@
 ||chuyestadare.web.app^
 ||chz.demidefi.world^
 ||ci-one.vercel.app^
-||ci273.com^
 ||ciaiming.com^
 ||cicov22377.hubside.fr^
 ||cid-02475326.notice-pages.com^
@@ -16709,7 +16708,6 @@
 ||epistemeinstituto.com^
 ||epistrofi-forou-app.firebaseapp.com^
 ||epistrofi-forou-app.web.app^
-||epk94.com^
 ||eplan412.wixsite.com^
 ||eplaome.weebly.com^
 ||epocard.co.jp.clh968.com^
@@ -19235,6 +19233,7 @@
 ||gamesforaliving.web3-airdrop.net^
 ||gamesgala.org^
 ||gamesmarket.place^
+||gamestop-memes.web.app^
 ||gamingrewardsforcryptousers.com^
 ||gamingtools.xyz^
 ||gamium.pages.dev^
@@ -20144,7 +20143,6 @@
 ||gsjyof.webwave.dev^
 ||gskdvmmxf.firebaseapp.com^
 ||gskdvmmxf.web.app^
-||gslaterapp.com^
 ||gsnfts.com^
 ||gspounos.firebaseapp.com^
 ||gspounos.web.app^
@@ -20766,7 +20764,6 @@
 ||hex-airdrop.org^
 ||hex-distributions.com^
 ||hex-drop.me^
-||hex-drops.xyz^
 ||hex-multipliers.com^
 ||hex-network.com^
 ||hex-nft.com^
@@ -29007,7 +29004,6 @@
 ||mozarez.firebaseapp.com^
 ||mozarez.web.app^
 ||mozgrowing.com^
-||mp940.com^
 ||mpc.nyc1.piesocket.com^
 ||mpepe.org^
 ||mpgrobalse.firebaseapp.com^
@@ -32945,7 +32941,6 @@
 ||pancakeswap.finances.equiscan.com^
 ||pancakeswap.finances.equitableinternet.com^
 ||pancakeswap.finances.equitableinternetinitiative.com^
-||pancakeswap.finances.ericracher.com^
 ||pancakeswap.finances.erovore.com^
 ||pancakeswap.finances.essentialcanadian.com^
 ||pancakeswap.finances.eupods.com^
@@ -41744,7 +41739,6 @@
 ||telegrcmd.com^
 ||telegrcmo.com^
 ||telegrdmt.com^
-||telegreinn.club^
 ||telegrem-a.com^
 ||telegrem-f.com^
 ||telegreman.fit^
@@ -48919,7 +48913,6 @@
 ||www.kjh0md.cn^
 ||www.kjsehc.cn^
 ||www.klar.com.mx^
-||www.kmkzygp.cn^
 ||www.kntzz.top^
 ||www.kongyilin.com^
 ||www.koretiondrats.com^
@@ -49424,7 +49417,6 @@
 ||www.omneitbc.live^
 ||www.on-matamask.com^
 ||www.ondo-finance.info^
-||www.oneworldsci.com^
 ||www.onkvgdk.cn^
 ||www.onlinecembrakonto.sviluppo.host^
 ||www.onlinehighquot.x24hr.com^
@@ -49947,7 +49939,6 @@
 ||www.swiftappendm.com^
 ||www.swisroger.net^
 ||www.swordavax.org^
-||www.sylinfeng.cn^
 ||www.synapsprotocol.com^
 ||www.synapsprotocol.com.sinapseprotocol.com^
 ||www.syncswaap.com^
@@ -50267,7 +50258,6 @@
 ||www.ypredict-rewards.com^
 ||www.yqxxyyh.cn^
 ||www.yspabc.com^
-||www.yswute.cn^
 ||www.ytobrix.cn^
 ||www.yuicob.cn^
 ||www.yunkunxa.cn^
