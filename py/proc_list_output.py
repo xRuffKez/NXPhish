@@ -181,11 +181,11 @@ def update_phishfeed(workspace):
                     output_file.write("||{}^\n".format(domain))
 
             # Remove extracted CSV files
-            os.remove(umbrella_csv_file_path)
-            os.remove(tranco_csv_file_path)
-
-            # Remove stale cache entries
-            cursor.execute("DELETE FROM domains WHERE last_seen < ?", (max_age.isoformat(),))
+            try:
+                os.remove(umbrella_csv_file_path)
+                os.remove(tranco_csv_file_path)
+            except FileNotFoundError as e:
+                logger.error("Failed to remove temporary CSV files: %s", e)
 
     except Exception as e:
         logger.error("An error occurred during the update process: %s", e)
