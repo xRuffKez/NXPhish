@@ -4,25 +4,25 @@
 ! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 08:14:07
+! Last updated: 2024-05-06 09:13:50
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51603
-! Number of NXDOMAIN domains: 82125
-! Number of SERVFAIL domains: 2019
+! Number of phishing domains: 51591
+! Number of NXDOMAIN domains: 82132
+! Number of SERVFAIL domains: 2025
 ! Number of domains removed by whitelist: 230
 ! Number of domains removed older than 60 days: 0
 ! Number of domains removed by Umbrella list: 57
 ! Number of domains removed by Tranco list: 0
 ! Top 10 abused TLDs:
-! - com: 23343 (55.59%)
+! - com: 23338 (55.59%)
 ! - dev: 6016 (14.33%)
-! - app: 4616 (10.99%)
+! - app: 4616 (11.0%)
 ! - org: 1969 (4.69%)
 ! - io: 1647 (3.92%)
-! - net: 1447 (3.45%)
-! - xyz: 877 (2.09%)
+! - net: 1445 (3.44%)
+! - xyz: 876 (2.09%)
 ! - top: 796 (1.9%)
-! - site: 757 (1.8%)
+! - site: 756 (1.8%)
 ! - me: 521 (1.24%)
 ! Domains removed after 60 days if not re-added through feed.
 
@@ -21676,7 +21676,6 @@
 ||ibllce.com^
 ||ibllcic.com^
 ||ibllcon.com^
-||ibllcox.com^
 ||ibllcro.com^
 ||ibrahimmhsaeed.github.io^
 ||ibuletin.com^
@@ -24662,7 +24661,6 @@
 ||liveprivatevideo2.malaysia2024.my.id^
 ||liverpoolmx.com^
 ||lives-ether.site^
-||lives-support.net^
 ||livesairdrop.com^
 ||livetecreset.pages.dev^
 ||livetradepro.com^
@@ -24788,7 +24786,6 @@
 ||localbitcoin.club^
 ||localbitcoin.com.ru^
 ||localbitcoin.me^
-||localbitcoin.pro^
 ||localbitcoin.site^
 ||localbitcoind.mobi^
 ||localbitcoinms.com^
@@ -25571,7 +25568,6 @@
 ||magnoliafcumember.weebly.com^
 ||magpie-xyz.claims^
 ||magpie-xyz.com^
-||magpiesxyz.site^
 ||magplexyz.site^
 ||mahadevent.com^
 ||mahanews18.com^
@@ -28774,7 +28770,6 @@
 ||mnbtehdjfdfg.weebly.com^
 ||mnoiduududss.ukit.me^
 ||mnuc2a.webwave.dev^
-||mnunemben.com^
 ||mnyetherwallet.com^
 ||mnyicthervwvallct.com^
 ||mo028q.duckdns.org^
@@ -28846,7 +28841,6 @@
 ||mohammedrazi7.github.io^
 ||mohdshemi.github.io^
 ||mohideen-abdul.github.io^
-||mohinhvn.com^
 ||mohit-srivastava-official.github.io^
 ||mohitpatidar002.github.io^
 ||mohitprajapati.com^
@@ -30298,6 +30292,7 @@
 ||neojunex2.blogspot.com^
 ||neokucoin.blogspot.com^
 ||neom-property.com^
+||neom-registrations.com^
 ||neom.day^
 ||neomecolife.com^
 ||neomfuturehub.com^
@@ -36230,7 +36225,6 @@
 ||rafael3590.github.io^
 ||raffl-e4071.firebaseapp.com^
 ||raffl-e4071.web.app^
-||raffle-gives.com^
 ||ragtapa344.start.page^
 ||raharharx.blogspot.ca^
 ||raharharx.blogspot.com^
@@ -38429,7 +38423,6 @@
 ||seiclaims.com^
 ||seicoingeckolearnandearn.pages.dev^
 ||seinetwork-event.com^
-||seinetwork.net^
 ||seinetworks-airdrop.com^
 ||seinft.co^
 ||seipass.io^
@@ -41698,7 +41691,6 @@
 ||telegram.tw^
 ||telegram.web-ca.ren^
 ||telegram.webbaa.club^
-||telegram.webccb.ren^
 ||telegram.webcsc.ren^
 ||telegram.webcts.wang^
 ||telegram.webtctg.club^
@@ -42323,7 +42315,6 @@
 ||tgadminuser.tg-accas.vip^
 ||tgadminuser.web-cs.xyz^
 ||tgadminuser.web-tgs.top^
-||tgadminuser.web-tgs.xyz^
 ||tgadminuser.webbaa.top^
 ||tgadminuser.webserve.ltd^
 ||tgadminuser.webtctg.club^
@@ -47357,7 +47348,6 @@
 ||woodside.app^
 ||woofi-finacne.online^
 ||woofi-finacne.site^
-||woofi-finacne.website^
 ||woofi.click^
 ||woofi.wallets-connect.net^
 ||woofiswap.com^
@@ -47993,7 +47983,6 @@
 ||www-shibaswap-login.blogspot.com^
 ||www-shibawaappp-on.blogspot.com^
 ||www-sit-ofici.blogspot.com^
-||www-smbc-card-com-rgreuyhfweiofjwef088115.vy276.com^
 ||www-smbc-card-com-rgreuyhfweiofjwef08dwqcc2e2.nz579.com^
 ||www-smbcse-careced-co-jp1smbe.lorentelebeoufwa265.workers.dev^
 ||www-start-ledger.com^
@@ -51580,7 +51569,6 @@
 ||zsync.cc^
 ||ztdxyf.weeblysite.com^
 ||zthdytnhcr.duckdns.org^
-||zu820.com^
 ||zuioeh887e.start.page^
 ||zulu-verification.vercel.app^
 ||zunqn.pages.dev^
