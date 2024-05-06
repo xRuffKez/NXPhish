@@ -127,18 +127,19 @@ def update_phishfeed(workspace):
                             cursor.execute("SELECT domain, status FROM domains WHERE domain=?", (domain,))
                             existing_domain = cursor.fetchone()
                             if existing_domain is None or existing_domain[1] != 'OK':
-                                status = resolve_domain_status(resolver, domain)
-                                if status is not None:
-                                    current_time = datetime.now().isoformat()
-                                    cursor.execute("INSERT OR IGNORE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
+                                continue  # Skip if the domain status is not 'OK'
+                            status = resolve_domain_status(resolver, domain)
+                            if status is not None:
+                                current_time = datetime.now().isoformat()
+                                cursor.execute("INSERT OR IGNORE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
             cursor.execute("UPDATE domains SET status='REMOVED' WHERE last_seen < ? AND status != 'OK'", (max_age.isoformat(),))
             cursor.execute("UPDATE domains SET status='WHITELIST' WHERE domain IN (SELECT domain FROM domains WHERE status = 'REMOVED')")
             cursor.execute("COMMIT")
             conn.commit()
 
-            cursor.execute("SELECT domain, status FROM domains ORDER BY domain")
+            cursor.execute("SELECT domain, status FROM domains WHERE status='OK' ORDER BY domain")
             all_domains = cursor.fetchall()
-            phishing_domains = [row[0] for row in all_domains if row[1] not in ('NXDOMAIN', 'SERVFAIL', 'WHITELIST')]
+            phishing_domains = [row[0] for row in all_domains]
 
             # Remove domains containing parts of Umbrella and Tranco domains
             phishing_domains = filter_phishing_domains(phishing_domains, umbrella_domains, tranco_domains)
