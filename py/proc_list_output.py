@@ -89,7 +89,7 @@ def update_phishfeed(workspace):
     white_list_file = os.path.join(workspace, 'white.list')
 
     # Download and extract Umbrella CSV
-    umbrella_csv_url = "http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip"
+    umbrella_csv_url = "https://gist.githubusercontent.com/josedacosta/aeeed2a80e890921d5273da56c50ae41/raw/266219a61a7f3957da183e102ae20f61d654991a/Cisco-Umbrella-TOP-1-Million.csv"
     umbrella_success, umbrella_csv_file_path = download_extract_csv(umbrella_csv_url, workspace)
     if not umbrella_success:
         logger.error("Failed to download or extract Umbrella CSV file")
