@@ -24,7 +24,7 @@ def load_whitelist_domains():
         logger.error("Failed to load whitelist domains: %s", e)
         return set()
 
-def download_extract_csv(url, destination_folder):
+def download_file(url, destination_folder):
     try:
         response = requests.get(url, allow_redirects=True)
         response.raise_for_status()
@@ -32,20 +32,18 @@ def download_extract_csv(url, destination_folder):
         file_path = os.path.join(destination_folder, file_name)
         with open(file_path, 'wb') as f:
             f.write(response.content)
-        
-        if file_name.endswith('.zip'):
-            with zipfile.ZipFile(file_path, 'r') as zip_ref:
-                zip_ref.extractall(destination_folder)
-        elif file_name.endswith('.csv'):
-            # No need to extract CSV file
-            pass
-        else:
-            logger.error("Unsupported file format: %s", file_name)
-            return False
+        return file_path
+    except requests.RequestException as e:
+        logger.error("Failed to download file from %s: %s", url, e)
+        return None
 
+def extract_zip(zip_file, destination_folder):
+    try:
+        with zipfile.ZipFile(zip_file, 'r') as zip_ref:
+            zip_ref.extractall(destination_folder)
         return True
-    except Exception as e:
-        logger.error("Failed to download or extract file: %s", e)
+    except zipfile.BadZipFile as e:
+        logger.error("Failed to extract ZIP file %s: %s", zip_file, e)
         return False
 
 def update_phishfeed(workspace):
@@ -56,14 +54,22 @@ def update_phishfeed(workspace):
 
     whitelist_domains = load_whitelist_domains()
 
-    # Download and extract CSV from Umbrella list
+    # Download and extract Umbrella CSV
     umbrella_csv_url = "http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip"
-    if not download_extract_csv(umbrella_csv_url, workspace):
+    umbrella_zip_path = download_file(umbrella_csv_url, workspace)
+    if umbrella_zip_path:
+        extract_zip(umbrella_zip_path, workspace)
+        os.remove(umbrella_zip_path)
+    else:
         return
 
-    # Download CSV from Tranco list
+    # Download and extract Tranco CSV
     tranco_csv_url = "https://tranco-list.eu/top-1m.csv.zip"
-    if not download_extract_csv(tranco_csv_url, workspace):
+    tranco_zip_path = download_file(tranco_csv_url, workspace)
+    if tranco_zip_path:
+        extract_zip(tranco_zip_path, workspace)
+        os.remove(tranco_zip_path)
+    else:
         return
 
     # Process Umbrella CSV
@@ -174,8 +180,13 @@ def update_phishfeed(workspace):
                 for domain in phishing_domains:
                     output_file.write("||{}^\n".format(domain))
 
-        os.remove(umbrella_csv_file_path)
-        os.remove(tranco_csv_file_path)
+            # Remove extracted CSV files
+            os.remove(umbrella_csv_file_path)
+            os.remove(tranco_csv_file_path)
+
+            # Remove stale cache entries
+            cursor.execute("DELETE FROM domains WHERE last_seen < ?", (max_age.isoformat(),))
+
     except Exception as e:
         logger.error("An error occurred during the update process: %s", e)
 
