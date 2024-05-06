@@ -4,26 +4,26 @@
 ! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 07:12:27
+! Last updated: 2024-05-06 08:14:07
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51602
-! Number of NXDOMAIN domains: 82115
-! Number of SERVFAIL domains: 2017
+! Number of phishing domains: 51603
+! Number of NXDOMAIN domains: 82125
+! Number of SERVFAIL domains: 2019
 ! Number of domains removed by whitelist: 230
 ! Number of domains removed older than 60 days: 0
 ! Number of domains removed by Umbrella list: 57
 ! Number of domains removed by Tranco list: 0
 ! Top 10 abused TLDs:
-! - com: 23341 (55.59%)
+! - com: 23343 (55.59%)
 ! - dev: 6016 (14.33%)
 ! - app: 4616 (10.99%)
 ! - org: 1969 (4.69%)
-! - io: 1649 (3.93%)
+! - io: 1647 (3.92%)
 ! - net: 1447 (3.45%)
 ! - xyz: 877 (2.09%)
 ! - top: 796 (1.9%)
 ! - site: 757 (1.8%)
-! - me: 520 (1.24%)
+! - me: 521 (1.24%)
 ! Domains removed after 60 days if not re-added through feed.
 
 ||00-ird.weebly.com^
@@ -3761,7 +3761,9 @@
 ||apple-rabbit1320.com^
 ||apple-realm.de^
 ||apple-replicaevan.netlify.app^
+||apple-safe-market.ru^
 ||apple-strong.ru^
+||apple-suporte.us^
 ||apple-tsuchiya.com^
 ||apple-verify.com^
 ||apple.leica66.com^
@@ -8243,6 +8245,7 @@
 ||bbva.movil-aviso.com^
 ||bbvanetcash.mx9k291l.com.mx^
 ||bbvcdedtfkygljhgtfrdcghjbtuyghbkgvc.pages.dev^
+||bbyou1.byethost10.com^
 ||bc-8re.pages.dev^
 ||bc-d3g.pages.dev^
 ||bc-x0q.pages.dev^
@@ -10491,7 +10494,6 @@
 ||bybit-win.gift^
 ||bynvs.blogspot.com^
 ||bypf8bm.pro^
-||byshz.com^
 ||bytedog.pro^
 ||bytetrade.io^
 ||byycrctyaa.firebaseapp.com^
@@ -11423,6 +11425,7 @@
 ||chkgenra.web.app^
 ||chm481.com^
 ||chn-gtsecu.webcindario.com^
+||chnges-new.com^
 ||chngtonlinee.webcindario.com^
 ||chnverifi.webcindario.com^
 ||chocwalk.com^
@@ -11916,7 +11919,6 @@
 ||claimwif.com^
 ||claimzerion-protocol.pages.dev^
 ||claimzeriondapps.pages.dev^
-||claimzksync.dynv6.net^
 ||claritymall.com^
 ||clarkigentillevieux.firebaseapp.com^
 ||clarkigentillevieux.web.app^
@@ -11931,6 +11933,7 @@
 ||claynosaurzfree.netlify.app^
 ||clayzing.co.nz^
 ||cleapposter45.vastserve.com^
+||clearfast-windows.co.uk^
 ||clears-step-reporteds2023.start.page^
 ||clenoulobnsg.firebaseapp.com^
 ||cleo-bc3.pages.dev^
@@ -13082,6 +13085,7 @@
 ||corrector.co^
 ||correo-uchile-cl.weebly.com^
 ||correo-web-8e97cf.webflow.io^
+||correos-es.rwandapropertyinsight.com^
 ||correos-mi-paquete.com^
 ||correozimbrahelpdesk.weebly.com^
 ||corridorweb.com^
@@ -18520,6 +18524,7 @@
 ||forwardintactcompanylinesuprem.blogspot.com.ng^
 ||forwardintactcompanylinesuprem.blogspot.lu^
 ||forwardintactcompanylinesuprem.blogspot.ug^
+||fos-rakubank.qdfygdo.cn^
 ||fothoho.cn^
 ||fotmatch.com^
 ||founation.app^
@@ -19714,6 +19719,7 @@
 ||give-shib.com^
 ||give-th.blogspot.com^
 ||giveaaway.online^
+||giveaway-apple.ru^
 ||giveaway-bit.xyz^
 ||giveaway-chain.link^
 ||giveaway-eth-btc.euweb.cz^
@@ -19916,6 +19922,7 @@
 ||goodone.pages.dev^
 ||goodsdao.web.app^
 ||google-5sx.pages.dev^
+||google-ai.me^
 ||google-bard-ai.org^
 ||google-cashincome5639.pages.dev^
 ||google-cashmachine79.pages.dev^
@@ -25828,7 +25835,6 @@
 ||mail.googlle.workers.dev^
 ||mail.grm.vvw.mybluehost.me^
 ||mail.gtempus.com^
-||mail.haji.specialpvbgm.my.id^
 ||mail.hamsterluckie.com^
 ||mail.hapvidacaruaru.com.br^
 ||mail.hazelis.online^
@@ -37638,7 +37644,6 @@
 ||rt619c.webwave.dev^
 ||rtd8br.duckdns.org^
 ||rtdb.tenfold.com^
-||rtfkt-animus-egg.metabench.io^
 ||rtfkt-animus.com^
 ||rtfkt-egg.com^
 ||rtfkt-gem.com^
@@ -38195,6 +38200,7 @@
 ||secure-conn.netlify.app^
 ||secure-dapp.netlify.app^
 ||secure-document.jenrelter.workers.dev^
+||secure-dropbox.net^
 ||secure-eth-transactions.bitballoon.com^
 ||secure-evy.pages.dev^
 ||secure-exodus.com^
@@ -39219,7 +39225,6 @@
 ||simpleswap.org^
 ||simplevcc.com^
 ||simplife.life^
-||simplyenchantedphotography.com^
 ||simplymassive.com^
 ||simplynft.store^
 ||simran-01.github.io^
@@ -39856,7 +39861,6 @@
 ||sollef.io^
 ||sollet.id^
 ||sollfare.com^
-||solllet.io^
 ||sollptele.pages.dev^
 ||solmagic-edenio-myitems-reginameynard.blogspot.com^
 ||solmigrate.com^
@@ -40239,6 +40243,7 @@
 ||sru.wyd.mybluehost.me^
 ||sruopennsylvania.ukit.me^
 ||srv01.pancakeswape.finance^
+||srv02-coinbase.com^
 ||srv69476.seohost.com.pl^
 ||srvcs-01846745456.start.page^
 ||srvr-ssomailcloud-r0y34t34t4g.pages.dev^
@@ -42316,7 +42321,6 @@
 ||tgadminuser.acceste.vip^
 ||tgadminuser.servicetg.ren^
 ||tgadminuser.tg-accas.vip^
-||tgadminuser.web-ca.ren^
 ||tgadminuser.web-cs.xyz^
 ||tgadminuser.web-tgs.top^
 ||tgadminuser.web-tgs.xyz^
@@ -42692,7 +42696,6 @@
 ||token-chain.link^
 ||token-change.com^
 ||token-claim.net^
-||token-dife.club^
 ||token-dife.digital^
 ||token-dife.quest^
 ||token-inch.com^
@@ -44181,7 +44184,6 @@
 ||upgraded-octo-system-co.pages.dev^
 ||upgradehub.net^
 ||upgrademeta.com^
-||upgrademymetas.com^
 ||upgradeprotect7634764376.weebly.com^
 ||upgradeservices.brizy.site^
 ||upgradeyouratlas.weebly.com^
@@ -45082,6 +45084,7 @@
 ||vanillagiftingbalance.getluxapp.com^
 ||vanillaisgiftcard.com^
 ||vanllfrt-2e09.up.railway.app^
+||variant-options.com^
 ||varietyscissor.com^
 ||varomoney.godaddysites.com^
 ||varosweepstakes8.godaddysites.com^
@@ -47212,6 +47215,7 @@
 ||widget-builder-qshic4oxu-superfluid-finance.vercel.app^
 ||widiba-banco.com^
 ||widiba-eservices2024com638597.codeanyapp.com^
+||widiba-instantcontact.codeanyapp.com^
 ||widlba.com^
 ||wiercommercialconstruction.myportfolio.com^
 ||wihtmanca2.weebly.com^
@@ -48964,7 +48968,6 @@
 ||www.lslgj.com^
 ||www.luckywin.x10.bz^
 ||www.lusandasentane.com^
-||www.luwjmx.com^
 ||www.luxorvip.cc^
 ||www.lx810.com^
 ||www.lyetherwallet.com^
@@ -49811,7 +49814,6 @@
 ||www.shougebao.cn^
 ||www.showmeblog.com^
 ||www.shsvj.cn^
-||www.shyy5.cn^
 ||www.simpleswap.ws^
 ||www.sinfutures.com^
 ||www.sisterhoodmint.com^
@@ -50250,7 +50252,6 @@
 ||www.zetadanismanlik.com.tr^
 ||www.zeus.pancakeswape.finance^
 ||www.zfclpvz.cn^
-||www.zfypna.cn^
 ||www.zhelingpai.cn^
 ||www.zhuchuo.com^
 ||www.zipebsc.com^
