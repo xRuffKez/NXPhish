@@ -68,10 +68,18 @@ def update_phishfeed(workspace):
     tranco_csv_url = "https://tranco-list.eu/top-1m.csv.zip"
     tranco_zip_path = download_file(tranco_csv_url, workspace)
     if tranco_zip_path:
-        extract_zip(tranco_zip_path, workspace)
-        tranco_csv_file_path = os.path.join(workspace, "top-1m.csv")
-        os.remove(tranco_zip_path)
+        logger.info("Tranco CSV file downloaded successfully")
+        extract_success = extract_zip(tranco_zip_path, workspace)
+        if extract_success:
+            logger.info("Tranco CSV file extracted successfully")
+            tranco_csv_file_path = os.path.join(workspace, "top-1m.csv")
+            os.remove(tranco_zip_path)
+        else:
+            logger.error("Failed to extract Tranco CSV file")
+            os.remove(tranco_zip_path)
+            return
     else:
+        logger.error("Failed to download Tranco CSV file")
         return
 
     # Process Umbrella CSV
