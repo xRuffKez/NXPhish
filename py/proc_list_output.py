@@ -59,6 +59,11 @@ def download_extract_csv(url, destination_folder, use_cache=True):
                 zip_ref.extractall(destination_folder)
                 extracted_folder = os.path.join(destination_folder, file_name.split('.')[0])
                 extracted_csv_file = os.path.join(extracted_folder, os.listdir(extracted_folder)[0])
+
+                # Debugging:
+                print("Extracted Folder:", extracted_folder)
+                print("Files inside Extracted Folder:", os.listdir(extracted_folder)) 
+
                 shutil.move(extracted_csv_file, destination_folder)
                 os.rmdir(extracted_folder)
         elif file_name.endswith('.csv'):
