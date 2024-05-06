@@ -96,9 +96,18 @@ def update_phishfeed(workspace):
 
     # Process Umbrella CSV
     try:
-        with open(umbrella_csv_file_path, 'r') as csvfile:
+        with open(umbrella_csv_file_path, 'r', encoding='utf-8') as csvfile:
             csv_reader = csv.reader(csvfile)
             umbrella_domains = {row[1] for row in csv_reader}
+    except UnicodeDecodeError:
+        logger.warning("Failed to decode Umbrella CSV file with UTF-8 encoding, trying latin-1 encoding...")
+        try:
+            with open(umbrella_csv_file_path, 'r', encoding='latin-1') as csvfile:
+                csv_reader = csv.reader(csvfile)
+                umbrella_domains = {row[1] for row in csv_reader}
+        except Exception as e:
+            logger.error("Failed to read Umbrella CSV file: %s", e)
+            return
     except Exception as e:
         logger.error("Failed to read Umbrella CSV file: %s", e)
         return
