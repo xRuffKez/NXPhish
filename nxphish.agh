@@ -4,17 +4,17 @@
 ! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 03:12:58
+! Last updated: 2024-05-06 03:23:26
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51652
-! Number of NXDOMAIN domains: 82066
-! Number of SERVFAIL domains: 1966
+! Number of phishing domains: 51639
+! Number of NXDOMAIN domains: 82074
+! Number of SERVFAIL domains: 1971
 ! Number of domains removed by whitelist: 465
 ! Number of domains removed older than 60 days: 0
-! Number of domains removed from Umbrella list: 1000000
-! Number of domains removed from Tranco list: 948348
+! Number of domains removed by Umbrella list: 80
+! Number of domains removed by Tranco list: 999920
 ! Top 10 abused TLDs:
-! - com: 23379 (55.67%)
+! - com: 23375 (55.67%)
 ! - dev: 6018 (14.33%)
 ! - app: 4616 (10.99%)
 ! - org: 1929 (4.59%)
@@ -23,7 +23,7 @@
 ! - xyz: 878 (2.09%)
 ! - top: 796 (1.9%)
 ! - site: 757 (1.8%)
-! - me: 520 (1.24%)
+! - me: 519 (1.24%)
 ! Domains removed after 60 days if not re-added through feed.
 
 ||00-ird.weebly.com^
@@ -2076,7 +2076,6 @@
 ||aiearni.com^
 ||aigenius.tech^
 ||aigentx.gift^
-||aigptiot.com^
 ||aim-bot.live^
 ||aimbot-eth.com^
 ||aims-d1udqxhq.4everland.app^
@@ -18885,7 +18884,6 @@
 ||funyouthclub.wlbl.xyz^
 ||fuondation.app^
 ||furyamk.com^
-||fusenb.com^
 ||fusionist.trading^
 ||fusionistcrystal.xyz^
 ||fusionxfinance.web3-airdrop.net^
@@ -19369,7 +19367,6 @@
 ||genbexcnre.web.app^
 ||genblok.vercel.app^
 ||gendis.energia.misiones.gob.ar^
-||geneadkins.com^
 ||general.authloginmail.workers.dev^
 ||general.general-auth.workers.dev^
 ||general.generalauthmailbox.workers.dev^
@@ -20891,7 +20888,6 @@
 ||hisarjiofiberservice.godaddysites.com^
 ||hisoftsxwnf.web.app^
 ||hispanicservices.com^
-||hissshop.work^
 ||historican.com^
 ||hit-blentf-com.blogspot.com^
 ||hitbtc.club^
@@ -27914,7 +27910,6 @@
 ||metameask.com^
 ||metamecs.com^
 ||metameoskbrowser.webflow.io^
-||metamesk-io.me^
 ||metamesk-walate.godaddysites.com^
 ||metamesk.bar^
 ||metamesk.io^
@@ -30655,7 +30650,6 @@
 ||nft.vip-tokyo.jp^
 ||nft.wormscommunity.com^
 ||nft.wormscommunity.xyz^
-||nftassetcollection.co^
 ||nftbless.com^
 ||nftcap.finance^
 ||nftclaim.live^
@@ -34962,7 +34956,6 @@
 ||portalxclaims-n22n.in^
 ||portel-bridg.com^
 ||porten-loginn.pages.dev^
-||portfo1io-metamask.com^
 ||portfolio-blur.io^
 ||portfolio-ekllbls.format.com^
 ||portfolio-ierbgze.format.com^
@@ -35435,7 +35428,6 @@
 ||psanda.co.za^
 ||psgyh.top^
 ||psisslclc.vrl2023.com^
-||psk-app.co^
 ||psowwau8292192snamqkq21822jsj8910223hjsja.myportfolio.com^
 ||pssd.world^
 ||pswap.webflaxco.ir^
@@ -43540,7 +43532,6 @@
 ||twt.multipuds.top^
 ||twt500.tech^
 ||twtlab.com^
-||twtlabz.space^
 ||twtpadx.top^
 ||twyvxr.webwave.dev^
 ||tx8c0243f.duckdns.org^
@@ -48265,7 +48256,6 @@
 ||www.axosmicrofinance.4dq.com^
 ||www.axshmnx.cn^
 ||www.ayniplast.pe^
-||www.aywcbbc.cn^
 ||www.azmodelsearch.com^
 ||www.azrvservices.com^
 ||www.azukielements.com^
@@ -48967,7 +48957,6 @@
 ||www.lendingtree.click^
 ||www.lethid.com^
 ||www.lexofsteel.com^
-||www.lglzynkzs.cn^
 ||www.lhw9sf.cn^
 ||www.libparis.fr^
 ||www.lido-fi-staking.com^
@@ -49972,7 +49961,6 @@
 ||www.szminds.com^
 ||www.tajmahalluxurytour.com^
 ||www.talrahome.click^
-||www.tamnuae.cn^
 ||www.tangcuongsinhly.com^
 ||www.tascon.xyz^
 ||www.teconnectivity.life^
@@ -50048,7 +50036,6 @@
 ||www.u1930783.cp.regruhosting.ru^
 ||www.u1932556.cp.regruhosting.ru^
 ||www.uacrmum.cn^
-||www.uahxeae.cn^
 ||www.uaxzdvc.cn^
 ||www.uboxnjiz.com^
 ||www.ubuwgfwz.cn^
