@@ -84,6 +84,7 @@ def update_phishfeed(workspace):
     max_age = datetime.now() - timedelta(days=60)
 
     whitelist_domains = load_whitelist_domains()
+    white_list_file = os.path.join(workspace, 'white.list')
 
     # Download and extract Umbrella CSV
     umbrella_csv_url = "http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip"
@@ -128,10 +129,9 @@ def update_phishfeed(workspace):
                             existing_domain = cursor.fetchone()
                             if existing_domain is None or existing_domain[1] != 'OK':
                                 continue  # Skip if the domain status is not 'OK'
-                            status = resolve_domain_status(resolver, domain)
-                            if status is not None:
-                                current_time = datetime.now().isoformat()
-                                cursor.execute("INSERT OR IGNORE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
+                            status = existing_domain[1]
+                            current_time = datetime.now().isoformat()
+                            cursor.execute("INSERT OR IGNORE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
             cursor.execute("UPDATE domains SET status='REMOVED' WHERE last_seen < ? AND status != 'OK'", (max_age.isoformat(),))
             cursor.execute("UPDATE domains SET status='WHITELIST' WHERE domain IN (SELECT domain FROM domains WHERE status = 'REMOVED')")
             cursor.execute("COMMIT")
@@ -142,11 +142,24 @@ def update_phishfeed(workspace):
             phishing_domains = [row[0] for row in all_domains]
 
             # Remove domains containing parts of Umbrella and Tranco domains
-            phishing_domains = filter_phishing_domains(phishing_domains, umbrella_domains, tranco_domains)
+            phishing_domains = filter_phishing_domains(phishing_domains, umbrella_domains, tranco_domains, whitelist_domains)
 
             # Update output file and cleanup
             write_output_file(output_path, phishing_domains, all_domains, umbrella_domains, tranco_domains, whitelist_domains)
             cleanup_files(umbrella_csv_file_path, tranco_csv_file_path)
+
+            # Calculate the number of domains removed from Tranco and Umbrella
+            removed_from_tranco = len(tranco_domains)
+            removed_from_umbrella = len(umbrella_domains)
+
+            # Calculate the number of domains removed due to white.list
+            removed_from_white_list = len(whitelist_domains.intersection(umbrella_domains | tranco_domains))
+
+            # Write statistics to the output file
+            with open(output_path, 'a') as output_file:
+                output_file.write("! Number of domains matched and removed by Tranco: {}\n".format(removed_from_tranco))
+                output_file.write("! Number of domains matched and removed by Umbrella: {}\n".format(removed_from_umbrella))
+                output_file.write("! Number of domains matched and removed by white.list: {}\n".format(removed_from_white_list))
 
     except Exception as e:
         logger.error("An error occurred during the update process: %s", e)
@@ -182,13 +195,14 @@ def resolve_domain_status(resolver, domain):
         logger.error("Error resolving domain %s: %s", domain, e)
         return "SERVFAIL"
 
-def filter_phishing_domains(phishing_domains, umbrella_domains, tranco_domains):
+def filter_phishing_domains(phishing_domains, umbrella_domains, tranco_domains, whitelist_domains):
     filtered_domains = []
     for domain in phishing_domains:
         if not any(umbrella_domain in domain.split(".")[-2:] for umbrella_domain in umbrella_domains) \
                 and not any(tranco_domain in domain.split(".")[-2:] for tranco_domain in tranco_domains):
             if not any(domain.endswith("." + subdomain) or subdomain.endswith("." + domain) for subdomain in phishing_domains if subdomain != domain):
-                filtered_domains.append(domain)
+                if not any(domain.endswith("." + subdomain) or subdomain.endswith("." + domain) for subdomain in whitelist_domains if subdomain != domain):
+                    filtered_domains.append(domain)
     return filtered_domains
 
 def write_output_file(output_path, phishing_domains, all_domains, umbrella_domains, tranco_domains, whitelist_domains):
@@ -204,10 +218,9 @@ def write_output_file(output_path, phishing_domains, all_domains, umbrella_domai
         output_file.write("! Number of phishing domains: {}\n".format(len(phishing_domains)))
         output_file.write("! Number of NXDOMAIN domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'NXDOMAIN'])))
         output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
-        output_file.write("! Number of domains matched and removed by whitelist:\n")
-        output_file.write("! - Umbrella: {}\n".format(len(umbrella_domains)))
-        output_file.write("! - Tranco: {}\n".format(len(tranco_domains)))
-        output_file.write("! - Hagezi Shortener: {}\n".format(len(whitelist_domains.intersection(umbrella_domains | tranco_domains))))
+        output_file.write("! Number of domains matched and removed by Tranco: {}\n".format(len(tranco_domains)))
+        output_file.write("! Number of domains matched and removed by Umbrella: {}\n".format(len(umbrella_domains)))
+        output_file.write("! Number of domains matched and removed by white.list: {}\n".format(len(whitelist_domains.intersection(umbrella_domains | tranco_domains))))
         output_file.write("! Number of domains removed older than 60 days: {}\n".format(len([row[0] for row in all_domains if row[1] == 'REMOVED'])))
         output_file.write("\n")
 
