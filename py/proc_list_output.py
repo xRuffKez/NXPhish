@@ -28,13 +28,24 @@ def download_extract_csv(url, destination_folder):
     try:
         response = requests.get(url)
         response.raise_for_status()
-        with open(os.path.join(destination_folder, 'top-1m.csv.zip'), 'wb') as f:
+        file_name = url.split('/')[-1]
+        file_path = os.path.join(destination_folder, file_name)
+        with open(file_path, 'wb') as f:
             f.write(response.content)
-        with zipfile.ZipFile(os.path.join(destination_folder, 'top-1m.csv.zip'), 'r') as zip_ref:
-            zip_ref.extractall(destination_folder)
+        
+        if file_name.endswith('.zip'):
+            with zipfile.ZipFile(file_path, 'r') as zip_ref:
+                zip_ref.extractall(destination_folder)
+        elif file_name.endswith('.csv'):
+            # No need to extract CSV file
+            pass
+        else:
+            logger.error("Unsupported file format: %s", file_name)
+            return False
+
         return True
     except Exception as e:
-        logger.error("Failed to download and extract CSV file: %s", e)
+        logger.error("Failed to download or extract file: %s", e)
         return False
 
 def update_phishfeed(workspace):
@@ -50,7 +61,7 @@ def update_phishfeed(workspace):
     if not download_extract_csv(umbrella_csv_url, workspace):
         return
 
-    # Download and extract CSV from Tranco list
+    # Download CSV from Tranco list
     tranco_csv_url = "https://tranco-list.eu/download/G6VLK/1000000"
     if not download_extract_csv(tranco_csv_url, workspace):
         return
@@ -66,7 +77,7 @@ def update_phishfeed(workspace):
         return
 
     # Process Tranco CSV
-    tranco_csv_file_path = os.path.join(workspace, "top-1m-2.csv")
+    tranco_csv_file_path = os.path.join(workspace, "top-1m.csv")
     try:
         with open(tranco_csv_file_path, 'r') as csvfile:
             csv_reader = csv.reader(csvfile)
@@ -116,7 +127,7 @@ def update_phishfeed(workspace):
                                     status = "SERVFAIL"
                                 current_time = datetime.now().isoformat()
                                 cursor.execute("INSERT INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
-            cursor.execute("DELETE FROM domains WHERE last_seen < ?", (max_age.isoformat(),))
+            cursor.execute("UPDATE domains SET status='REMOVED' WHERE last_seen < ?", (max_age.isoformat(),))
             cursor.execute("COMMIT")
             conn.commit()
 
@@ -143,8 +154,9 @@ def update_phishfeed(workspace):
                 output_file.write("! Number of NXDOMAIN domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'NXDOMAIN'])))
                 output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
                 output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(domains_to_remove))))
-                output_file.write("! Number of domains removed from Umbrella list: {}\n".format(removed_from_umbrella))
-                output_file.write("! Number of domains removed from Tranco list: {}\n".format(removed_from_tranco))
+                output_file.write("! Number of domains removed older than 60 days: {}\n".format(len([row[0] for row in all_domains if row[1] == 'REMOVED'])))
+                output_file.write("! Number of domains removed from Umbrella list: {}\n".format(len(domains_to_remove)))
+                output_file.write("! Number of domains removed from Tranco list: {}\n".format(len(domains_to_remove) - len(phishing_domains)))
                 output_file.write("! Top 10 abused TLDs:\n")
                 for tld, count in sorted_tlds:
                     percentage_tld_domains = (count / total_domains) * 100
