@@ -26,6 +26,9 @@ async def resolve_domains(domains):
         except dns.resolver.NoNameservers:
             results[domain] = "SERVFAIL"
             logging.debug(f"Resolved {domain}: SERVFAIL - No nameservers available")
+        except dns.resolver.LifetimeTimeout:
+            results[domain] = "SERVFAIL"
+            logging.debug(f"Resolved {domain}: SERVFAIL - Resolution lifetime expired")
         except (dns.resolver.NoAnswer, dns.resolver.Timeout) as ex:
             try:
                 response = resolver_google.resolve(domain)
