@@ -31,27 +31,18 @@ def download_extract_csv(url, destination_folder):
         response.raise_for_status()
         file_name = url.split('/')[-1]
         file_path = os.path.join(destination_folder, file_name)
-        
-        # Check if the file already exists
-        if os.path.exists(file_path):
-            logger.warning("Destination path '%s' already exists", file_path)
-            return True, file_path
-
         with open(file_path, 'wb') as f:
             f.write(response.content)
         
         if file_name.endswith('.zip'):
             with zipfile.ZipFile(file_path, 'r') as zip_ref:
-                # Extract all contents of the ZIP file
                 zip_ref.extractall(destination_folder)
-                # Find the extracted CSV file within the subfolder
-                extracted_csv_files = [file for file in zip_ref.namelist() if file.endswith('.csv')]
-                if not extracted_csv_files:
-                    logger.error("No CSV file found in the ZIP archive: %s", file_path)
-                    return False, None
-                # Assuming there's only one CSV file, move it to the destination folder
-                extracted_csv_file = os.path.join(destination_folder, extracted_csv_files[0])
-                shutil.move(extracted_csv_file, os.path.join(destination_folder, file_name.split('.')[0] + '.csv'))
+                # Move the extracted CSV file from the subfolder to the destination folder
+                extracted_folder = os.path.join(destination_folder, file_name.split('.')[0])
+                extracted_csv_file = os.path.join(extracted_folder, os.listdir(extracted_folder)[0])
+                shutil.move(extracted_csv_file, destination_folder)
+                # Remove the empty extracted folder
+                os.rmdir(extracted_folder)
         elif file_name.endswith('.csv'):
             # No need to extract CSV file
             pass
@@ -90,7 +81,7 @@ def update_phishfeed(workspace):
     try:
         with open(umbrella_csv_file_path, 'r') as csvfile:
             csv_reader = csv.reader(csvfile)
-            domains_to_remove_umbrella = {row[1] for row in csv_reader}
+            umbrella_domains = {row[1] for row in csv_reader}
     except Exception as e:
         logger.error("Failed to read Umbrella CSV file: %s", e)
         return
@@ -99,7 +90,7 @@ def update_phishfeed(workspace):
     try:
         with open(tranco_csv_file_path, 'r', encoding='latin-1') as csvfile:
             csv_reader = csv.reader(csvfile)
-            domains_to_remove_tranco = {row[0] for row in csv_reader if row}
+            tranco_domains = {row[0] for row in csv_reader if row}
     except Exception as e:
         logger.error("Failed to read Tranco CSV file: %s", e)
         return
@@ -118,7 +109,8 @@ def update_phishfeed(workspace):
                     if domain:
                         if not domain.startswith("http") and "/" in domain:
                             domain = domain.split("/")[0]
-                        if domain not in whitelist_domains and domain not in domains_to_remove_umbrella and domain not in domains_to_remove_tranco:
+                        if not any(umbrella_domain in domain.split(".")[-2:] for umbrella_domain in umbrella_domains) \
+                                and not any(tranco_domain in domain.split(".")[-2:] for tranco_domain in tranco_domains):
                             cursor.execute("SELECT domain, status FROM domains WHERE domain=?", (domain,))
                             existing_domain = cursor.fetchone()
                             if existing_domain is None or existing_domain[1] != 'OK':
@@ -127,9 +119,8 @@ def update_phishfeed(workspace):
                                     status = "OK"
                                 except dns.resolver.Timeout:
                                     try:
-                                        # Retry resolving with Google's DNS servers
                                         resolver_google = dns.resolver.Resolver()
-                                        resolver_google.nameservers = ['8.8.8.8', '8.8.4.4']  # Google's DNS servers
+                                        resolver_google.nameservers = ['8.8.8.8', '8.8.4.4']
                                         response_google = resolver_google.resolve(domain)
                                         if response_google.response.rcode() == dns.rcode.NXDOMAIN:
                                             status = "NXDOMAIN"
@@ -152,18 +143,11 @@ def update_phishfeed(workspace):
             cursor.execute("SELECT domain, status FROM domains ORDER BY domain")
             all_domains = cursor.fetchall()
             phishing_domains = [row[0] for row in all_domains if row[1] != 'NXDOMAIN' and row[1] != 'SERVFAIL']
-            tld_counts = {}
-            for domain in phishing_domains:
-                tld = domain.split('.')[-1]
-                tld_counts[tld] = tld_counts.get(tld, 0) + 1
-            sorted_tlds = sorted(tld_counts.items(), key=lambda x: x[1], reverse=True)[:10]
-            total_domains = sum(count for _, count in sorted_tlds)
 
-            # Calculate domains removed by Tranco list
-            tranco_removed_domains = len(domains_to_remove_tranco.intersection(phishing_domains))
-
-            # Calculate domains removed by Umbrella list
-            umbrella_removed_domains = len(domains_to_remove_umbrella.intersection(phishing_domains))
+            # Remove domains containing parts of Umbrella and Tranco domains
+            phishing_domains = [domain for domain in phishing_domains
+                                if not any(umbrella_domain in domain.split(".")[-2:] for umbrella_domain in umbrella_domains)
+                                and not any(tranco_domain in domain.split(".")[-2:] for tranco_domain in tranco_domains)]
 
             with open(output_path, 'w') as output_file:
                 output_file.write("! Title: NXPhish - Active Phishing Domains\n")
@@ -177,14 +161,11 @@ def update_phishfeed(workspace):
                 output_file.write("! Number of phishing domains: {}\n".format(len(phishing_domains)))
                 output_file.write("! Number of NXDOMAIN domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'NXDOMAIN'])))
                 output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
-                output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(domains_to_remove_umbrella | domains_to_remove_tranco))))
+                output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(umbrella_domains | tranco_domains))))
                 output_file.write("! Number of domains removed older than 60 days: {}\n".format(len([row[0] for row in all_domains if row[1] == 'REMOVED'])))
-                output_file.write("! Number of domains removed by Umbrella list: {}\n".format(umbrella_removed_domains))
-                output_file.write("! Number of domains removed by Tranco list: {}\n".format(tranco_removed_domains))
+                output_file.write("! Number of domains removed by Umbrella list: {}\n".format(len(umbrella_domains)))
+                output_file.write("! Number of domains removed by Tranco list: {}\n".format(len(tranco_domains)))
                 output_file.write("! Top 10 abused TLDs:\n")
-                for tld, count in sorted_tlds:
-                    percentage_tld_domains = (count / total_domains) * 100
-                    output_file.write("! - {}: {} ({}%)\n".format(tld, count, round(percentage_tld_domains, 2)))
                 output_file.write("! Domains removed after 60 days if not re-added through feed.\n")
                 output_file.write("\n")
 
