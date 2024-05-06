@@ -36,13 +36,16 @@ def download_extract_csv(url, destination_folder):
         
         if file_name.endswith('.zip'):
             with zipfile.ZipFile(file_path, 'r') as zip_ref:
+                # Extract all contents of the ZIP file
                 zip_ref.extractall(destination_folder)
-                # Move the extracted CSV file from the subfolder to the destination folder
-                extracted_folder = os.path.join(destination_folder, file_name.split('.')[0])
-                extracted_csv_file = os.path.join(extracted_folder, os.listdir(extracted_folder)[0])
+                # Find the extracted CSV file within the subfolder
+                extracted_csv_files = [file for file in zip_ref.namelist() if file.endswith('.csv')]
+                if not extracted_csv_files:
+                    logger.error("No CSV file found in the ZIP archive: %s", file_path)
+                    return False, None
+                # Assuming there's only one CSV file, move it to the destination folder
+                extracted_csv_file = os.path.join(destination_folder, extracted_csv_files[0])
                 shutil.move(extracted_csv_file, destination_folder)
-                # Remove the empty extracted folder
-                os.rmdir(extracted_folder)
         elif file_name.endswith('.csv'):
             # No need to extract CSV file
             pass
