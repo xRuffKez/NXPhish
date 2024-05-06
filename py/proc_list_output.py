@@ -131,6 +131,10 @@ def update_phishfeed(workspace):
                                 if status is not None:
                                     current_time = datetime.now().isoformat()
                                     cursor.execute("INSERT OR IGNORE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
+                # Update domains status in cache.db
+                for domain in all_domains:
+                    if domain[0] not in phishing_domains:
+                        cursor.execute("UPDATE domains SET status='WHITELIST' WHERE domain=?", (domain[0],))
             cursor.execute("UPDATE domains SET status='REMOVED' WHERE last_seen < ? AND status != 'OK'", (max_age.isoformat(),))
             cursor.execute("UPDATE domains SET status='WHITELIST' WHERE domain IN (SELECT domain FROM domains WHERE status = 'REMOVED')")
             cursor.execute("COMMIT")
@@ -143,6 +147,7 @@ def update_phishfeed(workspace):
             # Remove domains containing parts of Umbrella and Tranco domains
             phishing_domains = filter_phishing_domains(phishing_domains, umbrella_domains, tranco_domains)
 
+            # Update output file and cleanup
             write_output_file(output_path, phishing_domains, all_domains, umbrella_domains, tranco_domains, whitelist_domains)
             cleanup_files(umbrella_csv_file_path, tranco_csv_file_path)
 
@@ -181,9 +186,13 @@ def resolve_domain_status(resolver, domain):
         return "SERVFAIL"
 
 def filter_phishing_domains(phishing_domains, umbrella_domains, tranco_domains):
-    return [domain for domain in phishing_domains
-            if not any(umbrella_domain in domain.split(".")[-2:] for umbrella_domain in umbrella_domains)
-            and not any(tranco_domain in domain.split(".")[-2:] for tranco_domain in tranco_domains)]
+    filtered_domains = []
+    for domain in phishing_domains:
+        if not any(umbrella_domain in domain.split(".")[-2:] for umbrella_domain in umbrella_domains) \
+                and not any(tranco_domain in domain.split(".")[-2:] for tranco_domain in tranco_domains):
+            if not any(domain.endswith("." + subdomain) or subdomain.endswith("." + domain) for subdomain in phishing_domains if subdomain != domain):
+                filtered_domains.append(domain)
+    return filtered_domains
 
 def write_output_file(output_path, phishing_domains, all_domains, umbrella_domains, tranco_domains, whitelist_domains):
     with open(output_path, 'w') as output_file:
