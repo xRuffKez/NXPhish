@@ -137,7 +137,7 @@ def update_phishfeed(workspace):
             cursor.execute("COMMIT")
             conn.commit()
 
-            cursor.execute("SELECT domain, status FROM domains WHERE status='OK' ORDER BY domain")
+            cursor.execute("SELECT domain, status FROM domains ORDER BY domain")
             all_domains = cursor.fetchall()
             phishing_domains = [row[0] for row in all_domains]
 
@@ -148,18 +148,14 @@ def update_phishfeed(workspace):
             write_output_file(output_path, phishing_domains, all_domains, umbrella_domains, tranco_domains, whitelist_domains)
             cleanup_files(umbrella_csv_file_path, tranco_csv_file_path)
 
-            # Calculate the number of domains removed from Tranco and Umbrella
-            removed_from_tranco = len(tranco_domains)
-            removed_from_umbrella = len(umbrella_domains)
-
-            # Calculate the number of domains removed due to white.list
-            removed_from_white_list = len(whitelist_domains.intersection(umbrella_domains | tranco_domains))
+            # Count NXDOMAIN and SERVFAIL domains from cache.db
+            nxdomain_count = sum(1 for row in all_domains if row[1] == 'NXDOMAIN')
+            servfail_count = sum(1 for row in all_domains if row[1] == 'SERVFAIL')
 
             # Write statistics to the output file
             with open(output_path, 'a') as output_file:
-                output_file.write("! Number of domains matched and removed by Tranco: {}\n".format(removed_from_tranco))
-                output_file.write("! Number of domains matched and removed by Umbrella: {}\n".format(removed_from_umbrella))
-                output_file.write("! Number of domains matched and removed by white.list: {}\n".format(removed_from_white_list))
+                output_file.write("! Number of NXDOMAIN domains in cache.db: {}\n".format(nxdomain_count))
+                output_file.write("! Number of SERVFAIL domains in cache.db: {}\n".format(servfail_count))
 
     except Exception as e:
         logger.error("An error occurred during the update process: %s", e)
@@ -172,28 +168,6 @@ def process_csv(csv_file_path):
     except Exception as e:
         logger.error("Failed to read CSV file '%s': %s", csv_file_path, e)
         return None
-
-def resolve_domain_status(resolver, domain):
-    try:
-        response = resolver.resolve(domain)
-        return "OK"
-    except dns.resolver.Timeout:
-        try:
-            resolver_google = dns.resolver.Resolver()
-            resolver_google.nameservers = ['8.8.8.8', '8.8.4.4']
-            response_google = resolver_google.resolve(domain)
-            if response_google.response.rcode() == dns.rcode.NXDOMAIN:
-                return "NXDOMAIN"
-            else:
-                return "OK"
-        except Exception as e:
-            logger.error("Error resolving domain %s with Google DNS: %s", domain, e)
-            return "SERVFAIL"
-    except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN):
-        return "NXDOMAIN"
-    except Exception as e:
-        logger.error("Error resolving domain %s: %s", domain, e)
-        return "SERVFAIL"
 
 def filter_phishing_domains(phishing_domains, umbrella_domains, tranco_domains, whitelist_domains):
     filtered_domains = []
