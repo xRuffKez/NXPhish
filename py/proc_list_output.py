@@ -26,7 +26,7 @@ def load_whitelist_domains():
 
 def download_extract_csv(url, destination_folder):
     try:
-        response = requests.get(url)
+        response = requests.get(url, allow_redirects=True)
         response.raise_for_status()
         file_name = url.split('/')[-1]
         file_path = os.path.join(destination_folder, file_name)
@@ -42,6 +42,11 @@ def download_extract_csv(url, destination_folder):
         else:
             logger.error("Unsupported file format: %s", file_name)
             return False
+
+        return True
+    except Exception as e:
+        logger.error("Failed to download or extract file: %s", e)
+        return False
 
         return True
     except Exception as e:
