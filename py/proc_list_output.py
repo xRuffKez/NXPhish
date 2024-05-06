@@ -150,10 +150,7 @@ def update_phishfeed(workspace):
                                     except Exception as e:
                                         logger.error("Error resolving domain %s with Google DNS: %s", domain, e)
                                         status = "SERVFAIL"
-                                except dns.resolver.NoAnswer:
-                                    logger.error("DNS NoAnswer resolving domain %s", domain)
-                                    status = "SERVFAIL"
-                                except dns.resolver.NXDOMAIN:
+                                except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN):
                                     status = "NXDOMAIN"
                                 except Exception as e:
                                     logger.error("Error resolving domain %s: %s", domain, e)
@@ -188,8 +185,8 @@ def update_phishfeed(workspace):
                 output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
                 output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(umbrella_domains | tranco_domains))))
                 output_file.write("! Number of domains removed older than 60 days: {}\n".format(len([row[0] for row in all_domains if row[1] == 'REMOVED'])))
-                output_file.write("! Number of domains removed by Umbrella list: {}\n".format(len(umbrella_domains)))
-                output_file.write("! Number of domains removed by Tranco list: {}\n".format(len(tranco_domains)))
+                output_file.write("! Number of domains removed by Umbrella list: {}\n".format(len(umbrella_domains))))
+                output_file.write("! Number of domains removed by Tranco list: {}\n".format(len(tranco_domains))))
                 output_file.write("\n")
 
                 # Write remaining phishing domains to the output file
