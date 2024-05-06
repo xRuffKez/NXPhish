@@ -100,21 +100,13 @@ def update_phishfeed(workspace):
         return
 
     # Process Umbrella CSV
-    try:
-        with open(umbrella_csv_file_path, 'r', encoding='latin-1') as csvfile:
-            csv_reader = csv.reader(csvfile)
-            umbrella_domains = {row[1] for row in csv_reader if len(row) > 1}
-    except Exception as e:
-        logger.error("Failed to read Umbrella CSV file: %s", e)
+    umbrella_domains = process_csv(umbrella_csv_file_path)
+    if umbrella_domains is None:
         return
 
     # Process Tranco CSV
-    try:
-        with open(tranco_csv_file_path, 'r', encoding='latin-1') as csvfile:
-            csv_reader = csv.reader(csvfile)
-            tranco_domains = {row[0] for row in csv_reader if row}
-    except Exception as e:
-        logger.error("Failed to read Tranco CSV file: %s", e)
+    tranco_domains = process_csv(tranco_csv_file_path)
+    if tranco_domains is None:
         return
 
     resolver = dns.resolver.Resolver()
@@ -135,28 +127,10 @@ def update_phishfeed(workspace):
                             cursor.execute("SELECT domain, status FROM domains WHERE domain=?", (domain,))
                             existing_domain = cursor.fetchone()
                             if existing_domain is None or existing_domain[1] != 'OK':
-                                try:
-                                    response = resolver.resolve(domain)
-                                    status = "OK"
-                                except dns.resolver.Timeout:
-                                    try:
-                                        resolver_google = dns.resolver.Resolver()
-                                        resolver_google.nameservers = ['8.8.8.8', '8.8.4.4']
-                                        response_google = resolver_google.resolve(domain)
-                                        if response_google.response.rcode() == dns.rcode.NXDOMAIN:
-                                            status = "NXDOMAIN"
-                                        else:
-                                            status = "OK"
-                                    except Exception as e:
-                                        logger.error("Error resolving domain %s with Google DNS: %s", domain, e)
-                                        status = "SERVFAIL"
-                                except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN):
-                                    status = "NXDOMAIN"
-                                except Exception as e:
-                                    logger.error("Error resolving domain %s: %s", domain, e)
-                                    status = "SERVFAIL"
-                                current_time = datetime.now().isoformat()
-                                cursor.execute("INSERT OR IGNORE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
+                                status = resolve_domain_status(resolver, domain)
+                                if status is not None:
+                                    current_time = datetime.now().isoformat()
+                                    cursor.execute("INSERT OR IGNORE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
             cursor.execute("UPDATE domains SET status='REMOVED' WHERE last_seen < ? AND status != 'OK'", (max_age.isoformat(),))
             cursor.execute("UPDATE domains SET status='WHITELIST' WHERE domain IN (SELECT domain FROM domains WHERE status = 'REMOVED')")
             cursor.execute("COMMIT")
@@ -164,48 +138,81 @@ def update_phishfeed(workspace):
 
             cursor.execute("SELECT domain, status FROM domains ORDER BY domain")
             all_domains = cursor.fetchall()
-            phishing_domains = [row[0] for row in all_domains if row[1] != 'NXDOMAIN' and row[1] != 'SERVFAIL' and row[1] != 'WHITELIST']
+            phishing_domains = [row[0] for row in all_domains if row[1] not in ('NXDOMAIN', 'SERVFAIL', 'WHITELIST')]
 
             # Remove domains containing parts of Umbrella and Tranco domains
-            phishing_domains = [domain for domain in phishing_domains
-                                if not any(umbrella_domain in domain.split(".")[-2:] for umbrella_domain in umbrella_domains)
-                                and not any(tranco_domain in domain.split(".")[-2:] for tranco_domain in tranco_domains)]
+            phishing_domains = filter_phishing_domains(phishing_domains, umbrella_domains, tranco_domains)
 
-            with open(output_path, 'w') as output_file:
-                output_file.write("! Title: NXPhish - Active Phishing Domains\n")
-                output_file.write("! Description: This file contains a list of known phishing domains from various feeds.\n")
-                output_file.write("! URL shorteners have been removed to reduce false positives.\n")
-                output_file.write("! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.\n")
-                output_file.write("! Author: xRuffKez\n")
-                output_file.write("! Repository: github.com/xRuffKez/NXPhish\n")
-                output_file.write("! Last updated: {}\n".format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
-                output_file.write("! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):\n")
-                output_file.write("! Number of phishing domains: {}\n".format(len(phishing_domains)))
-                output_file.write("! Number of NXDOMAIN domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'NXDOMAIN'])))
-                output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
-                output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(umbrella_domains | tranco_domains))))
-                output_file.write("! Number of domains removed older than 60 days: {}\n".format(len([row[0] for row in all_domains if row[1] == 'REMOVED'])))
-                output_file.write("! Number of domains removed by Umbrella list: {}\n".format(len(umbrella_domains))))
-                output_file.write("! Number of domains removed by Tranco list: {}\n".format(len(tranco_domains))))
-                output_file.write("\n")
-
-                # Write remaining phishing domains to the output file
-                for domain in phishing_domains:
-                    output_file.write("||{}^\n".format(domain))
-
-            # Remove extracted CSV files if they exist
-            if os.path.exists(umbrella_csv_file_path):
-                os.remove(umbrella_csv_file_path)
-            else:
-                logger.warning("Umbrella CSV file does not exist: %s", umbrella_csv_file_path)
-
-            if os.path.exists(tranco_csv_file_path):
-                os.remove(tranco_csv_file_path)
-            else:
-                logger.warning("Tranco CSV file does not exist: %s", tranco_csv_file_path)
+            write_output_file(output_path, phishing_domains, all_domains, umbrella_domains, tranco_domains, whitelist_domains)
+            cleanup_files(umbrella_csv_file_path, tranco_csv_file_path)
 
     except Exception as e:
         logger.error("An error occurred during the update process: %s", e)
+
+def process_csv(csv_file_path):
+    try:
+        with open(csv_file_path, 'r', encoding='latin-1') as csvfile:
+            csv_reader = csv.reader(csvfile)
+            return {row[1] for row in csv_reader if len(row) > 1}
+    except Exception as e:
+        logger.error("Failed to read CSV file '%s': %s", csv_file_path, e)
+        return None
+
+def resolve_domain_status(resolver, domain):
+    try:
+        response = resolver.resolve(domain)
+        return "OK"
+    except dns.resolver.Timeout:
+        try:
+            resolver_google = dns.resolver.Resolver()
+            resolver_google.nameservers = ['8.8.8.8', '8.8.4.4']
+            response_google = resolver_google.resolve(domain)
+            if response_google.response.rcode() == dns.rcode.NXDOMAIN:
+                return "NXDOMAIN"
+            else:
+                return "OK"
+        except Exception as e:
+            logger.error("Error resolving domain %s with Google DNS: %s", domain, e)
+            return "SERVFAIL"
+    except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN):
+        return "NXDOMAIN"
+    except Exception as e:
+        logger.error("Error resolving domain %s: %s", domain, e)
+        return "SERVFAIL"
+
+def filter_phishing_domains(phishing_domains, umbrella_domains, tranco_domains):
+    return [domain for domain in phishing_domains
+            if not any(umbrella_domain in domain.split(".")[-2:] for umbrella_domain in umbrella_domains)
+            and not any(tranco_domain in domain.split(".")[-2:] for tranco_domain in tranco_domains)]
+
+def write_output_file(output_path, phishing_domains, all_domains, umbrella_domains, tranco_domains, whitelist_domains):
+    with open(output_path, 'w') as output_file:
+        output_file.write("! Title: NXPhish - Active Phishing Domains\n")
+        output_file.write("! Description: This file contains a list of known phishing domains from various feeds.\n")
+        output_file.write("! URL shorteners have been removed to reduce false positives.\n")
+        output_file.write("! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.\n")
+        output_file.write("! Author: xRuffKez\n")
+        output_file.write("! Repository: github.com/xRuffKez/NXPhish\n")
+        output_file.write("! Last updated: {}\n".format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
+        output_file.write("! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):\n")
+        output_file.write("! Number of phishing domains: {}\n".format(len(phishing_domains)))
+        output_file.write("! Number of NXDOMAIN domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'NXDOMAIN'])))
+        output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
+        output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(umbrella_domains | tranco_domains))))
+        output_file.write("! Number of domains removed older than 60 days: {}\n".format(len([row[0] for row in all_domains if row[1] == 'REMOVED'])))
+        output_file.write("! Number of domains removed by Umbrella list: {}\n".format(len(umbrella_domains)))
+        output_file.write("! Number of domains removed by Tranco list: {}\n".format(len(tranco_domains)))
+        output_file.write("\n")
+
+        for domain in phishing_domains:
+            output_file.write("||{}^\n".format(domain))
+
+def cleanup_files(*file_paths):
+    for file_path in file_paths:
+        if os.path.exists(file_path):
+            os.remove(file_path)
+        else:
+            logger.warning("File does not exist: %s", file_path)
 
 if __name__ == "__main__":
     import sys
