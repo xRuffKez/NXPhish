@@ -9,71 +9,68 @@ from datetime import datetime, timedelta
 from urllib.parse import urlparse
 import dns.resolver
 import shutil
+import threading
 
-# Configure logging to output to console
+# Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Define function to check if a domain is valid
-def is_valid_domain(domain):
-    return bool(re.match(r'^([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9])\.([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9-]*[A-Za-z0-9])$', domain))
+# Domain validation regex 
+DOMAIN_REGEX = r'^([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9])\.([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9-]*[a-Za-z0-9])$'
 
-# Define function to load whitelist domains from a URL
+# DNS cache
+dns_cache = {}
+
+# Function to check if a domain is valid
+def is_valid_domain(domain):
+    return bool(re.match(DOMAIN_REGEX, domain))
+
+# Function to load whitelist domains from a URL
 def load_whitelist_domains():
+    url = "https://raw.githubusercontent.com/xRuffKez/NXPhish/main/stor/white.list"
     try:
-        response = requests.get("https://raw.githubusercontent.com/xRuffKez/NXPhish/main/stor/white.list")
+        response = requests.get(url)
         response.raise_for_status()
         return set(response.text.splitlines())
     except requests.RequestException as e:
         logger.error("Failed to load whitelist domains: %s", e)
         return set()
 
-# Define function to download and extract a CSV file
+# Function to download and extract a CSV file
 def download_extract_csv(url, destination_folder, use_cache=True):
     file_name = url.split('/')[-1]
     file_path = os.path.join(destination_folder, file_name)
 
-    # Check if the file exists in the cache
     if use_cache and os.path.exists(file_path):
         logger.info("Using cached file: %s", file_path)
         return True, file_path
 
     try:
-        # Attempt to download the file
-        response = requests.get(url, allow_redirects=True)
-        response.raise_for_status()
+        response = requests.get(url, stream=True, allow_redirects=True)
+        response.raise_for_status()  
+
         with open(file_path, 'wb') as f:
-            f.write(response.content)
-        
+            for chunk in response.iter_content(chunk_size=1024):
+                if chunk:  
+                    f.write(chunk)
+
         if file_name.endswith('.zip'):
             with zipfile.ZipFile(file_path, 'r') as zip_ref:
                 zip_ref.extractall(destination_folder)
-                # Move the extracted CSV file from the subfolder to the destination folder
                 extracted_folder = os.path.join(destination_folder, file_name.split('.')[0])
                 extracted_csv_file = os.path.join(extracted_folder, os.listdir(extracted_folder)[0])
                 shutil.move(extracted_csv_file, destination_folder)
-                # Remove the empty extracted folder
                 os.rmdir(extracted_folder)
         elif file_name.endswith('.csv'):
-            # No need to extract CSV file
             pass
         else:
             logger.error("Unsupported file format: %s", file_name)
             return False, None
 
         return True, os.path.join(destination_folder, file_name.split('.')[0] + '.csv')
+
     except Exception as e:
         logger.error("Failed to download or extract file: %s", e)
-        
-        # If download fails and the file is Umbrella list, try to retrieve the file from the local repository directory
-        if "umbrella" in url:
-            local_file_path = os.path.join('stor', 'umbrella', file_name)
-            if os.path.exists(local_file_path):
-                logger.warning("Using local file from repository: %s", local_file_path)
-                shutil.copy(local_file_path, destination_folder)
-                return True, os.path.join(destination_folder, file_name)
-        
-        # If download and local retrieval fail, return False to indicate failure
         return False, None
 
 # Define function to update phishing feed
@@ -213,4 +210,4 @@ if __name__ == "__main__":
     if len(sys.argv) != 2:
         logger.error("Usage: python update.py <workspace_directory>")
         sys.exit(1)
-    update_phishfeed(sys.argv[1])
+    update_phishfeed(sys.argv[1]) 
