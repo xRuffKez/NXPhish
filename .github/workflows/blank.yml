@@ -11,11 +11,20 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2 # This action checks out your repository's code
 
-      - name: Revert Commits
+      - name: Determine commit range
         run: |
-          git checkout main
-          git revert --no-edit HEAD~17..HEAD # Revert the last 15 commits on the main branch
+          COMMITS=$(git rev-list --count HEAD~17..HEAD)
+          if [ $COMMITS -eq 0 ]; then
+            echo "No commits to revert."
+            exit 0
+          fi
+
+      - name: Revert Commits
+        if: ${{ success() }}
+        run: |
+          git revert --no-edit HEAD~$COMMITS..HEAD # Revert the last $COMMITS commits on the main branch
 
       - name: Push changes
+        if: ${{ success() }}
         run: |
           git push origin main
