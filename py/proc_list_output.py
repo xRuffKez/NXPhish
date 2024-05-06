@@ -48,11 +48,6 @@ def download_extract_csv(url, destination_folder):
         logger.error("Failed to download or extract file: %s", e)
         return False
 
-        return True
-    except Exception as e:
-        logger.error("Failed to download or extract file: %s", e)
-        return False
-
 def update_phishfeed(workspace):
     db_path = os.path.join(workspace, 'stor/cache.db')
     feed_path = os.path.join(workspace, 'filtered_feed.txt')
@@ -76,7 +71,7 @@ def update_phishfeed(workspace):
     try:
         with open(umbrella_csv_file_path, 'r') as csvfile:
             csv_reader = csv.reader(csvfile)
-            domains_to_remove = {row[1] for row in csv_reader}
+            domains_to_remove_umbrella = {row[1] for row in csv_reader}
     except Exception as e:
         logger.error("Failed to read Umbrella CSV file: %s", e)
         return
@@ -86,7 +81,7 @@ def update_phishfeed(workspace):
     try:
         with open(tranco_csv_file_path, 'r') as csvfile:
             csv_reader = csv.reader(csvfile)
-            domains_to_remove.update({row[1] for row in csv_reader})
+            domains_to_remove_tranco = {row[0] for row in csv_reader}
     except Exception as e:
         logger.error("Failed to read Tranco CSV file: %s", e)
         return
@@ -105,7 +100,7 @@ def update_phishfeed(workspace):
                     if domain:
                         if not domain.startswith("http") and "/" in domain:
                             domain = domain.split("/")[0]
-                        if domain not in whitelist_domains and domain not in domains_to_remove:
+                        if domain not in whitelist_domains and domain not in domains_to_remove_umbrella and domain not in domains_to_remove_tranco:
                             cursor.execute("SELECT domain, status FROM domains WHERE domain=?", (domain,))
                             existing_domain = cursor.fetchone()
                             if existing_domain is None or existing_domain[1] != 'OK':
@@ -146,8 +141,11 @@ def update_phishfeed(workspace):
             sorted_tlds = sorted(tld_counts.items(), key=lambda x: x[1], reverse=True)[:10]
             total_domains = sum(count for _, count in sorted_tlds)
 
-            umbrella_removed_domains = len(domains_to_remove.intersection(phishing_domains))
-            tranco_removed_domains = len(domains_to_remove) - umbrella_removed_domains
+            # Calculate domains removed by Tranco list
+            tranco_removed_domains = len(domains_to_remove_tranco.intersection(phishing_domains))
+
+            # Calculate domains removed by Umbrella list
+            umbrella_removed_domains = len(domains_to_remove_umbrella.intersection(phishing_domains))
 
             with open(output_path, 'w') as output_file:
                 output_file.write("! Title: NXPhish - Active Phishing Domains\n")
@@ -161,7 +159,7 @@ def update_phishfeed(workspace):
                 output_file.write("! Number of phishing domains: {}\n".format(len(phishing_domains)))
                 output_file.write("! Number of NXDOMAIN domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'NXDOMAIN'])))
                 output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
-                output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(domains_to_remove))))
+                output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(domains_to_remove_umbrella | domains_to_remove_tranco))))
                 output_file.write("! Number of domains removed older than 60 days: {}\n".format(len([row[0] for row in all_domains if row[1] == 'REMOVED'])))
                 output_file.write("! Number of domains removed by Umbrella list: {}\n".format(umbrella_removed_domains))
                 output_file.write("! Number of domains removed by Tranco list: {}\n".format(tranco_removed_domains))
