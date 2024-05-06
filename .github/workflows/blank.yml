@@ -1,0 +1,16 @@
+name: Manual Git Reset
+
+on:
+  workflow_dispatch: # This event triggers the workflow manually
+
+jobs:
+  git_reset:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2 # This action checks out your repository's code
+
+      - name: Git Reset
+        run: git reset 7af2ea70c720e3e986d0c5df3dd9971e41974f1c --hard HEAD # Reset the code to the last commit
+
