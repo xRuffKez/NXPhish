@@ -4,9 +4,9 @@
 ! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 13:36:44
+! Last updated: 2024-05-06 14:38:01
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 40943
+! Number of phishing domains: 40922
 ! Number of NXDOMAIN domains: 0
 ! Number of SERVFAIL domains: 0
 ! Number of domains removed by whitelist: 0
@@ -1254,7 +1254,6 @@
 ||admin-for-sex-offender-and-korean.vercel.app^
 ||admin-ww.webflow.io^
 ||admin.allegros.shop^
-||admin.dasjgntiqf.icu^
 ||admin.takataka.impactscope.com^
 ||admincieueijniwiwieoeikcmnckaqooooeeeencnjc.pages.dev^
 ||admincieueijniwiwieoeikcmnckaqooooeeeencnjcutyrewrtyutrewr.pages.dev^
@@ -5701,7 +5700,6 @@
 ||bobocoin.gift^
 ||bobodoumentsoigne.firebaseapp.com^
 ||bobodoumentsoigne.web.app^
-||bobucard.xyz^
 ||boc-helpline.com^
 ||boc-update.firebaseapp.com^
 ||boc-update.web.app^
@@ -6727,7 +6725,6 @@
 ||cakesswap.com^
 ||cakeswap.link^
 ||cakeudefi.biz^
-||cakeui-dife.com^
 ||cakevalidator.pages.dev^
 ||calalertaveds.firebaseapp.com^
 ||calalertaveds.web.app^
@@ -8225,7 +8222,6 @@
 ||coingecko.work^
 ||coingeckokyc.kycregulatory.com^
 ||coingeclko.com^
-||coingeko.org^
 ||coingeko.pro^
 ||coinibaseeproiologiin.godaddysites.com^
 ||coinindexmarket.com^
@@ -10464,7 +10460,6 @@
 ||develfit.github.io^
 ||developer-sendgridapp.azurefd.net^
 ||developers.aiosniperbot.io^
-||development-your.com^
 ||devfixpanel.com^
 ||devfsa.ims.bankofamerica.com^
 ||deviliposs.web.app^
@@ -11204,7 +11199,6 @@
 ||dsjgfsdjifsdjifsji.web.app^
 ||dsk-financial.com^
 ||dskbank.hexnodemdm.com^
-||dskdirect.xyz^
 ||dskhfvnkrjlkmrnyh.weeblysite.com^
 ||dslmrnfjdf.weebly.com^
 ||dsoazd-dzad-cfdsv-afezf.web.app^
@@ -13154,6 +13148,7 @@
 ||fincapitalbank.com^
 ||finceptorportals.click^
 ||finder001-ogaiyq4p.4everland.app^
+||findminea.shop^
 ||finecoding.com^
 ||finerc.fi^
 ||finflix.me^
@@ -16844,7 +16839,6 @@
 ||ironfish-drop.tech^
 ||ironfish.web3promint.com^
 ||ironpaw.live^
-||ironpickle.com^
 ||irozindia.suth.in^
 ||irrahkar.com^
 ||irreuhiuyerhh.weebly.com^
@@ -21032,7 +21026,6 @@
 ||metamask.io.merge.iluminarenergia.com^
 ||metamask.io.merge.kahfstudio.com^
 ||metamask.io.merge.kejari-halut.go.id^
-||metamask.io.merge.laboratorium.bnn.go.id^
 ||metamask.io.merge.marabuspa.com^
 ||metamask.io.merge.megsteven.com^
 ||metamask.io.merge.midasrastreamento.com.br^
@@ -23727,7 +23720,6 @@
 ||ninemozxuaisa.saki61.workers.dev^
 ||ninimaodmeivnozx.inaara76.workers.dev^
 ||ninjacuptv.com^
-||ninjarena.com^
 ||ninjayuyee.dew4.my.id^
 ||niowalkers-world.com^
 ||nipepe-3d2ee.firebaseapp.com^
@@ -25535,6 +25527,7 @@
 ||pancakeswap92.vercel.app^
 ||pancakeswapbot.com^
 ||pancakeswapclaim.vercel.app^
+||pancakeswapclaim22.vercel.app^
 ||pancakeswapclaim34.vercel.app^
 ||pancakeswapclaim6754.vercel.app^
 ||pancakeswapclaimmdrop.com^
@@ -25895,7 +25888,6 @@
 ||paxfulcoins.com^
 ||paxfulcom-login.priceless-mayer.35-203-61-10.plesk.page^
 ||paxfulcom.page.tl^
-||paxfulcv.com^
 ||paxfulft.com^
 ||paxfullogin.com^
 ||paxfully.com^
@@ -27183,7 +27175,6 @@
 ||poweredproductions.com.au^
 ||powersafeenergia.blogspot.com^
 ||poxso2.webwave.dev^
-||ppaja.com^
 ||ppbentle.com^
 ||ppconnect-web-safegiobai1.subscribemenow.com^
 ||ppczzg.webwave.dev^
@@ -29473,7 +29464,6 @@
 ||rtdb.tenfold.com^
 ||rtfkt-gem.com^
 ||rtfkt-giveaway.com^
-||rtfkt-x-airforce1.com^
 ||rtfkt-x-nikeairforce1-rtfkt.com^
 ||rtfkt.fusionxspace.com^
 ||rtfkt.gifts^
@@ -33025,7 +33015,6 @@
 ||telegram-xc.com^
 ||telegram.2103575.workers.dev^
 ||telegram.acceste.club^
-||telegram.acceste.top^
 ||telegram.auction^
 ||telegram.market^
 ||telegram.one^
@@ -34515,7 +34504,6 @@
 ||tujourslaforcedefrappe.firebaseapp.com^
 ||tujourslaforcedefrappe.web.app^
 ||tuken.im^
-||tulibaba.com^
 ||tulip-app.one^
 ||tulipgarden.netlify.app^
 ||tunahrtjanzak1.firebaseapp.com^
@@ -35876,7 +35864,6 @@
 ||validatebridge.herokuapp.com^
 ||validatechains.pages.dev^
 ||validatedapps.netlify.app^
-||validatelive.com^
 ||validatemailbox-webmail.weebly.com^
 ||validaten0de.pages.dev^
 ||validatenow.org^
@@ -36892,7 +36879,6 @@
 ||wallethd.com^
 ||wallethub.site^
 ||walletico.com^
-||walletinstantfix.org^
 ||walletkeyconnect.square.site^
 ||walletlink-1rh.pages.dev^
 ||walletlink.vercel.app^
@@ -38942,7 +38928,6 @@
 ||www.gyfcsel.cn^
 ||www.gzjxqc.com^
 ||www.habbocreditosparati.blogspot.com^
-||www.haji.specialpvbgm.my.id^
 ||www.hapvidacaruaru.com.br^
 ||www.hapvidarecife.net.br^
 ||www.harmony-bridgee.com^
@@ -39044,7 +39029,6 @@
 ||www.kongyilin.com^
 ||www.koretiondrats.com^
 ||www.kpbbfet.cn^
-||www.kplzqb.cn^
 ||www.kriya-finance.tech^
 ||www.kroift.com^
 ||www.kuclaim.org^
@@ -39162,7 +39146,6 @@
 ||www.microsoftstudentportal.com^
 ||www.migracionjeeves.com^
 ||www.mindedit.org^
-||www.mintsquare.gift^
 ||www.misphits-mint.xyz^
 ||www.mizamedikal.com^
 ||www.mizuhubank.top^
@@ -39373,7 +39356,6 @@
 ||www.pulsechainex.com^
 ||www.pulsechainswap.org^
 ||www.punvwj.cn^
-||www.puyomdg.cn^
 ||www.pveknry.cn^
 ||www.pxrjxlk.cn^
 ||www.qbt.finance^
@@ -39466,7 +39448,6 @@
 ||www.shibaswaap.org^
 ||www.shibaswep.com^
 ||www.shido.top^
-||www.shipment-post-at.apolline-voyance.com^
 ||www.shipment-post-at.zenith-voyance.com^
 ||www.shirtronics.com^
 ||www.shop-click-drive.com^
@@ -39662,7 +39643,6 @@
 ||www.validacionesprestramillasenlinea.headliners.co.za^
 ||www.valsil.com^
 ||www.vatio.cl^
-||www.vdrjqa.cn^
 ||www.velahotels.net^
 ||www.velocemeter.xyz^
 ||www.velocimter.xyz^
@@ -40399,7 +40379,6 @@
 ||ycv38k89wp.fcyz.my.id^
 ||ydbentle.com^
 ||ydjyz.pages.dev^
-||ydn64.com^
 ||ye806m.webwave.dev^
 ||yearn-flnance.blogspot.com^
 ||yearnapp.finance^
