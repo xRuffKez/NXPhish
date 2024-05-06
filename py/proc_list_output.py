@@ -31,6 +31,12 @@ def download_extract_csv(url, destination_folder):
         response.raise_for_status()
         file_name = url.split('/')[-1]
         file_path = os.path.join(destination_folder, file_name)
+        
+        # Check if the file already exists
+        if os.path.exists(file_path):
+            logger.warning("Destination path '%s' already exists", file_path)
+            return True, file_path
+
         with open(file_path, 'wb') as f:
             f.write(response.content)
         
@@ -45,7 +51,7 @@ def download_extract_csv(url, destination_folder):
                     return False, None
                 # Assuming there's only one CSV file, move it to the destination folder
                 extracted_csv_file = os.path.join(destination_folder, extracted_csv_files[0])
-                shutil.move(extracted_csv_file, destination_folder)
+                shutil.move(extracted_csv_file, os.path.join(destination_folder, file_name.split('.')[0] + '.csv'))
         elif file_name.endswith('.csv'):
             # No need to extract CSV file
             pass
