@@ -4,25 +4,25 @@
 ! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 05:14:43
+! Last updated: 2024-05-06 06:14:02
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51626
-! Number of NXDOMAIN domains: 82099
-! Number of SERVFAIL domains: 2007
+! Number of phishing domains: 51605
+! Number of NXDOMAIN domains: 82114
+! Number of SERVFAIL domains: 2013
 ! Number of domains removed by whitelist: 230
 ! Number of domains removed older than 60 days: 0
 ! Number of domains removed by Umbrella list: 57
 ! Number of domains removed by Tranco list: 0
 ! Top 10 abused TLDs:
-! - com: 23351 (55.6%)
-! - dev: 6016 (14.32%)
+! - com: 23341 (55.59%)
+! - dev: 6016 (14.33%)
 ! - app: 4616 (10.99%)
 ! - org: 1969 (4.69%)
-! - io: 1650 (3.93%)
+! - io: 1649 (3.93%)
 ! - net: 1448 (3.45%)
 ! - xyz: 877 (2.09%)
 ! - top: 796 (1.9%)
-! - site: 758 (1.8%)
+! - site: 757 (1.8%)
 ! - me: 520 (1.24%)
 ! Domains removed after 60 days if not re-added through feed.
 
@@ -184,7 +184,6 @@
 ||12indranil.github.io^
 ||1337skulls.netlify.app^
 ||133qwe.bnb6688.top^
-||137-184-141-8.plesk.page^
 ||138-68-99-93.plesk.page^
 ||139-162-46-56.ip.linodeusercontent.com^
 ||13b32fc98g.ru^
@@ -12856,7 +12855,6 @@
 ||connect.kavaxyz.one^
 ||connect.nghire.com^
 ||connect.pancakeswape.finance^
-||connect.t-wallet.recovery.unlock.45-81-232-15.plesk.page^
 ||connect.trunpinu.xyz^
 ||connect.watchkava.xyz^
 ||connect.web3authenticatehub.com^
@@ -19184,7 +19182,6 @@
 ||galiciaseguridad.myportfolio.com^
 ||galin-dot-prefab-research-375022.uk.r.appspot.com^
 ||galla-games-sp.blogspot.com^
-||gallant-brattain.103-26-140-97.plesk.page^
 ||gallery.cc^
 ||gallery.ie^
 ||galletz.com.br^
@@ -21571,7 +21568,6 @@
 ||hushmail.web.app^
 ||hushwall298sp0rty.weebly.com^
 ||hustlers.live^
-||hut39.com^
 ||hutoknepper.de^
 ||huzd1t.webwave.dev^
 ||hv-mtl.lol^
@@ -25197,7 +25193,6 @@
 ||losospl.github.io^
 ||lospepe.fun^
 ||lostpackages-usps.com^
-||lotastak.com^
 ||lottery-sui.com^
 ||lottery.ridottowin.online^
 ||lottomaticabetter.run^
@@ -27349,7 +27344,6 @@
 ||metamask.com.ozantekce.com^
 ||metamask.com.vn^
 ||metamask.community.unlock.45-81-232-16.plesk.page^
-||metamask.confident-gagarin.66-29-130-169.plesk.page^
 ||metamask.dd-dns.de^
 ||metamask.ddnsking.com^
 ||metamask.dedeveloperz.tech^
@@ -32244,7 +32238,6 @@
 ||otsea.gift^
 ||ottoman-yi8c-ez3y.pryuj78f8.workers.dev^
 ||ottos-telegrampage2.pages.dev^
-||ou839.com^
 ||oudslc-docs-4c58.pchgpwahni.workers.dev^
 ||oudusm.com^
 ||ougehesspecaihuyeswev04.pages.dev^
@@ -32821,7 +32814,6 @@
 ||pancakeswap.ecproevents.com^
 ||pancakeswap.epizy.com^
 ||pancakeswap.eu.com^
-||pancakeswap.event.busy-payne.13-78-201-27.plesk.page^
 ||pancakeswap.events^
 ||pancakeswap.fi^
 ||pancakeswap.finance-service-community.45-88-108-231.plesk.page^
@@ -34723,7 +34715,6 @@
 ||polkastarter.space^
 ||polkastarters-spot.com^
 ||polkastratrer.com^
-||polkastrstre.site^
 ||polkasupport.netlify.app^
 ||polkaswap.info^
 ||polkqstarter.com^
@@ -36633,7 +36624,6 @@
 ||recoversupporttt.start.page^
 ||recovery-acounts-2023.start.page^
 ||recovery-fbmeta.start.page^
-||recovery-metamask-io.zen-cohen.141-164-62-92.plesk.page^
 ||recovery-phrase.servehttp.com^
 ||recovery-sistem.start.page^
 ||recoveryportal.pages.dev^
@@ -42535,7 +42525,6 @@
 ||tiaojianjian.com^
 ||tiburon-bitkub.blogspot.com^
 ||ticket.elsumo.xyz^
-||ticket.universalprotocoldapp.io^
 ||tickets-paris24.com^
 ||ticomsoftware.com^
 ||tidal-claims-rewards-erc20.airdrop-holder.com^
@@ -42543,7 +42532,6 @@
 ||tide.co-security.com^
 ||tidex.icu^
 ||tidstock.com^
-||tidwellfirm.com^
 ||tienanhnguyen1307.github.io^
 ||tienda-york.mx^
 ||tiercs2.com^
@@ -42647,7 +42635,6 @@
 ||tjnnea.webwave.dev^
 ||tk49.live^
 ||tk61ir.webwave.dev^
-||tka73.com^
 ||tken.im^
 ||tkiam02.com^
 ||tkk7g1.webwave.dev^
@@ -46999,7 +46986,6 @@
 ||webonsync2.pages.dev^
 ||weborane.hubside.fr^
 ||weborangamoofr.godaddysites.com^
-||webpeddler.com^
 ||webprogo.com^
 ||webqwestofficeteamm.weebly.com^
 ||webreatheeasy.com^
@@ -47249,7 +47235,6 @@
 ||willemstad-escape.webflow.io^
 ||willievisser.com^
 ||willsmithinu.io^
-||wilmingtonhop.com^
 ||wilmse-d767.eoethehorbmnlkntua.workers.dev^
 ||wiltonoption.network^
 ||wilw9399.weebly.com^
@@ -47751,7 +47736,6 @@
 ||wtlbic.webwave.dev^
 ||wtoken-claim.com^
 ||wtokenevent.app^
-||wtp96.com^
 ||wtpkwtqmmt.duckdns.org^
 ||wttwa.weeblysite.com^
 ||wtwirh.webwave.dev^
@@ -48009,7 +47993,6 @@
 ||www-shibawaappp-on.blogspot.com^
 ||www-sit-ofici.blogspot.com^
 ||www-smbc-card-com-rgreuyhfweiofjwef088115.vy276.com^
-||www-smbc-card-com-rgreuyhfweiofjwef08dsdfsdvd.nz836.com^
 ||www-smbc-card-com-rgreuyhfweiofjwef08dwqcc2e2.nz579.com^
 ||www-smbcse-careced-co-jp1smbe.lorentelebeoufwa265.workers.dev^
 ||www-start-ledger.com^
@@ -48160,8 +48143,6 @@
 ||www.anlujifen.com^
 ||www.anyswap.in^
 ||www.aoen.co.jo.2trzlh.cn^
-||www.aoen.co.jo.p0t3wh.cn^
-||www.aoen.co.jo.t3l9pb.cn^
 ||www.aoen.co.jo.ts17og.cn^
 ||www.api.myadmin.1inch.fusiondim.com^
 ||www.api05-collab.com^
@@ -50214,7 +50195,6 @@
 ||www.x2-y2market.pw^
 ||www.xfinitymobile.publicvm.com^
 ||www.xgtqke.cn^
-||www.xgvuwcu.cn^
 ||www.ximlew.com^
 ||www.xiyqkjy.cn^
 ||www.xjdpndx.cn^
@@ -51531,7 +51511,6 @@
 ||zksyncera.info^
 ||zksyncevents.com^
 ||zksyncprotocol.com^
-||zksyncprotocols.com^
 ||zksyncswap.xyz^
 ||zksyncwallet.airdrops.shop^
 ||zksynkpepe.com^
