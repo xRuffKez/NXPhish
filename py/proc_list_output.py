@@ -25,12 +25,19 @@ def load_whitelist_domains():
         logger.error("Failed to load whitelist domains: %s", e)
         return set()
 
-def download_extract_csv(url, destination_folder):
+def download_extract_csv(url, destination_folder, use_cache=True):
+    file_name = url.split('/')[-1]
+    file_path = os.path.join(destination_folder, file_name)
+
+    # Check if the file exists in the cache
+    if use_cache and os.path.exists(file_path):
+        logger.info("Using cached file: %s", file_path)
+        return True, file_path
+
     try:
+        # Attempt to download the file
         response = requests.get(url, allow_redirects=True)
         response.raise_for_status()
-        file_name = url.split('/')[-1]
-        file_path = os.path.join(destination_folder, file_name)
         with open(file_path, 'wb') as f:
             f.write(response.content)
         
@@ -53,6 +60,16 @@ def download_extract_csv(url, destination_folder):
         return True, os.path.join(destination_folder, file_name.split('.')[0] + '.csv')
     except Exception as e:
         logger.error("Failed to download or extract file: %s", e)
+        
+        # If download fails and the file is Umbrella list, try to retrieve the file from the local repository directory
+        if "umbrella" in url:
+            local_file_path = os.path.join('stor', 'umbrella', file_name)
+            if os.path.exists(local_file_path):
+                logger.warning("Using local file from repository: %s", local_file_path)
+                shutil.copy(local_file_path, destination_folder)
+                return True, os.path.join(destination_folder, file_name)
+        
+        # If download and local retrieval fail, return False to indicate failure
         return False, None
 
 def update_phishfeed(workspace):
