@@ -4,9 +4,9 @@
 ! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 13:07:29
+! Last updated: 2024-05-06 13:36:44
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 40956
+! Number of phishing domains: 40943
 ! Number of NXDOMAIN domains: 0
 ! Number of SERVFAIL domains: 0
 ! Number of domains removed by whitelist: 0
@@ -7846,7 +7846,6 @@
 ||cleo-bc3.pages.dev^
 ||cleveradvice.pages.dev^
 ||clibiya.com^
-||clibonanode-select.dev^
 ||click-100651.weeblysite.com^
 ||click.email.e-nike.com.br^
 ||click.message.fruit.com^
@@ -13236,7 +13235,6 @@
 ||fixedfloat-1p0.pages.dev^
 ||fixedfloat-about.com^
 ||fixedfloat-app.com^
-||fixedfloat-original.xyz^
 ||fixedfloat-register.blogspot.com^
 ||fixedfloat.cfd^
 ||fixedfloat.ch^
@@ -17290,7 +17288,6 @@
 ||jsedh.pages.dev^
 ||jsjshb9.dew4.my.id^
 ||jsjt-ins.com^
-||jsjtrading.com^
 ||jsmarketnow.com^
 ||jsrtdw.gceci.xyz^
 ||jss.pages.dev^
@@ -18458,7 +18455,6 @@
 ||lidosteth.com^
 ||lidosteth.org^
 ||lidotoken.events^
-||lidov2finance.xyz^
 ||lieanemsngute.webcindario.com^
 ||lifbit.com^
 ||lifefitnessiran.com^
@@ -20046,7 +20042,6 @@
 ||manualmetarestore.pages.dev^
 ||manualsync.com^
 ||manuta.network^
-||manvta.network^
 ||manxta.network^
 ||manyfaces.net.au^
 ||maocatcoin.pages.dev^
@@ -25913,7 +25908,6 @@
 ||paxfuyl.com^
 ||paxfyl.com^
 ||paxiful.epizy.com^
-||paxos-bounty.com^
 ||paxos-trades.com^
 ||paxos.gift^
 ||paxosbounty.com^
@@ -27342,7 +27336,6 @@
 ||profile-visitors.pages.dev^
 ||profile.classers.shop^
 ||profiles-datings-apps.jimbatreng.workers.dev^
-||profitclaimverify.com^
 ||profsateion-c001250.firebaseapp.com^
 ||profsateion-c001250.web.app^
 ||program7.godaddysites.com^
@@ -29050,7 +29043,6 @@
 ||revshare-palmai.tech^
 ||revshareonline.pages.dev^
 ||revweb3-access.pages.dev^
-||reward-crypto.com^
 ||reward-cyber.firebaseapp.com^
 ||reward-cyberconnect.site^
 ||reward-layerzero.net^
@@ -30090,7 +30082,6 @@
 ||security23.webcindario.com^
 ||securitybangeneral.atsnx.com^
 ||securitycheckeaea.weebly.com^
-||securitymetamask.com^
 ||securityupdatecheck-3736gsfsdaffapqmcyepqdfrnzsetyaidgsdf1.pages.dev^
 ||securnnne880.pages.dev^
 ||securpass-verificationsocgen.fr^
@@ -30421,7 +30412,6 @@
 ||sftyactiveapp10065300in.start.page^
 ||sftyactiveapp1008600in.start.page^
 ||sg-gamesa.com^
-||sg2.tebel.cfd^
 ||sg4.tebel.cfd^
 ||sg5.tebel.cfd^
 ||sgaapparel.com^
@@ -35584,7 +35574,6 @@
 ||uspp.usspab.top^
 ||uspr.us02wr25b8.co^
 ||usps-1cl.pages.dev^
-||usps-8.com^
 ||usps-aincdw.top^
 ||usps-info-sending.com^
 ||usps-ins.com^
@@ -36343,7 +36332,6 @@
 ||vizio.com.ng^
 ||viziostore.com^
 ||vl3r9t.duckdns.org^
-||vladlad.com^
 ||vldeossmessenger.bhskkr.my.id^
 ||vlodsad.firebaseapp.com^
 ||vlodsad.web.app^
@@ -38273,7 +38261,6 @@
 ||wwvv-i-am-shiba-com.blogspot.com^
 ||wwvv-magic-eden-i.blogspot.com^
 ||www-1inch-web3.com^
-||www-1inch.com^
 ||www-academique-fr.hubside.fr^
 ||www-access-bitfinex-site.blogspot.com^
 ||www-access-bitkub-conta-digital.blogspot.com^
@@ -38483,7 +38470,6 @@
 ||www.ahdssolar.com^
 ||www.ahikec.com^
 ||www.ahleebank.psf-store.net^
-||www.ahsguyr.cn^
 ||www.ahtuar.com^
 ||www.aidadx.com^
 ||www.ailavieasso.net^
@@ -39064,6 +39050,7 @@
 ||www.kuclaim.org^
 ||www.kucoin.cloud^
 ||www.kumelt.com^
+||www.kureward.com^
 ||www.kyetherwallet.com^
 ||www.kz0qug.cn^
 ||www.l7dex.com^
@@ -39758,7 +39745,6 @@
 ||www.wxhjic.cn^
 ||www.wxpuzi.cn^
 ||www.wzbbtsd.cn^
-||www.wzgvd.cn^
 ||www.wzlja.cn^
 ||www.x-swap.link^
 ||www.ximlew.com^
@@ -39979,6 +39965,7 @@
 ||xfinity176.godaddysites.com^
 ||xfinity247.weebly.com^
 ||xfinityhfkfdjhmailer.weebly.com^
+||xfinitymobile.publicvm.com^
 ||xflnlty-bb3969.webflow.io^
 ||xfpnljb.cn^
 ||xfreecrypto.blogspot.co.nz^
