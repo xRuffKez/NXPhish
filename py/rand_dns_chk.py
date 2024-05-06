@@ -23,6 +23,9 @@ async def resolve_domains(domains):
         except dns.resolver.NXDOMAIN:
             results[domain] = "NXDOMAIN"
             logging.debug(f"Resolved {domain}: NXDOMAIN")
+        except dns.resolver.NoNameservers:
+            results[domain] = "SERVFAIL"
+            logging.debug(f"Resolved {domain}: SERVFAIL - No nameservers available")
         except (dns.resolver.NoAnswer, dns.resolver.Timeout) as ex:
             try:
                 response = resolver_google.resolve(domain)
