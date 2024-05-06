@@ -204,10 +204,11 @@ def write_output_file(output_path, phishing_domains, all_domains, umbrella_domai
         output_file.write("! Number of phishing domains: {}\n".format(len(phishing_domains)))
         output_file.write("! Number of NXDOMAIN domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'NXDOMAIN'])))
         output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
-        output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(umbrella_domains | tranco_domains))))
+        output_file.write("! Number of domains matched and removed by whitelist:\n")
+        output_file.write("! - Umbrella: {}\n".format(len(umbrella_domains)))
+        output_file.write("! - Tranco: {}\n".format(len(tranco_domains)))
+        output_file.write("! - Hagezi Shortener: {}\n".format(len(whitelist_domains.intersection(umbrella_domains | tranco_domains))))
         output_file.write("! Number of domains removed older than 60 days: {}\n".format(len([row[0] for row in all_domains if row[1] == 'REMOVED'])))
-        output_file.write("! Number of domains removed by Umbrella list: {}\n".format(len(umbrella_domains)))
-        output_file.write("! Number of domains removed by Tranco list: {}\n".format(len(tranco_domains)))
         output_file.write("\n")
 
         for domain in phishing_domains:
