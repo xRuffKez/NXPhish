@@ -57,4 +57,3 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
             https://api.github.com/repos/${{ github.repository_owner }}/${{ github.event.repository.name }}/actions/workflows/phishfort.yml/dispatches \
             -d '{"ref":"main"}'
-ef":"main"}'
