@@ -13,7 +13,7 @@ jobs:
 
       - name: Git Reset
         run: |
-          git reset --hard 793fb85 # Reset to commit hash '793fb85'
+          git revert HEAD~15..HEAD
 
       - name: Wait for manual intervention
         uses: jakejarvis/wait-action@master # This action waits for manual intervention
