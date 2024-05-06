@@ -150,8 +150,8 @@ def update_phishfeed(workspace):
                                     except Exception as e:
                                         logger.error("Error resolving domain %s with Google DNS: %s", domain, e)
                                         status = "SERVFAIL"
-                                except dns.resolver.FormError:
-                                    logger.error("DNS FormError resolving domain %s", domain)
+                                except dns.resolver.NoAnswer:
+                                    logger.error("DNS NoAnswer resolving domain %s", domain)
                                     status = "SERVFAIL"
                                 except dns.resolver.NXDOMAIN:
                                     status = "NXDOMAIN"
