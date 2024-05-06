@@ -48,7 +48,7 @@ async def update_dns_status():
 
     with sqlite3.connect(db_path) as conn:
         cursor = conn.cursor()
-        cursor.execute("SELECT domain FROM domains WHERE status = 'OK' ORDER BY RANDOM() LIMIT 1000")
+        cursor.execute("SELECT domain FROM domains WHERE status = 'OK' ORDER BY RANDOM() LIMIT 5000")
         domains_to_check = [row[0] for row in cursor.fetchall()]
 
     # Split domains into chunks for parallel resolution
