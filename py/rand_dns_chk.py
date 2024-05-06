@@ -1,7 +1,11 @@
 import sqlite3
 import dns.resolver
 import asyncio
+import logging
 from datetime import datetime, timedelta
+
+# Set up logging configuration
+logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Initialize DNS resolvers
 resolver_custom = dns.resolver.Resolver()
@@ -15,21 +19,27 @@ async def resolve_domains(domains):
         try:
             response = resolver_custom.resolve(domain)
             results[domain] = "OK"
+            logging.debug(f"Resolved {domain}: OK")
         except dns.resolver.NXDOMAIN:
             results[domain] = "NXDOMAIN"
-        except (dns.resolver.NoAnswer, dns.resolver.Timeout):
+            logging.debug(f"Resolved {domain}: NXDOMAIN")
+        except (dns.resolver.NoAnswer, dns.resolver.Timeout) as ex:
             try:
                 response = resolver_google.resolve(domain)
                 results[domain] = "OK"
-            except (dns.resolver.Timeout, dns.resolver.NoAnswer):
+                logging.debug(f"Resolved {domain}: OK")
+            except (dns.resolver.Timeout, dns.resolver.NoAnswer) as ex:
                 results[domain] = "SERVFAIL"
-            except dns.resolver.NXDOMAIN:
+                logging.debug(f"Resolved {domain}: SERVFAIL - {ex}")
+            except dns.resolver.NXDOMAIN as ex:
                 results[domain] = "NXDOMAIN"
+                logging.debug(f"Resolved {domain}: NXDOMAIN - {ex}")
         except Exception as e:
             results[domain] = "SERVFAIL"
+            logging.exception(f"Resolved {domain}: SERVFAIL - {e}")
     return results
 
-async def update_dns_status(verbose=True):
+async def update_dns_status():
     db_path = "stor/cache.db"
     max_age = datetime.now() - timedelta(days=60)
 
@@ -55,8 +65,8 @@ async def update_dns_status(verbose=True):
             cursor.executemany("UPDATE domains SET status=? WHERE domain=?", updated_domains)
             conn.commit()
 
-def main():
-    asyncio.run(update_dns_status())
+async def main():
+    await update_dns_status()
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
