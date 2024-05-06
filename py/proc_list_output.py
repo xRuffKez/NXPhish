@@ -59,6 +59,7 @@ def update_phishfeed(workspace):
     umbrella_zip_path = download_file(umbrella_csv_url, workspace)
     if umbrella_zip_path:
         extract_zip(umbrella_zip_path, workspace)
+        umbrella_csv_file_path = os.path.join(workspace, "top-1m.csv")
         os.remove(umbrella_zip_path)
     else:
         return
@@ -68,12 +69,12 @@ def update_phishfeed(workspace):
     tranco_zip_path = download_file(tranco_csv_url, workspace)
     if tranco_zip_path:
         extract_zip(tranco_zip_path, workspace)
+        tranco_csv_file_path = os.path.join(workspace, "top-1m.csv")
         os.remove(tranco_zip_path)
     else:
         return
 
     # Process Umbrella CSV
-    umbrella_csv_file_path = os.path.join(workspace, "top-1m.csv")
     try:
         with open(umbrella_csv_file_path, 'r') as csvfile:
             csv_reader = csv.reader(csvfile)
@@ -83,7 +84,6 @@ def update_phishfeed(workspace):
         return
 
     # Process Tranco CSV
-    tranco_csv_file_path = os.path.join(workspace, "top-1m.csv")
     try:
         with open(tranco_csv_file_path, 'r') as csvfile:
             csv_reader = csv.reader(csvfile)
