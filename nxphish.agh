@@ -4,23 +4,23 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-05 23:54:57
+! Last updated: 2024-05-06 00:11:11
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51623
+! Number of phishing domains: 51693
 ! Number of NXDOMAIN domains: 82046
-! Number of SERVFAIL domains: 1929
+! Number of SERVFAIL domains: 1930
 ! Number of domains removed by whitelist: 233
 ! Top 10 abused TLDs:
-! - com: 23361 (55.66%)
-! - dev: 6011 (14.32%)
-! - app: 4618 (11.0%)
-! - org: 1931 (4.6%)
-! - io: 1647 (3.92%)
-! - net: 1450 (3.45%)
-! - xyz: 879 (2.09%)
+! - com: 23385 (55.66%)
+! - dev: 6019 (14.33%)
+! - app: 4619 (10.99%)
+! - org: 1932 (4.6%)
+! - io: 1651 (3.93%)
+! - net: 1452 (3.46%)
+! - xyz: 880 (2.09%)
 ! - top: 799 (1.9%)
-! - site: 756 (1.8%)
-! - me: 517 (1.23%)
+! - site: 757 (1.8%)
+! - me: 520 (1.24%)
 ! Domains removed after 60 days if not re-added through feed.
 
 ||00-ird.weebly.com^
@@ -465,6 +465,7 @@
 ||25inifilie.firebaseapp.com^
 ||25inifilie.web.app^
 ||25j0.cc^
+||261388.sireneharb.com^
 ||2623233ez2ojk8yw56vh.hr70g.ru^
 ||26357.pages.dev^
 ||266lni.duckdns.org^
@@ -546,6 +547,7 @@
 ||3365cad5-455b-4ed0-a944-2b9bd0191501.htmlpasta.com^
 ||338465.kossuthneedshousing.com^
 ||33b6bfc0.4179b8e9601e93865902334b.workers.dev^
+||34142.kellyhuddleston.com^
 ||342sogo.weebly.com^
 ||344erte634rt44434tet43rt45446-profile-update-unitedairline.pages.dev^
 ||345654333.weebly.com^
@@ -593,6 +595,7 @@
 ||3denergysolution.com^
 ||3dq7v8.duckdns.org^
 ||3ebank.github.io^
+||3ert41w.fdse.club^
 ||3f4813b3-5cfb-4a7a-8fcb-7b9ed4dd8395-00-2btsrssvd10b4.janeway.replit.dev^
 ||3f5t2lg42.duckdns.org^
 ||3gdo62ohovbw0tj.www.www.amazon.wiki.pancakeswape.finance^
@@ -1061,6 +1064,7 @@
 ||8lements.xyz^
 ||8mc07mwu.duckdns.org^
 ||8mpcg2j.duckdns.org^
+||8ng.013.mytemp.website^
 ||8nmnhu.duckdns.org^
 ||8npr3ug.duckdns.org^
 ||8ohgn85.duckdns.org^
@@ -2137,6 +2141,7 @@
 ||airdrop-lido.web.app^
 ||airdrop-looksrare.com^
 ||airdrop-magiceden.com^
+||airdrop-manta-918.pages.dev^
 ||airdrop-mantaa.pages.dev^
 ||airdrop-mantachain.com^
 ||airdrop-mantachain.net^
@@ -2607,6 +2612,7 @@
 ||altsidentifier.com^
 ||altsignal-connect.com^
 ||alturainvitational.com^
+||altwayiba.com^
 ||aluminatelife-ct6.pages.dev^
 ||aluminiosmendoza.cl^
 ||alusd.xyz^
@@ -2826,6 +2832,7 @@
 ||anti-roboter-dc7a9.web.app^
 ||anti-universe.web3-airdrop.net^
 ||anticybercrimelicence.org^
+||antique-phones.com^
 ||antiquewhite-mole-944743.builder-preview.com^
 ||antoine-gonthier.firebaseapp.com^
 ||antoine-gonthier.web.app^
@@ -5833,6 +5840,7 @@
 ||b0e38f0c.af35864968d60dcc7692bc3f.workers.dev^
 ||b0j3dz9.cn^
 ||b0mbecrypt0.com^
+||b0nh7sdc.xzf.my.id^
 ||b0y3rq.csb.app^
 ||b0yr4nf12c.fcyz.my.id^
 ||b1-wh6.webcindario.com^
@@ -8060,6 +8068,7 @@
 ||bancobs2empresas.web.app^
 ||bancogeneral21.webcindario.com^
 ||bancolombia-d.firebaseapp.com^
+||bancolombia-dinamica-web1.brizy.site^
 ||bancolombia-ds.firebaseapp.com^
 ||bancolombia-lr.firebaseapp.com^
 ||bancolombia-lr.web.app^
@@ -9328,6 +9337,7 @@
 ||bnttcompany.com^
 ||bnvnbvbn.pages.dev^
 ||bnvxhjdghdg.pages.dev^
+||bnw-2fu.pages.dev^
 ||bnxqda.duckdns.org^
 ||bo-buzz.pages.dev^
 ||bo-re-techtty.weebly.com^
@@ -9757,6 +9767,7 @@
 ||bt-101039.weeblysite.com^
 ||bt-101089.weeblysite.com^
 ||bt-101102.square.site^
+||bt-101281-109546.weeblysite.com^
 ||bt-101306.weeblysite.com^
 ||bt-101314.weeblysite.com^
 ||bt-101358.weeblysite.com^
@@ -11318,6 +11329,7 @@
 ||chat.convercatioon.workers.dev^
 ||chat.dattings-auth.workers.dev^
 ||chat.dattings-our.workers.dev^
+||chat.deaworkshop.co.uk^
 ||chats.media-love.workers.dev^
 ||chats.ourtiime-cdn.workers.dev^
 ||chatsistant.com^
@@ -12008,6 +12020,7 @@
 ||cloudd-9bd4.endaonyadn.workers.dev^
 ||cloudde-e0e7.samariakurtz.workers.dev^
 ||cloude-15e5.karsonjacobsen.workers.dev^
+||cloude-dd47.aeancsesekhi.workers.dev^
 ||cloudflare-32l.pages.dev^
 ||cloudflare-cdn.moli-cdn.workers.dev^
 ||cloudflare-colinbese-nft.com^
@@ -12057,6 +12070,7 @@
 ||cmegroupsg.pages.dev^
 ||cmetask.com^
 ||cmilej.webwave.dev^
+||cminashendbfjg.weebly.com^
 ||cmiux.com^
 ||cmk.pages.dev^
 ||cmkgracedvne.firebaseapp.com^
@@ -12263,6 +12277,7 @@
 ||coinbasehelp.com^
 ||coinbaseid-verify001.dns04.com^
 ||coinbaseinvest.finance.blog^
+||coinbasejslogines.azurewebsites.net^
 ||coinbaselogiin.blogspot.co.za^
 ||coinbaselogin.com.ru^
 ||coinbaseloni.azurewebsites.net^
@@ -12476,6 +12491,7 @@
 ||coioiobasseprologi.godaddysites.com^
 ||coirnmarketcap.com^
 ||cojdzupjia.duckdns.org^
+||col.vvg.mybluehost.me^
 ||colab-land-secure.github.io^
 ||colatraining.com^
 ||colchoesma.blogspot.com^
@@ -13211,6 +13227,7 @@
 ||credifinanciera.didacsis.com^
 ||credit-agricole6.firebaseapp.com^
 ||credit-agricole6.web.app^
+||creditagricole-asia.com^
 ||creditdunord-session.firebaseapp.com^
 ||credithaolk32.blogspot.com^
 ||creditoagricola-pt.online^
@@ -15295,6 +15312,7 @@
 ||djbru3md.dgwt.my.id^
 ||djdgsksjjbtinter.weebly.com^
 ||djdjjdj33838.cvcv.my.id^
+||djduejd.wixsite.com^
 ||djfjfjfsffjfi.weebly.com^
 ||djh3iy.ktt55.my.id^
 ||djh3qn.ktt55.my.id^
@@ -17627,6 +17645,7 @@
 ||extnsion.mteamask.co^
 ||extradery.com^
 ||extranetaritmos.com^
+||extxtranet-63261.com^
 ||exvlhbjik.firebaseapp.com^
 ||exvlhbjik.web.app^
 ||exxgo.weebly.com^
@@ -18724,6 +18743,7 @@
 ||frhb82845flex.ikexpress.com^
 ||friend-tech.cx^
 ||friend-tech.life^
+||friendcafeforever.blogspot.sn^
 ||friendl.tech^
 ||friendltech.com^
 ||friendtech.app^
@@ -19229,6 +19249,9 @@
 ||garena20242.blogspot.com^
 ||garena20242.blogspot.hr^
 ||garena20242.blogspot.si^
+||garenafreefireoficialwebsite.blogspot.com^
+||garenafreefireoficialwebsite.blogspot.mk^
+||garenafreefireoficialwebsite.blogspot.sn^
 ||garenasendph.weebly.com^
 ||garenathenap.vn^
 ||garfc.pages.dev^
@@ -20333,6 +20356,7 @@
 ||harmonyonebridge.com^
 ||haroldreed.com^
 ||harper-construcution.myportfolio.com^
+||harrisonbrass.com^
 ||harsh-rathod7104.github.io^
 ||harshalvp.github.io^
 ||harshavardhan-wizard.github.io^
@@ -21251,6 +21275,7 @@
 ||hook.contact^
 ||hooplsshko.pages.dev^
 ||hoorainz.com^
+||hoosierwarriorcoffeemarianaquin.org^
 ||hootcms.s3.ap-south-1.amazonaws.com^
 ||hop-bridge.xyz^
 ||hop-exchange.cn.com^
@@ -21397,6 +21422,11 @@
 ||hotsitefidelidade.blogspot.com^
 ||hotsshoess.com^
 ||hotvideos18xxx.org^
+||hotvideoustiktok2021.blogspot.bg^
+||hotvideoustiktok2021.blogspot.co.il^
+||hotvideoustiktok2021.blogspot.com.es^
+||hotvideoustiktok2021.blogspot.li^
+||hotvideoustiktok2021.blogspot.sn^
 ||houdini.web3-airdrop.net^
 ||houjk.weeblysite.com^
 ||hounfours.com^
@@ -21490,6 +21520,7 @@
 ||httpssportybetonlineadderapk0.weebly.com^
 ||httpsupdatingserverdomainswwqqhkshdjajdhnsxxzz.pages.dev^
 ||httpswwwattcomacctmgmtprofileoverviewwtextndsourcemailaccounti.weeblysite.com^
+||httpverfi-cecompte-buro-wbemai-id-retrunsectionusl-inboxwhct.usluga.me^
 ||htw5bh.webwave.dev^
 ||hty-fv.web.app^
 ||htyjjhyncjsjcjnchdyffd.weebly.com^
@@ -22890,6 +22921,7 @@
 ||join-lidofinance.com^
 ||join-lz0.com^
 ||join-mute.io^
+||join-mywhatsapp-2sa.pages.dev^
 ||join-nocturnes.xyz^
 ||join-opti.com^
 ||join-optimism.info^
@@ -23024,6 +23056,7 @@
 ||jumsedfj.weebly.com^
 ||jun0secure.weebly.com^
 ||jundoc-sunset-a630.trumneannmseretan.workers.dev^
+||june1st.net^
 ||junebueragri.firebaseapp.com^
 ||junebueragri.web.app^
 ||junecoinsx2.blogspot.com^
@@ -23184,6 +23217,7 @@
 ||jvn.pages.dev^
 ||jvt05f.webwave.dev^
 ||jvv7dv.dew4.my.id^
+||jwattier07.wixsite.com^
 ||jwllogic.com^
 ||jwsco.pro^
 ||jxmdrxlmjjcordmaildocumenmontaxclmjdlbcmwerwebsupport.pages.dev^
@@ -23749,6 +23783,7 @@
 ||kycverify8-com.us.stackstaging.com^
 ||kyderswap.top^
 ||kyhgmks.com^
+||kyl.bsd.mybluehost.me^
 ||kyle-greens-radical-site.webflow.io^
 ||kynfubg.com^
 ||kynfubw.com^
@@ -26140,6 +26175,7 @@
 ||manta-claims.xyz^
 ||manta-click.vercel.app^
 ||manta-clicksclaim.vercel.app^
+||manta-drop.pages.dev^
 ||manta-eiu.pages.dev^
 ||manta-events.com^
 ||manta-evm.pages.dev^
@@ -30098,6 +30134,9 @@
 ||mzetamhask-loqcgin.godaddysites.com^
 ||mzposlstele.firebaseapp.com^
 ||mzposlstele.web.app^
+||n-wwspottrise.blogspot.com^
+||n-wwspottrise.blogspot.mk^
+||n-wwspottrise.blogspot.sn^
 ||n1og74.webwave.dev^
 ||n2mafl630.ukit.me^
 ||n3i3kl.webwave.dev^
@@ -30120,6 +30159,7 @@
 ||nabla-finance-week4testnetlive.vercel.app^
 ||nacky.vercel.app^
 ||naeuat-14a3.ienainhslfcenoefa.workers.dev^
+||nagasaisambhana.github.io^
 ||nahreu-40d0.elkmeamnocr.workers.dev^
 ||naitikhoriya1.github.io^
 ||naiveuae.firebaseapp.com^
@@ -30433,6 +30473,8 @@
 ||new-cointracker-in.pages.dev^
 ||new-currently-1-23-24.weeblysite.com^
 ||new-currently-1-27-24.weeblysite.com^
+||new-estne-flix.blogspot.com^
+||new-estne-flix.blogspot.my^
 ||new-info.webflow.io^
 ||new-interface.netlify.app^
 ||new-join.github.io^
@@ -31136,6 +31178,7 @@
 ||nw6.us^
 ||nwe0s.radonpa.com^
 ||nwfsbcx.duckdns.org^
+||nwgruppronhub.nwgrup.my.id^
 ||nwgruppubgnnw.ourhobby.com^
 ||nwgrupsxporn.otzo.com^
 ||nwstate.vercel.app^
@@ -34385,6 +34428,7 @@
 ||piqz57.duckdns.org^
 ||pira.pages.dev^
 ||pirate-nation.xyz^
+||pireszzzzz.github.io^
 ||pispealn.firebaseapp.com^
 ||pispealn.web.app^
 ||piv-cfe.pages.dev^
@@ -34415,6 +34459,7 @@
 ||piyushkumar24.github.io^
 ||piyushtyagiofficial.github.io^
 ||pizon.in^
+||pizza-cardinale.com^
 ||pj-gerenciamento-cx.blogspot.com^
 ||pj6zoqrs3.duckdns.org^
 ||pj7v8v.webwave.dev^
@@ -34553,6 +34598,7 @@
 ||pnp7-redeem22.netlify.app^
 ||pnplifeisgood9754-f5602b.netlify.app^
 ||pnpsmart-shopperspoints-reward6000.netlify.app^
+||pnsahu94.github.io^
 ||pnt.go.th^
 ||pntiumallet.godaddysites.com^
 ||pntom-wallet.github.io^
@@ -35019,6 +35065,7 @@
 ||postmesterpr.web.app^
 ||postnet-operate.com^
 ||postoffice-co-za.web.app^
+||postrceive.xyz^
 ||postsikei.top^
 ||posttech.fi^
 ||posturinn-9e8.firebaseapp.com^
@@ -35551,6 +35598,7 @@
 ||pub-65810deb44054180bb55f4f4d29d5339.r2.dev^
 ||pub-6808fc2d4e1b46a784bfa17b251af8f7.r2.dev^
 ||pub-6822434d132849e99478186a07e8d67c.r2.dev^
+||pub-682ad3b65d944376b919745aae3c56d4.r2.dev^
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-6c6b66073e5843e6a1e7c0061c08bfa0.r2.dev^
 ||pub-6e033196a6c04e96b6b1ba720cc1a30c.r2.dev^
@@ -35638,6 +35686,7 @@
 ||pub-cb72691642c444eb900a44aa1d8a7107.r2.dev^
 ||pub-cd18447ae7fc44a283955e5c78d52c85.r2.dev^
 ||pub-ce5a5ccd63af4c588d315685ef307aad.r2.dev^
+||pub-cfed504c29ce4abfb436fd9297bceb4e.r2.dev^
 ||pub-d0a002d03d4d4468a1a3a4788d44d971.r2.dev^
 ||pub-d0fc3c9961d84ec58d6610d910546d21.r2.dev^
 ||pub-d172ccfab50c4eb3b25bcfe4c60bd498.r2.dev^
@@ -36852,6 +36901,7 @@
 ||remove-fan-page-violation.replit.app^
 ||remove-issue-view.pages.dev^
 ||remove-violation-appeal-here.vercel.app^
+||remove-violation-instantly.replit.app^
 ||remove-violation-request-help-center.glitch.me^
 ||rend.igital.live^
 ||render.gift^
@@ -40227,6 +40277,7 @@
 ||sru.wyd.mybluehost.me^
 ||sruopennsylvania.ukit.me^
 ||srv01.pancakeswape.finance^
+||srv69476.seohost.com.pl^
 ||srvcs-01846745456.start.page^
 ||srvr-ssomailcloud-r0y34t34t4g.pages.dev^
 ||srvrmailsso-r6575e65.pages.dev^
@@ -40509,6 +40560,7 @@
 ||steamconmnunity.com^
 ||steamconnuniity.ru^
 ||steamcornrnuninty.ru^
+||steamcsgo.vipcentr.ru^
 ||steamdesktopauthenticator.me^
 ||steamgames.in^
 ||steamnocomrnunity.com^
@@ -41459,6 +41511,8 @@
 ||t6f0zd.duckdns.org^
 ||t7jpy7kfd.duckdns.org^
 ||t7n8g.s3o98.com^
+||t7ya-milanoshopiyf.blogspot.com^
+||t7ya-milanoshopiyf.blogspot.sn^
 ||t894ycn5y739454cn437nncj3dbkjw0934document-sharepoint.pages.dev^
 ||t8hhn9.webwave.dev^
 ||t94pk.blogspot.com^
@@ -41658,6 +41712,7 @@
 ||telegram-com-zhcn.pages.dev^
 ||telegram-gods.net^
 ||telegram-hb.org^
+||telegram-tt-koval-dev.pages.dev^
 ||telegram-ut.com^
 ||telegram-web.pages.dev^
 ||telegram-wf.com^
@@ -41678,6 +41733,7 @@
 ||telegram.webbaa.club^
 ||telegram.webccb.ren^
 ||telegram.webcsc.ren^
+||telegram.webcts.wang^
 ||telegram.webtctg.club^
 ||telegram.webteg.top^
 ||telegram.webtgap.top^
@@ -41708,6 +41764,7 @@
 ||telegrcmd.com^
 ||telegrcmo.com^
 ||telegrdmt.com^
+||telegreinn.club^
 ||telegreinn.work^
 ||telegrem-a.com^
 ||telegrem-f.com^
@@ -42728,6 +42785,7 @@
 ||tokenpocket-tpemo.com^
 ||tokenpocket-tperm.com^
 ||tokenpocket-tpmko.com^
+||tokenpocket-tpner.com^
 ||tokenpocket-tpomb.com^
 ||tokenpocket-tpumo.net^
 ||tokenpocket.net.cn^
@@ -42946,6 +43004,7 @@
 ||tpe-store.pancakeswape.finance^
 ||tpgcapitalrul.com^
 ||tpgsnesbv763ty.weebly.com^
+||tpkkn.com^
 ||tplgbykeba.duckdns.org^
 ||tpnkeeper.com^
 ||tpoken.im^
@@ -43411,6 +43470,7 @@
 ||tujourslaforcedefrappe.firebaseapp.com^
 ||tujourslaforcedefrappe.web.app^
 ||tuken.im^
+||tulibaba.com^
 ||tulip-app.one^
 ||tulipgarden.netlify.app^
 ||tunahrtjanzak1.firebaseapp.com^
@@ -43708,7 +43768,6 @@
 ||unapatches.com^
 ||unblock.pancakeswaapfinance.net^
 ||unblockedaccount.b0tnet.com^
-||unby4ekgd.duckdns.org^
 ||unclaimeddrops.link-claiming.xyz^
 ||unconfirmed-transactions.pages.dev^
 ||uncruise-4d1.pages.dev^
@@ -44099,6 +44158,7 @@
 ||unsual-wellsfargo-bank.duckdns.org^
 ||unswapp.org^
 ||unukf8.webwave.dev^
+||unusualaccountcnfrmpages.github.io^
 ||unusualaccountrestricted90.github.io^
 ||unvest.xyz^
 ||unwieldyprevailingtexts--edgardomartine2.repl.co^
@@ -47817,6 +47877,7 @@
 ||wwesteringlow.firebaseapp.com^
 ||wwesteringlow.web.app^
 ||wwewrestlers.com^
+||wwfeng.com^
 ||wwjlddllzy.pages.dev^
 ||wwline-bitku6.blogspot.com^
 ||wwooldebrhfjg.weebly.com^
@@ -48403,6 +48464,7 @@
 ||www.clients-407etr.com^
 ||www.clients.roboteight.com^
 ||www.cloud-telephonie.net^
+||www.clubedalivelo.com^
 ||www.cmbtcmgj.com^
 ||www.cmifror.cn^
 ||www.cnqianghao.com^
@@ -48958,6 +49020,7 @@
 ||www.localcrypto.cloud^
 ||www.localcryptoswap.com^
 ||www.localethereum.com.support-ticket-report.com^
+||www.locarbcris.com^
 ||www.login-blockchain.com.ohelpc.com^
 ||www.login-support.us^
 ||www.login.coinbase.com-src.cgi-bin.colnbase.site^
@@ -49877,6 +49940,7 @@
 ||www.sqkufy.com^
 ||www.sqrhpva.cn^
 ||www.srv01.pancakeswape.finance^
+||www.srv69476.seohost.com.pl^
 ||www.ssuii-home.com^
 ||www.staging.chat.login.fixedfloat.pw^
 ||www.staging.home.hostmaster.coingecko.hatsuqat.com^
@@ -49959,6 +50023,7 @@
 ||www.theryanmccurdy.com^
 ||www.thompsonestateathletics.com.au^
 ||www.threads-coin.net^
+||www.tinyfashion.cn^
 ||www.tkbatz.cn^
 ||www.tlcbcp.app^
 ||www.tnstjs.cn^
@@ -50094,6 +50159,7 @@
 ||www.virtualsafetysolutions.net^
 ||www.vivinowine.shop^
 ||www.viziosetup.com^
+||www.vjdisplay.com.cn^
 ||www.vkdlxb.cn^
 ||www.vlaunch.org^
 ||www.vljckte.cn^
@@ -50204,6 +50270,7 @@
 ||www.wzlja.cn^
 ||www.x-swap.link^
 ||www.x2-y2market.pw^
+||www.xfinitymobile.publicvm.com^
 ||www.xgtqke.cn^
 ||www.xgvuwcu.cn^
 ||www.ximlew.com^
@@ -50470,6 +50537,7 @@
 ||xfinity176.godaddysites.com^
 ||xfinity247.weebly.com^
 ||xfinityhfkfdjhmailer.weebly.com^
+||xfinitymobile.publicvm.com^
 ||xflnlty-bb3969.webflow.io^
 ||xfpnljb.cn^
 ||xfreecrypto.blogspot.co.nz^
@@ -50850,6 +50918,7 @@
 ||y9n2erts.xzf.my.id^
 ||y9nrdf5yb.duckdns.org^
 ||ya-gala-app-games.blogspot.com^
+||yabatechunevoc.org^
 ||yah.bolmogumlo.workers.dev^
 ||yah0o.comm-ap.workers.dev^
 ||yahhaooservciteam.bifyibikke.workers.dev^
@@ -51608,6 +51677,7 @@
 ||zuui79.csb.app^
 ||zuwaentertainment.co.uk^
 ||zv6f10.webwave.dev^
+||zverinova-kucharka.cz^
 ||zvfdethr.pages.dev^
 ||zvlenq.webwave.dev^
 ||zvsqnivqru.duckdns.org^
