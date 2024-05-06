@@ -131,35 +131,37 @@ def update_phishfeed(workspace):
                             cursor.execute("SELECT domain, status FROM domains WHERE domain=?", (domain,))
                             existing_domain = cursor.fetchone()
                             if existing_domain is None or existing_domain[1] != 'OK':
-                                try:
-                                    response = resolver.resolve(domain)
-                                    status = "OK"
-                                except dns.resolver.Timeout:
+                                if domain not in whitelist_domains:
                                     try:
-                                        resolver_google = dns.resolver.Resolver()
-                                        resolver_google.nameservers = ['8.8.8.8', '8.8.4.4']
-                                        response_google = resolver_google.resolve(domain)
-                                        if response_google.response.rcode() == dns.rcode.NXDOMAIN:
-                                            status = "NXDOMAIN"
-                                        else:
-                                            status = "OK"
+                                        response = resolver.resolve(domain)
+                                        status = "OK"
+                                    except dns.resolver.Timeout:
+                                        try:
+                                            resolver_google = dns.resolver.Resolver()
+                                            resolver_google.nameservers = ['8.8.8.8', '8.8.4.4']
+                                            response_google = resolver_google.resolve(domain)
+                                            if response_google.response.rcode() == dns.rcode.NXDOMAIN:
+                                                status = "NXDOMAIN"
+                                            else:
+                                                status = "OK"
+                                        except Exception as e:
+                                            logger.error("Error resolving domain %s with Google DNS: %s", domain, e)
+                                            status = "SERVFAIL"
+                                    except dns.resolver.NXDOMAIN:
+                                        status = "NXDOMAIN"
                                     except Exception as e:
-                                        logger.error("Error resolving domain %s with Google DNS: %s", domain, e)
+                                        logger.error("Error resolving domain %s: %s", domain, e)
                                         status = "SERVFAIL"
-                                except dns.resolver.NXDOMAIN:
-                                    status = "NXDOMAIN"
-                                except Exception as e:
-                                    logger.error("Error resolving domain %s: %s", domain, e)
-                                    status = "SERVFAIL"
-                                current_time = datetime.now().isoformat()
-                                cursor.execute("INSERT OR IGNORE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
+                                    current_time = datetime.now().isoformat()
+                                    cursor.execute("INSERT OR IGNORE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
             cursor.execute("UPDATE domains SET status='REMOVED' WHERE last_seen < ? AND status != 'OK'", (max_age.isoformat(),))
+            cursor.execute("UPDATE domains SET status='WHITELIST' WHERE domain IN (SELECT domain FROM domains WHERE status = 'REMOVED')")
             cursor.execute("COMMIT")
             conn.commit()
 
             cursor.execute("SELECT domain, status FROM domains ORDER BY domain")
             all_domains = cursor.fetchall()
-            phishing_domains = [row[0] for row in all_domains if row[1] != 'NXDOMAIN' and row[1] != 'SERVFAIL']
+            phishing_domains = [row[0] for row in all_domains if row[1] != 'NXDOMAIN' and row[1] != 'SERVFAIL' and row[1] != 'WHITELIST']
 
             # Remove domains containing parts of Umbrella and Tranco domains
             phishing_domains = [domain for domain in phishing_domains
