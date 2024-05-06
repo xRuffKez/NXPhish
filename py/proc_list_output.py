@@ -97,7 +97,7 @@ def update_phishfeed(workspace):
 
     # Process Tranco CSV
     try:
-        with open(tranco_csv_file_path, 'r') as csvfile:
+        with open(tranco_csv_file_path, 'r', encoding='latin-1') as csvfile:
             csv_reader = csv.reader(csvfile)
             domains_to_remove_tranco = {row[0] for row in csv_reader}
     except Exception as e:
