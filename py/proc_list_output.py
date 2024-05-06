@@ -170,11 +170,11 @@ def update_phishfeed(workspace):
                 output_file.write("! Domains removed after 60 days if not re-added through feed.\n")
                 output_file.write("\n")
 
-                # Remove domains from phishing_domains list that are present in Umbrella list
-                phishing_domains -= domains_to_remove_umbrella
+                # Filter out domains present in Umbrella list
+                phishing_domains = [domain for domain in phishing_domains if domain not in domains_to_remove_umbrella]
 
-                # Remove domains from phishing_domains list that are present in Tranco list
-                phishing_domains -= domains_to_remove_tranco
+                # Filter out domains present in Tranco list
+                phishing_domains = [domain for domain in phishing_domains if domain not in domains_to_remove_tranco]
 
                 # Write remaining phishing domains to the output file
                 for domain in phishing_domains:
