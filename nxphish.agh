@@ -4,26 +4,26 @@
 ! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 03:23:26
+! Last updated: 2024-05-06 03:41:49
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51639
-! Number of NXDOMAIN domains: 82074
-! Number of SERVFAIL domains: 1971
+! Number of phishing domains: 51623
+! Number of NXDOMAIN domains: 82077
+! Number of SERVFAIL domains: 1987
 ! Number of domains removed by whitelist: 465
 ! Number of domains removed older than 60 days: 0
 ! Number of domains removed by Umbrella list: 80
-! Number of domains removed by Tranco list: 999920
+! Number of domains removed by Tranco list: 0
 ! Top 10 abused TLDs:
-! - com: 23375 (55.67%)
-! - dev: 6018 (14.33%)
-! - app: 4616 (10.99%)
-! - org: 1929 (4.59%)
+! - com: 23366 (55.67%)
+! - dev: 6016 (14.33%)
+! - app: 4615 (10.99%)
+! - org: 1929 (4.6%)
 ! - io: 1650 (3.93%)
-! - net: 1450 (3.45%)
+! - net: 1449 (3.45%)
 ! - xyz: 878 (2.09%)
 ! - top: 796 (1.9%)
-! - site: 757 (1.8%)
-! - me: 519 (1.24%)
+! - site: 756 (1.8%)
+! - me: 520 (1.24%)
 ! Domains removed after 60 days if not re-added through feed.
 
 ||00-ird.weebly.com^
@@ -5501,7 +5501,6 @@
 ||auth.ours-media.workers.dev^
 ||auth.pancakeswape.finance^
 ||auth.staing.ramper.xyz^
-||auth.telegzim.cn^
 ||auth0-vystar.web.app^
 ||auth01-m.firebaseapp.com^
 ||auth01-m.web.app^
@@ -9520,7 +9519,6 @@
 ||box-att-103436.square.site^
 ||box-nftburn.web.app^
 ||box-nftlive.com^
-||box-nftmint.web.app^
 ||box-to-boxs-stunning-site.webflow.io^
 ||boxes-coin.web.app^
 ||boxes-manta.network^
@@ -14712,7 +14710,6 @@
 ||defiwebprotocols.firebaseapp.com^
 ||defiwebprotocols.web.app^
 ||degen-claim.netlify.app^
-||degenroyale.com^
 ||degenscore.co^
 ||degensreborn.com^
 ||degenstoken.vip^
@@ -15230,7 +15227,6 @@
 ||direction-general.web.app^
 ||directlineengg.com^
 ||directresolutionserver.pro^
-||dirosdo.royalwebhosting.net^
 ||disables-fanspages-account2023.start.page^
 ||disclosepack.myportfolio.com^
 ||disclosurehike.top^
@@ -16068,7 +16064,6 @@
 ||easyfixwallet.pages.dev^
 ||easyfixwallets.pages.dev^
 ||easygoingsloganmadeeasy.pages.dev^
-||easylivingfinds.pages.dev^
 ||eatelgdggd.weebly.com^
 ||eatss--awesome-site.webflow.io^
 ||eaydium.io^
@@ -20856,7 +20851,6 @@
 ||hidden-airdrops.xyz^
 ||hidden-base-05c4.updatelogaccountprogramedrfwerwrdhshh.workers.dev^
 ||hidden-block-8e07.vhake.workers.dev^
-||hidden-breeze-c96c.bepodopesoso3226.workers.dev^
 ||hidden-fog-90d7.gknxnv9x.workers.dev^
 ||hidden-pond-5b2c.5500244318075.workers.dev^
 ||hidden-tree-c217.ciwes21025.workers.dev^
@@ -22977,6 +22971,7 @@
 ||jpmorganpurchase.firebaseapp.com^
 ||jpmorganpurchase.web.app^
 ||jpolkadot.js.org^
+||jpool.me^
 ||jptgl.pages.dev^
 ||jqe0fe.webwave.dev^
 ||jqhzzmo.s3o98.com^
@@ -25488,7 +25483,6 @@
 ||madeeasygoingslogan2.pages.dev^
 ||maderaselaboradas.com.ar^
 ||maderasfe.com^
-||maderoad.com^
 ||madionseucke.com^
 ||madlists.com^
 ||madrtnjkmoulj.firebaseapp.com^
@@ -25701,7 +25695,6 @@
 ||mail-106854.weeblysite.com^
 ||mail-106907.weeblysite.com^
 ||mail-106957.weeblysite.com^
-||mail-106990.weeblysite.com^
 ||mail-107031.weeblysite.com^
 ||mail-107087.weeblysite.com^
 ||mail-107095.weeblysite.com^
@@ -27959,7 +27952,6 @@
 ||metapolice1956.pages.dev^
 ||metapolkadot.com^
 ||metaportfolioconnect.com^
-||metapro-trade.com^
 ||metaprofile.firebaseapp.com^
 ||metaprofile.web.app^
 ||metarestore.vercel.app^
@@ -34615,7 +34607,6 @@
 ||poi.bilitv.workers.dev^
 ||poi90ok.info^
 ||point-jup.web.app^
-||point-paypay.ne.jp^
 ||pointronds.firebaseapp.com^
 ||points-0n1force.com^
 ||poionlex.com^
@@ -36551,7 +36542,6 @@
 ||reagan-webmail-101998.weeblysite.com^
 ||reagan-webmail-102298.weeblysite.com^
 ||reagan-webmail-105236.weeblysite.com^
-||reagan-webmail-105898.weeblysite.com^
 ||reagan-webmail-106797.weeblysite.com^
 ||reagan-webmail-107485.weeblysite.com^
 ||reagan-webmail-107656.weeblysite.com^
@@ -38109,7 +38099,6 @@
 ||scottyxai.com^
 ||scotyfcr.firebaseapp.com^
 ||scotyfcr.web.app^
-||scotyttheai.pro^
 ||scpostbg.firebaseapp.com^
 ||scpostbg.web.app^
 ||scr54-mttdx21.firebaseapp.com^
@@ -42876,6 +42865,7 @@
 ||tonkeepee.com^
 ||tonkeepeer.com^
 ||tonkeeper-web.pages.dev^
+||tonkeeper.domains^
 ||tonkeeper.help^
 ||tonkeeper.io^
 ||tonkeeper.pages.dev^
@@ -43566,7 +43556,6 @@
 ||tz0kp5.webwave.dev^
 ||tzcdn.pages.dev^
 ||tzt.pages.dev^
-||u-coinbase.47-89-175-195.cprapid.com^
 ||u-pphholfd.godaddysites.com^
 ||u-sp-sredirec.firebaseapp.com^
 ||u-sp-sredirec.web.app^
@@ -43701,7 +43690,6 @@
 ||ujomewehuoserzemeaneo1.pages.dev^
 ||ukequinor.services^
 ||ukfcubank.weebly.com^
-||ukhotelstay.com^
 ||ukkiw.ukit.me^
 ||ukl.pages.dev^
 ||uknews18.com^
@@ -46836,7 +46824,6 @@
 ||webmail-103976.weeblysite.com^
 ||webmail-103982.weeblysite.com^
 ||webmail-104100.weeblysite.com^
-||webmail-104147.square.site^
 ||webmail-104147.weeblysite.com^
 ||webmail-104242.square.site^
 ||webmail-104242.weeblysite.com^
@@ -47789,7 +47776,6 @@
 ||wvw.linefraction.xyz^
 ||wvw.monzgroups.xyz^
 ||wvw.pepzgroup.biz^
-||wvw.trrust-watllet.com.juniperrack.com^
 ||wvwv-apestake-com.blogspot.com^
 ||wvww-bitkub-th.com^
 ||ww-acesson-simplificado2023.blogspot.com^
@@ -48289,7 +48275,6 @@
 ||www.berry.im^
 ||www.bestbuypartner.top^
 ||www.bettinamarks.com^
-||www.bibene.com^
 ||www.biblioteca.sicrediprogresso.com.br^
 ||www.bijgnqt.cn^
 ||www.bill-upgrd-0-active.securonix.biz^
@@ -48871,7 +48856,6 @@
 ||www.iqfrgzq.cn^
 ||www.irevoke.cash^
 ||www.ironfxwallet.com^
-||www.iscptmz.cn^
 ||www.isvnvy.cn^
 ||www.it-kub.ga^
 ||www.ixspool.xyz^
@@ -49990,6 +49974,7 @@
 ||www.tokentransfer.xyz^
 ||www.tokresi.e6hdx.my.id^
 ||www.ton.org-networks.top^
+||www.tonkeeper.domains^
 ||www.topvouchercoupon.com^
 ||www.torastation.co.nz^
 ||www.toshithecat.org^
@@ -50122,7 +50107,6 @@
 ||www.vmetamaskverification.duckdns.org^
 ||www.vmvmilh.cn^
 ||www.vnocyre.cn^
-||www.vnqtcjr.cn^
 ||www.volwafl.cn^
 ||www.vooyssl.cn^
 ||www.vopiow.com^
