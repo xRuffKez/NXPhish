@@ -95,21 +95,9 @@ def update_phishfeed(workspace):
         logger.error("Failed to download or extract Umbrella CSV file")
         return
 
-    # Download and extract Tranco CSV
-    tranco_csv_url = "https://tranco-list.eu/top-1m.csv.zip"
-    tranco_success, tranco_csv_file_path = download_extract_csv(tranco_csv_url, workspace)
-    if not tranco_success:
-        logger.error("Failed to download or extract Tranco CSV file")
-        return
-
     # Process Umbrella CSV
     umbrella_domains = process_csv(umbrella_csv_file_path)
     if umbrella_domains is None:
-        return
-
-    # Process Tranco CSV
-    tranco_domains = process_csv(tranco_csv_file_path)
-    if tranco_domains is None:
         return
 
     resolver = dns.resolver.Resolver()
@@ -143,12 +131,9 @@ def update_phishfeed(workspace):
             all_domains = cursor.fetchall()
             phishing_domains = [row[0] for row in all_domains]
 
-            # Remove domains containing parts of Umbrella and Tranco domains
-            phishing_domains = filter_phishing_domains(phishing_domains, umbrella_domains, tranco_domains, whitelist_domains)
-
             # Update output file and cleanup
-            write_output_file(output_path, phishing_domains, all_domains, umbrella_domains, tranco_domains, whitelist_domains)
-            cleanup_files(umbrella_csv_file_path, tranco_csv_file_path)
+            write_output_file(output_path, phishing_domains, all_domains, umbrella_domains, whitelist_domains)
+            cleanup_files(umbrella_csv_file_path)
 
             # Count NXDOMAIN and SERVFAIL domains from cache.db
             nxdomain_count = sum(1 for row in all_domains if row[1] == 'NXDOMAIN')
@@ -171,22 +156,12 @@ def process_csv(csv_file_path):
         logger.error("Failed to read CSV file '%s': %s", csv_file_path, e)
         return None
 
-def filter_phishing_domains(phishing_domains, umbrella_domains, tranco_domains, whitelist_domains):
-    filtered_domains = []
-    for domain in phishing_domains:
-        if not any(umbrella_domain in domain.split(".")[-2:] for umbrella_domain in umbrella_domains) \
-                and not any(tranco_domain in domain.split(".")[-2:] for tranco_domain in tranco_domains):
-            if not any(domain.endswith("." + subdomain) or subdomain.endswith("." + domain) for subdomain in phishing_domains if subdomain != domain):
-                if not any(domain.endswith("." + subdomain) or subdomain.endswith("." + domain) for subdomain in whitelist_domains if subdomain != domain):
-                    filtered_domains.append(domain)
-    return filtered_domains
-
-def write_output_file(output_path, phishing_domains, all_domains, umbrella_domains, tranco_domains, whitelist_domains):
+def write_output_file(output_path, phishing_domains, all_domains, umbrella_domains, whitelist_domains):
     with open(output_path, 'w') as output_file:
         output_file.write("! Title: NXPhish - Active Phishing Domains\n")
         output_file.write("! Description: This file contains a list of known phishing domains from various feeds.\n")
         output_file.write("! URL shorteners have been removed to reduce false positives.\n")
-        output_file.write("! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.\n")
+        output_file.write("! Phishing domains have been checked against the top 1 million domains list provided by Cisco Umbrella.\n")
         output_file.write("! Author: xRuffKez\n")
         output_file.write("! Repository: github.com/xRuffKez/NXPhish\n")
         output_file.write("! Last updated: {}\n".format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
@@ -194,9 +169,8 @@ def write_output_file(output_path, phishing_domains, all_domains, umbrella_domai
         output_file.write("! Number of phishing domains: {}\n".format(len(phishing_domains)))
         output_file.write("! Number of NXDOMAIN domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'NXDOMAIN'])))
         output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
-        output_file.write("! Number of domains matched and removed by Tranco: {}\n".format(len(tranco_domains)))
         output_file.write("! Number of domains matched and removed by Umbrella: {}\n".format(len(umbrella_domains)))
-        output_file.write("! Number of domains matched and removed by white.list: {}\n".format(len(whitelist_domains.intersection(umbrella_domains | tranco_domains))))
+        output_file.write("! Number of domains matched and removed by white.list: {}\n".format(len(whitelist_domains.intersection(umbrella_domains))))
         output_file.write("! Number of domains removed older than 60 days: {}\n".format(len([row[0] for row in all_domains if row[1] == 'REMOVED'])))
         output_file.write("\n")
 
