@@ -4,15 +4,16 @@
 ! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 14:38:01
+! Last updated: 2024-05-06 17:03:32
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 40922
+! Number of phishing domains: 40906
 ! Number of NXDOMAIN domains: 0
 ! Number of SERVFAIL domains: 0
-! Number of domains removed by whitelist: 0
+! Number of domains matched and removed by whitelist:
+! - Umbrella: 31462
+! - Tranco: 31462
+! - Hagezi Shortener: 0
 ! Number of domains removed older than 60 days: 0
-! Number of domains removed by Umbrella list: 31462
-! Number of domains removed by Tranco list: 31462
 
 ||00-ird.weebly.com^
 ||0000000000c0.x9xcax2a.workers.dev^
@@ -1399,7 +1400,6 @@
 ||agoda.ba^
 ||agoda.lovestoblog.com^
 ||agoda.shop^
-||agoda.tkffw888.icu^
 ||agoda.ycs.my.id^
 ||agoda3.cc^
 ||agoda360.com^
@@ -1686,7 +1686,6 @@
 ||airdropzkfair.top^
 ||airearning.cash^
 ||airforce1-nft.com^
-||airhopper-reviews.com^
 ||airjetfly.online.swiftplumbingsolutions.online^
 ||airlaunchpad.app^
 ||airliebeach.airliehotel.workers.dev^
@@ -2808,6 +2807,7 @@
 ||appaaave.com^
 ||appaave.com^
 ||appaave.github.io^
+||appadvice.com^
 ||appair-hopper.com^
 ||appaloe.capital^
 ||apparrakis.finance^
@@ -5464,7 +5464,6 @@
 ||blknoiz06.net^
 ||bllaast.com^
 ||bllue2.bluewayne7.workers.dev^
-||blmwb.pages.dev^
 ||blnance.org^
 ||bloblaola.pages.dev^
 ||block-rectify.vercel.app^
@@ -7195,7 +7194,6 @@
 ||ceonnexion-nord-carte-validat.web.app^
 ||cerco.pages.dev^
 ||cercoanalytical-c4u.pages.dev^
-||cermotikear.chromatica.top^
 ||cerrarsesionportalapp.ezzeblog.com^
 ||cert-000049-0000c5.firebaseapp.com^
 ||cert-000049-0000c5.web.app^
@@ -11283,7 +11281,6 @@
 ||dymisa.com^
 ||dynamic-u-holy-lake-5727.3080ugly.workers.dev^
 ||dynamicvalidate.netlify.app^
-||dynamicvisionmanagement.com^
 ||dynamix-alu.com^
 ||dynssl.com^
 ||dyuejhdnfimaksjduehnrujijamsjhdn8390475832kjsidjl4.pages.dev^
@@ -12018,7 +12015,6 @@
 ||esiuedhobrveosguarogdjboines3.pages.dev^
 ||esiuedhobrveosguarogdjboines4.pages.dev^
 ||esjuneli.firebaseapp.com^
-||esl-give.com^
 ||eslineskim.firebaseapp.com^
 ||esofa.edu.pe^
 ||esp-gala-games-app.blogspot.com^
@@ -14470,7 +14466,6 @@
 ||gjkjlkl.fjjlljgfhf.workers.dev^
 ||gkprb.pages.dev^
 ||gksschool.edu.bd^
-||glaberkantonalbank.com.opticsea.org^
 ||glaconbtk.blogspot.com^
 ||gladius.ws^
 ||glaexe.com^
@@ -17577,7 +17572,6 @@
 ||keb2viu.duckdns.org^
 ||keeper.claims^
 ||keepertoken.org^
-||keepertoken.xyz^
 ||keepstake.github.io^
 ||keertiv1924.github.io^
 ||keeslerfcuonlin.firebaseapp.com^
@@ -22942,7 +22936,6 @@
 ||myettherwallet.com^
 ||myexchange.com^
 ||myeytherwallet.com^
-||myeztherwallet.com^
 ||myfairpoint6.weebly.com^
 ||myfirstproject.pages.dev^
 ||myfixsecure.com^
@@ -25538,7 +25531,6 @@
 ||pancakeswapconnect.netlify.app^
 ||pancakeswapdrop.com^
 ||pancakeswapdrop78.vercel.app^
-||pancakeswapes.finance^
 ||pancakeswapexchange.github.io^
 ||pancakeswapexchanges.com^
 ||pancakeswapfiinance.xyz^
@@ -27453,6 +27445,7 @@
 ||provisionschainlink.org^
 ||proxi-mus.godaddysites.com^
 ||proxi-mus4.godaddysites.com^
+||proximbe.ulcraft.com^
 ||proximus-client.ddns.net^
 ||proximus-re.was-systems.com^
 ||proximus-recovery.be^
@@ -30403,7 +30396,6 @@
 ||sftyactiveapp1008600in.start.page^
 ||sg-gamesa.com^
 ||sg4.tebel.cfd^
-||sg5.tebel.cfd^
 ||sgaapparel.com^
 ||sgafew.pages.dev^
 ||sgesting-61051.firebaseapp.com^
@@ -31997,7 +31989,6 @@
 ||steam.piggycase.cn^
 ||steam.powerartswork.com^
 ||steam.workshopsfiledetails.com^
-||steamcommounity.ru^
 ||steamcommujity.com^
 ||steamcommunitlu.com^
 ||steamcommunitylog.chez.com^
@@ -33561,7 +33552,6 @@
 ||tflxvp.opyyc.tghali.codinglogics.com^
 ||tgadminuser.servicetg.ren^
 ||tgadminuser.tg-accas.vip^
-||tgadminuser.web-cs.xyz^
 ||tgadminuser.webttg.vip^
 ||tgauth.su^
 ||tgram.cc^
@@ -34343,7 +34333,6 @@
 ||truebarbers.com.au^
 ||truebit.gift^
 ||truedapps.vercel.app^
-||truegigatexpro.com^
 ||trueonlines.com^
 ||truj.pages.dev^
 ||trul-hoteis.blogspot.com^
@@ -36497,7 +36486,6 @@
 ||vy-secureus.dns04.com^
 ||vycs.stretfrenh.ddnss.eu^
 ||vyft.steifhar.ezua.com^
-||vyg68.com^
 ||vys05cuth.dns04.com^
 ||vysta-auth.web.app^
 ||vystar-auten.web.app^
@@ -37242,7 +37230,6 @@
 ||web3dappconnect.web.app^
 ||web3dappconnectors.pages.dev^
 ||web3dappconnects.pages.dev^
-||web3dapptoolevault.com^
 ||web3dataconnect.pages.dev^
 ||web3defi07.top^
 ||web3defi168.top^
@@ -38447,7 +38434,6 @@
 ||www.addsnapchat.com.eslamm.a2hosted.com^
 ||www.adfjusi.cn^
 ||www.aegtecnoservice.it^
-||www.aeonbank24.top^
 ||www.afjzbts.cn^
 ||www.agoda-org.com^
 ||www.agoda007.cn^
@@ -38505,7 +38491,6 @@
 ||www.anlujifen.com^
 ||www.anyswap.in^
 ||www.aoen.co.jo.2trzlh.cn^
-||www.aoen.co.jo.ts17og.cn^
 ||www.apk20.com^
 ||www.apk4now.com^
 ||www.apkturbo.com^
