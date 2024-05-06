@@ -101,9 +101,9 @@ def update_phishfeed(workspace):
                         if not domain.startswith("http") and "/" in domain:
                             domain = domain.split("/")[0]
                         if domain not in whitelist_domains and domain not in domains_to_remove:
-                            cursor.execute("SELECT domain FROM domains WHERE domain=?", (domain,))
+                            cursor.execute("SELECT domain, status FROM domains WHERE domain=?", (domain,))
                             existing_domain = cursor.fetchone()
-                            if existing_domain is None:
+                            if existing_domain is None or existing_domain[1] != 'OK':
                                 try:
                                     response = resolver.resolve(domain)
                                     status = "OK"
@@ -126,8 +126,8 @@ def update_phishfeed(workspace):
                                     logger.error("Error resolving domain %s: %s", domain, e)
                                     status = "SERVFAIL"
                                 current_time = datetime.now().isoformat()
-                                cursor.execute("INSERT INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
-            cursor.execute("UPDATE domains SET status='REMOVED' WHERE last_seen < ?", (max_age.isoformat(),))
+                                cursor.execute("INSERT OR IGNORE INTO domains VALUES (?, ?, ?)", (domain, current_time, status))
+            cursor.execute("UPDATE domains SET status='REMOVED' WHERE last_seen < ? AND status != 'OK'", (max_age.isoformat(),))
             cursor.execute("COMMIT")
             conn.commit()
 
