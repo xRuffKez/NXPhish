@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Cisco Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 19:57:10
+! Last updated: 2024-05-06 20:12:19
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 135817
-! Number of NXDOMAIN domains: 82227
-! Number of SERVFAIL domains: 2147
+! Number of phishing domains: 135843
+! Number of NXDOMAIN domains: 82231
+! Number of SERVFAIL domains: 2173
 ! Number of domains matched and removed by Umbrella: 33492
 ! Number of domains matched and removed by white.list: 38
 ! Number of domains removed older than 60 days: 0
@@ -217,6 +217,7 @@
 ||0xzrx.com^
 ||0y87h4ni9.duckdns.org^
 ||0yt3k.220d.cn^
+||0zgukao4.square.site^
 ||1-1inch.info^
 ||1-88y.pages.dev^
 ||1-co.ru^
@@ -1069,6 +1070,7 @@
 ||1qonzsst.square.site^
 ||1r07t3e.duckdns.org^
 ||1r5apyment.com^
+||1r5sapl.com^
 ||1raydium.sbs^
 ||1rjo4km4v.duckdns.org^
 ||1rst-birthday.info^
@@ -1454,6 +1456,7 @@
 ||3745login.weebly.com^
 ||375djg.ktt55.my.id^
 ||37protocolwallet.com^
+||381utdvmv.duckdns.org^
 ||38493uui291oi119.hyperphp.com^
 ||3856-102027usdut.weeblysite.com^
 ||386hdv.ktt55.my.id^
@@ -1828,6 +1831,7 @@
 ||5e-ming.com^
 ||5e4s29.duckdns.org^
 ||5eb23635.lodasaf228.workers.dev^
+||5ed1aa39.26758e84752e6e8395ae6282.workers.dev^
 ||5eplay.163gowanbishou.com^
 ||5eplay.bisai-go163.com^
 ||5eplay.bisai-gojing.com^
@@ -1847,6 +1851,7 @@
 ||5fgffgfg4g4gh4hfg4fg.blogspot.com^
 ||5fgffgfgfg4g4gh4tf.blogspot.com^
 ||5fgffgfgfg4g4gh4tf.blogspot.com.tr^
+||5fgfgffg4g4gh4f.blogspot.com^
 ||5fgfgffgfg4g4gg.blogspot.com^
 ||5fgfgffgg4g4gh4fg.blogspot.com^
 ||5fgfgffgg4g4gh4fg.blogspot.mk^
@@ -4038,6 +4043,7 @@
 ||admitone.limit-nft.com^
 ||admitone.pro^
 ||admlralins.com^
+||admn-edu.weebly.com^
 ||admn-zimbra.webflow.io^
 ||admsbwer2424.weebly.com^
 ||adntox.com^
@@ -10602,6 +10608,7 @@
 ||atencionparati.edavivienda.repl.co^
 ||atencionvirtual.brizy.site^
 ||atendimentchevrolet.cloud^
+||atendimentobradesc0.site^
 ||atendimentobradescoseguros.online^
 ||ateranda.top^
 ||atexchange.tech^
@@ -37609,6 +37616,7 @@
 ||e6ymmq.webwave.dev^
 ||e7c337db52176a596afe9079d29df30da73fd3cb564abc9565c0694cf3.pages.dev^
 ||e7qecf.webwave.dev^
+||e8d3psyo.square.site^
 ||e8v53v.webwave.dev^
 ||e95a8r7.duckdns.org^
 ||e992b1.com^
@@ -39568,6 +39576,7 @@
 ||espace-moncompte.web.app^
 ||espace-orang.hubside.fr^
 ||espace-personnel.hubside.fr^
+||espace-remboursement-sfr.info^
 ||espace-skynet.hubside.fr^
 ||espace-skynet012.hubside.fr^
 ||espaceclient11.godaddysites.com^
@@ -44902,6 +44911,7 @@
 ||fr-worldcoin.web.app^
 ||fr-zennland.com^
 ||fr.agence-publique.com^
+||fr.mytwint-ch.com^
 ||fr0g-group.lol^
 ||fractalproctol.online^
 ||fractional-community.com^
@@ -45163,6 +45173,7 @@
 ||freshoffersonline.online^
 ||freshstartoffer.com.ng^
 ||freso0001.blogspot.com^
+||freyself-explanatory.shop^
 ||frezkd.weebly.com^
 ||frezor.us^
 ||frhb82845flex.ikexpress.com^
@@ -45288,6 +45299,7 @@
 ||frvncou.firebaseapp.com^
 ||frvncou.web.app^
 ||fs.pancakesvqp.com^
+||fsafeds.combid.sa.com^
 ||fsafeds.comet.sa.com^
 ||fsafeds.comt.sa.com^
 ||fsafeds.sa.com^
@@ -62608,6 +62620,7 @@
 ||makrdemourthji.firebaseapp.com^
 ||makrdemourthji.web.app^
 ||maksmata.com^
+||malake23111.blogspot.com^
 ||malbsbltkubs-net.1gb.ru^
 ||malkafrga.site^
 ||mall2022.com^
@@ -79236,6 +79249,7 @@
 ||oon-1ur.pages.dev^
 ||oondon.best^
 ||oooon.godaddysites.com^
+||oooooo.a10629.workers.dev^
 ||oopas.xyz^
 ||oopen-sea.info^
 ||oopensea-io.com^
@@ -87704,6 +87718,7 @@
 ||petaversenetwork.cloud^
 ||petchicletepetshop.com.br^
 ||pethaomwal-eet.godaddysites.com^
+||petition-ukrainiane.com^
 ||petoum-wallot.godaddysites.com^
 ||petpalsnft.bio^
 ||petpont.site^
@@ -90414,6 +90429,7 @@
 ||portail-2f-listacco.hubside.fr^
 ||portail-authen0.hubside.fr^
 ||portail-chorus-pro.hubside.fr^
+||portail-messagerie02.free.nf^
 ||portail-web.weebly.com^
 ||portailofmeta.com^
 ||portal-aave.com^
@@ -91358,6 +91374,7 @@
 ||promo-notion.com^
 ||promo-official.com^
 ||promo-official.org^
+||promo-online.replit.app^
 ||promo-pulsa-telegram.claims.my.id^
 ||promo-sa31.github.io^
 ||promo-tabl.com^
@@ -91695,6 +91712,8 @@
 ||psancakeswap.org^
 ||psanda.co.za^
 ||pscpasswlmint.com^
+||psd2-akt.sbs^
+||psd2-aktualisierung.info^
 ||psecured-paxful.com^
 ||psecurity-paxful.com^
 ||psegenergy.support^
@@ -93340,6 +93359,7 @@
 ||raspy-dawn-8ba8.maroworo90.workers.dev^
 ||raspy-salad-6f4e.e4gblc4e.workers.dev^
 ||raspy-snowflake-be2d.noveneja.workers.dev^
+||rasssidareni.blogspot.com^
 ||rasunalo20.firebaseapp.com^
 ||rasunalo20.web.app^
 ||rat-00n2-5ikl.nf6k9gbj.workers.dev^
@@ -94154,6 +94174,7 @@
 ||redeemed-circle.com^
 ||redeemx.eventmidasbuys.com^
 ||redelivery.usps.137-184-9-114.cprapid.com^
+||rederactas.blogspot.com^
 ||redggjhvgh.firebaseapp.com^
 ||redggjhvgh.web.app^
 ||rediant.capital^
@@ -102460,6 +102481,7 @@
 ||sparkling-credit-377d.dating-zooks.workers.dev^
 ||sparkling-dawn-e0d6.xijac158666331.workers.dev^
 ||sparkling-flower-cf54.lyxivu4437.workers.dev^
+||sparkling-haze-adfb.lagnunulme9227.workers.dev^
 ||sparkling-lab-5916.american-services1629.workers.dev^
 ||sparkling-sound-d00e.z3xfa5xs.workers.dev^
 ||sparkly-peony-f76556.netlify.app^
@@ -105182,6 +105204,7 @@
 ||swarnimadarsh.github.io^
 ||swatches-vulcan.xyz^
 ||swaztreeda.com^
+||swbellmail3.yolasite.com^
 ||swdwd.etherget22.zone^
 ||swdwd.ethers444.online^
 ||sweans360.com^
@@ -105384,6 +105407,7 @@
 ||swopnft.com^
 ||swp-connect-poocoin.blogspot.com^
 ||swpancake.com^
+||swseeer.blogspot.com^
 ||swswd.ether33.online^
 ||swtest.ru^
 ||swww-kraken.com^
@@ -121999,6 +122023,7 @@
 ||wnz.snow521.com^
 ||wo-rkestlessky80da.q2hhzc5jb29ucw.workers.dev^
 ||wo1cw.pro^
+||wo9vmc3.duckdns.org^
 ||woangola.com^
 ||wobbla.se^
 ||wocnio.com^
@@ -128468,6 +128493,7 @@
 ||www.pancakeswap.linkconnection.net^
 ||www.pancakeswap.ltd^
 ||www.pancakeswap.stake-claim-rewards.com^
+||www.pancakeswap.today^
 ||www.pancakeswap.v3beta.finance^
 ||www.pancakeswap.veriflcation.finance^
 ||www.pancakeswap.vip^
@@ -135830,5 +135856,5 @@
 ||zzzzmetamaskzzzz.dray-dns.de^
 ||𝐚𝐦𝐧𝐰𝐢𝐠𝐫.𝐜𝐧^
 ||𝐬𝐧𝐬𝐰𝐜𝐰.𝐜𝐧^
-! Number of NXDOMAIN domains in cache.db: 82227
-! Number of SERVFAIL domains in cache.db: 2147
+! Number of NXDOMAIN domains in cache.db: 82231
+! Number of SERVFAIL domains in cache.db: 2173
