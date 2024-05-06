@@ -4,27 +4,15 @@
 ! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 09:13:50
+! Last updated: 2024-05-06 12:07:22
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51591
-! Number of NXDOMAIN domains: 82132
-! Number of SERVFAIL domains: 2025
-! Number of domains removed by whitelist: 230
+! Number of phishing domains: 51548
+! Number of NXDOMAIN domains: 82151
+! Number of SERVFAIL domains: 2052
+! Number of domains removed by whitelist: 0
 ! Number of domains removed older than 60 days: 0
-! Number of domains removed by Umbrella list: 57
-! Number of domains removed by Tranco list: 0
-! Top 10 abused TLDs:
-! - com: 23338 (55.59%)
-! - dev: 6016 (14.33%)
-! - app: 4616 (11.0%)
-! - org: 1969 (4.69%)
-! - io: 1647 (3.92%)
-! - net: 1445 (3.44%)
-! - xyz: 876 (2.09%)
-! - top: 796 (1.9%)
-! - site: 756 (1.8%)
-! - me: 521 (1.24%)
-! Domains removed after 60 days if not re-added through feed.
+! Number of domains removed by Umbrella list: 31462
+! Number of domains removed by Tranco list: 31462
 
 ||00-ird.weebly.com^
 ||0000000000c0.x9xcax2a.workers.dev^
@@ -257,7 +245,6 @@
 ||1inch-app.org^
 ||1inch-app.pages.dev^
 ||1inch-audit.top^
-||1inch-company.com^
 ||1inch-connect.xyz^
 ||1inch-dex.com^
 ||1inch-drop.cc^
@@ -1666,7 +1653,6 @@
 ||achoghimkauwamebienakamchachaotuamakanwannemohubunduiswear.pages.dev^
 ||achpaymentauthorization.pages.dev^
 ||achtama.info^
-||aciprofacad.ukit.me^
 ||acive-support.netlify.app^
 ||acmeinc-softwarebuilder.weeblysite.com^
 ||acmontpellier.hubside.fr^
@@ -2078,7 +2064,6 @@
 ||aidoge-dashboard.app^
 ||aidoge-platform.dev^
 ||aidoge-presale.org^
-||aidoge.pw^
 ||aidogechain.pages.dev^
 ||aidogecoin.net^
 ||aidogecoin.org^
@@ -2732,7 +2717,6 @@
 ||amlscanbot.com^
 ||amlsecure.org^
 ||amltransactions.com^
-||amlwallet.online^
 ||amlzero.com^
 ||amm-web3.pro^
 ||ammearn.com^
@@ -3733,7 +3717,6 @@
 ||appelvocal.godaddysites.com^
 ||appethena.finance^
 ||appfhruster.finance^
-||appfix.netlify.app^
 ||appfrax.finance^
 ||appgrgvv.firebaseapp.com^
 ||appgrgvv.web.app^
@@ -5466,7 +5449,6 @@
 ||aulpwaajqdsnrhl.bot.pancakeswape.finance^
 ||auoneze.shcoloredglaze.com^
 ||aura-finance.news^
-||auratop.com^
 ||aurea-ai.com^
 ||aurora-eth.pages.dev^
 ||aurora2.com^
@@ -10045,7 +10027,6 @@
 ||bt-webmail-104703.weeblysite.com^
 ||bt03.weebly.com^
 ||bt1-e9a77f.webflow.io^
-||bt1business.weebly.com^
 ||bt365-f4a558.webflow.io^
 ||bt3lmf.duckdns.org^
 ||bt8m1f.webwave.dev^
@@ -11938,7 +11919,6 @@
 ||clenoulobnsg.firebaseapp.com^
 ||cleo-bc3.pages.dev^
 ||cleveradvice.pages.dev^
-||cliamsolana.c3mongtho.edu.vn^
 ||clibiya.com^
 ||clibonanode-select.dev^
 ||click-100651.weeblysite.com^
@@ -14224,7 +14204,6 @@
 ||dapptest-mindnetwork.web.app^
 ||dapptool.net^
 ||dapptools.live^
-||dapptools.tech^
 ||dappvalidate-plum.vercel.app^
 ||dappverifysolution.net^
 ||dappwallet-con.square.site^
@@ -15717,7 +15696,6 @@
 ||dreamy-bhaskara-d11b6c.netlify.app^
 ||dreamy-boyd-2b6892.netlify.app^
 ||drecloud-1fce.eteispafntejrntan.workers.dev^
-||dreea18.com^
 ||drehorgelorchester-sahm.de^
 ||drgdfhdfge54757.blogspot.ba^
 ||drgdfhdfge54757.blogspot.com.by^
@@ -16728,7 +16706,6 @@
 ||equinixinc.netlify.app^
 ||equipe2023.webflow.io^
 ||equipoprovincia.webcindario.com^
-||er-gala-gamesa-sa1.blogspot.com^
 ||er-wyomingcommunity.firebaseapp.com^
 ||er-wyomingcommunity.web.app^
 ||er2suraj.github.io^
@@ -19598,7 +19575,6 @@
 ||gibraltar-building.com^
 ||gicinmxxaoling.godaddysites.com^
 ||gift-anaxyn.xyz^
-||gift-blur.io^
 ||gift-pond0x.com^
 ||gift-porkcoin.com^
 ||gift-promo.wz.cz^
@@ -21461,7 +21437,6 @@
 ||hrk4.pages.dev^
 ||hrmprojectdept.com^
 ||hrnsdal.weeblysite.com^
-||hrodmarrik.github.io^
 ||hrorchids.com^
 ||hrpay01.com^
 ||hrpaypepsico.com^
@@ -22639,7 +22614,6 @@
 ||j0yv1js5c.duckdns.org^
 ||j1c7me.webwave.dev^
 ||j1l6b3zi.duckdns.org^
-||j3.4z0vc.chileinsumos.cl.^
 ||j42vni.webwave.dev^
 ||j61338873.myjino.ru^
 ||j6nypr752.ukit.me^
@@ -22985,7 +22959,6 @@
 ||jpagoda.top^
 ||jpagods.com^
 ||jpagods.top^
-||jpagods.vip^
 ||jpkxezchnmd5tdt.03-www.host25.pancakeswape.finance^
 ||jpmorganpurchase.firebaseapp.com^
 ||jpmorganpurchase.web.app^
@@ -24049,7 +24022,6 @@
 ||layerzerolab.top^
 ||layerzerolabs.net^
 ||layerzeronetwork-drops.com^
-||layerzeronetwork.io^
 ||layerzeroo.cc^
 ||layerzeroo.com^
 ||layerzeroolabz.top^
@@ -24065,7 +24037,6 @@
 ||layzero-access.vercel.app^
 ||lazebit.com^
 ||lazy-lions.nft2print.com^
-||lb.jieiq.chileinsumos.cl.^
 ||lbast.io^
 ||lbeldi.com^
 ||lbghuif.firebaseapp.com^
@@ -24205,7 +24176,6 @@
 ||legalcentermedia.com^
 ||legalmailhhdhd.yolasite.com^
 ||legder-live.app-web3.com.co^
-||legder.com^
 ||legder.live-app.com.co^
 ||legendemill.com^
 ||legrconnect.com^
@@ -25475,7 +25445,6 @@
 ||m9ceru.webwave.dev^
 ||m9tflgn.duckdns.org^
 ||m9ylrfb11.ukit.me^
-||ma-uionlinesystem.com^
 ||ma.cremito.com.br^
 ||ma.solfer.com.br^
 ||maaima.com^
@@ -26080,7 +26049,6 @@
 ||maker-dao.life^
 ||maker-dao.net^
 ||maker-dao.online^
-||maker-fnd.net^
 ||makeradao.com^
 ||makerdao-airdrop.pages.dev^
 ||makerdao-network.makerdao.workers.dev^
@@ -27455,7 +27423,6 @@
 ||metamask.io.merge.freethingsblog.com^
 ||metamask.io.merge.fundfolioinvestment.com^
 ||metamask.io.merge.gacorkan.com^
-||metamask.io.merge.gestational-age-calculator.site^
 ||metamask.io.merge.goldismarket.com^
 ||metamask.io.merge.goldismarket.ir^
 ||metamask.io.merge.gramas.in^
@@ -27834,7 +27801,6 @@
 ||metamaskswaps1665412639.zendesk.com^
 ||metamasksweb.com^
 ||metamasksyncnode.com^
-||metamaskt.com^
 ||metamasktermsconditionsetup.x24hr.com^
 ||metamasktoken-airdrop.com^
 ||metamasktoken.github.io^
@@ -30291,6 +30257,7 @@
 ||neojune.blogspot.com^
 ||neojunex2.blogspot.com^
 ||neokucoin.blogspot.com^
+||neom-management.com^
 ||neom-property.com^
 ||neom-registrations.com^
 ||neom.day^
@@ -30644,7 +30611,6 @@
 ||nft-virtua.com^
 ||nft-worldofwomen.com^
 ||nft.cologne^
-||nft.line.pm^
 ||nft.opensiea.workers.dev^
 ||nft.pepzgroup.biz^
 ||nft.rgmbeta.com^
@@ -30656,7 +30622,6 @@
 ||nftcap.finance^
 ||nftclaim.live^
 ||nftclaimclick.vercel.app^
-||nftclaimnetwork.space^
 ||nftclaimopen3.vercel.app^
 ||nftclaimsopen.vercel.app^
 ||nftcollectionframe.com^
@@ -34011,7 +33976,6 @@
 ||phaentteomwallt.godaddysites.com^
 ||phaintomwalle.godaddysites.com^
 ||phaintum-wall_it.godaddysites.com^
-||phaintum-wallets.godaddysites.com^
 ||phala.app^
 ||phamnomwallet-ioo.godaddysites.com^
 ||phamntom.app^
@@ -37185,7 +37149,6 @@
 ||rewards.carrbify.com^
 ||rewards.eigenlayer.tech^
 ||rewards.eigenlayer.trade^
-||rewards.hillfun.club^
 ||rewards.main-online.com^
 ||rewards.otsea.capital^
 ||rewardsmantachain.net^
@@ -38479,7 +38442,6 @@
 ||ser3ce.atto3line.workers.dev^
 ||serc.unimap.edu.my^
 ||sereur.hubside.fr^
-||sergigamez.com^
 ||serifoto.it^
 ||sertimadioprtugachurigiencocert.clinicauruguai.com^
 ||sertracmao.com.br^
@@ -39758,7 +39720,6 @@
 ||solana-claim.web.app^
 ||solana-event.com^
 ||solana-free.ru^
-||solana-fund.com^
 ||solana-gift.com^
 ||solana-gotomagiceden-personalbikehome.blogspot.com^
 ||solana-magiccdcnio-emporiostarita.blogspot.com^
@@ -40385,7 +40346,6 @@
 ||stakingpepe.vip^
 ||stalkestone.org^
 ||stalrknet.store^
-||stalrknet.website^
 ||stand2-toptop.ru^
 ||stand2hiway.ru^
 ||standarappdailydemonows.jazel19.workers.dev^
@@ -41314,7 +41274,6 @@
 ||synckwallet.square.site^
 ||synclink.online^
 ||synclive.xyz^
-||syncndeffiz.line.pm^
 ||syncndefi.line.pm^
 ||syncnode.pages.dev^
 ||syncnodeindex.netlify.app^
@@ -41692,9 +41651,6 @@
 ||telegram.web-ca.ren^
 ||telegram.webbaa.club^
 ||telegram.webcsc.ren^
-||telegram.webcts.wang^
-||telegram.webtctg.club^
-||telegram.webteg.top^
 ||telegram.webtgap.top^
 ||telegram.webtgcs.top^
 ||telegrambaxx.pages.dev^
@@ -43310,7 +43266,6 @@
 ||trustwallet-support.com^
 ||trustwallet-updates.estacionamientoaeropuertosantiago.cl^
 ||trustwallet-verify.catalog.yampi.io^
-||trustwallet.109-71-253-24.plesk.page^
 ||trustwallet.biz^
 ||trustwallet.capital^
 ||trustwallet.co.uk^
@@ -43990,7 +43945,6 @@
 ||uniswapsupnumber.pages.dev^
 ||uniswapuni.com^
 ||uniswapv-3.github.io^
-||uniswapv3.online^
 ||uniswapv4-liqudity-provide.web.app^
 ||uniswapv4-liquidity.web.app^
 ||uniswapv4-pool-choosing.web.app^
@@ -44540,7 +44494,6 @@
 ||usdt-bot.com^
 ||usdt-case.org^
 ||usdt-crypto.vip^
-||usdt-defi.info^
 ||usdt-drop.top^
 ||usdt-get.com^
 ||usdt-nft.com^
@@ -44737,7 +44690,6 @@
 ||usps.posthelpnb.com^
 ||usps.postib.com^
 ||usps.postit.top^
-||usps.postnk.com^
 ||usps.pst-zzq.top^
 ||usps.pvgqinqibs.top^
 ||usps.pxzpbljuzi.top^
@@ -45327,7 +45279,6 @@
 ||vertiv-emerson.com^
 ||vertiv-power.cn^
 ||vertiv-power.com.cn^
-||vertiv-ups-dy.cn^
 ||vertiv-vertiv.com^
 ||vertiv.dns.cz^
 ||vertiv.jifang365.com^
@@ -45395,6 +45346,7 @@
 ||vibebmtx.weebly.com^
 ||vic-educationonlinehelpteam.weebly.com^
 ||vic1.info-equinor.com^
+||vic2.info-equinor.com^
 ||victorarath99.github.io^
 ||victorypackaging.miadn.mx^
 ||vicwalletconnect.co.vu^
@@ -46128,7 +46080,6 @@
 ||walletconnecta.com^
 ||walletconnectai.pages.dev^
 ||walletconnectapi.onrender.com^
-||walletconnectapp.com^
 ||walletconnectbot.com^
 ||walletconnectchain.com^
 ||walletconnectdapp.com^
@@ -47731,7 +47682,6 @@
 ||wttwa.weeblysite.com^
 ||wtwirh.webwave.dev^
 ||wtye662hdjjkd9f90wmdjj226did883d.weebly.com^
-||wu127.com^
 ||wub3ueodus-wallet.webflow.io^
 ||wufis.com^
 ||wurlgavqem.duckdns.org^
@@ -48044,7 +47994,6 @@
 ||www.aavenetwork.finance^
 ||www.aaveprotrade.xyz^
 ||www.abqqdcg.cn^
-||www.abrocadabramoneys.net^
 ||www.accesspronetwork.cloud.mannobegod.online^
 ||www.acconaaapps.appensmes.com^
 ||www.acconuapps.appensmes.com^
@@ -48189,7 +48138,6 @@
 ||www.astar-network.live^
 ||www.asx-danman.top^
 ||www.asx-genten.com^
-||www.asx-giabel.com^
 ||www.asx-panrg.top^
 ||www.asx-plus.com^
 ||www.asx-trading.top^
@@ -48257,7 +48205,6 @@
 ||www.bestbuypartner.top^
 ||www.bettinamarks.com^
 ||www.biblioteca.sicrediprogresso.com.br^
-||www.bijgnqt.cn^
 ||www.bill-upgrd-0-active.securonix.biz^
 ||www.binance.info^
 ||www.binancedrops.net^
@@ -48570,7 +48517,6 @@
 ||www.elettrovisiongroup.com^
 ||www.eligibility-wenwencoin.com^
 ||www.elonssink.xyz^
-||www.emxocrm.cn^
 ||www.en.pancakeswape.finance^
 ||www.en.redash.production.winkdrop.net^
 ||www.entrar.enquete.gerenciagram.net^
@@ -49341,7 +49287,6 @@
 ||www.nigoet.com^
 ||www.nikcos.com^
 ||www.nikke-global.com^
-||www.njyabohg.com^
 ||www.nmetamaskverification.duckdns.org^
 ||www.nn-flmamce.website^
 ||www.nnewmetamaskverify.duckdns.org^
