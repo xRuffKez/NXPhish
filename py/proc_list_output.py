@@ -92,6 +92,13 @@ def update_phishfeed(workspace):
         logger.error("Failed to download or extract Umbrella CSV file")
         return
 
+    # Download and extract Tranco CSV
+    tranco_csv_url = "https://tranco-list.eu/top-1m.csv.zip"
+    tranco_success, tranco_csv_file_path = download_extract_csv(tranco_csv_url, workspace)
+    if not tranco_success:
+        logger.error("Failed to download or extract Tranco CSV file")
+        return
+
     # Process Umbrella CSV
     try:
         with open(umbrella_csv_file_path, 'r', encoding='latin-1') as csvfile:
@@ -99,6 +106,15 @@ def update_phishfeed(workspace):
             umbrella_domains = {row[1] for row in csv_reader if len(row) > 1}
     except Exception as e:
         logger.error("Failed to read Umbrella CSV file: %s", e)
+        return
+
+    # Process Tranco CSV
+    try:
+        with open(tranco_csv_file_path, 'r', encoding='latin-1') as csvfile:
+            csv_reader = csv.reader(csvfile)
+            tranco_domains = {row[0] for row in csv_reader if row}
+    except Exception as e:
+        logger.error("Failed to read Tranco CSV file: %s", e)
         return
 
     resolver = dns.resolver.Resolver()
@@ -153,15 +169,16 @@ def update_phishfeed(workspace):
             all_domains = cursor.fetchall()
             phishing_domains = [row[0] for row in all_domains if row[1] != 'NXDOMAIN' and row[1] != 'SERVFAIL' and row[1] != 'WHITELIST']
 
-            # Remove domains containing parts of Umbrella domains
+            # Remove domains containing parts of Umbrella and Tranco domains
             phishing_domains = [domain for domain in phishing_domains
-                                if not any(umbrella_domain in domain.split(".")[-2:] for umbrella_domain in umbrella_domains)]
+                                if not any(umbrella_domain in domain.split(".")[-2:] for umbrella_domain in umbrella_domains)
+                                and not any(tranco_domain in domain.split(".")[-2:] for tranco_domain in tranco_domains)]
 
             with open(output_path, 'w') as output_file:
                 output_file.write("! Title: NXPhish - Active Phishing Domains\n")
                 output_file.write("! Description: This file contains a list of known phishing domains from various feeds.\n")
                 output_file.write("! URL shorteners have been removed to reduce false positives.\n")
-                output_file.write("! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella.\n")
+                output_file.write("! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.\n")
                 output_file.write("! Author: xRuffKez\n")
                 output_file.write("! Repository: github.com/xRuffKez/NXPhish\n")
                 output_file.write("! Last updated: {}\n".format(datetime.now().strftime("%Y-%m-%d %H:%M:%S")))
@@ -169,19 +186,26 @@ def update_phishfeed(workspace):
                 output_file.write("! Number of phishing domains: {}\n".format(len(phishing_domains)))
                 output_file.write("! Number of NXDOMAIN domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'NXDOMAIN'])))
                 output_file.write("! Number of SERVFAIL domains: {}\n".format(len([row[0] for row in all_domains if row[1] == 'SERVFAIL'])))
-                output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(umbrella_domains))))
+                output_file.write("! Number of domains removed by whitelist: {}\n".format(len(whitelist_domains.intersection(umbrella_domains | tranco_domains))))
                 output_file.write("! Number of domains removed older than 60 days: {}\n".format(len([row[0] for row in all_domains if row[1] == 'REMOVED'])))
+                output_file.write("! Number of domains removed by Umbrella list: {}\n".format(len(umbrella_domains))))
+                output_file.write("! Number of domains removed by Tranco list: {}\n".format(len(tranco_domains))))
                 output_file.write("\n")
 
                 # Write remaining phishing domains to the output file
                 for domain in phishing_domains:
                     output_file.write("||{}^\n".format(domain))
 
-            # Remove extracted CSV file if it exists
+            # Remove extracted CSV files if they exist
             if os.path.exists(umbrella_csv_file_path):
                 os.remove(umbrella_csv_file_path)
             else:
                 logger.warning("Umbrella CSV file does not exist: %s", umbrella_csv_file_path)
+
+            if os.path.exists(tranco_csv_file_path):
+                os.remove(tranco_csv_file_path)
+            else:
+                logger.warning("Tranco CSV file does not exist: %s", tranco_csv_file_path)
 
     except Exception as e:
         logger.error("An error occurred during the update process: %s", e)
