@@ -4,25 +4,25 @@
 ! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 04:08:02
+! Last updated: 2024-05-06 04:13:31
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51611
-! Number of NXDOMAIN domains: 82084
-! Number of SERVFAIL domains: 1992
+! Number of phishing domains: 51636
+! Number of NXDOMAIN domains: 82091
+! Number of SERVFAIL domains: 2003
 ! Number of domains removed by whitelist: 465
 ! Number of domains removed older than 60 days: 0
 ! Number of domains removed by Umbrella list: 80
 ! Number of domains removed by Tranco list: 0
 ! Top 10 abused TLDs:
-! - com: 23361 (55.66%)
-! - dev: 6016 (14.33%)
-! - app: 4615 (11.0%)
-! - org: 1928 (4.59%)
+! - com: 23356 (55.6%)
+! - dev: 6016 (14.32%)
+! - app: 4615 (10.99%)
+! - org: 1969 (4.69%)
 ! - io: 1650 (3.93%)
-! - net: 1449 (3.45%)
+! - net: 1448 (3.45%)
 ! - xyz: 878 (2.09%)
-! - top: 796 (1.9%)
-! - site: 756 (1.8%)
+! - top: 796 (1.89%)
+! - site: 758 (1.8%)
 ! - me: 520 (1.24%)
 ! Domains removed after 60 days if not re-added through feed.
 
@@ -82,6 +82,7 @@
 ||0d3f0pwe.duckdns.org^
 ||0d515gqu.duckdns.org^
 ||0e2wqd5oq.duckdns.org^
+||0e9qxwg4e.duckdns.org^
 ||0eac93cb.7dc79c02a28e1520a86dda0e.workers.dev^
 ||0eub.s3o98.com^
 ||0g5o9qnh.duckdns.org^
@@ -119,6 +120,7 @@
 ||0sdlj8v.duckdns.org^
 ||0se7k6.duckdns.org^
 ||0siyapg.duckdns.org^
+||0sqfjq8.duckdns.org^
 ||0tcv48q7u.duckdns.org^
 ||0uliv3.pages.dev^
 ||0utlook-validar.webcindario.com^
@@ -130,6 +132,7 @@
 ||0web.pages.dev^
 ||0x0claim.pages.dev^
 ||0x0portal.net^
+||0xag2bw.duckdns.org^
 ||0xbe1f1281eb66e1.live^
 ||0xelectricsheep1-free.xyz^
 ||0xleverage.fun^
@@ -479,6 +482,7 @@
 ||27846128421-krupkpdsenklecwoy.start.page^
 ||27w7f356sfagt2v7s72gast72sa8b38sga52gs72s727ss7aja.pages.dev^
 ||28qq8mjm.duckdns.org^
+||28xy7nr.duckdns.org^
 ||2908hnnywu3go6dnolow.rmnfpdy.ru^
 ||29bmwshgapi.ru^
 ||2a5788b8.yemi1.pages.dev^
@@ -494,6 +498,7 @@
 ||2cd6e164.209189fbad78d1394fea44cc.workers.dev^
 ||2crlw.pro^
 ||2czyp0.duckdns.org^
+||2d2wsydcv.duckdns.org^
 ||2d4c.reicrut-chat.workers.dev^
 ||2doyivz91.duckdns.org^
 ||2e4g42hg54-crimson-lab-c5a8.srraufehxkvt.workers.dev^
@@ -606,6 +611,7 @@
 ||3igvs.ktt55.my.id^
 ||3ivf.ktt55.my.id^
 ||3j124.csb.app^
+||3j2cho.duckdns.org^
 ||3k87ni6uc.duckdns.org^
 ||3kv6bl.duckdns.org^
 ||3lc9qp945.duckdns.org^
@@ -613,6 +619,7 @@
 ||3nnbarqnailcentury.weeblysite.com^
 ||3onejur.duckdns.org^
 ||3pchu3.duckdns.org^
+||3ptkh0.duckdns.org^
 ||3qy4cxge.duckdns.org^
 ||3r1qmre.duckdns.org^
 ||3rdandtaylor.com^
@@ -691,6 +698,7 @@
 ||4cqsgav.duckdns.org^
 ||4cxhi8x94.ukit.me^
 ||4de192bb.d6c1924f22b82c8daa243716.workers.dev^
+||4dl60ra.duckdns.org^
 ||4dot.net^
 ||4e5fa3f5-c680-4393-a1f1-85bf9e5b5c81.htmlpasta.com^
 ||4egrxlo.duckdns.org^
@@ -702,6 +710,7 @@
 ||4f4ez65f46ze54f35ez4f34ze.blogspot.com^
 ||4farpad.top^
 ||4ff324.mxxauthen.ru^
+||4fg1il2.duckdns.org^
 ||4finpad.top^
 ||4g5g544g54g5.pages.dev^
 ||4hg4oehw.duckdns.org^
@@ -911,6 +920,7 @@
 ||6c977e0.duckdns.org^
 ||6cdi2ufrlvwihvt.nautilusoutlook.pancakeswape.finance^
 ||6cdi2ufrlvwihvt.www.nautiluswww.outlook.pancakeswape.finance^
+||6clbd813d.duckdns.org^
 ||6d23-41-246-130-123.ngrok.io^
 ||6dnb4aot2.duckdns.org^
 ||6dvllbr.duckdns.org^
@@ -924,6 +934,7 @@
 ||6igv.ktt55.my.id^
 ||6igxqb.cn^
 ||6j8gxv.duckdns.org^
+||6k6gv5ta5.duckdns.org^
 ||6kbfpz.duckdns.org^
 ||6kmee8qv.duckdns.org^
 ||6kon2b7.duckdns.org^
@@ -1009,6 +1020,7 @@
 ||7ndgxvk.duckdns.org^
 ||7oh3ya.cn^
 ||7polkadot.js.org^
+||7q65pei0e.duckdns.org^
 ||7rdta9lk.duckdns.org^
 ||7ry.ktt55.my.id^
 ||7siyowaw.square.site^
@@ -1027,6 +1039,7 @@
 ||805k0t1kpgescmmnty.work.gd^
 ||8080.sxforge.com^
 ||811c6338.aa7a82058237000860386781.workers.dev^
+||81p5dkun0.duckdns.org^
 ||81z9hw.duckdns.org^
 ||8203239928320io30.hyperphp.com^
 ||827032971.pages.dev^
@@ -1034,6 +1047,8 @@
 ||83gs0n.duckdns.org^
 ||83nd64og0.duckdns.org^
 ||84-93.weebly.com^
+||842noyntc.duckdns.org^
+||847v2r0z.square.site^
 ||851047871365687745.weebly.com^
 ||85ac9414ad2f.godaddysites.com^
 ||85srs5e.d831920d2024835a5639fc55.workers.dev^
@@ -1145,12 +1160,14 @@
 ||9c4t17.duckdns.org^
 ||9drqzegi.duckdns.org^
 ||9duyl51qpd8oe6u.elb-host86.pancakeswape.finance^
+||9e3zype.duckdns.org^
 ||9e4a15d750ffdb7e668e04d0527f1eed.pages.dev^
 ||9e6e51d6-1af4-46ae-b583-dc84ea67ef6c-00-16rc48b4ompks.kirk.replit.dev^
 ||9ebank.github.io^
 ||9er4bex.duckdns.org^
 ||9etdhkg75.ukit.me^
 ||9ewgws.duckdns.org^
+||9fhh19g.duckdns.org^
 ||9fiiy0.duckdns.org^
 ||9g66px.duckdns.org^
 ||9gjreuihs.ru^
@@ -1207,6 +1224,7 @@
 ||a0tuh-do.uhirrc.workers.dev^
 ||a188p5.webwave.dev^
 ||a1financialservices.ph^
+||a1k5b6ue1.duckdns.org^
 ||a1pkj7h.duckdns.org^
 ||a1pv.cc^
 ||a26ed5eb.hub-originether.org^
@@ -1228,6 +1246,7 @@
 ||a9203-09e6.hopash320.workers.dev^
 ||a93s.bnb2233.top^
 ||a979.dzox.workers.dev^
+||a9gijgrao.duckdns.org^
 ||a9uru1r3.duckdns.org^
 ||a9z1mdqz.psdweblayouts.com^
 ||aa-105191.weeblysite.com^
@@ -1401,6 +1420,7 @@
 ||abisheksr4.github.io^
 ||abitrum.net^
 ||abitrum.org^
+||abkv4snq3.duckdns.org^
 ||ablaiz.com^
 ||ablonline.best^
 ||abnbclaim.com^
@@ -1925,7 +1945,6 @@
 ||agent.uniswapper.top^
 ||agervusgnrale.firebaseapp.com^
 ||agervusgnrale.web.app^
-||aggiorna.intesa.isp.104-168-101-28.cprapid.com^
 ||aggiorna.intesasp.91-92-109-123.cprapid.com^
 ||agic.link^
 ||agixreward.xyz^
@@ -2335,7 +2354,6 @@
 ||airtm.com.br^
 ||airtm.ewallet.international^
 ||airtm9.com^
-||aishangdian.net^
 ||aiss-cegeka.shiftjuggler.com^
 ||aistarship.site^
 ||ait-drop.com^
@@ -2361,6 +2379,7 @@
 ||ajpwgbhtdj.duckdns.org^
 ||ajsuiekrlcof904837585jcmkbifot5869039imshe895jkfilgtkj2.pages.dev^
 ||ajsuieokdujyh6748950osklmijuyahnhd093wuu844iskn3.pages.dev^
+||aju4q3jl.duckdns.org^
 ||ajunadashboard.info^
 ||ak-c3r.pages.dev^
 ||ak5tp3j.duckdns.org^
@@ -5868,6 +5887,7 @@
 ||b4nkrura1lc.webcindario.com^
 ||b4nxrura1l.webcindario.com^
 ||b4vrtt.webwave.dev^
+||b5d8qki.duckdns.org^
 ||b5ead7d71d04.ngrok.io^
 ||b5khp4.webwave.dev^
 ||b5oiz-tyaaa-aaaag-abp6a-cai.raw.icp0.io^
@@ -13648,6 +13668,7 @@
 ||cuturl.net^
 ||cuvre.fr^
 ||cuzdanvarlikonayactivasyinsirgulama.line.pm^
+||cv7w5p.duckdns.org^
 ||cvaotgunej-24553.authdocshareportal.workers.dev^
 ||cvburf.gxnerk.workers.dev^
 ||cve.astxvf1815.workers.dev^
@@ -13753,6 +13774,7 @@
 ||d0ocs-ow-9c42.nganarxnksoroo.workers.dev^
 ||d15yrdwpe4ks3f.cloudfront.net^
 ||d1a79aimx73yka.cloudfront.net^
+||d22bwtpl9.duckdns.org^
 ||d2bcb710c377.pages.dev^
 ||d2gew1.duckdns.org^
 ||d2manydn6.duckdns.org^
@@ -15079,6 +15101,7 @@
 ||dfxbridge.com^
 ||dg-1yh.pages.dev^
 ||dg1ph.pro^
+||dg5dk1h.duckdns.org^
 ||dgbneavensgco.firebaseapp.com^
 ||dgbneavensgco.web.app^
 ||dgcommunity.de^
@@ -17374,6 +17397,7 @@
 ||evri-track-f2cfa.firebaseapp.com^
 ||evri-track-f2cfa.web.app^
 ||evx.ewp.mybluehost.me^
+||evxtly.duckdns.org^
 ||evy94.com^
 ||ewallet-validate.com^
 ||ewalletsupport.netlify.app^
@@ -20205,6 +20229,7 @@
 ||gvvgrapps.web.app^
 ||gwabagu.pages.dev^
 ||gwayaugust.blogspot.com^
+||gwjpc5.duckdns.org^
 ||gworldgroup.com^
 ||gwwkz-myaaa-aaaad-qef5a-cai.raw.ic0.app^
 ||gxezun3uv.pages.dev^
@@ -20254,6 +20279,7 @@
 ||h8fl00.cc^
 ||h96azlgxq.duckdns.org^
 ||h9h0lgajjh6gizw.elb-host86.pancakeswape.finance^
+||h9klnsbw.square.site^
 ||h9m6ad.duckdns.org^
 ||ha5fge.pages.dev^
 ||haalapayswiden.blogspot.com^
@@ -21833,6 +21859,7 @@
 ||ifswgtofuxi.web.app^
 ||iftucs.hnuplsn.workers.dev^
 ||ig0v6k.duckdns.org^
+||igecqefb.duckdns.org^
 ||ighkn.mwztc0i1tv2853.workers.dev^
 ||igiowo1.pages.dev^
 ||igkm52.webwave.dev^
@@ -22303,7 +22330,6 @@
 ||intel-pairtokenzerion0i.pages.dev^
 ||inteligenciaurbana.cl^
 ||intellectuslivrariax.blogspot.com^
-||intelligent-shirley.92-118-190-138.plesk.page^
 ||intellisyncc.pages.dev^
 ||intellixprotocol.app^
 ||intellixstake.app^
@@ -22468,7 +22494,6 @@
 ||ipolattibraz.blogspot.com^
 ||iptvaustralasia.com^
 ||ipv6.45-88-90-136.cprapid.com^
-||ipv6.68-183-214-136.cprapid.com^
 ||ipva-seefaz-2023-sp.blogspot.com^
 ||ipw.pages.dev^
 ||iq5ut8.webwave.dev^
@@ -22959,6 +22984,7 @@
 ||jouturez.web.app^
 ||joycegenari.com^
 ||joyouslinkew.world^
+||jp1ysv5e.duckdns.org^
 ||jpagoda.icu^
 ||jpagoda.top^
 ||jpagods.com^
@@ -23715,6 +23741,7 @@
 ||kv609.com^
 ||kvh9h1.webwave.dev^
 ||kw45xw.duckdns.org^
+||kw70rt.duckdns.org^
 ||kwbaf9.webwave.dev^
 ||kwdbtrmww.web.app^
 ||kwduvko.duckdns.org^
@@ -24670,6 +24697,7 @@
 ||livrariavozesx.blogspot.com^
 ||lixozy.blogspot.com^
 ||lj.btcethe.cc^
+||lj3nf8504.duckdns.org^
 ||ljabl0i.duckdns.org^
 ||ljabsd.webwave.dev^
 ||ljdcfvthyj.pages.dev^
@@ -27308,7 +27336,6 @@
 ||metamask.authrize.mercamoron.com^
 ||metamask.best^
 ||metamask.bonuscriptomoedas.com^
-||metamask.brave-nobel.66-29-152-189.plesk.page^
 ||metamask.buzz^
 ||metamask.ca^
 ||metamask.cam^
@@ -28176,6 +28203,7 @@
 ||mferscoin.io^
 ||mfi.expert^
 ||mfidao.club^
+||mfyoh9u.duckdns.org^
 ||mg-land.land^
 ||mg5ppd.csb.app^
 ||mganicwrgl.duckdns.org^
@@ -30068,7 +30096,6 @@
 ||mytherwallet.com^
 ||mythetawallet.com^
 ||mytradrjoes.xyz^
-||mytrustwallet-clientoverview.185-236-231-84.plesk.page^
 ||myubiqwallet.com^
 ||myuetherwallet.com^
 ||myuidetmadmu.org^
@@ -31382,7 +31409,6 @@
 ||ohbestdayever.com^
 ||ohcp1v.webwave.dev^
 ||ohigfdgfdzsfxhghb.weebly.com^
-||ohiocircuit.com^
 ||ohiohistory.myportfolio.com^
 ||ohksxitservicefr.firebaseapp.com^
 ||ohksxitservicefr.web.app^
@@ -31611,7 +31637,6 @@
 ||online-verification-olb.firebaseapp.com^
 ||online-verification-olb.web.app^
 ||online-vystar.web.app^
-||online-wallet.recovery.109-71-253-24.plesk.page^
 ||online.aolservices.workers.dev^
 ||online.attonline.workers.dev^
 ||online.attservices.workers.dev^
@@ -32485,6 +32510,7 @@
 ||p3gnmpkzz7bdg3pxf7p4hgpwb4d7u77rhdcllh4h54gp7m5pl2qa.arweave.net^
 ||p3um7k.duckdns.org^
 ||p4kho0.webwave.dev^
+||p4n2y2g.duckdns.org^
 ||p4xnci.webwave.dev^
 ||p56c76hy.duckdns.org^
 ||p6.45-88-90-139.cprapid.com^
@@ -33522,7 +33548,6 @@
 ||paxful.co.com^
 ||paxful.co.in^
 ||paxful.com-login.angry-gauss.34-97-37-234.plesk.page^
-||paxful.com-login33.nervous-golick.35-203-61-10.plesk.page^
 ||paxful.com-login33.priceless-mayer.35-203-61-10.plesk.page^
 ||paxful.com.de^
 ||paxful.com.korede-ke7.just-uploaded-an-attachment.pw^
@@ -33559,8 +33584,6 @@
 ||paxfulcv.com^
 ||paxfulescrow.com^
 ||paxfulft.com^
-||paxfull.com-login.nervous-golick.35-203-61-10.plesk.page^
-||paxfull.com-login.priceless-mayer.35-203-61-10.plesk.page^
 ||paxfullogin.com^
 ||paxfully.com^
 ||paxfuloffer.com^
@@ -35894,6 +35917,7 @@
 ||q1-238.web.app^
 ||q1.mining7080.com^
 ||q1csky89.duckdns.org^
+||q1gyoh.duckdns.org^
 ||q1ut82.webwave.dev^
 ||q5tn.cc^
 ||q6bfjux93.ukit.me^
@@ -36136,6 +36160,7 @@
 ||qxkuk.pages.dev^
 ||qxmdrmnacy.duckdns.org^
 ||qxp31rv.duckdns.org^
+||qyg8eymyt.duckdns.org^
 ||qytkcv8r.duckdns.org^
 ||qyyzypnmrq.duckdns.org^
 ||qzajt.com^
@@ -36462,7 +36487,6 @@
 ||re-register-user-login.web.app^
 ||re-validate.webflow.io^
 ||re-voke.cash^
-||re.credit-suise.ch.209-38-225-204.credit-suise.ch.plesk.page^
 ||rea.pages.dev^
 ||reachsei.delivery^
 ||react-icy-lab-178c.esvorernlda.workers.dev^
@@ -37614,6 +37638,7 @@
 ||rrpsd7.webwave.dev^
 ||rrrrrrrrrrrrrrrrrr.hyperphp.com^
 ||rrutjfndjf.weebly.com^
+||rrxkl4.duckdns.org^
 ||rrzefpze.duckdns.org^
 ||rsaydium.io^
 ||rsdj2.s3o98.com^
@@ -38374,6 +38399,7 @@
 ||seedjfy-fund.com^
 ||seedlfy-fund.com^
 ||seedlfy.netlify.app^
+||seefiesfo.duckdns.org^
 ||seeidify.org^
 ||seemly-zany-picture.glitch.me^
 ||seespa-am-bodensee.de^
@@ -38474,7 +38500,6 @@
 ||sereur.hubside.fr^
 ||sergigamez.com^
 ||serifoto.it^
-||serra-pla.com^
 ||sertimadioprtugachurigiencocert.clinicauruguai.com^
 ||sertracmao.com.br^
 ||serty7iyhy.weebly.com^
@@ -43388,6 +43413,7 @@
 ||tt-109346.weeblysite.com^
 ||tt-milbox-pgrade-9383hhhh.weeblysite.com^
 ||tt.bep-mining8090.org^
+||tt8qiy.duckdns.org^
 ||ttaaa-103564.weeblysite.com^
 ||ttec.com.ph^
 ||ttec.pier2marketing.com^
@@ -44215,7 +44241,6 @@
 ||uprava-eporezna.firebaseapp.com^
 ||uprava-eporezna.web.app^
 ||uprc02.pages.dev^
-||ups-deliverytrxid.206-183-128-199.cprapid.com^
 ||ups-trackingid.162-240-100-215.cprapid.com^
 ||upsalefx.com^
 ||upxrp.com^
@@ -45127,6 +45152,7 @@
 ||vds50.pages.dev^
 ||vdtool.com^
 ||vdwdz.top^
+||vdww2p1.duckdns.org^
 ||vdyrb.pages.dev^
 ||vdz6k16.duckdns.org^
 ||ve-lkjhgfdertyuijkhgfdwertyhnexecvbnmiuyrewrtyuiklrbose-wa.pages.dev^
@@ -45635,6 +45661,7 @@
 ||vs1685199122.sur.2.votresite.ca^
 ||vs1685490242.sur.2.votresite.ca^
 ||vs1685703841.sur.3.votresite.ca^
+||vsa2fu.duckdns.org^
 ||vsb.pages.dev^
 ||vsdappradar.blogspot.com^
 ||vsdhg.weebly.com^
@@ -48128,7 +48155,6 @@
 ||www.ameexpress.mx^
 ||www.americanexpres-jp.top^
 ||www.ameritechrestore.com^
-||www.amjinmn.cn^
 ||www.amm-uni.com^
 ||www.amrneng.com^
 ||www.amspresale.cz^
@@ -48140,7 +48166,6 @@
 ||www.anlujifen.com^
 ||www.anyswap.in^
 ||www.aoen.co.jo.2trzlh.cn^
-||www.aoen.co.jo.4puv5m.cn^
 ||www.aoen.co.jo.p0t3wh.cn^
 ||www.aoen.co.jo.t3l9pb.cn^
 ||www.aoen.co.jo.ts17og.cn^
@@ -48715,7 +48740,6 @@
 ||www.geoponicsinc.com^
 ||www.get-metis.com^
 ||www.getmetamask.com^
-||www.gevxfe.cn^
 ||www.ghwsuplementos.com^
 ||www.gigzio.com^
 ||www.gio-trade.com^
@@ -50273,7 +50297,6 @@
 ||www.zrtgne.cn^
 ||www.zsoxwlo.cn^
 ||www.zsyimeijie.com^
-||www.ztjxtij.cn^
 ||www.zxidzkj.top^
 ||www.zyderswaps-io.ink^
 ||www.zyigiby.cn^
@@ -50790,6 +50813,7 @@
 ||xwh46oy5.duckdns.org^
 ||xwhatsappgroup.pages.dev^
 ||xwrgezvsqr.duckdns.org^
+||xwuj69.duckdns.org^
 ||xx02.pages.dev^
 ||xxdead.org^
 ||xxfinicomdeskhelp.weebly.com^
@@ -51605,6 +51629,7 @@
 ||zvthvcu.duckdns.org^
 ||zwakiste.firebaseapp.com^
 ||zwkwr.pages.dev^
+||zwmg0yfw1.duckdns.org^
 ||zwqsj21hk.duckdns.org^
 ||zx-kyber-swap-swap-acessoo-y0.blogspot.com^
 ||zxcv00-po123.firebaseapp.com^
