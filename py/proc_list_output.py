@@ -67,7 +67,7 @@ def update_phishfeed(workspace):
         return
 
     # Download CSV from Tranco list
-    tranco_csv_url = "https://tranco-list.eu/download/G6VLK/1000000"
+    tranco_csv_url = "https://tranco-list.eu/top-1m.csv.zip"
     if not download_extract_csv(tranco_csv_url, workspace):
         return
 
