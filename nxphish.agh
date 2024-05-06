@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains lists provided by Umbrella and Tranco.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 06:14:02
+! Last updated: 2024-05-06 07:12:27
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 51605
-! Number of NXDOMAIN domains: 82114
-! Number of SERVFAIL domains: 2013
+! Number of phishing domains: 51602
+! Number of NXDOMAIN domains: 82115
+! Number of SERVFAIL domains: 2017
 ! Number of domains removed by whitelist: 230
 ! Number of domains removed older than 60 days: 0
 ! Number of domains removed by Umbrella list: 57
@@ -19,7 +19,7 @@
 ! - app: 4616 (10.99%)
 ! - org: 1969 (4.69%)
 ! - io: 1649 (3.93%)
-! - net: 1448 (3.45%)
+! - net: 1447 (3.45%)
 ! - xyz: 877 (2.09%)
 ! - top: 796 (1.9%)
 ! - site: 757 (1.8%)
@@ -2241,7 +2241,6 @@
 ||airdrop.sleepleessai.net^
 ||airdrop.starheros.community^
 ||airdrop.starkparticipate.com^
-||airdrop.su^
 ||airdrop.sui-labs.com^
 ||airdrop.supraoracle.tech^
 ||airdrop.systems^
@@ -2298,7 +2297,6 @@
 ||airdrops-caga.web.app^
 ||airdrops-claim.com^
 ||airdrops-crypto.com^
-||airdrops-curve.net^
 ||airdrops-dapp.com^
 ||airdrops-jup.com^
 ||airdrops-lives.com^
@@ -13664,7 +13662,6 @@
 ||cutter-made.web.app^
 ||cuturl.net^
 ||cuvre.fr^
-||cuzdanvarlikonayactivasyinsirgulama.line.pm^
 ||cv7w5p.duckdns.org^
 ||cvaotgunej-24553.authdocshareportal.workers.dev^
 ||cvburf.gxnerk.workers.dev^
