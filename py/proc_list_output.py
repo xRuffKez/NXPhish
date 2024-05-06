@@ -8,6 +8,7 @@ import logging
 from datetime import datetime, timedelta
 from urllib.parse import urlparse
 import dns.resolver
+import shutil
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -24,7 +25,7 @@ def load_whitelist_domains():
         logger.error("Failed to load whitelist domains: %s", e)
         return set()
 
-def download_file(url, destination_folder):
+def download_extract_csv(url, destination_folder):
     try:
         response = requests.get(url, allow_redirects=True)
         response.raise_for_status()
@@ -32,19 +33,27 @@ def download_file(url, destination_folder):
         file_path = os.path.join(destination_folder, file_name)
         with open(file_path, 'wb') as f:
             f.write(response.content)
-        return file_path
-    except requests.RequestException as e:
-        logger.error("Failed to download file from %s: %s", url, e)
-        return None
+        
+        if file_name.endswith('.zip'):
+            with zipfile.ZipFile(file_path, 'r') as zip_ref:
+                zip_ref.extractall(destination_folder)
+                # Move the extracted CSV file from the subfolder to the destination folder
+                extracted_folder = os.path.join(destination_folder, file_name.split('.')[0])
+                extracted_csv_file = os.path.join(extracted_folder, os.listdir(extracted_folder)[0])
+                shutil.move(extracted_csv_file, destination_folder)
+                # Remove the empty extracted folder
+                os.rmdir(extracted_folder)
+        elif file_name.endswith('.csv'):
+            # No need to extract CSV file
+            pass
+        else:
+            logger.error("Unsupported file format: %s", file_name)
+            return False, None
 
-def extract_zip(zip_file, destination_folder):
-    try:
-        with zipfile.ZipFile(zip_file, 'r') as zip_ref:
-            zip_ref.extractall(destination_folder)
-        return True
-    except zipfile.BadZipFile as e:
-        logger.error("Failed to extract ZIP file %s: %s", zip_file, e)
-        return False
+        return True, os.path.join(destination_folder, file_name.split('.')[0] + '.csv')
+    except Exception as e:
+        logger.error("Failed to download or extract file: %s", e)
+        return False, None
 
 def update_phishfeed(workspace):
     db_path = os.path.join(workspace, 'stor/cache.db')
@@ -56,30 +65,16 @@ def update_phishfeed(workspace):
 
     # Download and extract Umbrella CSV
     umbrella_csv_url = "http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip"
-    umbrella_zip_path = download_file(umbrella_csv_url, workspace)
-    if umbrella_zip_path:
-        extract_zip(umbrella_zip_path, workspace)
-        umbrella_csv_file_path = os.path.join(workspace, "top-1m.csv")
-        os.remove(umbrella_zip_path)
-    else:
+    umbrella_success, umbrella_csv_file_path = download_extract_csv(umbrella_csv_url, workspace)
+    if not umbrella_success:
+        logger.error("Failed to download or extract Umbrella CSV file")
         return
 
     # Download and extract Tranco CSV
     tranco_csv_url = "https://tranco-list.eu/top-1m.csv.zip"
-    tranco_zip_path = download_file(tranco_csv_url, workspace)
-    if tranco_zip_path:
-        logger.info("Tranco CSV file downloaded successfully")
-        extract_success = extract_zip(tranco_zip_path, workspace)
-        if extract_success:
-            logger.info("Tranco CSV file extracted successfully")
-            tranco_csv_file_path = os.path.join(workspace, "top-1m.csv")
-            os.remove(tranco_zip_path)
-        else:
-            logger.error("Failed to extract Tranco CSV file")
-            os.remove(tranco_zip_path)
-            return
-    else:
-        logger.error("Failed to download Tranco CSV file")
+    tranco_success, tranco_csv_file_path = download_extract_csv(tranco_csv_url, workspace)
+    if not tranco_success:
+        logger.error("Failed to download or extract Tranco CSV file")
         return
 
     # Process Umbrella CSV
