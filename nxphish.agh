@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Cisco Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-06 23:09:13
+! Last updated: 2024-05-07 00:15:11
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 135849
-! Number of NXDOMAIN domains: 82245
-! Number of SERVFAIL domains: 2575
+! Number of phishing domains: 135855
+! Number of NXDOMAIN domains: 82253
+! Number of SERVFAIL domains: 2576
 ! Number of domains matched and removed by Umbrella: 33492
 ! Number of domains matched and removed by white.list: 38
 ! Number of domains removed older than 60 days: 0
@@ -20574,6 +20574,7 @@
 ||bravecto.shop^
 ||bravecto.su^
 ||bravecto.vet^
+||bravekto.com^
 ||braveofficial.info^
 ||bravera-j1.firebaseapp.com^
 ||bravera-j1.web.app^
@@ -61002,6 +61003,7 @@
 ||luukaplastic.weebly.com^
 ||lux3club.premint-wl.click^
 ||luxcwn.webwave.dev^
+||luxforwm.com^
 ||luxhomesinaz.com^
 ||luxi3.xyz^
 ||luxon.web3fast.net^
@@ -97209,6 +97211,7 @@
 ||sajuuhjsdndjsak-09283.weeblysite.com^
 ||sakamanb.site^
 ||saketprakashan.in^
+||sakoff5thshop.com^
 ||saks-off5th.shop^
 ||saks-off5th.top^
 ||saks-off5thonline.shop^
@@ -126244,6 +126247,7 @@
 ||www.gicwallet.xyz^
 ||www.giftboxsolana.com^
 ||www.giftclaim.buzz^
+||www.gifts-airtm.com^
 ||www.gigzio.com^
 ||www.gio-trade.com^
 ||www.git.home.hostmaster.coingecko.hatsuqat.com^
@@ -126747,6 +126751,7 @@
 ||www.jytyydxx.com^
 ||www.jzmepp.com^
 ||www.jztkmtf.cn^
+||www.ka.bpoint.online^
 ||www.kacofinance.io^
 ||www.kadeng.xyz^
 ||www.kaipukeji.com^
@@ -131180,6 +131185,7 @@
 ||www.yfi-vaults.com^
 ||www.yikouqi.cn^
 ||www.yingvalidate.live^
+||www.yiup.net^
 ||www.yiyingjuquan.top^
 ||www.yizhebian.com^
 ||www.yjoji.com^
@@ -135862,5 +135868,5 @@
 ||zzzzmetamaskzzzz.dray-dns.de^
 ||𝐚𝐦𝐧𝐰𝐢𝐠𝐫.𝐜𝐧^
 ||𝐬𝐧𝐬𝐰𝐜𝐰.𝐜𝐧^
-! Number of NXDOMAIN domains in cache.db: 82245
-! Number of SERVFAIL domains in cache.db: 2575
+! Number of NXDOMAIN domains in cache.db: 82253
+! Number of SERVFAIL domains in cache.db: 2576
