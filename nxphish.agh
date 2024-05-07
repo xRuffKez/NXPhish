@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Cisco Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-07 03:10:47
+! Last updated: 2024-05-07 04:11:00
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 135879
-! Number of NXDOMAIN domains: 82270
-! Number of SERVFAIL domains: 2631
+! Number of phishing domains: 135911
+! Number of NXDOMAIN domains: 82277
+! Number of SERVFAIL domains: 2642
 ! Number of domains matched and removed by Umbrella: 33492
 ! Number of domains matched and removed by white.list: 38
 ! Number of domains removed older than 60 days: 0
@@ -2216,6 +2216,7 @@
 ||888app.vip^
 ||88dynasty-mint.live^
 ||88mph.app.defi-universe.vip^
+||88oype20.square.site^
 ||8903783ki.webcindario.com^
 ||89n56l.cn^
 ||89u.nmvqvufzxhdro8613.workers.dev^
@@ -9202,6 +9203,7 @@
 ||apsrackspace.dns05.com^
 ||apst-foundation.com^
 ||apstos.com^
+||apstown.com^
 ||apt-project.com^
 ||apt-project.org^
 ||apt-roi.netlify.app^
@@ -10842,6 +10844,7 @@
 ||att-101077.weeblysite.com^
 ||att-101154.weeblysite.com^
 ||att-101190.weeblysite.com^
+||att-101211-109836.weeblysite.com^
 ||att-101215.weeblysite.com^
 ||att-101222.weeblysite.com^
 ||att-101225.weeblysite.com^
@@ -10964,6 +10967,7 @@
 ||att-103723.weeblysite.com^
 ||att-103784.weeblysite.com^
 ||att-103832.weeblysite.com^
+||att-103851.square.site^
 ||att-103867.square.site^
 ||att-103870.weeblysite.com^
 ||att-103881.weeblysite.com^
@@ -11083,6 +11087,7 @@
 ||att-106440.weeblysite.com^
 ||att-106441.weeblysite.com^
 ||att-106451.weeblysite.com^
+||att-106493.square.site^
 ||att-106566.weeblysite.com^
 ||att-106569.weeblysite.com^
 ||att-106571.weeblysite.com^
@@ -11240,6 +11245,7 @@
 ||att-109913-109885.weeblysite.com^
 ||att-109928.weeblysite.com^
 ||att-109933.weeblysite.com^
+||att-109960-107462.square.site^
 ||att-109964.weeblysite.com^
 ||att-15594.weeblysite.com^
 ||att-16s-exceptional-site.webflow.io^
@@ -11251,6 +11257,7 @@
 ||att-currently-3-05-24.weeblysite.com^
 ||att-currently-4-29-2024.weeblysite.com^
 ||att-currently-5-3-24.weeblysite.com^
+||att-currently-6-5-24.weeblysite.com^
 ||att-email-verifier.webflow.io^
 ||att-home-101263.weeblysite.com^
 ||att-inc-100327.weeblysite.com^
@@ -11756,6 +11763,7 @@
 ||attwebnetonline.weebly.com^
 ||attwebupdate.w3spaces.com^
 ||attworldmanagementiee.weebly.com^
+||attwww-108834.weeblysite.com^
 ||attxdr.weebly.com^
 ||attxtxtxtxt.square.site^
 ||attyahoohomepageee.weebly.com^
@@ -12319,6 +12327,7 @@
 ||autormaticalystebledomainautinticationservice3.pages.dev^
 ||autormaticalystebledomainautinticationservice4.pages.dev^
 ||autos-migrates.live^
+||autosaristanbul.com^
 ||autoserverfix.site^
 ||autosetfix.com^
 ||autosihark.com^
@@ -22212,6 +22221,7 @@
 ||bwidthherop.herokuapp.com^
 ||bwrdf.qofllyspxqr9976.workers.dev^
 ||bwswaptk.com^
+||bwxubw.com^
 ||bx50uh.webwave.dev^
 ||bxhnft.xyz^
 ||bxieinfinity.com^
@@ -23013,6 +23023,7 @@
 ||causecoins.net^
 ||cavaallerfort-8c1c9.firebaseapp.com^
 ||cavaallerfort-8c1c9.web.app^
+||cavanmosque.com^
 ||cavbdabenwqef.bandfrwqt4.repl.co^
 ||cavcas.site^
 ||cavemannft.xyz^
@@ -29651,6 +29662,7 @@
 ||cpsdisltributors.com^
 ||cptender-ae.com^
 ||cptenders-ae.com^
+||cpti4b.com^
 ||cptoken.app^
 ||cpzx2e.webwave.dev^
 ||cr-agrcl-fr.pages.dev^
@@ -43341,6 +43353,7 @@
 ||ferstingpostale.web.app^
 ||fertingthestforte.firebaseapp.com^
 ||fertingthestforte.web.app^
+||fertours2cuba.com^
 ||fertukmaz.shop^
 ||ferwqmle.duckdns.org^
 ||ferylorant.com^
@@ -43771,6 +43784,7 @@
 ||firxedfloat.net^
 ||fisafe-maroc.com^
 ||fiscalesdelperu.com^
+||fishinbowl.com^
 ||fishpoole.com^
 ||fishstandard.pages.dev^
 ||fiskchain.vercel.app^
@@ -45927,6 +45941,7 @@
 ||fxcapitalxchange.cf^
 ||fxdx-claim.live^
 ||fxexchang.princelyflight.com^
+||fxgtech.com^
 ||fxinvestmentbot.com^
 ||fxoption27.com^
 ||fxpectcrypt.com^
@@ -46854,6 +46869,7 @@
 ||geri-iade.krtaditrtrdvletrt.com.tr^
 ||gerinocoln.online^
 ||gerkmanas.site^
+||germanoffers.com^
 ||geroiukr.site^
 ||gertzonmak.site^
 ||gerusjoslwesytnbcveousg01.pages.dev^
@@ -48613,6 +48629,7 @@
 ||gq26v.pro^
 ||gqappzg.cn^
 ||gqpr0jg.iwfr.my.id^
+||gqy8re.com^
 ||gr-app-gvo.firebaseapp.com^
 ||gr-app-gvo.web.app^
 ||gr-dmd.pages.dev^
@@ -50351,6 +50368,7 @@
 ||hlxfsx.com^
 ||hm.elegiac.site^
 ||hm.flabbergast.site^
+||hmaassurance.com^
 ||hmgdhovlcr.pages.dev^
 ||hmhfyritngd.weebly.com^
 ||hmhzxz.webwave.dev^
@@ -51340,6 +51358,7 @@
 ||hydrowhalesclub.now-claim.xyz^
 ||hyetherwallet.com^
 ||hygood-test.com^
+||hyhclamshell.com^
 ||hyhunetwork.live^
 ||hyipvest.website^
 ||hyjt687uy.square.site^
@@ -58983,6 +59002,7 @@
 ||llzaix.webwave.dev^
 ||lmaglnaryones.space^
 ||lmaox.com^
+||lmbabies.com^
 ||lmeow.pw^
 ||lmiwallet.com^
 ||lmmutabie.com^
@@ -78107,6 +78127,7 @@
 ||nyagwasergj.firebaseapp.com^
 ||nyagwasergj.web.app^
 ||nybep.myportfolio.com^
+||nyc-painters.com^
 ||nycdepartmentoffinance.powerappsportals.us^
 ||nycnfts.xyz^
 ||nyco-corp.pages.dev^
@@ -78206,6 +78227,7 @@
 ||oasisprotocol.blog^
 ||oasisprotocols.org^
 ||oaslsprotocol.com^
+||oaslw.com^
 ||oau.zyv.mybluehost.me^
 ||oauth-metamask.io^
 ||oauth2-discord.com^
@@ -88502,6 +88524,7 @@
 ||pinkswap.finance^
 ||pinksxle.com^
 ||pinnacleoptiontrade.com^
+||pinnaclepainoh.com^
 ||pinswap.xyz^
 ||pinterest-airdrop.com^
 ||pintunft.online^
@@ -97869,6 +97892,7 @@
 ||scune-duhjnd0.pages.dev^
 ||scurencrypt.com^
 ||scxrjcyxgskp4.dlleai.cn^
+||scxxu38.com^
 ||scybautosolution.com^
 ||scymzswhcb.com^
 ||scyn-walletsbackup.com^
@@ -99286,6 +99310,7 @@
 ||sharepoint.preview-shared.workers.dev^
 ||sharepoint.yizhibaize.workers.dev^
 ||sharepoint365.skyland-zero.workers.dev^
+||sharingwsha.weebly.com^
 ||sharkgirltoken-promogive.com^
 ||sharkznft.xyz^
 ||sharonwen.com^
@@ -114013,7 +114038,10 @@
 ||userattmail7894984904905.weebly.com^
 ||userattmailyahoo3893940940.ukit.me^
 ||userauthentication.me^
+||userbossjp23.bgbhvasd.workers.dev^
+||userbossjp39.bgbhvasd.workers.dev^
 ||userdapp.com.noderectify.net^
+||userdownapp69.gdqmgdkg.workers.dev^
 ||userloginsfrescpaceclientwebmail.flazio.com^
 ||username8.godaddysites.com^
 ||username895.wixsite.com^
@@ -122631,6 +122659,7 @@
 ||wqiz0csy4ikkwe2.www.www.amazon.wiki.pancakeswape.finance^
 ||wqn.pages.dev^
 ||wqx.pages.dev^
+||wqzucdx.cn^
 ||wr0qi23fy.duckdns.org^
 ||wr2ekny70.ukit.me^
 ||wr7.therapieglobale.com^
@@ -131799,6 +131828,7 @@
 ||xifcf.pages.dev^
 ||xii3.com^
 ||xindingjzwx.com^
+||xinhunye.com^
 ||xinratmqpj.duckdns.org^
 ||xintelli-syncapps.netlify.app^
 ||xinxi.bizchn.net^
@@ -134090,6 +134120,7 @@
 ||xtremeliquidex.website^
 ||xtrip-com.blogspot.com^
 ||xtrony.blogspot.com^
+||xtsccyy.com^
 ||xtzco.site^
 ||xtztoken.site^
 ||xudo.win^
@@ -134612,6 +134643,7 @@
 ||yn4ars45l69dujc3nwab.duzot8a.ru^
 ||yn9p1j.cn^
 ||ynnnnn.ukit.me^
+||ynsss18.com^
 ||ynstbc.xyz.webplus7.a2hosted.com^
 ||yo-channel.com^
 ||yo0uqjkwnaka2221.pages.dev^
@@ -135892,5 +135924,5 @@
 ||zzzzmetamaskzzzz.dray-dns.de^
 ||𝐚𝐦𝐧𝐰𝐢𝐠𝐫.𝐜𝐧^
 ||𝐬𝐧𝐬𝐰𝐜𝐰.𝐜𝐧^
-! Number of NXDOMAIN domains in cache.db: 82270
-! Number of SERVFAIL domains in cache.db: 2631
+! Number of NXDOMAIN domains in cache.db: 82277
+! Number of SERVFAIL domains in cache.db: 2642
