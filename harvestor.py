@@ -54,7 +54,6 @@ def extract_tld_sld(domain):
         return None, None
     return tld, sld
 
-
 def create_warehouse_if_not_exists():
     if not os.path.exists("warehouse.json"):
         with open("warehouse.json", "w") as file:
@@ -63,7 +62,7 @@ def create_warehouse_if_not_exists():
 
 def update_json_with_domains(domains):
     current_time = int(time.time())
-    unique_domains = set()  # Verwende eine Menge, um Duplikate zu entfernen
+    unique_domains = set()  # Use a set to remove duplicates
 
     with open("warehouse.json", "r+") as file:
         try:
@@ -72,16 +71,20 @@ def update_json_with_domains(domains):
             data = []
 
         for domain in domains:
+            # Skip empty domain entries
+            if not domain:
+                continue
+            
             found = False
-            domain_without_path = urlparse(domain).netloc.split(':')[0]  # Extrahiere die Domain aus der URL
+            domain_without_path = urlparse(domain).netloc.split(':')[0]  # Extract domain from URL
             unique_domains.add(domain_without_path)
 
-            # Überprüfe, ob die Domain in der Umbrella-Liste vorhanden ist
+            # Check if the domain is in the Umbrella list
             tld, sld = extract_tld_sld(domain_without_path)
             if tld and sld and (sld + "." + tld) in umbrella_domains:
-                continue  # Überspringe die Domain, wenn sie in der Umbrella-Liste vorhanden ist
+                continue  # Skip the domain if it's in the Umbrella list
             
-            # Überprüfe, ob die Domain bereits im JSON vorhanden ist
+            # Check if the domain is already in the JSON
             for item in data:
                 if item["domain"] == domain_without_path:
                     item["last_seen"] = current_time
@@ -93,14 +96,14 @@ def update_json_with_domains(domains):
                     "first_seen": current_time,
                     "last_seen": current_time,
                     "dns_status": "OK",
-                    "dns_check_date": 0  # Setze dns_check_date auf 0 für neue Domains
+                    "dns_check_date": 0  # Set dns_check_date to 0 for new domains
                 })
 
-        # Entferne Duplikate aus dem JSON
+        # Remove duplicates from the JSON
         data = [entry for entry in data if entry["domain"] in unique_domains]
 
         file.seek(0)
-        file.truncate()  # Lösche den Inhalt der Datei, um sie neu zu schreiben
+        file.truncate()  # Clear the file content to rewrite it
         json.dump(data, file, indent=4)
 
 # Download phishing feeds
