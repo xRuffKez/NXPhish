@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Cisco Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-07 08:12:37
+! Last updated: 2024-05-07 09:12:00
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 135956
-! Number of NXDOMAIN domains: 82349
-! Number of SERVFAIL domains: 2704
+! Number of phishing domains: 135957
+! Number of NXDOMAIN domains: 82375
+! Number of SERVFAIL domains: 2720
 ! Number of domains matched and removed by Umbrella: 33492
 ! Number of domains matched and removed by white.list: 38
 ! Number of domains removed older than 60 days: 0
@@ -54081,6 +54081,7 @@
 ||jedz.co.za^
 ||jeepgarageve.com^
 ||jeepvult.org^
+||jefferies.ceo^
 ||jefferies.top^
 ||jefferies.tw^
 ||jefferies8.com^
@@ -135969,5 +135970,5 @@
 ||zzzzmetamaskzzzz.dray-dns.de^
 ||𝐚𝐦𝐧𝐰𝐢𝐠𝐫.𝐜𝐧^
 ||𝐬𝐧𝐬𝐰𝐜𝐰.𝐜𝐧^
-! Number of NXDOMAIN domains in cache.db: 82349
-! Number of SERVFAIL domains in cache.db: 2704
+! Number of NXDOMAIN domains in cache.db: 82375
+! Number of SERVFAIL domains in cache.db: 2720
