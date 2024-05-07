@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715118141
-# Database Hash: c39ee6aab9b26cc4b2452a22e423be5fa0e50491
-# Generated at: 2024-05-07 21:42:21 
+# Version: 1715118739
+# Database Hash: 3ee9a1cedc029638e5629cbd6f4096691747c716
+# Generated at: 2024-05-07 21:52:19 
 # Expires: 1 day
 # Statistics:
-# Number of phishing domains: 748
-# Number of excluded SERVFAIL responses: 12
+# Number of phishing domains: 746
+# Number of excluded SERVFAIL responses: 13
 # Number of excluded NXDOMAIN responses: 3
 # Top 10 Abused TLDs for OK domains:
-# com: 376 (50.27%)
-# dev: 117 (15.64%)
-# app: 37 (4.95%)
-# io: 34 (4.55%)
-# net: 9 (1.20%)
-# top: 9 (1.20%)
+# com: 375 (50.27%)
+# dev: 117 (15.68%)
+# app: 37 (4.96%)
+# io: 34 (4.56%)
+# net: 9 (1.21%)
+# top: 8 (1.07%)
 # id: 6 (0.80%)
 # shop: 5 (0.67%)
 # org: 5 (0.67%)
@@ -153,7 +153,6 @@
 ||cadat.standardseoservices.com^
 ||caes.serpgold.com^
 ||caixadireta-cgd.com^
-||cancel95483-coinbase.com^
 ||carriescloset.standardseoservices.com^
 ||catalina.serpgold.com^
 ||ccbpc.standardseoservices.com^
@@ -665,7 +664,6 @@
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||pubgevent.global-mey.sadeghii.ir^
 ||pulmu.standardseoservices.com^
-||qa.facebookqa5.top^
 ||quantumburf.standardseoservices.com^
 ||quizzical-kare-eda86a.netlify.app^
 ||r6hp2.shop^
