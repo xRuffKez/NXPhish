@@ -17,6 +17,20 @@ def extract_domains_from_feed(feed_filename):
         domains = file.readlines()
     return [domain.strip() for domain in domains if domain.strip()]
 
+def extract_domains_from_phishfort_json(json_filename):
+    with open(json_filename, 'r') as file:
+        data = json.load(file)
+        return data.get("domains", [])
+
+def extract_domains_from_phishtank_txt(txt_filename):
+    domains = []
+    with open(txt_filename, 'r') as file:
+        for line in file:
+            line = line.strip()
+            if line and not line.startswith("#"):
+                domains.append(line)
+    return domains
+
 def extract_domains_from_umbrella_csv(csv_filename):
     with open(csv_filename, newline='') as file:
         reader = csv.reader(file)
@@ -46,10 +60,6 @@ def create_warehouse_if_not_exists():
         with open("warehouse.json", "w") as file:
             file.write("[]")  # Write an empty JSON array to the file
         print("Created 'warehouse.json' file.")
-
-import json
-import time
-from urllib.parse import urlparse
 
 def update_json_with_domains(domains):
     current_time = int(time.time())
@@ -102,8 +112,8 @@ download_file("https://raw.githubusercontent.com/Zaczero/pihole-phishtank/main/h
 # Extract domains from phishing feeds
 openphish_domains = extract_domains_from_feed("openphish_feed.txt")
 phishunt_domains = extract_domains_from_feed("phishunt_feed.txt")
-phishfort_domains = extract_domains_from_feed("phishfort.txt")
-phishtank_domains = extract_domains_from_feed("phishtank.txt")
+phishfort_domains = extract_domains_from_phishfort_json("phishfort.txt")
+phishtank_domains = extract_domains_from_phishtank_txt("phishtank.txt")
 
 # Download and extract umbrella list
 download_file("http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip", "umbrella_list.zip")
