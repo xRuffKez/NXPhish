@@ -1,23 +1,23 @@
 # NXPhish for Adguard home
 # Author: xRuffKez
-# Version: 1715103230
-# Database Hash: 191771dfa7c390e1599699aeef55c8507c45a763
-# Generated at: 2024-05-07 17:33:50 
+# Version: 1715105050
+# Database Hash: 45bcbc5d580f6949753c78033274a49be8cbabd6
+# Generated at: 2024-05-07 18:04:10 
 # Expires: 1 day
 # Statistics:
 # Number of phishing domains: 699
-# Number of excluded SERVFAIL responses: 2
+# Number of excluded SERVFAIL responses: 3
 # Number of excluded NXDOMAIN responses: 6
 # Top 10 Abused TLDs for OK domains:
-# com: 350 (50.07%)
+# com: 351 (50.21%)
 # dev: 117 (16.74%)
 # app: 37 (5.29%)
 # io: 13 (1.86%)
 # net: 9 (1.29%)
 # top: 8 (1.14%)
 # id: 6 (0.86%)
-# org: 6 (0.86%)
 # shop: 5 (0.72%)
+# org: 5 (0.72%)
 # co: 5 (0.72%)
 
 ||052.serpgold.com^
@@ -193,7 +193,6 @@
 ||credits-receivables-linkedin.com^
 ||crpb.standardseoservices.com^
 ||csrdf.serpgold.com^
-||cstigroup.altervista.org^
 ||cust53.serpgold.com^
 ||d1788.top^
 ||daftar-dana-id-paylater.web-official.biz.id^
@@ -565,6 +564,7 @@
 ||pacifique.standardseoservices.com^
 ||packer.standardseoservices.com^
 ||pag-4op.pages.dev^
+||pagos-correos.com^
 ||pana.standardseoservices.com^
 ||partner.coinbase-company.com^
 ||patient-smoke-bbd6.eupgrading9898.workers.dev^
