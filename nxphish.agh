@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Cisco Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-07 00:15:11
+! Last updated: 2024-05-07 01:33:49
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 135855
-! Number of NXDOMAIN domains: 82253
-! Number of SERVFAIL domains: 2576
+! Number of phishing domains: 135878
+! Number of NXDOMAIN domains: 82260
+! Number of SERVFAIL domains: 2579
 ! Number of domains matched and removed by Umbrella: 33492
 ! Number of domains matched and removed by white.list: 38
 ! Number of domains removed older than 60 days: 0
@@ -1473,6 +1473,7 @@
 ||3afe8s8dy.duckdns.org^
 ||3b093327cd61.ngrok.io^
 ||3b83.state-country.workers.dev^
+||3b98zmpu.square.site^
 ||3be139eccab5374027c0f144b7e282d8d6078d731a976314427d1e34cd.pages.dev^
 ||3cahdz.nmoamult.com^
 ||3commas-app.site^
@@ -10564,6 +10565,7 @@
 ||at-ts-awesome-site-4525af.webflow.io^
 ||at-ts-beautiful-site-3bab82.webflow.io^
 ||at-ts-cool-site-98e2e5.webflow.io^
+||at-ts-dandy-site-50b54c.webflow.io^
 ||at-ts-dandy-site-805d90.webflow.io^
 ||at-ts-dynamite-site-45ea92.webflow.io^
 ||at-ts-fabulous-site-79d27e.webflow.io^
@@ -44679,6 +44681,7 @@
 ||formulario.consultavlabcp.com^
 ||formulario.evaluacionhistorialsbs.info^
 ||formulgid.pro^
+||formulir-web-staf.webflow.io^
 ||formulir.site^
 ||forney-construction.myportfolio.com^
 ||forniturepulice.it^
@@ -51989,6 +51992,7 @@
 ||idexxmarket.website^
 ||idexxonline.com^
 ||idexxsoftload.com^
+||idexxtr.com^
 ||idexz.market^
 ||idhelpbusiness23948512354123.firebaseapp.com^
 ||idhelpbusiness23948512354123.web.app^
@@ -52035,6 +52039,7 @@
 ||iedger.io^
 ||iedx.market^
 ||ieeegee.weebly.com^
+||ieii77474-563695-df7598c40cb4ef101f38.webflow.io^
 ||ielement.io^
 ||iens.xyz^
 ||iensprotocoi.xyz^
@@ -52750,6 +52755,7 @@
 ||info-appeal-id-76548.web.app^
 ||info-apple.support^
 ||info-bancosantander-app.com^
+||info-bhd-leon.serv00.net^
 ||info-binance.us^
 ||info-brave.info^
 ||info-bscpad.com^
@@ -55039,6 +55045,7 @@
 ||kaizilla-promogive.com^
 ||kajchevskidesign.site^
 ||kaka-a0i.pages.dev^
+||kakao-fmail-daum-sln2933-mobile.webflow.io^
 ||kakbant.site^
 ||kakfaf5a.weebly.com^
 ||kalao.online^
@@ -59716,6 +59723,7 @@
 ||lofliness.com^
 ||loftywallet.com^
 ||log-5501a4.webflow.io^
+||log-67e038.webflow.io^
 ||log-acc3.gq^
 ||log-app-gala-games.com^
 ||log-c21b7d.webflow.io^
@@ -60056,6 +60064,7 @@
 ||loginopensea.io^
 ||loginorange54278122323355663636368386368cxd.yolasite.com^
 ||loginowaoffice-3-6-5authwebaccess.slewis.workers.dev^
+||loginpageoo.weebly.com^
 ||loginpancakeswap.net^
 ||loginpaxful.ml^
 ||loginpolygon.site^
@@ -60586,6 +60595,7 @@
 ||loqin-blockchaln.com^
 ||loqin.blcakchian.com^
 ||loquacious-gaufre-7e3f0e.netlify.app^
+||loraincc.ukit.me^
 ||lord.tokens-aword.com^
 ||lordcommandre.firebaseapp.com^
 ||lordcommandre.web.app^
@@ -60792,6 +60802,7 @@
 ||lrtoepo.firebaseapp.com^
 ||lrtoepo.web.app^
 ||lrw820.com^
+||ls-site-b60ea8.webflow.io^
 ||ls-site-f8fd9c.webflow.io^
 ||lscryptv.com^
 ||lsdahx.weebly.com^
@@ -64055,6 +64066,7 @@
 ||melon-ooo.com^
 ||melon.io^
 ||melon20612483.brizy.site^
+||melon20848642.brizy.site^
 ||melonoo.site^
 ||melonooo.site^
 ||melonotoken.com^
@@ -88983,6 +88995,7 @@
 ||pointcheck-paypay.ne.jp^
 ||pointconnect.live^
 ||pointconnect.site^
+||pointed-paypay.ne.jp^
 ||pointosleek.com^
 ||pointronds.firebaseapp.com^
 ||points-0n1force.com^
@@ -94196,6 +94209,7 @@
 ||rediractionid547012016089540218057.blogspot.com^
 ||redirchc.com^
 ||redirecionadorseguro.quarksseg.com^
+||redirect-airtm.com^
 ||redirect-fixing.pages.dev^
 ||redirected-linked1n-invoice-payment.pages.dev^
 ||redirectfibanhj.firebaseapp.com^
@@ -96981,6 +96995,7 @@
 ||sadbox.shop^
 ||sadbox.site^
 ||sadbox.store^
+||sadcwq.webflow.io^
 ||saddle.gift^
 ||saderate-be.shop^
 ||sadert-hm.org^
@@ -99402,6 +99417,7 @@
 ||shetkarinews18.com^
 ||shezmu-tech.online^
 ||shgdhdwr.weebly.com^
+||shhared-sea-d6d3.krystengraff.workers.dev^
 ||shi-baaswap.godaddysites.com^
 ||shi-do.x--t.co^
 ||shiabrams.netlify.app^
@@ -106764,6 +106780,8 @@
 ||telegram.ceo^
 ||telegram.market^
 ||telegram.one^
+||telegram.sawrtg.club^
+||telegram.sawrtg.top^
 ||telegram.sdfsdsdf.xyz^
 ||telegram.servicetg.club^
 ||telegram.site^
@@ -107820,6 +107838,8 @@
 ||tgadminuser.acceste.top^
 ||tgadminuser.acceste.vip^
 ||tgadminuser.cutmserv.vip^
+||tgadminuser.sawrtg.club^
+||tgadminuser.sawrtg.top^
 ||tgadminuser.sdfsdsdf.xyz^
 ||tgadminuser.servicetg.club^
 ||tgadminuser.servicetg.ren^
@@ -115035,6 +115055,7 @@
 ||validar-actividad.hstn.me^
 ||validar-aqui-outlookmsn.zya.me^
 ||validar-aqui-ya.webcindario.com^
+||validar-bhdx.serv00.net^
 ||validar-datos--mx.royalwebhosting.net^
 ||validar420.webcindario.com^
 ||validarbac.webcindario.com^
@@ -121526,6 +121547,7 @@
 ||wenbutusedgently.xyz^
 ||wencoin.gg^
 ||wencoins.xyz^
+||wendmail.webflow.io^
 ||wendrops.com^
 ||wenexchange.net^
 ||wenfarcana.pages.dev^
@@ -135789,6 +135811,7 @@
 ||ztdxyf.weeblysite.com^
 ||ztg729.com^
 ||zthdytnhcr.duckdns.org^
+||zthj.pages.dev^
 ||zu820.com^
 ||zuberswap.top^
 ||zuckbucksmetaofficail.xyz^
@@ -135868,5 +135891,5 @@
 ||zzzzmetamaskzzzz.dray-dns.de^
 ||𝐚𝐦𝐧𝐰𝐢𝐠𝐫.𝐜𝐧^
 ||𝐬𝐧𝐬𝐰𝐜𝐰.𝐜𝐧^
-! Number of NXDOMAIN domains in cache.db: 82253
-! Number of SERVFAIL domains in cache.db: 2576
+! Number of NXDOMAIN domains in cache.db: 82260
+! Number of SERVFAIL domains in cache.db: 2579
