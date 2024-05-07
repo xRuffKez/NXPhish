@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Cisco Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-07 06:14:01
+! Last updated: 2024-05-07 07:12:05
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
 ! Number of phishing domains: 135920
-! Number of NXDOMAIN domains: 82299
-! Number of SERVFAIL domains: 2670
+! Number of NXDOMAIN domains: 82327
+! Number of SERVFAIL domains: 2685
 ! Number of domains matched and removed by Umbrella: 33492
 ! Number of domains matched and removed by white.list: 38
 ! Number of domains removed older than 60 days: 0
@@ -135933,5 +135933,5 @@
 ||zzzzmetamaskzzzz.dray-dns.de^
 ||𝐚𝐦𝐧𝐰𝐢𝐠𝐫.𝐜𝐧^
 ||𝐬𝐧𝐬𝐰𝐜𝐰.𝐜𝐧^
-! Number of NXDOMAIN domains in cache.db: 82299
-! Number of SERVFAIL domains in cache.db: 2670
+! Number of NXDOMAIN domains in cache.db: 82327
+! Number of SERVFAIL domains in cache.db: 2685
