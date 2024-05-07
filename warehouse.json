@@ -5330,7 +5330,7 @@
         "domain": "m.facebook.mesenger.com.303.my.id",
         "first_seen": 1715118694,
         "last_seen": 1715118694,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "SERVFAIL",
+        "dns_check_date": 1715118717
     }
 ]
