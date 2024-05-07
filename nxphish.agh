@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Cisco Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-07 05:10:10
+! Last updated: 2024-05-07 06:14:01
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 135918
-! Number of NXDOMAIN domains: 82283
-! Number of SERVFAIL domains: 2650
+! Number of phishing domains: 135920
+! Number of NXDOMAIN domains: 82299
+! Number of SERVFAIL domains: 2670
 ! Number of domains matched and removed by Umbrella: 33492
 ! Number of domains matched and removed by white.list: 38
 ! Number of domains removed older than 60 days: 0
@@ -621,6 +621,7 @@
 ||1inch.click^
 ||1inch.co.in^
 ||1inch.co.uk^
+||1inch.coinmarketcap-app.com^
 ||1inch.com.au^
 ||1inch.com.co^
 ||1inch.com.tr^
@@ -69942,6 +69943,7 @@
 ||mohit-srivastava-official.github.io^
 ||mohitpatidar002.github.io^
 ||mohitprajapati.com^
+||mohpn.com^
 ||moinulalam.com^
 ||moiyadaljehani.com^
 ||mojitoswep.finance^
@@ -135931,5 +135933,5 @@
 ||zzzzmetamaskzzzz.dray-dns.de^
 ||𝐚𝐦𝐧𝐰𝐢𝐠𝐫.𝐜𝐧^
 ||𝐬𝐧𝐬𝐰𝐜𝐰.𝐜𝐧^
-! Number of NXDOMAIN domains in cache.db: 82283
-! Number of SERVFAIL domains in cache.db: 2650
+! Number of NXDOMAIN domains in cache.db: 82299
+! Number of SERVFAIL domains in cache.db: 2670
