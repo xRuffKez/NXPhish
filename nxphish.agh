@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Cisco Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-07 09:12:00
+! Last updated: 2024-05-07 10:10:20
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 135957
-! Number of NXDOMAIN domains: 82375
-! Number of SERVFAIL domains: 2720
+! Number of phishing domains: 135959
+! Number of NXDOMAIN domains: 82401
+! Number of SERVFAIL domains: 2749
 ! Number of domains matched and removed by Umbrella: 33492
 ! Number of domains matched and removed by white.list: 38
 ! Number of domains removed older than 60 days: 0
@@ -6007,6 +6007,7 @@
 ||alshaya-group-ae.company.site^
 ||alshaya-group-ua.company.site^
 ||alshaya-group.site^
+||alshaya.site^
 ||alshayadeals.net^
 ||alshayadealss.com^
 ||alshayae.shop^
@@ -44388,6 +44389,7 @@
 ||flexmeme.pages.dev^
 ||flexport.club^
 ||flickplay.live^
+||flight.beehiiv.net^
 ||flightairdesk.com^
 ||flightbookhub.com^
 ||flightbookingreservation.online^
@@ -135970,5 +135972,5 @@
 ||zzzzmetamaskzzzz.dray-dns.de^
 ||𝐚𝐦𝐧𝐰𝐢𝐠𝐫.𝐜𝐧^
 ||𝐬𝐧𝐬𝐰𝐜𝐰.𝐜𝐧^
-! Number of NXDOMAIN domains in cache.db: 82375
-! Number of SERVFAIL domains in cache.db: 2720
+! Number of NXDOMAIN domains in cache.db: 82401
+! Number of SERVFAIL domains in cache.db: 2749
