@@ -5330,7 +5330,7 @@
         "domain": "opensea.rocketm0rtgage.com",
         "first_seen": 1715125880,
         "last_seen": 1715125880,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "SERVFAIL",
+        "dns_check_date": 1715125900
     }
 ]
