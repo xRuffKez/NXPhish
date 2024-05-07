@@ -1,0 +1,4 @@
+requests>=2.26.0
+tld>=0.12.6
+dnspython
+
