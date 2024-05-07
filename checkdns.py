@@ -6,7 +6,7 @@ def check_dns_status(domain):
     resolver = dns.resolver.Resolver()
     resolver.nameservers = ['76.76.2.0', '76.76.10.0']
     try:
-        resolver.resolve(domain, 'A')
+        resolver.resolve(domain, 'NS')
         return "OK"
     except dns.resolver.NXDOMAIN:
         return "NXDOMAIN"
