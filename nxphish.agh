@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715111027
-# Database Hash: 615672ea95f2a9ab015c178fe2fc905aa718291a
-# Generated at: 2024-05-07 19:43:47 
+# Version: 1715111538
+# Database Hash: ab507a88c691dd59a248e10a63324652dc5d5f74
+# Generated at: 2024-05-07 19:52:18 
 # Expires: 1 day
 # Statistics:
 # Number of phishing domains: 748
-# Number of excluded SERVFAIL responses: 9
+# Number of excluded SERVFAIL responses: 12
 # Number of excluded NXDOMAIN responses: 3
 # Top 10 Abused TLDs for OK domains:
-# com: 377 (50.40%)
+# com: 376 (50.27%)
 # dev: 117 (15.64%)
 # app: 37 (4.95%)
 # io: 34 (4.55%)
 # net: 9 (1.20%)
-# top: 8 (1.07%)
+# top: 9 (1.20%)
 # id: 6 (0.80%)
 # shop: 5 (0.67%)
 # org: 5 (0.67%)
@@ -428,6 +428,7 @@
 ||lindah.serpgold.com^
 ||linkedin-clone-snowy-ten.vercel.app^
 ||linkedin-creditsandcollections.com^
+||linkup.top^
 ||lio7.pages.dev^
 ||llz777.com^
 ||lnstagram.xn--hlp-kra.com^
@@ -436,7 +437,6 @@
 ||longbow.serpgold.com^
 ||longs.serpgold.com^
 ||lookslikejailbait.serpgold.com^
-||m.apple.ekolpano.com^
 ||maavhkpo.elementor.cloud^
 ||macgate.standardseoservices.com^
 ||mail-office-365-com.weebly.com^
