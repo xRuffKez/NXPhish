@@ -20,7 +20,7 @@ def extract_domains_from_feed(feed_filename):
 def extract_domains_from_phishfort_json(json_filename):
     with open(json_filename, 'r') as file:
         data = json.load(file)
-        return data.get("domains", [])
+        return data
 
 def extract_domains_from_phishtank_txt(txt_filename):
     domains = []
