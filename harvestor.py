@@ -96,10 +96,14 @@ def update_json_with_domains(domains):
 # Download phishing feeds
 download_file("https://openphish.com/feed.txt", "openphish_feed.txt")
 download_file("https://phishunt.io/feed.txt", "phishunt_feed.txt")
+download_file("https://raw.githubusercontent.com/phishfort/phishfort-lists/master/blacklists/domains.json", "phishfort.txt")
+download_file("https://raw.githubusercontent.com/Zaczero/pihole-phishtank/main/hosts.txt", "phishtank.txt")
 
 # Extract domains from phishing feeds
 openphish_domains = extract_domains_from_feed("openphish_feed.txt")
 phishunt_domains = extract_domains_from_feed("phishunt_feed.txt")
+phishfort_domains = extract_domains_from_feed("phishfort.txt")
+phishtank_domains = extract_domains_from_feed("phishtank.txt")
 
 # Download and extract umbrella list
 download_file("http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip", "umbrella_list.zip")
@@ -111,4 +115,4 @@ umbrella_domains = extract_domains_from_umbrella_csv("umbrella_list/top-1m.csv")
 create_warehouse_if_not_exists()
 
 # Update JSON with domains
-update_json_with_domains(openphish_domains + phishunt_domains)
+update_json_with_domains(openphish_domains + phishunt_domains + phishfort_domains + phishtank_domains)
