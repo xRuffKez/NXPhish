@@ -1,28 +1,29 @@
 # NXPhish for Adguard home
 # Author: xRuffKez
-# Version: 1715106620
-# Database Hash: a43e5dd038d048c5613c51fab570674516fc218b
-# Generated at: 2024-05-07 18:30:20 
+# Version: 1715106892
+# Database Hash: 3b3fbd9bc9b43c6392624acc18a7ced1f91aadc8
+# Generated at: 2024-05-07 18:34:52 
 # Expires: 1 day
 # Statistics:
-# Number of phishing domains: 360
-# Number of excluded SERVFAIL responses: 346
+# Number of phishing domains: 213
+# Number of excluded SERVFAIL responses: 547
 # Number of excluded NXDOMAIN responses: 1
 # Top 10 Abused TLDs for OK domains:
-# com: 117 (32.50%)
-# dev: 74 (20.56%)
-# app: 32 (8.89%)
-# net: 6 (1.67%)
-# co: 4 (1.11%)
-# ru: 4 (1.11%)
-# live: 3 (0.83%)
-# mx: 3 (0.83%)
-# za: 3 (0.83%)
-# info: 3 (0.83%)
+# com: 121 (56.81%)
+# dev: 31 (14.55%)
+# io: 12 (5.63%)
+# app: 7 (3.29%)
+# net: 4 (1.88%)
+# ru: 4 (1.88%)
+# xyz: 2 (0.94%)
+# org: 2 (0.94%)
+# za: 2 (0.94%)
+# info: 2 (0.94%)
 
 ||435671-coinbase.com^
 ||888starz-uzbek.com^
 ||9bd4.state-authh.workers.dev^
+||a-d-tech-staging.serpgold.com^
 ||accounts-apple.us.bigboss-mx.com^
 ||acf11.serpgold.com^
 ||adobe-pdf.pages.dev^
@@ -45,21 +46,24 @@
 ||apples-24x7-support.com^
 ||apply-juggle.pages.dev^
 ||appse.site^
-||autoconfig.mircrosoft.live^
+||att-107967-101298.weeblysite.com^
 ||aviatoroficial.com^
-||axiom-windows.com^
-||bamcobpl.particulares.de^
-||banco-santander.groupib-bk.com^
+||ballclub.serpgold.com^
 ||barclayschat-livehelp.com^
 ||bbvanetcash.mx9k291l.com.mx^
 ||binances.christmas^
 ||binances.city^
 ||binancle-us.com^
-||borex-netflix-clone.vercel.app^
+||binsinuation.standardseoservices.com^
+||bounder.standardseoservices.com^
+||bridgewater.standardseoservices.com^
 ||buy-amazon.link^
-||caixadireta-cgd.com^
+||caes.serpgold.com^
 ||cancel95483-coinbase.com^
+||catalina.serpgold.com^
 ||cdntest.serpgold.com^
+||ceejay.standardseoservices.com^
+||channels-images-origin.standardseoservices.com^
 ||cheapisthenewclassy.standardseoservices.com^
 ||chrstvltx.serpgold.com^
 ||cive.serpgold.com^
@@ -71,33 +75,41 @@
 ||coinbasejslogines.azurewebsites.net^
 ||coinbaselogiin.blogspot.co.za^
 ||coinbaseloni.azurewebsites.net^
+||coinbasepprologin-usa.gitbook.io^
 ||coldlookweb.pages.dev^
 ||colnbase.info^
-||connect-secure-wellsfargo.com.citrinocoin.co^
+||conted.serpgold.com^
 ||correos-es.rwandapropertyinsight.com^
-||credits-receivables-linkedin.com^
+||csrdf.serpgold.com^
+||cust53.serpgold.com^
+||darcs.standardseoservices.com^
 ||dataman.standardseoservices.com^
 ||daws-6-1-8.standardseoservices.com^
+||daws03-1.standardseoservices.com^
+||daws1-65.standardseoservices.com^
+||daws253.serpgold.com^
+||daws5-89.serpgold.com^
 ||delicate-sky-9370.f3r0q4i2.workers.dev^
 ||diamant24-fatenhamama.standardseoservices.com^
-||diegolramos-netflix-clone.vercel.app^
 ||dixdipcpervoi.standardseoservices.com^
+||djc.serpgold.com^
 ||dkerr.serpgold.com^
 ||dleaglegraphics.standardseoservices.com^
 ||dn83.standardseoservices.com^
 ||drama.standardseoservices.com^
+||droberts.serpgold.com^
 ||dry-bush-bf11.popsafetro4173.workers.dev^
 ||dvalin.serpgold.com^
 ||eddypc.standardseoservices.com^
 ||educause58.serpgold.com^
 ||educause67.standardseoservices.com^
+||elclubdelasexcomulgadas.serpgold.com^
 ||eldey.serpgold.com^
-||elqanas-netflix-clone.firebaseapp.com^
 ||emailfacebooksecurity.pages.dev^
 ||emes-dev.standardseoservices.com^
 ||engg.productsgallerydetails.com^
 ||entry5300-js2024r1.usercontent.dev^
-||environmentliv.wpenginepowered.com^
+||envoy-partnerleadsharing.standardseoservices.com^
 ||facebook-clone-irq5buwsv-therealshreyash.vercel.app^
 ||facebook-ten-tawny.vercel.app^
 ||facebook.check-protect-account.me^
@@ -106,14 +118,18 @@
 ||facebooksecuritys.blogspot.ro^
 ||facebookzaman.blogspot.com^
 ||facebookzaman.blogspot.ru^
-||facturation-netflix.com^
-||fathom-test-microsoft.com^
+||fluxmark.standardseoservices.com^
+||freedigitalcodecs.serpgold.com^
 ||freefire-garena-promo.com.ru^
 ||fsfe-dev.serpgold.com^
+||funny-golf-course-lol1.standardseoservices.com^
 ||garay.serpgold.com^
 ||gassendi.serpgold.com^
-||get-windows-replaced.today^
+||geo2all.serpgold.com^
+||geum.standardseoservices.com^
+||gipsy.serpgold.com^
 ||giveaway-apple.ru^
+||gmu.standardseoservices.com^
 ||google-bard-ai.org^
 ||google-cashincome5639.pages.dev^
 ||google-cashmachine79.pages.dev^
@@ -123,228 +139,81 @@
 ||google-netcashjobs75.pages.dev^
 ||google-stare.com^
 ||google.cjysec.workers.dev^
-||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
+||hertzog.standardseoservices.com^
+||hexinbbs.serpgold.com^
 ||hohenheim.standardseoservices.com^
-||hotmail-alerts.chelsie15.workers.dev^
-||hotmail-milfsexx70-whatsapp265.netlify.app^
-||hotmail-update-349c.tbtea3.workers.dev^
-||hotmail-update.doltenokku.workers.dev^
-||hotmailupdated.pages.dev^
+||hollywoodhottestactress.standardseoservices.com^
+||host48.serpgold.com^
 ||hqmac.serpgold.com^
 ||hyland.standardseoservices.com^
-||i-k-selection.de^
-||ietcamilonamenfrayja.edu.co^
-||info-bancosantander-app.com^
+||i-0909dfb6710e7eade.standardseoservices.com^
 ||inspiress.in^
 ||instagram-beta.pages.dev^
-||instagram-clone-murex.vercel.app^
-||instagram-clone-ruby.vercel.app^
-||instagram-clone-tan-iota.vercel.app^
-||instagram-clone-wine.vercel.app^
-||instagram-login-coral.vercel.app^
-||instagramprofiileurl.blogspot.am^
 ||instagramprofiileurl.blogspot.bg^
 ||instagramprofiileurl.blogspot.ca^
-||instagramprofiileurl.blogspot.co.at^
-||instagramprofiileurl.blogspot.co.id^
-||instagramprofiileurl.blogspot.co.il^
-||instagramprofiileurl.blogspot.co.nz^
-||instagramprofiileurl.blogspot.co.uk^
 ||instagramprofiileurl.blogspot.co.za^
-||instagramprofiileurl.blogspot.com^
 ||instagramprofiileurl.blogspot.com.ar^
-||instagramprofiileurl.blogspot.com.br^
-||instagramprofiileurl.blogspot.com.cy^
-||instagramprofiileurl.blogspot.com.es^
 ||instagramprofiileurl.blogspot.com.ng^
-||instagramprofiileurl.blogspot.cz^
-||instagramprofiileurl.blogspot.dk^
 ||instagramprofiileurl.blogspot.fi^
-||instagramprofiileurl.blogspot.fr^
 ||instagramprofiileurl.blogspot.gr^
-||instagramprofiileurl.blogspot.hk^
-||instagramprofiileurl.blogspot.hu^
-||instagramprofiileurl.blogspot.in^
 ||instagramprofiileurl.blogspot.is^
 ||instagramprofiileurl.blogspot.it^
-||instagramprofiileurl.blogspot.li^
-||instagramprofiileurl.blogspot.lu^
-||instagramprofiileurl.blogspot.mk^
-||instagramprofiileurl.blogspot.nl^
-||instagramprofiileurl.blogspot.pe^
 ||instagramprofiileurl.blogspot.pt^
-||instagramprofiileurl.blogspot.qa^
-||instagramprofiileurl.blogspot.rs^
-||instagramprofiileurl.blogspot.sg^
-||instagramprofiileurl.blogspot.ug^
+||internetenok.standardseoservices.com^
 ||jawatan-kosong1.myk-1d.com^
-||jenbwaddell.com^
 ||jhvsdsjhvbs.fyfyvfytvghv.workers.dev^
 ||jiji-apple-bee-333.com^
 ||jvbsjda.com^
+||l.ead.me^
 ||l111-dtc.pages.dev^
-||letg.pages.dev^
-||linkedin-clone-snowy-ten.vercel.app^
-||linkedin-creditsandcollections.com^
-||lnstagram.xn--hlp-kra.com^
 ||lo0aow-c191.temp-onlineserv.workers.dev^
-||login-microsoftonline.pages.dev^
 ||longs.serpgold.com^
 ||m.apple.ekolpano.com^
 ||maavhkpo.elementor.cloud^
 ||mail3.goggle.workers.dev^
 ||mailsrv.logicpint.com^
 ||mald.serpgold.com^
+||matamackkts.gitbook.io^
+||matimesk-logio.gitbook.io^
+||matremacsk-loign.gitbook.io^
 ||mcl.standardseoservices.com^
+||mcon.standardseoservices.com^
 ||meckel.standardseoservices.com^
 ||media.aaa.flag-coinbase.com^
-||metamask-beta.club^
-||metamask-download-extension.com^
-||metamask-wallett.blogspot.al^
-||metamask-wallett.blogspot.am^
-||metamask-wallett.blogspot.ba^
-||metamask-wallett.blogspot.ca^
-||metamask-wallett.blogspot.ch^
-||metamask-wallett.blogspot.co.uk^
-||metamask-wallett.blogspot.co.za^
-||metamask-wallett.blogspot.com.br^
-||metamask-wallett.blogspot.com.co^
-||metamask-wallett.blogspot.com.cy^
-||metamask-wallett.blogspot.com.ee^
-||metamask-wallett.blogspot.com.mt^
-||metamask-wallett.blogspot.dk^
-||metamask-wallett.blogspot.hk^
-||metamask-wallett.blogspot.hr^
-||metamask-wallett.blogspot.is^
-||metamask-wallett.blogspot.kr^
-||metamask-wallett.blogspot.mk^
-||metamask-wallett.blogspot.mx^
-||metamask-wallett.blogspot.nl^
-||metamask-wallett.blogspot.ro^
-||metamask-wallett.blogspot.ug^
-||metamaskinc.blogspot.ch^
-||metamaskinc.blogspot.co.at^
-||metamaskinc.blogspot.co.id^
-||metamaskinc.blogspot.com.ar^
-||metamaskinc.blogspot.com.co^
-||metamaskinc.blogspot.com.cy^
-||metamaskinc.blogspot.com.ee^
-||metamaskinc.blogspot.com.eg^
-||metamaskinc.blogspot.com.es^
-||metamaskinc.blogspot.com.ng^
-||metamaskinc.blogspot.com.tr^
-||metamaskinc.blogspot.com.uy^
-||metamaskinc.blogspot.cz^
-||metamaskinc.blogspot.dk^
-||metamaskinc.blogspot.fi^
-||metamaskinc.blogspot.hr^
-||metamaskinc.blogspot.hu^
-||metamaskinc.blogspot.ie^
-||metamaskinc.blogspot.it^
-||metamaskinc.blogspot.kr^
-||metamaskinc.blogspot.lt^
-||metamaskinc.blogspot.lu^
-||metamaskinc.blogspot.mx^
-||metamaskinc.blogspot.pe^
-||metamaskinc.blogspot.pt^
-||metamaskinc.blogspot.qa^
-||metamaskinc.blogspot.ro^
-||metamaskinc.blogspot.se^
-||metamaskinc.blogspot.sg^
-||metamaskinc.blogspot.si^
-||metamaskinc.blogspot.sk^
-||metamaskinc.blogspot.sn^
-||metamaskinc.blogspot.ug^
-||metamasks.world^
-||metamaskvalidation.sensoryworks.com^
-||micr0soft-login-now.rywepomo.workers.dev^
-||micrasoft-onedrive.com^
-||microsoft-identity-verification.e27a2722.workers.dev^
-||microsoft-ownership-verification.e27a2722.workers.dev^
-||microsoftlogin.cartwild.workers.dev^
-||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
-||mks-spotify.netlify.app^
+||metamasklagiinn.gitbook.io^
+||metamaskpasswordphaserecovery.gitbook.io^
+||metamessk-logixn.gitbook.io^
+||metaxmask-llogin.gitbook.io^
+||metcsklogin.gitbook.io^
+||mextamesk-loigin.gitbook.io^
 ||mra.serpgold.com^
 ||muddy-moon-71b4.soznvztbmy1542.workers.dev^
-||myaol0ne-049c.tovacu.workers.dev^
-||myoutlook-alerts0.lofeze.workers.dev^
 ||narutochen.standardseoservices.com^
-||netflix-clone-56easfcm6-vgandhi27.vercel.app^
-||netflix-clone-5iz.pages.dev^
-||netflix-clone-dvp.pages.dev^
-||netflix-clone-francant.vercel.app^
-||netflix-clone-hfcdjx7aj-skylakefreak.vercel.app^
-||netflix-clone-jet-eight.vercel.app^
-||netflix-clone-mu-beryl.vercel.app^
-||netflix-clone-sametakbal.vercel.app^
-||netflix-clone-seven-sepia.vercel.app^
-||netflix-clone-su39-smartguy500.vercel.app^
-||netflix-clone.carum.dev^
-||netflix-dj7.pages.dev^
-||netflix-final-red.vercel.app^
-||netflix-invoicing.com^
-||netflix-liard-seven.vercel.app^
-||netflix-nextjs-yt.vercel.app^
-||netflix-website-clone-two.vercel.app^
-||netflix-weihsun.vercel.app^
-||netflix.ofertas-suscripcion.com^
-||netflixs-job.com^
-||netflixs-task.com^
-||netflixshivam.freewebhostmost.com^
 ||nieuwsbrief.serpgold.com^
 ||nodosud.serpgold.com^
 ||notify-barclays.com^
 ||nupm.standardseoservices.com^
-||office365-b8f.pages.dev^
 ||ohmyteens.serpgold.com^
-||onedrive.microsoftlive1.workers.dev^
-||outlook-server.gorkakirtu.workers.dev^
-||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||outlookoffice365team.webflow.io^
-||p1bbl.shop^
 ||packer.standardseoservices.com^
 ||pagos-correos.com^
 ||pana.standardseoservices.com^
 ||partner.coinbase-company.com^
 ||patient-smoke-bbd6.eupgrading9898.workers.dev^
-||pay.outlook-365.net^
 ||pc246.standardseoservices.com^
 ||pc75.serpgold.com^
 ||pemaniskata.serpgold.com^
 ||play1.serpgold.com^
 ||pool-141.serpgold.com^
-||pop.spotify-cloaning.freewebhostmost.com^
-||portal.mircrosoft.live^
 ||potsandtea.standardseoservices.com^
 ||ppp9.standardseoservices.com^
-||proposal-ce2a.cullen1015.workers.dev^
-||proyectaexteriores.cl^
-||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
-||pub-19128e0e6ecc4449a51ef13fa09d2461.r2.dev^
-||pub-1c861328e4394134a30770372c6b7a26.r2.dev^
 ||pub-2d00d6546b834fd497e839604eb88d16.r2.dev^
-||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
 ||pub-4e9d559e11c54314b7639d20c3d13682.r2.dev^
-||pub-56d96d87585141d1bafb10b74962d54d.r2.dev^
-||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
-||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
-||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
-||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
-||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
-||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
 ||pub-b143f45073b548598e1a8efc44876e1e.r2.dev^
-||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
-||pub-c94901a072aa467bab48aec9868ed584.r2.dev^
-||pub-fc51d290db584b328d6feb3913c634a1.r2.dev^
-||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
-||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||pulmu.standardseoservices.com^
 ||qa.facebookqa5.top^
-||raiz.microsoft.local-user.com^
 ||rampart.serpgold.com^
 ||range86-134.standardseoservices.com^
 ||ransom.standardseoservices.com^
-||rbasolution.com^
 ||restless-star-7931.zistobistu3968.workers.dev^
 ||rmax48.standardseoservices.com^
 ||rolls.serpgold.com^
@@ -352,31 +221,15 @@
 ||rsb.standardseoservices.com^
 ||s207.serpgold.com^
 ||secure-dropbox.net^
-||secure-paypal.pages.dev^
-||securelogin-paypal.pages.dev^
-||spotify-clone31.netlify.app^
 ||ssb-amazon.top^
 ||still-poetry-77cd.uitsnnassdtaa3215.workers.dev^
-||trustwalletrestore.kareesi.com^
-||ukrainerecordings.com^
-||verify-office-outlook.com^
-||wellsfargo.verifypayments.net^
-||wellsfargos.info^
-||wespynetflix.vercel.app^
-||worker-muddy-mud-21e4.jm-database.workers.dev^
-||worker-outlook-1bdc.vaheli5766.workers.dev^
+||us-motasklogn.gitbook.io^
+||wawlletconnacti.gitbook.io^
 ||worker-weathered-tooth-d2b7.hupsafelma.workers.dev^
-||ww25.steamcomunnitlly.com^
 ||www-facebook-com.vn^
 ||www.apple.serpgold.com^
 ||www.bamazon.xyz^
-||www.benoitaudifonos.pe^
 ||www.coinbase-user-vlogin.tradewindpropertiescr.com^
-||www.discardless.eu^
-||www.formtools.com^
 ||www.giveaway-apple.ru^
-||www.mrm-linkedin.com^
-||www.netflix-max.com^
-||www.netflixbisnis.com^
-||www.tajmahalluxurytour.com^
+||www.hugedomains.com^
 ||www1.appleid-find.info^
