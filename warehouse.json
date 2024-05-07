@@ -5316,28 +5316,28 @@
         "domain": "www.es-bbva-proteccion.com",
         "first_seen": 1715111495,
         "last_seen": 1715111495,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "SERVFAIL",
+        "dns_check_date": 1715111516
     },
     {
         "domain": "linkup.top",
         "first_seen": 1715111495,
         "last_seen": 1715111495,
         "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_check_date": 1715111516
     },
     {
         "domain": "ir.microsoft.biz.inrtenet-miazan-ir.me",
         "first_seen": 1715111495,
         "last_seen": 1715111495,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "SERVFAIL",
+        "dns_check_date": 1715111516
     },
     {
         "domain": "netflix.iqbalpa.com",
         "first_seen": 1715111495,
         "last_seen": 1715111495,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "SERVFAIL",
+        "dns_check_date": 1715111516
     }
 ]
