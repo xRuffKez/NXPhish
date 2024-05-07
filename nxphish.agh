@@ -1,24 +1,24 @@
 # NXPhish for Adguard home
 # Author: xRuffKez
-# Version: 1715105810
-# Database Hash: 4b54b37b7a626450218ef8f4cf504a2447031684
-# Generated at: 2024-05-07 18:16:50 
+# Version: 1715106472
+# Database Hash: 09ed141b25fb367bf1f46428be71f8e2db97866e
+# Generated at: 2024-05-07 18:27:52 
 # Expires: 1 day
 # Statistics:
-# Number of phishing domains: 699
-# Number of excluded SERVFAIL responses: 3
-# Number of excluded NXDOMAIN responses: 6
+# Number of phishing domains: 676
+# Number of excluded SERVFAIL responses: 29
+# Number of excluded NXDOMAIN responses: 3
 # Top 10 Abused TLDs for OK domains:
-# com: 351 (50.21%)
-# dev: 117 (16.74%)
-# app: 37 (5.29%)
-# io: 13 (1.86%)
-# net: 9 (1.29%)
-# top: 8 (1.14%)
-# id: 6 (0.86%)
-# shop: 5 (0.72%)
-# org: 5 (0.72%)
-# co: 5 (0.72%)
+# com: 340 (50.30%)
+# dev: 115 (17.01%)
+# app: 34 (5.03%)
+# io: 13 (1.92%)
+# net: 8 (1.18%)
+# top: 8 (1.18%)
+# id: 6 (0.89%)
+# shop: 5 (0.74%)
+# org: 5 (0.74%)
+# ru: 5 (0.74%)
 
 ||052.serpgold.com^
 ||1000thingsaboutjapan.serpgold.com^
@@ -105,8 +105,6 @@
 ||bakerp.standardseoservices.com^
 ||bali.serpgold.com^
 ||ballclub.serpgold.com^
-||bamcobpl.particulares.de^
-||banco-santander.groupib-bk.com^
 ||baraboo.standardseoservices.com^
 ||barclayschat-livehelp.com^
 ||barkeep.serpgold.com^
@@ -142,7 +140,6 @@
 ||ca3mijhnsg.download-soft.xyz^
 ||cadat.standardseoservices.com^
 ||caes.serpgold.com^
-||caixadireta-cgd.com^
 ||cancel95483-coinbase.com^
 ||carriescloset.standardseoservices.com^
 ||catalina.serpgold.com^
@@ -186,7 +183,6 @@
 ||coinbaseloni.azurewebsites.net^
 ||coldlookweb.pages.dev^
 ||colnbase.info^
-||connect-secure-wellsfargo.com.citrinocoin.co^
 ||conted.serpgold.com^
 ||coreplesk-cake-7dbf.leacshlenmmdgza.workers.dev^
 ||correos-es.rwandapropertyinsight.com^
@@ -249,7 +245,6 @@
 ||entprise.serpgold.com^
 ||entree.serpgold.com^
 ||entry5300-js2024r1.usercontent.dev^
-||environmentliv.wpenginepowered.com^
 ||envoy-partnerleadsharing.standardseoservices.com^
 ||erestor.standardseoservices.com^
 ||ergot.standardseoservices.com^
@@ -266,7 +261,6 @@
 ||facebookzaman.blogspot.ru^
 ||facgwy.standardseoservices.com^
 ||factual-creative-relative.glitch.me^
-||facturation-netflix.com^
 ||falls.standardseoservices.com^
 ||fathom-test-microsoft.com^
 ||fertig.serpgold.com^
@@ -329,7 +323,6 @@
 ||imtoken-btc.com^
 ||imtoken3.com^
 ||inbound.serpgold.com^
-||info-bancosantander-app.com^
 ||inspiress.in^
 ||instagram-beta.pages.dev^
 ||instagram-clone-murex.vercel.app^
@@ -413,7 +406,6 @@
 ||lnstagram.xn--hlp-kra.com^
 ||lo0aow-c191.temp-onlineserv.workers.dev^
 ||login-microsoftonline.pages.dev^
-||login.trezuriostart.com^
 ||longbow.serpgold.com^
 ||longs.serpgold.com^
 ||lookslikejailbait.serpgold.com^
@@ -504,7 +496,6 @@
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
 ||milque.standardseoservices.com^
 ||mint-openseaprogets.vercel.app^
-||mks-spotify.netlify.app^
 ||mnworld.serpgold.com^
 ||mobile9.standardseoservices.com^
 ||moccasin.standardseoservices.com^
@@ -528,7 +519,6 @@
 ||netflix-clone-hfcdjx7aj-skylakefreak.vercel.app^
 ||netflix-clone-jet-eight.vercel.app^
 ||netflix-clone-mu-beryl.vercel.app^
-||netflix-clone-sametakbal.vercel.app^
 ||netflix-clone-seven-sepia.vercel.app^
 ||netflix-clone-su39-smartguy500.vercel.app^
 ||netflix-clone.carum.dev^
@@ -579,7 +569,6 @@
 ||play1.serpgold.com^
 ||policija64.wixsite.com^
 ||pool-141.serpgold.com^
-||pop.spotify-cloaning.freewebhostmost.com^
 ||portal.mircrosoft.live^
 ||potsandtea.standardseoservices.com^
 ||ppp9.standardseoservices.com^
@@ -647,41 +636,32 @@
 ||saison-7hggku0.duckdns.org^
 ||scvfrwqt17.pages.dev^
 ||secure-dropbox.net^
-||secure-paypal.pages.dev^
-||securelogin-paypal.pages.dev^
 ||septaospoploos.pages.dev^
 ||shefdaren.blogspot.com^
 ||shivpradhan2904.github.io^
 ||shnaisha.com^
-||shuimlk.com^
 ||simonisbv-nl.com^
 ||sp.aircsgo.com^
-||spotify-clone31.netlify.app^
 ||ssb-amazon.top^
 ||standardseoservices.com^
 ||still-poetry-77cd.uitsnnassdtaa3215.workers.dev^
 ||supportofamazongcojp.duckdns.org^
 ||swiss.getgbu.co^
-||swissexpress.schweiz-protect24.website^
 ||telegeram-y.com^
 ||telegramcn.github.io^
 ||telegramr.xyz^
 ||telkogmx34432.pages.dev^
 ||tg2.leetgems.h1n.ru^
-||token-dife.quest^
 ||tokenpblket.tel^
 ||tokenpocket-tpvum.org^
 ||tpcken.app^
 ||track.blogmarketcom.fr^
-||trustwalletrestore.kareesi.com^
 ||uhfiy.dgwt.my.id^
 ||ukrainerecordings.com^
 ||uspv.usspal.top^
 ||verify-office-outlook.com^
 ||w2mu4.shop^
 ||wahnsinniga.com^
-||wellsfargo.verifypayments.net^
-||wellsfargos.info^
 ||wespynetflix.vercel.app^
 ||worker-black-flower-d918.mutribudru.workers.dev^
 ||worker-long-sky-88c7.cor-vanleeuwenn.workers.dev^
@@ -691,7 +671,6 @@
 ||worker-spring-voice-bc0c.eveliaherschelman904.workers.dev^
 ||worker-weathered-tooth-d2b7.hupsafelma.workers.dev^
 ||ws.bianjieshop.top^
-||ww25.steamcomunnitlly.com^
 ||www-facebook-com.vn^
 ||www.a123.flicksall.top^
 ||www.apple.serpgold.com^
@@ -701,7 +680,6 @@
 ||www.caixinunes.pt^
 ||www.coinbase-user-vlogin.tradewindpropertiescr.com^
 ||www.despoina.standardseoservices.com^
-||www.discardless.eu^
 ||www.eml-gha.com^
 ||www.eventt-m4-battlegrounds.sadeghii.com^
 ||www.formtools.com^
@@ -709,7 +687,6 @@
 ||www.kdlfu.ir^
 ||www.meta-support-104507721356116.com^
 ||www.mrm-linkedin.com^
-||www.netflix-max.com^
 ||www.netflixbisnis.com^
 ||www.ngelpc1.serpgold.com^
 ||www.oasishealthcare.uk^
