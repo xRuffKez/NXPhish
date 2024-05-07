@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Cisco Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-07 11:10:03
+! Last updated: 2024-05-07 12:13:51
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 135960
-! Number of NXDOMAIN domains: 82423
-! Number of SERVFAIL domains: 2755
+! Number of phishing domains: 135974
+! Number of NXDOMAIN domains: 82448
+! Number of SERVFAIL domains: 2776
 ! Number of domains matched and removed by Umbrella: 33492
 ! Number of domains matched and removed by white.list: 38
 ! Number of domains removed older than 60 days: 0
@@ -4087,6 +4087,7 @@
 ||adrop.id^
 ||ads-app-walletconnect.org^
 ||ads-manage-recovery.miracle-chain.com^
+||ads-manage-verify-contact.miracle-chain.com^
 ||ads-manage-verify.miracle-chain.com^
 ||ads-manager-team-sp-accounts-restricted-01.vercel.app^
 ||ads-metamask.com^
@@ -21408,6 +21409,7 @@
 ||bt-voice-109318.weeblysite.com^
 ||bt-voice-a1e426.webflow.io^
 ||bt-voice-mail-5133ea.webflow.io^
+||bt-voice-mail-768f20.webflow.io^
 ||bt-voice-mail.weeblysite.com^
 ||bt-voice.webullar.site^
 ||bt-voive-mail-b60b3f.webflow.io^
@@ -21843,6 +21845,8 @@
 ||btverifyingpage.weebly.com^
 ||btvfdd.weebly.com^
 ||btvoice-107469.square.site^
+||btvoice.simdif.com^
+||btvoicemessage.simdif.com^
 ||btvooimal.onepage.me^
 ||btwaysstudio.com^
 ||btweebley.weebly.com^
@@ -30789,6 +30793,7 @@
 ||ctt-reentrega.com^
 ||ctt-transit.com^
 ||ctt.fullpays.site^
+||cttalpt.info^
 ||cttpt.world^
 ||cu54368.tw1.ru^
 ||cu8ot7.webwave.dev^
@@ -54083,6 +54088,7 @@
 ||jedz.co.za^
 ||jeepgarageve.com^
 ||jeepvult.org^
+||jefferies.asia^
 ||jefferies.ceo^
 ||jefferies.top^
 ||jefferies.tw^
@@ -61776,6 +61782,7 @@
 ||mail-metamask.com^
 ||mail-mfagov.weebly.com^
 ||mail-mof-gov-np.netlify.app^
+||mail-office-365-com.weebly.com^
 ||mail-opensea.com^
 ||mail-orang2004.hubside.fr^
 ||mail-orange6.godaddysites.com^
@@ -68498,6 +68505,7 @@
 ||mgctoken.org^
 ||mgcysgbwuv.duckdns.org^
 ||mgdqkfavvr.duckdns.org^
+||mgdsnhbxzc.duckdns.org^
 ||mgel.com.br^
 ||mgetherwallat.com^
 ||mgetherwallet.com^
@@ -93746,6 +93754,7 @@
 ||rccwebs-619c2.web.app^
 ||rcdkeam.duckdns.org^
 ||rcisdjcmsf.pages.dev^
+||rclincdocs.online^
 ||rcqse033.duckdns.org^
 ||rcr83.com^
 ||rcube000001.firebaseapp.com^
@@ -104615,6 +104624,7 @@
 ||support-dapps.org^
 ||support-defi.org^
 ||support-ethereum.ru^
+||support-f1c5e4.webflow.io^
 ||support-facturesfr.com^
 ||support-feedback-id-6obp.web.app^
 ||support-find-devices.live^
@@ -105442,6 +105452,7 @@
 ||swiss-paine-magyar-ch.web.app^
 ||swiss-pass.blogspot.com^
 ||swiss-scan.blogspot.com^
+||swiss.getgbu.co^
 ||swisscffclient.co^
 ||swissch-post-service.com^
 ||swisscom.cc^
@@ -106615,6 +106626,7 @@
 ||tdsynnexlive.com^
 ||tdsynnexlive.net^
 ||tdsynnexs.com^
+||tdsynnexx.com^
 ||tdsynnxe.com^
 ||tdwmvifc.top^
 ||tdxinsurance.com^
@@ -120203,6 +120215,7 @@
 ||wcsynchronizationpad.com^
 ||wcsyncronizationpad.com^
 ||wctnet4.weebly.com^
+||wcttpt.info^
 ||wcunivdapps.com^
 ||wcunivdappsfix.com^
 ||wcwebverification.com^
@@ -123403,6 +123416,7 @@
 ||www-sit-ofici.blogspot.com^
 ||www-slingshotfinance.com^
 ||www-smbc-card-com-rgreuyhfweiofjwef088115.vy276.com^
+||www-smbc-card-com-rgreuyhfweiofjwef08dsdfeee.jt262.com^
 ||www-smbc-card-com-rgreuyhfweiofjwef08dsdfsdvd.nz836.com^
 ||www-smbc-card-com-rgreuyhfweiofjwef08dwqcc2e2.nz579.com^
 ||www-smbcse-careced-co-jp1smbe.lorentelebeoufwa265.workers.dev^
@@ -135973,5 +135987,5 @@
 ||zzzzmetamaskzzzz.dray-dns.de^
 ||𝐚𝐦𝐧𝐰𝐢𝐠𝐫.𝐜𝐧^
 ||𝐬𝐧𝐬𝐰𝐜𝐰.𝐜𝐧^
-! Number of NXDOMAIN domains in cache.db: 82423
-! Number of SERVFAIL domains in cache.db: 2755
+! Number of NXDOMAIN domains in cache.db: 82448
+! Number of SERVFAIL domains in cache.db: 2776
