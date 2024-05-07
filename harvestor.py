@@ -104,7 +104,7 @@ phishunt_domains = extract_domains_from_feed("phishunt_feed.txt")
 download_file("http://s3-us-west-1.amazonaws.com/umbrella-static/top-1m.csv.zip", "umbrella_list.zip")
 with zipfile.ZipFile("umbrella_list.zip", "r") as zip_ref:
     zip_ref.extractall("umbrella_list")
-umbrella_domains = extract_domains_from_umbrella_csv("umbrella_list/top-1m.csv")
+umbrella_domains = extract_domains_from_umbrella_csv("umbrella_list/top-1m.csv")[:10000]
 
 # Create warehouse.json if it doesn't exist
 create_warehouse_if_not_exists()
