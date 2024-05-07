@@ -38,7 +38,7 @@ json_hash = hashlib.sha1(json.dumps(data, sort_keys=True).encode()).hexdigest()
 
 # Write the list to nxphish.agh
 with open("nxphish.agh", "w") as file:
-    file.write("# NXPhish for Adguard home\n")
+    file.write("# Title: NXPhish\n")
     file.write("# Author: xRuffKez\n")
     file.write(f"# Version: {generation_time}\n")  # Write Unix timestamp as version
     file.write(f"# Database Hash: {json_hash}\n")  # Write SHA-1 hash of JSON data
