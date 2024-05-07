@@ -4,11 +4,11 @@
 ! Phishing domains have been checked against the top 1 million domains list provided by Cisco Umbrella.
 ! Author: xRuffKez
 ! Repository: github.com/xRuffKez/NXPhish
-! Last updated: 2024-05-07 07:12:05
+! Last updated: 2024-05-07 08:12:37
 ! Here are some stats (NXDOMAIN and SERVFAIL Domains are not listed in this File):
-! Number of phishing domains: 135920
-! Number of NXDOMAIN domains: 82327
-! Number of SERVFAIL domains: 2685
+! Number of phishing domains: 135956
+! Number of NXDOMAIN domains: 82349
+! Number of SERVFAIL domains: 2704
 ! Number of domains matched and removed by Umbrella: 33492
 ! Number of domains matched and removed by white.list: 38
 ! Number of domains removed older than 60 days: 0
@@ -1293,6 +1293,7 @@
 ||2czyp0.duckdns.org^
 ||2d2wsydcv.duckdns.org^
 ||2d4c.reicrut-chat.workers.dev^
+||2dg3fj.duckdns.org^
 ||2doyivz91.duckdns.org^
 ||2e4g42hg54-crimson-lab-c5a8.srraufehxkvt.workers.dev^
 ||2e91604a16d563c6554d65269107033a.dashboard-pp1-54887o2654y549833y3.pages.dev^
@@ -2431,6 +2432,7 @@
 ||a-ftx.com^
 ||a-paxful.com^
 ||a-phantumwallet.godaddysites.com^
+||a-t-t-109805.weeblysite.com^
 ||a-telegram.net^
 ||a-wallet-magic-eden.blogspot.com^
 ||a-weed.webflow.io^
@@ -5749,6 +5751,7 @@
 ||alldrops.io^
 ||allegro-sprzedaz.com^
 ||allegro-ups.e-kei.pl^
+||allegro.50fl.com^
 ||allegro.arkigrafix.com^
 ||allegro.myessencewriter.com^
 ||allegro0lokalnie.0989237.xyz^
@@ -10811,6 +10814,7 @@
 ||att-100431.weeblysite.com^
 ||att-100435.weeblysite.com^
 ||att-100448.weeblysite.com^
+||att-100451.weeblysite.com^
 ||att-100489.weeblysite.com^
 ||att-100491.weeblysite.com^
 ||att-100525.weeblysite.com^
@@ -10917,6 +10921,7 @@
 ||att-102771.weeblysite.com^
 ||att-102777-103555.weeblysite.com^
 ||att-102808.weeblysite.com^
+||att-102836-109562.weeblysite.com^
 ||att-102836.weeblysite.com^
 ||att-102856.weeblysite.com^
 ||att-102872.weeblysite.com^
@@ -10953,6 +10958,7 @@
 ||att-103454.square.site^
 ||att-103518-109860.weeblysite.com^
 ||att-103523.weeblysite.com^
+||att-103568-104713.weeblysite.com^
 ||att-103569.weeblysite.com^
 ||att-103579.weeblysite.com^
 ||att-103610.weeblysite.com^
@@ -11096,6 +11102,7 @@
 ||att-106587.weeblysite.com^
 ||att-106588.weeblysite.com^
 ||att-106589.weeblysite.com^
+||att-106614.square.site^
 ||att-106643.weeblysite.com^
 ||att-106647-101795jayboi.weeblysite.com^
 ||att-106673.weeblysite.com^
@@ -11254,6 +11261,7 @@
 ||att-7jbfjv6jgtxhfh8ghrh.boxmode.io^
 ||att-com247.boxmode.io^
 ||att-currently-04-28-24.weeblysite.com^
+||att-currently-06-524.weeblysite.com^
 ||att-currently-29-24-2024.weeblysite.com^
 ||att-currently-3-05-24.weeblysite.com^
 ||att-currently-4-29-2024.weeblysite.com^
@@ -11278,6 +11286,7 @@
 ||att-inc-107691.weeblysite.com^
 ||att-inc-108039.weeblysite.com^
 ||att-inc-109442.weeblysite.com^
+||att-inc-109819.weeblysite.com^
 ||att-indexmembers.firebaseapp.com^
 ||att-indexmembers.web.app^
 ||att-jhyuyuy.weeblysite.com^
@@ -11352,6 +11361,7 @@
 ||att-mail-103794.weeblysite.com^
 ||att-mail-104171.weeblysite.com^
 ||att-mail-104395.weeblysite.com^
+||att-mail-104844.weeblysite.com^
 ||att-mail-105352.weeblysite.com^
 ||att-mail-105527.weeblysite.com^
 ||att-mail-105533.weeblysite.com^
@@ -11693,6 +11703,7 @@
 ||attrediret.weebly.com^
 ||attrenew.weebly.com^
 ||atts-amazing.webflow.io^
+||atts-stellar.webflow.io^
 ||atts-sublime.webflow.io^
 ||atts-verify.webflow.io^
 ||atts-verify11.webflow.io^
@@ -37606,6 +37617,7 @@
 ||e.pancakeswape.finance^
 ||e00a.mylink1.workers.dev^
 ||e09c801d297f807b.net^
+||e0gjh9hr.duckdns.org^
 ||e0gresources.com^
 ||e1.mining7080.com^
 ||e11.qingdaobanjiags.net^
@@ -42813,6 +42825,7 @@
 ||f77osja53.duckdns.org^
 ||f7ac.zip-locks.workers.dev^
 ||f7ftb98uihy878t67r.com^
+||f7obya8l.duckdns.org^
 ||f84o97.webwave.dev^
 ||f89badf5.7acd740c665c9b25ec20d877.workers.dev^
 ||f8toi9.whcwzs.com^
@@ -53668,6 +53681,7 @@
 ||ir-app-galagames.blogspot.com^
 ||ir4tj4x5.duckdns.org^
 ||ir5l24.webwave.dev^
+||irbbw5.duckdns.org^
 ||ircmhealth.com^
 ||irectify-wallet.info^
 ||irenicpublications.com.au^
@@ -55002,6 +55016,7 @@
 ||jyxb.86131888.com^
 ||jyxt.wsxgxsc.com^
 ||jzjhvw.ktt55.my.id^
+||jzxtk782p.duckdns.org^
 ||jzyc.qingdaobanjiags.net^
 ||k-ftx.com^
 ||k-kolkl-repl-co.translate.goog^
@@ -55868,6 +55883,7 @@
 ||kpsodemainnet.pages.dev^
 ||kq0hgp.webwave.dev^
 ||kqbfabfga-conflictrecovery.pages.dev^
+||kqczaze.duckdns.org^
 ||kqhkig9w0baqe-custsupport.coinbase.com.re-joenemen.org^
 ||kqhkig9w0baqe-supporter.coinbase.com.servicesitilition.services^
 ||kqiba4am24frdqd0df6d.84jil.ru^
@@ -56500,6 +56516,7 @@
 ||kyveairdrop.com^
 ||kyz61v.webwave.dev^
 ||kzchart-free.xyz^
+||kzgq4tkbb.duckdns.org^
 ||kzp.thm.mybluehost.me^
 ||l-electrum.org^
 ||l-identification.hubside.fr^
@@ -62138,6 +62155,7 @@
 ||maimai1919.blogspot.si^
 ||main--rad-cocada-8fa816.netlify.app^
 ||main--ticket-5095354-process-update.netlify.app^
+||main-a6f1b8.webflow.io^
 ||main-appconnect.com^
 ||main-b21790.netlify.app^
 ||main-bit.com^
@@ -63730,6 +63748,7 @@
 ||mcafeetoday.com^
 ||mcbxtjeaki.duckdns.org^
 ||mcc-holdings.net^
+||mcciuz-snairth-shraums.yolasite.com^
 ||mcdex-defi.com^
 ||mcdex-top.com^
 ||mcdonaldnftworld.top^
@@ -68468,11 +68487,14 @@
 ||mg-land.nft-premint.com^
 ||mg5ppd.csb.app^
 ||mganicwrgl.duckdns.org^
+||mgauhbxrso.duckdns.org^
 ||mgaxrmyttu.duckdns.org^
 ||mgbvspjgvr.duckdns.org^
 ||mgbwqlyuuq.duckdns.org^
 ||mgctoken.biz^
 ||mgctoken.org^
+||mgcysgbwuv.duckdns.org^
+||mgdqkfavvr.duckdns.org^
 ||mgel.com.br^
 ||mgetherwallat.com^
 ||mgetherwallet.com^
@@ -86127,6 +86149,7 @@
 ||para-digm.xyz^
 ||para-x.space^
 ||para.xcoindrop.top^
+||paraboi.square.site^
 ||parabonsolutions.com^
 ||parachuteclub.live^
 ||paradefi.network^
@@ -100354,6 +100377,7 @@
 ||sjiw28.web.app^
 ||sjndndnjdsks.wiki^
 ||sjp-e8c-38bf-40b2-baa5-97b297fa7d33.weebly.com^
+||sjqptpsk.duckdns.org^
 ||sjrtp-proxy.marketopreview.com^
 ||sjsmxhjm.wixsite.com^
 ||sjxxsb.imaimac.com^
@@ -105063,6 +105087,7 @@
 ||sw2.site^
 ||sw3rm-world.com^
 ||sw3rm.com^
+||sw8cye.duckdns.org^
 ||swaapy.network^
 ||swaassaafer.blogspot.com^
 ||swagbucksswago.weebly.com^
@@ -105479,6 +105504,7 @@
 ||sxws.pro^
 ||sxx6.sa.com^
 ||sxy.cqcy567.com^
+||sy4l9go.duckdns.org^
 ||syanapsebridgeapp.com^
 ||syanopsebridge.click^
 ||syc-bot.pages.dev^
@@ -106436,6 +106462,7 @@
 ||talismanwallet.com^
 ||talk21-105341.weeblysite.com^
 ||talk21-107974.weeblysite.com^
+||talkactibvesectionnewwsapple20855888.brizy.site^
 ||talktalk-105759.weeblysite.com^
 ||talktalkfor-everyone-108496.square.site^
 ||tallylabs.freemint-lives.com^
@@ -107834,6 +107861,7 @@
 ||tethusdt.shop^
 ||tethusdt.top^
 ||tethusdt.xyz^
+||tetjv8.duckdns.org^
 ||tetrisgoals.info^
 ||tetu-swap.pages.dev^
 ||tevbit.com^
@@ -111382,6 +111410,7 @@
 ||udettmamasslovonline.com^
 ||udex.market^
 ||udietma.online^
+||udisdiotwy82.weebly.com^
 ||udoswkxx.duckdns.org^
 ||udrop.finance^
 ||udsc-cliamreward.com^
@@ -112965,6 +112994,7 @@
 ||uo53ri.webwave.dev^
 ||uoda5m.cc^
 ||uogyee.com^
+||uokvm990l.duckdns.org^
 ||uoni-sowap.com^
 ||uoniswap.com^
 ||uonitedair.site^
@@ -116222,6 +116252,7 @@
 ||violationuse.start.page^
 ||violaton-review-2940.pages.dev^
 ||violet-swallow-789137.builder-preview.com^
+||violet400800.studio.site^
 ||violet400856.studio.site^
 ||violettazironi.live^
 ||violpark.best^
@@ -116571,6 +116602,7 @@
 ||vr2yzll95.ukit.me^
 ||vrdgf.pages.dev^
 ||vrgwallet.digital^
+||vrq70bkhn.duckdns.org^
 ||vrtxph.com^
 ||vruj.pages.dev^
 ||vs.mati-polygo.com^
@@ -117013,6 +117045,7 @@
 ||w.switchappendtw.net^
 ||w0132info.weebly.com^
 ||w087ki.webwave.dev^
+||w0k3o2a7b.duckdns.org^
 ||w0ww-magic-eden-lin-0ficia.blogspot.com^
 ||w0ww02.webwave.dev^
 ||w1117.usdt6188.top^
@@ -121712,6 +121745,7 @@
 ||wfow-8ab44.firebaseapp.com^
 ||wfow-8ab44.web.app^
 ||wfpodarki.ru^
+||wft0vdj.duckdns.org^
 ||wfyhsdhjhahfhksdjgjhfsgg63.weebly.com^
 ||wg0-apecoin.com^
 ||wg30kxn.xigxl.info^
@@ -122483,6 +122517,7 @@
 ||workforcenowadp.org^
 ||workgate.cc^
 ||workinagoda.com^
+||working-on-it-102511.weeblysite.com^
 ||working-on-it-107048.weeblysite.com^
 ||workingamazingreats.chancellor-wfsch.workers.dev^
 ||workingdead.web3-airdrop.net^
@@ -134915,6 +134950,7 @@
 ||z7tqxqprp5646d1b0a2b5ca.ocupac.ru^
 ||z7xxfc.csb.app^
 ||z82yoi.cn^
+||z8cjf0a.duckdns.org^
 ||z920.usdt6188.top^
 ||z9a5rlx4jj.whosaginay.tech^
 ||z9a7yo.webwave.dev^
@@ -135933,5 +135969,5 @@
 ||zzzzmetamaskzzzz.dray-dns.de^
 ||𝐚𝐦𝐧𝐰𝐢𝐠𝐫.𝐜𝐧^
 ||𝐬𝐧𝐬𝐰𝐜𝐰.𝐜𝐧^
-! Number of NXDOMAIN domains in cache.db: 82327
-! Number of SERVFAIL domains in cache.db: 2685
+! Number of NXDOMAIN domains in cache.db: 82349
+! Number of SERVFAIL domains in cache.db: 2704
