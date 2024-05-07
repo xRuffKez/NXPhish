@@ -4945,14 +4945,14 @@
         "domain": "",
         "first_seen": 1715104600,
         "last_seen": 1715105010,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "SERVFAIL",
+        "dns_check_date": 1715105036
     },
     {
         "domain": "pagos-correos.com",
         "first_seen": 1715105010,
         "last_seen": 1715105010,
         "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_check_date": 1715105036
     }
 ]
