@@ -28,7 +28,8 @@ def update_json_with_domains(domains):
                 "first_seen": current_time,
                 "last_seen": current_time,
                 "dns_status": "OK",
-                "dns_check_date": 0
+                "dns_check_date": 0,
+                "whitelisted": 0
             }
 
     # Remove duplicates from the JSON
