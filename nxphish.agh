@@ -1,25 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715175146
-# Database Hash: f271ade60237d6accb835456ce9d9d4141e22ac8
-# Generated at: 2024-05-08 13:32:26 
+# Version: 1715175490
+# Database Hash: 0fc63a45052a44d5690d4c3f55bda4d2f90fd17a
+# Generated at: 2024-05-08 13:38:10 
 # Expires: 1 day
-# Statistics:
-# Number of phishing domains: 325
-# Number of excluded SERVFAIL responses: 0
-# Number of excluded NXDOMAIN responses: 4
-# Top 10 Abused TLDs for OK domains:
-# dev: 127 (39.08%)
-# com: 37 (11.38%)
-# io: 11 (3.38%)
-# link: 9 (2.77%)
-# app: 8 (2.46%)
-# id: 6 (1.85%)
-# top: 5 (1.54%)
-# se: 4 (1.23%)
-# ru: 4 (1.23%)
-# in: 4 (1.23%)
-
+# Number of phishing domains: 372
+# Top 10 Abused TLDs:
+# dev: 158 (42.47%)
+# com: 48 (12.90%)
+# io: 11 (2.96%)
+# app: 11 (2.96%)
+# link: 9 (2.42%)
+# id: 6 (1.61%)
+# top: 5 (1.34%)
+# se: 4 (1.08%)
+# ru: 4 (1.08%)
+# in: 4 (1.08%)
 ||1-3r7.pages.dev^
 ||3dhhtn.pages.dev^
 ||3ui0ha0.token-imapp.com^
@@ -70,10 +66,12 @@
 ||botysiaa.com^
 ||bthome.w3spaces.com^
 ||ca3mijhnsg.download-soft.xyz^
+||caixadireta-cgd.com^
 ||cf-ipfs.com^
 ||clinquant-buttercream-d4fa95.netlify.app^
 ||cloicel-8251.uckldadoaierbex.workers.dev^
 ||cloouds-bar-84ac.slrheeibtuebsid.workers.dev^
+||cloudflare-ipfs.com^
 ||cloudl-191c.aoapuulz.workers.dev^
 ||coinbase-assets.com^
 ||coinbaselogiin.blogspot.co.za^
@@ -88,6 +86,7 @@
 ||discord-proxy.devilyouwei.workers.dev^
 ||dnadiclaim-ld.zvjnesia.biz.id^
 ||dysonus.com^
+||elqanas-netflix-clone.firebaseapp.com^
 ||emailfacebooksecurity.pages.dev^
 ||eobawyd.token-imapp.com^
 ||facebook.check-protect-account.me^
@@ -101,6 +100,7 @@
 ||facebookzaman.blogspot.ru^
 ||feceboolk.blogspot.in^
 ||freefire-reward-garena.ru^
+||get-windows-replaced.today^
 ||golosov.vesennie-detskiye.life^
 ||google-bard-ai.org^
 ||google-cashincome5639.pages.dev^
@@ -112,14 +112,19 @@
 ||google.cjysec.workers.dev^
 ||greba-7fed.dumoencsdt.workers.dev^
 ||hello-world-icy-moon-5a90.hatermanpaul.workers.dev^
+||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||hello-world-shy-sound-d22d.curdabufyo.workers.dev^
 ||hgajnvoz-functionalityenhancement.pages.dev^
 ||hgs.pages.dev^
+||hotmail-alerts.chelsie15.workers.dev^
+||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||hotmail-update.doltenokku.workers.dev^
+||hotmailupdated.pages.dev^
 ||hubmediacompany-pdf.pages.dev^
 ||iftucs.hnuplsn.workers.dev^
 ||imporacesliration.github.io^
+||info-bancosantander-app.com^
 ||inspiress.in^
 ||instagram-beta.pages.dev^
 ||instagram.tg^
@@ -164,7 +169,9 @@
 ||ipfs.io^
 ||krakonlogiin.gitbook.io^
 ||krishna-modi03.github.io^
+||letg.pages.dev^
 ||lingering-cherry-77dd.vaeenvrneeebrj.workers.dev^
+||login-microsoftonline.pages.dev^
 ||loocal1319541735t.pages.dev^
 ||loudflare-du2.pages.dev^
 ||mail3.goggle.workers.dev^
@@ -228,10 +235,22 @@
 ||metamaskinc.blogspot.ug^
 ||metamasks.world^
 ||metamasskluginn.blogspot.se^
+||micr0soft-login-now.rywepomo.workers.dev^
+||microsoft-identity-verification.e27a2722.workers.dev^
+||microsoft-ownership-verification.e27a2722.workers.dev^
+||microsoftlogin.cartwild.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
 ||mitchells-place.pages.dev^
+||mks-spotify.netlify.app^
 ||monetization-violation.github.io^
+||myoutlook-alerts0.lofeze.workers.dev^
 ||n3dcj-maaaa-aaaad-qal3q-cai.raw.ic0.app^
+||netflix-clone-5iz.pages.dev^
+||netflix-clone-dvp.pages.dev^
+||netflix-dj7.pages.dev^
+||netflixs-job.com^
+||netflixs-task.com^
+||netflixshivam.freewebhostmost.com^
 ||new-75691.bubbleapps.io^
 ||newnfts-box.firebaseapp.com^
 ||newnfts-box.web.app^
@@ -239,25 +258,32 @@
 ||nhv5.pages.dev^
 ||nmacouai-80bf.edohlriapdnoap.workers.dev^
 ||office1ffe38e7f60a5b19793808244ffc13661ffe38e7f60a5b19793808244.pharcville.workers.dev^
+||office365-b8f.pages.dev^
 ||omudipe-3e72.itrlcuvapioelcr.workers.dev^
 ||onedrive.h9cg7mpmcx9590.workers.dev^
+||onedrive.microsoftlive1.workers.dev^
 ||onlinemmmmiiicrrossoft0039.pages.dev^
+||opensea.rocketm0rtgage.com^
 ||optusnet-com.blogspot.in^
 ||orange-math-f65b.naacraleindir.workers.dev^
 ||outlook-server.gorkakirtu.workers.dev^
+||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||partner.coinbase-company.com^
 ||piv-cfe.pages.dev^
 ||pr-newsroom-wp.appspot.com^
 ||project-base-4b4d.tierfaitneuro.workers.dev^
 ||pub-052b47a671f0418093368444ba49732f.r2.dev^
 ||pub-0b923ff1432049fd8f970ab968ed2ee5.r2.dev^
+||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-16e137a4cf854984a7e3444dc08cd250.r2.dev^
+||pub-19128e0e6ecc4449a51ef13fa09d2461.r2.dev^
 ||pub-1b39f72729884926bead5824a75c8a28.r2.dev^
 ||pub-1bc979d61ca04eb39402ccbd9fc5c3a2.r2.dev^
 ||pub-21e79dfd145840ee9b26f00bf1350c48.r2.dev^
 ||pub-26702d472a5f4e8c83b9ef3c579e59e9.r2.dev^
 ||pub-2e3d9eac8b2945499fb2acf5e652a366.r2.dev^
 ||pub-331069acac904c9490fbab889f44375d.r2.dev^
+||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
 ||pub-46a76d9b27194dacafcad8846020f601.r2.dev^
 ||pub-4a9f2846b0ac4fdfb7f74c040870263c.r2.dev^
 ||pub-4e9d559e11c54314b7639d20c3d13682.r2.dev^
@@ -265,20 +291,26 @@
 ||pub-5144930bed2b4ce7a2d5187e6dcecdda.r2.dev^
 ||pub-537a4a4a7dc74e96808b043037f058fb.r2.dev^
 ||pub-578040898e97448fab462cfa3f671292.r2.dev^
+||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-60733cb9a98d4473bc08598e30d7edda.r2.dev^
 ||pub-60a3f2eae6af4a20bcdefeecf956a292.r2.dev^
 ||pub-60e3abe8be0f4607baa997cbb230daaf.r2.dev^
 ||pub-678f43c1a34241f19dfe3953a61e0ae1.r2.dev^
 ||pub-68da61b09d6e4d65a1317a59afd5f97c.r2.dev^
 ||pub-690038ad1f584af098753eb3bf97c49d.r2.dev^
+||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-70ace99be27c42a29c762eaa94a1968c.r2.dev^
+||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-75a24311ea0842d18456cbc0684282a5.r2.dev^
 ||pub-786875329a4d4b229f9b36d89910de25.r2.dev^
 ||pub-78da3e699efa42a59b33c64ac8d6f7ba.r2.dev^
 ||pub-79054e2407ed4d948cfe2353a779d202.r2.dev^
 ||pub-7e03be4ff5dd4fe48e197e883719b7b2.r2.dev^
 ||pub-7fe1f587d76e4372b8247f6c119086eb.r2.dev^
+||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
+||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4190bc6e0243a2ac747c262b69bfb8.r2.dev^
+||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
 ||pub-a06cba4257a74e4089d885b062901567.r2.dev^
 ||pub-a0a79f542c0c4426b48dcc2ff2c29a7a.r2.dev^
 ||pub-a16297173b9f41efb0673a313849c551.r2.dev^
@@ -286,6 +318,7 @@
 ||pub-a851432ac965410d85c6b0810849d047.r2.dev^
 ||pub-ad9c0fb8162c4b9fa96435e086e0ab27.r2.dev^
 ||pub-aebd43e191a44da0b6877cb3acdc80fb.r2.dev^
+||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
 ||pub-c9a9e92edac2437ebbd4f2af37ff1954.r2.dev^
 ||pub-caf79bf2478b45afbf9b9cf3cdb74493.r2.dev^
 ||pub-cbc6caed2e384a658affab8909df6d34.r2.dev^
@@ -305,17 +338,22 @@
 ||pub-f89610a0d5fc46ef83eff97ec7a2c74d.r2.dev^
 ||pub-f92a28ed1dbe4d3b9f2a757cfdcaeebc.r2.dev^
 ||pub-fa5424dfc15144079eacedf90f243daf.r2.dev^
+||pub-fc51d290db584b328d6feb3913c634a1.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
+||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||recx-violet-2e33.rersntttngeaa.workers.dev^
 ||remove-page-violaton.github.io^
 ||rewards-ff-gerane.ru^
 ||ros-3vq.pages.dev^
 ||run-sun-a3dc.santanaharmon.workers.dev^
 ||saltmine.pages.dev^
+||secure-paypal.pages.dev^
+||securelogin-paypal.pages.dev^
 ||serviceupdate.tefyeciste.workers.dev^
 ||singaporegarena.blogspot.com^
 ||smobilirsk.de^
 ||spinl.xsuitmaxkr.biz.id^
+||spotify-clone31.netlify.app^
 ||steamcomuimnity.ru^
 ||steamcounmunity.com^
 ||swaaser.blogspot.com^
@@ -334,13 +372,18 @@
 ||turbify-upgrade.cijojav197.workers.dev^
 ||usp.usspdf.top^
 ||uyw873.w3spaces.com^
+||verify-office-outlook.com^
 ||voicemailonemailloading.github.io^
 ||wa-groupbebe.pages.dev^
+||wellsfargos.info^
+||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||worker-polished-union-d954.carloscanejoo.workers.dev^
 ||workers-playground-long-river-9d66.brianstuart.workers.dev^
 ||www-facebook-com.vn^
 ||www.es-bbva-proteccion.com^
 ||www.hugedomains.com^
+||www.netflix-max.com^
+||www.netflixbisnis.com^
 ||www.onoboutique.com^
 ||www.rekovonline.cfd^
 ||zdrhuagh.elementor.cloud^
