@@ -53,7 +53,7 @@
         "last_seen": 1715194413,
         "dns_status": "OK",
         "dns_check_date": 1715194425,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "metamaskinc.blogspot.pe",
@@ -93,7 +93,7 @@
         "last_seen": 1715194413,
         "dns_status": "OK",
         "dns_check_date": 1715194425,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "qev.muf.mybluehost.me",
@@ -133,7 +133,7 @@
         "last_seen": 1715194413,
         "dns_status": "OK",
         "dns_check_date": 1715194425,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "www.house-of-instagram.xyz",
@@ -205,7 +205,7 @@
         "last_seen": 1715194413,
         "dns_status": "NO_NAMESERVERS",
         "dns_check_date": 1715194425,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "google.cjysec.workers.dev",
