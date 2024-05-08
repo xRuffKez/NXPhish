@@ -67,9 +67,16 @@ def plot_pie_chart(ok_count, nxdomain_count, timeout_count, no_answer_count, no_
     plt.close()
 
 # Function to plot line chart
+# Function to plot line chart
 def plot_line_chart(data):
-    timestamps = [entry['timestamp'] for entry in data]
-    dns_statuses = [entry['dns_status'] for entry in data]
+    timestamps = []
+    dns_statuses = []
+
+    # Iterate through data and collect valid timestamps and statuses
+    for entry in data:
+        if 'timestamp' in entry and 'dns_status' in entry:
+            timestamps.append(entry['timestamp'])
+            dns_statuses.append(entry['dns_status'])
 
     # Convert timestamps to datetime objects
     timestamps = [datetime.strptime(ts, '%Y-%m-%d %H:%M:%S') for ts in timestamps]
@@ -104,6 +111,7 @@ def plot_line_chart(data):
     plt.tight_layout()
     plt.savefig('line_chart.png', bbox_inches='tight')
     plt.close()
+
 
 # Main function
 def main():
