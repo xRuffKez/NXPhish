@@ -1,6 +1,5 @@
 import json
 import matplotlib.pyplot as plt
-from datetime import datetime, timedelta
 
 # Function to load data from JSON file
 def load_data():
@@ -8,10 +7,9 @@ def load_data():
         data = json.load(file)
     return data
 
-# Function to extract required data for line chart
-def extract_line_chart_data(data):
-    phishing_domains = 0
-    all_domains = len(data)
+# Function to extract required data for pie chart
+def extract_pie_chart_data(data):
+    ok_count = 0
     nxdomain_count = 0
     timeout_count = 0
     no_answer_count = 0
@@ -24,7 +22,7 @@ def extract_line_chart_data(data):
     
     for entry in data:
         if entry['dns_status'] == 'OK':
-            phishing_domains += 1
+            ok_count += 1
         elif entry['dns_status'] == 'NXDOMAIN':
             nxdomain_count += 1
         elif entry['dns_status'] == 'TIMEOUT':
@@ -44,56 +42,30 @@ def extract_line_chart_data(data):
         elif entry['dns_status'] == 'ERROR':
             error_count += 1
             
-    return phishing_domains, all_domains, nxdomain_count, timeout_count, no_answer_count, no_nameservers_count, no_root_soa_count, no_root_ns_count, no_metaqueries_count, no_metaqueries_no_root_ns_count, error_count
+    return ok_count, nxdomain_count, timeout_count, no_answer_count, no_nameservers_count, no_root_soa_count, no_root_ns_count, no_metaqueries_count, no_metaqueries_no_root_ns_count, error_count
 
-# Function to plot line chart
-def plot_line_chart(phishing_domains, all_domains, nxdomain_count, timeout_count, no_answer_count, no_nameservers_count, no_root_soa_count, no_root_ns_count, no_metaqueries_count, no_metaqueries_no_root_ns_count, error_count):
-    now = datetime.now()
-    x = [now - timedelta(minutes=i*30) for i in range(25)]
-    x_labels = [dt.strftime('%H:%M') for dt in x]
-    
-    phishing_data = [phishing_domains] * len(x)
-    all_data = [all_domains] * len(x)
-    nxdomain_data = [nxdomain_count] * len(x)
-    timeout_data = [timeout_count] * len(x)
-    no_answer_data = [no_answer_count] * len(x)
-    no_nameservers_data = [no_nameservers_count] * len(x)
-    no_root_soa_data = [no_root_soa_count] * len(x)
-    no_root_ns_data = [no_root_ns_count] * len(x)
-    no_metaqueries_data = [no_metaqueries_count] * len(x)
-    no_metaqueries_no_root_ns_data = [no_metaqueries_no_root_ns_count] * len(x)
-    error_data = [error_count] * len(x)
-    
-    plt.figure(figsize=(12, 6))
-    plt.plot(x_labels, phishing_data, label='Phishing Domains (OK DNS)')
-    plt.plot(x_labels, all_data, label='All Domains')
-    plt.plot(x_labels, nxdomain_data, label='NXDOMAIN')
-    plt.plot(x_labels, timeout_data, label='TIMEOUT')
-    plt.plot(x_labels, no_answer_data, label='NO_ANSWER')
-    plt.plot(x_labels, no_nameservers_data, label='NO_NAMESERVERS')
-    plt.plot(x_labels, no_root_soa_data, label='NO_ROOT_SOA')
-    plt.plot(x_labels, no_root_ns_data, label='NO_ROOT_NS')
-    plt.plot(x_labels, no_metaqueries_data, label='NO_METAQUERIES')
-    plt.plot(x_labels, no_metaqueries_no_root_ns_data, label='NO_METAQUERIES_NO_ROOT_NS')
-    plt.plot(x_labels, error_data, label='ERROR')
-    
-    plt.title('Domain Statistics Over Time')
-    plt.xlabel('Time')
-    plt.ylabel('Count')
-    plt.xticks(rotation=45)
-    plt.legend()
-    plt.grid(True)
+# Function to plot pie chart
+def plot_pie_chart(ok_count, nxdomain_count, timeout_count, no_answer_count, no_nameservers_count, no_root_soa_count, no_root_ns_count, no_metaqueries_count, no_metaqueries_no_root_ns_count, error_count):
+    labels = ['OK', 'NXDOMAIN', 'TIMEOUT', 'NO_ANSWER', 'NO_NAMESERVERS', 'NO_ROOT_SOA', 'NO_ROOT_NS', 'NO_METAQUERIES', 'NO_METAQUERIES_NO_ROOT_NS', 'ERROR']
+    sizes = [ok_count, nxdomain_count, timeout_count, no_answer_count, no_nameservers_count, no_root_soa_count, no_root_ns_count, no_metaqueries_count, no_metaqueries_no_root_ns_count, error_count]
+    colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99', '#c2c2f0', '#ffb3e6', '#ff6666', '#c2f0c2', '#c2d6d6', '#d9b3ff']
+    explode = (0.1,) * len(labels)  # explode all slices for emphasis
+
+    plt.figure(figsize=(8, 6))
+    plt.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140)
+    plt.title('Distribution of Domain Status')
+    plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
     plt.tight_layout()
-    plt.savefig('line_chart.png')
+    plt.savefig('pie_chart.png')
     plt.close()
 
 # Main function
 def main():
     data = load_data()
     
-    # Line chart
-    phishing_domains_line, all_domains_line, nxdomain_count_line, timeout_count_line, no_answer_count_line, no_nameservers_count_line, no_root_soa_count_line, no_root_ns_count_line, no_metaqueries_count_line, no_metaqueries_no_root_ns_count_line, error_count_line = extract_line_chart_data(data)
-    plot_line_chart(phishing_domains_line, all_domains_line, nxdomain_count_line, timeout_count_line, no_answer_count_line, no_nameservers_count_line, no_root_soa_count_line, no_root_ns_count_line, no_metaqueries_count_line, no_metaqueries_no_root_ns_count_line, error_count_line)
+    # Pie chart
+    ok_count_pie, nxdomain_count_pie, timeout_count_pie, no_answer_count_pie, no_nameservers_count_pie, no_root_soa_count_pie, no_root_ns_count_pie, no_metaqueries_count_pie, no_metaqueries_no_root_ns_count_pie, error_count_pie = extract_pie_chart_data(data)
+    plot_pie_chart(ok_count_pie, nxdomain_count_pie, timeout_count_pie, no_answer_count_pie, no_nameservers_count_pie, no_root_soa_count_pie, no_root_ns_count_pie, no_metaqueries_count_pie, no_metaqueries_no_root_ns_count_pie, error_count_pie)
 
 if __name__ == "__main__":
     main()
