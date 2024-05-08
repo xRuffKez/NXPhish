@@ -1,18 +1,18 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715204498
-# Database Hash: e40c5acfa441e5bef410fc29da7d91b1579aa77b
-# Generated at: 2024-05-08 21:41:38 
+# Version: 1715205116
+# Database Hash: 41db8e9bfbd91edfc47c2d3fa95a4d07ba2f349a
+# Generated at: 2024-05-08 21:51:56 
 # Expires: 1 day
-# Number of phishing domains: 384
+# Number of phishing domains: 383
 # Top 10 Abused TLDs:
-# dev: 181 (47.14%)
-# com: 44 (11.46%)
-# io: 19 (4.95%)
-# app: 9 (2.34%)
-# link: 8 (2.08%)
-# id: 7 (1.82%)
-# top: 5 (1.30%)
+# dev: 181 (47.26%)
+# com: 44 (11.49%)
+# io: 18 (4.70%)
+# app: 9 (2.35%)
+# link: 8 (2.09%)
+# id: 7 (1.83%)
+# top: 5 (1.31%)
 # ru: 4 (1.04%)
 # se: 4 (1.04%)
 # in: 4 (1.04%)
@@ -162,7 +162,6 @@
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.sg^
 ||instagramprofiileurl.blogspot.ug^
-||ipfs.io^
 ||iwq.pages.dev^
 ||kjfvg54vhsb1gvg.adsolary.com^
 ||krakonlogiin.gitbook.io^
