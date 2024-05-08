@@ -82,4 +82,4 @@ phishunt_domains = extract_domains_from_feed(feed_filenames[1])
 create_warehouse_if_not_exists()
 
 # Update JSON with domains
-update_json_with_domains(openphish_domains.union(phishunt_domains)))
+update_json_with_domains(openphish_domains.union(phishunt_domains))
