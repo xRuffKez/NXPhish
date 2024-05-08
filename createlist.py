@@ -53,7 +53,7 @@ if existing_hash != json_hash:
         for tld, count in tld_counts.most_common(10):
             percentage = (count / len(ok_domains)) * 100
             file.write(f"# {tld}: {count} ({percentage:.2f}%)\n")
-
+        file.write(f"\n")
         # Write the OK domains to the file with the specified format
         for domain in sorted(ok_domains):
             file.write(f"||{domain}^\n")
