@@ -1,24 +1,24 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715158329
-# Database Hash: dfa4a055f88e9b68bff22664c908d22230a90317
-# Generated at: 2024-05-08 08:52:09 
+# Version: 1715158986
+# Database Hash: e1bcdbf534b8ec1e3cdfa5a9485cd90f4d9a4b68
+# Generated at: 2024-05-08 09:03:06 
 # Expires: 1 day
 # Statistics:
-# Number of phishing domains: 162
+# Number of phishing domains: 161
 # Number of excluded SERVFAIL responses: 0
 # Number of excluded NXDOMAIN responses: 1
 # Top 10 Abused TLDs for OK domains:
-# dev: 33 (20.37%)
-# com: 13 (8.02%)
-# app: 5 (3.09%)
-# mx: 3 (1.85%)
-# za: 3 (1.85%)
-# mk: 3 (1.85%)
-# ro: 3 (1.85%)
-# id: 3 (1.85%)
-# cy: 3 (1.85%)
-# dk: 3 (1.85%)
+# dev: 33 (20.50%)
+# com: 13 (8.07%)
+# app: 5 (3.11%)
+# mx: 3 (1.86%)
+# za: 3 (1.86%)
+# mk: 3 (1.86%)
+# ro: 3 (1.86%)
+# id: 3 (1.86%)
+# cy: 3 (1.86%)
+# dk: 3 (1.86%)
 
 ||5fgffggfgfg4g4g4gh.blogspot.al^
 ||5ukf.pages.dev^
@@ -178,7 +178,6 @@
 ||worker-old-field-682e.zelleonlinetransaction99.workers.dev^
 ||www-facebook-com.vn^
 ||www.es-bbva-proteccion.com^
-||www.google.com.hk^
 ||www.hugedomains.com^
 ||www.uzlasmaburosudosya.com^
 ||ythftrtfb.fyfyvfytvghv.workers.dev^
