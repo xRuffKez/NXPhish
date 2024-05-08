@@ -1,24 +1,24 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715132586
-# Database Hash: b6386bdcc59d068cfc4340343544618ab61f3580
-# Generated at: 2024-05-08 01:43:06 
+# Version: 1715133459
+# Database Hash: cbc4a4e985ff3c3c0ed977a2a8ba54271a839cbd
+# Generated at: 2024-05-08 01:57:39 
 # Expires: 1 day
 # Statistics:
-# Number of phishing domains: 158
+# Number of phishing domains: 160
 # Number of excluded SERVFAIL responses: 0
 # Number of excluded NXDOMAIN responses: 1
 # Top 10 Abused TLDs for OK domains:
-# dev: 32 (20.25%)
-# com: 12 (7.59%)
-# app: 5 (3.16%)
-# mx: 3 (1.90%)
-# za: 3 (1.90%)
-# mk: 3 (1.90%)
-# ro: 3 (1.90%)
-# id: 3 (1.90%)
-# cy: 3 (1.90%)
-# dk: 3 (1.90%)
+# dev: 34 (21.25%)
+# com: 12 (7.50%)
+# app: 5 (3.12%)
+# mx: 3 (1.88%)
+# za: 3 (1.88%)
+# mk: 3 (1.88%)
+# ro: 3 (1.88%)
+# id: 3 (1.88%)
+# cy: 3 (1.88%)
+# dk: 3 (1.88%)
 
 ||5fgffggfgfg4g4g4gh.blogspot.al^
 ||5ukf.pages.dev^
@@ -166,8 +166,10 @@
 ||piv-cfe.pages.dev^
 ||postach.top^
 ||posthap.top^
+||pub-0978e198b26c459494dcabb4fcdbefe2.r2.dev^
 ||pub-8d641bd8f15749cfab8a14351d8dd295.r2.dev^
 ||pub-a606538c6230450089430d4c33fa9d34.r2.dev^
+||pub-ce4daca59fec4ff89813fe37e7e03938.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||qapd.pages.dev^
 ||reservations-22airbnb.com^
