@@ -1,90 +1,54 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715131631
-# Database Hash: 28ede25e8e91c34de8efc9bcc96d3a1bbeed42fa
-# Generated at: 2024-05-08 01:27:11 
+# Version: 1715132586
+# Database Hash: b6386bdcc59d068cfc4340343544618ab61f3580
+# Generated at: 2024-05-08 01:43:06 
 # Expires: 1 day
 # Statistics:
-# Number of phishing domains: 306
-# Number of excluded SERVFAIL responses: 35
-# Number of excluded NXDOMAIN responses: 0
+# Number of phishing domains: 158
+# Number of excluded SERVFAIL responses: 0
+# Number of excluded NXDOMAIN responses: 1
 # Top 10 Abused TLDs for OK domains:
-# com: 69 (22.55%)
-# dev: 60 (19.61%)
-# app: 33 (10.78%)
-# net: 6 (1.96%)
-# info: 4 (1.31%)
-# id: 4 (1.31%)
-# top: 4 (1.31%)
-# xyz: 3 (0.98%)
-# live: 3 (0.98%)
-# mx: 3 (0.98%)
+# dev: 32 (20.25%)
+# com: 12 (7.59%)
+# app: 5 (3.16%)
+# mx: 3 (1.90%)
+# za: 3 (1.90%)
+# mk: 3 (1.90%)
+# ro: 3 (1.90%)
+# id: 3 (1.90%)
+# cy: 3 (1.90%)
+# dk: 3 (1.90%)
 
-||435671-coinbase.com^
-||4yu64nm25q4tdz4shqzvwwpnbm-adwhj77lcyoafdy-www-paypal-com.standardseoservices.com^
+||5fgffggfgfg4g4g4gh.blogspot.al^
 ||5ukf.pages.dev^
 ||adobe-pdf.pages.dev^
 ||amazon-by-aftab.netlify.app^
 ||amazon-clone-aku.pages.dev^
 ||amazon-cloneapp-html-css.netlify.app^
-||amazon-line1.xyz^
-||amazonmall889.com^
-||amazono.buzz^
 ||amazonyogesh.pages.dev^
 ||apple-clone-by-rebie.netlify.app^
 ||apple-find-connect.com^
 ||apple-home-page-in-bootstrap.netlify.app^
-||apple-itunes.net^
-||apple-itunes.org^
 ||apple-locator.live^
-||apple-rabbit1320.com^
 ||apple-replicaevan.netlify.app^
 ||apple-suporte.us^
-||apples-24x7-support.com^
 ||apply-juggle.pages.dev^
-||apply-submite.vercel.app^
-||appse.site^
-||autoconfig.mircrosoft.live^
-||axiom-windows.com^
-||bamcobpl.particulares.de^
-||banco-santander.groupib-bk.com^
 ||barclayschat-livehelp.com^
 ||bbvanetcash.mx9k291l.com.mx^
-||binances.christmas^
-||binances.city^
 ||binancle-us.com^
-||bio.site^
-||borex-netflix-clone.vercel.app^
-||buy-amazon.link^
-||caixadireta-cgd.com^
 ||ch-dcf.pages.dev^
-||cloudflare-ipfs.com^
 ||coinbase-assets.com^
-||coinbase-user-vlogin.tradewindpropertiescr.com^
-||coinbase.solidosn.com^
-||coinbasejslogines.azurewebsites.net^
 ||coinbaselogiin.blogspot.co.za^
-||coinbaseloni.azurewebsites.net^
 ||colnbase.info^
-||connect-secure-wellsfargo.com.citrinocoin.co^
-||correos-es.rwandapropertyinsight.com^
-||credits-receivables-linkedin.com^
-||diegolramos-netflix-clone.vercel.app^
-||elqanas-netflix-clone.firebaseapp.com^
 ||emailfacebooksecurity.pages.dev^
-||environmentliv.wpenginepowered.com^
-||facebook-clone-irq5buwsv-therealshreyash.vercel.app^
-||facebook-ten-tawny.vercel.app^
 ||facebook.check-protect-account.me^
 ||facebookconnect.pages.dev^
 ||facebooksecuritys.blogspot.mk^
 ||facebooksecuritys.blogspot.ro^
 ||facebookzaman.blogspot.com^
 ||facebookzaman.blogspot.ru^
-||facturation-netflix.com^
-||fathom-test-microsoft.com^
-||get-windows-replaced.today^
-||giveaway-apple.ru^
+||get-now.eventsmidasbuys.com^
 ||google-bard-ai.org^
 ||google-cashincome5639.pages.dev^
 ||google-cashmachine79.pages.dev^
@@ -92,27 +56,13 @@
 ||google-jobsoffer78005.pages.dev^
 ||google-jobspro89.pages.dev^
 ||google-netcashjobs75.pages.dev^
-||google-stare.com^
 ||google.cjysec.workers.dev^
-||googleappengine.standardseoservices.com^
-||googlesocialweb.standardseoservices.com^
-||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
-||hotmail-alerts.chelsie15.workers.dev^
-||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||hotmail-update.doltenokku.workers.dev^
-||hotmailupdated.pages.dev^
 ||hsj.pages.dev^
 ||idcloud-findmy.info^
-||imtokenk.com^
-||info-bancosantander-app.com^
 ||inspiress.in^
 ||instagram-beta.pages.dev^
-||instagram-clone-murex.vercel.app^
-||instagram-clone-ruby.vercel.app^
-||instagram-clone-tan-iota.vercel.app^
-||instagram-clone-wine.vercel.app^
-||instagram-login-coral.vercel.app^
 ||instagramprofiileurl.blogspot.am^
 ||instagramprofiileurl.blogspot.bg^
 ||instagramprofiileurl.blogspot.ca^
@@ -149,17 +99,8 @@
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.sg^
 ||instagramprofiileurl.blogspot.ug^
-||jiji-apple-bee-333.com^
-||letg.pages.dev^
-||linkedin-clone-snowy-ten.vercel.app^
-||linkedin-creditsandcollections.com^
-||linkup.top^
-||lnstagram.xn--hlp-kra.com^
-||login-microsoftonline.pages.dev^
+||liveprivatevideo10.viral-vip.my.id^
 ||mail3.goggle.workers.dev^
-||media.aaa.flag-coinbase.com^
-||metamask-beta.club^
-||metamask-download-extension.com^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.am^
 ||metamask-wallett.blogspot.ba^
@@ -216,113 +157,24 @@
 ||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
 ||metamasks.world^
-||metamaskvalidation.sensoryworks.com^
-||micr0soft-login-now.rywepomo.workers.dev^
-||micrasoft-onedrive.com^
-||microsoft-102406.weeblysite.com^
-||microsoft-104083.weeblysite.com^
-||microsoft-104978.weeblysite.com^
-||microsoft-105425.weeblysite.com^
-||microsoft-106368.weeblysite.com^
-||microsoft-109153.weeblysite.com^
-||microsoft-identity-verification.e27a2722.workers.dev^
-||microsoft-ownership-verification.e27a2722.workers.dev^
-||microsoftlogin.cartwild.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
-||mks-spotify.netlify.app^
 ||modflix.xyz^
-||myoutlook-alerts0.lofeze.workers.dev^
-||netflix-clone-56easfcm6-vgandhi27.vercel.app^
-||netflix-clone-5iz.pages.dev^
-||netflix-clone-dvp.pages.dev^
-||netflix-clone-francant.vercel.app^
-||netflix-clone-hfcdjx7aj-skylakefreak.vercel.app^
-||netflix-clone-jet-eight.vercel.app^
-||netflix-clone-mu-beryl.vercel.app^
-||netflix-clone-sametakbal.vercel.app^
-||netflix-clone-seven-sepia.vercel.app^
-||netflix-clone-su39-smartguy500.vercel.app^
-||netflix-clone.carum.dev^
-||netflix-dj7.pages.dev^
-||netflix-final-red.vercel.app^
-||netflix-invoicing.com^
-||netflix-liard-seven.vercel.app^
-||netflix-nextjs-yt.vercel.app^
-||netflix-website-clone-two.vercel.app^
-||netflix-weihsun.vercel.app^
-||netflix.ofertas-suscripcion.com^
-||netflixs-job.com^
-||netflixs-task.com^
-||netflixshivam.freewebhostmost.com^
 ||njd.pages.dev^
 ||nkh.pages.dev^
-||notify-barclays.com^
-||office365-b8f.pages.dev^
-||onedrive.microsoftlive1.workers.dev^
 ||outlook-server.gorkakirtu.workers.dev^
-||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||outlookoffice365team.webflow.io^
-||pagos-correos.com^
 ||partner.coinbase-company.com^
-||pay.outlook-365.net^
 ||piv-cfe.pages.dev^
-||pop.spotify-cloaning.freewebhostmost.com^
-||portal.mircrosoft.live^
 ||postach.top^
 ||posthap.top^
-||proyectaexteriores.cl^
-||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
-||pub-19128e0e6ecc4449a51ef13fa09d2461.r2.dev^
-||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
-||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
-||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
-||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
-||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
-||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
-||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
-||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
-||pub-fc51d290db584b328d6feb3913c634a1.r2.dev^
+||pub-8d641bd8f15749cfab8a14351d8dd295.r2.dev^
+||pub-a606538c6230450089430d4c33fa9d34.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
-||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||qapd.pages.dev^
-||raiz.microsoft.local-user.com^
-||rbasolution.com^
 ||reservations-22airbnb.com^
-||s.id^
-||scanapirivewchange.my.id^
-||secure-dropbox.net^
-||secure-paypal.pages.dev^
-||securelogin-paypal.pages.dev^
-||skywalker.infura-ipfs.io^
-||spotify-clone31.netlify.app^
-||ssb-amazon.top^
 ||starsealss.pages.dev^
-||steamcommunitylog.chez.com^
-||telegram-gw.com^
-||telegram.dog^
-||telegrom-aa.com^
-||teleprnm.work^
-||telepwen.fit^
-||trustwalletrestore.kareesi.com^
-||ukrainerecordings.com^
-||verify-office-outlook.com^
-||wellsfargo.verifypayments.net^
-||wellsfargos.info^
-||wespynetflix.vercel.app^
-||worker-outlook-1bdc.vaheli5766.workers.dev^
-||ww25.steamcomunnitlly.com^
+||worker-old-field-682e.zelleonlinetransaction99.workers.dev^
 ||www-facebook-com.vn^
-||www.apple.serpgold.com^
-||www.bamazon.xyz^
-||www.benoitaudifonos.pe^
-||www.coinbase-user-vlogin.tradewindpropertiescr.com^
-||www.discardless.eu^
-||www.formtools.com^
-||www.giveaway-apple.ru^
+||www.es-bbva-proteccion.com^
 ||www.hugedomains.com^
-||www.mrm-linkedin.com^
-||www.netflix-max.com^
-||www.netflixbisnis.com^
-||www.tajmahalluxurytour.com^
-||www.vitalmro.com^
-||www1.appleid-find.info^
+||www.uzlasmaburosudosya.com^
+||ythftrtfb.fyfyvfytvghv.workers.dev^
