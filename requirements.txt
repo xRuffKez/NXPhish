@@ -1,5 +1,2 @@
 requests
-tld
 dnspython
-matplotlib
-numpy
