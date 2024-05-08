@@ -22,24 +22,23 @@ except FileNotFoundError:
     pass
 
 if existing_hash != json_hash:
-    # Create a list to store the domains with DNS status "OK"
-    ok_domains = []
+    # Use a set to store unique OK domains
+    ok_domains = set()
 
+    # Counter for TLDs
+    tld_counts = Counter()
+
+    # Process data
     for entry in data:
         if entry["dns_status"] == "OK":
-            ok_domains.append(entry["domain"])
-
-    # Remove duplicates
-    ok_domains = sorted(set(ok_domains))
-
-    # Calculate top 10 abused TLDs for OK domains only
-    tlds = [domain.split(".")[-1] for domain in ok_domains]
-    tld_counts = Counter(tlds).most_common(10)
+            domain = entry["domain"]
+            ok_domains.add(domain)
+            tld_counts[domain.split(".")[-1]] += 1
 
     # Get current Unix timestamp
     generation_time = int(datetime.now().timestamp())
 
-    # Write the list to nxphish.agh
+    # Write data to nxphish.agh
     with open("nxphish.agh", "w") as file:
         file.write("# Title: NXPhish\n")
         file.write("# Author: xRuffKez\n")
@@ -51,10 +50,10 @@ if existing_hash != json_hash:
 
         # Write top 10 abused TLDs to the file
         file.write("# Top 10 Abused TLDs:\n")
-        for tld, count in tld_counts:
+        for tld, count in tld_counts.most_common(10):
             percentage = (count / len(ok_domains)) * 100
             file.write(f"# {tld}: {count} ({percentage:.2f}%)\n")
 
         # Write the OK domains to the file with the specified format
-        for domain in ok_domains:
+        for domain in sorted(ok_domains):
             file.write(f"||{domain}^\n")
