@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715182361
-# Database Hash: cb3dc06e9d77a9305078384301caddc9d89a81be
-# Generated at: 2024-05-08 15:32:41 
+# Version: 1715182959
+# Database Hash: db0e236e78990f64430115f16af5543c24190cb8
+# Generated at: 2024-05-08 15:42:39 
 # Expires: 1 day
-# Number of phishing domains: 410
+# Number of phishing domains: 403
 # Top 10 Abused TLDs:
-# dev: 182 (44.39%)
-# com: 48 (11.71%)
-# io: 22 (5.37%)
-# app: 11 (2.68%)
-# link: 9 (2.20%)
-# id: 6 (1.46%)
-# top: 6 (1.46%)
-# se: 4 (0.98%)
-# ru: 4 (0.98%)
-# in: 4 (0.98%)
+# dev: 180 (44.67%)
+# com: 44 (10.92%)
+# io: 22 (5.46%)
+# app: 10 (2.48%)
+# link: 9 (2.23%)
+# id: 6 (1.49%)
+# top: 6 (1.49%)
+# se: 4 (0.99%)
+# ru: 4 (0.99%)
+# in: 4 (0.99%)
 ||1-3r7.pages.dev^
 ||3dhhtn.pages.dev^
 ||3ui0ha0.token-imapp.com^
@@ -71,7 +71,6 @@
 ||bthome.w3spaces.com^
 ||btiternet.bitbucket.io^
 ||ca3mijhnsg.download-soft.xyz^
-||caixadireta-cgd.com^
 ||cf-ipfs.com^
 ||clinquant-buttercream-d4fa95.netlify.app^
 ||cloicel-8251.uckldadoaierbex.workers.dev^
@@ -133,7 +132,6 @@
 ||hubmediacompany-pdf.pages.dev^
 ||iftucs.hnuplsn.workers.dev^
 ||imporacesliration.github.io^
-||info-bancosantander-app.com^
 ||inspiress.in^
 ||instagram-beta.pages.dev^
 ||instagram.tg^
@@ -267,7 +265,6 @@
 ||netflix-dj7.pages.dev^
 ||netflixs-job.com^
 ||netflixs-task.com^
-||netflixshivam.freewebhostmost.com^
 ||new-75691.bubbleapps.io^
 ||newnfts-box.firebaseapp.com^
 ||newnfts-box.web.app^
@@ -280,7 +277,6 @@
 ||onedrive.h9cg7mpmcx9590.workers.dev^
 ||onedrive.microsoftlive1.workers.dev^
 ||onlinemmmmiiicrrossoft0039.pages.dev^
-||opensea.rocketm0rtgage.com^
 ||optusnet-com.blogspot.in^
 ||orange-math-f65b.naacraleindir.workers.dev^
 ||oudslc-docs-4c58.pchgpwahni.workers.dev^
@@ -378,13 +374,10 @@
 ||ros-3vq.pages.dev^
 ||run-sun-a3dc.santanaharmon.workers.dev^
 ||saltmine.pages.dev^
-||secure-paypal.pages.dev^
-||securelogin-paypal.pages.dev^
 ||serviceupdate.tefyeciste.workers.dev^
 ||singaporegarena.blogspot.com^
 ||smobilirsk.de^
 ||spinl.xsuitmaxkr.biz.id^
-||spotify-clone31.netlify.app^
 ||steamcomuimnity.ru^
 ||steamcounmunity.com^
 ||swaaser.blogspot.com^
