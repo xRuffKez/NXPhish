@@ -1,24 +1,24 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715140335
-# Database Hash: 1d13940e19e6c79e37982d8d3fbc449435930810
-# Generated at: 2024-05-08 03:52:15 
+# Version: 1715140965
+# Database Hash: ac852d289bbe447de62e71ed5ea5b71c153f7b74
+# Generated at: 2024-05-08 04:02:45 
 # Expires: 1 day
 # Statistics:
-# Number of phishing domains: 160
+# Number of phishing domains: 162
 # Number of excluded SERVFAIL responses: 0
 # Number of excluded NXDOMAIN responses: 1
 # Top 10 Abused TLDs for OK domains:
-# dev: 34 (21.25%)
-# com: 12 (7.50%)
-# app: 5 (3.12%)
-# mx: 3 (1.88%)
-# za: 3 (1.88%)
-# mk: 3 (1.88%)
-# ro: 3 (1.88%)
-# id: 3 (1.88%)
-# cy: 3 (1.88%)
-# dk: 3 (1.88%)
+# dev: 34 (20.99%)
+# com: 13 (8.02%)
+# app: 5 (3.09%)
+# mx: 3 (1.85%)
+# za: 3 (1.85%)
+# mk: 3 (1.85%)
+# ro: 3 (1.85%)
+# id: 3 (1.85%)
+# cy: 3 (1.85%)
+# dk: 3 (1.85%)
 
 ||5fgffggfgfg4g4g4gh.blogspot.al^
 ||5ukf.pages.dev^
@@ -41,6 +41,7 @@
 ||coinbase-assets.com^
 ||coinbaselogiin.blogspot.co.za^
 ||colnbase.info^
+||correos-postales.com^
 ||emailfacebooksecurity.pages.dev^
 ||facebook.check-protect-account.me^
 ||facebookconnect.pages.dev^
@@ -63,6 +64,7 @@
 ||idcloud-findmy.info^
 ||inspiress.in^
 ||instagram-beta.pages.dev^
+||instagram.tg^
 ||instagramprofiileurl.blogspot.am^
 ||instagramprofiileurl.blogspot.bg^
 ||instagramprofiileurl.blogspot.ca^
