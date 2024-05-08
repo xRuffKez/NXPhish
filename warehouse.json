@@ -2411,7 +2411,7 @@
         "domain": "amazon-suport.com",
         "first_seen": 1715158941,
         "last_seen": 1715158941,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715158965
     }
 ]
