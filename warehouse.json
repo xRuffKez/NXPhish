@@ -2411,7 +2411,7 @@
         "domain": "myaccess.apple.ur-aasp.com",
         "first_seen": 1715164371,
         "last_seen": 1715164371,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715164390
     }
 ]
