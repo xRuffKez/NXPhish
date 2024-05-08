@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715200322
-# Database Hash: 136f5af7a500f0c5c8592484d42db35480423112
-# Generated at: 2024-05-08 20:32:02 
+# Version: 1715200920
+# Database Hash: c052eac1595586bfb9522fc4e2a266b8a070982d
+# Generated at: 2024-05-08 20:42:00 
 # Expires: 1 day
-# Number of phishing domains: 382
+# Number of phishing domains: 383
 # Top 10 Abused TLDs:
-# dev: 177 (46.34%)
-# com: 44 (11.52%)
-# io: 22 (5.76%)
-# app: 10 (2.62%)
-# link: 9 (2.36%)
+# dev: 177 (46.21%)
+# com: 45 (11.75%)
+# io: 22 (5.74%)
+# app: 10 (2.61%)
+# link: 9 (2.35%)
 # id: 7 (1.83%)
 # ru: 5 (1.31%)
 # top: 5 (1.31%)
-# se: 4 (1.05%)
-# mx: 3 (0.79%)
+# se: 4 (1.04%)
+# mx: 3 (0.78%)
 
 ||1-3r7.pages.dev^
 ||3dhhtn.pages.dev^
@@ -70,6 +70,7 @@
 ||ca3mijhnsg.download-soft.xyz^
 ||caixadireta-cgd.com^
 ||cf-ipfs.com^
+||cgd-caixadireta.com^
 ||claim-dana-kaget21.id-ofcc.my.id^
 ||clinquant-buttercream-d4fa95.netlify.app^
 ||cloicel-8251.uckldadoaierbex.workers.dev^
