@@ -461,7 +461,7 @@
         "last_seen": 1715197877,
         "dns_status": "OK",
         "dns_check_date": 1715194425,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "netflix-clone-jet-eight.vercel.app",
