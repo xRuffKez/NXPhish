@@ -2425,7 +2425,7 @@
         "domain": "microsoft.biz.inrtenet-miazan-ir.me",
         "first_seen": 1715147495,
         "last_seen": 1715147495,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715147515
     }
 ]
