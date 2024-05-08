@@ -5022,14 +5022,14 @@
         "domain": "www1.apple-idservicios.com",
         "first_seen": 1715176309,
         "last_seen": 1715176309,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715176330
     },
     {
         "domain": "com.microsoft.ir.microsoft.biz.inrtenet-miazan-ir.me",
         "first_seen": 1715176309,
         "last_seen": 1715176309,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715176330
     }
 ]
