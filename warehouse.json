@@ -2404,42 +2404,42 @@
         "domain": "jpn-appleid.com-lib.co",
         "first_seen": 1715140919,
         "last_seen": 1715140919,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715140940
     },
     {
         "domain": "correos-postales.com",
         "first_seen": 1715140919,
         "last_seen": 1715140919,
         "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_check_date": 1715140940
     },
     {
         "domain": "security-facebook.my.id",
         "first_seen": 1715140919,
         "last_seen": 1715140919,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715140940
     },
     {
         "domain": "www.house-of-instagram.xyz",
         "first_seen": 1715140919,
         "last_seen": 1715140919,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715140940
     },
     {
         "domain": "instagram.tg",
         "first_seen": 1715140919,
         "last_seen": 1715140919,
         "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_check_date": 1715140940
     },
     {
         "domain": "wallet-metamask.webrothschild.com",
         "first_seen": 1715140919,
         "last_seen": 1715140919,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715140940
     }
 ]
