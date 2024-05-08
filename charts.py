@@ -44,19 +44,25 @@ def extract_pie_chart_data(data):
             
     return ok_count, nxdomain_count, timeout_count, no_answer_count, no_nameservers_count, no_root_soa_count, no_root_ns_count, no_metaqueries_count, no_metaqueries_no_root_ns_count, error_count
 
-# Function to plot pie chart
 def plot_pie_chart(ok_count, nxdomain_count, timeout_count, no_answer_count, no_nameservers_count, no_root_soa_count, no_root_ns_count, no_metaqueries_count, no_metaqueries_no_root_ns_count, error_count):
     labels = ['OK', 'NXDOMAIN', 'TIMEOUT', 'NO_ANSWER', 'NO_NAMESERVERS', 'NO_ROOT_SOA', 'NO_ROOT_NS', 'NO_METAQUERIES', 'NO_METAQUERIES_NO_ROOT_NS', 'ERROR']
     sizes = [ok_count, nxdomain_count, timeout_count, no_answer_count, no_nameservers_count, no_root_soa_count, no_root_ns_count, no_metaqueries_count, no_metaqueries_no_root_ns_count, error_count]
     colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99', '#c2c2f0', '#ffb3e6', '#ff6666', '#c2f0c2', '#c2d6d6', '#d9b3ff']
-    explode = (0.1,) * len(labels)  # explode all slices for emphasis
 
-    plt.figure(figsize=(8, 6))
-    plt.pie(sizes, explode=explode, labels=labels, colors=colors, autopct='%1.1f%%', startangle=140)
+
+    plt.figure(figsize=(10, 8))  # Increase figure size
+    _, _, autotexts = plt.pie(sizes, explode=explode, colors=colors, autopct='%1.1f%%', startangle=140, textprops={'fontsize': 12})  # Increase font size
     plt.title('Distribution of Domain Status')
     plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+    
+    plt.legend(labels, loc="upper left", bbox_to_anchor=(1, 0, 0.5, 1))  # Use legend instead of labels
+    
+    # Adjusting autotexts positions to avoid overlapping
+    for autotext in autotexts:
+        autotext.set_bbox({'edgecolor': 'white', 'alpha': 0.7})
+    
     plt.tight_layout()
-    plt.savefig('pie_chart.png')
+    plt.savefig('pie_chart.png', bbox_inches='tight')  # Adjusting for legend
     plt.close()
 
 # Main function
