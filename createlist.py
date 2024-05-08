@@ -30,7 +30,7 @@ if existing_hash != json_hash:
 
     # Process data
     for entry in data:
-        if entry["dns_status"] == "OK":
+        if entry["dns_status"] == "OK" and entry["whitelisted"] == 0:
             domain = entry["domain"]
             ok_domains.add(domain)
             tld_counts[domain.split(".")[-1]] += 1
