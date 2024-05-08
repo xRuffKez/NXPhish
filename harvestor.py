@@ -1,17 +1,16 @@
 import json
 import time
 from urllib.parse import urlparse
+import os
 
 def update_json_with_domains(domains):
     current_time = int(time.time())
     domain_data = {}  # Use a dictionary for faster lookups
     unique_domains = set()  # Use a set to track unique domains
 
-    try:
+    if os.path.exists("warehouse.json"):
         with open("warehouse.json", "r") as file:
             domain_data = json.load(file)
-    except FileNotFoundError:
-        pass
 
     for domain in domains:
         if not domain:
@@ -28,8 +27,7 @@ def update_json_with_domains(domains):
                 "first_seen": current_time,
                 "last_seen": current_time,
                 "dns_status": "OK",
-                "dns_check_date": 0,
-                "whitelisted": 0
+                "dns_check_date": 0
             }
 
     # Remove duplicates from the JSON
