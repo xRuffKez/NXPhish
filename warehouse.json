@@ -5029,14 +5029,14 @@
         "domain": "google.com.personalsecurity.it",
         "first_seen": 1715187711,
         "last_seen": 1715187711,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715187732
     },
     {
         "domain": "opensea-claim.sevent-yeight.com",
         "first_seen": 1715187711,
         "last_seen": 1715187711,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715187732
     }
 ]
