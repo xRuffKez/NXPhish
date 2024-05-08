@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715194512
-# Database Hash: 96b2637c2542f2f551193c1cbed040adfda5750a
-# Generated at: 2024-05-08 18:55:12 
+# Version: 1715194959
+# Database Hash: ffa7ff4c4f4ead681448ef7f6601e73a74ec2fd7
+# Generated at: 2024-05-08 19:02:39 
 # Expires: 1 day
-# Number of phishing domains: 391
+# Number of phishing domains: 383
 # Top 10 Abused TLDs:
-# dev: 177 (45.27%)
-# com: 52 (13.30%)
-# io: 22 (5.63%)
-# app: 10 (2.56%)
-# link: 9 (2.30%)
-# id: 7 (1.79%)
-# ru: 5 (1.28%)
-# top: 5 (1.28%)
-# se: 4 (1.02%)
-# mx: 3 (0.77%)
+# dev: 177 (46.21%)
+# com: 44 (11.49%)
+# io: 22 (5.74%)
+# app: 10 (2.61%)
+# link: 9 (2.35%)
+# id: 7 (1.83%)
+# ru: 5 (1.31%)
+# top: 5 (1.31%)
+# se: 4 (1.04%)
+# mx: 3 (0.78%)
 
 ||1-3r7.pages.dev^
 ||3dhhtn.pages.dev^
@@ -74,13 +74,11 @@
 ||clinquant-buttercream-d4fa95.netlify.app^
 ||cloicel-8251.uckldadoaierbex.workers.dev^
 ||cloud-connectors-a7ad.liis6wf5.workers.dev^
-||cloudflare-ipfs.com^
 ||cloudl-191c.aoapuulz.workers.dev^
 ||coinbase-assets.com^
 ||coinbaselogiin.blogspot.co.za^
 ||colnbase.info^
 ||connecttocontact-code341.pages.dev^
-||consent.google.com^
 ||contactsupportsadmin.blogspot.com^
 ||contactsupportspages.blogspot.com^
 ||correos-postales.com^
@@ -91,7 +89,6 @@
 ||dgerfwbfg.pages.dev^
 ||discord-proxy.devilyouwei.workers.dev^
 ||dnadiclaim-ld.zvjnesia.biz.id^
-||docs.google.com^
 ||document.protection-auth-sign.workers.dev^
 ||dssd-upsp.shop^
 ||dysonus.com^
@@ -360,7 +357,6 @@
 ||secure-paypal.pages.dev^
 ||securelogin-paypal.pages.dev^
 ||singaporegarena.blogspot.com^
-||sites.google.com^
 ||smobilirsk.de^
 ||spinl.xsuitmaxkr.biz.id^
 ||spotify-clone31.netlify.app^
@@ -397,10 +393,6 @@
 ||workers-playground-small-poetry-36fa.omociga.workers.dev^
 ||wwi.mjnghty.cloudns.biz^
 ||www.allegronz.com^
-||www.dropbox.com^
-||www.facebook.com^
-||www.google.com^
-||www.hugedomains.com^
 ||www.netflix-max.com^
 ||www.netflixbisnis.com^
 ||www.onoboutique.com^
