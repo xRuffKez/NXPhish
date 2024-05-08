@@ -44,7 +44,7 @@ def update_dns_status():
     with open("warehouse.json", "r+") as file:
         data = json.load(file)
         for entry in data:
-            if entry["dns_check_date"] == 0 or current_time - entry["dns_check_date"] >= 24 * 3600:
+            if entry["dns_check_date"] == 0 or current_time - entry["dns_check_date"] >= 2 * 3600:
                 dns_status = check_dns_status(entry["domain"])
                 entry["dns_status"] = dns_status
                 entry["dns_check_date"] = current_time
