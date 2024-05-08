@@ -2384,27 +2384,27 @@
         "first_seen": 1715133415,
         "last_seen": 1715133415,
         "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_check_date": 1715133437
     },
     {
         "domain": "pub-0978e198b26c459494dcabb4fcdbefe2.r2.dev",
         "first_seen": 1715133415,
         "last_seen": 1715133415,
         "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_check_date": 1715133437
     },
     {
         "domain": "opensea.avcarsarl.com",
         "first_seen": 1715133415,
         "last_seen": 1715133415,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715133437
     },
     {
         "domain": "www.romaistudio.novasteam.com.mx",
         "first_seen": 1715133415,
         "last_seen": 1715133415,
-        "dns_status": "OK",
-        "dns_check_date": 0
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715133437
     }
 ]
