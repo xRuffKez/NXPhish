@@ -53,7 +53,7 @@ def plot_pie_chart(ok_count, nxdomain_count, timeout_count, no_answer_count, no_
     colors = ['#ff9999', '#66b3ff', '#99ff99', '#ffcc99', '#c2c2f0', '#ffb3e6', '#ff6666', '#c2f0c2', '#c2d6d6', '#d9b3ff']
 
     plt.figure(figsize=(10, 8))  # Increase figure size
-    patches, _, _ = plt.pie(sizes, labels=labels, colors=colors, startangle=140, textprops={'fontsize': 12})  # Increase font size
+    patches, _ = plt.pie(sizes, labels=labels, colors=colors, startangle=140)  # Remove attempt to unpack return values
     plt.title('Distribution of Domain Status')
     plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
     
