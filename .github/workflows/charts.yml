@@ -24,8 +24,6 @@ jobs:
     - name: Run Python script to generate charts
       run: |
         python charts.py
-        mkdir charts
-        mv *.png charts/
         
     - name: Commit changes
       run: |
