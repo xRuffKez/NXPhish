@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715247108
-# Database Hash: c167988ec7980e0a52858c11cef23f029f89cad6
-# Generated at: 2024-05-09 09:31:48 
+# Version: 1715247747
+# Database Hash: 2daf05264948afad74b4d6cb16647f8e8d4f4f3d
+# Generated at: 2024-05-09 09:42:27 
 # Expires: 1 day
-# Number of phishing domains: 243
+# Number of phishing domains: 252
 # Top 10 Abused TLDs:
-# dev: 74 (30.45%)
-# com: 33 (13.58%)
-# app: 7 (2.88%)
-# id: 6 (2.47%)
-# icu: 6 (2.47%)
-# cy: 3 (1.23%)
-# mx: 3 (1.23%)
-# ug: 3 (1.23%)
-# mk: 3 (1.23%)
-# hu: 3 (1.23%)
+# dev: 76 (30.16%)
+# com: 34 (13.49%)
+# app: 8 (3.17%)
+# id: 7 (2.78%)
+# icu: 6 (2.38%)
+# cy: 3 (1.19%)
+# mx: 3 (1.19%)
+# ug: 3 (1.19%)
+# nl: 3 (1.19%)
+# mk: 3 (1.19%)
 
 ||3ddc47ac.6d2e589211c0928645bd553e.workers.dev^
 ||3ui0ha0.token-imapp.com^
@@ -83,10 +83,12 @@
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||hello-world-still-silence-62f4.jmassell.workers.dev^
 ||hotmail-alerts.chelsie15.workers.dev^
+||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||hotmail-update.doltenokku.workers.dev^
 ||hotmailupdated.pages.dev^
 ||info-bancosantander-app.com^
+||inspiress.in^
 ||instagram-beta.pages.dev^
 ||instagram.tg^
 ||instagrammalo.blogspot.nl^
@@ -94,6 +96,7 @@
 ||instagramprofiileurl.blogspot.bg^
 ||instagramprofiileurl.blogspot.ca^
 ||instagramprofiileurl.blogspot.co.at^
+||instagramprofiileurl.blogspot.co.id^
 ||instagramprofiileurl.blogspot.co.il^
 ||instagramprofiileurl.blogspot.co.nz^
 ||instagramprofiileurl.blogspot.co.uk^
@@ -156,6 +159,7 @@
 ||metamask-wallett.blogspot.kr^
 ||metamask-wallett.blogspot.mk^
 ||metamask-wallett.blogspot.mx^
+||metamask-wallett.blogspot.nl^
 ||metamask-wallett.blogspot.ro^
 ||metamask-wallett.blogspot.ug^
 ||metamaskinc.blogspot.ch^
@@ -165,6 +169,7 @@
 ||metamaskinc.blogspot.com.co^
 ||metamaskinc.blogspot.com.cy^
 ||metamaskinc.blogspot.com.ee^
+||metamaskinc.blogspot.com.eg^
 ||metamaskinc.blogspot.com.es^
 ||metamaskinc.blogspot.com.ng^
 ||metamaskinc.blogspot.com.tr^
@@ -174,6 +179,7 @@
 ||metamaskinc.blogspot.fi^
 ||metamaskinc.blogspot.hr^
 ||metamaskinc.blogspot.hu^
+||metamaskinc.blogspot.ie^
 ||metamaskinc.blogspot.it^
 ||metamaskinc.blogspot.kr^
 ||metamaskinc.blogspot.lt^
@@ -209,6 +215,7 @@
 ||onedrive.microsoftlive1.workers.dev^
 ||outlook-server.gorkakirtu.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
+||partner.coinbase-company.com^
 ||pdf.officelive365.workers.dev^
 ||piv-cfe.pages.dev^
 ||pro-apple.com.ua^
@@ -220,6 +227,7 @@
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
+||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
 ||pub-ce4daca59fec4ff89813fe37e7e03938.r2.dev^
@@ -229,6 +237,7 @@
 ||pub-ffd4e89c4695405bb24e3e6feafb1d61.r2.dev^
 ||rajpathnews.com^
 ||reservations-29airbnb.com^
+||secure-paypal.pages.dev^
 ||securelogin-paypal.pages.dev^
 ||shiny-haze-e3f9.oriental-chef-hrg9939.workers.dev^
 ||smatr-5064-metropolitan.pages.dev^
