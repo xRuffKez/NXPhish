@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715282035
-# Database Hash: a7a5bfdb70ea916b7bc98f65f2dfd252987bc09c
-# Generated at: 2024-05-09 19:13:55 
+# Version: 1715282504
+# Database Hash: 20c4af8a7438862cfd184fa8a2f79050470a35d3
+# Generated at: 2024-05-09 19:21:44 
 # Expires: 1 day
-# Number of phishing domains: 267
+# Number of phishing domains: 269
 # Top 10 Abused TLDs:
-# dev: 83 (31.09%)
-# com: 35 (13.11%)
-# app: 8 (3.00%)
-# mk: 5 (1.87%)
-# top: 5 (1.87%)
-# io: 5 (1.87%)
-# cz: 4 (1.50%)
-# co: 4 (1.50%)
-# link: 4 (1.50%)
+# dev: 83 (30.86%)
+# com: 36 (13.38%)
+# app: 8 (2.97%)
+# mk: 5 (1.86%)
+# top: 5 (1.86%)
+# io: 5 (1.86%)
+# cz: 4 (1.49%)
+# co: 4 (1.49%)
+# link: 4 (1.49%)
 # cy: 3 (1.12%)
 
 ||5fgffgfgfg4g4gh4tf.blogspot.com.ee^
@@ -45,6 +45,7 @@
 ||bbvanetcash.mx9k291l.com.mx^
 ||begenburda.blogspot.tw^
 ||binancle-us.com^
+||binancle-us.us^
 ||bireysel-garantbbvai.com^
 ||brdls-3qaaa-aaaah-qafaq-cai.raw.ic0.app^
 ||business-facebook-suite-16.pages.dev^
@@ -279,6 +280,7 @@
 ||worker-wispy-pond-dbe4.payag59059.workers.dev^
 ||workspace.google.com^
 ||www-facebook-com.vn^
+||www.dropbox.com^
 ||www.es-bbva-proteccion.com^
 ||www.lives.com.co^
 ||www.netflix-max.com^
