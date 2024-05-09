@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 with open('warehouse.json', 'r') as file:
     data = json.load(file)
 
-phishing_domains = [entry for entry in data if entry['dns_status'] == 'OK' and entry['domain_type'] == 'Phishing']
+phishing_domains = [entry for entry in data if entry['dns_status'] == 'OK' and entry['whitelisted'] == '0']
 
 now = datetime.now()
 twenty_four_hours_ago = now - timedelta(hours=24)
