@@ -1,18 +1,18 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715263381
-# Database Hash: 533e90ca91419f0202a3b48880d31b4ac3f69948
-# Generated at: 2024-05-09 14:03:01 
+# Version: 1715264109
+# Database Hash: 6b475cb9601f395be930897c0fefc948e0c0f07e
+# Generated at: 2024-05-09 14:15:09 
 # Expires: 1 day
-# Number of phishing domains: 301
+# Number of phishing domains: 300
 # Top 10 Abused TLDs:
-# dev: 96 (31.89%)
-# com: 40 (13.29%)
-# app: 9 (2.99%)
-# io: 9 (2.99%)
-# mk: 6 (1.99%)
-# link: 6 (1.99%)
-# top: 5 (1.66%)
+# dev: 96 (32.00%)
+# com: 39 (13.00%)
+# app: 9 (3.00%)
+# io: 9 (3.00%)
+# mk: 6 (2.00%)
+# link: 6 (2.00%)
+# top: 5 (1.67%)
 # tr: 4 (1.33%)
 # cz: 4 (1.33%)
 # co: 4 (1.33%)
@@ -29,7 +29,6 @@
 ||amazon-cloneapp-html-css.netlify.app^
 ||amazonyogesh.pages.dev^
 ||anand-kannothra.github.io^
-||andorra-notre-dui-dosage.trycloudflare.com^
 ||anmilopbe.blogspot.com.tr^
 ||apple-clone-by-rebie.netlify.app^
 ||apple-find-connect.com^
