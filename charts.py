@@ -76,9 +76,9 @@ plot_chart_7_days(phishing_domains_last_week, 'Phishing Domains with DNS Status 
 plot_chart_1_month(phishing_domains_last_month, 'Phishing Domains with DNS Status "OK" - Last Month')
 plot_chart_1_year(phishing_domains_last_year, 'Phishing Domains with DNS Status "OK" - Last Year')
 
-if not os.path.exists('generated_charts'):
-    os.makedirs('generated_charts')
+if not os.path.exists('charts'):
+    os.makedirs('charts')
 
 for filename in ['phishing_domains_last_24_hours.png', 'phishing_domains_last_7_days.png', 'phishing_domains_last_month.png', 'phishing_domains_last_year.png']:
     if os.path.exists(filename):
-        os.rename(filename, os.path.join('generated_charts', filename))
+        os.rename(filename, os.path.join('charts', filename))
