@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715276493
-# Database Hash: 5e418ddaea105bf3207625bb570886f646842081
-# Generated at: 2024-05-09 17:41:33 
+# Version: 1715277116
+# Database Hash: 497928b860f30a9391478c77c017d26b074e2ba0
+# Generated at: 2024-05-09 17:51:56 
 # Expires: 1 day
-# Number of phishing domains: 300
+# Number of phishing domains: 298
 # Top 10 Abused TLDs:
-# dev: 96 (32.00%)
-# com: 39 (13.00%)
-# io: 9 (3.00%)
-# app: 8 (2.67%)
-# mk: 6 (2.00%)
-# link: 6 (2.00%)
-# top: 5 (1.67%)
-# tr: 4 (1.33%)
-# cz: 4 (1.33%)
-# co: 4 (1.33%)
+# dev: 96 (32.21%)
+# com: 39 (13.09%)
+# io: 9 (3.02%)
+# app: 8 (2.68%)
+# mk: 6 (2.01%)
+# link: 6 (2.01%)
+# top: 5 (1.68%)
+# tr: 4 (1.34%)
+# cz: 4 (1.34%)
+# co: 4 (1.34%)
 
 ||4-266-2.uniswap-free.eth.limo^
 ||5fgffgfgfg4g4gh4tf.blogspot.com.ee^
@@ -91,7 +91,6 @@
 ||fjgfkyfhktdesfrjkd.blogspot.com.tr^
 ||generatorfreeaccounts.blogspot.com.es^
 ||get-windows-replaced.today^
-||google-bard-ai.org^
 ||google-cashincome5639.pages.dev^
 ||google-cashmachine79.pages.dev^
 ||google-jobsoffer7655.pages.dev^
@@ -314,6 +313,5 @@
 ||www.lives.com.co^
 ||www.netflix-max.com^
 ||www.netflixbisnis.com^
-||www.santander.pt^
 ||wwwapple-id.info^
 ||wwwbbvanetcash.ingreso-online343.com^
