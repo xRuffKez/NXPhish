@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715215562
-# Database Hash: 70a955802a70ce7884aea9f47895c071a4fb2cf9
-# Generated at: 2024-05-09 00:46:02 
+# Version: 1715217269
+# Database Hash: 00231a47fbb67cc00e47343502ec7c2853b6171d
+# Generated at: 2024-05-09 01:14:29 
 # Expires: 1 day
-# Number of phishing domains: 220
+# Number of phishing domains: 157
 # Top 10 Abused TLDs:
-# dev: 62 (28.18%)
-# com: 32 (14.55%)
-# app: 8 (3.64%)
-# id: 7 (3.18%)
-# icu: 6 (2.73%)
-# mx: 3 (1.36%)
-# ug: 3 (1.36%)
-# nl: 3 (1.36%)
-# se: 3 (1.36%)
-# xyz: 3 (1.36%)
+# dev: 42 (26.75%)
+# com: 21 (13.38%)
+# app: 6 (3.82%)
+# id: 6 (3.82%)
+# icu: 6 (3.82%)
+# mx: 3 (1.91%)
+# ug: 3 (1.91%)
+# nl: 3 (1.91%)
+# xyz: 3 (1.91%)
+# mk: 3 (1.91%)
 
 ||3ddc47ac.6d2e589211c0928645bd553e.workers.dev^
 ||3ui0ha0.token-imapp.com^
@@ -23,15 +23,10 @@
 ||admin.haohf.icu^
 ||admin.xhangh.icu^
 ||amazon-by-aftab.netlify.app^
-||amazon-cloneapp-html-css.netlify.app^
-||amazonyogesh.pages.dev^
 ||anz-myconnect.com^
 ||apple-clone-by-rebie.netlify.app^
-||apple-find-connect.com^
-||apple-home-page-in-bootstrap.netlify.app^
 ||apple-replicaevan.netlify.app^
 ||apple-suporte.us^
-||apply-juggle.pages.dev^
 ||bafybeibvqcm33motz3aa2yiddtgielf5musxlixby6hwnp6cezpqhg7x4y.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
 ||bbvanetcash.mx9k291l.com.mx^
@@ -39,11 +34,9 @@
 ||bireysel-garantbbvai.com^
 ||c2w67j1l7h.olf.my.id^
 ||ca3mijhnsg.download-soft.xyz^
-||cgd-caixadireta.com^
 ||ch-dcf.pages.dev^
 ||clouds-bird-906f.inlukbatehret.workers.dev^
 ||clubfiattipo.com^
-||coinbase-assets.com^
 ||coinbaselogiin.blogspot.co.za^
 ||coinbaszprrolgian.gitbook.io^
 ||complaint.hotel-49545.eu^
@@ -52,68 +45,45 @@
 ||d26.pages.dev^
 ||d27.pages.dev^
 ||danaindonesia-link.official-bantuan.biz.id^
-||elqanas-netflix-clone.firebaseapp.com^
 ||emailfacebooksecurity.pages.dev^
 ||en-dapprectify.pages.dev^
-||facebookconnect.pages.dev^
-||facebooksecurity.blogspot.se^
 ||facebooksecuritys.blogspot.co.ke^
 ||facebooksecuritys.blogspot.mk^
-||facebooksecuritys.blogspot.ro^
-||facebookzaman.blogspot.com^
 ||facebookzaman.blogspot.ru^
 ||firestonewalker.pages.dev^
 ||g3r1u78nh.olf.my.id^
 ||get-windows-replaced.today^
 ||google-cashincome5639.pages.dev^
 ||google-jobsoffer7655.pages.dev^
-||google-jobsoffer78005.pages.dev^
 ||google-jobspro89.pages.dev^
 ||google-netcashjobs75.pages.dev^
 ||google.cjysec.workers.dev^
 ||googleaccountmirror.iamsystem32.workers.dev^
 ||hello-world-red-mud-d14e.justmike9.workers.dev^
-||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||hello-world-still-silence-62f4.jmassell.workers.dev^
-||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
-||hotmailupdated.pages.dev^
 ||info-bancosantander-app.com^
 ||inspiress.in^
 ||instagram-beta.pages.dev^
-||instagram.tg^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.am^
-||instagramprofiileurl.blogspot.bg^
-||instagramprofiileurl.blogspot.co.at^
-||instagramprofiileurl.blogspot.co.id^
 ||instagramprofiileurl.blogspot.co.il^
-||instagramprofiileurl.blogspot.co.uk^
-||instagramprofiileurl.blogspot.co.za^
-||instagramprofiileurl.blogspot.com^
 ||instagramprofiileurl.blogspot.com.ar^
 ||instagramprofiileurl.blogspot.com.br^
 ||instagramprofiileurl.blogspot.com.cy^
-||instagramprofiileurl.blogspot.com.ng^
-||instagramprofiileurl.blogspot.cz^
 ||instagramprofiileurl.blogspot.dk^
-||instagramprofiileurl.blogspot.fi^
 ||instagramprofiileurl.blogspot.fr^
 ||instagramprofiileurl.blogspot.gr^
 ||instagramprofiileurl.blogspot.hk^
 ||instagramprofiileurl.blogspot.hu^
 ||instagramprofiileurl.blogspot.in^
-||instagramprofiileurl.blogspot.is^
 ||instagramprofiileurl.blogspot.it^
-||instagramprofiileurl.blogspot.li^
 ||instagramprofiileurl.blogspot.lu^
 ||instagramprofiileurl.blogspot.mk^
 ||instagramprofiileurl.blogspot.nl^
-||instagramprofiileurl.blogspot.pe^
 ||instagramprofiileurl.blogspot.pt^
 ||instagramprofiileurl.blogspot.qa^
-||instagramprofiileurl.blogspot.rs^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.sg^
 ||instagramprofiileurl.blogspot.ug^
@@ -126,20 +96,14 @@
 ||logs-ad-jeffbrillzo.pages.dev^
 ||lucah014.my-telegram.my.id^
 ||m.media-amazon.com^
-||mail3.goggle.workers.dev^
 ||majdiwalton.com^
 ||metamask-wallett.blogspot.al^
-||metamask-wallett.blogspot.ba^
 ||metamask-wallett.blogspot.ca^
-||metamask-wallett.blogspot.ch^
 ||metamask-wallett.blogspot.co.uk^
 ||metamask-wallett.blogspot.co.za^
 ||metamask-wallett.blogspot.com.br^
 ||metamask-wallett.blogspot.com.co^
-||metamask-wallett.blogspot.com.cy^
 ||metamask-wallett.blogspot.com.ee^
-||metamask-wallett.blogspot.com.mt^
-||metamask-wallett.blogspot.dk^
 ||metamask-wallett.blogspot.hk^
 ||metamask-wallett.blogspot.hr^
 ||metamask-wallett.blogspot.is^
@@ -148,23 +112,16 @@
 ||metamask-wallett.blogspot.mx^
 ||metamask-wallett.blogspot.nl^
 ||metamask-wallett.blogspot.ug^
-||metamaskinc.blogspot.ch^
-||metamaskinc.blogspot.co.at^
 ||metamaskinc.blogspot.co.id^
 ||metamaskinc.blogspot.com.ar^
-||metamaskinc.blogspot.com.co^
 ||metamaskinc.blogspot.com.ee^
 ||metamaskinc.blogspot.com.eg^
 ||metamaskinc.blogspot.com.es^
 ||metamaskinc.blogspot.com.tr^
 ||metamaskinc.blogspot.cz^
-||metamaskinc.blogspot.dk^
 ||metamaskinc.blogspot.hr^
-||metamaskinc.blogspot.hu^
 ||metamaskinc.blogspot.ie^
 ||metamaskinc.blogspot.it^
-||metamaskinc.blogspot.lt^
-||metamaskinc.blogspot.lu^
 ||metamaskinc.blogspot.mx^
 ||metamaskinc.blogspot.pe^
 ||metamaskinc.blogspot.qa^
@@ -172,41 +129,26 @@
 ||metamaskinc.blogspot.se^
 ||metamaskinc.blogspot.sg^
 ||metamaskinc.blogspot.si^
-||metamaskinc.blogspot.sk^
 ||metamaskinc.blogspot.ug^
-||metamasks.world^
 ||metamiskixlogem.gitbook.io^
-||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoft-ownership-verification.e27a2722.workers.dev^
 ||miyoyo-onedrive.liujunjie680.workers.dev^
 ||mks-spotify.netlify.app^
-||netflix-clone-dvp.pages.dev^
-||netflix-dj7.pages.dev^
-||netflixs-job.com^
-||netflixs-task.com^
 ||netflixshivam.freewebhostmost.com^
-||office365-b8f.pages.dev^
-||onedrive.microsoftlive1.workers.dev^
-||outlook-server.gorkakirtu.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||partner.coinbase-company.com^
 ||pdf.officelive365.workers.dev^
 ||piv-cfe.pages.dev^
-||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-25b4e0ea7c3a464e98614cd6e27f7e27.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
-||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
-||pub-ce4daca59fec4ff89813fe37e7e03938.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
-||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||pub-ffd4e89c4695405bb24e3e6feafb1d61.r2.dev^
 ||rajpathnews.com^
 ||reservations-29airbnb.com^
-||secure-paypal.pages.dev^
 ||securelogin-paypal.pages.dev^
 ||shiny-haze-e3f9.oriental-chef-hrg9939.workers.dev^
 ||smatr-5064-metropolitan.pages.dev^
@@ -223,10 +165,6 @@
 ||verify-office-outlook.com^
 ||winblox.pages.dev^
 ||worker-dry-sea-cd72.alexleo759.workers.dev^
-||worker-outlook-1bdc.vaheli5766.workers.dev^
-||workspace.google.com^
-||www-facebook-com.vn^
-||www.es-bbva-proteccion.com^
 ||www.hrms5y.xyz^
 ||www.netflix-max.com^
 ||www.netflixbisnis.com^
@@ -235,5 +173,4 @@
 ||www.telegrcom.icu^
 ||www.telegromn.icu^
 ||www.telegrpmn.xyz^
-||wwwbbvanetcash.ingreso-online343.com^
 ||xdgpp7pkf4x.pages.dev^
