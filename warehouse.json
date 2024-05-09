@@ -4212,7 +4212,7 @@
         "first_seen": 1715222623,
         "last_seen": 1715222623,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715222636,
         "whitelisted": 0
     },
     {
@@ -4220,15 +4220,15 @@
         "first_seen": 1715222623,
         "last_seen": 1715222623,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715222636,
         "whitelisted": 0
     },
     {
         "domain": "meta-windows.co",
         "first_seen": 1715222623,
         "last_seen": 1715222623,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715222636,
         "whitelisted": 0
     },
     {
@@ -4236,7 +4236,7 @@
         "first_seen": 1715222623,
         "last_seen": 1715222623,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715222636,
         "whitelisted": 0
     }
 ]
