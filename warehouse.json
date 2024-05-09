@@ -2500,7 +2500,7 @@
         "first_seen": 1715213158,
         "last_seen": 1715259243,
         "dns_status": "OK",
-        "dns_check_date": 1715251901,
+        "dns_check_date": 1715259257,
         "whitelisted": 0
     },
     {
@@ -2508,15 +2508,15 @@
         "first_seen": 1715213158,
         "last_seen": 1715259243,
         "dns_status": "OK",
-        "dns_check_date": 1715251901,
+        "dns_check_date": 1715259257,
         "whitelisted": 0
     },
     {
         "domain": "reservations-29airbnb.com",
         "first_seen": 1715213158,
         "last_seen": 1715259243,
-        "dns_status": "OK",
-        "dns_check_date": 1715251901,
+        "dns_status": "NXDOMAIN",
+        "dns_check_date": 1715259257,
         "whitelisted": 0
     },
     {
@@ -2524,7 +2524,7 @@
         "first_seen": 1715213158,
         "last_seen": 1715259243,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715251901,
+        "dns_check_date": 1715259257,
         "whitelisted": 0
     },
     {
