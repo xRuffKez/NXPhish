@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715222192
-# Database Hash: 454a575125baa58ef3d6cd2f4046efc7665b5da7
-# Generated at: 2024-05-09 02:36:32 
+# Version: 1715222649
+# Database Hash: 997a7afcb663834c6247ed74fd9bd433ff464cc2
+# Generated at: 2024-05-09 02:44:09 
 # Expires: 1 day
-# Number of phishing domains: 157
+# Number of phishing domains: 160
 # Top 10 Abused TLDs:
-# dev: 42 (26.75%)
-# com: 21 (13.38%)
-# app: 6 (3.82%)
-# id: 6 (3.82%)
-# icu: 6 (3.82%)
-# mx: 3 (1.91%)
-# ug: 3 (1.91%)
-# nl: 3 (1.91%)
-# xyz: 3 (1.91%)
-# mk: 3 (1.91%)
+# dev: 42 (26.25%)
+# com: 22 (13.75%)
+# app: 6 (3.75%)
+# id: 6 (3.75%)
+# icu: 6 (3.75%)
+# mx: 3 (1.88%)
+# ug: 3 (1.88%)
+# nl: 3 (1.88%)
+# xyz: 3 (1.88%)
+# mk: 3 (1.88%)
 
 ||3ddc47ac.6d2e589211c0928645bd553e.workers.dev^
 ||3ui0ha0.token-imapp.com^
@@ -135,10 +135,12 @@
 ||miyoyo-onedrive.liujunjie680.workers.dev^
 ||mks-spotify.netlify.app^
 ||netflixshivam.freewebhostmost.com^
+||onesstore-apple.ru^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||partner.coinbase-company.com^
 ||pdf.officelive365.workers.dev^
 ||piv-cfe.pages.dev^
+||pro-apple.com.ua^
 ||pub-25b4e0ea7c3a464e98614cd6e27f7e27.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
@@ -154,6 +156,7 @@
 ||smatr-5064-metropolitan.pages.dev^
 ||spotify-clone31.netlify.app^
 ||spousp-klaiocs-viells.yolasite.com^
+||support-login-apple.com^
 ||tokenpbiket.com^
 ||tokenpbjket.com^
 ||tweb-cc7.pages.dev^
