@@ -1,9 +1,7 @@
 name: Generate Phishing Domains Charts
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch
 
 jobs:
   generate_charts:
