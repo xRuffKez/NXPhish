@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715236031
-# Database Hash: a3459df80a5aea76c7354304ed8d8871a21c2ecf
-# Generated at: 2024-05-09 06:27:11 
+# Version: 1715236538
+# Database Hash: 4474b4a8fb7df254b11f2d32ab1ffe6745912a9a
+# Generated at: 2024-05-09 06:35:38 
 # Expires: 1 day
-# Number of phishing domains: 211
+# Number of phishing domains: 209
 # Top 10 Abused TLDs:
-# dev: 58 (27.49%)
-# com: 31 (14.69%)
-# app: 8 (3.79%)
-# id: 7 (3.32%)
-# icu: 6 (2.84%)
-# mx: 3 (1.42%)
-# ug: 3 (1.42%)
-# nl: 3 (1.42%)
-# xyz: 3 (1.42%)
-# mk: 3 (1.42%)
+# dev: 58 (27.75%)
+# com: 31 (14.83%)
+# app: 8 (3.83%)
+# id: 7 (3.35%)
+# icu: 6 (2.87%)
+# mx: 3 (1.44%)
+# ug: 3 (1.44%)
+# nl: 3 (1.44%)
+# mk: 3 (1.44%)
+# hu: 3 (1.44%)
 
 ||3ddc47ac.6d2e589211c0928645bd553e.workers.dev^
 ||3ui0ha0.token-imapp.com^
@@ -218,13 +218,11 @@
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||workspace.google.com^
 ||www-facebook-com.vn^
-||www.hrms5y.xyz^
 ||www.netflix-max.com^
 ||www.netflixbisnis.com^
 ||www.telegarom.icu^
 ||www.telegrarm.icu^
 ||www.telegrcom.icu^
 ||www.telegromn.icu^
-||www.telegrpmn.xyz^
 ||wwwbbvanetcash.ingreso-online343.com^
 ||xdgpp7pkf4x.pages.dev^
