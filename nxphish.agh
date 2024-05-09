@@ -1,26 +1,24 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715277765
-# Database Hash: 11662b6ca4b0689fbfd11322869f9606b35d53fd
-# Generated at: 2024-05-09 18:02:45 
+# Version: 1715278618
+# Database Hash: 80cab4fec84f9cd5206e41f1d40b1748e59331b8
+# Generated at: 2024-05-09 18:16:58 
 # Expires: 1 day
-# Number of phishing domains: 298
+# Number of phishing domains: 267
 # Top 10 Abused TLDs:
-# dev: 96 (32.21%)
-# com: 39 (13.09%)
-# io: 9 (3.02%)
-# app: 8 (2.68%)
-# mk: 6 (2.01%)
-# link: 6 (2.01%)
-# top: 5 (1.68%)
-# tr: 4 (1.34%)
-# cz: 4 (1.34%)
-# co: 4 (1.34%)
+# dev: 83 (31.09%)
+# com: 35 (13.11%)
+# app: 8 (3.00%)
+# mk: 5 (1.87%)
+# top: 5 (1.87%)
+# io: 5 (1.87%)
+# cz: 4 (1.50%)
+# co: 4 (1.50%)
+# link: 4 (1.50%)
+# cy: 3 (1.12%)
 
-||4-266-2.uniswap-free.eth.limo^
 ||5fgffgfgfg4g4gh4tf.blogspot.com.ee^
 ||5fgffggfgfg.blogspot.com.co^
-||5fgffggfgfg4g4ghfg4d.blogspot.am^
 ||accesmmorg.yolasite.com^
 ||adobe-pdf.pages.dev^
 ||affixresolve.firebaseapp.com^
@@ -29,7 +27,6 @@
 ||amazon-cloneapp-html-css.netlify.app^
 ||amazonyogesh.pages.dev^
 ||anand-kannothra.github.io^
-||anmilopbe.blogspot.com.tr^
 ||apple-clone-by-rebie.netlify.app^
 ||apple-find-connect.com^
 ||apple-home-page-in-bootstrap.netlify.app^
@@ -41,10 +38,7 @@
 ||b8403.top^
 ||bafkreigthv56vhof4ua6vvxzrcftujsvetxxoi2dkofxrhyowxfsgnv63i.ipfs.cf-ipfs.com^
 ||bafybeiarkkcarossjboeyrusa5gh3mzby5v4v4ubuinjr2vxivzqvhvkly.ipfs.dweb.link^
-||bafybeib4etrxyoxgwi4sa6kc7zgpnmzdu6rypirptfq2br25wanp3vingu.ipfs.dweb.link^
-||bafybeibml5jr24naaptk53bmjhrt6oghfz7nbau5ie7nqsdzm7ofhwxvzi.ipfs.dweb.link^
 ||bafybeicqzp655zplios6u7rig2f2yu6erexh4uwrlmgveypblct7x2tmge.ipfs.dweb.link^
-||bafybeics3wuec7ck7lj65hooow276s2plmetqhh5adfdx5dilqjl6gebdq.ipfs.cf-ipfs.com^
 ||bafybeieivulns4kho6uymsstr2xqsypb4cqcbgn3mrbfsknnnk5ki27lpm.ipfs.dweb.link^
 ||bafybeihw2slgoxi2txcz4hls2rfhjcpz6s4flq3aysngkkwb2ll34gpdzm.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
@@ -66,8 +60,6 @@
 ||cgd-caixadireta.com^
 ||ch-dcf.pages.dev^
 ||cit4-ns.firebaseapp.com^
-||claim-metamask-airdrop.com^
-||clickvideohothotwww.blogspot.mk^
 ||coinbase-assets.com^
 ||coinbaselogiin.blogspot.co.za^
 ||colnbase.info^
@@ -76,9 +68,7 @@
 ||darkness-white-sky-4f65.c1oudost-orage.workers.dev^
 ||dgdfgd2345454.blogspot.mk^
 ||dinhvan2310.github.io^
-||discord-196.pages.dev^
 ||discord-proxy.h-cooler.workers.dev^
-||eg2duiczqgnstsk.pages.dev^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||emailfacebooksecurity.pages.dev^
 ||facebook.check-protect-account.me^
@@ -100,7 +90,6 @@
 ||google.cjysec.workers.dev^
 ||googleaccountmirror.iamsystem32.workers.dev^
 ||gtle-morning-7cf7.kobebihe5000.workers.dev^
-||gungnir-interface-test.pages.dev^
 ||hackesticmedusa.github.io^
 ||hadow-worker-hidden-s981e.c1o-u-dost-orage.workers.dev^
 ||hello-world-raspy-snow-48a9.pekkeviyde.workers.dev^
@@ -113,11 +102,8 @@
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||hotmail-update.doltenokku.workers.dev^
 ||hotmailupdated.pages.dev^
-||hotpinksale.pages.dev^
-||hytv05.pages.dev^
 ||i7xo2.shop^
 ||iau6fkw2wccf8qwi.pages.dev^
-||imtoken-br.moe^
 ||imtoken-rv.top^
 ||imtoken-yf.top^
 ||info-bancosantander-app.com^
@@ -163,16 +149,13 @@
 ||instagramprofiileurl.blogspot.ug^
 ||iwq.pages.dev^
 ||jhl.rajixa1446.workers.dev^
-||krkeionlogs.gitbook.io^
 ||kunalbairwa.github.io^
 ||letg.pages.dev^
 ||login-microsoftonline.pages.dev^
-||logins.auth-member-ourtime.workers.dev^
 ||lp-mypwd.pages.dev^
 ||m.media-amazon.com^
 ||mail3.goggle.workers.dev^
 ||matemcsklogin.gitbook.io^
-||meitamaisk-loginn.gitbook.io^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.am^
 ||metamask-wallett.blogspot.ba^
@@ -232,7 +215,6 @@
 ||metamasks.world^
 ||metamassk.cc^
 ||metamasskluginn.blogspot.cz^
-||metamsaskloguin.gitbook.io^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoft-identity-verification.e27a2722.workers.dev^
 ||microsoft-ownership-verification.e27a2722.workers.dev^
@@ -250,8 +232,6 @@
 ||onedrive.microsoftlive1.workers.dev^
 ||outlook-server.gorkakirtu.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||owaxdriver.pages.dev^
-||pantekkalisakitkepalaku.blogspot.com^
 ||partner.coinbase-company.com^
 ||piv-cfe.pages.dev^
 ||prevorang1.firebaseapp.com^
@@ -261,7 +241,6 @@
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-19128e0e6ecc4449a51ef13fa09d2461.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
-||pub-50a586036c324bf394887c0ea1c25dd8.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
@@ -271,31 +250,23 @@
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
 ||pub-ce4daca59fec4ff89813fe37e7e03938.r2.dev^
 ||pub-e62a46dff89e45fd8cd32d61ccf3f0bc.r2.dev^
-||pub-e99c19c8957e498ead69349684cabbd4.r2.dev^
 ||pub-fc51d290db584b328d6feb3913c634a1.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||raiffeisenfast.com^
 ||redirect.bdocaresmobile.workers.dev^
-||remove-page-violaton.github.io^
-||s6yfq.shop^
 ||santanderbrasil.lu^
-||scorpion-lab.com^
 ||secure-paypal.pages.dev^
 ||securelogin-paypal.pages.dev^
 ||security-page-community-standards.blogspot.rs^
 ||send-mrivate-message.pages.dev^
-||ser3ce.atto3line.workers.dev^
 ||service.yah3oo.workers.dev^
 ||sharepoint.yizhibaize.workers.dev^
 ||spotify-clone31.netlify.app^
-||ssnqokyxwbjeh4kociblt8dcsjniarwkmgfhdwi0ovmit77yytc.pages.dev^
 ||steamcomuimnity.ru^
-||sumydeko.blogspot.com.br^
 ||support-login-apple.com^
 ||telegram-com-zhcn.pages.dev^
 ||telegramhk.com^
-||to-starts.midasgamers.workers.dev^
 ||tokempockjt.top^
 ||trojansol-fix.pages.dev^
 ||u1ch6ls9j0aseze1ri8whfjp.zfhfzbm.cn^
@@ -307,11 +278,9 @@
 ||worker-polished-breeze-ab6e.jtbraidic77.workers.dev^
 ||worker-wispy-pond-dbe4.payag59059.workers.dev^
 ||workspace.google.com^
-||ws6.pages.dev^
 ||www-facebook-com.vn^
 ||www.es-bbva-proteccion.com^
 ||www.lives.com.co^
 ||www.netflix-max.com^
 ||www.netflixbisnis.com^
-||wwwapple-id.info^
 ||wwwbbvanetcash.ingreso-online343.com^
