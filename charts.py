@@ -1,50 +1,58 @@
 import json
+from datetime import datetime, timedelta
 import matplotlib.pyplot as plt
 import os
 
-with open('warehouse.json', 'r') as file:
-    data = json.load(file)
+# Function to load data from JSON file or return an empty list if the file doesn't exist
+def load_data():
+    try:
+        with open('charts/data.json', 'r') as file:
+            return json.load(file)
+    except FileNotFoundError:
+        # Create an empty data list if the file doesn't exist
+        with open('charts/data.json', 'w') as file:
+            json.dump([], file)
+        return []
 
-phishing_domains = [entry for entry in data if entry['dns_status'] == 'OK' and entry['whitelisted'] == '0']
+# Function to save data to JSON file
+def save_data(data):
+    with open('charts/data.json', 'w') as file:
+        json.dump(data, file, indent=4)
 
-phishing_domains_last_24_hours = len(phishing_domains)
-phishing_domains_last_week = len(phishing_domains)
-phishing_domains_last_month = len(phishing_domains)
-phishing_domains_last_year = len(phishing_domains)
+# Function to filter phishing domains based on DNS status and whitelisted status
+def filter_phishing_domains(data):
+    return [entry for entry in data if entry['dns_status'] == 'OK' and entry['whitelisted'] == '0']
 
-def plot_chart_last_24_hours(count, title):
-    plt.bar(['Last 24 Hours'], [count])
-    plt.title(title)
+# Function to plot historical trends
+def plot_historical_trends(interval, title, data):
+    now = datetime.now()
+    historical_data = []
+
+    # Collect historical data for the specified time interval
+    for i in range(interval):
+        start_date = now - timedelta(days=i)
+        end_date = now - timedelta(days=i - 1)
+        count = sum(1 for entry in data if start_date <= datetime.fromisoformat(entry['date']) < end_date)
+        historical_data.append((start_date.strftime('%Y-%m-%d'), count))
+
+    # Plot the historical data
+    dates, counts = zip(*historical_data)
+    plt.plot(dates, counts, marker='o')
+    plt.xlabel('Date')
     plt.ylabel('Number of Phishing Domains')
+    plt.title(title)
+    plt.xticks(rotation=45)
+
+    # Save the plot as a PNG file
     plt.tight_layout()
-    plt.savefig('charts/phishing_domains_last_24_hours.png')  # Save the plot as a PNG file
+    plt.savefig(f'charts/phishing_domains_{title.lower().replace(" ", "_")}.png')
     plt.close()
 
-def plot_chart_7_days(count, title):
-    plt.bar(['Last 7 Days'], [count])
-    plt.title(title)
-    plt.ylabel('Number of Phishing Domains')
-    plt.tight_layout()
-    plt.savefig('charts/phishing_domains_last_7_days.png')  # Save the plot as a PNG file
-    plt.close()
+# Load data
+data = load_data()
 
-def plot_chart_1_month(count, title):
-    plt.bar(['Last Month'], [count])
-    plt.title(title)
-    plt.ylabel('Number of Phishing Domains')
-    plt.tight_layout()
-    plt.savefig('charts/phishing_domains_last_month.png')  # Save the plot as a PNG file
-    plt.close()
-
-def plot_chart_1_year(count, title):
-    plt.bar(['Last Year'], [count])
-    plt.title(title)
-    plt.ylabel('Number of Phishing Domains')
-    plt.tight_layout()
-    plt.savefig('charts/phishing_domains_last_year.png')  # Save the plot as a PNG file
-    plt.close()
-
-plot_chart_last_24_hours(phishing_domains_last_24_hours, 'Phishing Domains with DNS Status "OK" - Last 24 Hours')
-plot_chart_7_days(phishing_domains_last_week, 'Phishing Domains with DNS Status "OK" - Last 7 Days')
-plot_chart_1_month(phishing_domains_last_month, 'Phishing Domains with DNS Status "OK" - Last Month')
-plot_chart_1_year(phishing_domains_last_year, 'Phishing Domains with DNS Status "OK" - Last Year')
+# Plot historical trends
+plot_historical_trends(1, 'Last 24 Hours', data)
+plot_historical_trends(7, 'Last 7 Days', data)
+plot_historical_trends(30, 'Last Month', data)
+plot_historical_trends(365, 'Last Year', data)
