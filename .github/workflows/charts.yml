@@ -1,0 +1,40 @@
+name: Generate Phishing Domains Charts
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate_charts:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+        
+    - name: Install dependencies
+      run: pip install matplotlib
+      
+    - name: Run Python script to generate charts
+      run: |
+        python charts.py
+        mkdir charts
+        mv *.png charts/
+        
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add charts/*.png
+        git commit -m "Generate phishing domains charts"
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
