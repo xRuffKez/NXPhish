@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715228164
-# Database Hash: 381488cfbb478aa423607667be9ff3b82ab50a1f
-# Generated at: 2024-05-09 04:16:04 
+# Version: 1715228932
+# Database Hash: d3cf72e632667cb8cb0a4a1de285b20d6bdece3b
+# Generated at: 2024-05-09 04:28:52 
 # Expires: 1 day
-# Number of phishing domains: 255
+# Number of phishing domains: 254
 # Top 10 Abused TLDs:
-# dev: 76 (29.80%)
-# com: 34 (13.33%)
-# app: 8 (3.14%)
-# id: 7 (2.75%)
-# icu: 6 (2.35%)
+# dev: 76 (29.92%)
+# com: 34 (13.39%)
+# app: 8 (3.15%)
+# id: 7 (2.76%)
+# icu: 6 (2.36%)
 # cy: 3 (1.18%)
 # mx: 3 (1.18%)
 # ug: 3 (1.18%)
 # nl: 3 (1.18%)
-# ru: 3 (1.18%)
+# xyz: 3 (1.18%)
 
 ||3ddc47ac.6d2e589211c0928645bd553e.workers.dev^
 ||3ui0ha0.token-imapp.com^
@@ -213,7 +213,6 @@
 ||netflixshivam.freewebhostmost.com^
 ||office365-b8f.pages.dev^
 ||onedrive.microsoftlive1.workers.dev^
-||onesstore-apple.ru^
 ||outlook-server.gorkakirtu.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||partner.coinbase-company.com^
