@@ -2412,7 +2412,7 @@
         "first_seen": 1715213158,
         "last_seen": 1715282476,
         "dns_status": "OK",
-        "dns_check_date": 1715274837,
+        "dns_check_date": 1715282489,
         "whitelisted": 0
     },
     {
@@ -2420,7 +2420,7 @@
         "first_seen": 1715213158,
         "last_seen": 1715282476,
         "dns_status": "OK",
-        "dns_check_date": 1715274837,
+        "dns_check_date": 1715282489,
         "whitelisted": 0
     },
     {
@@ -2428,7 +2428,7 @@
         "first_seen": 1715213158,
         "last_seen": 1715282476,
         "dns_status": "NXDOMAIN",
-        "dns_check_date": 1715274837,
+        "dns_check_date": 1715282489,
         "whitelisted": 0
     },
     {
@@ -2436,7 +2436,7 @@
         "first_seen": 1715213158,
         "last_seen": 1715282476,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715274837,
+        "dns_check_date": 1715282489,
         "whitelisted": 0
     },
     {
@@ -3987,8 +3987,8 @@
         "domain": "coinbase.satansnun.com",
         "first_seen": 1715282476,
         "last_seen": 1715282476,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715282489,
         "whitelisted": 0
     },
     {
@@ -3996,7 +3996,7 @@
         "first_seen": 1715282476,
         "last_seen": 1715282476,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715282489,
         "whitelisted": 0
     },
     {
@@ -4004,7 +4004,7 @@
         "first_seen": 1715282476,
         "last_seen": 1715282476,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715282489,
         "whitelisted": 0
     }
 ]
