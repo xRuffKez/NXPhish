@@ -1,27 +1,25 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715251313
-# Database Hash: d3ce5fba03fbd2dcbf750a5e78b03ebc1ec2720b
-# Generated at: 2024-05-09 10:41:53 
+# Version: 1715251999
+# Database Hash: c736a255f8442e429c818c058610380f7415d71c
+# Generated at: 2024-05-09 10:53:19 
 # Expires: 1 day
-# Number of phishing domains: 253
+# Number of phishing domains: 246
 # Top 10 Abused TLDs:
-# dev: 76 (30.04%)
-# com: 34 (13.44%)
-# app: 8 (3.16%)
-# id: 7 (2.77%)
-# icu: 6 (2.37%)
-# cy: 3 (1.19%)
-# mx: 3 (1.19%)
-# ug: 3 (1.19%)
-# nl: 3 (1.19%)
-# mk: 3 (1.19%)
+# dev: 76 (30.89%)
+# com: 34 (13.82%)
+# app: 8 (3.25%)
+# id: 7 (2.85%)
+# cy: 3 (1.22%)
+# mx: 3 (1.22%)
+# ug: 3 (1.22%)
+# nl: 3 (1.22%)
+# mk: 3 (1.22%)
+# hu: 3 (1.22%)
 
 ||3ddc47ac.6d2e589211c0928645bd553e.workers.dev^
 ||3ui0ha0.token-imapp.com^
 ||5fgffggfgfg.blogspot.bg^
-||admin.haohf.icu^
-||admin.xhangh.icu^
 ||adobe-pdf.pages.dev^
 ||amazon-by-aftab.netlify.app^
 ||amazon-clone-aku.pages.dev^
@@ -252,7 +250,6 @@
 ||usbav.pages.dev^
 ||userviceps.blogspot.hu^
 ||usps-pr.helpsol.top^
-||verify-center-manage.cfd^
 ||verify-office-outlook.com^
 ||wellsfargos.info^
 ||winblox.pages.dev^
@@ -264,9 +261,5 @@
 ||www.es-bbva-proteccion.com^
 ||www.netflix-max.com^
 ||www.netflixbisnis.com^
-||www.telegarom.icu^
-||www.telegrarm.icu^
-||www.telegrcom.icu^
-||www.telegromn.icu^
 ||wwwbbvanetcash.ingreso-online343.com^
 ||xdgpp7pkf4x.pages.dev^
