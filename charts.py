@@ -21,7 +21,7 @@ def save_data(data):
 
 # Function to filter phishing domains based on DNS status and whitelisted status
 def filter_phishing_domains(data):
-    return [entry for entry in data if entry['dns_status'] == 'OK' and entry['whitelisted'] == '0']
+    return [entry for entry in domain if entry['dns_status'] == 'OK' and entry['whitelisted'] == '0']
 
 # Function to plot historical trends
 def plot_historical_trends(interval, title, data):
