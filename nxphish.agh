@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715258590
-# Database Hash: 9a3fcec5b27ca2c8eac2d3a452b223936b0f2077
-# Generated at: 2024-05-09 12:43:10 
+# Version: 1715259280
+# Database Hash: d36911da45bb5f141aed4252bbcd43f5038af67b
+# Generated at: 2024-05-09 12:54:40 
 # Expires: 1 day
-# Number of phishing domains: 302
+# Number of phishing domains: 301
 # Top 10 Abused TLDs:
-# dev: 96 (31.79%)
-# com: 41 (13.58%)
-# app: 9 (2.98%)
-# io: 9 (2.98%)
+# dev: 96 (31.89%)
+# com: 40 (13.29%)
+# app: 9 (2.99%)
+# io: 9 (2.99%)
 # mk: 6 (1.99%)
 # link: 6 (1.99%)
 # top: 5 (1.66%)
-# tr: 4 (1.32%)
-# cz: 4 (1.32%)
-# co: 4 (1.32%)
+# tr: 4 (1.33%)
+# cz: 4 (1.33%)
+# co: 4 (1.33%)
 
 ||4-266-2.uniswap-free.eth.limo^
 ||5fgffgfgfg4g4gh4tf.blogspot.com.ee^
@@ -281,7 +281,6 @@
 ||raiffeisenfast.com^
 ||redirect.bdocaresmobile.workers.dev^
 ||remove-page-violaton.github.io^
-||reservations-29airbnb.com^
 ||s6yfq.shop^
 ||santanderbrasil.lu^
 ||scorpion-lab.com^
