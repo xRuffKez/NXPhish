@@ -2308,7 +2308,7 @@
         "first_seen": 1715222623,
         "last_seen": 1715360529,
         "dns_status": "OK",
-        "dns_check_date": 1715352704,
+        "dns_check_date": 1715360549,
         "whitelisted": 0
     },
     {
@@ -2316,7 +2316,7 @@
         "first_seen": 1715222623,
         "last_seen": 1715360529,
         "dns_status": "OK",
-        "dns_check_date": 1715352704,
+        "dns_check_date": 1715360549,
         "whitelisted": 0
     },
     {
@@ -2324,7 +2324,7 @@
         "first_seen": 1715222623,
         "last_seen": 1715360529,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715352704,
+        "dns_check_date": 1715360549,
         "whitelisted": 0
     },
     {
@@ -2356,7 +2356,7 @@
         "first_seen": 1715299572,
         "last_seen": 1715360529,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715352704,
+        "dns_check_date": 1715360549,
         "whitelisted": 0
     },
     {
@@ -2364,7 +2364,7 @@
         "first_seen": 1715299572,
         "last_seen": 1715360529,
         "dns_status": "OK",
-        "dns_check_date": 1715352704,
+        "dns_check_date": 1715360549,
         "whitelisted": 0
     },
     {
@@ -2372,7 +2372,7 @@
         "first_seen": 1715299572,
         "last_seen": 1715360529,
         "dns_status": "OK",
-        "dns_check_date": 1715352704,
+        "dns_check_date": 1715360549,
         "whitelisted": 0
     },
     {
@@ -2380,7 +2380,7 @@
         "first_seen": 1715299572,
         "last_seen": 1715360529,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715352704,
+        "dns_check_date": 1715360549,
         "whitelisted": 0
     },
     {
@@ -2388,7 +2388,7 @@
         "first_seen": 1715299572,
         "last_seen": 1715360529,
         "dns_status": "OK",
-        "dns_check_date": 1715352704,
+        "dns_check_date": 1715360549,
         "whitelisted": 0
     },
     {
@@ -2396,7 +2396,7 @@
         "first_seen": 1715299572,
         "last_seen": 1715360529,
         "dns_status": "OK",
-        "dns_check_date": 1715352704,
+        "dns_check_date": 1715360549,
         "whitelisted": 0
     },
     {
@@ -2476,7 +2476,7 @@
         "first_seen": 1715323278,
         "last_seen": 1715360529,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715353331,
+        "dns_check_date": 1715360549,
         "whitelisted": 0
     },
     {
@@ -2484,7 +2484,7 @@
         "first_seen": 1715323278,
         "last_seen": 1715360529,
         "dns_status": "OK",
-        "dns_check_date": 1715353331,
+        "dns_check_date": 1715360549,
         "whitelisted": 0
     },
     {
@@ -2492,7 +2492,7 @@
         "first_seen": 1715323278,
         "last_seen": 1715360529,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715353331,
+        "dns_check_date": 1715360549,
         "whitelisted": 0
     },
     {
@@ -3220,23 +3220,23 @@
         "first_seen": 1715353317,
         "last_seen": 1715360529,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715353331,
+        "dns_check_date": 1715360549,
         "whitelisted": 0
     },
     {
         "domain": "paypal.com.update-limited.accounts.topgirlsescort.com",
         "first_seen": 1715360529,
         "last_seen": 1715360529,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715360549,
         "whitelisted": 0
     },
     {
         "domain": "microsoft.ir.microsoft.biz.inrtenet-miazan-ir.me",
         "first_seen": 1715360529,
         "last_seen": 1715360529,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715360549,
         "whitelisted": 0
     }
 ]
