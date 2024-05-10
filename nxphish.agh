@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715305312
-# Database Hash: cd23c99b82315adc6627569740944d195cd19de6
-# Generated at: 2024-05-10 01:41:52 
+# Version: 1715307022
+# Database Hash: 86aa529b640e0f958a001af5e0468a4ba563703a
+# Generated at: 2024-05-10 02:10:22 
 # Expires: 1 day
-# Number of phishing domains: 335
+# Number of phishing domains: 333
 # Top 10 Abused TLDs:
-# dev: 123 (36.72%)
-# com: 40 (11.94%)
-# app: 12 (3.58%)
-# io: 6 (1.79%)
-# link: 6 (1.79%)
-# hr: 5 (1.49%)
-# top: 5 (1.49%)
-# ug: 4 (1.19%)
-# lu: 4 (1.19%)
-# mk: 4 (1.19%)
+# dev: 123 (36.94%)
+# com: 38 (11.41%)
+# app: 12 (3.60%)
+# io: 6 (1.80%)
+# link: 6 (1.80%)
+# hr: 5 (1.50%)
+# top: 5 (1.50%)
+# ug: 4 (1.20%)
+# lu: 4 (1.20%)
+# mk: 4 (1.20%)
 
 ||5b1kard-44.pages.dev^
 ||5b1kard-45.pages.dev^
@@ -192,7 +192,6 @@
 ||login-microsoft-online.pages.dev^
 ||login-microsoftonline.pages.dev^
 ||lucah102.my-telegram.my.id^
-||m.media-amazon.com^
 ||mail3.goggle.workers.dev^
 ||manta-x.pages.dev^
 ||masuk-kartu-fisik.resmi-et.com^
@@ -321,7 +320,6 @@
 ||thailan-19.blogspot.md^
 ||thewillislawgroup-pdf.pages.dev^
 ||timo-partners-api.pages.dev^
-||tinyurl.com^
 ||tok2npo2kgt.top^
 ||tokedp0cket.top^
 ||tokenpahket.com^
