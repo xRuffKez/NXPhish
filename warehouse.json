@@ -357,7 +357,7 @@
         "last_seen": 1715305281,
         "dns_status": "OK",
         "dns_check_date": 1715300734,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "microsoft-109153.weeblysite.com",
@@ -709,7 +709,7 @@
         "last_seen": 1715305281,
         "dns_status": "NO_NAMESERVERS",
         "dns_check_date": 1715300734,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "instagramprofiileurl.blogspot.com.ar",
@@ -965,7 +965,7 @@
         "last_seen": 1715305281,
         "dns_status": "NO_NAMESERVERS",
         "dns_check_date": 1715300734,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "verify-office-outlook.com",
@@ -1013,7 +1013,7 @@
         "last_seen": 1715305281,
         "dns_status": "NO_NAMESERVERS",
         "dns_check_date": 1715300734,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "43.134.233.26",
@@ -1021,7 +1021,7 @@
         "last_seen": 1715305281,
         "dns_status": "NO_NAMESERVERS",
         "dns_check_date": 1715300734,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "netflix-clone-francant.vercel.app",
