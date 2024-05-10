@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715316136
-# Database Hash: 8e82cf22cb8bb769acce7186978307173339df2f
-# Generated at: 2024-05-10 04:42:16 
+# Version: 1715316715
+# Database Hash: 72a0471fd50815f31fff009e3f99d6a1bb38a7c6
+# Generated at: 2024-05-10 04:51:55 
 # Expires: 1 day
-# Number of phishing domains: 344
+# Number of phishing domains: 339
 # Top 10 Abused TLDs:
-# dev: 125 (36.34%)
-# com: 43 (12.50%)
-# app: 13 (3.78%)
-# io: 6 (1.74%)
-# link: 6 (1.74%)
-# hr: 5 (1.45%)
-# ug: 4 (1.16%)
-# nl: 4 (1.16%)
-# lu: 4 (1.16%)
-# mk: 4 (1.16%)
+# dev: 125 (36.87%)
+# com: 39 (11.50%)
+# app: 13 (3.83%)
+# io: 6 (1.77%)
+# link: 6 (1.77%)
+# hr: 5 (1.47%)
+# ug: 4 (1.18%)
+# nl: 4 (1.18%)
+# lu: 4 (1.18%)
+# mk: 4 (1.18%)
 
 ||5b1kard-44.pages.dev^
 ||5b1kard-45.pages.dev^
@@ -85,10 +85,7 @@
 ||business-facebook-suite-13.pages.dev^
 ||business-facebook-suite-15.pages.dev^
 ||cainomoli.blogspot.is^
-||caixadirectapp-cgd.com^
-||caixadireta-cgd.com^
 ||canus-aude.netlify.app^
-||cgd-caixadireta.com^
 ||ch-dcf.pages.dev^
 ||chatprivasi.pages.dev^
 ||chink.pages.dev^
@@ -292,7 +289,6 @@
 ||pritanjan.github.io^
 ||priyankasandokar1606.github.io^
 ||pro-apple.com.ua^
-||pt-cgd.com^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-19128e0e6ecc4449a51ef13fa09d2461.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
@@ -354,7 +350,6 @@
 ||workspace.google.com^
 ||worldarabasiastarzfvote.pages.dev^
 ||www-facebook-com.vn^
-||www.amazon.de^
 ||www.es-bbva-proteccion.com^
 ||www.netflix-max.com^
 ||www.netflixbisnis.com^
