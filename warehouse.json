@@ -4364,7 +4364,7 @@
         "first_seen": 1715301927,
         "last_seen": 1715316687,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715309483,
+        "dns_check_date": 1715316701,
         "whitelisted": 0
     },
     {
@@ -4372,7 +4372,7 @@
         "first_seen": 1715301927,
         "last_seen": 1715316687,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715309483,
+        "dns_check_date": 1715316701,
         "whitelisted": 0
     },
     {
@@ -4459,8 +4459,8 @@
         "domain": "register.secure.microsoft.com",
         "first_seen": 1715316687,
         "last_seen": 1715316687,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715316701,
         "whitelisted": 0
     }
 ]
