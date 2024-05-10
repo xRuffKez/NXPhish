@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715315525
-# Database Hash: b7fcd858dd9fcdedb9b7cfcac18858c6bf26d7af
-# Generated at: 2024-05-10 04:32:05 
+# Version: 1715316136
+# Database Hash: 8e82cf22cb8bb769acce7186978307173339df2f
+# Generated at: 2024-05-10 04:42:16 
 # Expires: 1 day
-# Number of phishing domains: 330
+# Number of phishing domains: 344
 # Top 10 Abused TLDs:
-# dev: 124 (37.58%)
-# com: 42 (12.73%)
-# app: 11 (3.33%)
-# io: 6 (1.82%)
-# link: 6 (1.82%)
-# hr: 5 (1.52%)
-# ug: 4 (1.21%)
-# lu: 4 (1.21%)
-# mk: 4 (1.21%)
-# id: 4 (1.21%)
+# dev: 125 (36.34%)
+# com: 43 (12.50%)
+# app: 13 (3.78%)
+# io: 6 (1.74%)
+# link: 6 (1.74%)
+# hr: 5 (1.45%)
+# ug: 4 (1.16%)
+# nl: 4 (1.16%)
+# lu: 4 (1.16%)
+# mk: 4 (1.16%)
 
 ||5b1kard-44.pages.dev^
 ||5b1kard-45.pages.dev^
@@ -56,11 +56,13 @@
 ||anmilopbe.blogspot.ba^
 ||aolmaiillogin.blogspot.no^
 ||app.convertkit.com^
+||apple-clone-by-rebie.netlify.app^
 ||apple-find-connect.com^
 ||apple-home-page-in-bootstrap.netlify.app^
 ||apple-locator.live^
 ||apple-map-live.com^
 ||apple-replicaevan.netlify.app^
+||apple-suporte.us^
 ||apply-juggle.pages.dev^
 ||atsdata-7g9.pages.dev^
 ||autumn-bush-a03b.joelcullins9577.workers.dev^
@@ -139,6 +141,7 @@
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||hello-world-sparkling-dust-a38a.hijabu.workers.dev^
 ||hotmail-alerts.chelsie15.workers.dev^
+||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||hotmail-update.doltenokku.workers.dev^
 ||hotmailupdated.pages.dev^
@@ -147,6 +150,7 @@
 ||identechinc-7mc.pages.dev^
 ||imtoken-lh.top^
 ||info-bancosantander-app.com^
+||inspiress.in^
 ||instagram-beta.pages.dev^
 ||instagram.tg^
 ||instagrammalo.blogspot.nl^
@@ -167,8 +171,11 @@
 ||instagramprofiileurl.blogspot.com.es^
 ||instagramprofiileurl.blogspot.com.ng^
 ||instagramprofiileurl.blogspot.cz^
+||instagramprofiileurl.blogspot.dk^
 ||instagramprofiileurl.blogspot.fi^
 ||instagramprofiileurl.blogspot.fr^
+||instagramprofiileurl.blogspot.gr^
+||instagramprofiileurl.blogspot.hk^
 ||instagramprofiileurl.blogspot.hu^
 ||instagramprofiileurl.blogspot.in^
 ||instagramprofiileurl.blogspot.is^
@@ -203,7 +210,9 @@
 ||metamask-wallett.blogspot.ca^
 ||metamask-wallett.blogspot.ch^
 ||metamask-wallett.blogspot.co.uk^
+||metamask-wallett.blogspot.co.za^
 ||metamask-wallett.blogspot.com.br^
+||metamask-wallett.blogspot.com.co^
 ||metamask-wallett.blogspot.com.cy^
 ||metamask-wallett.blogspot.com.ee^
 ||metamask-wallett.blogspot.com.mt^
@@ -214,6 +223,7 @@
 ||metamask-wallett.blogspot.kr^
 ||metamask-wallett.blogspot.mk^
 ||metamask-wallett.blogspot.mx^
+||metamask-wallett.blogspot.nl^
 ||metamask-wallett.blogspot.ro^
 ||metamask-wallett.blogspot.ug^
 ||metamaskinc.blogspot.ch^
@@ -223,6 +233,7 @@
 ||metamaskinc.blogspot.com.co^
 ||metamaskinc.blogspot.com.cy^
 ||metamaskinc.blogspot.com.ee^
+||metamaskinc.blogspot.com.eg^
 ||metamaskinc.blogspot.com.es^
 ||metamaskinc.blogspot.com.ng^
 ||metamaskinc.blogspot.com.tr^
@@ -232,6 +243,7 @@
 ||metamaskinc.blogspot.fi^
 ||metamaskinc.blogspot.hr^
 ||metamaskinc.blogspot.hu^
+||metamaskinc.blogspot.ie^
 ||metamaskinc.blogspot.it^
 ||metamaskinc.blogspot.kr^
 ||metamaskinc.blogspot.lt^
@@ -274,6 +286,7 @@
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||p551001.com^
 ||pagos-correos.es^
+||partner.coinbase-company.com^
 ||pdfviewer-3ks.pages.dev^
 ||piv-cfe.pages.dev^
 ||pritanjan.github.io^
@@ -287,6 +300,7 @@
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
+||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
 ||pub-ce4daca59fec4ff89813fe37e7e03938.r2.dev^
