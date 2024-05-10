@@ -3196,15 +3196,15 @@
         "first_seen": 1715371318,
         "last_seen": 1715371318,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715371331,
         "whitelisted": 0
     },
     {
         "domain": "instagram.accont.click",
         "first_seen": 1715371318,
         "last_seen": 1715371318,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715371331,
         "whitelisted": 0
     }
 ]
