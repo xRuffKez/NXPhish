@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715307811
-# Database Hash: 0bb5f32d0901edaccebf0c0930f031b9b745532a
-# Generated at: 2024-05-10 02:23:31 
+# Version: 1715308670
+# Database Hash: 9ae3320b36989ad8f886d1d31ede3b539e70e539
+# Generated at: 2024-05-10 02:37:50 
 # Expires: 1 day
-# Number of phishing domains: 331
+# Number of phishing domains: 332
 # Top 10 Abused TLDs:
-# dev: 123 (37.16%)
-# com: 38 (11.48%)
-# app: 12 (3.63%)
+# dev: 124 (37.35%)
+# com: 42 (12.65%)
+# app: 11 (3.31%)
 # io: 6 (1.81%)
 # link: 6 (1.81%)
 # hr: 5 (1.51%)
 # top: 5 (1.51%)
-# ug: 4 (1.21%)
-# lu: 4 (1.21%)
-# mk: 4 (1.21%)
+# ug: 4 (1.20%)
+# lu: 4 (1.20%)
+# mk: 4 (1.20%)
 
 ||5b1kard-44.pages.dev^
 ||5b1kard-45.pages.dev^
@@ -56,12 +56,11 @@
 ||anmilopbe.blogspot.ba^
 ||aolmaiillogin.blogspot.no^
 ||app.convertkit.com^
-||apple-clone-by-rebie.netlify.app^
 ||apple-find-connect.com^
 ||apple-home-page-in-bootstrap.netlify.app^
 ||apple-locator.live^
+||apple-map-live.com^
 ||apple-replicaevan.netlify.app^
-||apple-suporte.us^
 ||apply-juggle.pages.dev^
 ||atsdata-7g9.pages.dev^
 ||autumn-bush-a03b.joelcullins9577.workers.dev^
@@ -92,6 +91,8 @@
 ||chatprivasi.pages.dev^
 ||chink.pages.dev^
 ||client-asistanceflive-3fijq.web.app^
+||coinbase-assets.com^
+||coinbased.cc^
 ||coinbaselogiin.blogspot.co.za^
 ||colnbase.info^
 ||community-standards-1006436512.firebaseapp.com^
@@ -130,6 +131,7 @@
 ||google-jobsoffer78005.pages.dev^
 ||google-jobspro89.pages.dev^
 ||google-netcashjobs75.pages.dev^
+||google-snake-game.com^
 ||google.cjysec.workers.dev^
 ||googleaccountmirror.iamsystem32.workers.dev^
 ||hello-world-crimson-smoke-e85b.kencothren.workers.dev^
@@ -145,7 +147,6 @@
 ||identechinc-7mc.pages.dev^
 ||imtoken-lh.top^
 ||info-bancosantander-app.com^
-||inspiress.in^
 ||instagram-beta.pages.dev^
 ||instagram.tg^
 ||instagrammalo.blogspot.nl^
@@ -154,6 +155,7 @@
 ||instagramprofiileurl.blogspot.bg^
 ||instagramprofiileurl.blogspot.ca^
 ||instagramprofiileurl.blogspot.co.at^
+||instagramprofiileurl.blogspot.co.id^
 ||instagramprofiileurl.blogspot.co.il^
 ||instagramprofiileurl.blogspot.co.nz^
 ||instagramprofiileurl.blogspot.co.uk^
@@ -165,11 +167,8 @@
 ||instagramprofiileurl.blogspot.com.es^
 ||instagramprofiileurl.blogspot.com.ng^
 ||instagramprofiileurl.blogspot.cz^
-||instagramprofiileurl.blogspot.dk^
 ||instagramprofiileurl.blogspot.fi^
 ||instagramprofiileurl.blogspot.fr^
-||instagramprofiileurl.blogspot.gr^
-||instagramprofiileurl.blogspot.hk^
 ||instagramprofiileurl.blogspot.hu^
 ||instagramprofiileurl.blogspot.in^
 ||instagramprofiileurl.blogspot.is^
@@ -204,9 +203,7 @@
 ||metamask-wallett.blogspot.ca^
 ||metamask-wallett.blogspot.ch^
 ||metamask-wallett.blogspot.co.uk^
-||metamask-wallett.blogspot.co.za^
 ||metamask-wallett.blogspot.com.br^
-||metamask-wallett.blogspot.com.co^
 ||metamask-wallett.blogspot.com.cy^
 ||metamask-wallett.blogspot.com.ee^
 ||metamask-wallett.blogspot.com.mt^
@@ -271,10 +268,12 @@
 ||njetdsy.reytnmx.workers.dev^
 ||office365-b8f.pages.dev^
 ||onedrive.microsoftlive1.workers.dev^
+||open.spotify.com^
 ||outlook-server.gorkakirtu.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||p551001.com^
+||pagos-correos.es^
 ||pdfviewer-3ks.pages.dev^
 ||piv-cfe.pages.dev^
 ||pritanjan.github.io^
@@ -296,6 +295,7 @@
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||rewerds-ff-qarenu.ru^
 ||santanderbrasil.lu^
+||secure-paypal.pages.dev^
 ||secure-us.blogspot.ug^
 ||securelogin-paypal.pages.dev^
 ||security-page-community-standards.blogspot.nl^
@@ -342,6 +342,7 @@
 ||workspace.google.com^
 ||worldarabasiastarzfvote.pages.dev^
 ||www-facebook-com.vn^
+||www.amazon.de^
 ||www.es-bbva-proteccion.com^
 ||www.netflix-max.com^
 ||www.netflixbisnis.com^
