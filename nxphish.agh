@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715345726
-# Database Hash: d7eea1018f115050a21d7906b78d1d4cbc8b8111
-# Generated at: 2024-05-10 12:55:26 
+# Version: 1715346221
+# Database Hash: 8cc7f794182ca8fc22fd1ec1ff4346f67e57e20a
+# Generated at: 2024-05-10 13:03:41 
 # Expires: 1 day
-# Number of phishing domains: 160
+# Number of phishing domains: 189
 # Top 10 Abused TLDs:
-# dev: 48 (30.00%)
-# com: 18 (11.25%)
-# app: 11 (6.88%)
-# id: 5 (3.12%)
-# io: 4 (2.50%)
-# mx: 3 (1.88%)
-# ug: 3 (1.88%)
-# nl: 3 (1.88%)
-# mk: 3 (1.88%)
-# hr: 3 (1.88%)
+# dev: 61 (32.28%)
+# com: 20 (10.58%)
+# app: 10 (5.29%)
+# es: 4 (2.12%)
+# id: 4 (2.12%)
+# cc: 4 (2.12%)
+# io: 4 (2.12%)
+# mx: 3 (1.59%)
+# ug: 3 (1.59%)
+# mk: 3 (1.59%)
 
 ||0jfwyp.cc^
 ||5fgffgfgfg4g4gh4tf.blogspot.fi^
@@ -25,10 +25,15 @@
 ||5fgfgffg4g4gh4f.blogspot.com.mt^
 ||5fgfgffg4g4gh4f.blogspot.hr^
 ||5fgfgfgfg4g4gh4hfg4ff.blogspot.md^
+||adobe-pdf.pages.dev^
 ||amazon-by-aftab.netlify.app^
+||amazon-clone-aku.pages.dev^
 ||apple-clone-by-rebie.netlify.app^
+||apple-locator.live^
+||apple-map-live.com^
 ||apple-replicaevan.netlify.app^
 ||apple-suporte.us^
+||atsdata-7g9.pages.dev^
 ||barclayschat-livehelp.com^
 ||basil0303.github.io^
 ||bbvanetcash.mx9k291l.com.mx^
@@ -40,13 +45,16 @@
 ||cf-ipfs.com^
 ||ch-dcf.pages.dev^
 ||cm-privacy-acc35331.pages.dev^
+||coinbased.cc^
 ||coinbaselogiin.blogspot.co.za^
+||colnbase.info^
 ||correos-postales.com^
 ||dancing-cuchufli-0fa6f9.netlify.app^
 ||debank.group^
 ||dttjj.dgwt.my.id^
 ||emailfacebooksecurity.pages.dev^
 ||eventmlbbmykla.my.id^
+||facebook.check-protect-account.me^
 ||facebookdwr-cphagen.web.app^
 ||facebooksecuritys.blogspot.mk^
 ||facebookzaman.blogspot.ru^
@@ -55,25 +63,28 @@
 ||gbprobaixar.com^
 ||get-windows-replaced.today^
 ||google-cashincome5639.pages.dev^
+||google-cashmachine79.pages.dev^
 ||google-jobsoffer7655.pages.dev^
 ||google-jobspro89.pages.dev^
 ||google-netcashjobs75.pages.dev^
+||google-snake-game.com^
 ||google.cjysec.workers.dev^
 ||googleaccountmirror.iamsystem32.workers.dev^
-||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
+||hotmail-update.doltenokku.workers.dev^
 ||info-bancosantander-app.com^
 ||info-selengkapnya.my.id^
-||inspiress.in^
 ||instagram-beta.pages.dev^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.al^
 ||instagramprofiileurl.blogspot.am^
-||instagramprofiileurl.blogspot.co.id^
+||instagramprofiileurl.blogspot.ca^
 ||instagramprofiileurl.blogspot.co.il^
+||instagramprofiileurl.blogspot.co.nz^
 ||instagramprofiileurl.blogspot.com.ar^
 ||instagramprofiileurl.blogspot.com.br^
 ||instagramprofiileurl.blogspot.com.cy^
+||instagramprofiileurl.blogspot.com.es^
 ||instagramprofiileurl.blogspot.dk^
 ||instagramprofiileurl.blogspot.fr^
 ||instagramprofiileurl.blogspot.gr^
@@ -96,10 +107,12 @@
 ||letg.pages.dev^
 ||liveloempresa.com^
 ||login-microsoft-online.pages.dev^
+||login-microsoftonline.pages.dev^
 ||long-cake-d7d9.137952361962342.workers.dev^
 ||matatmskalogi.gitbook.io^
 ||mesgana-apple-bootstrap-ba1352.netlify.app^
 ||metamask-wallett.blogspot.al^
+||metamask-wallett.blogspot.am^
 ||metamask-wallett.blogspot.ca^
 ||metamask-wallett.blogspot.co.uk^
 ||metamask-wallett.blogspot.co.za^
@@ -112,45 +125,60 @@
 ||metamask-wallett.blogspot.kr^
 ||metamask-wallett.blogspot.mk^
 ||metamask-wallett.blogspot.mx^
-||metamask-wallett.blogspot.nl^
+||metamask-wallett.blogspot.ro^
 ||metamask-wallett.blogspot.ug^
 ||metamaskinc.blogspot.co.id^
 ||metamaskinc.blogspot.com.ar^
+||metamaskinc.blogspot.com.cy^
 ||metamaskinc.blogspot.com.ee^
-||metamaskinc.blogspot.com.eg^
 ||metamaskinc.blogspot.com.es^
+||metamaskinc.blogspot.com.ng^
 ||metamaskinc.blogspot.com.tr^
+||metamaskinc.blogspot.com.uy^
 ||metamaskinc.blogspot.cz^
+||metamaskinc.blogspot.fi^
 ||metamaskinc.blogspot.hr^
-||metamaskinc.blogspot.ie^
 ||metamaskinc.blogspot.it^
+||metamaskinc.blogspot.kr^
 ||metamaskinc.blogspot.mx^
 ||metamaskinc.blogspot.pe^
+||metamaskinc.blogspot.pt^
 ||metamaskinc.blogspot.qa^
 ||metamaskinc.blogspot.ro^
 ||metamaskinc.blogspot.se^
 ||metamaskinc.blogspot.sg^
 ||metamaskinc.blogspot.si^
+||metamaskinc.blogspot.sk^
+||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
+||metamassk.cc^
+||microsoft-identity-verification.e27a2722.workers.dev^
+||microsoftlogin.cartwild.workers.dev^
+||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
 ||mintnow-token.firebaseapp.com^
 ||multi.wallbuilders.com^
+||myoutlook-alerts0.lofeze.workers.dev^
+||netflix-clone-5iz.pages.dev^
 ||netflixshivam.freewebhostmost.com^
 ||nh-767.pages.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||partner.coinbase-company.com^
+||pagos-correos.es^
 ||piv-cfe.pages.dev^
 ||pro-apple.com.ua^
 ||pub-0eaaa730438a4bf1a9797095f3c6df45.r2.dev^
 ||pub-0fac81924c9e47b7901a9cc6d41b136a.r2.dev^
 ||pub-12861f6272e047cfb901babed2894e50.r2.dev^
+||pub-19128e0e6ecc4449a51ef13fa09d2461.r2.dev^
 ||pub-1d5cce3aab894c1b8c450f50721db295.r2.dev^
 ||pub-2f278acfc41d42c0819903bab3948030.r2.dev^
 ||pub-3424228f58ac440c9523afb01100ed68.r2.dev^
+||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
 ||pub-4b662ae020ee4ee0928f6138002cd86d.r2.dev^
 ||pub-595816ba96b7448388ff4d52d45b5f7d.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-5c6a59ee8a3141be848f9a149167372d.r2.dev^
+||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-6c6ce0d327844326bc4055623adb85e8.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-72d4774846a0494280cc10c46929fc35.r2.dev^
@@ -158,15 +186,14 @@
 ||pub-867982fc061e46f293e0759a4cd22332.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-98541f49ee314e03bcb424fb3e890430.r2.dev^
-||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
 ||pub-9e8a613363a14ab49d7caca3c14df7ea.r2.dev^
 ||pub-ab14372d3fe44c7ba3fe5fac42404ccb.r2.dev^
 ||pub-b0f936fe362a4487b29420eb40888ed1.r2.dev^
 ||pub-b973b52f3ca042758dd8f0d91b423918.r2.dev^
 ||pub-ec526bef8b544fe7ade8fe8050bcaf1c.r2.dev^
+||pub-fc51d290db584b328d6feb3913c634a1.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
-||secure-paypal.pages.dev^
 ||securelogin-paypal.pages.dev^
 ||sharulislam2097.github.io^
 ||spotify-clone31.netlify.app^
@@ -174,6 +201,8 @@
 ||support-login-apple.com^
 ||urlz.fr^
 ||verify-office-outlook.com^
+||wellsfargos.info^
 ||wmsb.cc^
+||www.es-bbva-proteccion.com^
 ||www.netflix-max.com^
 ||www.netflixbisnis.com^
