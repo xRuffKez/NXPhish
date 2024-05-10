@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715314507
-# Database Hash: 5560872b9c6bfd18a8de13fd27336287e31ca1d7
-# Generated at: 2024-05-10 04:15:07 
+# Version: 1715315157
+# Database Hash: e8bb6a4ae3ae6b41df1422519c9f5aba4593c4a8
+# Generated at: 2024-05-10 04:25:57 
 # Expires: 1 day
-# Number of phishing domains: 332
+# Number of phishing domains: 330
 # Top 10 Abused TLDs:
-# dev: 124 (37.35%)
-# com: 42 (12.65%)
-# app: 11 (3.31%)
-# io: 6 (1.81%)
-# link: 6 (1.81%)
-# hr: 5 (1.51%)
-# top: 5 (1.51%)
-# ug: 4 (1.20%)
-# lu: 4 (1.20%)
-# mk: 4 (1.20%)
+# dev: 124 (37.58%)
+# com: 42 (12.73%)
+# app: 11 (3.33%)
+# io: 6 (1.82%)
+# link: 6 (1.82%)
+# hr: 5 (1.52%)
+# ug: 4 (1.21%)
+# lu: 4 (1.21%)
+# mk: 4 (1.21%)
+# id: 4 (1.21%)
 
 ||5b1kard-44.pages.dev^
 ||5b1kard-45.pages.dev^
@@ -318,8 +318,6 @@
 ||thailan-19.blogspot.md^
 ||thewillislawgroup-pdf.pages.dev^
 ||timo-partners-api.pages.dev^
-||tok2npo2kgt.top^
-||tokedp0cket.top^
 ||tokenpahket.com^
 ||tokenpbbket.com^
 ||uaifws82yxnmxjho8egsl1t4c4ovu3jqwh4twmaey62mhj8czvtau1.pages.dev^
