@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715353345
-# Database Hash: 575e5c4a17ed025f7c54504c05c98f1f9cd775ae
-# Generated at: 2024-05-10 15:02:25 
+# Version: 1715354126
+# Database Hash: b10690ddf0786cb782e4337eb5faf555a16e713b
+# Generated at: 2024-05-10 15:15:26 
 # Expires: 1 day
-# Number of phishing domains: 189
+# Number of phishing domains: 254
 # Top 10 Abused TLDs:
-# dev: 61 (32.28%)
-# com: 20 (10.58%)
-# app: 10 (5.29%)
-# es: 4 (2.12%)
-# id: 4 (2.12%)
-# cc: 4 (2.12%)
-# io: 4 (2.12%)
-# mx: 3 (1.59%)
-# ug: 3 (1.59%)
-# mk: 3 (1.59%)
+# dev: 82 (32.28%)
+# com: 29 (11.42%)
+# app: 13 (5.12%)
+# id: 5 (1.97%)
+# es: 4 (1.57%)
+# cc: 4 (1.57%)
+# io: 4 (1.57%)
+# cy: 3 (1.18%)
+# mx: 3 (1.18%)
+# ug: 3 (1.18%)
 
 ||0jfwyp.cc^
 ||5fgffgfgfg4g4gh4tf.blogspot.fi^
@@ -28,11 +28,16 @@
 ||adobe-pdf.pages.dev^
 ||amazon-by-aftab.netlify.app^
 ||amazon-clone-aku.pages.dev^
+||amazon-cloneapp-html-css.netlify.app^
+||amazonyogesh.pages.dev^
 ||apple-clone-by-rebie.netlify.app^
+||apple-find-connect.com^
+||apple-home-page-in-bootstrap.netlify.app^
 ||apple-locator.live^
 ||apple-map-live.com^
 ||apple-replicaevan.netlify.app^
 ||apple-suporte.us^
+||apply-juggle.pages.dev^
 ||atsdata-7g9.pages.dev^
 ||barclayschat-livehelp.com^
 ||basil0303.github.io^
@@ -45,6 +50,7 @@
 ||cf-ipfs.com^
 ||ch-dcf.pages.dev^
 ||cm-privacy-acc35331.pages.dev^
+||coinbase-assets.com^
 ||coinbased.cc^
 ||coinbaselogiin.blogspot.co.za^
 ||colnbase.info^
@@ -52,11 +58,15 @@
 ||dancing-cuchufli-0fa6f9.netlify.app^
 ||debank.group^
 ||dttjj.dgwt.my.id^
+||elqanas-netflix-clone.firebaseapp.com^
 ||emailfacebooksecurity.pages.dev^
 ||eventmlbbmykla.my.id^
 ||facebook.check-protect-account.me^
+||facebookconnect.pages.dev^
 ||facebookdwr-cphagen.web.app^
 ||facebooksecuritys.blogspot.mk^
+||facebooksecuritys.blogspot.ro^
+||facebookzaman.blogspot.com^
 ||facebookzaman.blogspot.ru^
 ||filex2project.pages.dev^
 ||fiveyearswiisonline90.web.app^
@@ -65,38 +75,58 @@
 ||google-cashincome5639.pages.dev^
 ||google-cashmachine79.pages.dev^
 ||google-jobsoffer7655.pages.dev^
+||google-jobsoffer78005.pages.dev^
 ||google-jobspro89.pages.dev^
 ||google-netcashjobs75.pages.dev^
 ||google-snake-game.com^
 ||google.cjysec.workers.dev^
 ||googleaccountmirror.iamsystem32.workers.dev^
+||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
+||hotmail-alerts.chelsie15.workers.dev^
+||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||hotmail-update.doltenokku.workers.dev^
+||hotmailupdated.pages.dev^
 ||info-bancosantander-app.com^
 ||info-selengkapnya.my.id^
+||inspiress.in^
 ||instagram-beta.pages.dev^
+||instagram.tg^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.al^
 ||instagramprofiileurl.blogspot.am^
+||instagramprofiileurl.blogspot.bg^
 ||instagramprofiileurl.blogspot.ca^
+||instagramprofiileurl.blogspot.co.at^
+||instagramprofiileurl.blogspot.co.id^
 ||instagramprofiileurl.blogspot.co.il^
 ||instagramprofiileurl.blogspot.co.nz^
+||instagramprofiileurl.blogspot.co.uk^
+||instagramprofiileurl.blogspot.co.za^
+||instagramprofiileurl.blogspot.com^
 ||instagramprofiileurl.blogspot.com.ar^
 ||instagramprofiileurl.blogspot.com.br^
 ||instagramprofiileurl.blogspot.com.cy^
 ||instagramprofiileurl.blogspot.com.es^
+||instagramprofiileurl.blogspot.com.ng^
+||instagramprofiileurl.blogspot.cz^
 ||instagramprofiileurl.blogspot.dk^
+||instagramprofiileurl.blogspot.fi^
 ||instagramprofiileurl.blogspot.fr^
 ||instagramprofiileurl.blogspot.gr^
 ||instagramprofiileurl.blogspot.hk^
 ||instagramprofiileurl.blogspot.hu^
 ||instagramprofiileurl.blogspot.in^
+||instagramprofiileurl.blogspot.is^
 ||instagramprofiileurl.blogspot.it^
+||instagramprofiileurl.blogspot.li^
 ||instagramprofiileurl.blogspot.lu^
 ||instagramprofiileurl.blogspot.mk^
 ||instagramprofiileurl.blogspot.nl^
+||instagramprofiileurl.blogspot.pe^
 ||instagramprofiileurl.blogspot.pt^
 ||instagramprofiileurl.blogspot.qa^
+||instagramprofiileurl.blogspot.rs^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.sg^
 ||instagramprofiileurl.blogspot.ug^
@@ -109,37 +139,53 @@
 ||login-microsoft-online.pages.dev^
 ||login-microsoftonline.pages.dev^
 ||long-cake-d7d9.137952361962342.workers.dev^
+||mail3.goggle.workers.dev^
 ||matatmskalogi.gitbook.io^
 ||mesgana-apple-bootstrap-ba1352.netlify.app^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.am^
+||metamask-wallett.blogspot.ba^
 ||metamask-wallett.blogspot.ca^
+||metamask-wallett.blogspot.ch^
 ||metamask-wallett.blogspot.co.uk^
 ||metamask-wallett.blogspot.co.za^
 ||metamask-wallett.blogspot.com.br^
 ||metamask-wallett.blogspot.com.co^
+||metamask-wallett.blogspot.com.cy^
 ||metamask-wallett.blogspot.com.ee^
+||metamask-wallett.blogspot.com.mt^
+||metamask-wallett.blogspot.dk^
 ||metamask-wallett.blogspot.hk^
 ||metamask-wallett.blogspot.hr^
 ||metamask-wallett.blogspot.is^
 ||metamask-wallett.blogspot.kr^
 ||metamask-wallett.blogspot.mk^
 ||metamask-wallett.blogspot.mx^
+||metamask-wallett.blogspot.nl^
 ||metamask-wallett.blogspot.ro^
 ||metamask-wallett.blogspot.ug^
+||metamaskinc.blogspot.ch^
+||metamaskinc.blogspot.co.at^
 ||metamaskinc.blogspot.co.id^
 ||metamaskinc.blogspot.com.ar^
+||metamaskinc.blogspot.com.co^
 ||metamaskinc.blogspot.com.cy^
 ||metamaskinc.blogspot.com.ee^
+||metamaskinc.blogspot.com.eg^
 ||metamaskinc.blogspot.com.es^
 ||metamaskinc.blogspot.com.ng^
 ||metamaskinc.blogspot.com.tr^
 ||metamaskinc.blogspot.com.uy^
 ||metamaskinc.blogspot.cz^
+||metamaskinc.blogspot.dk^
 ||metamaskinc.blogspot.fi^
 ||metamaskinc.blogspot.hr^
+||metamaskinc.blogspot.hu^
+||metamaskinc.blogspot.ie^
 ||metamaskinc.blogspot.it^
 ||metamaskinc.blogspot.kr^
+||metamaskinc.blogspot.lt^
+||metamaskinc.blogspot.lu^
 ||metamaskinc.blogspot.mx^
 ||metamaskinc.blogspot.pe^
 ||metamaskinc.blogspot.pt^
@@ -151,7 +197,9 @@
 ||metamaskinc.blogspot.sk^
 ||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
+||metamasks.world^
 ||metamassk.cc^
+||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoft-identity-verification.e27a2722.workers.dev^
 ||microsoftlogin.cartwild.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
@@ -159,15 +207,24 @@
 ||multi.wallbuilders.com^
 ||myoutlook-alerts0.lofeze.workers.dev^
 ||netflix-clone-5iz.pages.dev^
+||netflix-clone-dvp.pages.dev^
+||netflix-dj7.pages.dev^
+||netflixs-job.com^
+||netflixs-task.com^
 ||netflixshivam.freewebhostmost.com^
 ||nh-767.pages.dev^
+||office365-b8f.pages.dev^
+||onedrive.microsoftlive1.workers.dev^
+||outlook-server.gorkakirtu.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||pagos-correos.es^
+||partner.coinbase-company.com^
 ||piv-cfe.pages.dev^
 ||pro-apple.com.ua^
 ||pub-0eaaa730438a4bf1a9797095f3c6df45.r2.dev^
 ||pub-0fac81924c9e47b7901a9cc6d41b136a.r2.dev^
+||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-12861f6272e047cfb901babed2894e50.r2.dev^
 ||pub-19128e0e6ecc4449a51ef13fa09d2461.r2.dev^
 ||pub-1d5cce3aab894c1b8c450f50721db295.r2.dev^
@@ -186,14 +243,19 @@
 ||pub-867982fc061e46f293e0759a4cd22332.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-98541f49ee314e03bcb424fb3e890430.r2.dev^
+||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
 ||pub-9e8a613363a14ab49d7caca3c14df7ea.r2.dev^
 ||pub-ab14372d3fe44c7ba3fe5fac42404ccb.r2.dev^
 ||pub-b0f936fe362a4487b29420eb40888ed1.r2.dev^
 ||pub-b973b52f3ca042758dd8f0d91b423918.r2.dev^
+||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
+||pub-ce4daca59fec4ff89813fe37e7e03938.r2.dev^
 ||pub-ec526bef8b544fe7ade8fe8050bcaf1c.r2.dev^
 ||pub-fc51d290db584b328d6feb3913c634a1.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
+||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
+||secure-paypal.pages.dev^
 ||securelogin-paypal.pages.dev^
 ||sharulislam2097.github.io^
 ||spotify-clone31.netlify.app^
@@ -203,6 +265,9 @@
 ||verify-office-outlook.com^
 ||wellsfargos.info^
 ||wmsb.cc^
+||worker-outlook-1bdc.vaheli5766.workers.dev^
+||workspace.google.com^
+||www-facebook-com.vn^
 ||www.es-bbva-proteccion.com^
 ||www.netflix-max.com^
 ||www.netflixbisnis.com^
