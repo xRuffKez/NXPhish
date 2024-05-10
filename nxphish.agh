@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715330511
-# Database Hash: f107c796208d98887fa34ba7dd525002811babb3
-# Generated at: 2024-05-10 08:41:51 
+# Version: 1715331143
+# Database Hash: 1302a8919595bc56bb0e35e00008743c6571196f
+# Generated at: 2024-05-10 08:52:23 
 # Expires: 1 day
-# Number of phishing domains: 327
+# Number of phishing domains: 319
 # Top 10 Abused TLDs:
-# dev: 123 (37.61%)
-# com: 36 (11.01%)
-# app: 14 (4.28%)
-# io: 6 (1.83%)
-# link: 6 (1.83%)
-# hr: 5 (1.53%)
-# ug: 4 (1.22%)
-# nl: 4 (1.22%)
-# mk: 4 (1.22%)
-# za: 4 (1.22%)
+# dev: 119 (37.30%)
+# com: 35 (10.97%)
+# app: 14 (4.39%)
+# io: 6 (1.88%)
+# link: 6 (1.88%)
+# hr: 5 (1.57%)
+# ug: 4 (1.25%)
+# nl: 4 (1.25%)
+# mk: 4 (1.25%)
+# za: 4 (1.25%)
 
 ||5b1kard-44.pages.dev^
 ||5b1kard-45.pages.dev^
@@ -59,7 +59,6 @@
 ||apple-find-connect.com^
 ||apple-home-page-in-bootstrap.netlify.app^
 ||apple-locator.live^
-||apple-map-live.com^
 ||apple-replicaevan.netlify.app^
 ||apple-suporte.us^
 ||apply-juggle.pages.dev^
@@ -89,7 +88,6 @@
 ||chink.pages.dev^
 ||client-asistanceflive-3fijq.web.app^
 ||coinbase-assets.com^
-||coinbased.cc^
 ||coinbaselogiin.blogspot.co.za^
 ||colnbase.info^
 ||community-standards-1006436512.firebaseapp.com^
@@ -102,7 +100,6 @@
 ||elqanas-netflix-clone.firebaseapp.com^
 ||emailfacebooksecurity.pages.dev^
 ||f1v68nc2ip.olf.my.id^
-||facebook.check-protect-account.me^
 ||facebookconnect.pages.dev^
 ||facebookdwr-cphagen.web.app^
 ||facebooksecuritys.blogspot.com.by^
@@ -138,7 +135,6 @@
 ||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
-||hotmail-update.doltenokku.workers.dev^
 ||hotmailupdated.pages.dev^
 ||hotupmai-ape.ynlklupxdal.workers.dev^
 ||id.chat-datting.workers.dev^
@@ -231,7 +227,6 @@
 ||metamaskinc.blogspot.com.es^
 ||metamaskinc.blogspot.com.ng^
 ||metamaskinc.blogspot.com.tr^
-||metamaskinc.blogspot.com.uy^
 ||metamaskinc.blogspot.cz^
 ||metamaskinc.blogspot.dk^
 ||metamaskinc.blogspot.hr^
@@ -257,10 +252,8 @@
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoft-identity-verification.e27a2722.workers.dev^
 ||microsoftlogin.cartwild.workers.dev^
-||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
 ||motamaaskelogon.gitbook.io^
 ||myoutlook-alerts0.lofeze.workers.dev^
-||netflix-clone-5iz.pages.dev^
 ||netflix-clone-dvp.pages.dev^
 ||netflix-dj7.pages.dev^
 ||netflixs-job.com^
@@ -281,7 +274,6 @@
 ||priyankasandokar1606.github.io^
 ||pro-apple.com.ua^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
-||pub-19128e0e6ecc4449a51ef13fa09d2461.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
