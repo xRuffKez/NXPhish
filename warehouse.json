@@ -2476,7 +2476,7 @@
         "first_seen": 1715323278,
         "last_seen": 1715353317,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715345708,
+        "dns_check_date": 1715353331,
         "whitelisted": 0
     },
     {
@@ -2484,7 +2484,7 @@
         "first_seen": 1715323278,
         "last_seen": 1715353317,
         "dns_status": "OK",
-        "dns_check_date": 1715345708,
+        "dns_check_date": 1715353331,
         "whitelisted": 0
     },
     {
@@ -2492,7 +2492,7 @@
         "first_seen": 1715323278,
         "last_seen": 1715353317,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715345708,
+        "dns_check_date": 1715353331,
         "whitelisted": 0
     },
     {
@@ -3219,16 +3219,16 @@
         "domain": "appleid.apple.com",
         "first_seen": 1715353317,
         "last_seen": 1715353317,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715353331,
         "whitelisted": 0
     },
     {
         "domain": "apple-partner-portal-myaccess.com",
         "first_seen": 1715353317,
         "last_seen": 1715353317,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715353331,
         "whitelisted": 0
     }
 ]
