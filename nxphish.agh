@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715307022
-# Database Hash: 86aa529b640e0f958a001af5e0468a4ba563703a
-# Generated at: 2024-05-10 02:10:22 
+# Version: 1715307811
+# Database Hash: 0bb5f32d0901edaccebf0c0930f031b9b745532a
+# Generated at: 2024-05-10 02:23:31 
 # Expires: 1 day
-# Number of phishing domains: 333
+# Number of phishing domains: 331
 # Top 10 Abused TLDs:
-# dev: 123 (36.94%)
-# com: 38 (11.41%)
-# app: 12 (3.60%)
-# io: 6 (1.80%)
-# link: 6 (1.80%)
-# hr: 5 (1.50%)
-# top: 5 (1.50%)
-# ug: 4 (1.20%)
-# lu: 4 (1.20%)
-# mk: 4 (1.20%)
+# dev: 123 (37.16%)
+# com: 38 (11.48%)
+# app: 12 (3.63%)
+# io: 6 (1.81%)
+# link: 6 (1.81%)
+# hr: 5 (1.51%)
+# top: 5 (1.51%)
+# ug: 4 (1.21%)
+# lu: 4 (1.21%)
+# mk: 4 (1.21%)
 
 ||5b1kard-44.pages.dev^
 ||5b1kard-45.pages.dev^
@@ -260,7 +260,6 @@
 ||microsoftlogin.cartwild.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
 ||motamaaskelogon.gitbook.io^
-||moviexn18plus.viral-girlhub.click^
 ||myoutlook-alerts0.lofeze.workers.dev^
 ||netflix-clone-5iz.pages.dev^
 ||netflix-clone-dvp.pages.dev^
@@ -276,7 +275,6 @@
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||p551001.com^
-||p8jk6.shop^
 ||pdfviewer-3ks.pages.dev^
 ||piv-cfe.pages.dev^
 ||pritanjan.github.io^
