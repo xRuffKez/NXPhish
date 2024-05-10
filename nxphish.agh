@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715323311
-# Database Hash: 31a196ac8397ca1174f6d949154709c0e4927eac
-# Generated at: 2024-05-10 06:41:51 
+# Version: 1715323951
+# Database Hash: 60718058dbe861000470b36d982f2c0191c4d8be
+# Generated at: 2024-05-10 06:52:31 
 # Expires: 1 day
-# Number of phishing domains: 338
+# Number of phishing domains: 327
 # Top 10 Abused TLDs:
-# dev: 125 (36.98%)
-# com: 38 (11.24%)
-# app: 14 (4.14%)
-# io: 6 (1.78%)
-# link: 6 (1.78%)
-# hr: 5 (1.48%)
-# ug: 4 (1.18%)
-# nl: 4 (1.18%)
-# mk: 4 (1.18%)
-# za: 4 (1.18%)
+# dev: 123 (37.61%)
+# com: 36 (11.01%)
+# app: 14 (4.28%)
+# io: 6 (1.83%)
+# link: 6 (1.83%)
+# hr: 5 (1.53%)
+# ug: 4 (1.22%)
+# nl: 4 (1.22%)
+# mk: 4 (1.22%)
+# za: 4 (1.22%)
 
 ||5b1kard-44.pages.dev^
 ||5b1kard-45.pages.dev^
@@ -43,7 +43,6 @@
 ||76gogoneww.blogspot.com^
 ||76gogoneww.blogspot.mk^
 ||admin.hasod.icu^
-||adobe-pdf.pages.dev^
 ||adultgames-d56.pages.dev^
 ||airdrop-manta-26e.pages.dev^
 ||aiwebbyvotettytryr6.pages.dev^
@@ -64,7 +63,6 @@
 ||apple-replicaevan.netlify.app^
 ||apple-suporte.us^
 ||apply-juggle.pages.dev^
-||atsdata-7g9.pages.dev^
 ||autumn-bush-a03b.joelcullins9577.workers.dev^
 ||bafybeiaj4jz6rnrwy6pkerlmoqykz7s5tsf64p3svl5tpwijlh7hqxdagy.ipfs.cf-ipfs.com^
 ||bafybeibiih2mlglsyxe5tdvx6zjg2fyh4tcpmhsfq6iptksuqk6zfotfla.ipfs.w3s.link^
@@ -131,7 +129,6 @@
 ||google-jobsoffer78005.pages.dev^
 ||google-jobspro89.pages.dev^
 ||google-netcashjobs75.pages.dev^
-||google-snake-game.com^
 ||google.cjysec.workers.dev^
 ||googleaccountmirror.iamsystem32.workers.dev^
 ||hello-world-crimson-smoke-e85b.kencothren.workers.dev^
@@ -155,7 +152,6 @@
 ||instagramprofiileurl.blogspot.al^
 ||instagramprofiileurl.blogspot.am^
 ||instagramprofiileurl.blogspot.bg^
-||instagramprofiileurl.blogspot.ca^
 ||instagramprofiileurl.blogspot.co.at^
 ||instagramprofiileurl.blogspot.co.id^
 ||instagramprofiileurl.blogspot.co.il^
@@ -238,12 +234,10 @@
 ||metamaskinc.blogspot.com.uy^
 ||metamaskinc.blogspot.cz^
 ||metamaskinc.blogspot.dk^
-||metamaskinc.blogspot.fi^
 ||metamaskinc.blogspot.hr^
 ||metamaskinc.blogspot.hu^
 ||metamaskinc.blogspot.ie^
 ||metamaskinc.blogspot.it^
-||metamaskinc.blogspot.kr^
 ||metamaskinc.blogspot.lt^
 ||metamaskinc.blogspot.lu^
 ||metamaskinc.blogspot.mx^
@@ -255,10 +249,8 @@
 ||metamaskinc.blogspot.sg^
 ||metamaskinc.blogspot.si^
 ||metamaskinc.blogspot.sk^
-||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
 ||metamasks.world^
-||metamassk.cc^
 ||metamasskluginn.blogspot.bg^
 ||metamasskluginn.blogspot.hr^
 ||metamawsksextension.gitbook.io^
@@ -282,7 +274,6 @@
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||p551001.com^
-||pagos-correos.es^
 ||partner.coinbase-company.com^
 ||pdfviewer-3ks.pages.dev^
 ||piv-cfe.pages.dev^
@@ -336,7 +327,6 @@
 ||verif-sher.uieevdg.workers.dev^
 ||verify-office-outlook.com^
 ||visitorbookdetails001582.com^
-||wellsfargos.info^
 ||wert-e8j.pages.dev^
 ||wisexpert.pages.dev^
 ||worker-calm-base-ca0a.talkkwithterry.workers.dev^
@@ -352,6 +342,5 @@
 ||www.es-bbva-proteccion.com^
 ||www.netflix-max.com^
 ||www.netflixbisnis.com^
-||wwwbbvanetcash.ingreso-online343.com^
 ||young-art-b696.nguyenchong9455.workers.dev^
 ||z1gv9.shop^
