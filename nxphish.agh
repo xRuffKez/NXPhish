@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715383388
-# Database Hash: 06101bd554f9ca0988836de2cad1bee7d015be0c
-# Generated at: 2024-05-10 23:23:08 
+# Version: 1715383932
+# Database Hash: 1127bbea0a3bdb6bb0dab4c31088bf3daebe5fa1
+# Generated at: 2024-05-10 23:32:12 
 # Expires: 1 day
-# Number of phishing domains: 233
+# Number of phishing domains: 247
 # Top 10 Abused TLDs:
-# dev: 80 (34.33%)
-# com: 26 (11.16%)
-# app: 11 (4.72%)
-# id: 5 (2.15%)
-# es: 4 (1.72%)
-# io: 4 (1.72%)
-# mx: 3 (1.29%)
-# ug: 3 (1.29%)
-# nl: 3 (1.29%)
-# mk: 3 (1.29%)
+# dev: 82 (33.20%)
+# com: 28 (11.34%)
+# app: 11 (4.45%)
+# id: 5 (2.02%)
+# es: 4 (1.62%)
+# io: 4 (1.62%)
+# cy: 3 (1.21%)
+# mx: 3 (1.21%)
+# ug: 3 (1.21%)
+# nl: 3 (1.21%)
 
 ||5fgffgfgfg4g4gh4tf.blogspot.fi^
 ||5fgffggfgfg4g4h45.blogspot.co.ke^
@@ -32,8 +32,10 @@
 ||apple-clone-by-rebie.netlify.app^
 ||apple-find-connect.com^
 ||apple-home-page-in-bootstrap.netlify.app^
+||apple-locator.live^
 ||apple-map-live.com^
 ||apple-replicaevan.netlify.app^
+||apple-suporte.us^
 ||apply-juggle.pages.dev^
 ||atsdata-7g9.pages.dev^
 ||barclayschat-livehelp.com^
@@ -75,6 +77,7 @@
 ||google-netcashjobs75.pages.dev^
 ||google-snake-game.com^
 ||google.cjysec.workers.dev^
+||googleaccountmirror.iamsystem32.workers.dev^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
@@ -92,6 +95,7 @@
 ||instagramprofiileurl.blogspot.ca^
 ||instagramprofiileurl.blogspot.co.at^
 ||instagramprofiileurl.blogspot.co.id^
+||instagramprofiileurl.blogspot.co.il^
 ||instagramprofiileurl.blogspot.co.nz^
 ||instagramprofiileurl.blogspot.co.uk^
 ||instagramprofiileurl.blogspot.co.za^
@@ -106,6 +110,7 @@
 ||instagramprofiileurl.blogspot.fi^
 ||instagramprofiileurl.blogspot.fr^
 ||instagramprofiileurl.blogspot.gr^
+||instagramprofiileurl.blogspot.hk^
 ||instagramprofiileurl.blogspot.hu^
 ||instagramprofiileurl.blogspot.in^
 ||instagramprofiileurl.blogspot.is^
@@ -138,7 +143,9 @@
 ||metamask-wallett.blogspot.ca^
 ||metamask-wallett.blogspot.ch^
 ||metamask-wallett.blogspot.co.uk^
+||metamask-wallett.blogspot.co.za^
 ||metamask-wallett.blogspot.com.br^
+||metamask-wallett.blogspot.com.co^
 ||metamask-wallett.blogspot.com.cy^
 ||metamask-wallett.blogspot.com.ee^
 ||metamask-wallett.blogspot.com.mt^
@@ -150,15 +157,18 @@
 ||metamask-wallett.blogspot.mk^
 ||metamask-wallett.blogspot.mx^
 ||metamask-wallett.blogspot.nl^
+||metamask-wallett.blogspot.ro^
 ||metamask-wallett.blogspot.ug^
 ||metamaskinc.blogspot.ch^
 ||metamaskinc.blogspot.co.at^
 ||metamaskinc.blogspot.co.id^
 ||metamaskinc.blogspot.com.ar^
 ||metamaskinc.blogspot.com.co^
+||metamaskinc.blogspot.com.cy^
 ||metamaskinc.blogspot.com.ee^
 ||metamaskinc.blogspot.com.eg^
 ||metamaskinc.blogspot.com.es^
+||metamaskinc.blogspot.com.ng^
 ||metamaskinc.blogspot.com.tr^
 ||metamaskinc.blogspot.com.uy^
 ||metamaskinc.blogspot.cz^
@@ -179,6 +189,7 @@
 ||metamaskinc.blogspot.se^
 ||metamaskinc.blogspot.sg^
 ||metamaskinc.blogspot.si^
+||metamaskinc.blogspot.sk^
 ||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
 ||metamasks.world^
@@ -239,14 +250,17 @@
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||secure-paypal.pages.dev^
+||securelogin-paypal.pages.dev^
 ||sharulislam2097.github.io^
 ||spotify-clone31.netlify.app^
 ||steamcomnunlilty.com^
 ||support-login-apple.com^
 ||urlz.fr^
+||verify-office-outlook.com^
 ||wellsfargos.info^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||workspace.google.com^
 ||www-facebook-com.vn^
+||www.es-bbva-proteccion.com^
 ||www.netflix-max.com^
 ||www.netflixbisnis.com^
