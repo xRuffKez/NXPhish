@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715360564
-# Database Hash: f7108f3460737121a80d1e28d1e2271215fc1f58
-# Generated at: 2024-05-10 17:02:44 
+# Version: 1715361335
+# Database Hash: c8ca47d7b5450c820d6ffb3a60258ced98163e93
+# Generated at: 2024-05-10 17:15:35 
 # Expires: 1 day
-# Number of phishing domains: 254
+# Number of phishing domains: 237
 # Top 10 Abused TLDs:
-# dev: 82 (32.28%)
-# com: 29 (11.42%)
-# app: 13 (5.12%)
-# id: 5 (1.97%)
-# es: 4 (1.57%)
-# cc: 4 (1.57%)
-# io: 4 (1.57%)
-# cy: 3 (1.18%)
-# mx: 3 (1.18%)
-# ug: 3 (1.18%)
+# dev: 77 (32.49%)
+# com: 27 (11.39%)
+# app: 13 (5.49%)
+# id: 5 (2.11%)
+# io: 4 (1.69%)
+# cy: 3 (1.27%)
+# mx: 3 (1.27%)
+# ug: 3 (1.27%)
+# es: 3 (1.27%)
+# nl: 3 (1.27%)
 
 ||0jfwyp.cc^
 ||5fgffgfgfg4g4gh4tf.blogspot.fi^
@@ -25,7 +25,6 @@
 ||5fgfgffg4g4gh4f.blogspot.com.mt^
 ||5fgfgffg4g4gh4f.blogspot.hr^
 ||5fgfgfgfg4g4gh4hfg4ff.blogspot.md^
-||adobe-pdf.pages.dev^
 ||amazon-by-aftab.netlify.app^
 ||amazon-clone-aku.pages.dev^
 ||amazon-cloneapp-html-css.netlify.app^
@@ -34,11 +33,9 @@
 ||apple-find-connect.com^
 ||apple-home-page-in-bootstrap.netlify.app^
 ||apple-locator.live^
-||apple-map-live.com^
 ||apple-replicaevan.netlify.app^
 ||apple-suporte.us^
 ||apply-juggle.pages.dev^
-||atsdata-7g9.pages.dev^
 ||barclayschat-livehelp.com^
 ||basil0303.github.io^
 ||bbvanetcash.mx9k291l.com.mx^
@@ -51,7 +48,6 @@
 ||ch-dcf.pages.dev^
 ||cm-privacy-acc35331.pages.dev^
 ||coinbase-assets.com^
-||coinbased.cc^
 ||coinbaselogiin.blogspot.co.za^
 ||colnbase.info^
 ||correos-postales.com^
@@ -61,7 +57,6 @@
 ||elqanas-netflix-clone.firebaseapp.com^
 ||emailfacebooksecurity.pages.dev^
 ||eventmlbbmykla.my.id^
-||facebook.check-protect-account.me^
 ||facebookconnect.pages.dev^
 ||facebookdwr-cphagen.web.app^
 ||facebooksecuritys.blogspot.mk^
@@ -78,14 +73,12 @@
 ||google-jobsoffer78005.pages.dev^
 ||google-jobspro89.pages.dev^
 ||google-netcashjobs75.pages.dev^
-||google-snake-game.com^
 ||google.cjysec.workers.dev^
 ||googleaccountmirror.iamsystem32.workers.dev^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
-||hotmail-update.doltenokku.workers.dev^
 ||hotmailupdated.pages.dev^
 ||info-bancosantander-app.com^
 ||info-selengkapnya.my.id^
@@ -96,7 +89,6 @@
 ||instagramprofiileurl.blogspot.al^
 ||instagramprofiileurl.blogspot.am^
 ||instagramprofiileurl.blogspot.bg^
-||instagramprofiileurl.blogspot.ca^
 ||instagramprofiileurl.blogspot.co.at^
 ||instagramprofiileurl.blogspot.co.id^
 ||instagramprofiileurl.blogspot.co.il^
@@ -175,15 +167,12 @@
 ||metamaskinc.blogspot.com.es^
 ||metamaskinc.blogspot.com.ng^
 ||metamaskinc.blogspot.com.tr^
-||metamaskinc.blogspot.com.uy^
 ||metamaskinc.blogspot.cz^
 ||metamaskinc.blogspot.dk^
-||metamaskinc.blogspot.fi^
 ||metamaskinc.blogspot.hr^
 ||metamaskinc.blogspot.hu^
 ||metamaskinc.blogspot.ie^
 ||metamaskinc.blogspot.it^
-||metamaskinc.blogspot.kr^
 ||metamaskinc.blogspot.lt^
 ||metamaskinc.blogspot.lu^
 ||metamaskinc.blogspot.mx^
@@ -195,14 +184,11 @@
 ||metamaskinc.blogspot.sg^
 ||metamaskinc.blogspot.si^
 ||metamaskinc.blogspot.sk^
-||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
 ||metamasks.world^
-||metamassk.cc^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoft-identity-verification.e27a2722.workers.dev^
 ||microsoftlogin.cartwild.workers.dev^
-||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
 ||mintnow-token.firebaseapp.com^
 ||multi.wallbuilders.com^
 ||myoutlook-alerts0.lofeze.workers.dev^
@@ -218,7 +204,6 @@
 ||outlook-server.gorkakirtu.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||pagos-correos.es^
 ||partner.coinbase-company.com^
 ||piv-cfe.pages.dev^
 ||pro-apple.com.ua^
@@ -226,7 +211,6 @@
 ||pub-0fac81924c9e47b7901a9cc6d41b136a.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-12861f6272e047cfb901babed2894e50.r2.dev^
-||pub-19128e0e6ecc4449a51ef13fa09d2461.r2.dev^
 ||pub-1d5cce3aab894c1b8c450f50721db295.r2.dev^
 ||pub-2f278acfc41d42c0819903bab3948030.r2.dev^
 ||pub-3424228f58ac440c9523afb01100ed68.r2.dev^
@@ -263,7 +247,6 @@
 ||support-login-apple.com^
 ||urlz.fr^
 ||verify-office-outlook.com^
-||wellsfargos.info^
 ||wmsb.cc^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||workspace.google.com^
