@@ -1,23 +1,22 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715364149
-# Database Hash: 5fd1751060dde62b6c2cdc39a64bb343349de5de
-# Generated at: 2024-05-10 18:02:29 
+# Version: 1715364934
+# Database Hash: db8e0fcb7109f9f655b918ba450d3c1314f52791
+# Generated at: 2024-05-10 18:15:34 
 # Expires: 1 day
-# Number of phishing domains: 237
+# Number of phishing domains: 234
 # Top 10 Abused TLDs:
-# dev: 77 (32.49%)
-# com: 27 (11.39%)
-# app: 13 (5.49%)
-# id: 5 (2.11%)
-# io: 4 (1.69%)
-# cy: 3 (1.27%)
-# mx: 3 (1.27%)
-# ug: 3 (1.27%)
-# es: 3 (1.27%)
-# nl: 3 (1.27%)
+# dev: 77 (32.91%)
+# com: 27 (11.54%)
+# app: 12 (5.13%)
+# id: 5 (2.14%)
+# io: 4 (1.71%)
+# cy: 3 (1.28%)
+# mx: 3 (1.28%)
+# ug: 3 (1.28%)
+# es: 3 (1.28%)
+# nl: 3 (1.28%)
 
-||0jfwyp.cc^
 ||5fgffgfgfg4g4gh4tf.blogspot.fi^
 ||5fgffggfgfg4g4h45.blogspot.co.ke^
 ||5fgffggfgfg4g4h45.blogspot.com^
@@ -43,7 +42,6 @@
 ||binancle-us.us^
 ||bireysel-garantbbvai.com^
 ||bitly.cx^
-||case1202.app^
 ||cf-ipfs.com^
 ||ch-dcf.pages.dev^
 ||cm-privacy-acc35331.pages.dev^
@@ -247,7 +245,6 @@
 ||support-login-apple.com^
 ||urlz.fr^
 ||verify-office-outlook.com^
-||wmsb.cc^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||workspace.google.com^
 ||www-facebook-com.vn^
