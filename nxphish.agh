@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715299639
-# Database Hash: b33ebdb447465fd588def838254186abe6299155
-# Generated at: 2024-05-10 00:07:19 
+# Version: 1715300777
+# Database Hash: cfd0c3376a1a4a695a922433c0c3fb74ab83c8e7
+# Generated at: 2024-05-10 00:26:17 
 # Expires: 1 day
-# Number of phishing domains: 333
+# Number of phishing domains: 336
 # Top 10 Abused TLDs:
-# dev: 123 (36.94%)
-# com: 40 (12.01%)
-# app: 11 (3.30%)
-# io: 6 (1.80%)
-# link: 6 (1.80%)
-# hr: 5 (1.50%)
-# top: 5 (1.50%)
-# ug: 4 (1.20%)
-# lu: 4 (1.20%)
-# mk: 4 (1.20%)
+# dev: 124 (36.90%)
+# com: 40 (11.90%)
+# app: 12 (3.57%)
+# io: 6 (1.79%)
+# link: 6 (1.79%)
+# hr: 5 (1.49%)
+# top: 5 (1.49%)
+# ug: 4 (1.19%)
+# lu: 4 (1.19%)
+# mk: 4 (1.19%)
 
 ||5b1kard-44.pages.dev^
 ||5b1kard-45.pages.dev^
@@ -56,6 +56,7 @@
 ||anmilopbe.blogspot.ba^
 ||aolmaiillogin.blogspot.no^
 ||app.convertkit.com^
+||apple-clone-by-rebie.netlify.app^
 ||apple-find-connect.com^
 ||apple-home-page-in-bootstrap.netlify.app^
 ||apple-locator.live^
@@ -144,6 +145,7 @@
 ||identechinc-7mc.pages.dev^
 ||imtoken-lh.top^
 ||info-bancosantander-app.com^
+||inspiress.in^
 ||instagram-beta.pages.dev^
 ||instagram.tg^
 ||instagrammalo.blogspot.nl^
@@ -292,6 +294,7 @@
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
+||pub-ce4daca59fec4ff89813fe37e7e03938.r2.dev^
 ||pub-fc51d290db584b328d6feb3913c634a1.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
