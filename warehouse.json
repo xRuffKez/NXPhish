@@ -2411,8 +2411,8 @@
         "domain": "facebook.godeycleaners.com",
         "first_seen": 1715288505,
         "last_seen": 1715340703,
-        "dns_status": "TIMEOUT",
-        "dns_check_date": 1715333508,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715340717,
         "whitelisted": 0
     },
     {
