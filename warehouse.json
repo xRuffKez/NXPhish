@@ -4419,8 +4419,8 @@
         "domain": "jellyfin.neoflix.co.uk",
         "first_seen": 1715323278,
         "last_seen": 1715323278,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715323293,
         "whitelisted": 0
     },
     {
@@ -4428,23 +4428,23 @@
         "first_seen": 1715323278,
         "last_seen": 1715323278,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715323293,
         "whitelisted": 0
     },
     {
         "domain": "www-hotmail-usa.kinahost.pw",
         "first_seen": 1715323278,
         "last_seen": 1715323278,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715323293,
         "whitelisted": 0
     },
     {
         "domain": "trackingcorreos.com",
         "first_seen": 1715323278,
         "last_seen": 1715323278,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715323293,
         "whitelisted": 0
     }
 ]
