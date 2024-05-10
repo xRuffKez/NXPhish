@@ -1,14 +1,14 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715300777
-# Database Hash: cfd0c3376a1a4a695a922433c0c3fb74ab83c8e7
-# Generated at: 2024-05-10 00:26:17 
+# Version: 1715301962
+# Database Hash: e9247bc6da7ff8203a00e0f5d67f1dde3bcb1670
+# Generated at: 2024-05-10 00:46:02 
 # Expires: 1 day
-# Number of phishing domains: 336
+# Number of phishing domains: 335
 # Top 10 Abused TLDs:
-# dev: 124 (36.90%)
-# com: 40 (11.90%)
-# app: 12 (3.57%)
+# dev: 123 (36.72%)
+# com: 40 (11.94%)
+# app: 12 (3.58%)
 # io: 6 (1.79%)
 # link: 6 (1.79%)
 # hr: 5 (1.49%)
@@ -258,7 +258,6 @@
 ||metamawsksextension.gitbook.io^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoft-identity-verification.e27a2722.workers.dev^
-||microsoft-ownership-verification.e27a2722.workers.dev^
 ||microsoftlogin.cartwild.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
 ||motamaaskelogon.gitbook.io^
