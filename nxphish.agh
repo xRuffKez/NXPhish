@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715368478
-# Database Hash: 75a802c0046b2f838512c9343200685178d4e48d
-# Generated at: 2024-05-10 19:14:38 
+# Version: 1715368937
+# Database Hash: 3fb814fbae10d389f6f9037422bc048d1aeeb76e
+# Generated at: 2024-05-10 19:22:17 
 # Expires: 1 day
-# Number of phishing domains: 234
+# Number of phishing domains: 242
 # Top 10 Abused TLDs:
-# dev: 77 (32.91%)
-# com: 28 (11.97%)
-# app: 11 (4.70%)
-# id: 5 (2.14%)
-# io: 4 (1.71%)
-# cy: 3 (1.28%)
-# mx: 3 (1.28%)
-# ug: 3 (1.28%)
-# es: 3 (1.28%)
-# nl: 3 (1.28%)
+# dev: 80 (33.06%)
+# com: 30 (12.40%)
+# app: 11 (4.55%)
+# id: 5 (2.07%)
+# es: 4 (1.65%)
+# io: 4 (1.65%)
+# mx: 3 (1.24%)
+# ug: 3 (1.24%)
+# nl: 3 (1.24%)
+# mk: 3 (1.24%)
 
 ||5fgffgfgfg4g4gh4tf.blogspot.fi^
 ||5fgffggfgfg4g4h45.blogspot.co.ke^
@@ -32,9 +32,11 @@
 ||apple-find-connect.com^
 ||apple-home-page-in-bootstrap.netlify.app^
 ||apple-locator.live^
+||apple-map-live.com^
 ||apple-replicaevan.netlify.app^
 ||apple-suporte.us^
 ||apply-juggle.pages.dev^
+||atsdata-7g9.pages.dev^
 ||barclayschat-livehelp.com^
 ||basil0303.github.io^
 ||bbvanetcash.mx9k291l.com.mx^
@@ -71,6 +73,7 @@
 ||google-jobsoffer78005.pages.dev^
 ||google-jobspro89.pages.dev^
 ||google-netcashjobs75.pages.dev^
+||google-snake-game.com^
 ||google.cjysec.workers.dev^
 ||googleaccountmirror.iamsystem32.workers.dev^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
@@ -82,11 +85,11 @@
 ||info-selengkapnya.my.id^
 ||inspiress.in^
 ||instagram-beta.pages.dev^
-||instagram.tg^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.al^
 ||instagramprofiileurl.blogspot.am^
 ||instagramprofiileurl.blogspot.bg^
+||instagramprofiileurl.blogspot.ca^
 ||instagramprofiileurl.blogspot.co.at^
 ||instagramprofiileurl.blogspot.co.id^
 ||instagramprofiileurl.blogspot.co.il^
@@ -158,7 +161,6 @@
 ||metamaskinc.blogspot.co.id^
 ||metamaskinc.blogspot.com.ar^
 ||metamaskinc.blogspot.com.co^
-||metamaskinc.blogspot.com.cy^
 ||metamaskinc.blogspot.com.ee^
 ||metamaskinc.blogspot.com.eg^
 ||metamaskinc.blogspot.com.es^
@@ -166,6 +168,7 @@
 ||metamaskinc.blogspot.com.tr^
 ||metamaskinc.blogspot.cz^
 ||metamaskinc.blogspot.dk^
+||metamaskinc.blogspot.fi^
 ||metamaskinc.blogspot.hr^
 ||metamaskinc.blogspot.hu^
 ||metamaskinc.blogspot.ie^
@@ -183,9 +186,11 @@
 ||metamaskinc.blogspot.sk^
 ||metamaskinc.blogspot.ug^
 ||metamasks.world^
+||metamassk.cc^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoft-identity-verification.e27a2722.workers.dev^
 ||microsoftlogin.cartwild.workers.dev^
+||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
 ||mintnow-token.firebaseapp.com^
 ||multi.wallbuilders.com^
 ||myoutlook-alerts0.lofeze.workers.dev^
@@ -201,6 +206,7 @@
 ||outlook-server.gorkakirtu.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
+||pagos-correos.es^
 ||partner.coinbase-company.com^
 ||piv-cfe.pages.dev^
 ||pro-apple.com.ua^
@@ -208,6 +214,7 @@
 ||pub-0fac81924c9e47b7901a9cc6d41b136a.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-12861f6272e047cfb901babed2894e50.r2.dev^
+||pub-19128e0e6ecc4449a51ef13fa09d2461.r2.dev^
 ||pub-1d5cce3aab894c1b8c450f50721db295.r2.dev^
 ||pub-2f278acfc41d42c0819903bab3948030.r2.dev^
 ||pub-3424228f58ac440c9523afb01100ed68.r2.dev^
@@ -244,6 +251,7 @@
 ||support-login-apple.com^
 ||urlz.fr^
 ||verify-office-outlook.com^
+||wellsfargos.info^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||workspace.google.com^
 ||www-facebook-com.vn^
