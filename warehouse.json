@@ -3237,7 +3237,7 @@
         "last_seen": 1715305281,
         "dns_status": "OK",
         "dns_check_date": 1715299590,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "5b1kard-53.pages.dev",
