@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715322831
-# Database Hash: bb02adb0af84e8288765daf7828300fd02c17b8f
-# Generated at: 2024-05-10 06:33:51 
+# Version: 1715323311
+# Database Hash: 31a196ac8397ca1174f6d949154709c0e4927eac
+# Generated at: 2024-05-10 06:41:51 
 # Expires: 1 day
-# Number of phishing domains: 339
+# Number of phishing domains: 338
 # Top 10 Abused TLDs:
-# dev: 125 (36.87%)
-# com: 39 (11.50%)
-# app: 13 (3.83%)
-# io: 6 (1.77%)
-# link: 6 (1.77%)
-# hr: 5 (1.47%)
+# dev: 125 (36.98%)
+# com: 38 (11.24%)
+# app: 14 (4.14%)
+# io: 6 (1.78%)
+# link: 6 (1.78%)
+# hr: 5 (1.48%)
 # ug: 4 (1.18%)
 # nl: 4 (1.18%)
-# lu: 4 (1.18%)
 # mk: 4 (1.18%)
+# za: 4 (1.18%)
 
 ||5b1kard-44.pages.dev^
 ||5b1kard-45.pages.dev^
@@ -106,6 +106,7 @@
 ||f1v68nc2ip.olf.my.id^
 ||facebook.check-protect-account.me^
 ||facebookconnect.pages.dev^
+||facebookdwr-cphagen.web.app^
 ||facebooksecuritys.blogspot.com.by^
 ||facebooksecuritys.blogspot.ie^
 ||facebooksecuritys.blogspot.mk^
@@ -277,7 +278,6 @@
 ||njetdsy.reytnmx.workers.dev^
 ||office365-b8f.pages.dev^
 ||onedrive.microsoftlive1.workers.dev^
-||open.spotify.com^
 ||outlook-server.gorkakirtu.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
@@ -304,7 +304,6 @@
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||rewerds-ff-qarenu.ru^
-||santanderbrasil.lu^
 ||secure-paypal.pages.dev^
 ||secure-us.blogspot.ug^
 ||securelogin-paypal.pages.dev^
