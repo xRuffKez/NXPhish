@@ -4403,16 +4403,16 @@
         "domain": "office365.login.larpsbookstore.com",
         "first_seen": 1715301927,
         "last_seen": 1715301927,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715301943,
         "whitelisted": 0
     },
     {
         "domain": "conto-corrente-intesa-sanpaolo.pragalbhoverseas.com",
         "first_seen": 1715301927,
         "last_seen": 1715301927,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715301943,
         "whitelisted": 0
     }
 ]
