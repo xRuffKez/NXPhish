@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715439750
-# Database Hash: 82e662d7c883ba0ab4e784ace336fc9f5e0a6f18
-# Generated at: 2024-05-11 15:02:30 
+# Version: 1715440473
+# Database Hash: 9ac7e0df625f5b7e231431b56ed14fb13c5321db
+# Generated at: 2024-05-11 15:14:33 
 # Expires: 1 day
-# Number of phishing domains: 106
+# Number of phishing domains: 104
 # Top 10 Abused TLDs:
-# dev: 26 (24.53%)
-# com: 10 (9.43%)
-# app: 5 (4.72%)
-# mx: 3 (2.83%)
-# ug: 3 (2.83%)
-# nl: 3 (2.83%)
-# mk: 3 (2.83%)
-# id: 3 (2.83%)
-# hk: 2 (1.89%)
-# it: 2 (1.89%)
+# dev: 26 (25.00%)
+# com: 9 (8.65%)
+# app: 5 (4.81%)
+# mx: 3 (2.88%)
+# ug: 3 (2.88%)
+# nl: 3 (2.88%)
+# mk: 3 (2.88%)
+# hk: 2 (1.92%)
+# it: 2 (1.92%)
+# se: 2 (1.92%)
 
 ||amazon-by-aftab.netlify.app^
 ||apple-clone-by-rebie.netlify.app^
@@ -35,7 +35,6 @@
 ||coinbaselogiin.blogspot.co.za^
 ||correos-postales.com^
 ||emailfacebooksecurity.pages.dev^
-||facebook-compleints-dev.my.id^
 ||facebooksecuritys.blogspot.mk^
 ||facebookzaman.blogspot.ru^
 ||get-windows-replaced.today^
@@ -107,7 +106,6 @@
 ||metamaskinc.blogspot.si^
 ||metamaskinc.blogspot.ug^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||partner.coinbase-company.com^
 ||piv-cfe.pages.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
