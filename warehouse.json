@@ -3515,16 +3515,16 @@
         "domain": "ldmsa.appield.apple.d9zvh6gq28735t13.secureaccount-verlfyld8167247120.com",
         "first_seen": 1715429755,
         "last_seen": 1715429755,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715429768,
         "whitelisted": 0
     },
     {
         "domain": "appleid.apple.com",
         "first_seen": 1715429755,
         "last_seen": 1715429755,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715429768,
         "whitelisted": 0
     }
 ]
