@@ -3579,8 +3579,8 @@
         "domain": "office365.walshlandscape.com",
         "first_seen": 1715455904,
         "last_seen": 1715455904,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715455917,
         "whitelisted": 0
     }
 ]
