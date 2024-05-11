@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715413298
-# Database Hash: b55c334343bda52d4f5c6bd7dae8203f3fd14265
-# Generated at: 2024-05-11 07:41:38 
+# Version: 1715413926
+# Database Hash: 26b4703a0565564dbd36f1356f9fa54accd8d274
+# Generated at: 2024-05-11 07:52:06 
 # Expires: 1 day
-# Number of phishing domains: 226
+# Number of phishing domains: 241
 # Top 10 Abused TLDs:
-# dev: 69 (30.53%)
-# com: 24 (10.62%)
-# io: 10 (4.42%)
-# app: 6 (2.65%)
-# id: 5 (2.21%)
-# cy: 3 (1.33%)
-# mx: 3 (1.33%)
-# ug: 3 (1.33%)
-# es: 3 (1.33%)
-# lu: 3 (1.33%)
+# dev: 72 (29.88%)
+# com: 26 (10.79%)
+# io: 10 (4.15%)
+# app: 8 (3.32%)
+# id: 6 (2.49%)
+# cy: 3 (1.24%)
+# mx: 3 (1.24%)
+# ug: 3 (1.24%)
+# es: 3 (1.24%)
+# nl: 3 (1.24%)
 
 ||5fgfgfgfg4g4gh4g4g.blogspot.lu^
 ||5nzJS.airdrops-eth.homes^
@@ -25,6 +25,7 @@
 ||amazon-clone-aku.pages.dev^
 ||amazon-cloneapp-html-css.netlify.app^
 ||amazonyogesh.pages.dev^
+||apple-clone-by-rebie.netlify.app^
 ||apple-find-connect.com^
 ||apple-home-page-in-bootstrap.netlify.app^
 ||apple-locator.live^
@@ -46,6 +47,7 @@
 ||checkinffoprofilesss.my.id^
 ||clickme.thryv.com^
 ||cm-privacy-acc.pages.dev^
+||coinbase-assets.com^
 ||coinbase-com-15250.67ogena.workers.dev^
 ||coinbase-com-55191.rqbnjpujjr.workers.dev^
 ||coinbase-com-55480.engenuripeivg.workers.dev^
@@ -79,10 +81,12 @@
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||hfc.pages.dev^
 ||hotmail-alerts.chelsie15.workers.dev^
+||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||hotmail-update.doltenokku.workers.dev^
 ||hotmailupdated.pages.dev^
 ||info-bancosantander-app.com^
+||inspiress.in^
 ||instagram-beta.pages.dev^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.al^
@@ -90,6 +94,7 @@
 ||instagramprofiileurl.blogspot.bg^
 ||instagramprofiileurl.blogspot.ca^
 ||instagramprofiileurl.blogspot.co.at^
+||instagramprofiileurl.blogspot.co.id^
 ||instagramprofiileurl.blogspot.co.il^
 ||instagramprofiileurl.blogspot.co.nz^
 ||instagramprofiileurl.blogspot.co.uk^
@@ -101,8 +106,10 @@
 ||instagramprofiileurl.blogspot.com.es^
 ||instagramprofiileurl.blogspot.com.ng^
 ||instagramprofiileurl.blogspot.cz^
+||instagramprofiileurl.blogspot.dk^
 ||instagramprofiileurl.blogspot.fi^
 ||instagramprofiileurl.blogspot.fr^
+||instagramprofiileurl.blogspot.gr^
 ||instagramprofiileurl.blogspot.hk^
 ||instagramprofiileurl.blogspot.hu^
 ||instagramprofiileurl.blogspot.in^
@@ -135,6 +142,7 @@
 ||metamask-wallett.blogspot.ca^
 ||metamask-wallett.blogspot.ch^
 ||metamask-wallett.blogspot.co.uk^
+||metamask-wallett.blogspot.co.za^
 ||metamask-wallett.blogspot.com.br^
 ||metamask-wallett.blogspot.com.co^
 ||metamask-wallett.blogspot.com.cy^
@@ -147,6 +155,7 @@
 ||metamask-wallett.blogspot.kr^
 ||metamask-wallett.blogspot.mk^
 ||metamask-wallett.blogspot.mx^
+||metamask-wallett.blogspot.nl^
 ||metamask-wallett.blogspot.ro^
 ||metamask-wallett.blogspot.ug^
 ||metamaskinc.blogspot.ch^
@@ -156,6 +165,7 @@
 ||metamaskinc.blogspot.com.co^
 ||metamaskinc.blogspot.com.cy^
 ||metamaskinc.blogspot.com.ee^
+||metamaskinc.blogspot.com.eg^
 ||metamaskinc.blogspot.com.es^
 ||metamaskinc.blogspot.com.ng^
 ||metamaskinc.blogspot.com.tr^
@@ -165,6 +175,7 @@
 ||metamaskinc.blogspot.fi^
 ||metamaskinc.blogspot.hr^
 ||metamaskinc.blogspot.hu^
+||metamaskinc.blogspot.ie^
 ||metamaskinc.blogspot.it^
 ||metamaskinc.blogspot.kr^
 ||metamaskinc.blogspot.lt^
@@ -200,6 +211,7 @@
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||pagos-correos.es^
+||partner.coinbase-company.com^
 ||piv-cfe.pages.dev^
 ||postach.top^
 ||pro-apple.com.ua^
@@ -211,14 +223,17 @@
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
+||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
 ||pub-b4d99643dc7a429eba15bd7a71b064ab.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
+||pub-ce4daca59fec4ff89813fe37e7e03938.r2.dev^
 ||pub-f6a866cbccb442b590c1f061f4abf9a5.r2.dev^
 ||pub-fc51d290db584b328d6feb3913c634a1.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||rocky4869.github.io^
+||secure-paypal.pages.dev^
 ||securelogin-paypal.pages.dev^
 ||sowmyamaddi.github.io^
 ||spotify-clone31.netlify.app^
