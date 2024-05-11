@@ -3508,7 +3508,7 @@
         "first_seen": 1715429755,
         "last_seen": 1715444712,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715437439,
+        "dns_check_date": 1715444730,
         "whitelisted": 0
     },
     {
@@ -3563,24 +3563,24 @@
         "domain": "facebookappeal.my.id",
         "first_seen": 1715444712,
         "last_seen": 1715444712,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715444730,
         "whitelisted": 0
     },
     {
         "domain": "help8260.facebook-guidelines.com",
         "first_seen": 1715444712,
         "last_seen": 1715444712,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715444730,
         "whitelisted": 0
     },
     {
         "domain": "accounts.google.com.aasxoqxwqmw8by1jcp720kl2gqxelohv7c9odt.rbedelhi.com",
         "first_seen": 1715444712,
         "last_seen": 1715444712,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715444730,
         "whitelisted": 0
     }
 ]
