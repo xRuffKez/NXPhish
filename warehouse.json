@@ -3555,16 +3555,16 @@
         "domain": "facebook.logindata.org",
         "first_seen": 1715464900,
         "last_seen": 1715464900,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715464914,
         "whitelisted": 0
     },
     {
         "domain": "amazon.evils.in",
         "first_seen": 1715464900,
         "last_seen": 1715464900,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715464914,
         "whitelisted": 0
     }
 ]
