@@ -3532,7 +3532,7 @@
         "first_seen": 1715449871,
         "last_seen": 1715464282,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715457095,
+        "dns_check_date": 1715464295,
         "whitelisted": 0
     },
     {
@@ -3540,7 +3540,7 @@
         "first_seen": 1715449871,
         "last_seen": 1715464282,
         "dns_status": "OK",
-        "dns_check_date": 1715457095,
+        "dns_check_date": 1715464295,
         "whitelisted": 0
     },
     {
