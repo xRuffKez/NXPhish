@@ -18,14 +18,6 @@ To use this blocklist in AdGuard Home, simply add the following URL to your cust
 
 This will automatically block phishing domains from your network.
 
-## Charts
-
-![Line Chart](line_chart.png)
-*Domain statistics over time*
-
-![Pie Chart](pie_chart.png)
-*Distribution of domain statuses*
-
 
 ## License
 
