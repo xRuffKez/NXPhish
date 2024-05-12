@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715515295
-# Database Hash: 984241ec22043080101edb04571046f2b8523bdd
-# Generated at: 2024-05-12 12:01:35 
+# Version: 1715536866
+# Database Hash: 4b2dac9af7f400bb27ed0bb122a19b8f14e024be
+# Generated at: 2024-05-12 18:01:06 
 # Expires: 1 day
-# Number of phishing domains: 267
+# Number of phishing domains: 265
 # Top 10 Abused TLDs:
-# dev: 79 (29.59%)
-# com: 31 (11.61%)
-# app: 17 (6.37%)
-# id: 10 (3.75%)
-# io: 10 (3.75%)
-# mk: 4 (1.50%)
-# info: 4 (1.50%)
-# cy: 3 (1.12%)
-# mx: 3 (1.12%)
-# ug: 3 (1.12%)
+# dev: 78 (29.43%)
+# com: 31 (11.70%)
+# app: 17 (6.42%)
+# id: 10 (3.77%)
+# io: 10 (3.77%)
+# mk: 4 (1.51%)
+# info: 4 (1.51%)
+# cy: 3 (1.13%)
+# mx: 3 (1.13%)
+# ug: 3 (1.13%)
 
 ||0365online.pages.dev^
 ||0e2fb22316ea5cd66de30deb17c474e20a53118840548dc467507ea6d2.pages.dev^
@@ -34,11 +34,9 @@
 ||apple-home-page-in-bootstrap.netlify.app^
 ||apple-locator.live^
 ||apple-map-live.com^
-||apple-photo.ink^
 ||apple-replicaevan.netlify.app^
 ||apple-suporte.us^
 ||apply-juggle.pages.dev^
-||atsdata-7g9.pages.dev^
 ||barclayschat-livehelp.com^
 ||bbvanetcash.mx9k291l.com.mx^
 ||binancle-us.us^
