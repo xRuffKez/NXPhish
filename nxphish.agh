@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715601697
-# Database Hash: 5e13653e061c0aaea5afd6c21bae84dc8062b1d7
-# Generated at: 2024-05-13 12:01:37 
+# Version: 1715623268
+# Database Hash: 408bd969bbd0814f19ce89903620593f442010d8
+# Generated at: 2024-05-13 18:01:08 
 # Expires: 1 day
-# Number of phishing domains: 346
+# Number of phishing domains: 347
 # Top 10 Abused TLDs:
-# dev: 131 (37.86%)
-# com: 42 (12.14%)
-# app: 15 (4.34%)
+# dev: 132 (38.04%)
+# com: 43 (12.39%)
+# app: 15 (4.32%)
 # io: 8 (2.31%)
-# link: 5 (1.45%)
-# id: 4 (1.16%)
-# dk: 4 (1.16%)
-# cy: 3 (0.87%)
-# mx: 3 (0.87%)
-# ug: 3 (0.87%)
+# link: 5 (1.44%)
+# id: 4 (1.15%)
+# dk: 4 (1.15%)
+# cy: 3 (0.86%)
+# mx: 3 (0.86%)
+# ug: 3 (0.86%)
 
 ||01e3cd394460a7a5e5f7253a2f50cbc.pages.dev^
 ||0365online.pages.dev^
@@ -83,13 +83,13 @@
 ||emailfacebooksecurity.pages.dev^
 ||erijyrfd.pato99990000.workers.dev^
 ||event-global.anakembok.de^
+||facebook-watch.pages.dev^
 ||facebook.check-protect-account.me^
 ||facebookconnect.pages.dev^
 ||facebookdwr-cphagen.web.app^
 ||facebooksecuritys.blogspot.mk^
 ||facebooksecuritys.blogspot.ro^
 ||facebookzaman.blogspot.com^
-||facebookzaman.blogspot.ru^
 ||fghjwertfgjerwegdhfgh.blogspot.md^
 ||ftjfht2.pages.dev^
 ||garbare.ru^
@@ -111,6 +111,7 @@
 ||hello-world-crimson-wave-10f8.fredtom909090.workers.dev^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||hello-world-wild-rice-a729.bodhi-6e8.workers.dev^
+||help8261.facebook-guidelines.com^
 ||helpchecker241.me^
 ||hh.hrj13860189506.workers.dev^
 ||hotmail-alerts.chelsie15.workers.dev^
@@ -147,7 +148,6 @@
 ||instagramprofiileurl.blogspot.gr^
 ||instagramprofiileurl.blogspot.hk^
 ||instagramprofiileurl.blogspot.hu^
-||instagramprofiileurl.blogspot.in^
 ||instagramprofiileurl.blogspot.is^
 ||instagramprofiileurl.blogspot.it^
 ||instagramprofiileurl.blogspot.li^
@@ -316,6 +316,7 @@
 ||sahajdbn.claimfreereward.org^
 ||sajsjbdnm.claimfreereward.org^
 ||samizbn.claimfreereward.org^
+||santander.cf.sandbox.motrada.ch^
 ||saysyoft.blogspot.com^
 ||sbb-cff-authuserpass-eruop4718.web.app^
 ||sde-b9l.pages.dev^
