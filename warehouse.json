@@ -4484,15 +4484,15 @@
         "first_seen": 1715623243,
         "last_seen": 1715623243,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715623255,
         "whitelisted": 0
     },
     {
         "domain": "www1.apple-live-track.info",
         "first_seen": 1715623243,
         "last_seen": 1715623243,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715623255,
         "whitelisted": 0
     },
     {
@@ -4500,7 +4500,7 @@
         "first_seen": 1715623243,
         "last_seen": 1715623243,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715623255,
         "whitelisted": 0
     },
     {
@@ -4508,7 +4508,7 @@
         "first_seen": 1715623243,
         "last_seen": 1715623243,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715623255,
         "whitelisted": 0
     }
 ]
