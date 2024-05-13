@@ -4995,56 +4995,56 @@
         "domain": "binance-bsc.lol",
         "first_seen": 1715580033,
         "last_seen": 1715580033,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715580054,
         "whitelisted": 0
     },
     {
         "domain": "binance-bsc.club",
         "first_seen": 1715580033,
         "last_seen": 1715580033,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715580054,
         "whitelisted": 0
     },
     {
         "domain": "amazonauthorize.shop",
         "first_seen": 1715580033,
         "last_seen": 1715580033,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715580054,
         "whitelisted": 0
     },
     {
         "domain": "apple-find.ink",
         "first_seen": 1715580033,
         "last_seen": 1715580033,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715580054,
         "whitelisted": 0
     },
     {
         "domain": "google.com.microsoft.ir.microsoft.biz.inrtenet-miazan-ir.me",
         "first_seen": 1715580033,
         "last_seen": 1715580033,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715580054,
         "whitelisted": 0
     },
     {
         "domain": "netflix.sickupdates.online",
         "first_seen": 1715580033,
         "last_seen": 1715580033,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NXDOMAIN",
+        "dns_check_date": 1715580054,
         "whitelisted": 0
     },
     {
         "domain": "binance-bsc.info",
         "first_seen": 1715580033,
         "last_seen": 1715580033,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715580054,
         "whitelisted": 0
     }
 ]
