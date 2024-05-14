@@ -5971,24 +5971,24 @@
         "domain": "apple.me.uk",
         "first_seen": 1715709634,
         "last_seen": 1715709634,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715709661,
         "whitelisted": 0
     },
     {
         "domain": "nes.particulares.de",
         "first_seen": 1715709634,
         "last_seen": 1715709634,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715709661,
         "whitelisted": 0
     },
     {
         "domain": "demo.admin.dashboard.community.m.trustwallet.mangocytec.com",
         "first_seen": 1715709634,
         "last_seen": 1715709634,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715709661,
         "whitelisted": 0
     },
     {
@@ -5996,7 +5996,7 @@
         "first_seen": 1715709634,
         "last_seen": 1715709634,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715709661,
         "whitelisted": 0
     }
 ]
