@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715644931
-# Database Hash: 461b2bac431c2e2cbd60e04341fd1ecd475a9ba5
-# Generated at: 2024-05-14 00:02:11 
+# Version: 1715666480
+# Database Hash: 273d337221784480ec5c3c6cad66972039be1004
+# Generated at: 2024-05-14 06:01:20 
 # Expires: 1 day
-# Number of phishing domains: 301
+# Number of phishing domains: 304
 # Top 10 Abused TLDs:
-# dev: 102 (33.89%)
-# com: 35 (11.63%)
-# app: 9 (2.99%)
-# io: 8 (2.66%)
-# id: 7 (2.33%)
-# me: 5 (1.66%)
-# cy: 4 (1.33%)
-# ug: 4 (1.33%)
-# es: 4 (1.33%)
-# mx: 3 (1.00%)
+# dev: 102 (33.55%)
+# com: 37 (12.17%)
+# app: 10 (3.29%)
+# io: 8 (2.63%)
+# id: 7 (2.30%)
+# me: 5 (1.64%)
+# cy: 4 (1.32%)
+# ug: 4 (1.32%)
+# es: 4 (1.32%)
+# mx: 3 (0.99%)
 
 ||0124.lanjutkangrup.my.id^
 ||0365online.pages.dev^
@@ -38,6 +38,7 @@
 ||apple-find-connect.com^
 ||apple-home-page-in-bootstrap.netlify.app^
 ||apple-map-live.com^
+||apple-photo.app^
 ||apple-replicaevan.netlify.app^
 ||apple-suporte.us^
 ||apply-juggle.pages.dev^
@@ -88,6 +89,7 @@
 ||emailfacebooksecurity.pages.dev^
 ||eobawyd.token-imapp.com^
 ||errorshandling.pages.dev^
+||facebook-ml.com^
 ||facebook-watch.pages.dev^
 ||facebook.check-protect-account.me^
 ||facebookconnect.pages.dev^
@@ -273,6 +275,7 @@
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||purple-da6462.qqu4qswu.workers.dev^
+||qpensea.com^
 ||saaiii06.github.io^
 ||schramm.ki1f.in^
 ||sde-b9l.pages.dev^
