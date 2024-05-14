@@ -2364,7 +2364,7 @@
         "first_seen": 1715493649,
         "last_seen": 1715666454,
         "dns_status": "OK",
-        "dns_check_date": 1715493661,
+        "dns_check_date": 1715666467,
         "whitelisted": 0
     },
     {
@@ -2372,7 +2372,7 @@
         "first_seen": 1715493649,
         "last_seen": 1715666454,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715493661,
+        "dns_check_date": 1715666467,
         "whitelisted": 0
     },
     {
@@ -2380,7 +2380,7 @@
         "first_seen": 1715493649,
         "last_seen": 1715666454,
         "dns_status": "OK",
-        "dns_check_date": 1715493661,
+        "dns_check_date": 1715666467,
         "whitelisted": 0
     },
     {
@@ -2388,7 +2388,7 @@
         "first_seen": 1715493649,
         "last_seen": 1715666454,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715493661,
+        "dns_check_date": 1715666467,
         "whitelisted": 0
     },
     {
@@ -2396,7 +2396,7 @@
         "first_seen": 1715493649,
         "last_seen": 1715666454,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715493661,
+        "dns_check_date": 1715666467,
         "whitelisted": 0
     },
     {
@@ -2404,7 +2404,7 @@
         "first_seen": 1715493649,
         "last_seen": 1715666454,
         "dns_status": "OK",
-        "dns_check_date": 1715493661,
+        "dns_check_date": 1715666467,
         "whitelisted": 0
     },
     {
@@ -2412,7 +2412,7 @@
         "first_seen": 1715493649,
         "last_seen": 1715666454,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715493661,
+        "dns_check_date": 1715666467,
         "whitelisted": 0
     },
     {
@@ -2420,7 +2420,7 @@
         "first_seen": 1715493649,
         "last_seen": 1715666454,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715493661,
+        "dns_check_date": 1715666467,
         "whitelisted": 0
     },
     {
@@ -4052,7 +4052,7 @@
         "first_seen": 1715666454,
         "last_seen": 1715666454,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715666467,
         "whitelisted": 0
     },
     {
@@ -4060,7 +4060,7 @@
         "first_seen": 1715666454,
         "last_seen": 1715666454,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715666467,
         "whitelisted": 0
     },
     {
@@ -4068,23 +4068,23 @@
         "first_seen": 1715666454,
         "last_seen": 1715666454,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715666467,
         "whitelisted": 0
     },
     {
         "domain": "directmail-coinbase.com",
         "first_seen": 1715666454,
         "last_seen": 1715666454,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715666467,
         "whitelisted": 0
     },
     {
         "domain": "mx-netflix.com",
         "first_seen": 1715666454,
         "last_seen": 1715666454,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715666467,
         "whitelisted": 0
     }
 ]
