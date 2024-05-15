@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715731340
-# Database Hash: d147bbbb7fe1d79569580e7ea5744b3dcf6cbf08
-# Generated at: 2024-05-15 00:02:20 
+# Version: 1715752863
+# Database Hash: 63ab649873a1bb99e1484b52cb437640e39b679c
+# Generated at: 2024-05-15 06:01:03 
 # Expires: 1 day
-# Number of phishing domains: 386
+# Number of phishing domains: 389
 # Top 10 Abused TLDs:
-# dev: 156 (40.41%)
-# com: 48 (12.44%)
-# io: 19 (4.92%)
-# id: 15 (3.89%)
-# app: 10 (2.59%)
-# shop: 6 (1.55%)
-# cy: 5 (1.30%)
-# lu: 4 (1.04%)
-# mx: 3 (0.78%)
-# ug: 3 (0.78%)
+# dev: 157 (40.36%)
+# com: 48 (12.34%)
+# io: 19 (4.88%)
+# id: 15 (3.86%)
+# app: 10 (2.57%)
+# shop: 6 (1.54%)
+# cy: 5 (1.29%)
+# lu: 4 (1.03%)
+# mx: 3 (0.77%)
+# ug: 3 (0.77%)
 
 ||0365online.pages.dev^
 ||5fgffgfgfg4g4gh4tf.blogspot.sn^
@@ -35,6 +35,7 @@
 ||amazonyogesh.pages.dev^
 ||anthonyvitarellidds-c4h.pages.dev^
 ||aolac0untteam-light--d47b.angelic29hr.workers.dev^
+||apple-manage.link^
 ||apple-photo.app^
 ||apple-suporte.us^
 ||apply-juggle.pages.dev^
@@ -45,7 +46,7 @@
 ||bbvanetcash.mx9k291l.com.mx^
 ||bd1edfb1.importantstopage.pages.dev^
 ||bgmi.retrix-gamer.name.tr^
-||binancle-us.us^
+||binance-bsc.site^
 ||bireysel-garantbbvai.com^
 ||bitly.cx^
 ||bordril.my.id^
@@ -85,6 +86,7 @@
 ||encaon-568f.adademord.workers.dev^
 ||eobawyd.token-imapp.com^
 ||fa5984a5.cooperate.pages.dev^
+||facebook-domain-verificationmo9bumq18e6sqjt3s8cco4b3ce28ft.com^
 ||facebook-ml.com^
 ||facebook-watch.pages.dev^
 ||facebook.check-protect-account.me^
@@ -96,6 +98,7 @@
 ||fp-ch-frankie3381844393.pages.dev^
 ||fuygu.pages.dev^
 ||ganifoc-resiliencesustainability.pages.dev^
+||gapple.host^
 ||genesisfilings.pages.dev^
 ||get-windows-replaced.today^
 ||goes326-goutian-bc.pages.dev^
@@ -254,7 +257,6 @@
 ||netflix-clone-5iz.pages.dev^
 ||netflix-clone-dvp.pages.dev^
 ||netflix-dj7.pages.dev^
-||netflixgpt-1281.firebaseapp.com^
 ||netflixgpt-1c313.firebaseapp.com^
 ||netflixs-job.com^
 ||netflixs-task.com^
@@ -272,6 +274,7 @@
 ||outlook-websecureuser-834ad6.netlify.app^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||pagos-correos.es^
+||paypal-authentication.pages.dev^
 ||pemulihanakun-danaaa-indonesia.program-update.com^
 ||penerima-hadiah.program-update.com^
 ||pierre669god.github.io^
