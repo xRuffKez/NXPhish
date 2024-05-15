@@ -2356,7 +2356,7 @@
         "first_seen": 1715580033,
         "last_seen": 1715774452,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715580054,
+        "dns_check_date": 1715774463,
         "whitelisted": 0
     },
     {
@@ -2364,7 +2364,7 @@
         "first_seen": 1715601643,
         "last_seen": 1715774452,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715601659,
+        "dns_check_date": 1715774463,
         "whitelisted": 0
     },
     {
@@ -2372,7 +2372,7 @@
         "first_seen": 1715601643,
         "last_seen": 1715774452,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715601659,
+        "dns_check_date": 1715774463,
         "whitelisted": 0
     },
     {
@@ -2380,7 +2380,7 @@
         "first_seen": 1715601643,
         "last_seen": 1715774452,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715601659,
+        "dns_check_date": 1715774463,
         "whitelisted": 0
     },
     {
@@ -2388,7 +2388,7 @@
         "first_seen": 1715601643,
         "last_seen": 1715774452,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715601659,
+        "dns_check_date": 1715774463,
         "whitelisted": 0
     },
     {
@@ -2396,7 +2396,7 @@
         "first_seen": 1715601643,
         "last_seen": 1715774452,
         "dns_status": "OK",
-        "dns_check_date": 1715601659,
+        "dns_check_date": 1715774463,
         "whitelisted": 0
     },
     {
@@ -5387,24 +5387,24 @@
         "domain": "presentarse.condiciu00f3nes.particulares.de",
         "first_seen": 1715774452,
         "last_seen": 1715774452,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715774463,
         "whitelisted": 0
     },
     {
         "domain": "beneficios.particulares.de",
         "first_seen": 1715774452,
         "last_seen": 1715774452,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715774463,
         "whitelisted": 0
     },
     {
         "domain": "condiciu00f3nes.particulares.de",
         "first_seen": 1715774452,
         "last_seen": 1715774452,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715774463,
         "whitelisted": 0
     }
 ]
