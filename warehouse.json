@@ -5803,24 +5803,24 @@
         "domain": "hsbchelp.com",
         "first_seen": 1715832204,
         "last_seen": 1715832204,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715832216,
         "whitelisted": 0
     },
     {
         "domain": "infonoreply-coinbase.com",
         "first_seen": 1715832204,
         "last_seen": 1715832204,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715832216,
         "whitelisted": 0
     },
     {
         "domain": "amazon-prize-draw.com",
         "first_seen": 1715832204,
         "last_seen": 1715832204,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715832216,
         "whitelisted": 0
     },
     {
@@ -5828,7 +5828,7 @@
         "first_seen": 1715832204,
         "last_seen": 1715832204,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715832216,
         "whitelisted": 0
     },
     {
@@ -5836,31 +5836,31 @@
         "first_seen": 1715832204,
         "last_seen": 1715832204,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715832216,
         "whitelisted": 0
     },
     {
         "domain": "twitter-app.com",
         "first_seen": 1715832204,
         "last_seen": 1715832204,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715832216,
         "whitelisted": 0
     },
     {
         "domain": "linkedin-invss-linkedin.com",
         "first_seen": 1715832204,
         "last_seen": 1715832204,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715832216,
         "whitelisted": 0
     },
     {
         "domain": "apple-icloudmap.com",
         "first_seen": 1715832204,
         "last_seen": 1715832204,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715832216,
         "whitelisted": 0
     }
 ]
