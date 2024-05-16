@@ -6443,8 +6443,8 @@
         "domain": "dankofamerica.store",
         "first_seen": 1715897040,
         "last_seen": 1715897040,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NXDOMAIN",
+        "dns_check_date": 1715897068,
         "whitelisted": 0
     },
     {
@@ -6452,7 +6452,7 @@
         "first_seen": 1715897040,
         "last_seen": 1715897040,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715897068,
         "whitelisted": 0
     }
 ]
