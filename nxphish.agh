@@ -1,17 +1,17 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715825776
-# Database Hash: 79ee973030b85868773d69dd6332e7bf7f26b1b0
-# Generated at: 2024-05-16 02:16:16 
+# Version: 1715832228
+# Database Hash: 202dbb7db02db6dc356eda7d0e6fad11aa2cf753
+# Generated at: 2024-05-16 04:03:48 
 # Expires: 1 day
-# Number of phishing domains: 425
+# Number of phishing domains: 426
 # Top 10 Abused TLDs:
-# dev: 180 (42.35%)
-# com: 41 (9.65%)
-# io: 25 (5.88%)
+# dev: 180 (42.25%)
+# com: 41 (9.62%)
+# io: 25 (5.87%)
 # app: 10 (2.35%)
-# id: 5 (1.18%)
-# top: 5 (1.18%)
+# id: 5 (1.17%)
+# top: 5 (1.17%)
 # es: 4 (0.94%)
 # uk: 4 (0.94%)
 # ar: 4 (0.94%)
@@ -21,6 +21,7 @@
 ||0bf.me^
 ||0s2.me^
 ||10029.gptwise.link^
+||1947854-coinbase.com^
 ||32652900175411plan.github.io^
 ||4nkit-kum4r.github.io^
 ||5ayfhoif-7356533-7672532-322876283-637523872-278365723298.pages.dev^
@@ -68,7 +69,6 @@
 ||booking.hotel-29410.eu^
 ||buccalupdental.pages.dev^
 ||business.suite-verified-manage.live^
-||case-noti674979213118.meetaafacebook.com^
 ||ccc.yorkxiaobaibai.xyz^
 ||ccorreos.life^
 ||cfvless-5u9.pages.dev^
@@ -403,6 +403,7 @@
 ||uyyalarahulteja.github.io^
 ||verify-office-outlook.com^
 ||view-my-location.us^
+||vinyl-windows-us-11-pt.today^
 ||vishubunny.github.io^
 ||voicem344d.pages.dev^
 ||vww-facebook.com.vn^
