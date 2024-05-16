@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715839434
-# Database Hash: 6f09a3e706166eec109a252466653d3554b9ba01
-# Generated at: 2024-05-16 06:03:54 
+# Version: 1715846650
+# Database Hash: 69bd777fd63543d32e7fd56bce2d036445b360d8
+# Generated at: 2024-05-16 08:04:10 
 # Expires: 1 day
-# Number of phishing domains: 426
+# Number of phishing domains: 428
 # Top 10 Abused TLDs:
-# dev: 180 (42.25%)
-# com: 41 (9.62%)
-# io: 25 (5.87%)
-# app: 10 (2.35%)
+# dev: 180 (42.06%)
+# com: 41 (9.58%)
+# io: 25 (5.84%)
+# app: 10 (2.34%)
 # id: 5 (1.17%)
 # top: 5 (1.17%)
-# es: 4 (0.94%)
-# uk: 4 (0.94%)
-# ar: 4 (0.94%)
-# vn: 4 (0.94%)
+# es: 4 (0.93%)
+# uk: 4 (0.93%)
+# ar: 4 (0.93%)
+# br: 4 (0.93%)
 
 ||0365online.pages.dev^
 ||0bf.me^
@@ -136,6 +136,7 @@
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||hotmail-update.doltenokku.workers.dev^
 ||hotmailupdated.pages.dev^
+||images.windowstimes.online^
 ||info-bancosantander-app.com^
 ||inspiress.in^
 ||instagram-beta.pages.dev^
@@ -180,6 +181,7 @@
 ||investors.spotify.com.free.putrivpn.biz.id^
 ||ipfs.crossbell.io^
 ||ipfs.io^
+||itau-cartoes-24hrs.com.br^
 ||jdhjmhxcffjf5.pages.dev^
 ||jgabnih-usabilityfunctionality.pages.dev^
 ||jkankanm-flexibilityadaptability.pages.dev^
