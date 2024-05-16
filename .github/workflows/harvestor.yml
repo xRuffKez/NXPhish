@@ -31,7 +31,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add warehouse.json
-        git commit -m "Update warehouse.json"
+        git commit -m "Update Database"
         git push
 
     - name: Trigger Phishfort
