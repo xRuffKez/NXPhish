@@ -1,15 +1,15 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715796111
-# Database Hash: b94a4ad4c39470f73db8d0b4a8925cffddde3204
-# Generated at: 2024-05-15 18:01:51 
+# Version: 1715817666
+# Database Hash: a790046c331f4b8b080e9e15797d8394a0affcae
+# Generated at: 2024-05-16 00:01:06 
 # Expires: 1 day
-# Number of phishing domains: 412
+# Number of phishing domains: 411
 # Top 10 Abused TLDs:
-# dev: 150 (36.41%)
-# com: 65 (15.78%)
-# io: 19 (4.61%)
-# app: 15 (3.64%)
+# dev: 150 (36.50%)
+# com: 65 (15.82%)
+# io: 19 (4.62%)
+# app: 15 (3.65%)
 # id: 7 (1.70%)
 # cy: 4 (0.97%)
 # es: 4 (0.97%)
@@ -277,7 +277,6 @@
 ||microsoft-identity-verification.e27a2722.workers.dev^
 ||microsoftlogin.cartwild.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
-||movil-bbva-es.online^
 ||myoutlook-alerts0.lofeze.workers.dev^
 ||napthepubgmobile.com^
 ||netflix-clone-5iz.pages.dev^
