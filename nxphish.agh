@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715875427
-# Database Hash: 6206437d13e8f24c1c32688ab38f57d6ba8c8cda
-# Generated at: 2024-05-16 16:03:47 
+# Version: 1715882643
+# Database Hash: a39a60517f8e228551a3041ef0dbb3d09a46811f
+# Generated at: 2024-05-16 18:04:03 
 # Expires: 1 day
-# Number of phishing domains: 494
+# Number of phishing domains: 492
 # Top 10 Abused TLDs:
-# dev: 164 (33.20%)
-# com: 54 (10.93%)
-# io: 32 (6.48%)
-# link: 19 (3.85%)
-# id: 12 (2.43%)
-# app: 12 (2.43%)
-# top: 12 (2.43%)
+# dev: 164 (33.33%)
+# com: 53 (10.77%)
+# io: 32 (6.50%)
+# link: 19 (3.86%)
+# id: 12 (2.44%)
+# app: 12 (2.44%)
+# top: 12 (2.44%)
 # org: 7 (1.42%)
-# mk: 5 (1.01%)
-# ng: 5 (1.01%)
+# mk: 5 (1.02%)
+# ng: 5 (1.02%)
 
 ||0365online.pages.dev^
 ||0922.wqh8290.com^
@@ -249,7 +249,6 @@
 ||instagramprofiileurl.blogspot.ug^
 ||investors.spotify.com.free.putrivpn.biz.id^
 ||ipfs.io^
-||itau-cartoes-24hrs.com.br^
 ||jiboblu.anakembok.de^
 ||junzhou.asia^
 ||jxwzgg.pages.dev^
@@ -365,7 +364,6 @@
 ||netflix-clone-5iz.pages.dev^
 ||netflix-clone-dvp.pages.dev^
 ||netflix-dj7.pages.dev^
-||netflixgpt-12.firebaseapp.com^
 ||netflixs-job.com^
 ||netflixs-task.com^
 ||new2.ninaiza.eu.org^
