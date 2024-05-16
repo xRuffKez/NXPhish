@@ -3,7 +3,7 @@ name: Run Harvestor Script
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 */2 * * *'
 jobs:
   run_script:
     name: Run Phishing Detection Script
