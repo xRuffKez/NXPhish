@@ -2196,7 +2196,7 @@
         "first_seen": 1715558443,
         "last_seen": 1715925839,
         "dns_status": "OK",
-        "dns_check_date": 1715752849,
+        "dns_check_date": 1715925852,
         "whitelisted": 0
     },
     {
@@ -2204,7 +2204,7 @@
         "first_seen": 1715558443,
         "last_seen": 1715925839,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715752849,
+        "dns_check_date": 1715925852,
         "whitelisted": 0
     },
     {
@@ -2212,7 +2212,7 @@
         "first_seen": 1715558443,
         "last_seen": 1715925839,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715752849,
+        "dns_check_date": 1715925852,
         "whitelisted": 0
     },
     {
@@ -2220,7 +2220,7 @@
         "first_seen": 1715558443,
         "last_seen": 1715925839,
         "dns_status": "OK",
-        "dns_check_date": 1715752849,
+        "dns_check_date": 1715925852,
         "whitelisted": 0
     },
     {
@@ -2404,7 +2404,7 @@
         "first_seen": 1715752836,
         "last_seen": 1715925839,
         "dns_status": "OK",
-        "dns_check_date": 1715752849,
+        "dns_check_date": 1715925852,
         "whitelisted": 0
     },
     {
@@ -2412,7 +2412,7 @@
         "first_seen": 1715752836,
         "last_seen": 1715925839,
         "dns_status": "OK",
-        "dns_check_date": 1715752849,
+        "dns_check_date": 1715925852,
         "whitelisted": 0
     },
     {
@@ -2420,7 +2420,7 @@
         "first_seen": 1715752836,
         "last_seen": 1715925839,
         "dns_status": "OK",
-        "dns_check_date": 1715752849,
+        "dns_check_date": 1715925852,
         "whitelisted": 0
     },
     {
@@ -2428,7 +2428,7 @@
         "first_seen": 1715752836,
         "last_seen": 1715925839,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715752849,
+        "dns_check_date": 1715925852,
         "whitelisted": 0
     },
     {
@@ -2436,7 +2436,7 @@
         "first_seen": 1715752836,
         "last_seen": 1715925839,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715752849,
+        "dns_check_date": 1715925852,
         "whitelisted": 0
     },
     {
@@ -2444,7 +2444,7 @@
         "first_seen": 1715752836,
         "last_seen": 1715925839,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715752849,
+        "dns_check_date": 1715925852,
         "whitelisted": 0
     },
     {
@@ -5859,8 +5859,8 @@
         "domain": "coinbase-giveaway.tfsmsurl.com",
         "first_seen": 1715925839,
         "last_seen": 1715925839,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NXDOMAIN",
+        "dns_check_date": 1715925852,
         "whitelisted": 0
     }
 ]
