@@ -1,14 +1,14 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715904753
-# Database Hash: 997a45b5e310109d8e1c4cb06e1b904f1f4db860
-# Generated at: 2024-05-17 00:12:33 
+# Version: 1715912023
+# Database Hash: 65f35eed3d8fe2521f4f3b78f33bf990da2c4af4
+# Generated at: 2024-05-17 02:13:43 
 # Expires: 1 day
-# Number of phishing domains: 502
+# Number of phishing domains: 500
 # Top 10 Abused TLDs:
-# dev: 268 (53.39%)
-# io: 69 (13.75%)
-# com: 31 (6.18%)
+# dev: 268 (53.60%)
+# io: 69 (13.80%)
+# com: 29 (5.80%)
 # app: 5 (1.00%)
 # mk: 4 (0.80%)
 # vn: 4 (0.80%)
@@ -50,7 +50,6 @@
 ||amazon-by-aftab.netlify.app^
 ||amazon-clone-aku.pages.dev^
 ||amazon-cloneapp-html-css.netlify.app^
-||amazon-vip-online.com^
 ||amazonyogesh.pages.dev^
 ||amitraj91355.github.io^
 ||anishakshyp.github.io^
@@ -153,7 +152,6 @@
 ||encryptednodes.pages.dev^
 ||endnaid.github.io^
 ||f2u9dzffhv7jx.pages.dev^
-||facebook-domain-verificationmo9bumq18e6sqjt3s8cco4b3ce28ft.com^
 ||facebook-login-clone.pages.dev^
 ||facebook-watch.pages.dev^
 ||facebook.check-protect-account.me^
@@ -502,10 +500,10 @@
 ||www-facebook-com.vn^
 ||www-facebook.io.vn^
 ||www.accesscherry.com^
-||www.amazon.com^
 ||www.es-bbva-proteccion.com^
 ||www.filesusr.com^
 ||www.homeschoollatinoamerica.com^
+||www.icloud.com^
 ||www.netflix-max.com^
 ||www.netflixbisnis.com^
 ||www3.authe.workers.dev^
