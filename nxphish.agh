@@ -1,14 +1,14 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715912023
-# Database Hash: 65f35eed3d8fe2521f4f3b78f33bf990da2c4af4
-# Generated at: 2024-05-17 02:13:43 
+# Version: 1715918668
+# Database Hash: d722319b8d372ef1b6e780aabc9204c08299d10c
+# Generated at: 2024-05-17 04:04:28 
 # Expires: 1 day
-# Number of phishing domains: 500
+# Number of phishing domains: 502
 # Top 10 Abused TLDs:
-# dev: 268 (53.60%)
-# io: 69 (13.80%)
-# com: 29 (5.80%)
+# dev: 268 (53.39%)
+# io: 69 (13.75%)
+# com: 28 (5.58%)
 # app: 5 (1.00%)
 # mk: 4 (0.80%)
 # vn: 4 (0.80%)
@@ -56,6 +56,7 @@
 ||ankit0551.github.io^
 ||anthonyvitarellidds-c4h.pages.dev^
 ||apajas.pages.dev^
+||apple-find-maps.org^
 ||apple-photo.app^
 ||apple-suporte.us^
 ||apply-juggle.pages.dev^
@@ -482,6 +483,8 @@
 ||vhjdfkbhaefjk.hwefhdfaefefe.workers.dev^
 ||vikhilvikki.github.io^
 ||vinayakdev06.github.io^
+||vinyl-windows-us-11-gr.today^
+||vinyl-windows-us-11-za.today^
 ||violation-informatin-submit.github.io^
 ||vww-facebook.com.vn^
 ||web-authapp.pages.dev^
@@ -503,7 +506,6 @@
 ||www.es-bbva-proteccion.com^
 ||www.filesusr.com^
 ||www.homeschoollatinoamerica.com^
-||www.icloud.com^
 ||www.netflix-max.com^
 ||www.netflixbisnis.com^
 ||www3.authe.workers.dev^
