@@ -6155,8 +6155,8 @@
         "domain": "mta-sts.aspmx.l.google.com.mydocuments.it",
         "first_seen": 1715983391,
         "last_seen": 1715983391,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715983403,
         "whitelisted": 0
     }
 ]
