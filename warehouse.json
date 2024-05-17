@@ -5803,8 +5803,8 @@
         "domain": "newstyle-windows.co.uk",
         "first_seen": 1715918638,
         "last_seen": 1715918638,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715918651,
         "whitelisted": 0
     },
     {
@@ -5812,31 +5812,31 @@
         "first_seen": 1715918638,
         "last_seen": 1715918638,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715918651,
         "whitelisted": 0
     },
     {
         "domain": "www.amazon-christian-beziau.fr",
         "first_seen": 1715918638,
         "last_seen": 1715918638,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715918651,
         "whitelisted": 0
     },
     {
         "domain": "coinbase.cbonlinefix.net",
         "first_seen": 1715918638,
         "last_seen": 1715918638,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715918651,
         "whitelisted": 0
     },
     {
         "domain": "clash-for-windows.org",
         "first_seen": 1715918638,
         "last_seen": 1715918638,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715918651,
         "whitelisted": 0
     },
     {
@@ -5844,15 +5844,15 @@
         "first_seen": 1715918638,
         "last_seen": 1715918638,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715918651,
         "whitelisted": 0
     },
     {
         "domain": "reply-coinbase.net",
         "first_seen": 1715918638,
         "last_seen": 1715918638,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715918651,
         "whitelisted": 0
     },
     {
@@ -5860,15 +5860,15 @@
         "first_seen": 1715918638,
         "last_seen": 1715918638,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715918651,
         "whitelisted": 0
     },
     {
         "domain": "googley.in",
         "first_seen": 1715918638,
         "last_seen": 1715918638,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715918651,
         "whitelisted": 0
     }
 ]
