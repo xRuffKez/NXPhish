@@ -6148,7 +6148,7 @@
         "first_seen": 1715976260,
         "last_seen": 1715976260,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715976278,
         "whitelisted": 0
     },
     {
@@ -6156,7 +6156,7 @@
         "first_seen": 1715976260,
         "last_seen": 1715976260,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715976278,
         "whitelisted": 0
     }
 ]
