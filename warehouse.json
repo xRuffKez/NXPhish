@@ -5804,15 +5804,15 @@
         "first_seen": 1715911996,
         "last_seen": 1715911996,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1715912010,
         "whitelisted": 0
     },
     {
         "domain": "paypay-faqs.com",
         "first_seen": 1715911996,
         "last_seen": 1715911996,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1715912010,
         "whitelisted": 0
     }
 ]
