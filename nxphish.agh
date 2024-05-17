@@ -1,18 +1,18 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715969033
-# Database Hash: 033818b2000e70ce421c9ae75d0e9c03cbf81aea
-# Generated at: 2024-05-17 18:03:53 
+# Version: 1715976291
+# Database Hash: dc63f7eb7353c45d5843fd69f7b62b117d4e6248
+# Generated at: 2024-05-17 20:04:51 
 # Expires: 1 day
-# Number of phishing domains: 443
+# Number of phishing domains: 444
 # Top 10 Abused TLDs:
-# dev: 179 (40.41%)
-# com: 51 (11.51%)
-# io: 17 (3.84%)
-# app: 12 (2.71%)
-# link: 12 (2.71%)
+# dev: 181 (40.77%)
+# com: 51 (11.49%)
+# io: 17 (3.83%)
+# app: 12 (2.70%)
+# link: 12 (2.70%)
 # id: 11 (2.48%)
-# shop: 10 (2.26%)
+# shop: 10 (2.25%)
 # top: 5 (1.13%)
 # uk: 4 (0.90%)
 # mk: 4 (0.90%)
@@ -160,7 +160,6 @@
 ||images.windowstimes.online^
 ||in-c1f4.cajat50079.workers.dev^
 ||info-bancosantander-app.com^
-||inspiress.in^
 ||instagram-beta.pages.dev^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.al^
@@ -287,6 +286,7 @@
 ||metsk.app^
 ||mexsikochaneldatingsex.pages.dev^
 ||micr0soft-login-now.rywepomo.workers.dev^
+||microsoft-alert-1xb01.pages.dev^
 ||microsoft-identity-verification.e27a2722.workers.dev^
 ||microsoftlogin.cartwild.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
@@ -319,6 +319,7 @@
 ||pagesprocessing.pages.dev^
 ||pagos-correos.es^
 ||paypal-authentication.pages.dev^
+||paypal-service.pages.dev^
 ||policies-community1873-bf9.pages.dev^
 ||policies-community192ar6.pages.dev^
 ||prdeskapp-it-check.web.app^
