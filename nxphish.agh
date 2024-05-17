@@ -1,18 +1,18 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715961849
-# Database Hash: 8c5d55a1da4120e45a2632d5d8e3e21b3c2aa856
-# Generated at: 2024-05-17 16:04:09 
+# Version: 1715969033
+# Database Hash: 033818b2000e70ce421c9ae75d0e9c03cbf81aea
+# Generated at: 2024-05-17 18:03:53 
 # Expires: 1 day
-# Number of phishing domains: 444
+# Number of phishing domains: 443
 # Top 10 Abused TLDs:
-# dev: 179 (40.32%)
-# com: 52 (11.71%)
-# io: 17 (3.83%)
-# app: 12 (2.70%)
-# link: 12 (2.70%)
+# dev: 179 (40.41%)
+# com: 51 (11.51%)
+# io: 17 (3.84%)
+# app: 12 (2.71%)
+# link: 12 (2.71%)
 # id: 11 (2.48%)
-# shop: 10 (2.25%)
+# shop: 10 (2.26%)
 # top: 5 (1.13%)
 # uk: 4 (0.90%)
 # mk: 4 (0.90%)
@@ -162,7 +162,6 @@
 ||info-bancosantander-app.com^
 ||inspiress.in^
 ||instagram-beta.pages.dev^
-||instagramfollow80.blogspot.com^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.al^
 ||instagramprofiileurl.blogspot.am^
