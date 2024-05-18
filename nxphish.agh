@@ -1,15 +1,15 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716048218
-# Database Hash: bff8ebc0978cd4f487bce88364cb94b1e4fd1fbf
-# Generated at: 2024-05-18 16:03:38
+# Version: 1716055459
+# Database Hash: daa3059531fea5ae7e8a024a13a54409e66c4ee1
+# Generated at: 2024-05-18 18:04:19
 # Expires: 1 day
-# Number of phishing domains: 739
+# Number of phishing domains: 740
 # Top 10 Abused TLDs:
-# dev: 411 (55.62%)
-# com: 66 (8.93%)
-# io: 63 (8.53%)
-# app: 20 (2.71%)
+# dev: 412 (55.68%)
+# com: 66 (8.92%)
+# io: 63 (8.51%)
+# app: 20 (2.70%)
 # id: 10 (1.35%)
 # link: 8 (1.08%)
 # net: 8 (1.08%)
@@ -470,6 +470,7 @@
 ||paulocuenca.com.br^
 ||paylater-dana-2024.fbzsa.com^
 ||paypal-authentication.pages.dev^
+||paypal-giveaway.pages.dev^
 ||paypal-service.pages.dev^
 ||paypallllogiin-myaccounnt.gitbook.io^
 ||payppal-lognmiy-account.gitbook.io^
