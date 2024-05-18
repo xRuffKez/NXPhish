@@ -2604,7 +2604,7 @@
         "first_seen": 1715868189,
         "last_seen": 1716041035,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715868203,
+        "dns_check_date": 1716041048,
         "whitelisted": 0
     },
     {
@@ -9363,24 +9363,24 @@
         "domain": "notify-apple-ld.us",
         "first_seen": 1716041035,
         "last_seen": 1716041035,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716041048,
         "whitelisted": 0
     },
     {
         "domain": "tx-amazon.com",
         "first_seen": 1716041035,
         "last_seen": 1716041035,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716041048,
         "whitelisted": 0
     },
     {
         "domain": "coinbase-double.net",
         "first_seen": 1716041035,
         "last_seen": 1716041035,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716041048,
         "whitelisted": 0
     }
 ]
