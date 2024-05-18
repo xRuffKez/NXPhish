@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1715998431
-# Database Hash: 94aec55cb6c0a600fa3b56e111bb0f4e380d966e
-# Generated at: 2024-05-18 02:13:51 
+# Version: 1716005054
+# Database Hash: 0abf0e4019cbf776bbdad5a8bfd3ad8ad8952a65
+# Generated at: 2024-05-18 04:04:14 
 # Expires: 1 day
-# Number of phishing domains: 509
+# Number of phishing domains: 506
 # Top 10 Abused TLDs:
-# dev: 283 (55.60%)
-# io: 40 (7.86%)
-# com: 37 (7.27%)
-# app: 10 (1.96%)
-# link: 5 (0.98%)
+# dev: 282 (55.73%)
+# io: 40 (7.91%)
+# com: 39 (7.71%)
+# app: 10 (1.98%)
+# link: 5 (0.99%)
 # mk: 4 (0.79%)
+# today: 4 (0.79%)
 # id: 4 (0.79%)
 # vn: 4 (0.79%)
 # me: 4 (0.79%)
-# cy: 3 (0.59%)
 
 ||0177.datingg-voice.workers.dev^
 ||0365online.pages.dev^
@@ -42,9 +42,10 @@
 ||aoaloserviceteam.mefyuyumlo.workers.dev^
 ||apoorvpawarwebsites.github.io^
 ||apple-find-maps.org^
+||apple-mexico-2024.com^
 ||apple-photo.app^
+||apple-sms.support^
 ||apple-suporte.us^
-||apply-juggle.pages.dev^
 ||auth-ourtime.voice-chaats.workers.dev^
 ||auth-wise-webapp.euphoriacouples.xyz^
 ||autumn-bonus-48fa.earligawi7748238.workers.dev^
@@ -204,7 +205,6 @@
 ||instagramprofiileurl.blogspot.com.ng^
 ||instagramprofiileurl.blogspot.cz^
 ||instagramprofiileurl.blogspot.dk^
-||instagramprofiileurl.blogspot.fi^
 ||instagramprofiileurl.blogspot.fr^
 ||instagramprofiileurl.blogspot.gr^
 ||instagramprofiileurl.blogspot.hk^
@@ -215,7 +215,6 @@
 ||instagramprofiileurl.blogspot.lu^
 ||instagramprofiileurl.blogspot.mk^
 ||instagramprofiileurl.blogspot.nl^
-||instagramprofiileurl.blogspot.pe^
 ||instagramprofiileurl.blogspot.pt^
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.rs^
@@ -252,7 +251,6 @@
 ||memberships.garenna.id.vn^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.am^
-||metamask-wallett.blogspot.ba^
 ||metamask-wallett.blogspot.ca^
 ||metamask-wallett.blogspot.ch^
 ||metamask-wallett.blogspot.co.uk^
@@ -261,7 +259,6 @@
 ||metamask-wallett.blogspot.com.co^
 ||metamask-wallett.blogspot.com.cy^
 ||metamask-wallett.blogspot.com.ee^
-||metamask-wallett.blogspot.com.mt^
 ||metamask-wallett.blogspot.dk^
 ||metamask-wallett.blogspot.hk^
 ||metamask-wallett.blogspot.hr^
@@ -276,7 +273,6 @@
 ||metamaskinc.blogspot.co.at^
 ||metamaskinc.blogspot.co.id^
 ||metamaskinc.blogspot.com.ar^
-||metamaskinc.blogspot.com.co^
 ||metamaskinc.blogspot.com.cy^
 ||metamaskinc.blogspot.com.ee^
 ||metamaskinc.blogspot.com.eg^
@@ -294,7 +290,6 @@
 ||metamaskinc.blogspot.it^
 ||metamaskinc.blogspot.kr^
 ||metamaskinc.blogspot.lt^
-||metamaskinc.blogspot.lu^
 ||metamaskinc.blogspot.md^
 ||metamaskinc.blogspot.mk^
 ||metamaskinc.blogspot.mx^
@@ -455,6 +450,7 @@
 ||run-sun-a3dc.santanaharmon.workers.dev^
 ||sadikkoliqanit.firebaseapp.com^
 ||sameerniz00.github.io^
+||santander-cruise-offers2024.today^
 ||sarfaraz-rumane.github.io^
 ||sdffht3.pages.dev^
 ||secure-d25ddc67d604b62a9b3da79c87.pages.dev^
@@ -481,6 +477,7 @@
 ||teslavmd.github.io^
 ||tight-wood-8fc2.zip-confirm.workers.dev^
 ||tinyurl.com^
+||trustwallets-team.com^
 ||tymurskrynnyk.github.io^
 ||uaii-2br.pages.dev^
 ||ubarys-ba4b.ydudraromenmto.workers.dev^
@@ -509,7 +506,6 @@
 ||worker-solitary-hill-2132.riydeletru.workers.dev^
 ||worker-sparkling-union-cea4.cotridelte.workers.dev^
 ||worker-wandering-king-de71.xegepil982.workers.dev^
-||workspace.google.com^
 ||www-facebook-com.vn^
 ||www-facebook.io.vn^
 ||www.365connectaccess.com^
@@ -518,6 +514,7 @@
 ||www.es-bbva-proteccion.com^
 ||www.filesusr.com^
 ||www.help-airbnb.com^
+||www.icloud.com^
 ||www.indelama.com.ar^
 ||www.netflixbisnis.com^
 ||www.tinyurl.com^
