@@ -1,85 +1,83 @@
 import os
 import json
 import requests
-import zipfile
-import csv
 import time
 from urllib.parse import urlparse
 
+# Constants
+WAREHOUSE_FILENAME = "warehouse.json"
+FEED_URLS = [
+    "https://openphish.com/feed.txt",
+    "https://phishunt.io/feed.txt"
+]
+FEED_FILENAMES = [
+    "openphish_feed.txt",
+    "phishunt_feed.txt"
+]
+
 def download_file(url, filename):
     response = requests.get(url)
+    response.raise_for_status()  # Ensure we catch HTTP errors
     with open(filename, "wb") as file:
         file.write(response.content)
+    print(f"Downloaded {url} to {filename}")
 
 def extract_domains_from_feed(feed_filename):
     with open(feed_filename, 'r') as file:
         return {domain.strip() for domain in file if domain.strip()}
 
-def create_warehouse_if_not_exists():
-    if not os.path.exists("warehouse.json"):
-        with open("warehouse.json", "w") as file:
-            file.write("[]")
-        print("Created 'warehouse.json' file.")
+def create_warehouse_if_not_exists(filename):
+    if not os.path.exists(filename):
+        with open(filename, "w") as file:
+            json.dump([], file)
+        print(f"Created '{filename}' file.")
 
-def update_json_with_domains(domains):
+def update_json_with_domains(domains, filename):
     current_time = int(time.time())
-    unique_domains = set()
+    unique_domains = {urlparse(domain).netloc.split(':')[0] for domain in domains if domain}
 
-    with open("warehouse.json", "r+") as file:
+    with open(filename, "r+") as file:
         try:
             data = json.load(file)
         except json.JSONDecodeError:
             data = []
 
-        for domain in domains:
-            if not domain:
-                continue
-            
-            domain_without_path = urlparse(domain).netloc.split(':')[0]
-            unique_domains.add(domain_without_path)
-
-            found = False
-            for item in data:
-                if item["domain"] == domain_without_path:
-                    item["last_seen"] = current_time
-                    found = True
-                    break
-            if not found:
-                data.append({
-                    "domain": domain_without_path,
+        domain_dict = {entry["domain"]: entry for entry in data}
+        
+        for domain in unique_domains:
+            if domain in domain_dict:
+                domain_dict[domain]["last_seen"] = current_time
+            else:
+                domain_dict[domain] = {
+                    "domain": domain,
                     "first_seen": current_time,
                     "last_seen": current_time,
                     "dns_status": "OK",
                     "dns_check_date": 0,
                     "whitelisted": 0
-                })
+                }
 
-        data = [entry for entry in data if entry["domain"] in unique_domains]
-
+        updated_data = list(domain_dict.values())
         file.seek(0)
         file.truncate()
-        json.dump(data, file, indent=4)
+        json.dump(updated_data, file, indent=4)
+    print(f"Updated '{filename}' with new domains.")
 
-# URLs and filenames for downloads
-feed_urls = [
-    "https://openphish.com/feed.txt",
-    "https://phishunt.io/feed.txt"
-]
-feed_filenames = [
-    "openphish_feed.txt",
-    "phishunt_feed.txt"
-]
+def main():
+    # Download phishing feeds
+    for url, filename in zip(FEED_URLS, FEED_FILENAMES):
+        download_file(url, filename)
 
-# Download phishing feeds
-for url, filename in zip(feed_urls, feed_filenames):
-    download_file(url, filename)
+    # Extract domains from feeds
+    all_domains = set()
+    for filename in FEED_FILENAMES:
+        all_domains.update(extract_domains_from_feed(filename))
 
-# Extract domains from feeds
-openphish_domains = extract_domains_from_feed(feed_filenames[0])
-phishunt_domains = extract_domains_from_feed(feed_filenames[1])
+    # Create warehouse.json if it doesn't exist
+    create_warehouse_if_not_exists(WAREHOUSE_FILENAME)
 
-# Create warehouse.json if it doesn't exist
-create_warehouse_if_not_exists()
+    # Update JSON with domains
+    update_json_with_domains(all_domains, WAREHOUSE_FILENAME)
 
-# Update JSON with domains
-update_json_with_domains(openphish_domains.union(phishunt_domains))
+if __name__ == "__main__":
+    main()
