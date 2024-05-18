@@ -2108,7 +2108,7 @@
         "first_seen": 1715515246,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 1715861091,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -2228,7 +2228,7 @@
         "first_seen": 1715688047,
         "last_seen": 1716033896,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715861091,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -2236,7 +2236,7 @@
         "first_seen": 1715688047,
         "last_seen": 1716033896,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715861091,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -2516,7 +2516,7 @@
         "first_seen": 1715861078,
         "last_seen": 1716026608,
         "dns_status": "OK",
-        "dns_check_date": 1715861091,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -2524,7 +2524,7 @@
         "first_seen": 1715861078,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 1715861091,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -2532,7 +2532,7 @@
         "first_seen": 1715861078,
         "last_seen": 1716019402,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715861091,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -2540,7 +2540,7 @@
         "first_seen": 1715861078,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 1715861091,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -2548,7 +2548,7 @@
         "first_seen": 1715861078,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 1715861091,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -2556,7 +2556,7 @@
         "first_seen": 1715861078,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 1715861091,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -2564,7 +2564,7 @@
         "first_seen": 1715861078,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 1715861091,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -2572,7 +2572,7 @@
         "first_seen": 1715861078,
         "last_seen": 1716033896,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715861091,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -2580,23 +2580,23 @@
         "first_seen": 1715861078,
         "last_seen": 1716033896,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715861091,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "amazon-clooneee.netlify.app",
         "first_seen": 1715861078,
         "last_seen": 1716033896,
-        "dns_status": "NO_NAMESERVERS",
-        "dns_check_date": 1715861091,
+        "dns_status": "OK",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "netflix-clone-95.vercel.app",
         "first_seen": 1715861078,
         "last_seen": 1716033896,
-        "dns_status": "NO_NAMESERVERS",
-        "dns_check_date": 1715861091,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6092,7 +6092,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6100,7 +6100,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6108,23 +6108,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "mex.saigow.top",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "amzservement.co",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6132,15 +6132,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "dedicated-begonia-wj8jmm.mystrikingly.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6148,15 +6148,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "xfscgvn.wixsite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6164,7 +6164,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6172,15 +6172,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "j6rdc0.webwave.dev",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6188,7 +6188,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6196,7 +6196,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6204,7 +6204,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6212,7 +6212,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6220,23 +6220,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "syncteltelecom.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "asiefv.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6244,23 +6244,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "telegmar.org",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "hnknly.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6268,15 +6268,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "82491.columbiauniversityinpictures.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6284,15 +6284,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "mail-ince.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6300,7 +6300,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6308,47 +6308,47 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "i9wyi7.webwave.dev",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "jasper-rambunctious-boot.glitch.me",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "hsbsjsb.wixsite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "ch51300.tw1.ru",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NXDOMAIN",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "hvl.ths.mybluehost.me",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6356,7 +6356,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6364,7 +6364,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6372,7 +6372,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6380,15 +6380,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "help-center-ads.vercel.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6396,23 +6396,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "attmail-103357.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "ykfqwaubht.duckdns.org",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "TIMEOUT",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6420,15 +6420,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "helpcenter-for-business-open-cases-appeal-id-242.vercel.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6436,7 +6436,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6444,7 +6444,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6452,7 +6452,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6460,23 +6460,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "uiplsryznets-ysuiksiojklds.codeanyapp.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "elazigdanhaberlerim.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6484,15 +6484,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "conbassecomlogii.godaddysites.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6500,7 +6500,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6508,7 +6508,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6516,15 +6516,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "5656722.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6532,7 +6532,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6540,23 +6540,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "sign-in-att-108611.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "isa20q.webwave.dev",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6564,7 +6564,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6572,7 +6572,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6580,23 +6580,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "telepgrnc.top",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "www.ldym120.cn",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6604,7 +6604,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6612,7 +6612,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6620,15 +6620,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "reagan-109898.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6636,15 +6636,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "webyahooo68500893.weebly.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6652,23 +6652,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "emailverify.bounceme.net",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "vcn7pm.webwave.dev",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6676,15 +6676,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "ymspbdfimz.duckdns.org",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "TIMEOUT",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6692,7 +6692,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6700,23 +6700,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "help-center-for-business-appeal-case-id-332124.vercel.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "bt-109721.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6724,15 +6724,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "att-109280.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6740,23 +6740,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "3392461133924611.columbiauniversityinpictures.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "metamasksdek.azurewebsites.net",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6764,7 +6764,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6772,39 +6772,39 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "open-sea711.vercel.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "signin-att-102825.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "test1.tffa.top",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "ghfdgjdatt.weebly.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6812,7 +6812,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6820,31 +6820,31 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "trusting-gifted-roof.glitch.me",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "consultant-departments-stops-vegetables.trycloudflare.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NXDOMAIN",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "click-account-profile.vercel.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6852,7 +6852,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6860,7 +6860,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6868,15 +6868,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "alisongaudino992.wixsite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6884,15 +6884,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "telepgrnc.icu",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6900,23 +6900,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "synchronize-ledgerlive.vercel.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "meta248.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6924,7 +6924,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6932,15 +6932,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "yigifvsoqm.duckdns.org",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6948,15 +6948,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "home-100968.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6964,7 +6964,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6972,15 +6972,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "att-101695.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -6988,15 +6988,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "ylgavqlgwr.duckdns.org",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "TIMEOUT",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7004,7 +7004,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7012,7 +7012,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7020,7 +7020,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7028,55 +7028,55 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "att-108035.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "webmail-107376.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "0pensea.com.cn",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "ph2-cc-pages.s3.ap-southeast-2.amazonaws.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "cn.manbet172.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "vn76.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7084,7 +7084,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7092,15 +7092,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "98a8e091083f27.lhr.life",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7108,7 +7108,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7116,7 +7116,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7124,7 +7124,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7132,7 +7132,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7140,31 +7140,31 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "home-101904.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "apple-website-with-react.vercel.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "my-bt-51c04c.webflow.io",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7172,31 +7172,31 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "businees-suite-supports.info",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "jgunrwigiwbegubeggrggrg.azurewebsites.net",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "www.hq-innovacion.mx",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7204,7 +7204,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7212,7 +7212,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7220,23 +7220,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "l2.paddlefishthebook.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "chgf3n.webwave.dev",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7244,7 +7244,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7252,23 +7252,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "review-submit-nine.vercel.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "salam228.wixsite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7276,7 +7276,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7284,7 +7284,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7292,7 +7292,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7300,15 +7300,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "152.32.171.204",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_NAMESERVERS",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7316,23 +7316,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "telegrast.club",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "bt-109705.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7340,7 +7340,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7348,7 +7348,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7356,7 +7356,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7364,7 +7364,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7372,7 +7372,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7380,15 +7380,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "irforiedjk.weebly.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7396,7 +7396,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7404,7 +7404,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7412,23 +7412,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "bt-107744.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "ahhhh.pe.kr",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7436,7 +7436,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7444,15 +7444,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "telepgrnc.xyz",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7460,7 +7460,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7468,7 +7468,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7476,15 +7476,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "cyan446437.studio.site",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7492,7 +7492,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7500,7 +7500,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7508,7 +7508,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7516,15 +7516,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "wrroca.webwave.dev",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7532,7 +7532,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7540,7 +7540,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7548,31 +7548,31 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "secure-documents.glitch.me",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "bt-109599.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "mayorlineaguilera.cl",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7580,15 +7580,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "www.telegrawm.work",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7596,7 +7596,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7604,7 +7604,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7612,7 +7612,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7620,7 +7620,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7628,31 +7628,31 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "vvhatsapp.sale",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "0.0.0assets.cryptonight.net",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "helpcenter-for-business-open-cases-appeal-id-261.vercel.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7660,7 +7660,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7668,7 +7668,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7676,7 +7676,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7684,7 +7684,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7692,15 +7692,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "94431849443184.paddlefishthebook.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7708,15 +7708,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "att-109708.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7724,7 +7724,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7732,23 +7732,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "distribuidoradecarnesaee.com.br",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "openseapro848.vercel.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7756,7 +7756,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7764,7 +7764,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7772,7 +7772,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7780,31 +7780,31 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "3656aa.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "xwibmtuzdy.duckdns.org",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "TIMEOUT",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "yjheznjfin.duckdns.org",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "TIMEOUT",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7812,7 +7812,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7820,7 +7820,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7828,15 +7828,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "n.pkup.fr",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7844,7 +7844,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7852,15 +7852,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "www.zqzbgw.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7868,7 +7868,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7876,7 +7876,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7884,15 +7884,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "att-106383.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7900,15 +7900,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "p0rdjx.webwave.dev",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7916,7 +7916,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7924,15 +7924,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "metahelp-content-violation-03.replit.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7940,7 +7940,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7948,7 +7948,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7956,31 +7956,31 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "hotmail-100358.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "att-106881.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "mail-102416.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7988,7 +7988,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -7996,7 +7996,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8004,7 +8004,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8012,15 +8012,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "telepgrnc.cyou",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8028,23 +8028,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "fb-pages-review-violation-here.replit.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "open-sea79k.vercel.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8052,7 +8052,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8060,23 +8060,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "difficult-peat-cashew.glitch.me",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "btinternet-107156.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8084,7 +8084,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8092,7 +8092,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8100,7 +8100,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8108,7 +8108,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8116,15 +8116,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "020k365.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8132,7 +8132,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8140,15 +8140,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "thefriss.ddns.net",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8156,7 +8156,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8164,15 +8164,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "bd8d2c56-5b1f-494c-b9c6-6a0bb42fb78d-00-3rn6wu7j635jr.picard.repl.co",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8180,7 +8180,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8188,23 +8188,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "3659001.net",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "0.0mx03.cryptonight.net",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8212,7 +8212,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8220,7 +8220,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8228,15 +8228,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "apply-contact-support-violation.replit.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8244,15 +8244,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "sky-105590.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8260,7 +8260,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8268,15 +8268,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "www.12316mall.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8284,23 +8284,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "pancakeswapclaims074.vercel.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "business-105471.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8308,15 +8308,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "www.cxpqst.cc",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8324,7 +8324,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8332,7 +8332,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8340,7 +8340,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8348,23 +8348,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "hu.vodone.ygto.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "yiqezxsmqn.duckdns.org",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "TIMEOUT",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8372,7 +8372,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8380,23 +8380,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "autoplanet.com.gr",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "at-tnotce2.pory.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8404,7 +8404,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8412,47 +8412,47 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "telstra-105541.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "0.0.0.0forum.cryptonight.net",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "rb.gy",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "www.ge5yrb.cn",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "attnet-104274.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8460,15 +8460,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "telegrart.fit",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8476,15 +8476,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "atwebstorenew.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8492,31 +8492,31 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "ca.yyuzhounft.ru.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "mkramer03.wixsite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "telegrast.icu",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8524,23 +8524,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "telegraqm.club",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "login.myfansjerseys.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8548,7 +8548,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8556,7 +8556,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8564,15 +8564,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "home-109938.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8580,7 +8580,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8588,23 +8588,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "btinternet-106785.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "att-mail-109622.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8612,15 +8612,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "login.phimxuyenkhong.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8628,7 +8628,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8636,7 +8636,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8644,7 +8644,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8652,7 +8652,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8660,15 +8660,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "baishan.search-adlinks4.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8676,7 +8676,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8684,23 +8684,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "flyairprestige.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "sytuii.weebly.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8708,15 +8708,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "att-106440.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8724,15 +8724,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "4tyea75.wixsite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8740,7 +8740,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8748,7 +8748,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8756,7 +8756,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8764,15 +8764,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "openseaprojts-claimnfts.vercel.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8780,7 +8780,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8788,31 +8788,31 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "schoolofrockhb.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "my-bt-ed1acb.webflow.io",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "bet3659988.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8820,7 +8820,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8828,23 +8828,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "www.bairrosonline.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "darknessz.smfforfree3.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8852,15 +8852,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "att-104332.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8868,7 +8868,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8876,7 +8876,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8884,7 +8884,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8892,7 +8892,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8900,39 +8900,39 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "attserverinsemailfejhbdsfwdg.weebly.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "www.telegrazm.icu",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "dft-104097.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "jeanhalley.wixsite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8940,15 +8940,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "att-login2356.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8956,15 +8956,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "www.jiaocs.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8972,15 +8972,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "cijowa1028.wixsite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -8988,15 +8988,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "blog.storrea.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9004,7 +9004,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9012,23 +9012,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "louisechamberss.wixsite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "mgcvuei.wixsite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9036,23 +9036,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "dcsimii.wixsite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "runachayecuador.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9060,7 +9060,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9068,7 +9068,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9076,39 +9076,39 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "bnb-id8303.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "rellis0729.wixsite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "tfenzn.xyz",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "bt-internet-103896.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9116,7 +9116,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9124,7 +9124,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9132,7 +9132,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9140,15 +9140,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "adaptable-mango-xzff8f.mystrikingly.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9156,7 +9156,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9164,7 +9164,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9172,23 +9172,23 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "click-nft55.vercel.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "hattiecarwell8.wixsite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9196,7 +9196,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9204,15 +9204,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "login.fbm-media.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9220,7 +9220,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9228,7 +9228,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9236,7 +9236,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9244,7 +9244,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9252,15 +9252,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "cx37292.tw1.ru",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NXDOMAIN",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9268,15 +9268,15 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "10e596b.wcomhost.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9284,7 +9284,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9292,55 +9292,55 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "185.217.0.181",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_NAMESERVERS",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "0.0.0.0mailgate.cryptonight.net",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "p3uocj.webwave.dev",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "remove-violations1.vercel.app",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "pulsapaypal.co.id",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
         "domain": "attnet-105309-101106.weeblysite.com",
         "first_seen": 1716033896,
         "last_seen": 1716033896,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9348,7 +9348,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     },
     {
@@ -9356,7 +9356,7 @@
         "first_seen": 1716033896,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716033909,
         "whitelisted": 0
     }
 ]
