@@ -16339,8 +16339,8 @@
         "domain": "mcs-coinbase-verify-accountlogin.ashtdo.shop",
         "first_seen": 1716134596,
         "last_seen": 1716134596,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716134621,
         "whitelisted": 0
     }
 ]
