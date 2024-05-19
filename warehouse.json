@@ -2380,7 +2380,7 @@
         "first_seen": 1715796037,
         "last_seen": 1716142141,
         "dns_status": "OK",
-        "dns_check_date": 1715969020,
+        "dns_check_date": 1716142156,
         "whitelisted": 0
     },
     {
@@ -2388,7 +2388,7 @@
         "first_seen": 1715796037,
         "last_seen": 1716142141,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715969020,
+        "dns_check_date": 1716142156,
         "whitelisted": 0
     },
     {
@@ -2396,7 +2396,7 @@
         "first_seen": 1715796037,
         "last_seen": 1716142141,
         "dns_status": "OK",
-        "dns_check_date": 1715969020,
+        "dns_check_date": 1716142156,
         "whitelisted": 0
     },
     {
@@ -2404,7 +2404,7 @@
         "first_seen": 1715796037,
         "last_seen": 1716142141,
         "dns_status": "OK",
-        "dns_check_date": 1715969020,
+        "dns_check_date": 1716142156,
         "whitelisted": 0
     },
     {
@@ -2811,8 +2811,8 @@
         "domain": "apple.fep171.com",
         "first_seen": 1715969001,
         "last_seen": 1716012198,
-        "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715969020,
+        "dns_status": "NO_NAMESERVERS",
+        "dns_check_date": 1716142156,
         "whitelisted": 0
     },
     {
