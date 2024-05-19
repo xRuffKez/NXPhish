@@ -2148,7 +2148,7 @@
         "first_seen": 1715580033,
         "last_seen": 1716127407,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715947477,
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
@@ -2156,7 +2156,7 @@
         "first_seen": 1715601643,
         "last_seen": 1716127407,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715947477,
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
@@ -2164,7 +2164,7 @@
         "first_seen": 1715601643,
         "last_seen": 1716127407,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715947477,
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
@@ -2172,7 +2172,7 @@
         "first_seen": 1715601643,
         "last_seen": 1716127407,
         "dns_status": "OK",
-        "dns_check_date": 1715947477,
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
@@ -2356,7 +2356,7 @@
         "first_seen": 1715774452,
         "last_seen": 1716127407,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715947477,
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
@@ -2364,7 +2364,7 @@
         "first_seen": 1715774452,
         "last_seen": 1716127407,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715947477,
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
@@ -2372,7 +2372,7 @@
         "first_seen": 1715774452,
         "last_seen": 1716127407,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715947477,
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
@@ -2740,7 +2740,7 @@
         "first_seen": 1715947464,
         "last_seen": 1716033896,
         "dns_status": "OK",
-        "dns_check_date": 1715947477,
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
@@ -2748,7 +2748,7 @@
         "first_seen": 1715947464,
         "last_seen": 1716033896,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715947477,
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
@@ -2756,7 +2756,7 @@
         "first_seen": 1715947464,
         "last_seen": 1716026608,
         "dns_status": "NO_NAMESERVERS",
-        "dns_check_date": 1715947477,
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
@@ -2764,7 +2764,7 @@
         "first_seen": 1715947464,
         "last_seen": 1716127407,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715947477,
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
@@ -2772,7 +2772,7 @@
         "first_seen": 1715947464,
         "last_seen": 1716105794,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715947477,
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
@@ -2780,15 +2780,15 @@
         "first_seen": 1715947464,
         "last_seen": 1716026608,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715947477,
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
         "domain": "frosty-document-5022.dscgs8xo.workers.dev",
         "first_seen": 1715947464,
         "last_seen": 1716069816,
-        "dns_status": "NO_NAMESERVERS",
-        "dns_check_date": 1715947477,
+        "dns_status": "OK",
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
@@ -2796,7 +2796,7 @@
         "first_seen": 1715947464,
         "last_seen": 1716127407,
         "dns_status": "OK",
-        "dns_check_date": 1715947477,
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
@@ -2804,7 +2804,7 @@
         "first_seen": 1715947464,
         "last_seen": 1716026608,
         "dns_status": "OK",
-        "dns_check_date": 1715947477,
+        "dns_check_date": 1716127419,
         "whitelisted": 0
     },
     {
