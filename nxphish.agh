@@ -1,15 +1,15 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716120317
-# Database Hash: 0c06d5394534cc595e1d102b7d78aa7af51a058e
-# Generated at: 2024-05-19 12:05:17
+# Version: 1716127433
+# Database Hash: fd55b70bf26ca730d6ee4afa8d929d52abb428f7
+# Generated at: 2024-05-19 14:03:53
 # Expires: 1 day
-# Number of phishing domains: 1046
+# Number of phishing domains: 1047
 # Top 10 Abused TLDs:
-# dev: 589 (56.31%)
-# io: 109 (10.42%)
-# com: 95 (9.08%)
-# app: 28 (2.68%)
+# dev: 590 (56.35%)
+# io: 109 (10.41%)
+# com: 95 (9.07%)
+# app: 28 (2.67%)
 # id: 14 (1.34%)
 # link: 12 (1.15%)
 # me: 10 (0.96%)
@@ -279,6 +279,7 @@
 ||fnchlwgks2phfd6.pages.dev^
 ||formsly-form.web.app^
 ||free-sex-with-me.pages.dev^
+||frosty-document-5022.dscgs8xo.workers.dev^
 ||g7fy3.shop^
 ||gaahahs.vrl2023.com^
 ||gain.pages.dev^
