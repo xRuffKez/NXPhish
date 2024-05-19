@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716105818
-# Database Hash: 4285982811dc58ad8398893c740160c2b4e0c950
-# Generated at: 2024-05-19 08:03:38
+# Version: 1716113025
+# Database Hash: 1edef60be8da97f328957a806edf6f2299b199d5
+# Generated at: 2024-05-19 10:03:45
 # Expires: 1 day
-# Number of phishing domains: 859
+# Number of phishing domains: 861
 # Top 10 Abused TLDs:
-# dev: 496 (57.74%)
-# com: 77 (8.96%)
-# io: 71 (8.27%)
+# dev: 496 (57.61%)
+# com: 79 (9.18%)
+# io: 71 (8.25%)
 # app: 22 (2.56%)
 # id: 11 (1.28%)
 # link: 11 (1.28%)
 # me: 8 (0.93%)
 # net: 8 (0.93%)
-# ug: 4 (0.47%)
-# nl: 4 (0.47%)
+# ug: 4 (0.46%)
+# nl: 4 (0.46%)
 
 ||0177.datingg-voice.workers.dev^
 ||0365online.pages.dev^
@@ -849,6 +849,7 @@
 ||www.accesscherry.com^
 ||www.allegronak.net^
 ||www.autoscurt24.de^
+||www.coinbase.com^
 ||www.dosyacezasi.com^
 ||www.es-bbva-proteccion.com^
 ||www.filesusr.com^
@@ -859,6 +860,7 @@
 ||www.inusualinteriorismo.com^
 ||www.keepo.io^
 ||www.kldvcjq.com^
+||www.linkedin.com^
 ||www.netfliii.com^
 ||www.netflixbisnis.com^
 ||www.northlandpaddlers.org^
