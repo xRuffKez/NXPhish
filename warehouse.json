@@ -13083,8 +13083,8 @@
         "domain": "mwww.cs-coinbase-verify-accountlogin.ashtdo.shop",
         "first_seen": 1716113000,
         "last_seen": 1716113000,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716113012,
         "whitelisted": 0
     },
     {
@@ -13092,7 +13092,7 @@
         "first_seen": 1716113000,
         "last_seen": 1716113000,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716113012,
         "whitelisted": 0
     },
     {
@@ -13100,7 +13100,7 @@
         "first_seen": 1716113000,
         "last_seen": 1716113000,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716113012,
         "whitelisted": 0
     }
 ]
