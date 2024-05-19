@@ -13028,15 +13028,15 @@
         "first_seen": 1716091407,
         "last_seen": 1716091407,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716091419,
         "whitelisted": 0
     },
     {
         "domain": "fedsso-pp.bankofamerica.com",
         "first_seen": 1716091407,
         "last_seen": 1716091407,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716091419,
         "whitelisted": 0
     },
     {
@@ -13044,39 +13044,39 @@
         "first_seen": 1716091407,
         "last_seen": 1716091407,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716091419,
         "whitelisted": 0
     },
     {
         "domain": "dojo-santander.com",
         "first_seen": 1716091407,
         "last_seen": 1716091407,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716091419,
         "whitelisted": 0
     },
     {
         "domain": "amazonml999.com",
         "first_seen": 1716091407,
         "last_seen": 1716091407,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716091419,
         "whitelisted": 0
     },
     {
         "domain": "windows-go.net",
         "first_seen": 1716091407,
         "last_seen": 1716091407,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716091419,
         "whitelisted": 0
     },
     {
         "domain": "barclays.top",
         "first_seen": 1716091407,
         "last_seen": 1716091407,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716091419,
         "whitelisted": 0
     }
 ]
