@@ -2668,7 +2668,7 @@
         "first_seen": 1715911996,
         "last_seen": 1716084903,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1715912010,
+        "dns_check_date": 1716084915,
         "whitelisted": 0
     },
     {
@@ -13019,8 +13019,8 @@
         "domain": "connect-netflix.almurtazabrothers.com",
         "first_seen": 1716084903,
         "last_seen": 1716084903,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716084915,
         "whitelisted": 0
     }
 ]
