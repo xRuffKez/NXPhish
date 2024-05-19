@@ -1,19 +1,19 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716141827
-# Database Hash: fdc70c87e2b0cb849b277bcdc2ba2eef881b9996
-# Generated at: 2024-05-19 18:03:47
+# Version: 1716142176
+# Database Hash: e074351745c13ab45da415041a269e2ba96970f6
+# Generated at: 2024-05-19 18:09:36
 # Expires: 1 day
-# Number of phishing domains: 1048
+# Number of phishing domains: 1046
 # Top 10 Abused TLDs:
-# dev: 591 (56.39%)
-# io: 109 (10.40%)
-# com: 95 (9.06%)
-# app: 28 (2.67%)
+# dev: 591 (56.50%)
+# io: 109 (10.42%)
+# com: 93 (8.89%)
+# app: 28 (2.68%)
 # id: 14 (1.34%)
 # link: 12 (1.15%)
-# me: 10 (0.95%)
-# net: 10 (0.95%)
+# me: 10 (0.96%)
+# net: 10 (0.96%)
 # za: 5 (0.48%)
 # ug: 4 (0.38%)
 
@@ -954,7 +954,6 @@
 ||test-5rm.pages.dev^
 ||test-cdn-python-ts.unforgetmemory.ltd^
 ||tight-wood-8fc2.zip-confirm.workers.dev^
-||tinyurl.com^
 ||tjqgau-automationtransformation.pages.dev^
 ||tokenp0kczt.net^
 ||tptoken.in^
@@ -1050,7 +1049,6 @@
 ||www.reply-mailbusiness.de^
 ||www.shopp9.vip^
 ||www.snapto.link^
-||www.tinyurl.com^
 ||x3rq8.shop^
 ||xavier6709.github.io^
 ||xvideo-7ho.pages.dev^
