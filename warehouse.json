@@ -3733,7 +3733,7 @@
         "last_seen": 1716026608,
         "dns_status": "OK",
         "dns_check_date": 1715991093,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "support.alertcase3482.me",
@@ -4957,7 +4957,7 @@
         "last_seen": 1716026608,
         "dns_status": "OK",
         "dns_check_date": 1715991093,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "cakepiexyz.pages.dev",
