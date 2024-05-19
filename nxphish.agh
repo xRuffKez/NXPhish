@@ -1,15 +1,15 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716084931
-# Database Hash: 05048fb0b54284c15608a421eb86237012c5d7b6
-# Generated at: 2024-05-19 02:15:31
+# Version: 1716091435
+# Database Hash: f191ee659e12227e1ddef1bf4c272f3bce79a72d
+# Generated at: 2024-05-19 04:03:55
 # Expires: 1 day
-# Number of phishing domains: 857
+# Number of phishing domains: 859
 # Top 10 Abused TLDs:
-# dev: 496 (57.88%)
-# com: 76 (8.87%)
-# io: 71 (8.28%)
-# app: 22 (2.57%)
+# dev: 496 (57.74%)
+# com: 77 (8.96%)
+# io: 71 (8.27%)
+# app: 22 (2.56%)
 # id: 11 (1.28%)
 # link: 11 (1.28%)
 # me: 8 (0.93%)
@@ -62,6 +62,7 @@
 ||apple-photo.app^
 ||apple-sms.support^
 ||apple-suporte.us^
+||apple-verificar.com^
 ||appplant20001876598.github.io^
 ||appuniswap-swap.pages.dev^
 ||arabbasiastarfzz.pages.dev^
@@ -775,6 +776,7 @@
 ||support-ads-team-ac574.firebaseapp.com^
 ||support-ads-team-ade46.firebaseapp.com^
 ||support-ads-team-b2f3b.firebaseapp.com^
+||support-apple-location.co^
 ||support.alertcase3482.me^
 ||sydrehan.github.io^
 ||symmetrical-pancakesymmetrical-pancakesymmetrical-pancake.pages.dev^
