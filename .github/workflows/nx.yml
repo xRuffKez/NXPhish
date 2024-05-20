@@ -1,0 +1,58 @@
+name: Update NXPhish
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 */2 * * *'
+
+jobs:
+  setup_and_run_scripts:
+    name: Setup and Run Scripts
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Run Harvestor Script
+      run: python harvestor.py  
+
+    - name: Commit and push changes for Harvestor
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add warehouse.json
+        git commit -m "Update Database"
+        git push
+
+    - name: Run DNS Check Script
+      run: python checkdns.py
+
+    - name: Commit and push changes for DNS Check
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add warehouse.json
+        git commit -m "Check and refresh DNS Status for Database"
+        git push
+
+    - name: Run List Generator Script
+      run: python createlist.py
+
+    - name: Commit and push changes for List Generator
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add nxphish.agh
+        git commit -m "Generate Phishing List from Database"
+        git push
