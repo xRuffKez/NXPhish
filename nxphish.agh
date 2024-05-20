@@ -1,18 +1,18 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716228394
-# Database Hash: 4ee4728460b0bae55d8f772783e17beca157ca91
-# Generated at: 2024-05-20 18:06:34
+# Version: 1716235564
+# Database Hash: e9060169986b023c08be70a2bb1eb0b382fdd88f
+# Generated at: 2024-05-20 20:06:04
 # Expires: 1 day
-# Number of phishing domains: 1407
+# Number of phishing domains: 1408
 # Top 10 Abused TLDs:
-# dev: 722 (51.31%)
-# io: 155 (11.02%)
-# com: 144 (10.23%)
+# dev: 722 (51.28%)
+# io: 155 (11.01%)
+# com: 145 (10.30%)
 # app: 64 (4.55%)
 # id: 26 (1.85%)
 # net: 15 (1.07%)
-# link: 14 (1.00%)
+# link: 14 (0.99%)
 # org: 10 (0.71%)
 # me: 10 (0.71%)
 # cn: 8 (0.57%)
@@ -214,6 +214,7 @@
 ||cara-pembukaan-akun-dana.tev.biz.id^
 ||casdag.pages.dev^
 ||case-1000928273235.citysportsonline.com^
+||case-noti614778671562.meetaafacebook.com^
 ||caupo.pages.dev^
 ||ccorreos.life^
 ||cecilion.pages.dev^
