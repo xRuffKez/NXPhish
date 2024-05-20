@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716171318
-# Database Hash: cbeb85e42b2d17d5e267a347d28413819dc270ae
-# Generated at: 2024-05-20 02:15:18
+# Version: 1716177868
+# Database Hash: 1d376340647696a3d77f8173214f652fa7e0925e
+# Generated at: 2024-05-20 04:04:28
 # Expires: 1 day
 # Number of phishing domains: 1197
 # Top 10 Abused TLDs:
-# dev: 632 (52.80%)
+# dev: 625 (52.21%)
 # io: 145 (12.11%)
-# com: 118 (9.86%)
-# app: 47 (3.93%)
+# com: 119 (9.94%)
+# app: 48 (4.01%)
 # id: 22 (1.84%)
 # net: 13 (1.09%)
 # link: 12 (1.00%)
-# me: 9 (0.75%)
+# me: 8 (0.67%)
+# uk: 6 (0.50%)
 # org: 6 (0.50%)
-# top: 6 (0.50%)
 
 ||0177.datingg-voice.workers.dev^
 ||0365online.pages.dev^
@@ -53,7 +53,6 @@
 ||action-req.github.io^
 ||adamgottliebshiatsu.com^
 ||admob-gmats.uc.r.appspot.com^
-||adobe-pdf.pages.dev^
 ||advisory-team-319057619-6a1h11qd11.netlify.app^
 ||agelbam.ru^
 ||air.bnb-id8302.com^
@@ -67,7 +66,6 @@
 ||aktifkann-dana-payleterr.tev.biz.id^
 ||aldo-kriek.github.io^
 ||amazon-by-aftab.netlify.app^
-||amazon-clone-aku.pages.dev^
 ||amazon-cloneapp-html-css.netlify.app^
 ||amazon-clooneee.netlify.app^
 ||amazonservice.fly.dev^
@@ -80,9 +78,13 @@
 ||anthonyvitarellidds-c4h.pages.dev^
 ||anurup11.github.io^
 ||aoaloserviceteam.mefyuyumlo.workers.dev^
+||apple-assitance-id.info^
 ||apple-find-maps.org^
+||apple-id-assitance.app^
+||apple-id-assitance.info^
 ||apple-led-d.click^
 ||apple-mexico-2024.com^
+||apple-mydevice.online^
 ||apple-photo.app^
 ||apple-sms.support^
 ||apple-suporte.us^
@@ -91,6 +93,7 @@
 ||apple.lforgots.com^
 ||apple.toleramena.com^
 ||applelc.top^
+||apply-juggle.pages.dev^
 ||applysolvv.github.io^
 ||appplant20001876598.github.io^
 ||appuniswap-swap.pages.dev^
@@ -287,7 +290,6 @@
 ||facebook-login-clone.pages.dev^
 ||facebook-review1.github.io^
 ||facebook-watch.pages.dev^
-||facebook.check-protect-account.me^
 ||facebookconnect.pages.dev^
 ||facebooksecuritys.blogspot.mk^
 ||facebooksecuritys.blogspot.ro^
@@ -383,7 +385,6 @@
 ||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
-||hotmail-update.doltenokku.workers.dev^
 ||hotmailupdated.pages.dev^
 ||hrutfazpeknxtdkuahje.vpe9ja.cn^
 ||hsl.pages.dev^
@@ -407,7 +408,6 @@
 ||instagramprofiileurl.blogspot.al^
 ||instagramprofiileurl.blogspot.am^
 ||instagramprofiileurl.blogspot.bg^
-||instagramprofiileurl.blogspot.ca^
 ||instagramprofiileurl.blogspot.co.at^
 ||instagramprofiileurl.blogspot.co.id^
 ||instagramprofiileurl.blogspot.co.il^
@@ -422,6 +422,7 @@
 ||instagramprofiileurl.blogspot.com.ng^
 ||instagramprofiileurl.blogspot.cz^
 ||instagramprofiileurl.blogspot.dk^
+||instagramprofiileurl.blogspot.fi^
 ||instagramprofiileurl.blogspot.fr^
 ||instagramprofiileurl.blogspot.gr^
 ||instagramprofiileurl.blogspot.hk^
@@ -432,6 +433,7 @@
 ||instagramprofiileurl.blogspot.lu^
 ||instagramprofiileurl.blogspot.mk^
 ||instagramprofiileurl.blogspot.nl^
+||instagramprofiileurl.blogspot.pe^
 ||instagramprofiileurl.blogspot.pt^
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.rs^
@@ -525,6 +527,7 @@
 ||metamaosklgin.gitbook.io^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.am^
+||metamask-wallett.blogspot.ba^
 ||metamask-wallett.blogspot.ca^
 ||metamask-wallett.blogspot.ch^
 ||metamask-wallett.blogspot.co.uk^
@@ -533,6 +536,7 @@
 ||metamask-wallett.blogspot.com.co^
 ||metamask-wallett.blogspot.com.cy^
 ||metamask-wallett.blogspot.com.ee^
+||metamask-wallett.blogspot.com.mt^
 ||metamask-wallett.blogspot.dk^
 ||metamask-wallett.blogspot.hk^
 ||metamask-wallett.blogspot.hr^
@@ -547,13 +551,13 @@
 ||metamaskinc.blogspot.co.at^
 ||metamaskinc.blogspot.co.id^
 ||metamaskinc.blogspot.com.ar^
+||metamaskinc.blogspot.com.co^
 ||metamaskinc.blogspot.com.cy^
 ||metamaskinc.blogspot.com.ee^
 ||metamaskinc.blogspot.com.eg^
 ||metamaskinc.blogspot.com.es^
 ||metamaskinc.blogspot.com.ng^
 ||metamaskinc.blogspot.com.tr^
-||metamaskinc.blogspot.com.uy^
 ||metamaskinc.blogspot.cz^
 ||metamaskinc.blogspot.dk^
 ||metamaskinc.blogspot.fi^
@@ -562,8 +566,8 @@
 ||metamaskinc.blogspot.ie^
 ||metamaskinc.blogspot.in^
 ||metamaskinc.blogspot.it^
-||metamaskinc.blogspot.kr^
 ||metamaskinc.blogspot.lt^
+||metamaskinc.blogspot.lu^
 ||metamaskinc.blogspot.md^
 ||metamaskinc.blogspot.mk^
 ||metamaskinc.blogspot.mx^
@@ -575,7 +579,6 @@
 ||metamaskinc.blogspot.sg^
 ||metamaskinc.blogspot.si^
 ||metamaskinc.blogspot.sk^
-||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
 ||metamasklogiinb.gitbook.io^
 ||metamaskqt.com^
@@ -596,7 +599,6 @@
 ||microsoft-alert-1xb01.pages.dev^
 ||microsoft-identity-verification.e27a2722.workers.dev^
 ||microsoftlogin.cartwild.workers.dev^
-||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
 ||milfsexvipdating.pages.dev^
 ||mitamaks-logain.gitbook.io^
 ||mjnvsai.github.io^
@@ -620,12 +622,10 @@
 ||myatt.pages.dev^
 ||myblog-mer3m4xh6m.live-website.com^
 ||myconnect-sg.pages.dev^
-||myoutlook-alerts0.lofeze.workers.dev^
 ||ndj.pages.dev^
 ||ndk.pages.dev^
 ||neraboti13.pages.dev^
 ||netfimarketing.com^
-||netflix-clone-5iz.pages.dev^
 ||netflix-clone-dvp.pages.dev^
 ||netflix-de.eth.limo^
 ||netflix-dj7.pages.dev^
@@ -730,7 +730,6 @@
 ||pub-145f9a40fdf54b8e8909d57f6bfde303.r2.dev^
 ||pub-16993d60d2a647a49703990119102813.r2.dev^
 ||pub-1796e448552a4b3fbf77aeaeb46380fb.r2.dev^
-||pub-19128e0e6ecc4449a51ef13fa09d2461.r2.dev^
 ||pub-1a3a14c1e48e4021816d1d96578a9031.r2.dev^
 ||pub-1d772181dd95482a80ce0d878afd8d78.r2.dev^
 ||pub-1e7c163e4efd48a3b40fc1992ffc5612.r2.dev^
@@ -807,7 +806,6 @@
 ||pub-67000455964e4b4abf488b3d9f8823e8.r2.dev^
 ||pub-67b1238eb6e243dc93f415a9f97faade.r2.dev^
 ||pub-682ad3b65d944376b919745aae3c56d4.r2.dev^
-||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-6ac2f57edd5141118135012db5311b18.r2.dev^
 ||pub-6d57d242e9e142989001221633f02a30.r2.dev^
 ||pub-6db16a29d97d42e59a867e3b0642c7a2.r2.dev^
@@ -1153,6 +1151,7 @@
 ||worker-summer-pond-1a8c.potijo9433.workers.dev^
 ||worker-sweet-lake-e7af.derzuteydo.workers.dev^
 ||worker-tight-art-c6d0.kordaslet.workers.dev^
+||workspace.google.com^
 ||wpadmin.pages.dev^
 ||wq0ff0aebb6ew92ffa2083j8e5s6yss67s823hs82heus83h8edd7337dh.pages.dev^
 ||wq23.pages.dev^
@@ -1172,6 +1171,7 @@
 ||www.aldatiadeduyuru.com^
 ||www.allegronak.net^
 ||www.ama889.vip^
+||www.amazon.co.uk^
 ||www.anfrageverteiler.de^
 ||www.autoscurt24.de^
 ||www.coinbase.com^
