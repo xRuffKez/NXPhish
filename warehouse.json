@@ -2508,7 +2508,7 @@
         "first_seen": 1715846624,
         "last_seen": 1716041035,
         "dns_status": "OK",
-        "dns_check_date": 1716026619,
+        "dns_check_date": 1716205245,
         "whitelisted": 0
     },
     {
@@ -19419,8 +19419,8 @@
         "domain": "apple-mystore-online-portal.com",
         "first_seen": 1716205244,
         "last_seen": 1716205244,
-        "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_status": "NO_ANSWER",
+        "dns_check_date": 1716205245,
         "whitelisted": 0
     }
 ]
