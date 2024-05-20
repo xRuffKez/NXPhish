@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716206705
-# Database Hash: 168a699df57d5ac1b04e43a41db97abf93c8ea46
-# Generated at: 2024-05-20 12:05:05
+# Version: 1716213849
+# Database Hash: 0211de5575b41f553aa8a4c90dcaa353fdb174e8
+# Generated at: 2024-05-20 14:04:09
 # Expires: 1 day
-# Number of phishing domains: 1420
+# Number of phishing domains: 1406
 # Top 10 Abused TLDs:
-# dev: 721 (50.77%)
-# io: 155 (10.92%)
-# com: 147 (10.35%)
-# app: 64 (4.51%)
-# id: 29 (2.04%)
-# net: 16 (1.13%)
-# link: 14 (0.99%)
-# org: 10 (0.70%)
-# me: 10 (0.70%)
-# shop: 8 (0.56%)
+# dev: 721 (51.28%)
+# io: 155 (11.02%)
+# com: 144 (10.24%)
+# app: 64 (4.55%)
+# id: 26 (1.85%)
+# net: 15 (1.07%)
+# link: 14 (1.00%)
+# org: 10 (0.71%)
+# me: 10 (0.71%)
+# cn: 8 (0.57%)
 
 ||0177.datingg-voice.workers.dev^
 ||0365online.pages.dev^
@@ -31,7 +31,6 @@
 ||3.skysky.workers.dev^
 ||3000robux.ru^
 ||3fl.me^
-||3twenty.co.uk^
 ||4a5a.important-chat.workers.dev^
 ||5b1kard-42.pages.dev^
 ||5b1kard-43.pages.dev^
@@ -61,11 +60,9 @@
 ||advisory-team-319057619-6a1h11qd11.netlify.app^
 ||agelbam.ru^
 ||air.bnb-id8302.com^
-||air.bnb-id8304.com^
 ||airbnb-frontpage.netlify.app^
 ||airbnbclone-marinas.netlify.app^
 ||airbnbhotel.netlify.app^
-||aisignaltrading.com^
 ||akarsh-7r.github.io^
 ||aktifkadanapaylater.gettnowz.my.id^
 ||aktifkan-dana-paylater.web-czs.org^
@@ -267,7 +264,6 @@
 ||confirmation.people-me.workers.dev^
 ||confirmation.verif-identity.workers.dev^
 ||confirmations.media-love.workers.dev^
-||contact.topadsapp.sbs^
 ||correos-esxpress.tempurl.host^
 ||courageous-palmier-7f4c9c.netlify.app^
 ||crdoc-term-8097.kasrhienddnhasae.workers.dev^
@@ -285,7 +281,6 @@
 ||cvdxdfvn2.pages.dev^
 ||cvwe42437557845846te.pages.dev^
 ||d16-c89.pages.dev^
-||d3qw1w6dazieuz.cloudfront.net^
 ||d8f7jbaxklw85.cloudfront.net^
 ||d8sj9.shop^
 ||damp-mountain-3f62.updatelogaccountprogramedrfwerwrdhsmm.workers.dev^
@@ -328,7 +323,6 @@
 ||disk.vwwv.workers.dev^
 ||dlogdapp.pages.dev^
 ||dmka.me^
-||doc0m.belpg-tor.my.id^
 ||docusign19.pages.dev^
 ||docusign20.pages.dev^
 ||donok.jekar.my.id^
@@ -379,7 +373,6 @@
 ||fb-account-remove.github.io^
 ||fb-ads-fix-account-74299.firebaseapp.com^
 ||fb.phoenixcloud.workers.dev^
-||fbmeta.perfform.top^
 ||ffbsecure-verify.org^
 ||ffredeemcode2000dimondnow.blogspot.com^
 ||field-6344.kaley1087.workers.dev^
@@ -481,7 +474,6 @@
 ||huhah.rgrgfsdsdsfdfgvb.my.id^
 ||humcheck.pages.dev^
 ||hycloud-c6f3.ylunndoiclrdaa.workers.dev^
-||icetitan.skin^
 ||id.datings-reload.workers.dev^
 ||ijhsk.github.io^
 ||ikcushjen.top^
@@ -611,7 +603,6 @@
 ||maile-logn.query81.workers.dev^
 ||maji1505.github.io^
 ||makeupfinishing.pages.dev^
-||manage.famiinregic7.my.id^
 ||marketplace.vaillango.com^
 ||marvelous-halva-be4910.netlify.app^
 ||marvintracy3.activehosted.com^
@@ -754,7 +745,6 @@
 ||netflixs-job.com^
 ||netflixs-task.com^
 ||networkvote.blogspot.com^
-||new-suprize.d4nna.shop^
 ||new2024voteforyourfavoritecontestant.blogspot.com^
 ||newfreefacebookapp.pages.dev^
 ||newkids-ua.eu^
@@ -1149,7 +1139,6 @@
 ||santrianaltelee.pages.dev^
 ||saotnabaukpchinz.lighttaupe52.workers.dev^
 ||sarfaraz-rumane.github.io^
-||saweran-dana-kaget.exs.biz.id^
 ||sayjana.blogspot.com^
 ||scotia-secure-2fauth-9a276d.netlify.app^
 ||sdbbnghh3.pages.dev^
@@ -1378,7 +1367,6 @@
 ||www-facebook.io.vn^
 ||www-mfacebook.vn^
 ||www.365connectaccess.com^
-||www.3twenty.co.uk^
 ||www.81847345-coinbase.com^
 ||www.aaalicciaaonliinee.com^
 ||www.accesscherry.com^
@@ -1408,7 +1396,6 @@
 ||www.lbc-autfirst.fr^
 ||www.linkedin.com^
 ||www.metamasks.world^
-||www.netfliii.com^
 ||www.netflixbisnis.com^
 ||www.northlandpaddlers.org^
 ||www.reply-mailbusiness.de^
@@ -1425,7 +1412,6 @@
 ||yaihooserviceteam.jigija-edogus.workers.dev^
 ||yellow-credit-3b12.mbtcom.workers.dev^
 ||yellow-recipe-c615.wl5n4b9b.workers.dev^
-||yenib269.top^
 ||yenib272.top^
 ||yenib274.top^
 ||yg-jointwell.pages.dev^
