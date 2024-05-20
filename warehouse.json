@@ -2604,7 +2604,7 @@
         "first_seen": 1715868189,
         "last_seen": 1716041035,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1716041048,
+        "dns_check_date": 1716220975,
         "whitelisted": 0
     },
     {
@@ -9364,15 +9364,15 @@
         "first_seen": 1716041035,
         "last_seen": 1716220974,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1716041048,
+        "dns_check_date": 1716220975,
         "whitelisted": 0
     },
     {
         "domain": "tx-amazon.com",
         "first_seen": 1716041035,
         "last_seen": 1716069816,
-        "dns_status": "NO_ANSWER",
-        "dns_check_date": 1716041048,
+        "dns_status": "NXDOMAIN",
+        "dns_check_date": 1716220975,
         "whitelisted": 0
     },
     {
@@ -9380,7 +9380,7 @@
         "first_seen": 1716041035,
         "last_seen": 1716220974,
         "dns_status": "NO_ANSWER",
-        "dns_check_date": 1716041048,
+        "dns_check_date": 1716220975,
         "whitelisted": 0
     },
     {
@@ -22660,7 +22660,7 @@
         "first_seen": 1716220974,
         "last_seen": 1716220974,
         "dns_status": "OK",
-        "dns_check_date": 0,
+        "dns_check_date": 1716220975,
         "whitelisted": 0
     }
 ]
