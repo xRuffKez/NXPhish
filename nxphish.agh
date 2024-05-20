@@ -1,14 +1,14 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716213849
-# Database Hash: 0211de5575b41f553aa8a4c90dcaa353fdb174e8
-# Generated at: 2024-05-20 14:04:09
+# Version: 1716220977
+# Database Hash: 660484133aaf33079dd18423b3840ed72f57c37d
+# Generated at: 2024-05-20 16:02:57
 # Expires: 1 day
-# Number of phishing domains: 1406
+# Number of phishing domains: 1407
 # Top 10 Abused TLDs:
-# dev: 721 (51.28%)
+# dev: 722 (51.31%)
 # io: 155 (11.02%)
-# com: 144 (10.24%)
+# com: 144 (10.23%)
 # app: 64 (4.55%)
 # id: 26 (1.85%)
 # net: 15 (1.07%)
@@ -356,6 +356,7 @@
 ||facebook-com-2ym.pages.dev^
 ||facebook-er2.pages.dev^
 ||facebook-login-clone.pages.dev^
+||facebook-resetpassword.pages.dev^
 ||facebook-review1.github.io^
 ||facebook-watch.pages.dev^
 ||facebookconnect.pages.dev^
