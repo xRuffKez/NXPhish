@@ -35,3 +35,11 @@ jobs:
         git commit -m "Update Database"
         git push
 
+    - name: Commit and Push Updated History and Plots
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add history.json tld_counts.png phishing_domains_over_time.png
+        git commit -m 'Update history and plots'
+        git push
+
