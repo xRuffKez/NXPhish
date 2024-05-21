@@ -7261,7 +7261,7 @@
         "last_seen": 1716205244,
         "dns_status": "OK",
         "dns_check_date": 1716333683,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "resolute-berry-perch.glitch.me",
@@ -9317,7 +9317,7 @@
         "last_seen": 1716242737,
         "dns_status": "OK",
         "dns_check_date": 1716333683,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "sg4kfs.webwave.dev",
@@ -11125,7 +11125,7 @@
         "last_seen": 1716242737,
         "dns_status": "NO_ANSWER",
         "dns_check_date": 1716333683,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "pagecsjpgpuzqflxdio0tozrvd8nro0gkjom.pages.dev",
