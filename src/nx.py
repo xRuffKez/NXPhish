@@ -8,8 +8,10 @@ import hashlib
 from datetime import datetime
 from collections import Counter
 import logging
+import matplotlib.pyplot as plt
 
 WAREHOUSE_FILENAME = "warehouse.json"
+HISTORY_FILENAME = "history.json"
 FEED_URLS = [
     "https://openphish.com/feed.txt",
     "https://phishunt.io/feed.txt",
@@ -41,14 +43,18 @@ def extract_domains_from_feed(feed_filename):
         for line in file:
             domain = line.strip()
             if domain:
-                parsed_domain = urlparse(domain).netloc
-                if not parsed_domain:  # If netloc is empty, it's likely just the domain
-                    parsed_domain = domain.split('/')[0]
+                parsed_domain = urlparse(domain).netloc.split(':')[0]
                 if parsed_domain:
                     domains.add(parsed_domain)
     return domains
 
 def create_warehouse_if_not_exists(filename):
+    if not os.path.exists(filename):
+        with open(filename, "w") as file:
+            json.dump([], file)
+        logging.info(f"Created '{filename}' file.")
+
+def create_history_if_not_exists(filename):
     if not os.path.exists(filename):
         with open(filename, "w") as file:
             json.dump([], file)
@@ -86,6 +92,7 @@ def update_json_with_domains(domains, filename):
         file.truncate()
         json.dump(updated_data, file, indent=4)
     logging.info(f"Updated '{filename}' with new domains.")
+    return len(updated_data)
 
 def check_dns_status(domain):
     resolver = dns.resolver.Resolver()
@@ -195,6 +202,61 @@ def write_output_file(filename, json_hash, ok_domains, tld_counts):
     except Exception as e:
         logging.error(f"Error writing to '{filename}': {e}")
 
+def plot_tld_counts(tld_counts):
+    try:
+        tlds, counts = zip(*tld_counts.most_common(10))
+        plt.figure(figsize=(10, 6))
+        plt.bar(tlds, counts, color='skyblue')
+        plt.xlabel('Top Level Domains (TLDs)')
+        plt.ylabel('Count')
+        plt.title('Top 10 Abused TLDs')
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.savefig('tld_counts.png')
+        logging.info("TLD counts plot saved as 'tld_counts.png'.")
+    except Exception as e:
+        logging.error(f"Error plotting TLD counts: {e}")
+
+def update_history(filename, num_phishing_domains):
+    current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    try:
+        with open(filename, "r+") as file:
+            try:
+                history = json.load(file)
+            except json.JSONDecodeError:
+                history = []
+
+            history.append({
+                "timestamp": current_time,
+                "phishing_domains": num_phishing_domains
+            })
+
+            file.seek(0)
+            file.truncate()
+            json.dump(history, file, indent=4)
+    except Exception as e:
+        logging.error(f"Error updating history: {e}")
+
+def plot_history(filename):
+    try:
+        with open(filename, "r") as file:
+            history = json.load(file)
+
+        timestamps = [entry['timestamp'] for entry in history]
+        phishing_domains = [entry['phishing_domains'] for entry in history]
+
+        plt.figure(figsize=(12, 6))
+        plt.plot(timestamps, phishing_domains, marker='o', linestyle='-', color='b')
+        plt.xlabel('Time')
+        plt.ylabel('Number of Phishing Domains')
+        plt.title('Phishing Domains Over Time')
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.savefig('phishing_domains_over_time.png')
+        logging.info("Phishing domains over time plot saved as 'phishing_domains_over_time.png'.")
+    except Exception as e:
+        logging.error(f"Error plotting history: {e}")
+
 def main():
     for url, filename in zip(FEED_URLS, FEED_FILENAMES):
         download_file(url, filename)
@@ -204,8 +266,9 @@ def main():
         all_domains.update(extract_domains_from_feed(filename))
 
     create_warehouse_if_not_exists(WAREHOUSE_FILENAME)
+    create_history_if_not_exists(HISTORY_FILENAME)
 
-    update_json_with_domains(all_domains, WAREHOUSE_FILENAME)
+    num_phishing_domains = update_json_with_domains(all_domains, WAREHOUSE_FILENAME)
 
     update_dns_status(WAREHOUSE_FILENAME)
 
@@ -218,6 +281,10 @@ def main():
         ok_domains, tld_counts = collect_ok_domains(data)
         write_output_file("nxphish.agh", json_hash, ok_domains, tld_counts)
         logging.info("nxphish.agh has been updated.")
+
+        plot_tld_counts(tld_counts)
+        update_history(HISTORY_FILENAME, num_phishing_domains)
+        plot_history(HISTORY_FILENAME)
     else:
         logging.info("No changes detected. nxphish.agh is up to date.")
 
