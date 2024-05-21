@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716257749
-# Database Hash: 641b6e11cc6860877d1ff1b4add4eb7634b88ba0
-# Generated at: 2024-05-21 02:15:49
+# Version: 1716264385
+# Database Hash: 31df9ce91e6145966fc6078e93ea7bac24ee5dd2
+# Generated at: 2024-05-21 04:06:25
 # Expires: 1 day
-# Number of phishing domains: 1238
+# Number of phishing domains: 1241
 # Top 10 Abused TLDs:
-# dev: 632 (51.05%)
-# io: 153 (12.36%)
-# com: 116 (9.37%)
-# app: 59 (4.77%)
-# id: 23 (1.86%)
+# dev: 632 (50.93%)
+# io: 153 (12.33%)
+# com: 118 (9.51%)
+# app: 59 (4.75%)
+# id: 23 (1.85%)
 # link: 16 (1.29%)
-# net: 12 (0.97%)
-# cn: 8 (0.65%)
-# hr: 7 (0.57%)
+# net: 13 (1.05%)
+# cn: 8 (0.64%)
+# hr: 7 (0.56%)
 # org: 6 (0.48%)
 
 ||0177.datingg-voice.workers.dev^
@@ -93,6 +93,7 @@
 ||apply-juggle.pages.dev^
 ||applysolvv.github.io^
 ||appplant20001876598.github.io^
+||apps-store-apple.net^
 ||appuniswap-swap.pages.dev^
 ||aqw.sdex17743.dns-dynamic.net^
 ||aratika-airbnb.netlify.app^
@@ -384,6 +385,7 @@
 ||google-jobsoffer7655.pages.dev^
 ||google-jobsoffer78005.pages.dev^
 ||google-jobspro89.pages.dev^
+||google-mapes.com^
 ||google-netcashjobs75.pages.dev^
 ||google-snake-game.com^
 ||google.cjysec.workers.dev^
@@ -1162,6 +1164,7 @@
 ||wasim-js.github.io^
 ||waterwinug.pages.dev^
 ||wdq22.eqd56err3f.workers.dev^
+||web-metamask.com^
 ||wegsa.pages.dev^
 ||wellsfargos.info^
 ||wga-709.pages.dev^
