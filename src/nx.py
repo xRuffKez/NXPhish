@@ -75,7 +75,7 @@ def update_json_with_domains(domains, filename):
 
         updated_data = [
             entry for entry in domain_dict.values()
-            if entry["dns_status"] == "OK" or current_time - entry["last_seen"] <= TIME_THRESHOLD
+            if entry["dns_status"] == "OK" or entry["whitelisted"] == 1 or current_time - entry["last_seen"] <= TIME_THRESHOLD
         ]
 
         file.seek(0)
@@ -119,7 +119,7 @@ def update_dns_status(filename):
 
             updated_data = [
                 entry for entry in data
-                if entry["dns_status"] == "OK" or current_time - entry["last_seen"] <= TIME_THRESHOLD
+                if entry["dns_status"] == "OK" or entry["whitelisted"] == 1 or current_time - entry["last_seen"] <= TIME_THRESHOLD
             ]
 
             file.seek(0)
