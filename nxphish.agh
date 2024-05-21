@@ -1,15 +1,15 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716285950
-# Database Hash: 0799a766ea244b5c42e0f385a36a24ac49b9217e
-# Generated at: 2024-05-21 10:05:50
+# Version: 1716290231
+# Database Hash: 4206e726eefda48256f7c420dd5c7f2f9f41bf61
+# Generated at: 2024-05-21 11:17:11
 # Expires: 1 day
-# Number of phishing domains: 1717
+# Number of phishing domains: 1716
 # Top 10 Abused TLDs:
-# dev: 889 (51.78%)
-# io: 285 (16.60%)
-# com: 143 (8.33%)
-# app: 66 (3.84%)
+# dev: 889 (51.81%)
+# io: 285 (16.61%)
+# com: 142 (8.28%)
+# app: 66 (3.85%)
 # link: 33 (1.92%)
 # id: 27 (1.57%)
 # net: 13 (0.76%)
@@ -1631,7 +1631,6 @@
 ||wasim-js.github.io^
 ||waterwinug.pages.dev^
 ||wdq22.eqd56err3f.workers.dev^
-||web-metamask.com^
 ||wegsa.pages.dev^
 ||wellsfargos.info^
 ||wga-709.pages.dev^
