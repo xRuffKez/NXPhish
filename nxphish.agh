@@ -1,25 +1,24 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716314787
-# Database Hash: 8d954f73d7351603bcfe94f1803967d2680c4653
-# Generated at: 2024-05-21 18:06:27
+# Version: 1716322042
+# Database Hash: c916dd1169361e12548e3d933041cd96c58bcda4
+# Generated at: 2024-05-21 20:07:22
 # Expires: 1 day
-# Number of phishing domains: 1853
+# Number of phishing domains: 1865
 # Top 10 Abused TLDs:
-# dev: 853 (46.03%)
-# io: 440 (23.75%)
-# com: 153 (8.26%)
-# app: 66 (3.56%)
-# id: 33 (1.78%)
-# link: 30 (1.62%)
+# dev: 855 (45.84%)
+# io: 452 (24.24%)
+# com: 153 (8.20%)
+# app: 66 (3.54%)
+# id: 33 (1.77%)
+# link: 30 (1.61%)
 # net: 13 (0.70%)
 # hr: 8 (0.43%)
 # vn: 8 (0.43%)
-# cn: 8 (0.43%)
+# org: 8 (0.43%)
 
 ||0177.datingg-voice.workers.dev^
 ||0365online.pages.dev^
-||0828.yangyang123.buzz^
 ||0pensea.pages.dev^
 ||0xc004c008.com^
 ||17f365.com^
@@ -80,6 +79,7 @@
 ||ajith-reghunath.github.io^
 ||akarsh-7r.github.io^
 ||aktifkadanapaylater.gettnowz.my.id^
+||aktifkan-dana-paylater2024.xcxcx.my.id^
 ||alanasaueressig.github.io^
 ||aldo-kriek.github.io^
 ||alr.bnb-id8301.com^
@@ -141,7 +141,6 @@
 ||att0nlin-1f6.kuydagerze.workers.dev^
 ||attconfirm.attonlinesys.workers.dev^
 ||attyahoonewworker-white-art-e0ce.danelle268.workers.dev^
-||atualizcadastralcras.com^
 ||auebg-8a9e.bosrmeadeklc.workers.dev^
 ||auth-ourtime.voice-chaats.workers.dev^
 ||autumn-water-046e.nuydasolma2903.workers.dev^
@@ -278,6 +277,7 @@
 ||cdnheicloudeuorg-1015.iaku-1.workers.dev^
 ||cecilion.pages.dev^
 ||cf-ipfs.com^
+||chase.review-entrnce.com^
 ||chat.convercatioon.workers.dev^
 ||chie10.pages.dev^
 ||chie2-26o.pages.dev^
@@ -354,6 +354,7 @@
 ||datalayerbuilder.in^
 ||demo1.kaanerenozmen.com^
 ||deslot24.com^
+||dev-865164145644154.pantheonsite.io^
 ||dev-kao.github.io^
 ||dev10s.github.io^
 ||dh-ruv05.github.io^
@@ -447,7 +448,6 @@
 ||galaxies-mantanetwork.com^
 ||galaxyboote.ch^
 ||gaoemormremidiekv.daevon954.workers.dev^
-||garena-ff-reword.ru^
 ||gbapkpro.net^
 ||gbhs.pages.dev^
 ||gdr33.pages.dev^
@@ -527,7 +527,6 @@
 ||hjnqja0v-effectivenessreliability.pages.dev^
 ||hkws-guild.github.io^
 ||hnosratti2024.mh84-alaei.workers.dev^
-||hoely1.github.io^
 ||hon-3mo.pages.dev^
 ||horatiodev.github.io^
 ||hotmail-alerts.chelsie15.workers.dev^
@@ -556,6 +555,7 @@
 ||ijhsk.github.io^
 ||ileadco.com^
 ||imabsaar007.github.io^
+||imabuzerkhan.github.io^
 ||images.windowstimes.online^
 ||imananthakrishnan.github.io^
 ||imdharmanderyadav.github.io^
@@ -631,6 +631,7 @@
 ||isomerx.github.io^
 ||italocovas.github.io^
 ||itsalisha.github.io^
+||itshimul.github.io^
 ||itsmdshahin.github.io^
 ||ivannats.github.io^
 ||iwossjjdwx.vrl2023.com^
@@ -644,6 +645,7 @@
 ||janekgrato0.github.io^
 ||jankijadav12.github.io^
 ||janvi-shah24.github.io^
+||jatinshivlani.github.io^
 ||javadpk42.github.io^
 ||javadshayan.shayanbinance.workers.dev^
 ||jayadeep45.github.io^
@@ -667,6 +669,7 @@
 ||joeladelubi.github.io^
 ||joeroundxx003.firebaseapp.com^
 ||joeroundxx004.firebaseapp.com^
+||johnrodriguezm.github.io^
 ||jolly-hotteok-2de001-lucky68.netlify.app^
 ||jonatasalmeida21.github.io^
 ||jonathascp.github.io^
@@ -683,6 +686,7 @@
 ||jxwzgg.pages.dev^
 ||kah123rina.github.io^
 ||kaiying-tey.github.io^
+||kalisubbaiya.github.io^
 ||kamal-deep-131.github.io^
 ||kan-88q.pages.dev^
 ||kangin-lee.github.io^
@@ -690,6 +694,7 @@
 ||kankam01.github.io^
 ||kannan112.github.io^
 ||kapilagno3.github.io^
+||karan17102003.github.io^
 ||kardamrohit.github.io^
 ||karimullabegamch.github.io^
 ||karnan-se.github.io^
@@ -700,6 +705,7 @@
 ||kaurguru.github.io^
 ||kaushalpatil123.github.io^
 ||kavi307.github.io^
+||kaysilvha.github.io^
 ||kazbeatz.github.io^
 ||kdn.pages.dev^
 ||kdsj1stgeneratedlinksfnaiso4basdjhkadasclouddjshaushdsauid.pages.dev^
@@ -735,13 +741,14 @@
 ||krishamakwana11.github.io^
 ||krishan-chamoli.github.io^
 ||krishnateja15.github.io^
+||krrigxe.github.io^
 ||krunallonde.github.io^
-||kshitij1809.github.io^
 ||kuldeepkumarmaurya.github.io^
 ||kuldeepsuthar007.github.io^
 ||kumardeepak28.github.io^
 ||kvishalll.github.io^
 ||kvjueo.hdhber.workers.dev^
+||kwagei.github.io^
 ||l180.pages.dev^
 ||la2.pages.dev^
 ||lambeawwal.github.io^
@@ -752,11 +759,14 @@
 ||lbdaussb.blogspot.com^
 ||learner0701.github.io^
 ||ledinhducmanh.github.io^
+||leelasai46.github.io^
 ||leho-dev.github.io^
 ||lennis22.github.io^
+||leonardotorresgs.github.io^
 ||leozizz.github.io^
 ||letg.pages.dev^
 ||leywino.github.io^
+||life.citilife.eu.org^
 ||lightroland.github.io^
 ||lin1.pages.dev^
 ||lin4.pages.dev^
@@ -896,6 +906,7 @@
 ||metemrsbslogin.gitbook.io^
 ||metimiskalogin.gitbook.io^
 ||mettaomask-wallai.gitbook.io^
+||metuxmesklognin.gitbook.io^
 ||metxamesklognim.gitbook.io^
 ||mfacebook.vn^
 ||mhgfdthamask-logfhing.gitbook.io^
@@ -1003,6 +1014,7 @@
 ||ourtime.dashboard-accounts.workers.dev^
 ||ourtime.love-media.workers.dev^
 ||ourtime.people-cloud.workers.dev^
+||ourtime.people-meet.workers.dev^
 ||ourtime.reconfirmation-zip.workers.dev^
 ||ourtime.zip-confirm.workers.dev^
 ||ourtime.zip-sneidjer.workers.dev^
@@ -1035,7 +1047,6 @@
 ||pdf-cloudss-d0c9.umcsaynitadol.workers.dev^
 ||pedroendrich100.github.io^
 ||pemachele.github.io^
-||pemulihanakun-danaaz.adsforr.my.id^
 ||pemulihann-akunnn-danaaaaa-id.resmiii-vip.my.id^
 ||penca-cbd8.ilodnswfalen.workers.dev^
 ||pepppptttaaaa.pages.dev^
@@ -1350,6 +1361,7 @@
 ||pub-c980033c0ecd4fdca1b54292a1221fc0.r2.dev^
 ||pub-c9a9e92edac2437ebbd4f2af37ff1954.r2.dev^
 ||pub-caa8fce535044aaa9341d790f8e79275.r2.dev^
+||pub-cba532ff18c8422687a5d50438b3b6b7.r2.dev^
 ||pub-cc496cdf96ea4c1fbfeca8bcc5edfb27.r2.dev^
 ||pub-cdf13789ac034ca29ab43424244b494a.r2.dev^
 ||pub-ce4daca59fec4ff89813fe37e7e03938.r2.dev^
@@ -1445,7 +1457,6 @@
 ||qwx8es.csb.app^
 ||r5nmmyilszflcpfia0z7fosalruuhpvhvnfzvncepxuzojld8yw9u.pages.dev^
 ||rajmayank21061.github.io^
-||raptorsa.shop^
 ||raunakkushwaha.github.io^
 ||rautshre.github.io^
 ||raws.cxplay.workers.dev^
@@ -1621,6 +1632,7 @@
 ||shivamgangrade24.github.io^
 ||shivamjha121.github.io^
 ||shivkarsingh.github.io^
+||shonty266.github.io^
 ||shoplienquanuytin.com^
 ||shorten.is^
 ||shorturl.at^
@@ -1701,12 +1713,12 @@
 ||telegramgroupinvitexxxx.pages.dev^
 ||telegramgroupsx.pages.dev^
 ||telegramiusjoin.homes^
-||telegramxgroups.pages.dev^
 ||telehunteros.com^
 ||teleprcmn.club^
 ||teslavmd.github.io^
 ||test-5rm.pages.dev^
 ||test-cdn-python-ts.unforgetmemory.ltd^
+||tfujgbj47.pages.dev^
 ||theresahb.github.io^
 ||tivi4loci2cdph.pages.dev^
 ||tjqgau-automationtransformation.pages.dev^
@@ -1824,7 +1836,6 @@
 ||www.accesscherry.com^
 ||www.adamgottliebshiatsu.com^
 ||www.aidatbasvuruadresi.com^
-||www.airbnb718.com^
 ||www.aldatiadeduyuru.com^
 ||www.allegronak.net^
 ||www.ama889.vip^
@@ -1868,5 +1879,6 @@
 ||zejjnum7hxxlggu9dnh27jng8cukafeedibfezr.pages.dev^
 ||zhztx5vusydc28epf2p8.pages.dev^
 ||zieminzlogin.gitbook.io^
+||zikoooooo3.firebaseapp.com^
 ||zinoleeski398401.pages.dev^
 ||zxlyobboes.pages.dev^
