@@ -41,7 +41,9 @@ def extract_domains_from_feed(feed_filename):
         for line in file:
             domain = line.strip()
             if domain:
-                parsed_domain = urlparse(domain).netloc.split(':')[0]
+                parsed_domain = urlparse(domain).netloc
+                if not parsed_domain:  # If netloc is empty, it's likely just the domain
+                    parsed_domain = domain.split('/')[0]
                 if parsed_domain:
                     domains.add(parsed_domain)
     return domains
