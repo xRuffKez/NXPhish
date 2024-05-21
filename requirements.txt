@@ -1,2 +1,7 @@
 requests
 dnspython
+matplotlib
+hashlib
+datetime
+collections
+logging
