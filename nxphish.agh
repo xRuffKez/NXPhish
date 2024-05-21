@@ -1,14 +1,14 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716322042
-# Database Hash: c916dd1169361e12548e3d933041cd96c58bcda4
-# Generated at: 2024-05-21 20:07:22
+# Version: 1716329138
+# Database Hash: 369296af4964b60aefb6931c4efadc0e9da00791
+# Generated at: 2024-05-21 22:05:38
 # Expires: 1 day
-# Number of phishing domains: 1865
+# Number of phishing domains: 1867
 # Top 10 Abused TLDs:
-# dev: 855 (45.84%)
-# io: 452 (24.24%)
-# com: 153 (8.20%)
+# dev: 856 (45.85%)
+# io: 452 (24.21%)
+# com: 154 (8.25%)
 # app: 66 (3.54%)
 # id: 33 (1.77%)
 # link: 30 (1.61%)
@@ -782,6 +782,7 @@
 ||login-microsoft-online.pages.dev^
 ||login-microsoftonline.pages.dev^
 ||login-ourtime.members-datings.workers.dev^
+||login.microsoft-onedrive.livebusinessassistant.com^
 ||logn-mail.query192.workers.dev^
 ||logn-maile-faec.1253543.workers.dev^
 ||love-wsignin-1dd9.cojehe7926.workers.dev^
@@ -1596,6 +1597,7 @@
 ||sertyxese.myfreesites.net^
 ||server.9khq.com^
 ||server.ra1b.com^
+||service-microsoft-aler1-service.pages.dev^
 ||serviceupd4te.befavetrziv.workers.dev^
 ||seunelvis1.github.io^
 ||sfr8.yolasite.com^
