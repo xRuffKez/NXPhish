@@ -9,6 +9,12 @@ Protect your network from phishing attacks with the NXPhish blocklist for AdGuar
 
 This repository provides an automatically updated list of phishing domains sourced from [OpenPhish](https://OpenPhish.com/) and [Phishunt](https://phishunt.io/). The list is formatted for use with AdGuard Home, a network-wide ad and tracker blocker.
 
+## Statistics
+
+![TLD Counts Plot](tld_counts.png)
+
+![Phishing Domains Over Time](phishing_domains_over_time.png)
+
 ## How to Use
 
 To use this blocklist in AdGuard Home, simply add the following URL to your custom filters:
