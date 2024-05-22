@@ -1,19 +1,19 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716337293
-# Database Hash: ddca9e661bd5654e0ec99426854a427f48ce804d
-# Generated at: 2024-05-22 00:21:33
+# Version: 1716344265
+# Database Hash: 667e8064df7c600d97f9165b008f79e45c9c0548
+# Generated at: 2024-05-22 02:17:45
 # Expires: 1 day
-# Number of phishing domains: 1378
+# Number of phishing domains: 1380
 # Top 10 Abused TLDs:
-# dev: 595 (43.18%)
-# io: 306 (22.21%)
-# com: 129 (9.36%)
-# app: 58 (4.21%)
+# dev: 597 (43.26%)
+# io: 301 (21.81%)
+# com: 129 (9.35%)
+# app: 58 (4.20%)
 # id: 33 (2.39%)
 # net: 11 (0.80%)
-# org: 9 (0.65%)
-# link: 8 (0.58%)
+# link: 10 (0.72%)
+# org: 8 (0.58%)
 # cn: 8 (0.58%)
 # uk: 7 (0.51%)
 
@@ -93,7 +93,6 @@
 ||applysolvv.github.io^
 ||apps-store-apple.net^
 ||aqw.sdex17743.dns-dynamic.net^
-||arabassiastarzfcontest.pages.dev^
 ||aratika-airbnb.netlify.app^
 ||ashimol.github.io^
 ||ashish6113.github.io^
@@ -119,6 +118,8 @@
 ||bafybeicdv6wvyuhybvf3htmdkcpp7scfw7wq65syuimtv3mslcqhohogla.ipfs.cf-ipfs.com^
 ||bafybeid2kyrhgkvukuaz3pxzpt6gjexevmdkd73nrtvciaxw3ecprvdlzm.ipfs.w3s.link^
 ||bafybeieg67q7p5bwlwlppvwx3q2vjepuy5smrgrlmfeimemnbzruxwscrq.ipfs.cf-ipfs.com^
+||bafybeiekusbd4y4cjqiqtwmlhlumtbj33wlrqtecaoccsxfdw5bixyh6ja.ipfs.dweb.link^
+||bafybeieswxm4gvkq3gbc7slzchdo2ukbayltq4qiiw55pq4m6w6vioir5e.ipfs.dweb.link^
 ||bafybeiftbhhnmpwl4avyf4onwqh3tfuxs2bpwfnp5pkdirpxgof6lceony.ipfs.cf-ipfs.com^
 ||bafybeigh6hh5pv6c2cy3fy5nbjprpxrblyza5jkqij7awdpb6g66b2fcpe.ipfs.cf-ipfs.com^
 ||bafybeigm5holjgxqa35s76jyna6nrv5hxujjyytfq455pfsj74fvdug5um.ipfs.dweb.link^
@@ -183,6 +184,7 @@
 ||chie2-26o.pages.dev^
 ||chie4-5i9.pages.dev^
 ||chie8-39w.pages.dev^
+||chooseaccount.pages.dev^
 ||choosing-ad-preapepettyler.pages.dev^
 ||citibank-login.netlify.app^
 ||citysportsonline.com^
@@ -250,6 +252,7 @@
 ||dh-ruv05.github.io^
 ||dhbtfbc.bhbvcc.workers.dev^
 ||dhimannaman.github.io^
+||dhl-express-group.blogspot.lt^
 ||dhocs-haze-a290.nuiblalrlewln.workers.dev^
 ||dinamica-co.blogspot.com^
 ||dinamica-co.blogspot.md^
@@ -321,6 +324,7 @@
 ||g7fy3.shop^
 ||galaxies-mantanetwork.com^
 ||galaxyboote.ch^
+||garena-ff-reword.ru^
 ||gbhs.pages.dev^
 ||gdr33.pages.dev^
 ||geeminialogenx.gitbook.io^
@@ -388,8 +392,10 @@
 ||hilal-1202.github.io^
 ||himanshichainani.github.io^
 ||hivenu.github.io^
+||hjnddt8.htfmjv8uordfy.workers.dev^
 ||hkws-guild.github.io^
 ||hnosratti2024.mh84-alaei.workers.dev^
+||hoely1.github.io^
 ||hon-3mo.pages.dev^
 ||horatiodev.github.io^
 ||hotmail-alerts.chelsie15.workers.dev^
@@ -411,7 +417,6 @@
 ||iasaccountancy.co.uk^
 ||ibrahimbadhusha74.github.io^
 ||ic-invee-519f.gsigdiigngi.workers.dev^
-||icloud.hxwhub.eu.org^
 ||id.chatt.workers.dev^
 ||id.datings-reload.workers.dev^
 ||ifunanyagits.github.io^
@@ -512,8 +517,6 @@
 ||jatinshivlani.github.io^
 ||javadpk42.github.io^
 ||javadshayan.shayanbinance.workers.dev^
-||jayadeep45.github.io^
-||jazeelpe.github.io^
 ||jdmonsales.github.io^
 ||jebatahsin.github.io^
 ||jeevan8807.github.io^
@@ -533,7 +536,6 @@
 ||joeroundxx004.firebaseapp.com^
 ||johnrodriguezm.github.io^
 ||jolly-hotteok-2de001-lucky68.netlify.app^
-||jonatasalmeida21.github.io^
 ||jonathascp.github.io^
 ||josearmandoverissimo.github.io^
 ||josevictorr15.github.io^
@@ -551,7 +553,6 @@
 ||kalisubbaiya.github.io^
 ||kamal-deep-131.github.io^
 ||kan-88q.pages.dev^
-||kangin-lee.github.io^
 ||kanishksi.github.io^
 ||kankam01.github.io^
 ||kannan112.github.io^
@@ -559,7 +560,6 @@
 ||karan17102003.github.io^
 ||kardamrohit.github.io^
 ||karimullabegamch.github.io^
-||karnan-se.github.io^
 ||karthik292001.github.io^
 ||karthikakl.github.io^
 ||kashishchandna05.github.io^
@@ -568,7 +568,6 @@
 ||kaushalpatil123.github.io^
 ||kavi307.github.io^
 ||kaysilvha.github.io^
-||kazbeatz.github.io^
 ||kdn.pages.dev^
 ||kdsj1stgeneratedlinksfnaiso4basdjhkadasclouddjshaushdsauid.pages.dev^
 ||kedpeer-1062.dnadlbae.workers.dev^
@@ -576,10 +575,10 @@
 ||kemuellklinger.github.io^
 ||kenshi244.github.io^
 ||keokicasey99.github.io^
-||kermitthesapo.github.io^
 ||keshavnagar.github.io^
 ||kgy.soundestlink.com^
 ||khanaftabmunir.github.io^
+||khushi169.github.io^
 ||khushimittal001.github.io^
 ||khushivb.github.io^
 ||killozi.github.io^
@@ -597,18 +596,17 @@
 ||kraikenliogau.gitbook.io^
 ||krakeenelogin-us.gitbook.io^
 ||kratiknamdev.github.io^
-||kratosman.github.io^
 ||krikeenloggin.gitbook.io^
 ||krishamakwana11.github.io^
 ||krishan-chamoli.github.io^
 ||krishnateja15.github.io^
 ||krrigxe.github.io^
 ||krunallonde.github.io^
+||kshitij1809.github.io^
 ||kuldeepkumarmaurya.github.io^
 ||kuldeepsuthar007.github.io^
 ||kumardeepak28.github.io^
 ||kvishalll.github.io^
-||kvjueo.hdhber.workers.dev^
 ||kwagei.github.io^
 ||l180.pages.dev^
 ||lambeawwal.github.io^
@@ -688,6 +686,7 @@
 ||mergerdapps-eqy.pages.dev^
 ||merry-cat-67757a.netlify.app^
 ||meta-mask-wallit.gitbook.io^
+||metabusinesssupport.genesispulse.click^
 ||metacxmesk-login.gitbook.io^
 ||metaextn.gitbook.io^
 ||metamaosklgin.gitbook.io^
@@ -782,7 +781,6 @@
 ||mint-giftbox.web.app^
 ||mitamaks-logain.gitbook.io^
 ||mjnvsai.github.io^
-||mmeddiafree.6hf1v9c4.biz.id^
 ||mnetmasklogio.gitbook.io^
 ||moitiamaasklogin.gitbook.io^
 ||mom.ehsanminecraft22.workers.dev^
@@ -869,7 +867,9 @@
 ||paypal-authentication.pages.dev^
 ||paypal-giveaway.pages.dev^
 ||paypal-service.pages.dev^
+||paypl.online^
 ||payppal-lognmiy-account.gitbook.io^
+||pemulihanakun-danaaz.adsforr.my.id^
 ||pemulihann-akunnn-danaaaaa-id.resmiii-vip.my.id^
 ||penca-cbd8.ilodnswfalen.workers.dev^
 ||pepppptttaaaa.pages.dev^
@@ -1252,6 +1252,7 @@
 ||telegramgroupsx.pages.dev^
 ||telegramhk.co^
 ||telegramiusjoin.homes^
+||telegramxgroups.pages.dev^
 ||telegrceam.xyz^
 ||telehunteros.com^
 ||teleprcmn.club^
@@ -1395,3 +1396,4 @@
 ||zieminzlogin.gitbook.io^
 ||zikoooooo3.firebaseapp.com^
 ||zinoleeski398401.pages.dev^
+||zvfdethr.pages.dev^
