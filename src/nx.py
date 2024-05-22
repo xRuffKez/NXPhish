@@ -10,6 +10,7 @@ from collections import Counter
 import logging
 import matplotlib.pyplot as plt
 
+# Configuration
 WAREHOUSE_FILENAME = "warehouse.json"
 HISTORY_FILENAME = "history.json"
 FEED_URLS = [
@@ -33,9 +34,12 @@ FEED_FILENAMES = [
 TIME_THRESHOLD = 48 * 3600
 DNS_CHECK_THRESHOLD = 6 * 3600
 
+# Logging configuration
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+
 def download_file(url, filename):
+    """Download the file from the specified URL."""
     try:
         response = requests.get(url)
         response.raise_for_status()
@@ -45,30 +49,33 @@ def download_file(url, filename):
     except requests.RequestException as e:
         logging.error(f"Failed to download {url}: {e}")
 
+
 def extract_domains_from_feed(feed_filename):
+    """Extract domains from the specified feed file."""
     domains = set()
-    with open(feed_filename, 'r') as file:
-        for line in file:
-            domain = line.strip()
-            if domain and not domain.startswith('#'):
-                parsed_domain = urlparse(domain).netloc.split(':')[0] if '://' in domain else domain
-                if parsed_domain:
-                    domains.add(parsed_domain)
+    try:
+        with open(feed_filename, 'r') as file:
+            for line in file:
+                domain = line.strip()
+                if domain and not domain.startswith('#'):
+                    parsed_domain = urlparse(domain).netloc.split(':')[0] if '://' in domain else domain
+                    if parsed_domain:
+                        domains.add(parsed_domain)
+    except FileNotFoundError:
+        logging.error(f"Feed file {feed_filename} not found.")
     return domains
 
-def create_warehouse_if_not_exists(filename):
+
+def create_file_if_not_exists(filename, initial_data=[]):
+    """Create a JSON file with initial data if it does not exist."""
     if not os.path.exists(filename):
         with open(filename, "w") as file:
-            json.dump([], file)
+            json.dump(initial_data, file, indent=4)
         logging.info(f"Created '{filename}' file.")
 
-def create_history_if_not_exists(filename):
-    if not os.path.exists(filename):
-        with open(filename, "w") as file:
-            json.dump([], file)
-        logging.info(f"Created '{filename}' file.")
 
 def update_json_with_domains(domains, filename):
+    """Update the warehouse JSON file with the new domains."""
     current_time = int(time.time())
     with open(filename, "r+") as file:
         try:
@@ -102,7 +109,9 @@ def update_json_with_domains(domains, filename):
     logging.info(f"Updated '{filename}' with new domains.")
     return len(updated_data)
 
+
 def mark_whitelisted_domains(whitelist_domains, filename):
+    """Mark the domains as whitelisted in the warehouse JSON file."""
     with open(filename, "r+") as file:
         try:
             data = json.load(file)
@@ -119,7 +128,9 @@ def mark_whitelisted_domains(whitelist_domains, filename):
         json.dump(data, file, indent=4)
     logging.info(f"Marked whitelisted domains in '{filename}'.")
 
+
 def check_dns_status(domain):
+    """Check the DNS status of the domain."""
     resolver = dns.resolver.Resolver()
     resolver.nameservers = ['76.76.2.0', '76.76.10.0']
     try:
@@ -143,7 +154,9 @@ def check_dns_status(domain):
         logging.error(f"DNS resolution error for domain {domain}: {e}")
         return "ERROR"
 
+
 def update_dns_status(filename):
+    """Update the DNS status for each domain in the warehouse JSON file."""
     current_time = int(time.time())
     try:
         with open(filename, "r+") as file:
@@ -169,7 +182,9 @@ def update_dns_status(filename):
     except Exception as e:
         logging.error(f"An unexpected error occurred: {e}")
 
+
 def read_json_file(filename):
+    """Read and return data from a JSON file."""
     try:
         with open(filename, "r") as file:
             return json.load(file)
@@ -180,14 +195,18 @@ def read_json_file(filename):
         logging.error(f"Error decoding JSON from '{filename}'.")
         return []
 
+
 def calculate_sha1_hash(data):
+    """Calculate the SHA1 hash of the JSON data."""
     try:
         return hashlib.sha1(json.dumps(data, sort_keys=True).encode()).hexdigest()
     except Exception as e:
         logging.error(f"Error calculating SHA1 hash: {e}")
         return ""
 
+
 def get_existing_hash(filename):
+    """Retrieve the existing hash from the output file."""
     try:
         with open(filename, "r") as file:
             for line in file:
@@ -196,7 +215,9 @@ def get_existing_hash(filename):
     except FileNotFoundError:
         return None
 
+
 def collect_ok_domains(data):
+    """Collect domains with 'OK' DNS status and count their TLDs."""
     ok_domains = set()
     tld_counts = Counter()
     for entry in data:
@@ -206,7 +227,9 @@ def collect_ok_domains(data):
             tld_counts[domain.split(".")[-1]] += 1
     return ok_domains, tld_counts
 
+
 def write_output_file(filename, json_hash, ok_domains, tld_counts):
+    """Write the final output file with phishing domains and metadata."""
     generation_time = int(datetime.now().timestamp())
     try:
         with open(filename, "w") as file:
@@ -227,7 +250,9 @@ def write_output_file(filename, json_hash, ok_domains, tld_counts):
     except Exception as e:
         logging.error(f"Error writing to '{filename}': {e}")
 
+
 def plot_tld_counts(tld_counts):
+    """Create a bar plot for the top 10 abused TLDs."""
     try:
         tlds, counts = zip(*tld_counts.most_common(10))
         plt.figure(figsize=(10, 6))
@@ -242,7 +267,9 @@ def plot_tld_counts(tld_counts):
     except Exception as e:
         logging.error(f"Error plotting TLD counts: {e}")
 
+
 def plot_history(filename):
+    """Create a plot for the number of phishing domains over time."""
     try:
         with open(filename, "r") as file:
             history = json.load(file)
@@ -262,7 +289,9 @@ def plot_history(filename):
     except Exception as e:
         logging.error(f"Error plotting history: {e}")
 
+
 def update_history(filename, num_phishing_domains):
+    """Update the history file with the current timestamp and number of phishing domains."""
     current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     try:
         with open(filename, "r+") as file:
@@ -282,7 +311,9 @@ def update_history(filename, num_phishing_domains):
     except Exception as e:
         logging.error(f"Error updating history: {e}")
 
+
 def main():
+    """Main function to coordinate the downloading, processing, and updating steps."""
     for url, filename in zip(FEED_URLS, FEED_FILENAMES):
         download_file(url, filename)
 
@@ -294,8 +325,8 @@ def main():
         else:
             all_domains.update(extract_domains_from_feed(filename))
 
-    create_warehouse_if_not_exists(WAREHOUSE_FILENAME)
-    create_history_if_not_exists(HISTORY_FILENAME)
+    create_file_if_not_exists(WAREHOUSE_FILENAME)
+    create_file_if_not_exists(HISTORY_FILENAME)
 
     num_phishing_domains = update_json_with_domains(all_domains, WAREHOUSE_FILENAME)
     
@@ -318,6 +349,7 @@ def main():
         plot_history(HISTORY_FILENAME)
     else:
         logging.info("No changes detected. nxphish.agh is up to date.")
+
 
 if __name__ == "__main__":
     main()
