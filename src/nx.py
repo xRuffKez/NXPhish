@@ -16,13 +16,15 @@ FEED_URLS = [
     "https://openphish.com/feed.txt",
     "https://phishunt.io/feed.txt",
     "https://raw.githubusercontent.com/duggytuxy/phishing_scam_domains/main/phishing_scam_domains.txt",
-    "http://www.botvrij.eu/data/ioclist.domain.raw"
+    "http://www.botvrij.eu/data/ioclist.domain.raw",
+    "http://www.joewein.net/dl/bl/dom-bl.txt"
 ]
 FEED_FILENAMES = [
     "openphish_feed.txt",
     "phishunt_feed.txt",
     "phishing_scam_domains.txt",
-    "ioclist.domain.raw.txt"
+    "ioclist.domain.raw.txt",
+    "dom-bl.txt"
 ]
 TIME_THRESHOLD = 48 * 3600
 DNS_CHECK_THRESHOLD = 6 * 3600
