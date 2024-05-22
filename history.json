@@ -34,5 +34,9 @@
     {
         "timestamp": "2024-05-22 10:06:22",
         "phishing_domains": 2540
+    },
+    {
+        "timestamp": "2024-05-22 12:12:04",
+        "phishing_domains": 2708
     }
 ]
