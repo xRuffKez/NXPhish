@@ -6,5 +6,9 @@
     {
         "timestamp": "2024-05-22 00:11:44",
         "phishing_domains": 2802
+    },
+    {
+        "timestamp": "2024-05-22 00:19:14",
+        "phishing_domains": 2801
     }
 ]
