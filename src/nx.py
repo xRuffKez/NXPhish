@@ -17,14 +17,18 @@ FEED_URLS = [
     "https://phishunt.io/feed.txt",
     "https://raw.githubusercontent.com/duggytuxy/phishing_scam_domains/main/phishing_scam_domains.txt",
     "http://www.botvrij.eu/data/ioclist.domain.raw",
-    "http://www.joewein.net/dl/bl/dom-bl.txt"
+    "http://www.joewein.net/dl/bl/dom-bl.txt",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-urlshortener.txt",
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral.txt"
 ]
 FEED_FILENAMES = [
     "openphish_feed.txt",
     "phishunt_feed.txt",
     "phishing_scam_domains.txt",
     "ioclist.domain.raw.txt",
-    "dom-bl.txt"
+    "dom-bl.txt",
+    "whitelist_urlshortener.txt",
+    "whitelist_referral.txt"
 ]
 TIME_THRESHOLD = 48 * 3600
 DNS_CHECK_THRESHOLD = 6 * 3600
@@ -46,8 +50,8 @@ def extract_domains_from_feed(feed_filename):
     with open(feed_filename, 'r') as file:
         for line in file:
             domain = line.strip()
-            if domain:
-                parsed_domain = urlparse(domain).netloc.split(':')[0]
+            if domain and not domain.startswith('#'):
+                parsed_domain = urlparse(domain).netloc.split(':')[0] if '://' in domain else domain
                 if parsed_domain:
                     domains.add(parsed_domain)
     return domains
@@ -97,6 +101,23 @@ def update_json_with_domains(domains, filename):
         json.dump(updated_data, file, indent=4)
     logging.info(f"Updated '{filename}' with new domains.")
     return len(updated_data)
+
+def mark_whitelisted_domains(whitelist_domains, filename):
+    with open(filename, "r+") as file:
+        try:
+            data = json.load(file)
+        except json.JSONDecodeError:
+            data = []
+
+        for domain in whitelist_domains:
+            for entry in data:
+                if domain == entry["domain"] or domain.startswith("*.") and entry["domain"].endswith(domain[1:]):
+                    entry["whitelisted"] = 1
+
+        file.seek(0)
+        file.truncate()
+        json.dump(data, file, indent=4)
+    logging.info(f"Marked whitelisted domains in '{filename}'.")
 
 def check_dns_status(domain):
     resolver = dns.resolver.Resolver()
@@ -221,26 +242,6 @@ def plot_tld_counts(tld_counts):
     except Exception as e:
         logging.error(f"Error plotting TLD counts: {e}")
 
-def update_history(filename, num_phishing_domains):
-    current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    try:
-        with open(filename, "r+") as file:
-            try:
-                history = json.load(file)
-            except json.JSONDecodeError:
-                history = []
-
-            history.append({
-                "timestamp": current_time,
-                "phishing_domains": num_phishing_domains
-            })
-
-            file.seek(0)
-            file.truncate()
-            json.dump(history, file, indent=4)
-    except Exception as e:
-        logging.error(f"Error updating history: {e}")
-
 def plot_history(filename):
     try:
         with open(filename, "r") as file:
@@ -261,18 +262,44 @@ def plot_history(filename):
     except Exception as e:
         logging.error(f"Error plotting history: {e}")
 
+def update_history(filename, num_phishing_domains):
+    current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    try:
+        with open(filename, "r+") as file:
+            try:
+                history = json.load(file)
+            except json.JSONDecodeError:
+                history = []
+
+            history.append({
+                "timestamp": current_time,
+                "phishing_domains": num_phishing_domains
+            })
+
+            file.seek(0)
+            file.truncate()
+            json.dump(history, file, indent=4)
+    except Exception as e:
+        logging.error(f"Error updating history: {e}")
+
 def main():
     for url, filename in zip(FEED_URLS, FEED_FILENAMES):
         download_file(url, filename)
 
     all_domains = set()
+    whitelist_domains = set()
     for filename in FEED_FILENAMES:
-        all_domains.update(extract_domains_from_feed(filename))
+        if 'whitelist' in filename:
+            whitelist_domains.update(extract_domains_from_feed(filename))
+        else:
+            all_domains.update(extract_domains_from_feed(filename))
 
     create_warehouse_if_not_exists(WAREHOUSE_FILENAME)
     create_history_if_not_exists(HISTORY_FILENAME)
 
     num_phishing_domains = update_json_with_domains(all_domains, WAREHOUSE_FILENAME)
+    
+    mark_whitelisted_domains(whitelist_domains, WAREHOUSE_FILENAME)
 
     update_dns_status(WAREHOUSE_FILENAME)
 
