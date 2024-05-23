@@ -7,11 +7,11 @@ import dns.resolver
 import hashlib
 from datetime import datetime
 from collections import Counter
-import logging
 import matplotlib.pyplot as plt
 
 WAREHOUSE_FILENAME = "warehouse.json"
 HISTORY_FILENAME = "history.json"
+CACHE_FILENAME = "cache.json"
 FEED_URLS = [
     "https://openphish.com/feed.txt",
     "https://phishunt.io/feed.txt",
@@ -27,17 +27,32 @@ FEED_FILENAMES = [
 TIME_THRESHOLD = 48 * 3600
 DNS_CHECK_THRESHOLD = 6 * 3600
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+def load_cache():
+    if os.path.exists(CACHE_FILENAME):
+        with open(CACHE_FILENAME, "r") as file:
+            try:
+                return json.load(file)
+            except json.JSONDecodeError:
+                return {}
+    return {}
+
+def save_cache(cache):
+    with open(CACHE_FILENAME, "w") as file:
+        json.dump(cache, file)
+
+cache = load_cache()
 
 def download_file(url, filename):
-    try:
+    if url in cache:
+        content = cache[url]
+    else:
         response = requests.get(url)
         response.raise_for_status()
-        with open(filename, "wb") as file:
-            file.write(response.content)
-        logging.info(f"Downloaded {url} to {filename}")
-    except requests.RequestException as e:
-        logging.error(f"Failed to download {url}: {e}")
+        content = response.content
+        cache[url] = content
+        save_cache(cache)
+    with open(filename, "wb") as file:
+        file.write(content)
 
 def extract_domains_from_feed(feed_filename):
     domains = set()
@@ -54,7 +69,6 @@ def create_file_if_not_exists(filename):
     if not os.path.exists(filename):
         with open(filename, "w") as file:
             json.dump([], file)
-        logging.info(f"Created '{filename}' file.")
 
 def update_json_with_domains(domains, filename):
     current_time = int(time.time())
@@ -63,9 +77,7 @@ def update_json_with_domains(domains, filename):
             data = json.load(file)
         except json.JSONDecodeError:
             data = []
-
         domain_dict = {entry["domain"]: entry for entry in data}
-
         for domain in domains:
             if domain in domain_dict:
                 domain_dict[domain]["last_seen"] = current_time
@@ -78,16 +90,13 @@ def update_json_with_domains(domains, filename):
                     "dns_check_date": 0,
                     "whitelisted": 0
                 }
-
         updated_data = [
             entry for entry in domain_dict.values()
             if entry["dns_status"] == "OK" or entry["whitelisted"] == 1 or current_time - entry["last_seen"] <= TIME_THRESHOLD
         ]
-
         file.seek(0)
         file.truncate()
         json.dump(updated_data, file, indent=4)
-    logging.info(f"Updated '{filename}' with new domains.")
     return len(updated_data)
 
 def mark_whitelisted_domains(whitelist_domains, filename):
@@ -96,18 +105,17 @@ def mark_whitelisted_domains(whitelist_domains, filename):
             data = json.load(file)
         except json.JSONDecodeError:
             data = []
-
         for domain in whitelist_domains:
             for entry in data:
                 if domain == entry["domain"] or domain.startswith("*.") and entry["domain"].endswith(domain[1:]):
                     entry["whitelisted"] = 1
-
         file.seek(0)
         file.truncate()
         json.dump(data, file, indent=4)
-    logging.info(f"Marked whitelisted domains in '{filename}'.")
 
 def check_dns_status(domain):
+    if domain in cache:
+        return cache[domain]
     resolver = dns.resolver.Resolver()
     resolver.nameservers = ['76.76.2.0', '76.76.10.0']
     try:
@@ -115,21 +123,20 @@ def check_dns_status(domain):
         ipv4_addresses = [r.address for r in ipv4_response]
         ipv6_response = resolver.resolve(domain, 'AAAA')
         ipv6_addresses = [r.address for r in ipv6_response]
-        if ipv4_addresses or ipv6_addresses:
-            return "OK"
-        else:
-            return "NO_ANSWER"
+        status = "OK" if ipv4_addresses or ipv6_addresses else "NO_ANSWER"
     except dns.resolver.NXDOMAIN:
-        return "NXDOMAIN"
+        status = "NXDOMAIN"
     except dns.resolver.Timeout:
-        return "TIMEOUT"
+        status = "TIMEOUT"
     except dns.resolver.NoAnswer:
-        return "NO_ANSWER"
+        status = "NO_ANSWER"
     except dns.resolver.NoNameservers:
-        return "NO_NAMESERVERS"
-    except Exception as e:
-        logging.error(f"DNS resolution error for domain {domain}: {e}")
-        return "ERROR"
+        status = "NO_NAMESERVERS"
+    except Exception:
+        status = "ERROR"
+    cache[domain] = status
+    save_cache(cache)
+    return status
 
 def update_dns_status(filename):
     current_time = int(time.time())
@@ -140,39 +147,31 @@ def update_dns_status(filename):
                 if current_time - entry["dns_check_date"] >= DNS_CHECK_THRESHOLD:
                     entry["dns_status"] = check_dns_status(entry["domain"])
                     entry["dns_check_date"] = current_time
-
             updated_data = [
                 entry for entry in data
                 if entry["dns_status"] == "OK" or entry["whitelisted"] == 1 or current_time - entry["last_seen"] <= TIME_THRESHOLD
             ]
-
             file.seek(0)
             file.truncate()
             json.dump(updated_data, file, indent=4)
-        logging.info("DNS status updated successfully.")
     except FileNotFoundError:
-        logging.error(f"Error: '{filename}' not found.")
+        pass
     except json.JSONDecodeError:
-        logging.error(f"Error: Failed to decode JSON from '{filename}'.")
-    except Exception as e:
-        logging.error(f"An unexpected error occurred: {e}")
+        pass
 
 def read_json_file(filename):
     try:
         with open(filename, "r") as file:
             return json.load(file)
     except FileNotFoundError:
-        logging.error(f"File '{filename}' not found.")
         return []
     except json.JSONDecodeError:
-        logging.error(f"Error decoding JSON from '{filename}'.")
         return []
 
 def calculate_sha1_hash(data):
     try:
         return hashlib.sha1(json.dumps(data, sort_keys=True).encode()).hexdigest()
-    except Exception as e:
-        logging.error(f"Error calculating SHA1 hash: {e}")
+    except Exception:
         return ""
 
 def get_existing_hash(filename):
@@ -212,8 +211,8 @@ def write_output_file(filename, json_hash, ok_domains, tld_counts):
             file.write("\n")
             for domain in sorted(ok_domains):
                 file.write(f"||{domain}^\n")
-    except Exception as e:
-        logging.error(f"Error writing to '{filename}': {e}")
+    except Exception:
+        pass
     return len(ok_domains)
 
 def plot_tld_counts(tld_counts):
@@ -227,18 +226,15 @@ def plot_tld_counts(tld_counts):
         plt.xticks(rotation=45)
         plt.tight_layout()
         plt.savefig('tld_counts.png')
-        logging.info("TLD counts plot saved as 'tld_counts.png'.")
-    except Exception as e:
-        logging.error(f"Error plotting TLD counts: {e}")
+    except Exception:
+        pass
 
 def plot_history(filename):
     try:
         with open(filename, "r") as file:
             history = json.load(file)
-
         timestamps = [entry['timestamp'] for entry in history]
         phishing_domains = [entry['num_phishing_domains'] for entry in history]
-
         plt.figure(figsize=(10, 6))
         plt.plot(timestamps, phishing_domains, marker='o', linestyle='-', color='b')
         plt.xlabel('Timestamp')
@@ -247,34 +243,28 @@ def plot_history(filename):
         plt.xticks(rotation=45)
         plt.tight_layout()
         plt.savefig('history_plot.png')
-        logging.info("History plot saved as 'history_plot.png'.")
-    except Exception as e:
-        logging.error(f"Error plotting history: {e}")
+    except Exception:
+        pass
 
 def update_history(filename, num_phishing_domains):
     current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     new_entry = {"timestamp": current_time, "num_phishing_domains": num_phishing_domains}
-
     try:
         with open(filename, "r+") as file:
             try:
                 history = json.load(file)
             except json.JSONDecodeError:
                 history = []
-
             history.append(new_entry)
-
             file.seek(0)
             file.truncate()
             json.dump(history, file, indent=4)
-        logging.info(f"Updated '{filename}' with new history entry.")
-    except Exception as e:
-        logging.error(f"Error updating history: {e}")
+    except Exception:
+        pass
 
 def main():
     for url, filename in zip(FEED_URLS, FEED_FILENAMES):
         download_file(url, filename)
-
     all_domains = set()
     whitelist_domains = set()
     for filename in FEED_FILENAMES:
@@ -282,28 +272,20 @@ def main():
             whitelist_domains.update(extract_domains_from_feed(filename))
         else:
             all_domains.update(extract_domains_from_feed(filename))
-
     create_file_if_not_exists(WAREHOUSE_FILENAME)
     create_file_if_not_exists(HISTORY_FILENAME)
-
     update_json_with_domains(all_domains, WAREHOUSE_FILENAME)
     mark_whitelisted_domains(whitelist_domains, WAREHOUSE_FILENAME)
     update_dns_status(WAREHOUSE_FILENAME)
-
     data = read_json_file(WAREHOUSE_FILENAME)
     json_hash = calculate_sha1_hash(data)
     existing_hash = get_existing_hash("nxphish.agh")
-
     if existing_hash != json_hash:
         ok_domains, tld_counts = collect_ok_domains(data)
         num_phishing_domains = write_output_file("nxphish.agh", json_hash, ok_domains, tld_counts)
-        logging.info("nxphish.agh has been updated.")
-
         plot_tld_counts(tld_counts)
         update_history(HISTORY_FILENAME, num_phishing_domains)
         plot_history(HISTORY_FILENAME)
-    else:
-        logging.info("No changes detected. nxphish.agh is up to date.")
 
 if __name__ == "__main__":
     main()
