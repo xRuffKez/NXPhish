@@ -37,7 +37,13 @@ def load_cache():
     return {}
 
 def save_cache(cache):
-    serializable_cache = {key: value.decode() if isinstance(value, bytes) else value for key, value in cache.items()}
+    serializable_cache = {}
+    for key, value in cache.items():
+        if isinstance(value, bytes):
+            serializable_cache[key] = value.decode()
+        else:
+            serializable_cache[key] = value
+    
     with open(CACHE_FILENAME, "w") as file:
         json.dump(serializable_cache, file)
 
