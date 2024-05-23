@@ -10,5 +10,9 @@
     {
         "timestamp": "2024-05-23 00:23:19",
         "num_phishing_domains": 2434
+    },
+    {
+        "timestamp": "2024-05-23 02:22:55",
+        "num_phishing_domains": 1973
     }
 ]
