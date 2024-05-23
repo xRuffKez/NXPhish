@@ -8,7 +8,9 @@ import hashlib
 from datetime import datetime
 from collections import Counter
 import matplotlib.pyplot as plt
+from typing import Set, Dict, Any, Tuple, List
 
+# Constants
 WAREHOUSE_FILENAME = "warehouse.json"
 HISTORY_FILENAME = "history.json"
 CACHE_FILENAME = "cache.json"
@@ -27,7 +29,8 @@ FEED_FILENAMES = [
 TIME_THRESHOLD = 48 * 3600
 DNS_CHECK_THRESHOLD = 6 * 3600
 
-def load_cache():
+# Load cache
+def load_cache() -> Dict[str, Any]:
     if os.path.exists(CACHE_FILENAME):
         with open(CACHE_FILENAME, "r") as file:
             try:
@@ -36,20 +39,15 @@ def load_cache():
                 return {}
     return {}
 
-def save_cache(cache):
-    serializable_cache = {}
-    for key, value in cache.items():
-        if isinstance(value, bytes):
-            serializable_cache[key] = value.decode()
-        else:
-            serializable_cache[key] = value
-    
+cache = load_cache()
+
+def save_cache(cache: Dict[str, Any]) -> None:
+    serializable_cache = {key: (value.decode() if isinstance(value, bytes) else value) for key, value in cache.items()}
     with open(CACHE_FILENAME, "w") as file:
         json.dump(serializable_cache, file)
 
-cache = load_cache()
-
-def download_file(url, filename):
+# File downloading
+def download_file(url: str, filename: str) -> None:
     if url in cache:
         content = cache[url]
     else:
@@ -61,24 +59,26 @@ def download_file(url, filename):
     with open(filename, "wb") as file:
         file.write(content)
 
-def extract_domains_from_feed(feed_filename):
+# Extract domains from feed
+def extract_domains_from_feed(feed_filename: str) -> Set[str]:
     domains = set()
     with open(feed_filename, 'r') as file:
         for line in file:
             domain = line.strip()
             if domain and not domain.startswith('#'):
                 parsed_domain = urlparse(domain).netloc.split(':')[0] if '://' in domain else domain
-                if parsed_domain:
-                    if not parsed_domain.endswith('.pages.dev') and not parsed_domain.endswith('.github.io'):
-                        domains.add(parsed_domain)
+                if parsed_domain and not parsed_domain.endswith(('.pages.dev', '.github.io')):
+                    domains.add(parsed_domain)
     return domains
 
-def create_file_if_not_exists(filename):
+# Create file if not exists
+def create_file_if_not_exists(filename: str) -> None:
     if not os.path.exists(filename):
         with open(filename, "w") as file:
             json.dump([], file)
 
-def update_json_with_domains(domains, filename):
+# Update JSON with domains
+def update_json_with_domains(domains: Set[str], filename: str) -> int:
     current_time = int(time.time())
     with open(filename, "r+") as file:
         try:
@@ -107,7 +107,8 @@ def update_json_with_domains(domains, filename):
         json.dump(updated_data, file, indent=4)
     return len(updated_data)
 
-def mark_whitelisted_domains(whitelist_domains, filename):
+# Mark whitelisted domains
+def mark_whitelisted_domains(whitelist_domains: Set[str], filename: str) -> None:
     with open(filename, "r+") as file:
         try:
             data = json.load(file)
@@ -121,7 +122,8 @@ def mark_whitelisted_domains(whitelist_domains, filename):
         file.truncate()
         json.dump(data, file, indent=4)
 
-def check_dns_status(domain):
+# Check DNS status
+def check_dns_status(domain: str) -> str:
     if domain in cache:
         return cache[domain]
     resolver = dns.resolver.Resolver()
@@ -146,7 +148,8 @@ def check_dns_status(domain):
     save_cache(cache)
     return status
 
-def update_dns_status(filename):
+# Update DNS status
+def update_dns_status(filename: str) -> None:
     current_time = int(time.time())
     try:
         with open(filename, "r+") as file:
@@ -162,27 +165,26 @@ def update_dns_status(filename):
             file.seek(0)
             file.truncate()
             json.dump(updated_data, file, indent=4)
-    except FileNotFoundError:
-        pass
-    except json.JSONDecodeError:
+    except (FileNotFoundError, json.JSONDecodeError):
         pass
 
-def read_json_file(filename):
+# Read JSON file
+def read_json_file(filename: str) -> List[Dict[str, Any]]:
     try:
         with open(filename, "r") as file:
             return json.load(file)
-    except FileNotFoundError:
-        return []
-    except json.JSONDecodeError:
+    except (FileNotFoundError, json.JSONDecodeError):
         return []
 
-def calculate_sha1_hash(data):
+# Calculate SHA1 hash
+def calculate_sha1_hash(data: Any) -> str:
     try:
         return hashlib.sha1(json.dumps(data, sort_keys=True).encode()).hexdigest()
     except Exception:
         return ""
 
-def get_existing_hash(filename):
+# Get existing hash
+def get_existing_hash(filename: str) -> str:
     try:
         with open(filename, "r") as file:
             for line in file:
@@ -191,17 +193,14 @@ def get_existing_hash(filename):
     except FileNotFoundError:
         return None
 
-def collect_ok_domains(data):
-    ok_domains = set()
-    tld_counts = Counter()
-    for entry in data:
-        if entry["dns_status"] == "OK" and entry["whitelisted"] == 0:
-            domain = entry["domain"]
-            ok_domains.add(domain)
-            tld_counts[domain.split(".")[-1]] += 1
+# Collect OK domains
+def collect_ok_domains(data: List[Dict[str, Any]]) -> Tuple[Set[str], Counter]:
+    ok_domains = {entry["domain"] for entry in data if entry["dns_status"] == "OK" and entry["whitelisted"] == 0}
+    tld_counts = Counter(domain.split(".")[-1] for domain in ok_domains)
     return ok_domains, tld_counts
 
-def write_output_file(filename, json_hash, ok_domains, tld_counts):
+# Write output file
+def write_output_file(filename: str, json_hash: str, ok_domains: Set[str], tld_counts: Counter) -> int:
     generation_time = int(datetime.now().timestamp())
     try:
         with open(filename, "w") as file:
@@ -223,7 +222,8 @@ def write_output_file(filename, json_hash, ok_domains, tld_counts):
         pass
     return len(ok_domains)
 
-def plot_tld_counts(tld_counts):
+# Plot TLD counts
+def plot_tld_counts(tld_counts: Counter) -> None:
     try:
         tlds, counts = zip(*tld_counts.most_common(10))
         plt.figure(figsize=(10, 6))
@@ -237,7 +237,8 @@ def plot_tld_counts(tld_counts):
     except Exception:
         pass
 
-def plot_history(filename):
+# Plot history
+def plot_history(filename: str) -> None:
     try:
         with open(filename, "r") as file:
             history = json.load(file)
@@ -254,7 +255,8 @@ def plot_history(filename):
     except Exception:
         pass
 
-def update_history(filename, num_phishing_domains):
+# Update history
+def update_history(filename: str, num_phishing_domains: int) -> None:
     current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     new_entry = {"timestamp": current_time, "num_phishing_domains": num_phishing_domains}
     try:
@@ -270,7 +272,8 @@ def update_history(filename, num_phishing_domains):
     except Exception:
         pass
 
-def main():
+# Main function
+def main() -> None:
     for url, filename in zip(FEED_URLS, FEED_FILENAMES):
         download_file(url, filename)
     all_domains = set()
