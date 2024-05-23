@@ -13,7 +13,7 @@ This repository provides an automatically updated list of phishing domains sourc
 
 ![TLD Counts Plot](tld_counts.png)
 
-![Phishing Domains Over Time](phishing_domains_over_time.png)
+![Phishing Domains Over Time](history_plot.png)
 
 ## How to Use
 
