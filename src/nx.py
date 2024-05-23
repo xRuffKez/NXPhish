@@ -15,18 +15,12 @@ HISTORY_FILENAME = "history.json"
 FEED_URLS = [
     "https://openphish.com/feed.txt",
     "https://phishunt.io/feed.txt",
-    "https://raw.githubusercontent.com/duggytuxy/phishing_scam_domains/main/phishing_scam_domains.txt",
-    "http://www.botvrij.eu/data/ioclist.domain.raw",
-    "http://www.joewein.net/dl/bl/dom-bl.txt",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-urlshortener.txt",
     "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/whitelist-referral.txt"
 ]
 FEED_FILENAMES = [
     "openphish_feed.txt",
     "phishunt_feed.txt",
-    "phishing_scam_domains.txt",
-    "ioclist.domain.raw.txt",
-    "dom-bl.txt",
     "whitelist_urlshortener.txt",
     "whitelist_referral.txt"
 ]
