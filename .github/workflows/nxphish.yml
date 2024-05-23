@@ -31,7 +31,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add warehouse.json nxphish.agh
+        git add cache.json warehouse.json nxphish.agh
         git commit -m "Update Database"
         git push
 
