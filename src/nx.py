@@ -69,7 +69,8 @@ def extract_domains_from_feed(feed_filename):
             if domain and not domain.startswith('#'):
                 parsed_domain = urlparse(domain).netloc.split(':')[0] if '://' in domain else domain
                 if parsed_domain:
-                    domains.add(parsed_domain)
+                    if not parsed_domain.endswith('.pages.dev') and not parsed_domain.endswith('.github.io'):
+                        domains.add(parsed_domain)
     return domains
 
 def create_file_if_not_exists(filename):
