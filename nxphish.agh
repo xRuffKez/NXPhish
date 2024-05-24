@@ -1,8 +1,8 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716552505
-# Database Hash: c7257f328543421390d30c415405301f170fdddf
-# Generated at: 2024-05-24 12:08:25
+# Version: 1716559546
+# Database Hash: 4e332d7ee6496f7ebb9b4a99765632df18ede81c
+# Generated at: 2024-05-24 14:05:46
 # Expires: 1 day
 
 # Top-level domain statistics:
@@ -13,8 +13,8 @@
 # id: 42 (1.81%)
 # ua: 32 (1.38%)
 # top: 29 (1.25%)
-# net: 28 (1.20%)
 # cn: 28 (1.20%)
+# net: 28 (1.20%)
 # xyz: 27 (1.16%)
 
 ||0.tpc.eu.ngrok.io^
