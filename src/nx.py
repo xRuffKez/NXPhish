@@ -234,9 +234,9 @@ def write_output_file(filename: str, json_hash: str, ok_domains: Set[str], tld_c
             file.write(f"# Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
             file.write(f"# Expires: 1 day\n\n")
             file.write("# Top-level domain statistics:\n")
-            for tld, count in tld_counts.items():
+            for tld, count in tld_counts.most_common(10):
                 percentage = (count / len(ok_domains)) * 100
-                file.write(f"# - .{tld}: {count} ({percentage:.2f}%)\n")
+                file.write(f"# {tld}: {count} ({percentage:.2f}%)\n")
             file.write("\n")
             for domain in sorted(ok_domains):
                 file.write(f"||{domain}^\n")
