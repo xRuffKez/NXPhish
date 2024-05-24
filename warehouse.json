@@ -99477,7 +99477,7 @@
         "last_seen": 1716551913,
         "dns_status": "OK",
         "dns_check_date": 1716550734,
-        "whitelisted": 0
+        "whitelisted": 1
     },
     {
         "domain": "paypal-japan.pages.dev",
