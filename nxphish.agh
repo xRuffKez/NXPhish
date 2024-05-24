@@ -1,17 +1,17 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716574857
-# Database Hash: 1a87914af0e3a962483793e49e347771d90d6886
-# Generated at: 2024-05-24 18:20:57
-# Number of domains: 1550
+# Version: 1716581167
+# Database Hash: 6edee0b92d0f0d9b88997e96b2788ab989cbba9a
+# Generated at: 2024-05-24 20:06:07
+# Number of domains: 1554
 # Last 10 TLD counts:
 # dev: 628
-# com: 262
+# com: 266
 # io: 167
 # app: 40
 # id: 29
-# link: 25
 # ua: 25
+# link: 25
 # top: 24
 # cn: 19
 # gg: 18
@@ -1522,6 +1522,8 @@
 ||www.bnuve.com^
 ||www.cdgaoke.com^
 ||www.connectweebly.com^
+||www.es-empresa-santander.com^
+||www.es-santander-app.com^
 ||www.fruitclan.nl^
 ||www.fysio-opdenkamp.nl^
 ||www.gmhs36.in^
@@ -1537,6 +1539,8 @@
 ||www.hoertreiter-architekt.de^
 ||www.id-facebook.com^
 ||www.linkedin.com^
+||www.lnfo-bbva-seguridad.com^
+||www.lnfo-santander.com^
 ||www.spotify3.com^
 ||wwwm.rpmo.analytics.winkdrop.net^
 ||x-videoalbum.top^
