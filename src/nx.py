@@ -213,7 +213,7 @@ def write_output_file(filename: str, json_hash: str, ok_domains: Set[str], tld_c
             for tld, count in tld_counts.most_common(10):
                 file.write(f"# {tld}: {count}\n")
             for domain in sorted(ok_domains):
-                file.write(f"{domain}\n")
+                file.write(f"||{domain}^\n")
     except Exception as e:
         logging.error(f"Error writing output file {filename}: {e}")
     return len(ok_domains)
