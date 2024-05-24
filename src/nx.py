@@ -9,6 +9,7 @@ from datetime import datetime
 from collections import Counter
 import matplotlib.pyplot as plt
 from typing import Set, Dict, Any, Tuple, List
+import logging
 
 # Constants
 WAREHOUSE_FILENAME = "warehouse.json"
@@ -29,6 +30,9 @@ FEED_FILENAMES = [
 TIME_THRESHOLD = 48 * 3600
 DNS_CHECK_THRESHOLD = 6 * 3600
 
+# Set up logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
 # Load cache
 def load_cache() -> Dict[str, Any]:
     if os.path.exists(CACHE_FILENAME):
@@ -48,16 +52,24 @@ def save_cache(cache: Dict[str, Any]) -> None:
 
 # File downloading
 def download_file(url: str, filename: str) -> None:
+    logging.info(f"Downloading {url}")
     if url in cache:
         content = cache[url]
     else:
-        response = requests.get(url)
-        response.raise_for_status()
-        content = response.content
-        cache[url] = content
-        save_cache(cache)
+        try:
+            response = requests.get(url)
+            response.raise_for_status()
+            content = response.content  # Ensure content is bytes
+            cache[url] = content
+            save_cache(cache)
+        except requests.RequestException as e:
+            logging.error(f"Error downloading {url}: {e}")
+            return
     with open(filename, "wb") as file:
+        if isinstance(content, str):
+            content = content.encode('utf-8')  # Convert string to bytes if necessary
         file.write(content)
+    logging.info(f"Saved {filename}")
 
 # Extract domains from feed
 def extract_domains_from_feed(feed_filename: str) -> Set[str]:
@@ -142,7 +154,8 @@ def check_dns_status(domain: str) -> str:
         status = "NO_ANSWER"
     except dns.resolver.NoNameservers:
         status = "NO_NAMESERVERS"
-    except Exception:
+    except Exception as e:
+        logging.error(f"DNS check error for {domain}: {e}")
         status = "ERROR"
     cache[domain] = status
     save_cache(cache)
@@ -180,7 +193,8 @@ def read_json_file(filename: str) -> List[Dict[str, Any]]:
 def calculate_sha1_hash(data: Any) -> str:
     try:
         return hashlib.sha1(json.dumps(data, sort_keys=True).encode()).hexdigest()
-    except Exception:
+    except Exception as e:
+        logging.error(f"Hash calculation error: {e}")
         return ""
 
 # Get existing hash
@@ -218,85 +232,87 @@ def write_output_file(filename: str, json_hash: str, ok_domains: Set[str], tld_c
             file.write("\n")
             for domain in sorted(ok_domains):
                 file.write(f"||{domain}^\n")
-    except Exception:
-        pass
+    except Exception as e:
+        logging.error(f"Error writing output file: {e}")
     return len(ok_domains)
 
 # Plot TLD counts
 def plot_tld_counts(tld_counts: Counter) -> None:
-    try:
-        tlds, counts = zip(*tld_counts.most_common(10))
-        plt.figure(figsize=(10, 6))
-        plt.bar(tlds, counts, color='skyblue')
-        plt.xlabel('Top Level Domains (TLDs)')
-        plt.ylabel('Count')
-        plt.title('Top 10 Abused TLDs')
-        plt.xticks(rotation=45)
-        plt.tight_layout()
-        plt.savefig('tld_counts.png')
-    except Exception:
-        pass
-
-# Plot history
-def plot_history(filename: str) -> None:
-    try:
-        with open(filename, "r") as file:
-            history = json.load(file)
-        timestamps = [entry['timestamp'] for entry in history]
-        phishing_domains = [entry['num_phishing_domains'] for entry in history]
-        plt.figure(figsize=(10, 6))
-        plt.plot(timestamps, phishing_domains, marker='o', linestyle='-', color='b')
-        plt.xlabel('Timestamp')
-        plt.ylabel('Number of Phishing Domains')
-        plt.title('History of Phishing Domains')
-        plt.xticks(rotation=45)
-        plt.tight_layout()
-        plt.savefig('history_plot.png')
-    except Exception:
-        pass
+    tld, count = zip(*tld_counts.most_common(10))
+    plt.bar(tld, count)
+    plt.title("Top 10 Abused TLDs")
+    plt.xlabel("TLD")
+    plt.ylabel("Count")
+    plt.savefig("tld_counts.png")
+    plt.close()
 
 # Update history
-def update_history(filename: str, num_phishing_domains: int) -> None:
-    current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    new_entry = {"timestamp": current_time, "num_phishing_domains": num_phishing_domains}
+def update_history(history_filename: str, num_phishing_domains: int) -> None:
+    current_date = datetime.now().strftime('%Y-%m-%d')
     try:
-        with open(filename, "r+") as file:
+        with open(history_filename, "r+") as file:
             try:
                 history = json.load(file)
             except json.JSONDecodeError:
                 history = []
-            history.append(new_entry)
+            if history and history[-1]["date"] == current_date:
+                history[-1]["count"] = num_phishing_domains
+            else:
+                history.append({"date": current_date, "count": num_phishing_domains})
             file.seek(0)
             file.truncate()
             json.dump(history, file, indent=4)
-    except Exception:
+    except FileNotFoundError:
+        with open(history_filename, "w") as file:
+            json.dump([{"date": current_date, "count": num_phishing_domains}], file, indent=4)
+
+# Plot history
+def plot_history(history_filename: str) -> None:
+    try:
+        with open(history_filename, "r") as file:
+            history = json.load(file)
+        dates = [entry["date"] for entry in history]
+        counts = [entry["count"] for entry in history]
+        plt.plot(dates, counts)
+        plt.title("Number of Phishing Domains Over Time")
+        plt.xlabel("Date")
+        plt.ylabel("Count")
+        plt.xticks(rotation=45)
+        plt.savefig("history.png")
+        plt.close()
+    except (FileNotFoundError, json.JSONDecodeError):
         pass
 
 # Main function
 def main() -> None:
-    for url, filename in zip(FEED_URLS, FEED_FILENAMES):
-        download_file(url, filename)
-    all_domains = set()
-    whitelist_domains = set()
-    for filename in FEED_FILENAMES:
-        if 'whitelist' in filename:
-            whitelist_domains.update(extract_domains_from_feed(filename))
-        else:
-            all_domains.update(extract_domains_from_feed(filename))
-    create_file_if_not_exists(WAREHOUSE_FILENAME)
-    create_file_if_not_exists(HISTORY_FILENAME)
-    update_json_with_domains(all_domains, WAREHOUSE_FILENAME)
-    mark_whitelisted_domains(whitelist_domains, WAREHOUSE_FILENAME)
-    update_dns_status(WAREHOUSE_FILENAME)
-    data = read_json_file(WAREHOUSE_FILENAME)
-    json_hash = calculate_sha1_hash(data)
-    existing_hash = get_existing_hash("nxphish.agh")
-    if existing_hash != json_hash:
-        ok_domains, tld_counts = collect_ok_domains(data)
-        num_phishing_domains = write_output_file("nxphish.agh", json_hash, ok_domains, tld_counts)
-        plot_tld_counts(tld_counts)
-        update_history(HISTORY_FILENAME, num_phishing_domains)
-        plot_history(HISTORY_FILENAME)
+    logging.info("Script started")
+    try:
+        for url, filename in zip(FEED_URLS, FEED_FILENAMES):
+            download_file(url, filename)
+        all_domains = set()
+        whitelist_domains = set()
+        for filename in FEED_FILENAMES:
+            if 'whitelist' in filename:
+                whitelist_domains.update(extract_domains_from_feed(filename))
+            else:
+                all_domains.update(extract_domains_from_feed(filename))
+        create_file_if_not_exists(WAREHOUSE_FILENAME)
+        create_file_if_not_exists(HISTORY_FILENAME)
+        update_json_with_domains(all_domains, WAREHOUSE_FILENAME)
+        mark_whitelisted_domains(whitelist_domains, WAREHOUSE_FILENAME)
+        update_dns_status(WAREHOUSE_FILENAME)
+        data = read_json_file(WAREHOUSE_FILENAME)
+        json_hash = calculate_sha1_hash(data)
+        existing_hash = get_existing_hash("nxphish.agh")
+        if existing_hash != json_hash:
+            ok_domains, tld_counts = collect_ok_domains(data)
+            num_phishing_domains = write_output_file("nxphish.agh", json_hash, ok_domains, tld_counts)
+            plot_tld_counts(tld_counts)
+            update_history(HISTORY_FILENAME, num_phishing_domains)
+            plot_history(HISTORY_FILENAME)
+    except Exception as e:
+        logging.error(f"Unexpected error: {e}")
+    logging.info("Script finished")
 
 if __name__ == "__main__":
     main()
