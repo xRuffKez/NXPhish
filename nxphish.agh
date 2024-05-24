@@ -1,9 +1,9 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716581167
-# Database Hash: 6edee0b92d0f0d9b88997e96b2788ab989cbba9a
-# Generated at: 2024-05-24 20:06:07
-# Number of domains: 1554
+# Version: 1716588387
+# Database Hash: 2317a4c8d9737f7dbdc1954a210d9e20b6fb62e2
+# Generated at: 2024-05-24 22:06:27
+# Number of domains: 1555
 # Last 10 TLD counts:
 # dev: 628
 # com: 266
@@ -11,8 +11,8 @@
 # app: 40
 # id: 29
 # ua: 25
+# top: 25
 # link: 25
-# top: 24
 # cn: 19
 # gg: 18
 ||0.tpc.eu.ngrok.io^
@@ -495,6 +495,7 @@
 ||google-jobsoffer7655.pages.dev^
 ||google-jobspro89.pages.dev^
 ||google-netcashjobs75.pages.dev^
+||google-store.top^
 ||google.cjysec.workers.dev^
 ||google.vxz.app^
 ||googleonlineinflue.blogspot.com^
