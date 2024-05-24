@@ -239,7 +239,7 @@ def write_output_file(filename: str, json_hash: str, ok_domains: Set[str], tld_c
                 file.write(f"# - .{tld}: {count} ({percentage:.2f}%)\n")
             file.write("\n")
             for domain in sorted(ok_domains):
-                file.write(f"0.0.0.0 {domain}\n")
+                file.write(f"||{domain}^\n")
     except Exception as e:
         logging.error(f"Error writing output file: {e}")
     return len(ok_domains)
