@@ -1,19 +1,19 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716551917
-# Database Hash: 950b37a39a758e11572d1d6ab49ad329607832d3
-# Generated at: 2024-05-24 11:58:37
+# Version: 1716552058
+# Database Hash: 3eb3daeed99a7cff3cc79047c651cb42d1127b99
+# Generated at: 2024-05-24 12:00:58
 # Expires: 1 day
 
 # Top-level domain statistics:
-# dev: 881 (39.51%)
-# com: 365 (16.37%)
-# io: 254 (11.39%)
+# dev: 881 (39.52%)
+# com: 364 (16.33%)
+# io: 254 (11.40%)
 # app: 63 (2.83%)
 # id: 37 (1.66%)
-# ua: 32 (1.43%)
-# cn: 28 (1.26%)
+# ua: 32 (1.44%)
 # top: 28 (1.26%)
+# cn: 28 (1.26%)
 # net: 28 (1.26%)
 # xyz: 27 (1.21%)
 
@@ -508,7 +508,6 @@
 ||doooc-cebf.rglegagaoali.workers.dev^
 ||dpaylater2024aa.dana1.biz.id^
 ||dretils.com^
-||drive.google.com^
 ||dropbox-ar3.pages.dev^
 ||dsgfff3.pages.dev^
 ||dsq.pages.dev^
