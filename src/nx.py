@@ -9,6 +9,7 @@ from datetime import datetime
 from collections import Counter
 import matplotlib.pyplot as plt
 from typing import Set, Dict, Any, Tuple, List
+import concurrent.futures
 import logging
 
 # Constants
@@ -29,6 +30,7 @@ FEED_FILENAMES = [
 ]
 TIME_THRESHOLD = 48 * 3600
 DNS_CHECK_THRESHOLD = 6 * 3600
+NUM_WORKERS = 10  # Number of workers for parallel processing
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -161,16 +163,23 @@ def check_dns_status(domain: str) -> str:
     save_cache(cache)
     return status
 
-# Update DNS status
+# Update DNS status with parallel processing
 def update_dns_status(filename: str) -> None:
     current_time = int(time.time())
     try:
         with open(filename, "r+") as file:
             data = json.load(file)
-            for entry in data:
-                if current_time - entry["dns_check_date"] >= DNS_CHECK_THRESHOLD:
-                    entry["dns_status"] = check_dns_status(entry["domain"])
-                    entry["dns_check_date"] = current_time
+            domains_to_check = [
+                entry["domain"] for entry in data
+                if current_time - entry["dns_check_date"] >= DNS_CHECK_THRESHOLD
+            ]
+            with concurrent.futures.ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
+                results = list(executor.map(check_dns_status, domains_to_check))
+            for domain, status in zip(domains_to_check, results):
+                for entry in data:
+                    if entry["domain"] == domain:
+                        entry["dns_status"] = status
+                        entry["dns_check_date"] = current_time
             updated_data = [
                 entry for entry in data
                 if entry["dns_status"] == "OK" or entry["whitelisted"] == 1 or current_time - entry["last_seen"] <= TIME_THRESHOLD
@@ -223,23 +232,22 @@ def write_output_file(filename: str, json_hash: str, ok_domains: Set[str], tld_c
             file.write(f"# Version: {generation_time}\n")
             file.write(f"# Database Hash: {json_hash}\n")
             file.write(f"# Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-            file.write(f"# Expires: 1 day\n")
-            file.write(f"# Number of phishing domains: {len(ok_domains)}\n")
-            file.write("# Top 10 Abused TLDs:\n")
-            for tld, count in tld_counts.most_common(10):
+            file.write(f"# Expires: 1 day\n\n")
+            file.write("# Top-level domain statistics:\n")
+            for tld, count in tld_counts.items():
                 percentage = (count / len(ok_domains)) * 100
-                file.write(f"# {tld}: {count} ({percentage:.2f}%)\n")
+                file.write(f"# - .{tld}: {count} ({percentage:.2f}%)\n")
             file.write("\n")
             for domain in sorted(ok_domains):
-                file.write(f"||{domain}^\n")
+                file.write(f"0.0.0.0 {domain}\n")
     except Exception as e:
         logging.error(f"Error writing output file: {e}")
     return len(ok_domains)
 
 # Plot TLD counts
 def plot_tld_counts(tld_counts: Counter) -> None:
-    tld, count = zip(*tld_counts.most_common(10))
-    plt.bar(tld, count)
+    tlds, counts = zip(*tld_counts.most_common(10))
+    plt.bar(tlds, counts)
     plt.title("Top 10 Abused TLDs")
     plt.xlabel("TLD")
     plt.ylabel("Count")
@@ -271,24 +279,28 @@ def plot_history(history_filename: str) -> None:
     try:
         with open(history_filename, "r") as file:
             history = json.load(file)
+        if not history:
+            logging.info("No history to plot")
+            return
         dates = [entry["date"] for entry in history]
         counts = [entry["count"] for entry in history]
-        plt.plot(dates, counts)
+        plt.plot(dates, counts, marker='o')
         plt.title("Number of Phishing Domains Over Time")
         plt.xlabel("Date")
         plt.ylabel("Count")
         plt.xticks(rotation=45)
+        plt.tight_layout()  # Ensure labels fit into the plot area
         plt.savefig("history.png")
         plt.close()
     except (FileNotFoundError, json.JSONDecodeError):
-        pass
+        logging.error("Error reading history file for plotting")
 
 # Main function
 def main() -> None:
     logging.info("Script started")
     try:
-        for url, filename in zip(FEED_URLS, FEED_FILENAMES):
-            download_file(url, filename)
+        with concurrent.futures.ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
+            executor.map(download_file, FEED_URLS, FEED_FILENAMES)
         all_domains = set()
         whitelist_domains = set()
         for filename in FEED_FILENAMES:
