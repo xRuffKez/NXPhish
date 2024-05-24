@@ -4,18 +4,18 @@ import requests
 import time
 from urllib.parse import urlparse
 import dns.resolver
-import hashlib
 from datetime import datetime
 from collections import Counter
 import matplotlib.pyplot as plt
 from typing import Set, Dict, Any, Tuple, List
 import concurrent.futures
 import logging
+import hashlib
+import functools
 
 # Constants
 WAREHOUSE_FILENAME = "warehouse.json"
 HISTORY_FILENAME = "history.json"
-CACHE_FILENAME = "cache.json"
 FEED_URLS = [
     "https://openphish.com/feed.txt",
     "https://phishunt.io/feed.txt",
@@ -35,43 +35,18 @@ NUM_WORKERS = 10  # Number of workers for parallel processing
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Load cache
-def load_cache() -> Dict[str, Any]:
-    if os.path.exists(CACHE_FILENAME):
-        with open(CACHE_FILENAME, "r") as file:
-            try:
-                return json.load(file)
-            except json.JSONDecodeError:
-                return {}
-    return {}
-
-cache = load_cache()
-
-def save_cache(cache: Dict[str, Any]) -> None:
-    serializable_cache = {key: (value.decode() if isinstance(value, bytes) else value) for key, value in cache.items()}
-    with open(CACHE_FILENAME, "w") as file:
-        json.dump(serializable_cache, file)
-
 # File downloading
 def download_file(url: str, filename: str) -> None:
     logging.info(f"Downloading {url}")
-    if url in cache:
-        content = cache[url]
-    else:
-        try:
-            response = requests.get(url)
-            response.raise_for_status()
-            content = response.content  # Ensure content is bytes
-            cache[url] = content
-            save_cache(cache)
-        except requests.RequestException as e:
-            logging.error(f"Error downloading {url}: {e}")
-            return
-    with open(filename, "wb") as file:
-        if isinstance(content, str):
-            content = content.encode('utf-8')  # Convert string to bytes if necessary
-        file.write(content)
-    logging.info(f"Saved {filename}")
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        content = response.content
+        with open(filename, "wb") as file:
+            file.write(content)
+        logging.info(f"Saved {filename}")
+    except requests.RequestException as e:
+        logging.error(f"Error downloading {url}: {e}")
 
 # Extract domains from feed
 def extract_domains_from_feed(feed_filename: str) -> Set[str]:
@@ -123,23 +98,26 @@ def update_json_with_domains(domains: Set[str], filename: str) -> int:
 
 # Mark whitelisted domains
 def mark_whitelisted_domains(whitelist_domains: Set[str], filename: str) -> None:
+    def is_subdomain(domain: str, whitelist_domain: str) -> bool:
+        return domain == whitelist_domain or domain.endswith('.' + whitelist_domain)
+
     with open(filename, "r+") as file:
         try:
             data = json.load(file)
         except json.JSONDecodeError:
             data = []
-        for domain in whitelist_domains:
-            for entry in data:
-                if domain == entry["domain"] or domain.startswith("*.") and entry["domain"].endswith(domain[1:]):
-                    entry["whitelisted"] = 1
+        
+        for entry in data:
+            if any(is_subdomain(entry["domain"], whitelist_domain) for whitelist_domain in whitelist_domains):
+                entry["whitelisted"] = 1
+
         file.seek(0)
         file.truncate()
         json.dump(data, file, indent=4)
 
-# Check DNS status
+# Check DNS status with caching
+@functools.lru_cache(maxsize=1024)
 def check_dns_status(domain: str) -> str:
-    if domain in cache:
-        return cache[domain]
     resolver = dns.resolver.Resolver()
     resolver.nameservers = ['76.76.2.0', '76.76.10.0']
     try:
@@ -159,11 +137,9 @@ def check_dns_status(domain: str) -> str:
     except Exception as e:
         logging.error(f"DNS check error for {domain}: {e}")
         status = "ERROR"
-    cache[domain] = status
-    save_cache(cache)
     return status
 
-# Update DNS status with parallel processing
+# Update DNS status with parallel processing and caching
 def update_dns_status(filename: str) -> None:
     current_time = int(time.time())
     try:
@@ -232,22 +208,20 @@ def write_output_file(filename: str, json_hash: str, ok_domains: Set[str], tld_c
             file.write(f"# Version: {generation_time}\n")
             file.write(f"# Database Hash: {json_hash}\n")
             file.write(f"# Generated at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-            file.write(f"# Expires: 1 day\n\n")
-            file.write("# Top-level domain statistics:\n")
+            file.write(f"# Number of domains: {len(ok_domains)}\n")
+            file.write("# Last 10 TLD counts:\n")
             for tld, count in tld_counts.most_common(10):
-                percentage = (count / len(ok_domains)) * 100
-                file.write(f"# {tld}: {count} ({percentage:.2f}%)\n")
-            file.write("\n")
+                file.write(f"# {tld}: {count}\n")
             for domain in sorted(ok_domains):
-                file.write(f"||{domain}^\n")
+                file.write(f"{domain}\n")
     except Exception as e:
-        logging.error(f"Error writing output file: {e}")
+        logging.error(f"Error writing output file {filename}: {e}")
     return len(ok_domains)
 
 # Plot TLD counts
 def plot_tld_counts(tld_counts: Counter) -> None:
-    tlds, counts = zip(*tld_counts.most_common(10))
-    plt.bar(tlds, counts)
+    top_tlds = dict(tld_counts.most_common(10))
+    plt.bar(top_tlds.keys(), top_tlds.values())
     plt.title("Top 10 Abused TLDs")
     plt.xlabel("TLD")
     plt.ylabel("Count")
@@ -316,12 +290,19 @@ def main() -> None:
         data = read_json_file(WAREHOUSE_FILENAME)
         json_hash = calculate_sha1_hash(data)
         existing_hash = get_existing_hash("nxphish.agh")
-        if existing_hash != json_hash:
-            ok_domains, tld_counts = collect_ok_domains(data)
+        
+        # Collect OK domains and calculate their hash for comparison
+        ok_domains, tld_counts = collect_ok_domains(data)
+        ok_domains_hash = calculate_sha1_hash(sorted(ok_domains))
+        existing_ok_domains_hash = get_existing_hash("nxphish.agh")
+        
+        if existing_hash != json_hash or existing_ok_domains_hash != ok_domains_hash:
             num_phishing_domains = write_output_file("nxphish.agh", json_hash, ok_domains, tld_counts)
             plot_tld_counts(tld_counts)
             update_history(HISTORY_FILENAME, num_phishing_domains)
             plot_history(HISTORY_FILENAME)
+        else:
+            logging.info("No changes detected in OK domains. nxphish.agh not updated.")
     except Exception as e:
         logging.error(f"Unexpected error: {e}")
     logging.info("Script finished")
