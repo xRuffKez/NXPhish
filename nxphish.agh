@@ -1,8 +1,8 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716776251
-# Database Hash: f39a5f96a7e39abfbd00c1419fd71427de7e89ee
-# Generated at: 2024-05-27 02:17:31
+# Version: 1716782826
+# Database Hash: bb49c233c9a3f1c3424aec0c6e1716660016d222
+# Generated at: 2024-05-27 04:07:06
 # Number of domains: 185
 # Last 10 TLD counts:
 # dev: 61
@@ -11,10 +11,10 @@
 # app: 7
 # id: 6
 # shop: 4
-# za: 3
 # nl: 3
 # mk: 3
-# mx: 2
+# za: 3
+# top: 2
 ||11steam.com^
 ||alitesla-worker-vless.isam.workers.dev^
 ||alr.bnb9131.com^
