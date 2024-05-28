@@ -1,24 +1,24 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716869319
-# Database Hash: 091972f6a50bdce954632be2488403883700e7aa
-# Generated at: 2024-05-28 04:08:39
-# Number of domains: 346
+# Version: 1716883658
+# Database Hash: 9d0b35fae90ee7adfc0dacd26d735f42be230b9c
+# Generated at: 2024-05-28 08:07:38
+# Number of domains: 341
 # Last 10 TLD counts:
-# dev: 137
-# com: 48
-# io: 24
-# id: 22
-# shop: 9
-# app: 9
-# fr: 4
-# net: 4
+# dev: 136
+# com: 50
+# io: 23
+# id: 19
+# app: 11
+# shop: 8
 # link: 4
-# top: 3
+# net: 4
+# mx: 3
+# mk: 3
 ||01bh.01zaq.dns-dynamic.net^
 ||10yongge.adoubleice.workers.dev^
 ||4401.yalubio.com^
-||alibaba-vn.shop^
+||aktivasi-pemulihan-akun-dana.ww-net.art^
 ||alr.bnb-id8402.com^
 ||alr.bnb3902.com^
 ||amaz-shop.pro^
@@ -38,7 +38,6 @@
 ||bitter-pond-1c3e.setupmails.workers.dev^
 ||blog.fatimaesportes.com.br^
 ||booking.details-connect.live^
-||c27-aut0fnanc3-vrt.spaligm3dorendiph4rogel.de^
 ||calm-pine-3d7e.qqcn.workers.dev^
 ||calm-tree-a992.nupsiyurke3027.workers.dev^
 ||cambodiaporncinemakhmer.vipreal.my.id^
@@ -67,7 +66,7 @@
 ||discord.jerry-tao.com^
 ||discord.y62.net^
 ||dlsopw.ftdcop.workers.dev^
-||dunwell.seenseen.co^
+||elegant-biscochitos-d05ec3.netlify.app^
 ||empty-art-d082.niltitestu5704.workers.dev^
 ||f2wq6.shop^
 ||facebook.lojaseofertas.com^
@@ -94,6 +93,7 @@
 ||group-scandal-melayu.group-telegram.my.id^
 ||hdhshdhdh.fbzsa.com^
 ||hello-world-empty-cell-e90d.fuknomekne.workers.dev^
+||hello-world-falling-river-510c.dwlupton.workers.dev^
 ||hello-world-misty-voice-51c8.jwayne1031.workers.dev^
 ||hello-world-patient-grass-f8cf.yurdejaspu.workers.dev^
 ||hello-world-soft-silence-ef26.felmutatri.workers.dev^
@@ -137,18 +137,16 @@
 ||kuarekenlogn.gitbook.io^
 ||ky.linkedin.com^
 ||layanan-pemulihan-akun-dana-resmi.program-update.com^
-||layananofficial-dana.id-resmi.biz.id^
 ||letg.pages.dev^
 ||linkx-dana-pinjaman.resmi70.my.id^
 ||list-om1.job-opportunities.xyz^
 ||liveprivatevideo29.vipmelayu.my.id^
 ||ln.run^
 ||loginimetamask-io.gitbook.io^
-||lucah001.group-telegram.my.id^
 ||lymphomacat.com^
-||m.iqb.my.id^
 ||macos.tlgr.org^
 ||maile-term-folder.kevat46728.workers.dev^
+||main--mellifluous-crumble-04938e.netlify.app^
 ||mataimisk-logings.gitbook.io^
 ||matimacsklogen.gitbook.io^
 ||meaier-1e60.aaumdlayetreoks.workers.dev^
@@ -192,13 +190,13 @@
 ||metesdfmasktrie.gitbook.io^
 ||mettamscilogin.gitbook.io^
 ||mint-opennow.web.app^
-||misty-sunset-c2ef.prn8mqt3.workers.dev^
 ||mlz.7xorsvy.workers.dev^
 ||moccasin-hawk-131652.builder-preview.com^
 ||molta-fame.at^
 ||monleor.de^
 ||mtetamasklogin.gitbook.io^
 ||mute-sunset-ecfd.bcgrohol1653.workers.dev^
+||nasteraze.blogspot.com^
 ||nbht6fgd.htfmjv8uordfy.workers.dev^
 ||netflixav.live^
 ||noisy-glitter-0589.trueb719907.workers.dev^
@@ -212,11 +210,9 @@
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||p4rv6.shop^
 ||pageservice.lucumavolatil.com^
-||pemulihan-akun-danaaa.program-update.com^
+||patagoniaspanishexperience.com^
 ||pemulihanakunndanaa.program-update.com^
 ||pfdmx.mxl00kio0001.workers.dev^
-||poamxh.bitbucket.io^
-||profilebnbdatacheck400021.com^
 ||profilebookdatacheck400021.com^
 ||pub-02dd55f48a9541ac81a1e7570171f4c4.r2.dev^
 ||pub-042eed7f62444456a2fa3ec642bf6289.r2.dev^
@@ -225,10 +221,10 @@
 ||pub-14bf9fb368c341f598f6c02e9ec8700b.r2.dev^
 ||pub-1988fd51b06b4334814695a52ae13b09.r2.dev^
 ||pub-244e972cad9242be820ac9530c22a242.r2.dev^
-||pub-250411c23caf4e4ab7ba53134c06b215.r2.dev^
 ||pub-28b7a71e69dd4fffaab4fa0938496586.r2.dev^
+||pub-2d98c6907eb5442a9b2112a0cb02b94c.r2.dev^
 ||pub-2e8406f484924a35ac1ed5eeaa81e0b5.r2.dev^
-||pub-32772293aebe42748bac819406d21429.r2.dev^
+||pub-3165a2ed17b042c7962f7434e6e1f2bb.r2.dev^
 ||pub-3424228f58ac440c9523afb01100ed68.r2.dev^
 ||pub-3ceabf7fc3aa49f88b6a6c3903ae2aae.r2.dev^
 ||pub-4de64029e5cd414dac1dc2fc30f8d5e9.r2.dev^
@@ -289,7 +285,7 @@
 ||roomerbookaproving409011.com^
 ||samsaren.blogspot.com^
 ||santanderbootcamp.shop^
-||seasonn-tokens.kraftoneventrpa7update.workers.dev^
+||security-help-center-2bd3c.firebaseapp.com^
 ||seller.cbaygj.com^
 ||server.y81b.com^
 ||shilamax.ru^
@@ -307,7 +303,7 @@
 ||tiny-snow-f3d5.ccache.workers.dev^
 ||trezorsuites.gitbook.io^
 ||twitch-tv-gift.ru^
-||tzertn.blogspot.fr^
+||tzertn.blogspot.com^
 ||udertnb.zsenmkl9339.workers.dev^
 ||upouuldlogin.gitbook.io^
 ||us-robiihoodlogini.gitbook.io^
@@ -345,7 +341,6 @@
 ||www.ama789.vip^
 ||www.dosyacezalariniz.com^
 ||www.id-facebook.com^
-||www.kimchig5g.cloudns.biz^
 ||www.lcloud-trackdevice.us^
 ||www.livraison-frais.fr^
 ||www.spotify3.com^
