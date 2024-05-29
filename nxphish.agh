@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716942218
-# Database Hash: b5ab97c39b876edc6b7ee6bf0518041998188cdc
-# Generated at: 2024-05-29 00:23:38
-# Number of domains: 339
+# Version: 1716949091
+# Database Hash: 615f46003f7859465be670b05d462489b6097b21
+# Generated at: 2024-05-29 02:18:11
+# Number of domains: 344
 # Last 10 TLD counts:
 # dev: 143
-# com: 46
+# com: 48
 # app: 22
 # id: 20
 # io: 17
 # net: 7
-# top: 5
 # click: 5
+# top: 5
+# info: 4
 # xyz: 4
-# nl: 3
 ||13redirecten.blogspot.com^
 ||665346b7f9308b72f04604f6--unrivaled-conkies-f2f5b1.netlify.app^
 ||8z5x.za.com^
@@ -29,6 +29,7 @@
 ||anz.brandkit.io^
 ||app-handler.de^
 ||apple-id-findmy.info^
+||apple-sign.info^
 ||areamanagebookdata100890.com^
 ||ava.game.naver.com.free.putrivpn.biz.id^
 ||b5611.top^
@@ -105,6 +106,7 @@
 ||home.fluxline.click^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
+||i-binance.com^
 ||im45.app^
 ||impots.gouv.agency^
 ||ince-cm-cdn.jeanyeung9966.workers.dev^
@@ -149,6 +151,9 @@
 ||lucah435-my-telegram.bxxx.my.id^
 ||luminous-seahorse-4cdab9.netlify.app^
 ||lymphomacat.com^
+||mahjong1-google.com^
+||mahjong1-google.info^
+||mahjong2-google.info^
 ||maile-term-folder.kevat46728.workers.dev^
 ||matumiskawalieto.gitbook.io^
 ||mdykqhutxratlgjpgw.hotck.cn^
