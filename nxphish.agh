@@ -1,8 +1,8 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716998846
-# Database Hash: 9e319a4a541507d158de00aa0101ba0c31311390
-# Generated at: 2024-05-29 16:07:26
+# Version: 1717005984
+# Database Hash: 8850541d8f205388f4a4fbbccc97f082c07b6066
+# Generated at: 2024-05-29 18:06:24
 # Number of domains: 356
 # Last 10 TLD counts:
 # dev: 135
@@ -12,8 +12,8 @@
 # app: 16
 # link: 12
 # net: 6
-# info: 5
 # shop: 5
+# info: 5
 # top: 4
 ||2.fangjungui.workers.dev^
 ||665346b7f9308b72f04604f6--unrivaled-conkies-f2f5b1.netlify.app^
