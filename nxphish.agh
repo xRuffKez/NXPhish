@@ -1,19 +1,19 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1716984543
-# Database Hash: a388e8d25a37c9ff9a9456899e82a54a65995570
-# Generated at: 2024-05-29 12:09:03
-# Number of domains: 452
+# Version: 1716991549
+# Database Hash: dc8648bad7cd6788d23e932b1e82c3bbba1760d5
+# Generated at: 2024-05-29 14:05:49
+# Number of domains: 453
 # Last 10 TLD counts:
 # dev: 172
-# com: 64
+# com: 65
 # id: 26
 # io: 24
 # app: 13
 # top: 9
 # net: 7
-# shop: 6
 # link: 6
+# shop: 6
 # info: 5
 ||10yongge.adoubleice.workers.dev^
 ||13redirecten.blogspot.com^
@@ -145,6 +145,7 @@
 ||i-binance.com^
 ||i8nex.shop^
 ||icy-meadow-b193.carzodespi76.workers.dev^
+||in.google-sex.com^
 ||ince-cm-cdn.jeanyeung9966.workers.dev^
 ||indiaabrasives.com^
 ||info-bancosantander-app.com^
