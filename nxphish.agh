@@ -1,8 +1,8 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717128413
-# Database Hash: 412a165a326aef21ef0d33cd4dfc0a2d8bc00b69
-# Generated at: 2024-05-31 04:06:53
+# Version: 1717135650
+# Database Hash: c766ffa190c6c14194ad07a1d956cfbbce6f632d
+# Generated at: 2024-05-31 06:07:30
 # Number of domains: 370
 # Last 10 TLD counts:
 # dev: 124
@@ -11,10 +11,10 @@
 # io: 16
 # app: 13
 # link: 12
-# top: 8
 # shop: 8
+# top: 8
 # org: 5
-# nl: 4
+# ug: 4
 ||0916.sakuyn.com^
 ||1.icebergishadow.workers.dev^
 ||17dh03.com^
