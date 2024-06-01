@@ -1,12 +1,12 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717243674
-# Database Hash: 8f884ab877985f7dfb0d9b8418d0c7c01de9af55
-# Generated at: 2024-06-01 12:07:54
-# Number of domains: 426
+# Version: 1717250755
+# Database Hash: 87bd426b75a240ab52c962b81d8d049682eafc3e
+# Generated at: 2024-06-01 14:05:55
+# Number of domains: 428
 # Last 10 TLD counts:
 # dev: 141
-# com: 67
+# com: 69
 # id: 22
 # app: 18
 # io: 15
@@ -14,7 +14,7 @@
 # shop: 10
 # top: 9
 # mk: 5
-# today: 5
+# xyz: 5
 ||1.155299.xyz^
 ||17dh03.com^
 ||a4aaapprriv.web.app^
@@ -29,6 +29,7 @@
 ||app-lcloud.com^
 ||appl-find-idmaps.live^
 ||apple-france.info^
+||apps.apple.com^
 ||asd.douyuhh.tk^
 ||b4615.top^
 ||baby.chillwen.xyz^
@@ -288,6 +289,7 @@
 ||ourtime.upgrade-membeer.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||perbaikan-kendala-akun.resmi-ww.art^
+||play.google.com^
 ||playful-basbousa-2trbo74.netlify.app^
 ||pub-02699f88bae04379a6389ba0911ae667.r2.dev^
 ||pub-02ac10a1721a429f979e5a85540d30d7.r2.dev^
