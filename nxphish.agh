@@ -1,21 +1,28 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717409281
-# Database Hash: bb6fe7c29e494afda3706a92b141383391fdcc22
-# Generated at: 2024-06-03 10:08:01
-# Number of domains: 194
+# Version: 1717416566
+# Database Hash: 92756be3892f524721d927c259fc4900acfcc1a8
+# Generated at: 2024-06-03 12:09:26
+# Number of domains: 357
 # Last 10 TLD counts:
-# dev: 95
-# com: 13
-# id: 9
-# app: 8
-# io: 7
-# top: 3
-# link: 3
-# mk: 3
-# ee: 2
-# mx: 2
+# dev: 110
+# com: 77
+# app: 71
+# id: 12
+# io: 9
+# link: 6
+# top: 4
+# mk: 4
+# br: 3
+# is: 3
+||3.skysky.workers.dev^
+||887256.com^
+||926.bagaga.top^
+||actcl-issue-interval.firebaseapp.com^
+||actcl-issue-interval.web.app^
+||activity-issue-pe-feedbacknow.firebaseapp.com^
 ||aktivasi-akun-dnid.specialoleng.biz.id^
+||aktivasi-hadiah-giveaway-10jt.apk-cs.biz.id^
 ||alr.bnb9131.com^
 ||amazon-by-aftab.netlify.app^
 ||astounding-peony-ffe589.netlify.app^
@@ -23,31 +30,49 @@
 ||bafybeiaaq75hksjdgxhjmj5wlaugv7z5w3mj4q67jnrcpfv64f44upnlly.ipfs.dweb.link^
 ||bafybeib3a34sjyrfuenufdu6qjwttwtbbtlmioh2y3hzhmgfsksp2t64fq.ipfs.cf-ipfs.com^
 ||bafybeibiih2mlglsyxe5tdvx6zjg2fyh4tcpmhsfq6iptksuqk6zfotfla.ipfs.w3s.link^
+||bafybeibnsqac4ek5ujafbajqyutcnpcaa4c7rlhutbdwesfasqkoqndhvm.ipfs.dweb.link^
+||bafybeibpjzg3w4fv6yhbtezdf3x6vqtph4h4oh7g5xpl4ydt7a55gcf6am.ipfs.dweb.link^
 ||bafybeiddrvh2jskkihnnlw4i4rs23m43bg56bjpdr43cfon6oddmha6lue.ipfs.dweb.link^
+||bafybeifbgix7occaqzn6tpirnkmluysi6e37rren5fpwz4jpj7pyj2hgwe.ipfs.dweb.link^
 ||bafybeigcouhnbnqy6w7pjkne3ncencdgyo4gdhkki3l2sywwjyzheqhto4.ipfs.cf-ipfs.com^
 ||beomoweryrichuyg.saphhieire.workers.dev^
 ||bsnchhupmtyhpf.nfenzsy.cn^
 ||cdn.cfcdn2.workers.dev^
+||centraljp-infoappealing.firebaseapp.com^
+||centraljp-infoappealing.web.app^
 ||cf.jensenge.workers.dev^
 ||claim-danax-kaget.klik-websitee.my.id^
+||clsession-appealsuite.web.app^
 ||coinbaselogiin.blogspot.co.za^
+||db.easy-eintrag.info^
 ||discord.messenger.lzfluorite.xyz^
+||downfrs.hzq.workers.dev^
 ||engg.productsgallerydetails.com^
 ||exchnge-evntcoin.com^
+||facebook-com-hr.pages.mus.br^
 ||facebooksecuritys.blogspot.mk^
 ||famous66-cascaron-d57a98-vd656.netlify.app^
+||fb-reminders-security-4c3d0.firebaseapp.com^
+||fb-reminders-security-4c3d0.web.app^
+||fb-reminders-security-8ed4e.firebaseapp.com^
+||feedback-issue-vnd-check.web.app^
 ||fhrrfdgg.blogspot.is^
 ||findmy.id-track.info^
 ||findsmy-pro.com^
+||flouris-hing-bomb-olone-cdf-b185f9.netlify.app^
 ||formsly-form.web.app^
 ||free-1000-followers-giveway.blogspot.com^
+||funny-crar-nay-chan-cdf-123e4eef7.netlify.app^
 ||geiminizlngie.gitbook.io^
 ||geminialogiow.gitbook.io^
 ||genemiioilogin.gitbook.io^
+||generatorfreeaccounts.blogspot.mk^
 ||get-windows-replaced.today^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
 ||green01.w6dch9e.eu.org^
+||group-postban.firebaseapp.com^
+||hadiah10juta-giveaway.cs-ojk.xyz^
 ||hello-world-blue-waterfall-1154.segema9404.workers.dev^
 ||hi.midasteams.workers.dev^
 ||hku.ai4chatgpt.workers.dev^
@@ -74,6 +99,10 @@
 ||jia.yigehaobb.workers.dev^
 ||jin-votte.top^
 ||joingrup18.sg77.my.id^
+||jujutsukaisenxmlbb.nfile.my.id^
+||koreanresolve-deskissueapp.web.app^
+||lisa.laykounfaawnke.org^
+||liveprivatevideo30.2024xmalaysia.my.id^
 ||login-ourtim.0auth-zooks.workers.dev^
 ||lqlkslpw093sj30lvnj.mdnsj30qkajmzm.workers.dev^
 ||lucah0006.my-telegram.my.id^
@@ -83,6 +112,14 @@
 ||mail0.googgle.workers.dev^
 ||matamaasklog-ioo.gitbook.io^
 ||matatmskalogi.gitbook.io^
+||matterforiss-pl-suite.firebaseapp.com^
+||matterforiss-pl-suite.web.app^
+||meatamausk-loaggein.gitbook.io^
+||meta-account-support-fxp8.firebaseapp.com^
+||meta-account-support-fxp8.web.app^
+||meta-getsupport103991.firebaseapp.com^
+||meta-getsupport103991.web.app^
+||meta-report-ea217.web.app^
 ||metaddadddlogin.gitbook.io^
 ||metamask-wallett.blogspot.ca^
 ||metamask-wallett.blogspot.co.uk^
@@ -110,12 +147,115 @@
 ||metamaskinc.blogspot.se^
 ||metamaskinc.blogspot.sg^
 ||metamaskinc.blogspot.si^
+||metamasklive.web.app^
 ||metamasskluginn.blogspot.cz^
 ||metamesklogup.gitbook.io^
+||metasupport1865832401.firebaseapp.com^
+||metasupport2477841502.web.app^
+||metasupport4579173504.firebaseapp.com^
+||miytemasklogin.gitbook.io^
 ||morning-unit-927d.nruwbvc1545915.workers.dev^
 ||movie.ypiwin.workers.dev^
+||myhouseprojectfiles06.firebaseapp.com^
+||myhouseprojectfiles104.web.app^
+||myhouseprojectfiles105.firebaseapp.com^
+||myhouseprojectfiles106.firebaseapp.com^
+||myhouseprojectfiles107.web.app^
+||myhouseprojectfiles108.web.app^
+||myhouseprojectfiles109.firebaseapp.com^
+||myhouseprojectfiles109.web.app^
+||myhouseprojectfiles112.web.app^
+||myhouseprojectfiles113.firebaseapp.com^
+||myhouseprojectfiles115.firebaseapp.com^
+||myhouseprojectfiles120.web.app^
+||myhouseprojectfiles125.firebaseapp.com^
+||myhouseprojectfiles127.firebaseapp.com^
+||myhouseprojectfiles127.web.app^
+||myhouseprojectfiles128.firebaseapp.com^
+||myhouseprojectfiles128.web.app^
+||myhouseprojectfiles129.firebaseapp.com^
+||myhouseprojectfiles129.web.app^
+||myhouseprojectfiles131.firebaseapp.com^
+||myhouseprojectfiles133.firebaseapp.com^
+||myhouseprojectfiles133.web.app^
+||myhouseprojectfiles134.firebaseapp.com^
+||myhouseprojectfiles134.web.app^
+||myhouseprojectfiles136.firebaseapp.com^
+||myhouseprojectfiles136.web.app^
+||myhouseprojectfiles137.firebaseapp.com^
+||myhouseprojectfiles137.web.app^
+||myhouseprojectfiles138.firebaseapp.com^
+||myhouseprojectfiles138.web.app^
+||myhouseprojectfiles142.firebaseapp.com^
+||myhouseprojectfiles143.web.app^
+||myhouseprojectfiles147.firebaseapp.com^
+||myhouseprojectfiles154.web.app^
+||myhouseprojectfiles157.firebaseapp.com^
+||myhouseprojectfiles157.web.app^
+||myhouseprojectfiles159.firebaseapp.com^
+||myhouseprojectfiles159.web.app^
+||myhouseprojectfiles171.firebaseapp.com^
+||myhouseprojectfiles172.web.app^
+||myhouseprojectfiles176.web.app^
+||myhouseprojectfiles180.firebaseapp.com^
+||myhouseprojectfiles180.web.app^
+||myhouseprojectfiles186.firebaseapp.com^
+||myhouseprojectfiles186.web.app^
+||myhouseprojectfiles189.firebaseapp.com^
+||myhouseprojectfiles193.firebaseapp.com^
+||myhouseprojectfiles194.web.app^
+||myhouseprojectfiles195.firebaseapp.com^
+||myhouseprojectfiles195.web.app^
+||myhouseprojectfiles196.firebaseapp.com^
+||myhouseprojectfiles196.web.app^
+||myhouseprojectfiles197.web.app^
+||myhouseprojectfiles199.firebaseapp.com^
+||myhouseprojectfiles199.web.app^
+||myhouseprojectfiles200.web.app^
+||myhouseprojectfiles203.web.app^
+||myhouseprojectfiles206.firebaseapp.com^
+||myhouseprojectfiles208.firebaseapp.com^
+||myhouseprojectfiles208.web.app^
+||myhouseprojectfiles209.web.app^
+||myhouseprojectfiles302.firebaseapp.com^
+||myhouseprojectfiles302.web.app^
+||myhouseprojectfiles309.firebaseapp.com^
+||myhouseprojectfiles309.web.app^
+||myhouseprojectfiles310.firebaseapp.com^
+||myhouseprojectfiles310.web.app^
+||myhouseprojectfiles334.web.app^
+||myhouseprojectfiles335.firebaseapp.com^
+||myhouseprojectfiles335.web.app^
+||myhouseprojectfiles338.firebaseapp.com^
+||myhouseprojectfiles338.web.app^
+||myhouseprojectfiles339.firebaseapp.com^
+||myhouseprojectfiles340.web.app^
+||myhouseprojectfiles342.firebaseapp.com^
+||myhouseprojectfiles342.web.app^
+||myhouseprojectfiles343.web.app^
+||myhouseprojectfiles350.web.app^
+||myhouseprojectfiles356.web.app^
+||myhouseprojectfiles359.firebaseapp.com^
+||myhouseprojectfiles359.web.app^
+||myhouseprojectfiles363.firebaseapp.com^
+||myhouseprojectfiles364.firebaseapp.com^
+||myhouseprojectfiles364.web.app^
+||myhouseprojectfiles366.firebaseapp.com^
+||myhouseprojectfiles368.firebaseapp.com^
+||myhouseprojectfiles368.web.app^
+||myhouseprojectfiles369.firebaseapp.com^
+||myhouseprojectfiles370.firebaseapp.com^
+||myhouseprojectfiles370.web.app^
+||myprojectfiles76884.firebaseapp.com^
+||myprojectfiles76884.web.app^
+||n9fb3.shop^
 ||new-estne-flix.blogspot.fi^
+||onlinesupporterchat.firebaseapp.com^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
+||pemulihan-akun-dana.anakdara9.art^
+||pemullhan-akun-danaa.anakdara9.art^
+||project-64532.firebaseapp.com^
+||project2b-e0f63.web.app^
 ||pub-02ac10a1721a429f979e5a85540d30d7.r2.dev^
 ||pub-02e50e21a32c4827adaaec2353ad80e2.r2.dev^
 ||pub-03263fcf19fc4520ae33bf72c8aca2bb.r2.dev^
@@ -125,6 +265,9 @@
 ||pub-0d37f32ce00942e09e06244e2c2042d5.r2.dev^
 ||pub-109e645b72bc4f85b6a133ea786177fd.r2.dev^
 ||pub-10affc7d98614b899342ca9e4f65baa0.r2.dev^
+||pub-11e6504d5d9a40ff97bcd3d5ee476ec8.r2.dev^
+||pub-16e137a4cf854984a7e3444dc08cd250.r2.dev^
+||pub-18d5a849f50b4f0599fe705f3bca6667.r2.dev^
 ||pub-1b0adb2146a640a0b0ec2645f84b6a9a.r2.dev^
 ||pub-1d13dfcf2b1541da928c881d229b25ed.r2.dev^
 ||pub-1e680dcaae094b5a809011eb2ab3f370.r2.dev^
@@ -136,6 +279,7 @@
 ||pub-26cb2e376255444fa999c8a228089a8f.r2.dev^
 ||pub-30781165e10b47b6b8f68fdf836b82ba.r2.dev^
 ||pub-3784361eb0b640e797495d46b35ce030.r2.dev^
+||pub-40cb77b4a6d84294bfa2db6a96f70ff7.r2.dev^
 ||pub-4b8c37d5f65746878138f2a1665fc704.r2.dev^
 ||pub-4c6662782926434588effff825b1eb1a.r2.dev^
 ||pub-4c83cc9b33974e039ea249e34af6b5d9.r2.dev^
@@ -144,6 +288,7 @@
 ||pub-5781beac687f419494c120c30f3a7c6b.r2.dev^
 ||pub-5d09e89ff38240f2b559297a9206beea.r2.dev^
 ||pub-5d90c027b251413dba1b488079a9baf8.r2.dev^
+||pub-60a3f2eae6af4a20bcdefeecf956a292.r2.dev^
 ||pub-6b33a9f1c57c487fa3541dd8f09ccdc0.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-7695c0b23019424cb779394f7a362ba8.r2.dev^
@@ -154,19 +299,23 @@
 ||pub-7e28a526d64340e89715cafd3ffddee3.r2.dev^
 ||pub-7fcb48efb24148869caa416b6a6e3e1a.r2.dev^
 ||pub-8b2e521eb2614610923cd588ec283661.r2.dev^
+||pub-8b653b04f8214be5995617a262ff0f74.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-8ff9f2b7d39f44c18425eca0f23a98b9.r2.dev^
 ||pub-93447d52bbd14ef0872d9ebe64bd09eb.r2.dev^
 ||pub-9578810b146c4649aee0e26df9357314.r2.dev^
 ||pub-976621225a0a41a99730fd00df2f79f7.r2.dev^
 ||pub-98c083a7f7c645739909d08cb7ec8bf4.r2.dev^
+||pub-99057bd36af9484dbb836fc96ed8381d.r2.dev^
 ||pub-9abe9cd3126b4701a0567f649282a16d.r2.dev^
 ||pub-9b47730a75f241889da873cf758947f3.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
 ||pub-9d6f84ea06bc401fbf921eb0eb9d28da.r2.dev^
 ||pub-9efcc66c84d94a76a921a433a45c2d86.r2.dev^
+||pub-a677b916958b43859e5c6892bce18227.r2.dev^
 ||pub-a862e08cc46e44878c59ef1bb044b345.r2.dev^
 ||pub-a9679b2711464ea9917a6c5392d93ee5.r2.dev^
+||pub-aeb14407c05d46268e869ff4b4e89ecb.r2.dev^
 ||pub-b6a9023b0a2946c1895fe652461bb687.r2.dev^
 ||pub-bd03215736f740e498d2f6d27a048e87.r2.dev^
 ||pub-c1d8e548943d4277863ad3db81bd170e.r2.dev^
@@ -174,8 +323,10 @@
 ||pub-c5e2dbb58028490685ab5f7a51d147da.r2.dev^
 ||pub-cc496cdf96ea4c1fbfeca8bcc5edfb27.r2.dev^
 ||pub-d351cc1193114bc695708e600762f48a.r2.dev^
+||pub-d45ea62bd92f4e5cb111f25a2dc0f36b.r2.dev^
 ||pub-d713ffda5c7348caa4e38634eb22a4e0.r2.dev^
 ||pub-daab4868e51e4062b2a29719ba8bfc5d.r2.dev^
+||pub-dc4ad4d9f393437ca7d416e8c47411cf.r2.dev^
 ||pub-dda005a462634fea953ace187610f4c7.r2.dev^
 ||pub-e8583bd7c3574b5b8171769cd95518de.r2.dev^
 ||pub-ea585ada54bb4b5282e7ae85fd88350e.r2.dev^
@@ -189,17 +340,28 @@
 ||pub-fc37d2d339714056b7f16368b49ae532.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||r3ddn.shop^
+||registrefilcomannelle.ac-page.com^
+||resolveacces-id-jp.firebaseapp.com^
+||restoration-ads-case-42caf.web.app^
+||revlew-page-case-4405729.fb20241.me^
 ||rfsgvsrgv.blogspot.tw^
+||sheet-sky-3224.edgardoupton.workers.dev^
+||shew.privrendom.com^
 ||singapore.sdqwac.workers.dev^
 ||spotify-clone31.netlify.app^
 ||support-team-460106ta-04aeo12.netlify.app^
+||swisscome.blogspot.co.at^
 ||t0kocp2cket.top^
 ||taskless-scarlet-midway.auth.us-east-1.amazoncognito.com^
 ||throbbing-union-565c.herdman90.workers.dev^
+||tokenpadket.com^
 ||usen.wbnrlw.top^
 ||usge.zyzoma.cyou^
 ||verify-office-outlook.com^
 ||vermillion-cupcake-2c3641loi.netlify.app^
+||visit.bridge-trezorapp.com^
+||vpns.sasykho8.workers.dev^
+||w7v3p034u.hier-im-netz.de^
 ||whatsappzev9f9e.click-xx.my.id^
 ||wondrous-monstera-b935e6.netlify.app^
 ||worker-aged-band-d2f8.serds4328.workers.dev^
@@ -209,3 +371,4 @@
 ||wwj.dvb6h.dns-dynamic.net^
 ||www.cricketbettingpro.com^
 ||young-block-0b11.mcttb.workers.dev^
+||yummyulo.blogspot.is^
