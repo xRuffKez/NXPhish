@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717416566
-# Database Hash: 92756be3892f524721d927c259fc4900acfcc1a8
-# Generated at: 2024-06-03 12:09:26
-# Number of domains: 357
+# Version: 1717423567
+# Database Hash: 46f03b10922a5a16f4f3a50acdc1bf86f5f8dd7f
+# Generated at: 2024-06-03 14:06:07
+# Number of domains: 360
 # Last 10 TLD counts:
 # dev: 110
-# com: 77
-# app: 71
+# com: 79
+# app: 72
 # id: 12
 # io: 9
 # link: 6
-# top: 4
 # mk: 4
-# br: 3
+# top: 4
 # is: 3
+# br: 3
 ||3.skysky.workers.dev^
 ||887256.com^
 ||926.bagaga.top^
@@ -250,6 +250,8 @@
 ||myprojectfiles76884.web.app^
 ||n9fb3.shop^
 ||new-estne-flix.blogspot.fi^
+||notificationbyfacebook.firebaseapp.com^
+||notificationbyfacebook.web.app^
 ||onlinesupporterchat.firebaseapp.com^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||pemulihan-akun-dana.anakdara9.art^
@@ -370,5 +372,6 @@
 ||worker-purple-feather-6a03.dosec58229.workers.dev^
 ||wwj.dvb6h.dns-dynamic.net^
 ||www.cricketbettingpro.com^
+||www.dropbox.com^
 ||young-block-0b11.mcttb.workers.dev^
 ||yummyulo.blogspot.is^
