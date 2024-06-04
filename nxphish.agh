@@ -1,27 +1,24 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717460544
-# Database Hash: 72f72ff57e2b5e8e9ae9a21cf60835abf696d4d6
-# Generated at: 2024-06-04 00:22:24
-# Number of domains: 311
+# Version: 1717467481
+# Database Hash: 4663dfd52716e086dbfe223bcbd2465acda2e5c2
+# Generated at: 2024-06-04 02:18:01
+# Number of domains: 267
 # Last 10 TLD counts:
-# com: 86
-# dev: 74
-# app: 67
-# id: 8
+# dev: 68
+# com: 66
+# app: 52
+# id: 6
+# art: 4
 # mk: 4
-# io: 4
-# link: 4
 # top: 4
+# link: 4
 # nl: 3
-# se: 2
-||3.skysky.workers.dev^
+# sg: 2
 ||887256.com^
 ||926.bagaga.top^
-||actcl-issue-interval.firebaseapp.com^
 ||actcl-issue-interval.web.app^
-||activity-issue-pe-feedbacknow.firebaseapp.com^
-||aktivasi-hadiah-giveaway-10jt.apk-cs.biz.id^
+||activitycheckfor-japan.web.app^
 ||akttilvasii-paylater-dana.klik-websitee.my.id^
 ||amazon-by-aftab.netlify.app^
 ||anzcontacthelpdesk.web.app^
@@ -33,7 +30,6 @@
 ||bafybeifbgix7occaqzn6tpirnkmluysi6e37rren5fpwz4jpj7pyj2hgwe.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
 ||basic-bundle-old-wind-d6db.noreplyaccountalert.workers.dev^
-||centraljp-infoappealing.firebaseapp.com^
 ||centraljp-infoappealing.web.app^
 ||claim-dana-kaget637.fbzsa.com^
 ||clsession-appealsuite.firebaseapp.com^
@@ -41,20 +37,19 @@
 ||coinbase-assets.com^
 ||czp2jzxdphws.web-visibility.icu^
 ||dhl.cc-com.top^
-||downfrs.hzq.workers.dev^
 ||facebook-com-hr.pages.mus.br^
 ||facebooksecuritys.blogspot.mk^
 ||fb-reminders-security-4c3d0.firebaseapp.com^
-||fb-reminders-security-4c3d0.web.app^
 ||fb-reminders-security-8ed4e.firebaseapp.com^
 ||feedback-issue-vnd-check.firebaseapp.com^
 ||feedback-issue-vnd-check.web.app^
 ||files.emailmeform.com^
+||flouris-hing-bomb-olone-cdf-b185f9.netlify.app^
+||funny-crar-nay-chan-cdf-123e4eef7.netlify.app^
 ||generatorfreeaccounts.blogspot.mk^
 ||get-windows-replaced.today^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
-||group-postban.firebaseapp.com^
 ||hadiah10juta-giveaway.cs-ojk.xyz^
 ||helppdanaid.aktiivass1.my.id^
 ||hidden-block-8e07.vhake.workers.dev^
@@ -81,18 +76,16 @@
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.sg^
-||issuedeploycenter.web.app^
 ||jpsuite-appealingsector.firebaseapp.com^
-||jujutsukaisenxmlbb.nfile.my.id^
-||koreanresolve-deskissueapp.firebaseapp.com^
+||koreanresolve-deskissueapp.web.app^
+||layanan-banntuann.anakdara9.art^
+||layanan-pemulihan-akun-dana-resmi.anakdara9.art^
 ||link.space^
 ||lisa.laykounfaawnke.org^
 ||matterforiss-pl-suite.firebaseapp.com^
-||matterforiss-pl-suite.web.app^
-||meatamausk-loaggein.gitbook.io^
 ||meta-account-support-fxp8.firebaseapp.com^
-||meta-account-support-fxp8.web.app^
 ||meta-getsupport103991.web.app^
+||meta-report-ea217.firebaseapp.com^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.ca^
 ||metamask-wallett.blogspot.co.uk^
@@ -120,129 +113,96 @@
 ||metamaskinc.blogspot.se^
 ||metamaskinc.blogspot.sg^
 ||metamaskinc.blogspot.si^
-||metamasklive.web.app^
 ||metasupport1865832401.firebaseapp.com^
-||metasupport2477841502.web.app^
-||mitmsklogiuma.gitbook.io^
+||metasupport4579173504.firebaseapp.com^
 ||miytemasklogin.gitbook.io^
 ||motamaaukklogin.gitbook.io^
 ||myblog-sv08wcilf9.live-website.com^
 ||myhouseprojectfiles06.firebaseapp.com^
 ||myhouseprojectfiles06.web.app^
-||myhouseprojectfiles100.firebaseapp.com^
-||myhouseprojectfiles104.web.app^
-||myhouseprojectfiles105.firebaseapp.com^
-||myhouseprojectfiles106.firebaseapp.com^
+||myhouseprojectfiles105.web.app^
+||myhouseprojectfiles107.web.app^
 ||myhouseprojectfiles108.firebaseapp.com^
 ||myhouseprojectfiles108.web.app^
 ||myhouseprojectfiles109.firebaseapp.com^
-||myhouseprojectfiles109.web.app^
-||myhouseprojectfiles111.web.app^
-||myhouseprojectfiles112.web.app^
-||myhouseprojectfiles113.firebaseapp.com^
-||myhouseprojectfiles113.web.app^
+||myhouseprojectfiles112.firebaseapp.com^
 ||myhouseprojectfiles114.firebaseapp.com^
-||myhouseprojectfiles115.firebaseapp.com^
+||myhouseprojectfiles116.firebaseapp.com^
 ||myhouseprojectfiles120.firebaseapp.com^
-||myhouseprojectfiles125.firebaseapp.com^
 ||myhouseprojectfiles126.firebaseapp.com^
-||myhouseprojectfiles127.firebaseapp.com^
+||myhouseprojectfiles126.web.app^
 ||myhouseprojectfiles127.web.app^
 ||myhouseprojectfiles128.web.app^
 ||myhouseprojectfiles129.firebaseapp.com^
 ||myhouseprojectfiles134.firebaseapp.com^
 ||myhouseprojectfiles136.firebaseapp.com^
-||myhouseprojectfiles136.web.app^
-||myhouseprojectfiles137.firebaseapp.com^
 ||myhouseprojectfiles137.web.app^
-||myhouseprojectfiles138.firebaseapp.com^
 ||myhouseprojectfiles138.web.app^
 ||myhouseprojectfiles139.firebaseapp.com^
-||myhouseprojectfiles139.web.app^
-||myhouseprojectfiles142.firebaseapp.com^
-||myhouseprojectfiles143.web.app^
 ||myhouseprojectfiles145.firebaseapp.com^
+||myhouseprojectfiles145.web.app^
 ||myhouseprojectfiles147.firebaseapp.com^
-||myhouseprojectfiles153.firebaseapp.com^
+||myhouseprojectfiles147.web.app^
+||myhouseprojectfiles148.web.app^
+||myhouseprojectfiles149.web.app^
 ||myhouseprojectfiles153.web.app^
-||myhouseprojectfiles154.web.app^
+||myhouseprojectfiles154.firebaseapp.com^
+||myhouseprojectfiles157.firebaseapp.com^
 ||myhouseprojectfiles157.web.app^
-||myhouseprojectfiles159.firebaseapp.com^
 ||myhouseprojectfiles159.web.app^
 ||myhouseprojectfiles171.firebaseapp.com^
 ||myhouseprojectfiles172.web.app^
+||myhouseprojectfiles175.web.app^
 ||myhouseprojectfiles176.web.app^
-||myhouseprojectfiles180.firebaseapp.com^
-||myhouseprojectfiles180.web.app^
 ||myhouseprojectfiles186.firebaseapp.com^
-||myhouseprojectfiles189.firebaseapp.com^
 ||myhouseprojectfiles189.web.app^
 ||myhouseprojectfiles193.web.app^
-||myhouseprojectfiles194.web.app^
 ||myhouseprojectfiles196.firebaseapp.com^
 ||myhouseprojectfiles196.web.app^
-||myhouseprojectfiles197.web.app^
 ||myhouseprojectfiles199.firebaseapp.com^
 ||myhouseprojectfiles199.web.app^
 ||myhouseprojectfiles200.firebaseapp.com^
 ||myhouseprojectfiles202.firebaseapp.com^
+||myhouseprojectfiles202.web.app^
 ||myhouseprojectfiles205.firebaseapp.com^
 ||myhouseprojectfiles206.firebaseapp.com^
-||myhouseprojectfiles206.web.app^
-||myhouseprojectfiles208.web.app^
 ||myhouseprojectfiles301.firebaseapp.com^
+||myhouseprojectfiles301.web.app^
 ||myhouseprojectfiles302.firebaseapp.com^
 ||myhouseprojectfiles302.web.app^
-||myhouseprojectfiles309.web.app^
 ||myhouseprojectfiles310.firebaseapp.com^
-||myhouseprojectfiles334.firebaseapp.com^
-||myhouseprojectfiles334.web.app^
 ||myhouseprojectfiles335.firebaseapp.com^
-||myhouseprojectfiles335.web.app^
-||myhouseprojectfiles336.web.app^
+||myhouseprojectfiles336.firebaseapp.com^
 ||myhouseprojectfiles338.web.app^
+||myhouseprojectfiles339.firebaseapp.com^
 ||myhouseprojectfiles340.firebaseapp.com^
 ||myhouseprojectfiles340.web.app^
-||myhouseprojectfiles342.firebaseapp.com^
 ||myhouseprojectfiles342.web.app^
-||myhouseprojectfiles343.web.app^
+||myhouseprojectfiles343.firebaseapp.com^
 ||myhouseprojectfiles350.web.app^
+||myhouseprojectfiles354.firebaseapp.com^
+||myhouseprojectfiles356.firebaseapp.com^
 ||myhouseprojectfiles356.web.app^
-||myhouseprojectfiles359.firebaseapp.com^
 ||myhouseprojectfiles359.web.app^
-||myhouseprojectfiles363.firebaseapp.com^
 ||myhouseprojectfiles364.web.app^
-||myhouseprojectfiles365.firebaseapp.com^
 ||myhouseprojectfiles365.web.app^
-||myhouseprojectfiles366.firebaseapp.com^
-||myhouseprojectfiles368.web.app^
-||myhouseprojectfiles369.firebaseapp.com^
-||myhouseprojectfiles370.firebaseapp.com^
-||myhouseprojectfiles370.web.app^
 ||myprojectfiles76884.firebaseapp.com^
-||myprojectfiles76884.web.app^
-||n9fb3.shop^
 ||nam11.cityadventures.click^
 ||notificationbyfacebook.firebaseapp.com^
 ||notificationbyfacebook.web.app^
 ||notls.godyang.buzz^
 ||onedrive-proxy.imz.workers.dev^
-||onlinesupporterchat.firebaseapp.com^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||pemulihan-akun-dana.anakdara9.art^
-||pemullhan-akun-danaa.anakdara9.art^
-||prof-ound-narw-hal-cdf-741610.netlify.app^
+||pencairan-dana-giveaway.anakdara9.art^
 ||project-64532.firebaseapp.com^
 ||project1-4c626.firebaseapp.com^
-||project2b-e0f63.web.app^
 ||protect-conficsion-n-12.netlify.app^
 ||pub-0022a19ad46f4f3a8eaf8391b81b7edb.r2.dev^
 ||pub-06aaf40c1ddc4026aadf1e1b98727abc.r2.dev^
-||pub-0f9c926c063d4b3d9889bb88535b80b3.r2.dev^
-||pub-11e6504d5d9a40ff97bcd3d5ee476ec8.r2.dev^
+||pub-0d97061b3a3f4f73a39c246f5b9b9700.r2.dev^
 ||pub-18d5a849f50b4f0599fe705f3bca6667.r2.dev^
 ||pub-221ef61f179e48f79f931e1342529256.r2.dev^
-||pub-24714d759f2f41bcb9cfdd90e20d8b89.r2.dev^
 ||pub-2aa27cd042a3415694722f69c0ab16ae.r2.dev^
 ||pub-2abf6ac369c54910a73e8f3d8bfd03e7.r2.dev^
 ||pub-307dd5ea34144a66b759df90b4ed4a63.r2.dev^
@@ -263,13 +223,13 @@
 ||pub-73b4856212234defb13cc3049a9e0b85.r2.dev^
 ||pub-73ee129d9ec943f785408564adcaf985.r2.dev^
 ||pub-7a6b99614f4b41658cd677a620b18951.r2.dev^
+||pub-81a947e8d81d4d49b1b096168d258f36.r2.dev^
 ||pub-845ae143589f4882966e8c1fa8dbe1d0.r2.dev^
 ||pub-88807c21c6eb48bb9e0ef87b486d5138.r2.dev^
-||pub-8b653b04f8214be5995617a262ff0f74.r2.dev^
 ||pub-8e9f7995a5c749f09e0fd93576303c1c.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
+||pub-8ff6965ed5084c9395e44d0e5edfba79.r2.dev^
 ||pub-9472bd370a9e4ddb90cb13397846e1c9.r2.dev^
-||pub-99057bd36af9484dbb836fc96ed8381d.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
 ||pub-9c6b23e30e6849b8a8ebd658eceeef02.r2.dev^
@@ -279,13 +239,12 @@
 ||pub-a6bfc33bc76242778c5833802c4015b3.r2.dev^
 ||pub-a6dbab27b5c945e790a452f315275776.r2.dev^
 ||pub-ad43ebc65640486cae7683a6b367b850.r2.dev^
-||pub-aeb14407c05d46268e869ff4b4e89ecb.r2.dev^
 ||pub-b2955bd5cc5a447cba7f9017e8915538.r2.dev^
+||pub-b6020b7242ea479da20e5b69babcb98e.r2.dev^
 ||pub-bbfc00f8410f4411bbb0f0d1c3cc28cd.r2.dev^
 ||pub-cdf13789ac034ca29ab43424244b494a.r2.dev^
 ||pub-cdf1dc41320245ffb7e1f694124ab4b2.r2.dev^
 ||pub-cf16a68271df4b269e3e9594545901bb.r2.dev^
-||pub-d45ea62bd92f4e5cb111f25a2dc0f36b.r2.dev^
 ||pub-daaf0f3c335c477184cc201bdc5b89b3.r2.dev^
 ||pub-dc4ad4d9f393437ca7d416e8c47411cf.r2.dev^
 ||pub-dda005a462634fea953ace187610f4c7.r2.dev^
@@ -294,6 +253,7 @@
 ||pub-e276ef61aba84ba59177f6ef27300ffd.r2.dev^
 ||pub-e3494580a2704aba9190774a3926f0e9.r2.dev^
 ||pub-e4785c4bbb674881a3137543a479f927.r2.dev^
+||pub-e6738044ac6b43d5bc61614a89552053.r2.dev^
 ||pub-ec3ef72c47b84b0f84fe1d4ddc211f70.r2.dev^
 ||pub-eca56969c6974a90b892f793f43d3173.r2.dev^
 ||pub-f4487d9357c048dd8b2b4cf3f6017fcb.r2.dev^
@@ -301,28 +261,24 @@
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pusat-bantuan-dana-id.resmii.biz.id^
 ||qweroiuyyy78.firebaseapp.com^
+||qweroiuyyy78.web.app^
 ||reelsinstagramnjhioi.blogspot.com^
-||registrefilcomannelle.ac-page.com^
 ||resolveacces-id-jp.firebaseapp.com^
 ||resolveacces-id-jp.web.app^
 ||restoration-ads-case-42caf.firebaseapp.com^
 ||restoration-ads-case-42caf.web.app^
 ||revlew-page-case-4405729.fb20241.me^
-||sheet-sky-3224.edgardoupton.workers.dev^
 ||signix.yolasite.com^
 ||singapore01.website-my.biz.id^
 ||spotify-clone31.netlify.app^
 ||swisscome.blogspot.co.at^
-||tokenpadket.com^
 ||tokenpbaket.com^
+||tokenpbbket.ist^
 ||uskv.inmnti.top^
 ||verify-office-outlook.com^
-||visit.bridge-trezorapp.com^
-||vpns.sasykho8.workers.dev^
-||w7v3p034u.hier-im-netz.de^
 ||wc2ae743j.hier-im-netz.de^
 ||whctssaap.top^
+||windows-replacement-389.today^
 ||wwe.09iu7j5f3w.dns-dynamic.net^
 ||www.dropbox.com^
 ||www.trgovina-seljak.hr^
-||yummyulo.blogspot.is^
