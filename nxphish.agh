@@ -1,8 +1,8 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717502937
-# Database Hash: ad2c9c9167956c32a912503bb9b2b8d6a42016a0
-# Generated at: 2024-06-04 12:08:57
+# Version: 1717509972
+# Database Hash: 5646b8b501b45f38d6cb3ea7c5fa1aa82f93379e
+# Generated at: 2024-06-04 14:06:12
 # Number of domains: 265
 # Last 10 TLD counts:
 # dev: 89
@@ -10,11 +10,11 @@
 # app: 32
 # id: 11
 # mk: 4
-# link: 3
-# ug: 3
-# xyz: 3
 # in: 3
-# info: 3
+# link: 3
+# br: 3
+# ug: 3
+# io: 3
 ||887256.com^
 ||888.mixly.asia^
 ||926.bagaga.top^
