@@ -1,21 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717524434
-# Database Hash: 437d25da8ff4d1aaa65a668bf83a7d4e2f25fc2b
-# Generated at: 2024-06-04 18:07:14
-# Number of domains: 345
+# Version: 1717531581
+# Database Hash: 64420554ea1a4ee4b0f2fb0ae3fc83451561889d
+# Generated at: 2024-06-04 20:06:21
+# Number of domains: 341
 # Last 10 TLD counts:
-# dev: 125
-# com: 62
+# dev: 123
+# com: 63
 # app: 43
 # id: 14
-# io: 7
+# io: 8
+# link: 6
 # today: 6
-# info: 5
-# link: 5
-# xyz: 4
-# shop: 3
-||888.mixly.asia^
+# info: 4
+# net: 3
+# mk: 3
+||1kb.link^
 ||activity-issue-pe-feedbacknow.firebaseapp.com^
 ||activitycheckfor-japan.firebaseapp.com^
 ||aktifkan-dana-paylater.w3bs1te.my.id^
@@ -40,7 +40,6 @@
 ||cgd-h.com^
 ||channelhub.info^
 ||checkaccounts-appealinginfo.web.app^
-||chesneya.pillarone.info^
 ||cinico.freeboxos.fr^
 ||claim-dana-kaget637.fbzsa.com^
 ||claim-danax-kaget.klik-websitee.my.id^
@@ -101,13 +100,11 @@
 ||instagramprofiileurl.blogspot.ug^
 ||int-review.pro^
 ||itsssl.com^
-||ji-usps.shop^
 ||jpsuite-appealingsector.firebaseapp.com^
 ||link.space^
 ||liveprivatevideo30.2024xmalaysia.my.id^
 ||ln.run^
 ||logindana.super-vvip.my.id^
-||loginorange54278122323355663636368386368cxd.yolasite.com^
 ||longd.random10k.com^
 ||maiitamaskloggin.gitbook.io^
 ||meetaamask-loggiinn.gitbook.io^
@@ -211,6 +208,7 @@
 ||notificationbyfacebook.firebaseapp.com^
 ||notificationbyfacebook.web.app^
 ||onetimeatt82116.activehosted.com^
+||onlinewebue8w.boxmode.io^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||pencairan-dana.sfiles.biz.id^
@@ -225,14 +223,12 @@
 ||pub-0eeaa1c9474148f8a3f1e9899e1dbf37.r2.dev^
 ||pub-112435e5fc2a4992b7005f352c4d5d76.r2.dev^
 ||pub-16499d352cc14fe4b8cdf064bb205547.r2.dev^
-||pub-1b65b2cfa1de4d88a583e494abc8b391.r2.dev^
 ||pub-1cb8e1f6a69943b083037a45878ef330.r2.dev^
 ||pub-23c3067fe63940e0bac3bfb2c8a2ada3.r2.dev^
 ||pub-24714d759f2f41bcb9cfdd90e20d8b89.r2.dev^
 ||pub-2598caa00dcf4c658bf8753f6761f962.r2.dev^
 ||pub-29b91ee49c284e5ab882b8585647e8f8.r2.dev^
 ||pub-2f1b13361c3a4b12a821551ee6bfb697.r2.dev^
-||pub-328be3f6eef64c54b032697f8b7729f2.r2.dev^
 ||pub-34b7b83e187e4a25afdca8f3ce574c87.r2.dev^
 ||pub-36f03ea0d5ab4852b0b8003b96892189.r2.dev^
 ||pub-391be52940684cf6aac361ccc1c1930e.r2.dev^
@@ -284,7 +280,7 @@
 ||pub-9839470418254b29962dec4220c83255.r2.dev^
 ||pub-99057bd36af9484dbb836fc96ed8381d.r2.dev^
 ||pub-9d425aa9335c4307a502c0721d499bdd.r2.dev^
-||pub-9ee80a29632844659fdff5878493f864.r2.dev^
+||pub-9f23a057c92846ceb9a489bd3cb57fd5.r2.dev^
 ||pub-9f978999c777406fad59bfb860cb6ac3.r2.dev^
 ||pub-a677b916958b43859e5c6892bce18227.r2.dev^
 ||pub-a6bfc33bc76242778c5833802c4015b3.r2.dev^
@@ -321,7 +317,6 @@
 ||pub-fc83a00699324b28907436396bdc917f.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-ff85b3f6a2974a0e85ad06c43917a130.r2.dev^
-||qsdqsd.bestphon.in^
 ||qweroiuyyy78.firebaseapp.com^
 ||reelsinstagramnjhioi.blogspot.com^
 ||registrefilcomannelle.ac-page.com^
@@ -348,13 +343,14 @@
 ||windows-replacements-3005.today^
 ||windows-replacements.today^
 ||wk.448836.xyz^
-||work.290700.xyz^
 ||worker-dry-moon-baa2.spursyang-46e.workers.dev^
 ||worker-polished-flower-e724.onlinevenmo89.workers.dev^
 ||wwe.bjkuiutterw2.dns-dynamic.net^
 ||www-degelyehuda-org-il.filesusr.com^
+||www.dropbox.com^
 ||www.marieiannotti.com^
 ||www.sorttexclothing.com^
+||www.unitechuniverse.com^
 ||www.webogram.org^
 ||yaihooserviceteam.jigija-edogus.workers.dev^
 ||yg-100.huvista.cloudns.biz^
