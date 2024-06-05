@@ -1,8 +1,8 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717553864
-# Database Hash: 6b38176cd0499fb6efee73f3ff81d274ecc1f484
-# Generated at: 2024-06-05 02:17:44
+# Version: 1717560479
+# Database Hash: a1373d98e4616ae4fe593bbf0c9d45e99438c5a9
+# Generated at: 2024-06-05 04:07:59
 # Number of domains: 236
 # Last 10 TLD counts:
 # dev: 78
@@ -10,11 +10,11 @@
 # app: 33
 # io: 5
 # id: 4
-# ug: 3
 # fr: 3
-# nl: 3
 # mk: 3
-# xyz: 2
+# ug: 3
+# nl: 3
+# br: 2
 ||3jimx.shop^
 ||activitycheckfor-japan.firebaseapp.com^
 ||adminuser.qdk63awv8g.com^
