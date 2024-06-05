@@ -1,45 +1,52 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717546951
-# Database Hash: 1fb9042d3b3b6bd89914e021cd2fa49ffec18450
-# Generated at: 2024-06-05 00:22:31
-# Number of domains: 224
+# Version: 1717553864
+# Database Hash: 6b38176cd0499fb6efee73f3ff81d274ecc1f484
+# Generated at: 2024-06-05 02:17:44
+# Number of domains: 236
 # Last 10 TLD counts:
-# dev: 72
-# com: 45
-# app: 30
-# id: 5
+# dev: 78
+# com: 48
+# app: 33
 # io: 5
-# nl: 3
+# id: 4
 # ug: 3
 # fr: 3
+# nl: 3
 # mk: 3
-# top: 2
-||1kb.link^
+# xyz: 2
+||3jimx.shop^
 ||activitycheckfor-japan.firebaseapp.com^
+||adminuser.qdk63awv8g.com^
 ||alr.bnb9131.com^
 ||amazon-by-aftab.netlify.app^
-||anzcontacthelpdesk.firebaseapp.com^
 ||anzcontacthelpdesk.web.app^
+||appealid-supportcenterofmeta.web.app^
 ||b2773.top^
 ||b3v.klkl.dns-dynamic.net^
 ||bafybeibnsqac4ek5ujafbajqyutcnpcaa4c7rlhutbdwesfasqkoqndhvm.ipfs.dweb.link^
+||bafybeifru2wymxw6uznii3dur7vrjnrh4brdjzg2ez3vjiqvcxig7lrvce.ipfs.dweb.link^
 ||bantuan-bansos.digitalis.biz.id^
 ||barclayschat-livehelp.com^
+||blibli.com.id1.putrivpn.biz.id^
 ||btbtt.000webhostapp.com^
 ||cerulean-queijadas-7ffc32.netlify.app^
 ||cf.sunny-z.eu.org^
+||changer.simsun.com^
 ||channelhub.info^
+||chatgpt.hkyiu.com^
 ||checkaccounts-appealinginfo.web.app^
+||checkappeal-serviceteam.web.app^
 ||cinico.freeboxos.fr^
 ||claim-dana-kaget637.fbzsa.com^
 ||claim-hadiah-dana6328.fbzsa.com^
 ||clientsupport-meta.firebaseapp.com^
 ||clientsupport-meta.web.app^
 ||coinbaselogiin.blogspot.co.za^
+||crownjul-dreasm-7206.olinltjsacnrai.workers.dev^
 ||daget-io.link-vvip99.xyz^
 ||dana-paylater6383.cxcx.my.id^
-||danaindonesia-id-support-com.wb-app.my.id^
+||deslot24.com^
 ||egg4323.privrendom.com^
 ||ewf33.privrendom.com^
 ||facebooksecuritys.blogspot.be^
@@ -50,6 +57,7 @@
 ||giegie-word.blz0321.workers.dev^
 ||google-jobsoffer7655.pages.dev^
 ||graph.instagram.com.tes.blondies.cfd^
+||help-strtrezorio.gitbook.io^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||info-bancosantander-app.com^
@@ -70,10 +78,9 @@
 ||instagramprofiileurl.blogspot.pt^
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.ug^
-||int-review.pro^
+||is.gd^
 ||issuedeploycenter.web.app^
 ||ln.run^
-||logindana.super-vvip.my.id^
 ||magalu.redirs-magal.com^
 ||mail0.googgle.workers.dev^
 ||meetaamask-loggiinn.gitbook.io^
@@ -149,7 +156,6 @@
 ||njppulrj.elementor.cloud^
 ||notificationbyfacebook.firebaseapp.com^
 ||notificationbyfacebook.web.app^
-||onlinewebue8w.boxmode.io^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||project1-4c626.web.app^
 ||pub-008c560686bd44e3904523af46e9d22b.r2.dev^
@@ -164,10 +170,12 @@
 ||pub-116057290341412ab54efee140db5938.r2.dev^
 ||pub-19128e0e6ecc4449a51ef13fa09d2461.r2.dev^
 ||pub-19b440b384f449bc8f30a86a5f3c6049.r2.dev^
+||pub-1b65b2cfa1de4d88a583e494abc8b391.r2.dev^
 ||pub-1d13dfcf2b1541da928c881d229b25ed.r2.dev^
 ||pub-1fda8f73c4824f088048e07f2f85ca5e.r2.dev^
 ||pub-2598caa00dcf4c658bf8753f6761f962.r2.dev^
 ||pub-328b2c608f85458baef54afef68fbb4a.r2.dev^
+||pub-328be3f6eef64c54b032697f8b7729f2.r2.dev^
 ||pub-396964bd696e4a33b831a6a833aab0ea.r2.dev^
 ||pub-42f18409450241ad96b799ac0cf167c8.r2.dev^
 ||pub-474947d4e8f94ccf8fc9602aaab11473.r2.dev^
@@ -183,6 +191,7 @@
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-75689d854e6c4de1b0d582fd618f0788.r2.dev^
 ||pub-7d33021d902f47c8841999dde4cf0db0.r2.dev^
+||pub-891a3182d35d42f0af7c44391ee9aa7a.r2.dev^
 ||pub-8be4659f157e4d45b72e6cec85017bdd.r2.dev^
 ||pub-8ea4a1cf0bfa4e28a3c767dd62fd8003.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
@@ -193,6 +202,7 @@
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
 ||pub-9d6f84ea06bc401fbf921eb0eb9d28da.r2.dev^
 ||pub-9f23a057c92846ceb9a489bd3cb57fd5.r2.dev^
+||pub-a5e19bb10f494eb7968300bbb93a361a.r2.dev^
 ||pub-a862e08cc46e44878c59ef1bb044b345.r2.dev^
 ||pub-a8f7a7bdbbef4c7aa377b495dabb19ff.r2.dev^
 ||pub-b0d3dc9a112d4478af9c1ca1dc2399ad.r2.dev^
@@ -202,6 +212,7 @@
 ||pub-c5e2dbb58028490685ab5f7a51d147da.r2.dev^
 ||pub-c68a047b935f44a3b2a95a6db673a011.r2.dev^
 ||pub-cc84d40c42374b4eac646e6d25ca9b7e.r2.dev^
+||pub-ce7e19cdc54d415fbdf4795287b2ebf1.r2.dev^
 ||pub-d0a002d03d4d4468a1a3a4788d44d971.r2.dev^
 ||pub-d45ea62bd92f4e5cb111f25a2dc0f36b.r2.dev^
 ||pub-da76488708e44169a0214f0319049885.r2.dev^
@@ -223,6 +234,7 @@
 ||spotify-clone31.netlify.app^
 ||square-smoke-4c62.4tjwj7mx.workers.dev^
 ||steam.communitytf2workshop.com^
+||storied-youtiao-96tr90.netlify.app^
 ||support-ads-team-a3979.firebaseapp.com^
 ||taskless-scarlet-midway.auth.us-east-1.amazoncognito.com^
 ||usen.wbnrlw.top^
