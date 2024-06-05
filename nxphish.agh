@@ -1,9 +1,9 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717589347
-# Database Hash: 2fe2357405cfd7808b7b86603a64928067f24ac5
-# Generated at: 2024-06-05 12:09:07
-# Number of domains: 429
+# Version: 1717596389
+# Database Hash: 4b40e121d51f925bc9bee60b47ab56edcb9d1087
+# Generated at: 2024-06-05 14:06:29
+# Number of domains: 430
 # Last 10 TLD counts:
 # dev: 171
 # com: 75
@@ -13,7 +13,7 @@
 # xyz: 7
 # top: 6
 # today: 6
-# link: 4
+# cfd: 5
 # fr: 4
 ||1kb.link^
 ||5870889.swh.strato-hosting.eu^
@@ -85,6 +85,7 @@
 ||google.cjysec.workers.dev^
 ||graceful-stardust-riqueza.netlify.app^
 ||graph.instagram.com.my1.blondies.cfd^
+||graph.instagram.com.sg1.blondies.cfd^
 ||graph.instagram.com.tes.blondies.cfd^
 ||graph.instagram.com.zzz.blondies.cfd^
 ||h5.q7cq.com^
