@@ -1,30 +1,30 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717574899
-# Database Hash: 86a410ed3d1785d3d950dff03d328102cbc58895
-# Generated at: 2024-06-05 08:08:19
-# Number of domains: 399
+# Version: 1717581975
+# Database Hash: b9846e2f52d2f0e84ce2144d69b6c040eafcf952
+# Generated at: 2024-06-05 10:06:15
+# Number of domains: 391
 # Last 10 TLD counts:
-# dev: 170
-# com: 69
-# app: 46
-# id: 9
+# dev: 165
+# com: 66
+# app: 43
+# id: 8
+# xyz: 7
 # io: 6
 # today: 6
-# xyz: 6
 # top: 5
-# mk: 4
 # fr: 4
-||3jimx.shop^
+# mk: 4
+||1kb.link^
 ||5870889.swh.strato-hosting.eu^
 ||actcl-issue-interval.web.app^
 ||activitycheckfor-japan.web.app^
-||adminuser.qdk63awv8g.com^
 ||air.bnb3902.com^
 ||air.bnb4402.com^
+||aktifkaan-paylaterr.resmii-iid.com^
 ||amazon-by-aftab.netlify.app^
+||anzcontacthelpdesk.firebaseapp.com^
 ||app-lcloud.com^
-||appealid-supportcenterofmeta.web.app^
 ||appl-find-idmaps.live^
 ||apple-france.info^
 ||apple-track.services^
@@ -34,31 +34,24 @@
 ||bacoscarelloo30963.activehosted.com^
 ||bafybeibnsqac4ek5ujafbajqyutcnpcaa4c7rlhutbdwesfasqkoqndhvm.ipfs.dweb.link^
 ||bafybeic63mtia5l526fsn2ehrh7bfayd7nk6ae5mmltyy2euyvrhvr2f3e.ipfs.dweb.link^
-||bafybeifru2wymxw6uznii3dur7vrjnrh4brdjzg2ez3vjiqvcxig7lrvce.ipfs.dweb.link^
 ||bantuan-keamanan-dana.link-vvip99.xyz^
 ||barclayschat-livehelp.com^
 ||bbc.your-apple-company.dns-dynamic.net^
-||blibli.com.id1.putrivpn.biz.id^
 ||btbtt.000webhostapp.com^
 ||business-support-center-36ef11553.netlify.app^
 ||case-noti614778671562.meetaafacebook.com^
 ||ccorreos.life^
 ||cdn.zhai0122.workers.dev^
 ||cgd-h.com^
-||changer.simsun.com^
 ||channelhub.info^
-||chatgpt.hkyiu.com^
 ||checkaccounts-appealinginfo.web.app^
-||checkappeal-serviceteam.web.app^
 ||cinico.freeboxos.fr^
 ||clientsupport-meta.firebaseapp.com^
 ||clientsupport-meta.web.app^
 ||coinbaselogiin.blogspot.co.za^
 ||correos-esxpress.tempurl.host^
-||crownjul-dreasm-7206.olinltjsacnrai.workers.dev^
 ||dana-log-layananxcs.webnew.biz.id^
 ||danaxzzkagetzz.reel.my.id^
-||deslot24.com^
 ||dhl.cc-com.top^
 ||ea3f2e24wee8a92110d2r2w64wds15143.e27a2722.workers.dev^
 ||effulgent-custard-6f8e64.netlify.app^
@@ -82,11 +75,12 @@
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
 ||graceful-stardust-riqueza.netlify.app^
+||graph.instagram.com.my1.blondies.cfd^
 ||graph.instagram.com.tes.blondies.cfd^
+||graph.instagram.com.zzz.blondies.cfd^
 ||h5.q7cq.com^
 ||hadiah10juta-giveaway.cs-ojk.xyz^
 ||hello-world-still-feather-74c0.mostafamosavi5570.workers.dev^
-||help-strtrezorio.gitbook.io^
 ||help8261.facebook-guidelines.com^
 ||helppdanaid.aktiivass1.my.id^
 ||hezxcsa.blogspot.com^
@@ -108,7 +102,6 @@
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.se^
 ||ipfs.io^
-||is.gd^
 ||issuedeploycenter.firebaseapp.com^
 ||jnf8e.dgwt.my.id^
 ||join-mantanetwork.app^
@@ -157,6 +150,7 @@
 ||metamaskinc.blogspot.si^
 ||metamaskinc.blogspot.sk^
 ||metamaskinc.blogspot.ug^
+||mgoogle.cn^
 ||myhouseprojectfiles06.web.app^
 ||myhouseprojectfiles107.web.app^
 ||myhouseprojectfiles108.firebaseapp.com^
@@ -208,6 +202,7 @@
 ||netflixgpt-98554.firebaseapp.com^
 ||notificationbyfacebook.firebaseapp.com^
 ||notificationbyfacebook.web.app^
+||onlinewebue8w.boxmode.io^
 ||order-hotel.com^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||pencairan-dana-giveaway.anakdara9.art^
@@ -232,7 +227,6 @@
 ||pub-19128e0e6ecc4449a51ef13fa09d2461.r2.dev^
 ||pub-19b440b384f449bc8f30a86a5f3c6049.r2.dev^
 ||pub-1a54fd88374e42018d415d6c5b8e9bd4.r2.dev^
-||pub-1b65b2cfa1de4d88a583e494abc8b391.r2.dev^
 ||pub-1c0d19410a0f4fed88f1e24ccfd57f08.r2.dev^
 ||pub-1c7d9f20b0c64111bcabf468daf0bec6.r2.dev^
 ||pub-1d13dfcf2b1541da928c881d229b25ed.r2.dev^
@@ -243,7 +237,6 @@
 ||pub-2b894ade085f4baf93ae8d32a344c607.r2.dev^
 ||pub-2f1b13361c3a4b12a821551ee6bfb697.r2.dev^
 ||pub-30bbb6b567e44422b4b18d757e6fb76b.r2.dev^
-||pub-328be3f6eef64c54b032697f8b7729f2.r2.dev^
 ||pub-34ae76b320c445628f3e2bca4a192394.r2.dev^
 ||pub-34b7b83e187e4a25afdca8f3ce574c87.r2.dev^
 ||pub-352e90afc3484a688c3b145abff140bc.r2.dev^
@@ -264,6 +257,7 @@
 ||pub-4e9dcc9c391f449d97cae3d5b9245010.r2.dev^
 ||pub-502474bc7aed47108fb22f94d1f1ad41.r2.dev^
 ||pub-5079b5acdf2a4092ad1b3562b2636b1e.r2.dev^
+||pub-5279483699974a8c9a334bcbe4d4aa6a.r2.dev^
 ||pub-5314867eb87a4403bb3b5e9f21b4c1cf.r2.dev^
 ||pub-53666858d46b4d3289db7f602d878eee.r2.dev^
 ||pub-55e3e997548a46879ee19f4d494309d6.r2.dev^
@@ -293,7 +287,6 @@
 ||pub-81a947e8d81d4d49b1b096168d258f36.r2.dev^
 ||pub-87989d66e64841e48d9945d5d7092905.r2.dev^
 ||pub-88f64e013ca94e82aa5d15393134722c.r2.dev^
-||pub-891a3182d35d42f0af7c44391ee9aa7a.r2.dev^
 ||pub-892e6cef5db14b4b9af4db1fc6735cd0.r2.dev^
 ||pub-8af83b8bdbe34837a5c52b8f62abfddb.r2.dev^
 ||pub-8bc21cd47e354f7cb32dedddaa8be7e6.r2.dev^
@@ -315,7 +308,6 @@
 ||pub-a0123fda45df41aeaba40d3946ae8f14.r2.dev^
 ||pub-a38467bb593a47e881b04aede3d3dd4c.r2.dev^
 ||pub-a4e5282dff38457ebc2af8f56f3ec193.r2.dev^
-||pub-a5e19bb10f494eb7968300bbb93a361a.r2.dev^
 ||pub-a6e2696f063d44f0aeccf7a9ba82c581.r2.dev^
 ||pub-a82279618d6a474b94d28310654827e8.r2.dev^
 ||pub-a862e08cc46e44878c59ef1bb044b345.r2.dev^
@@ -336,7 +328,6 @@
 ||pub-c68a047b935f44a3b2a95a6db673a011.r2.dev^
 ||pub-c8081993976f4133a3dfae4662ed3d09.r2.dev^
 ||pub-c980033c0ecd4fdca1b54292a1221fc0.r2.dev^
-||pub-ce7e19cdc54d415fbdf4795287b2ebf1.r2.dev^
 ||pub-d0a002d03d4d4468a1a3a4788d44d971.r2.dev^
 ||pub-d0ab4e7526eb4faa811d0cb872595c16.r2.dev^
 ||pub-d283770289d84bf6bd92ce398ab9a53d.r2.dev^
@@ -388,7 +379,6 @@
 ||spotify-clone31.netlify.app^
 ||square-smoke-4c62.4tjwj7mx.workers.dev^
 ||steamcommunuilty.com^
-||storied-youtiao-96tr90.netlify.app^
 ||t4yp7.shop^
 ||tempatrelaod1472d0.000webhostapp.com^
 ||tokenpbaket.com^
@@ -397,18 +387,20 @@
 ||urlz.fr^
 ||uscs.lpthvp.top^
 ||uskv.inmnti.top^
+||vakf-breyselavans.cyou^
 ||verify-office-outlook.com^
 ||vless3.wujial.in^
 ||voice-ourtime.ifoselovec.workers.dev^
+||vvalletrys-aj.xyz^
 ||windows-replacement-389.today^
 ||wk.448836.xyz^
 ||wwa.t787td43dv.dns-dynamic.net^
 ||www.dropbox.com^
 ||www.id-facebook.com^
+||www.ita-gmbh-ac.de^
 ||www.keepo.io^
 ||www.northlandpaddlers.org^
 ||www.sorttexclothing.com^
-||www.unitechuniverse.com^
 ||www3.coso.workers.dev^
 ||www3.manl.workers.dev^
 ||yaihooserviceteam.jigija-edogus.workers.dev^
