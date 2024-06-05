@@ -1,24 +1,26 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717581975
-# Database Hash: b9846e2f52d2f0e84ce2144d69b6c040eafcf952
-# Generated at: 2024-06-05 10:06:15
-# Number of domains: 391
+# Version: 1717589347
+# Database Hash: 2fe2357405cfd7808b7b86603a64928067f24ac5
+# Generated at: 2024-06-05 12:09:07
+# Number of domains: 429
 # Last 10 TLD counts:
-# dev: 165
-# com: 66
-# app: 43
+# dev: 171
+# com: 75
+# app: 49
+# io: 15
 # id: 8
 # xyz: 7
-# io: 6
+# top: 6
 # today: 6
-# top: 5
+# link: 4
 # fr: 4
-# mk: 4
 ||1kb.link^
 ||5870889.swh.strato-hosting.eu^
+||65b7d3757c56390008a2d84a--ods-android.netlify.app^
 ||actcl-issue-interval.web.app^
 ||activitycheckfor-japan.web.app^
+||ads-actives-centers.com^
 ||air.bnb3902.com^
 ||air.bnb4402.com^
 ||aktifkaan-paylaterr.resmii-iid.com^
@@ -37,7 +39,9 @@
 ||bantuan-keamanan-dana.link-vvip99.xyz^
 ||barclayschat-livehelp.com^
 ||bbc.your-apple-company.dns-dynamic.net^
+||binstarservaive.com^
 ||btbtt.000webhostapp.com^
+||btinent.bitbucket.io^
 ||business-support-center-36ef11553.netlify.app^
 ||case-noti614778671562.meetaafacebook.com^
 ||ccorreos.life^
@@ -52,6 +56,8 @@
 ||correos-esxpress.tempurl.host^
 ||dana-log-layananxcs.webnew.biz.id^
 ||danaxzzkagetzz.reel.my.id^
+||darling-dasik-9cdd96.netlify.app^
+||dhl-tracking-au.blogspot.com^
 ||dhl.cc-com.top^
 ||ea3f2e24wee8a92110d2r2w64wds15143.e27a2722.workers.dev^
 ||effulgent-custard-6f8e64.netlify.app^
@@ -64,11 +70,14 @@
 ||facebooksecuritys.blogspot.fr^
 ||facebooksecuritys.blogspot.mk^
 ||fb.phoenixcloud.workers.dev^
+||feceboolk.blogspot.gr^
+||fedwsqafrs2d3f4.astratt.vip^
 ||feedback-issue-vnd-check.firebaseapp.com^
 ||flouris-hing-bomb-olone-cdf-b185f9.netlify.app^
 ||flowcv.me^
 ||free-private-content.app4u.sbs^
 ||funny-crar-nay-chan-cdf-123e4eef7.netlify.app^
+||geiminilogonz.gitbook.io^
 ||gestaonovobanconet.com^
 ||get-new-windows.today^
 ||get-windows-replaced.today^
@@ -85,6 +94,7 @@
 ||helppdanaid.aktiivass1.my.id^
 ||hezxcsa.blogspot.com^
 ||iceage.lalalalala111.xyz^
+||im-creator.com^
 ||info-bancosantander-app.com^
 ||info-icloud.xyz^
 ||instagramprofiileurl.blogspot.am^
@@ -102,20 +112,28 @@
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.se^
 ||ipfs.io^
+||issueappeal-pr-feedback.firebaseapp.com^
 ||issuedeploycenter.firebaseapp.com^
 ||jnf8e.dgwt.my.id^
 ||join-mantanetwork.app^
+||jp.shanxilu.link^
 ||jpsuite-appealingsector.firebaseapp.com^
 ||jpsuite-appealingsector.web.app^
+||karkeixnlogin.gitbook.io^
+||kirk-parliamentary-saved-tight.trycloudflare.com^
 ||koreanresolve-deskissueapp.web.app^
 ||layanan-banntuann.anakdara9.art^
 ||layanan-pemulihan-akun-dana-resmi.anakdara9.art^
 ||link.space^
 ||ln.run^
+||logioqqkxncraken.gitbook.io^
 ||mail0.googgle.workers.dev^
 ||matemcsklogien.gitbook.io^
 ||math.atgwee.click^
 ||meetaamask-loggiinn.gitbook.io^
+||meghtshamsk-lohgin.gitbook.io^
+||mentmiasklogione.gitbook.io^
+||meta-business-agency.pages.mus.br^
 ||meta-report-ea217.firebaseapp.com^
 ||metaismasxkxlogiin.gitbook.io^
 ||metamas.metamaskapp.app^
@@ -150,6 +168,9 @@
 ||metamaskinc.blogspot.si^
 ||metamaskinc.blogspot.sk^
 ||metamaskinc.blogspot.ug^
+||metamasmklogin.gitbook.io^
+||metamiskalogonz.gitbook.io^
+||metmask-x-login.gitbook.io^
 ||mgoogle.cn^
 ||myhouseprojectfiles06.web.app^
 ||myhouseprojectfiles107.web.app^
@@ -205,8 +226,10 @@
 ||onlinewebue8w.boxmode.io^
 ||order-hotel.com^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
+||p336-service-d-01.web.app^
 ||pencairan-dana-giveaway.anakdara9.art^
 ||play-google-disprureac.xyz^
+||precious-selkie-40trb2.netlify.app^
 ||project1-4c626.firebaseapp.com^
 ||proses-claim-new-member.digitalis.biz.id^
 ||pub-0022a19ad46f4f3a8eaf8391b81b7edb.r2.dev^
@@ -265,6 +288,7 @@
 ||pub-59d6bff94107459cba03f30b18f43bd4.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-5cb9b92ba393454dbd05cf9af3b26099.r2.dev^
+||pub-5ecf8dfe386f493dae34d40b38324b16.r2.dev^
 ||pub-60870322f7c441b289dc921c320b936d.r2.dev^
 ||pub-6148c9b5c20447ff8452876c8773a093.r2.dev^
 ||pub-61cc331a04ca488f8a544b40ad7ff227.r2.dev^
@@ -285,9 +309,11 @@
 ||pub-80249066d67a4539ba6f4c8a1166a2ec.r2.dev^
 ||pub-811aa764a2a4480dbb9f3ca7ebab5a07.r2.dev^
 ||pub-81a947e8d81d4d49b1b096168d258f36.r2.dev^
+||pub-85cfb87eb4e9430b9097d59a7683901a.r2.dev^
 ||pub-87989d66e64841e48d9945d5d7092905.r2.dev^
 ||pub-88f64e013ca94e82aa5d15393134722c.r2.dev^
 ||pub-892e6cef5db14b4b9af4db1fc6735cd0.r2.dev^
+||pub-8a9cc35a5303489d8d9b78fd89ba0b6f.r2.dev^
 ||pub-8af83b8bdbe34837a5c52b8f62abfddb.r2.dev^
 ||pub-8bc21cd47e354f7cb32dedddaa8be7e6.r2.dev^
 ||pub-8ea4a1cf0bfa4e28a3c767dd62fd8003.r2.dev^
@@ -318,6 +344,7 @@
 ||pub-ad26986ae16e4366a1d34c587ca0df93.r2.dev^
 ||pub-af7c9c32ed9f4ec1a6e7a3d9f50d791e.r2.dev^
 ||pub-b0d3dc9a112d4478af9c1ca1dc2399ad.r2.dev^
+||pub-b5524853af8947fda903722a6e31e36e.r2.dev^
 ||pub-b6020b7242ea479da20e5b69babcb98e.r2.dev^
 ||pub-b71c16e9ba864559ac772df2b4d9f147.r2.dev^
 ||pub-b7f794ef95d2432d94c7463dbf8b9c53.r2.dev^
@@ -328,6 +355,7 @@
 ||pub-c68a047b935f44a3b2a95a6db673a011.r2.dev^
 ||pub-c8081993976f4133a3dfae4662ed3d09.r2.dev^
 ||pub-c980033c0ecd4fdca1b54292a1221fc0.r2.dev^
+||pub-cc433ccee57b47c6a8cde6418d07f7c7.r2.dev^
 ||pub-d0a002d03d4d4468a1a3a4788d44d971.r2.dev^
 ||pub-d0ab4e7526eb4faa811d0cb872595c16.r2.dev^
 ||pub-d283770289d84bf6bd92ce398ab9a53d.r2.dev^
@@ -347,6 +375,7 @@
 ||pub-e61b309bc25f40fb93f47fc4921cf5c5.r2.dev^
 ||pub-e626509332fd4379acd83c32eac7a8a6.r2.dev^
 ||pub-e6738044ac6b43d5bc61614a89552053.r2.dev^
+||pub-e6d3da88c38b445db0790636c308a9b1.r2.dev^
 ||pub-e7af232458c24dbebd4e5524c130ac5c.r2.dev^
 ||pub-ea79c93ce4e948828248b3d77591e478.r2.dev^
 ||pub-eaaf29eb3e3f4aebae6cd5f21f0ae144.r2.dev^
@@ -363,6 +392,7 @@
 ||pub-fdf53664293842c6a1efb30f32ffd43d.r2.dev^
 ||push-dialogue-border-channels.trycloudflare.com^
 ||qweroiuyyy78.firebaseapp.com^
+||qwx8es.csb.app^
 ||reelsinstagramnjhioi.blogspot.com^
 ||replacement-windows-search.today^
 ||resolveacces-id-jp.web.app^
@@ -378,9 +408,13 @@
 ||solar-windows-finds.today^
 ||spotify-clone31.netlify.app^
 ||square-smoke-4c62.4tjwj7mx.workers.dev^
+||starttsboxfile.myfreesites.net^
 ||steamcommunuilty.com^
+||support.zoom.us.my1.blondies.cfd^
 ||t4yp7.shop^
+||taplink.cc^
 ||tempatrelaod1472d0.000webhostapp.com^
+||tokempockpt.top^
 ||tokenpbaket.com^
 ||tokenpbbket.ist^
 ||tokenpbjket.com^
@@ -394,15 +428,19 @@
 ||vvalletrys-aj.xyz^
 ||windows-replacement-389.today^
 ||wk.448836.xyz^
+||ww1-spotify.com^
 ||wwa.t787td43dv.dns-dynamic.net^
+||www.adamgottliebshiatsu.com^
 ||www.dropbox.com^
 ||www.id-facebook.com^
 ||www.ita-gmbh-ac.de^
 ||www.keepo.io^
+||www.netfimarketing.com^
 ||www.northlandpaddlers.org^
 ||www.sorttexclothing.com^
 ||www3.coso.workers.dev^
 ||www3.manl.workers.dev^
+||xnzm-1efeb.web.app^
 ||yaihooserviceteam.jigija-edogus.workers.dev^
 ||yg-105.huvista.cloudns.biz^
 ||yourreftelus.top^
