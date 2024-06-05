@@ -1,16 +1,16 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717617987
-# Database Hash: 6f0044185c078dfddc8136c414c306567fbdadfe
-# Generated at: 2024-06-05 20:06:27
-# Number of domains: 268
+# Version: 1717625143
+# Database Hash: 007aedeb536a317f644c9c3e6a2db59ae016b5cf
+# Generated at: 2024-06-05 22:05:43
+# Number of domains: 270
 # Last 10 TLD counts:
 # dev: 121
-# com: 30
-# io: 13
+# com: 31
 # app: 13
+# io: 13
 # id: 10
-# net: 8
+# net: 9
 # xyz: 5
 # link: 3
 # br: 3
@@ -264,6 +264,7 @@
 ||verify-office-outlook.com^
 ||vvalletrys-aj.xyz^
 ||vww-facebook.com.vn^
+||wallet-coinbase.net^
 ||ww1-spotify.com^
 ||wwe.0i98u7jhy6gd.dns-dynamic.net^
 ||wwe.kjy4889f.dns-dynamic.net^
@@ -272,6 +273,7 @@
 ||www.allegroaixnwsuao.com^
 ||www.bbva-espana.net^
 ||www.conlineteam.com^
+||www.facebook.com^
 ||www.keepo.io^
 ||www.magicbath.co.in^
 ||www.netfimarketing.com^
