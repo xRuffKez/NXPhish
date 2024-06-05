@@ -1,33 +1,30 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717610792
-# Database Hash: e259b5b66edd8b7980430c881a524e78099ff9f3
-# Generated at: 2024-06-05 18:06:32
-# Number of domains: 273
+# Version: 1717617987
+# Database Hash: 6f0044185c078dfddc8136c414c306567fbdadfe
+# Generated at: 2024-06-05 20:06:27
+# Number of domains: 268
 # Last 10 TLD counts:
-# dev: 125
-# com: 33
-# app: 14
+# dev: 121
+# com: 30
 # io: 13
+# app: 13
 # id: 10
-# net: 7
+# net: 8
 # xyz: 5
-# mk: 3
-# nl: 3
+# link: 3
 # br: 3
+# nl: 3
 ||1kb.link^
-||65b7d3757c56390008a2d84a--ods-android.netlify.app^
-||ads-actives-centers.com^
 ||air.bnb3902.com^
 ||aktifkan-dana-paylater.w3bs1te.my.id^
 ||amazon-by-aftab.netlify.app^
 ||anzcontacthelpdesk.firebaseapp.com^
+||bafkreiedhwexafnvvwi743dw3bss5fml2xcouoxjdyyfq3d3kidmwrr6ey.ipfs.dweb.link^
 ||bantuan-keamanan-dana.link-vvip99.xyz^
 ||barclayschat-livehelp.com^
 ||bbc.your-apple-company.dns-dynamic.net^
-||binstarservaive.com^
 ||bnpparibasfortis-log-fr-be.blogspot.com^
-||btinent.bitbucket.io^
 ||cainomoli.blogspot.com^
 ||cdn.sss0122.workers.dev^
 ||cdn.zhai0122.workers.dev^
@@ -42,23 +39,21 @@
 ||danaxzzkagetzz.reel.my.id^
 ||darling-dasik-9cdd96.netlify.app^
 ||dev-cl-craig-list429-307u53402.pantheonsite.io^
-||dhl-tracking-au.blogspot.com^
 ||discordxgoogle.netlify.app^
 ||enter-mantanetwork.com^
 ||fa748eeacd4982d1.ngrok.app^
+||facebooksecurity.blogspot.co.il^
 ||facebooksecuritys.blogspot.mk^
-||feceboolk.blogspot.gr^
 ||fedwsqafrs2d3f4.astratt.vip^
 ||geiminilogonz.gitbook.io^
 ||get-windows-replaced.today^
+||git-matamesklogiin.gitbook.io^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
 ||graph.instagram.com.sg1.blondies.cfd^
-||graph.instagram.com.tes.blondies.cfd^
 ||group1-telegram.website-my.biz.id^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hv.tpwallke.com^
-||im-creator.com^
 ||info-bancosantander-app.com^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.am^
@@ -81,17 +76,16 @@
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
+||instamediaimg.lefty.io^
 ||issueappeal-pr-feedback.firebaseapp.com^
 ||jp.shanxilu.link^
-||karkeixnlogin.gitbook.io^
-||kirk-parliamentary-saved-tight.trycloudflare.com^
 ||kraikkenliogon.gitbook.io^
 ||lnky.ru^
 ||logioqqkxncraken.gitbook.io^
 ||lokyuk-viral-sabah.tme-viral.com^
+||ma3gical-cheb3akia-qna.netlify.app^
 ||magalu.redirs-magal.com^
 ||mail0.googgle.workers.dev^
-||meghtshamsk-lohgin.gitbook.io^
 ||mentmiasklogione.gitbook.io^
 ||meta-business-agency.pages.mus.br^
 ||metamaks.net^
@@ -123,8 +117,9 @@
 ||metamaskinc.blogspot.se^
 ||metamaskinc.blogspot.sg^
 ||metamaskinc.blogspot.si^
+||metamaskkloggiinnn.gitbook.io^
+||metamaskloginah.gitbook.io^
 ||metamasmklogin.gitbook.io^
-||metamiskalogonz.gitbook.io^
 ||metmask-x-login.gitbook.io^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||mitrapaylater.resminih.my.id^
@@ -136,8 +131,8 @@
 ||p336-service-d-01.web.app^
 ||penukaran-poiin-dana.anakdara9.art^
 ||play-google-disprureac.xyz^
+||polite-churros-adtrf9.netlify.app^
 ||pothan.xyz^
-||precious-selkie-40trb2.netlify.app^
 ||protect-conficsion-n-12.netlify.app^
 ||pub-0524d4a975d949ffa30d3322278eb4fa.r2.dev^
 ||pub-05773a8fee13434085f62a85f1e5eda2.r2.dev^
@@ -176,7 +171,6 @@
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-5c211e39d961437091110f7e2231d955.r2.dev^
 ||pub-5cb9b92ba393454dbd05cf9af3b26099.r2.dev^
-||pub-5ecf8dfe386f493dae34d40b38324b16.r2.dev^
 ||pub-60870322f7c441b289dc921c320b936d.r2.dev^
 ||pub-6148c9b5c20447ff8452876c8773a093.r2.dev^
 ||pub-65810deb44054180bb55f4f4d29d5339.r2.dev^
@@ -193,11 +187,9 @@
 ||pub-7e808d7f765743618c3202117de18f17.r2.dev^
 ||pub-80249066d67a4539ba6f4c8a1166a2ec.r2.dev^
 ||pub-83fb1b435e2a4100ba9e51297bc0ee8a.r2.dev^
-||pub-85cfb87eb4e9430b9097d59a7683901a.r2.dev^
 ||pub-867349a68c3a4a5ab9293f73d0984569.r2.dev^
 ||pub-87989d66e64841e48d9945d5d7092905.r2.dev^
 ||pub-88f64e013ca94e82aa5d15393134722c.r2.dev^
-||pub-8a9cc35a5303489d8d9b78fd89ba0b6f.r2.dev^
 ||pub-8af83b8bdbe34837a5c52b8f62abfddb.r2.dev^
 ||pub-8bc21cd47e354f7cb32dedddaa8be7e6.r2.dev^
 ||pub-8ea4a1cf0bfa4e28a3c767dd62fd8003.r2.dev^
@@ -224,7 +216,6 @@
 ||pub-c68a047b935f44a3b2a95a6db673a011.r2.dev^
 ||pub-c7efe08b63e8421594b969e42f716377.r2.dev^
 ||pub-c8081993976f4133a3dfae4662ed3d09.r2.dev^
-||pub-cc433ccee57b47c6a8cde6418d07f7c7.r2.dev^
 ||pub-d0a002d03d4d4468a1a3a4788d44d971.r2.dev^
 ||pub-d172ccfab50c4eb3b25bcfe4c60bd498.r2.dev^
 ||pub-d283770289d84bf6bd92ce398ab9a53d.r2.dev^
@@ -239,7 +230,6 @@
 ||pub-e54d62190d724970acb2bdc22645f2b4.r2.dev^
 ||pub-e5855431d98545b38408f52af50ab8a1.r2.dev^
 ||pub-e61b309bc25f40fb93f47fc4921cf5c5.r2.dev^
-||pub-e6d3da88c38b445db0790636c308a9b1.r2.dev^
 ||pub-e7af232458c24dbebd4e5524c130ac5c.r2.dev^
 ||pub-eaf1769c426d464eab66131044c654a1.r2.dev^
 ||pub-eb42d5ed284640bda3cc52be7e78a978.r2.dev^
@@ -256,35 +246,40 @@
 ||qwx8es.csb.app^
 ||rayjanikowski7148843.activehosted.com^
 ||reminder-interac.com^
+||reprm.shop^
 ||reviewingmyissue-support.firebaseapp.com^
 ||singapore2.website-my.biz.id^
 ||smartwallet-coinbase.com^
 ||spotify-clone31.netlify.app^
-||starttsboxfile.myfreesites.net^
 ||storied-youtiao-96tr90.netlify.app^
 ||summer-mouse-6968.vhake.workers.dev^
-||support.zoom.us.my1.blondies.cfd^
 ||syncwallet-connect.web.app^
 ||tadasm04.activehosted.com^
 ||taplink.cc^
-||tokempockpt.top^
+||toketp0cket.top^
+||u3fw0.shop^
 ||unibswap.xyz^
 ||uscs.lpthvp.top^
+||verfi-ed.upphneia.workers.dev^
 ||verify-office-outlook.com^
 ||vvalletrys-aj.xyz^
 ||vww-facebook.com.vn^
 ||ww1-spotify.com^
+||wwe.0i98u7jhy6gd.dns-dynamic.net^
 ||wwe.kjy4889f.dns-dynamic.net^
+||www.accesscherry.com^
 ||www.adamgottliebshiatsu.com^
+||www.allegroaixnwsuao.com^
 ||www.bbva-espana.net^
 ||www.conlineteam.com^
 ||www.keepo.io^
 ||www.magicbath.co.in^
 ||www.netfimarketing.com^
 ||www.northlandpaddlers.org^
+||www.notifyhubss.net^
 ||www.sorttexclothing.com^
 ||www.yt6rt.dns-dynamic.net^
 ||www3.coso.workers.dev^
 ||www3.manl.workers.dev^
 ||x-dna-id-jx-xcom.resmi-cominfo.my.id^
-||xnzm-1efeb.web.app^
+||zivopic.vesenniy-risunok.pics^
