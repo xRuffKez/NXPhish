@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717790761
-# Database Hash: b166ec9a147d7f54e6671ea9333dd04f257709c8
-# Generated at: 2024-06-07 20:06:01
-# Number of domains: 337
+# Version: 1717797959
+# Database Hash: 2b1a52a7195d7b01252c2c7e76bd0fa180e2a6ac
+# Generated at: 2024-06-07 22:05:59
+# Number of domains: 338
 # Last 10 TLD counts:
 # dev: 89
 # link: 35
-# com: 30
+# com: 31
 # io: 23
 # app: 22
 # id: 9
 # top: 7
-# nl: 4
 # biz: 4
-# fr: 3
+# nl: 4
+# ee: 3
 ||0.feixue318p.cloudns.biz^
 ||0818.kelefeng.link^
 ||17dh05.com^
@@ -236,6 +236,7 @@
 ||miitamask-wallet-2.gitbook.io^
 ||muentmasklogio-1.gitbook.io^
 ||myattserv0-967f.temp0-onlineserv09net.workers.dev^
+||myqrcode.com^
 ||n2.superfly.shop^
 ||netflix-clone-7104d.web.app^
 ||netflix.crackthenet.com^
