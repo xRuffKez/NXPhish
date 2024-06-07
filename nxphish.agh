@@ -1,23 +1,24 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717776403
-# Database Hash: 067e1f42e42237667e11e812db0925c7c412ea49
-# Generated at: 2024-06-07 16:06:43
-# Number of domains: 432
+# Version: 1717783675
+# Database Hash: f674593d32e5bb8254f37c68c4866bc7fe71f178
+# Generated at: 2024-06-07 18:07:55
+# Number of domains: 392
 # Last 10 TLD counts:
-# dev: 135
+# dev: 109
 # com: 40
-# link: 36
-# app: 31
-# io: 24
-# id: 9
-# top: 9
-# biz: 5
-# shop: 4
+# link: 35
+# app: 30
+# io: 23
+# id: 11
+# top: 7
 # net: 4
+# xyz: 4
+# eg: 4
 ||0.feixue318p.cloudns.biz^
 ||0818.kelefeng.link^
 ||17dh05.com^
+||3th.tysoncn.top^
 ||62aeea-confirm-malpractice-policies.netlify.app^
 ||859524.xyz^
 ||a2.cloudflarev2rayn.workers.dev^
@@ -31,12 +32,11 @@
 ||amirtavasoli.farnazmonsef1.workers.dev^
 ||andrewcrypto.com^
 ||anmilopbe.blogspot.com.ee^
-||anmilopbe.blogspot.hr^
-||apple.m905501039.workers.dev^
 ||arstmping003.firebaseapp.com^
 ||bafkreiedhwexafnvvwi743dw3bss5fml2xcouoxjdyyfq3d3kidmwrr6ey.ipfs.dweb.link^
 ||bafkreifcodtgmu6itcd2y4pm222wjkjqiu3343blzidowr56yngv7mhg5a.ipfs.dweb.link^
 ||bafkreigthv56vhof4ua6vvxzrcftujsvetxxoi2dkofxrhyowxfsgnv63i.ipfs.cf-ipfs.com^
+||bafkreih4qldqlilxcwnsv5j2jhoop4vytpnkargfr63wpr2lvdslkllsai.ipfs.dweb.link^
 ||bafkreihqclneucowxhcd2ermvnhhde336ccga56dyboe2odej5aiv7bexq.ipfs.dweb.link^
 ||bafybeia3n63rflynx5ijfhil55iw2ejhthbqcecqt52qkkw3emvqiizbqm.ipfs.dweb.link^
 ||bafybeia7z5y3to4idsweitfnf6n4vp6eywsp23cfz4jp7cy3qzfo4m6wza.ipfs.dweb.link^
@@ -47,13 +47,13 @@
 ||bafybeib72wcalrzmha4cu3quvaoc6l47hokvn7nyf7dvehdi3kvcweaf3u.ipfs.dweb.link^
 ||bafybeib7vtd5nis2p2aj5geuwgbqdtucicmqjmk5up73navz5vi3chmbxy.ipfs.dweb.link^
 ||bafybeibezye7f6j5tv5a53im5ykliwxqraaotvvcwerfosct2ztzvpbavi.ipfs.dweb.link^
-||bafybeibw72sfw4a6ayp7cge63jo5msfpho6hfr6vdhup7i5j6476aeaaha.ipfs.dweb.link^
 ||bafybeickyem7qf4vd2ujvpahu2jeb2snj5sccgfnafuejd4ejpjuzrm7aq.ipfs.cf-ipfs.com^
 ||bafybeid5uualtv2y7hvmwy222opymppba7lqetbqlcgyn3pdqhe5sk7isa.ipfs.dweb.link^
 ||bafybeidhcarm5pczbtvrxr2vxqai3qxo3qq2ee3kf6bncro2gcqn2xqbfi.ipfs.dweb.link^
 ||bafybeidixc63cs5qsuyag3hmprb2cmrkkclfqzy37a3uejcw2qd4u4pj74.ipfs.dweb.link^
 ||bafybeidk5xpzzgznnxiopytsd744c4el5wfsk4oe22g6i4cgt4ct5f6ilu.ipfs.dweb.link^
 ||bafybeidnkqp5ui3pyzybb3qffowmikwigseixl23ortfqy3iney3rvxxka.ipfs.dweb.link^
+||bafybeidxio4bqdmwft3jwas7hl7bmmpvufa6qz2ults5iskv5cjn3n5hwq.ipfs.dweb.link^
 ||bafybeie5gtqcurbikxvcygrfgkxwthxrhkcnakx4nwgruwrkgqta7ty4ge.ipfs.dweb.link^
 ||bafybeie6dhsslni6rmi3g473btd5kjwquivnvafvqak5c2kam2jrash47e.ipfs.dweb.link^
 ||bafybeieeapvejvwdunkpcofyn3gezyy7lz7mbjzjvplgez3ycroxvpqvje.ipfs.dweb.link^
@@ -62,9 +62,7 @@
 ||bafybeiexsxyc55uxgiwf3q3txm3hz4pixhzn4uyku5hl4khnjxa3vq2wpe.ipfs.dweb.link^
 ||bafybeieys5ouq3blbk2utmjh7y5shvu33edqjlvutiliwmqbx6ezv6h2su.ipfs.dweb.link^
 ||bafybeifd2m7ztbuhrm3mmgimcj7hx3mbqjrhw4cf734jzpafwamnnpuebi.ipfs.dweb.link^
-||bafybeifj4qhyla7yp5xwswirxlwjyatbj4zk4r5twlepzpnzfs34ulvmca.ipfs.dweb.link^
 ||bafybeig7r6u62zyhbfflic6pr3zxp3bbmc73w6oz5bi2hwivpcr7u7eiya.ipfs.dweb.link^
-||bafybeigdaor7tg4qahr334o3mgrddfvptpz6koamko5ef2zljpxmmqayfy.ipfs.dweb.link^
 ||bafybeigr2f2gfmkgtd2fb66flrhv52o5pztu7cb2ccqi7rfys5uopeit4y.ipfs.dweb.link^
 ||bafybeigujlwfaortihgboa3ainfwig7bhrn3sq6xmkgkvibbyejrdyoydi.ipfs.dweb.link^
 ||bafybeihhl2ftsimclushohb4byjwjfjoqr3pdymvx5fzx7aeswvf2imv2a.ipfs.w3s.link^
@@ -72,26 +70,21 @@
 ||bafybeihnxc3dbr7kwmifdrwdwizbojyhgmkupbugcutf6naiuamtr45zwa.ipfs.dweb.link^
 ||bafybeihwsvmc2p4etc5zcifz4efatrma6jxku245sbwlysrinoura5xwvu.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
-||bb78t.xyz^
 ||begenburda.blogspot.lu^
 ||begenburda.blogspot.qa^
 ||begenburda.blogspot.si^
 ||begenburda.blogspot.ug^
 ||billowing-bird-2c1c.elsa9212.workers.dev^
+||bj.sjycloud.xyz^
 ||book.hotelsret.com^
 ||btinent.bitbucket.io^
 ||c.sucora.workers.dev^
 ||cctv.winheike.cloudns.biz^
-||cdn.pigchao-2011.workers.dev^
 ||cf-workers-free-node.2178687569.workers.dev^
 ||cf.ifili.eu.org^
-||cf.luckybo.asia^
 ||cf.ohdmire.me^
 ||cf.wzyuze.workers.dev^
-||cf.zkagcj.workers.dev^
 ||circle.gamezcheck.com^
-||clickvideohothotwww.blogspot.co.za^
-||cloud-document.ucioveten.workers.dev^
 ||co.cloudflare-123.workers.dev^
 ||coinbase-assets.com^
 ||community-standards-metasupport.pmyojna.to^
@@ -100,18 +93,17 @@
 ||dapps-connect.netlify.app^
 ||dermafluid.de^
 ||dfdgf46567567.blogspot.sk^
-||discord-proxy.loaderlivebusiness.workers.dev^
+||dhl-express-group.blogspot.com.eg^
+||dhl-express-group.blogspot.md^
 ||discord-proxy.ullrai.workers.dev^
 ||discord.lmlm.workers.dev^
-||discord.taojay315.workers.dev^
 ||dlijwnhmwnyndflyz66hokwm1imjjhltawnwmwaasdaaewxvawod.com^
 ||drjad1a-bberkad-cnk1fqn-1kfadf1.netlify.app^
 ||dsacerulean-gdenie-7a688d.netlify.app^
-||edhjzswehzshzsh.blogspot.cl^
 ||edhjzswehzshzsh.blogspot.com.co^
-||edhjzswehzshzsh.blogspot.gr^
 ||edhjzswehzshzsh.blogspot.it^
 ||edhjzswehzshzsh.blogspot.li^
+||edhjzswehzshzsh.blogspot.lu^
 ||edhjzswehzshzsh.blogspot.sg^
 ||edhjzswehzshzsh.blogspot.sk^
 ||enchanting-beijinho-a4tr7b.netlify.app^
@@ -128,16 +120,17 @@
 ||facebooksecuritys.blogspot.fr^
 ||facebooksecuritys.blogspot.mk^
 ||ff-reward-redeem-code-2024.blogspot.com^
-||ff.membeship-garena.io.vn^
 ||fluffy-tanuki-tk1111-88083b.netlify.app^
 ||fnxx.info^
 ||freasirinostartopenas.nickolaos394.workers.dev^
-||free4me.chemshen.workers.dev^
+||free.19porntv.workers.dev^
+||freefire7xfbdup.click-xx.my.id^
 ||freefirefuqwgmx.click-xx.my.id^
+||freefirerwifabi.click-xx.my.id^
+||freefirezrirhyl.click-xx.my.id^
 ||gaammninlogin.gitbook.io^
 ||garantibbvaidat-iade.net^
 ||geeminiiiloggin.gitbook.io^
-||gege.ge-tsang.workers.dev^
 ||generatorfreeaccounts.blogspot.tw^
 ||get-windows-replaced.today^
 ||gnichua20t3.blogspot.co.id^
@@ -150,19 +143,15 @@
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
 ||gradster5regt5576.anakembok.de^
-||graph.instagram.com.sg1.blondies.cfd^
 ||h6bb1.shop^
+||h990.sihow55790.workers.dev^
 ||h9bb1.shop^
 ||hello-att-recipe-6eec.dagac57899.workers.dev^
-||hello-world-empty-sunset-037f.tksu0856.workers.dev^
-||hello-world-orange-surf-c54b.1-1-1-1-dl.workers.dev^
-||hello-world-rough-surf-b525.ouwenhai1225.workers.dev^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||hello-world-winter-rain-f573.bioprodeintal.workers.dev^
 ||homa78.gererov374.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
-||hotvideoustiktok2021.blogspot.bg^
 ||hotvideoustiktok2021.blogspot.com^
 ||hotvideoustiktok2021.blogspot.com.eg^
 ||hotvideoustiktok2021.blogspot.com.mt^
@@ -173,14 +162,9 @@
 ||imtoken-at.biz^
 ||imtoken-bi.com^
 ||imtoken-bv.biz^
-||imtoken-bv.ist^
-||imtoken-bw.biz^
 ||imtoken-lu.top^
 ||imtoken-nc.top^
-||imtoken-nj.top^
 ||imtoken-nm.top^
-||imtoken-nv.top^
-||imtoken-yj.top^
 ||imtoken-yp.top^
 ||info-bancosantander-app.com^
 ||info.aweys.net^
@@ -208,8 +192,6 @@
 ||issueappeal-pr-feedback.web.app^
 ||jade-fairy-51tr3a.netlify.app^
 ||jantangacor.pro^
-||jbjjjbhv.shop^
-||jesse126.zhdj126.workers.dev^
 ||joekasidy-banach.netlify.app^
 ||join-mantagalaxy.com^
 ||junzhou.asia^
@@ -221,14 +203,11 @@
 ||liteblue-usps-gov.com^
 ||livewalletconnect.blogspot.com.co^
 ||logioqqkxncraken.gitbook.io^
-||lt.aprilwolf.cf^
 ||maeutamkloogins.gitbook.io^
 ||mail.g00gle1.workers.dev^
 ||matamaasklog-ioo.gitbook.io^
 ||matansakk-loggin.gitbook.io^
-||mattamssk-loggin.gitbook.io^
 ||meek-twilight-1atrc2.netlify.app^
-||merry-marigold-d2503d.netlify.app^
 ||metacsklogin.gitbook.io^
 ||metamadklologin.gitbook.io^
 ||metamasciklogin.gitbook.io^
@@ -278,34 +257,29 @@
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||microhaze-3820.pintwten.workers.dev^
 ||miitamask-wallet-2.gitbook.io^
-||modesty.2504757738.workers.dev^
 ||moonlit-salmiakki-tk1111-6f9ca1.netlify.app^
 ||muentmasklogio-1.gitbook.io^
 ||musical-taiyaki-vd654646.netlify.app^
 ||myattserv0-967f.temp0-onlineserv09net.workers.dev^
 ||n2.superfly.shop^
-||nauxonline.ncdsoai044.workers.dev^
 ||netflix-clone-7104d.web.app^
 ||netflix.crackthenet.com^
 ||netflixgpt-784d6.web.app^
 ||netflixs-job.com^
 ||netflixs-task.com^
 ||omkilohedi.blogspot.com.eg^
+||omkilohedi.blogspot.sn^
 ||orgmetamslogin.gitbook.io^
-||ourtime.auth-mediia.workers.dev^
-||ourtime.meet-sign.workers.dev^
 ||outlook463.yolasite.com^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||payout-binance.com^
 ||platipus-shield-pn2807-49683.netlify.app^
 ||polite-churros-adtrf9.netlify.app^
-||procoinbulimug.gitbook.io^
 ||pub-042beab565ca415f95ad4dc390bd6f1a.r2.dev^
 ||pub-0d3d4bae617d4c3a8d1c9e97fc3a4d8d.r2.dev^
 ||pub-0e6370c7281d4390922bee8ab9b8b98d.r2.dev^
 ||pub-0ed5a1f263894eab8341e034994e9627.r2.dev^
 ||pub-107dbb4f7c784dbeb1aa052e56f63455.r2.dev^
-||pub-10e5587d22c641b190264bf0224f22a4.r2.dev^
 ||pub-18c6b05626e649129c8e649d0a2e7a52.r2.dev^
 ||pub-1c8eb7325f8744899abeb7c0edaddc51.r2.dev^
 ||pub-2176927bce8d48b28d9b595a2790686c.r2.dev^
@@ -316,6 +290,7 @@
 ||pub-3424228f58ac440c9523afb01100ed68.r2.dev^
 ||pub-36f075228b5e4c7e8dc7b16a89adccce.r2.dev^
 ||pub-3d67575b333448f19a22e532acf259af.r2.dev^
+||pub-423cb9acafc54971814c16ae6b773f6f.r2.dev^
 ||pub-452fb448cf804228af909e33ad323f3d.r2.dev^
 ||pub-45641551159848359abad22e0fa38cdc.r2.dev^
 ||pub-45dd5fee6194483e9b432be997130633.r2.dev^
@@ -329,7 +304,6 @@
 ||pub-58ae3089ad854c6583bb2d8055663d28.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-5ecf8dfe386f493dae34d40b38324b16.r2.dev^
-||pub-6147d6c64e7f4407b7a87743ce02914f.r2.dev^
 ||pub-618be204a5d34fc4b8209cc0118bd4f6.r2.dev^
 ||pub-659044bb68384dc99a6f10639a2ce0f8.r2.dev^
 ||pub-661b53fed9cd4f549125768c52464fd0.r2.dev^
@@ -342,14 +316,13 @@
 ||pub-7f16473a6a0c4196aa4e05271d2e99eb.r2.dev^
 ||pub-87c74fc56e9b48a2a98249f4105ec5ee.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
+||pub-9001142b3706459da8c96364e873dce5.r2.dev^
 ||pub-997733a6993b41e3b3cfa23a4254fdc8.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
-||pub-a171e54c218a403881c7837e2114520c.r2.dev^
 ||pub-a390d1aa30ac46b69336b2c82ebc8fa7.r2.dev^
 ||pub-a989f9c3f43749038c857481fc22a86f.r2.dev^
 ||pub-aa6e049d06064448bac810e815378414.r2.dev^
-||pub-aaa8f0614faf444986da1bc4fdae09c2.r2.dev^
 ||pub-aaab59670c2849e9ab5aabdfbf136191.r2.dev^
 ||pub-ab9522f1c3a9451fb5bf68fa1c6bcfca.r2.dev^
 ||pub-adefabd73f2c47c6a402823a22bf9e9b.r2.dev^
@@ -381,9 +354,8 @@
 ||recoveryinstagram.com^
 ||relaxed-cuchufli-77c365.netlify.app^
 ||reshotelinaprovies-visitorconferma.com^
-||reza1.rezasae.workers.dev^
+||robbinhod-loggin.gitbook.io^
 ||roundcube0004.web.app^
-||sage-axolotl-81cf4f.netlify.app^
 ||schmoark-hrirst-schnoont.yolasite.com^
 ||secure-us.blogspot.ae^
 ||security-page-community-standards.blogspot.al^
@@ -393,27 +365,18 @@
 ||security-page-community-standards.blogspot.it^
 ||security-page-community-standards.blogspot.li^
 ||signn-mail-376d.query0648.workers.dev^
-||sky-org.2620202360.workers.dev^
 ||slemlernzzhemensrgula.xyz^
 ||smartwallet-coinbase.com^
 ||smartwalletbase.com^
-||snew90.cevago6418.workers.dev^
-||solitary-wind-7d99.limijiv-simafud2562.workers.dev^
 ||sos.ttddn1.workers.dev^
 ||spotify-clone31.netlify.app^
-||ss.how129.workers.dev^
-||stone003.stone168.cloudns.org^
-||stone168.sigersuw.workers.dev^
-||swisscome.blogspot.no^
 ||t0kenp0cklt.pro^
 ||tele-gram.net^
 ||telegram11.group-lucah.my.id^
-||tepocket.com^
 ||tok2npo2kyt.top^
 ||tokenpbaket.tel^
 ||toketp0cket.top^
 ||travelifamily.com^
-||tv.281612126.workers.dev^
 ||upphholdiiloginn.gitbook.io^
 ||userviceps.blogspot.co.il^
 ||userviceps.blogspot.in^
@@ -427,23 +390,20 @@
 ||wallerpay0908.imtokenpay1125.com^
 ||wallleconnects.gitbook.io^
 ||walllecuonnects.gitbook.io^
-||wangbiao.stone168.cloudns.org^
 ||websitedana.website01.biz.id^
-||whatsappzmsbpvu.click-xx.my.id^
 ||windows-replacements.today^
 ||winter-bush-1c13.yassmens124.workers.dev^
 ||worker-30days-new-mountain-b29a.shayanworkernumber1.workers.dev^
-||worker-billowing-breeze-e859.saled78847.workers.dev^
-||worker-holy-heart-9c55-tehran.tecip91333.workers.dev^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||worker-steep-heart-4454.sug53d.workers.dev^
-||worker-wandering-smoke-4513.denesemattlincbex-w-6-5-25.workers.dev^
 ||www.accesscherry.com^
 ||www.adamgottliebshiatsu.com^
 ||www.begenburda.blogspot.kr^
+||www.facebook.com^
 ||www.filesusr.com^
 ||www.segnalibro.net^
 ||xhxsrvdrsrxxxcvzqaoi-0fz3.shared0fficeadmin.workers.dev^
 ||yc-onedrive.ycxsw.workers.dev^
 ||yrog5-xqaaa-aaaap-qa5za-cai.ic0.app^
+||zikoooooo3.web.app^
 ||zivopic.vesenniy-risunok.pics^
