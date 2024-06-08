@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717819574
-# Database Hash: 8c661a0ca6082407d83087f0c00a9a5577eb02d1
-# Generated at: 2024-06-08 04:06:14
-# Number of domains: 302
+# Version: 1717826787
+# Database Hash: 675b6ef3f88bc0f133ae61cba175956eb556dccb
+# Generated at: 2024-06-08 06:06:27
+# Number of domains: 304
 # Last 10 TLD counts:
 # dev: 81
-# com: 34
+# com: 36
 # link: 15
 # io: 12
 # app: 10
 # id: 8
 # top: 7
-# shop: 5
 # xyz: 5
-# sn: 4
+# shop: 5
+# es: 4
 ||0918.yongliang.tk^
 ||1234.lovemofar0826.workers.dev^
 ||1ayanann-d4na.clickkc.cloud^
@@ -25,6 +25,7 @@
 ||a0991447.xsph.ru^
 ||aagoat.sararoohan2020.workers.dev^
 ||access.iwebdav.workers.dev^
+||accounts.google.com^
 ||ads-account-support-da191-761030m9.netlify.app^
 ||ae.fhktujvgff.dns-dynamic.net^
 ||agricolecredit.blogspot.com^
@@ -229,6 +230,7 @@
 ||onedrive.microsoftlive1.workers.dev^
 ||ourtime.meet-sign.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
+||paypal.quicklinkhelp.com^
 ||pub-08a72c78017c440b8feca31a76901591.r2.dev^
 ||pub-0a244b22861d456681dab3d4e696448b.r2.dev^
 ||pub-0ec8eacba7db4292aa9118c7cb3c54cf.r2.dev^
