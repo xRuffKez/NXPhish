@@ -1,24 +1,25 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717813055
-# Database Hash: 2506da4ba357f27106a891b4c4fe7b98b2fbcce5
-# Generated at: 2024-06-08 02:17:35
-# Number of domains: 298
+# Version: 1717819574
+# Database Hash: 8c661a0ca6082407d83087f0c00a9a5577eb02d1
+# Generated at: 2024-06-08 04:06:14
+# Number of domains: 302
 # Last 10 TLD counts:
 # dev: 81
-# com: 32
+# com: 34
 # link: 15
 # io: 12
 # app: 10
 # id: 8
 # top: 7
 # shop: 5
-# nl: 4
-# ug: 4
+# xyz: 5
+# sn: 4
 ||0918.yongliang.tk^
 ||1234.lovemofar0826.workers.dev^
 ||1ayanann-d4na.clickkc.cloud^
 ||62aeea-confirm-malpractice-policies.netlify.app^
+||72611781-coinbase.com^
 ||859524.xyz^
 ||9bd4.state-authh.workers.dev^
 ||a0991447.xsph.ru^
@@ -53,6 +54,7 @@
 ||bafybeihltuwqzag3jjkn5soutpf6e6xaorlj3gmgqwlpspdikdv6td2vfi.ipfs.cf-ipfs.com^
 ||bagi-bagi-hadiah7xvip.danaespay.my.id^
 ||barclayschat-livehelp.com^
+||bbvanetcash-mx-logisnpibe.xyz^
 ||bc.hgktuk.dns-dynamic.net^
 ||begenburda.blogspot.com.tr^
 ||begenburda.blogspot.sn^
@@ -65,6 +67,7 @@
 ||clickvideohothotwww.blogspot.com.by^
 ||clickvideohothotwww.blogspot.com.co^
 ||coinbase-assets.com^
+||coinbase-quantify.com^
 ||conectfacebook.blogspot.com.es^
 ||conectfacebook.blogspot.kr^
 ||dana-66login.sfiles.biz.id^
@@ -297,6 +300,7 @@
 ||verify-office-outlook.com^
 ||violations-review-request.netlify.app^
 ||vit-fyp-viral-malayu.group-telegram.my.id^
+||vww-facebook.xyz^
 ||whatsapp.cloudflare-da7.workers.dev^
 ||worker-aged-art.dzvg.workers.dev^
 ||worker-billowing-credit-e9b0.sowoy806191562.workers.dev^
