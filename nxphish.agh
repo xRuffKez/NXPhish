@@ -1,19 +1,19 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717877157
-# Database Hash: 98b7ef076dc696de33e0d67b2c795cd2bea83085
-# Generated at: 2024-06-08 20:05:57
-# Number of domains: 322
+# Version: 1717884349
+# Database Hash: 822ab41e8c61c2841d2f0541961e7872bfddc48e
+# Generated at: 2024-06-08 22:05:49
+# Number of domains: 323
 # Last 10 TLD counts:
 # dev: 88
 # com: 47
 # app: 22
 # io: 12
 # id: 6
-# icu: 5
-# top: 5
 # mk: 5
 # xyz: 5
+# top: 5
+# icu: 5
 # link: 5
 ||662369d7a81bb99aa3655188--soft-tulumba-8de07b.netlify.app^
 ||72611781-coinbase.com^
@@ -26,6 +26,7 @@
 ||ads-account-support-da191-761640t10.netlify.app^
 ||agricolecredit.blogspot.com^
 ||amazon-by-aftab.netlify.app^
+||amazon.jpdkhon.cyou^
 ||amir-erfan.levaf81037.workers.dev^
 ||andyvpn5.otuxf.workers.dev^
 ||araznem.com^
