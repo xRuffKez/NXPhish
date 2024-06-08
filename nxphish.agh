@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717834008
-# Database Hash: f1b5cc23b1e989ab2a646353cbed3259afccc81a
-# Generated at: 2024-06-08 08:06:48
-# Number of domains: 302
+# Version: 1717841165
+# Database Hash: 6eeaaa95c58dd4ed60563ff4d9d714ca97469cc9
+# Generated at: 2024-06-08 10:06:05
+# Number of domains: 309
 # Last 10 TLD counts:
 # dev: 80
 # link: 46
-# com: 27
+# com: 29
 # app: 13
-# id: 6
+# id: 7
 # xyz: 5
-# ug: 4
-# top: 4
 # net: 4
-# cy: 3
+# top: 4
+# ug: 4
+# ng: 3
 ||0818.kelefeng.link^
 ||318-windows-replacement-near-me.today^
 ||62aeea-confirm-malpractice-policies.netlify.app^
@@ -80,6 +80,7 @@
 ||bafybeiez6d7wfdrpqemo5gyhy4y3vcirbsaxffvd72umppjuqajymg2gji.ipfs.dweb.link^
 ||bafybeiezwoib6ktevhakucl54i5fnyksh7qfsmrarkokmokidjhuo6ee3m.ipfs.dweb.link^
 ||bafybeifd2m7ztbuhrm3mmgimcj7hx3mbqjrhw4cf734jzpafwamnnpuebi.ipfs.dweb.link^
+||bafybeifxrddpqgi7i6ktzicioqw357oi7jz5xfr73vjhpjmn2pkesrqmcm.ipfs.cf-ipfs.com^
 ||bafybeig7r6u62zyhbfflic6pr3zxp3bbmc73w6oz5bi2hwivpcr7u7eiya.ipfs.dweb.link^
 ||bafybeigg6pqdovhmw4cbjijkssbznne3fb7ah4jclaj6v24wnkk54izwny.ipfs.dweb.link^
 ||bafybeigujlwfaortihgboa3ainfwig7bhrn3sq6xmkgkvibbyejrdyoydi.ipfs.dweb.link^
@@ -105,10 +106,12 @@
 ||coinbase-assets.com^
 ||coinbase-quantify.com^
 ||cool-recipe-cede.v2ray-vless.workers.dev^
+||daftargratisdisini.singup0.my.id^
 ||dana-66login.sfiles.biz.id^
 ||discord.lmlm.workers.dev^
 ||ebay88.cc^
 ||edhjzswehzshzsh.blogspot.gr^
+||edhjzswehzshzsh.blogspot.tw^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||enter-mantanetworks.app^
 ||espacorange-85c9f.firebaseapp.com^
@@ -122,6 +125,7 @@
 ||friendphoto.xyz^
 ||get-windows-replaced.today^
 ||gnichua20t3.blogspot.co.id^
+||gnichua20t3.blogspot.cz^
 ||gnichua20t3.blogspot.fr^
 ||gnichua20t3.blogspot.li^
 ||google-jobsoffer7655.pages.dev^
@@ -170,6 +174,7 @@
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
+||irs.amazononline.vip^
 ||is.gd^
 ||itsssl.com^
 ||jantangacor.pro^
@@ -295,6 +300,7 @@
 ||shop.bjkfhfd.dns-dynamic.net^
 ||spotify-clone31.netlify.app^
 ||sumydeko.blogspot.ae^
+||t0kenq0cket.com^
 ||taghavi-nissan.pimfaa.workers.dev^
 ||telegramcasino.top^
 ||tok2npo2kyt.top^
@@ -315,5 +321,6 @@
 ||www.kdshufef.dns-dynamic.net^
 ||www.seo015.asia^
 ||xhxsrvdrsrxxxcvzqaoi-0fz3.shared0fficeadmin.workers.dev^
+||yourtravelunravel.buzz^
 ||yrog5-xqaaa-aaaap-qa5za-cai.ic0.app^
 ||zdy.mst7788.free.hr^
