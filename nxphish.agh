@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717869961
-# Database Hash: 6b6c6b14fbce1e8fbf2763525ed7fac3cef63c15
-# Generated at: 2024-06-08 18:06:01
-# Number of domains: 301
+# Version: 1717877157
+# Database Hash: 98b7ef076dc696de33e0d67b2c795cd2bea83085
+# Generated at: 2024-06-08 20:05:57
+# Number of domains: 322
 # Last 10 TLD counts:
-# dev: 80
-# com: 46
-# app: 19
+# dev: 88
+# com: 47
+# app: 22
 # io: 12
 # id: 6
-# link: 5
+# icu: 5
+# top: 5
 # mk: 5
-# ug: 4
-# top: 4
-# is: 4
+# xyz: 5
+# link: 5
 ||662369d7a81bb99aa3655188--soft-tulumba-8de07b.netlify.app^
 ||72611781-coinbase.com^
 ||8686868634234gdfgd.blogspot.sn^
@@ -22,6 +22,7 @@
 ||aagoat.sararoohan2020.workers.dev^
 ||account-complaint-support-10038958958.netlify.app^
 ||accounts.google.com^
+||ace-aviation.co.nz^
 ||ads-account-support-da191-761640t10.netlify.app^
 ||agricolecredit.blogspot.com^
 ||amazon-by-aftab.netlify.app^
@@ -29,6 +30,7 @@
 ||andyvpn5.otuxf.workers.dev^
 ||araznem.com^
 ||athomecleaner.com^
+||ba12t.hd996.xyz^
 ||bafybeiaupahh7dg4zm3m3bnequ5dqs7l5ugh7ixet2p4kwyygqrucho23i.ipfs.cf-ipfs.com^
 ||bafybeiaw2szmqt4g5eetxceaoq3tiphunrvygud5neq7ijfqntgqirdtmm.ipfs.dweb.link^
 ||bafybeibcnsijj6bz3d6gm6a73qrylnb7mlen3etv2z6i67t6dn46djyuhu.ipfs.dweb.link^
@@ -38,6 +40,7 @@
 ||barclayschat-livehelp.com^
 ||bbvanetcash-mx-logisnpibe.xyz^
 ||bellasartesmatamorosmxuanclogi.filesusr.com^
+||bo.guo7iyfr.dns-dynamic.net^
 ||brilliant-confirm-discrepancy-guideli.netlify.app^
 ||btaccessite.w3spaces.com^
 ||buildproject-nfts.web.app^
@@ -47,11 +50,13 @@
 ||coinbase-assets.com^
 ||coinbase-quantify.com^
 ||conectfacebook.blogspot.ru^
+||d1g85xjy0c48cv.cloudfront.net^
 ||d4n4indonesiaaaa.buyerrxlstore.cfd^
 ||d4na-sawwer.clickkc.cloud^
 ||dhl-tracking-au.blogspot.mk^
 ||discord.sticker3032.workers.dev^
 ||dlijwnhmwnyndflyz66hokwm1imjjhltawnwmwaasdaaewxvawod.com^
+||dompet-digital-indonesia-v5kk4.kinsta.page^
 ||duvidaexcel.blogspot.com^
 ||duvidaexcel.blogspot.com.br^
 ||dwood5.fdgo4g0l.workers.dev^
@@ -83,6 +88,7 @@
 ||google.cjysec.workers.dev^
 ||healthgoodhistory.com^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
+||hello-world-super-wind-0b73.onholdaccount123.workers.dev^
 ||heuristic-knuth-588d37.netlify.app^
 ||holaslot-hoki.icu^
 ||hotmail-alerts.chelsie15.workers.dev^
@@ -96,6 +102,7 @@
 ||imtoken-rp.top^
 ||imtokenb.com^
 ||info-bancosantander-app.com^
+||instagram-my.ru^
 ||instagram51028.blogspot.com^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.am^
@@ -129,8 +136,10 @@
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
+||instahdjvdkddhdjdbdkevndd.blogspot.com^
 ||jantan-game.info^
 ||jemnilogies.gitbook.io^
+||klepon-soft-id4964-28955d6.netlify.app^
 ||kr.pinkmi.link^
 ||krakcen-lagonn.gitbook.io^
 ||kumpulan-girl-melayu-viral.group-telegram.my.id^
@@ -207,6 +216,7 @@
 ||netflixs-job.com^
 ||netflixs-task.com^
 ||netweb.yolasite.com^
+||office.gmcc22.workers.dev^
 ||omfgtizdie-sad.blogspot.com^
 ||omkilohedi.blogspot.is^
 ||omkilohedi.blogspot.mk^
@@ -215,7 +225,7 @@
 ||optusnet-com.blogspot.md^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||paypal.quicklinkhelp.com^
+||palestinevotein.blogspot.com^
 ||pc-visio01.firebaseapp.com^
 ||profound-beignet-562245.netlify.app^
 ||pub-082b4f0e49914620991d91d041239f8f.r2.dev^
@@ -223,6 +233,7 @@
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-12085eb3af1144e88e8859dea0809473.r2.dev^
 ||pub-256e8a1eda654ce1b066cfed5102eff9.r2.dev^
+||pub-25a8ec1666384304ad1688999392f156.r2.dev^
 ||pub-26702d472a5f4e8c83b9ef3c579e59e9.r2.dev^
 ||pub-26c27b235d494adca5cb267c04ef254a.r2.dev^
 ||pub-29118c2616f948b1b05ddef575497623.r2.dev^
@@ -235,11 +246,13 @@
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
 ||pub-4b28aa63796c46e6bf0b58a0f67835ec.r2.dev^
 ||pub-4e9d559e11c54314b7639d20c3d13682.r2.dev^
+||pub-4f21d42cb98e42dd8ebf4aa090684cad.r2.dev^
 ||pub-51f896deb233450089fc1a520e6ed957.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-5c15f6de915d475d94825387734e7c48.r2.dev^
 ||pub-5ce7163fb4d4432f92bdccbe9699f070.r2.dev^
 ||pub-61cc331a04ca488f8a544b40ad7ff227.r2.dev^
+||pub-64bdafaf82574428b5c02cc317e4d853.r2.dev^
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-6ac2f57edd5141118135012db5311b18.r2.dev^
 ||pub-6f65a77143a146c39956cd6d0797a2df.r2.dev^
@@ -254,6 +267,7 @@
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
+||pub-9e8a613363a14ab49d7caca3c14df7ea.r2.dev^
 ||pub-a953478644e1454ca2acbe30b2ed4fa2.r2.dev^
 ||pub-ac8ed930827e4988a67290bd9b2bfd12.r2.dev^
 ||pub-ac99e90cc3fb49b68a88e889a91072fd.r2.dev^
@@ -263,10 +277,12 @@
 ||pub-c3c1b24b4817402a85b98a13acc9688d.r2.dev^
 ||pub-cae4ded32a464f59879d1e8d6cc6dfbf.r2.dev^
 ||pub-cf1e7414acf142e4a3e50421d5539d71.r2.dev^
+||pub-d2d454e4dd7148c7a4853027dc2aa965.r2.dev^
 ||pub-d7a9b8e4b26a426a9a820c9c1ee41573.r2.dev^
 ||pub-d833c1b1ed3f4c0bbb58f558a2699e99.r2.dev^
 ||pub-dd223b9733bf41aa8018f1acb645c811.r2.dev^
 ||pub-de50520088c549858f8070e40512611d.r2.dev^
+||pub-e1e4d0b4665d4d8996bf04516d898fb2.r2.dev^
 ||pub-e62d154d06574646a79b5caa10c81604.r2.dev^
 ||pub-e673b9f29b344600ac732908bee4a6b1.r2.dev^
 ||pub-fb519c378293463b80af37ad2b874aaa.r2.dev^
@@ -301,10 +317,12 @@
 ||userviceps.blogspot.it^
 ||vcs1-gratis.teleme.icu^
 ||vcs3-gratis.teleme.icu^
+||vcs4-gratis.teleme.icu^
 ||verify-office-outlook.com^
 ||video64565556.blogspot.com^
 ||voting-contest-link53467.blogspot.com^
 ||vww-facebook.xyz^
+||warm-trifle-5a3dcb.netlify.app^
 ||web-tg.telgam.org^
 ||web.tlgrm.app^
 ||wf.huqiusheng2580.workers.dev^
@@ -314,5 +332,8 @@
 ||wsx.fnve3.dns-dynamic.net^
 ||www.72611781-coinbase.com^
 ||www.es-bbva-proteccion.com^
+||www.fhktu7u.dns-dynamic.net^
+||www.meskb.app^
 ||www.nirvanabiogenics.com^
 ||yenib334.top^
+||yenib345.top^
