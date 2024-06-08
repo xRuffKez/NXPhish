@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717841165
-# Database Hash: 6eeaaa95c58dd4ed60563ff4d9d714ca97469cc9
-# Generated at: 2024-06-08 10:06:05
-# Number of domains: 309
+# Version: 1717848472
+# Database Hash: 314db4db27df7c6bde6b7721f7e694ba57785968
+# Generated at: 2024-06-08 12:07:52
+# Number of domains: 334
 # Last 10 TLD counts:
-# dev: 80
-# link: 46
-# com: 29
-# app: 13
+# dev: 89
+# link: 47
+# com: 34
+# app: 19
 # id: 7
 # xyz: 5
 # net: 4
 # top: 4
 # ug: 4
-# ng: 3
+# it: 3
 ||0818.kelefeng.link^
 ||318-windows-replacement-near-me.today^
 ||62aeea-confirm-malpractice-policies.netlify.app^
@@ -26,6 +26,7 @@
 ||aafcu3.firebaseapp.com^
 ||accounts.google.com^
 ||ads-account-support-da191-761030m9.netlify.app^
+||ads-account-support-da191-761640t10.netlify.app^
 ||af53cu.web.app^
 ||afcu35.firebaseapp.com^
 ||aktivasi-dana-indonesia.link-vvip99.xyz^
@@ -40,6 +41,7 @@
 ||app-rackspace-authorize130.barem23916.workers.dev^
 ||apple-maps-info.live^
 ||arstmping003.firebaseapp.com^
+||athomecleaner.com^
 ||bafkreifcodtgmu6itcd2y4pm222wjkjqiu3343blzidowr56yngv7mhg5a.ipfs.dweb.link^
 ||bafkreigthv56vhof4ua6vvxzrcftujsvetxxoi2dkofxrhyowxfsgnv63i.ipfs.cf-ipfs.com^
 ||bafkreihqclneucowxhcd2ermvnhhde336ccga56dyboe2odej5aiv7bexq.ipfs.dweb.link^
@@ -68,6 +70,7 @@
 ||bafybeidxrmhy536trytmunxeh2vttwe37xfpnnqicl2f2qp2fvsj5rj2ei.ipfs.dweb.link^
 ||bafybeie5gtqcurbikxvcygrfgkxwthxrhkcnakx4nwgruwrkgqta7ty4ge.ipfs.dweb.link^
 ||bafybeieapukebfjnq2ezfg3ynbs3f3bzdhw4k6uq7x2a5vyu7lxcvodt4u.ipfs.dweb.link^
+||bafybeieckx4lkqi7ioacaaofhbqfvdehjjv5tmpny6bb3vhy54gsgz7hgm.ipfs.dweb.link^
 ||bafybeieeapvejvwdunkpcofyn3gezyy7lz7mbjzjvplgez3ycroxvpqvje.ipfs.dweb.link^
 ||bafybeiefmk3sdec7orxemppw5jcix4p3lckcz5twlb5bpemof7ras26gpu.ipfs.dweb.link^
 ||bafybeieh6f6kbhnzskbrtcgboiblubtilj6j3zg5olqk5k2ifby3mus3bm.ipfs.dweb.link^
@@ -94,9 +97,12 @@
 ||begenburda.blogspot.lu^
 ||begenburda.blogspot.si^
 ||begenburda.blogspot.ug^
+||bellasartesmatamorosmxuanclogi.filesusr.com^
 ||btnternets.bitbucket.io^
+||buildproject-nfts.web.app^
 ||caissedepargnecionga.web.app^
 ||caoca.2826864149.workers.dev^
+||capable-crumble-71bcdf.netlify.app^
 ||cctv.qmimi.workers.dev^
 ||cf.ifili.eu.org^
 ||cf.wentian.workers.dev^
@@ -106,6 +112,7 @@
 ||coinbase-assets.com^
 ||coinbase-quantify.com^
 ||cool-recipe-cede.v2ray-vless.workers.dev^
+||d4n4indonesiaaaa.buyerrxlstore.cfd^
 ||daftargratisdisini.singup0.my.id^
 ||dana-66login.sfiles.biz.id^
 ||discord.lmlm.workers.dev^
@@ -132,6 +139,7 @@
 ||google.cjysec.workers.dev^
 ||gradster5regt5576.anakembok.de^
 ||h9bb1.shop^
+||healthgoodhistory.com^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||hello-world-winter-rain-f573.bioprodeintal.workers.dev^
 ||hotmail-alerts.chelsie15.workers.dev^
@@ -179,8 +187,10 @@
 ||itsssl.com^
 ||jantangacor.pro^
 ||kraskii.konkurs-vesenniy.mom^
+||lambent-soft-id4964-c0bb664.netlify.app^
 ||liteblue-usps-gov.com^
 ||login.d9t0bas8.info^
+||mail1.g00gle1.workers.dev^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.am^
 ||metamask-wallett.blogspot.ba^
@@ -235,8 +245,10 @@
 ||onedrive.microsoftlive1.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||paypal.quicklinkhelp.com^
+||profound-beignet-562245.netlify.app^
 ||pub-02289f87e8ce43fe8c47a86f49b0a533.r2.dev^
 ||pub-02e526e298fb484985cdaa856505bf19.r2.dev^
+||pub-082b4f0e49914620991d91d041239f8f.r2.dev^
 ||pub-0e6370c7281d4390922bee8ab9b8b98d.r2.dev^
 ||pub-0ed5a1f263894eab8341e034994e9627.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
@@ -244,6 +256,7 @@
 ||pub-2176927bce8d48b28d9b595a2790686c.r2.dev^
 ||pub-250c2ff2a425464da082aa100fd481e1.r2.dev^
 ||pub-2560920a3894427c9084cd14d63f5bdf.r2.dev^
+||pub-256e8a1eda654ce1b066cfed5102eff9.r2.dev^
 ||pub-2edc96b3f8b94367bd9d7cd7d42f37ab.r2.dev^
 ||pub-36f075228b5e4c7e8dc7b16a89adccce.r2.dev^
 ||pub-45641551159848359abad22e0fa38cdc.r2.dev^
@@ -254,7 +267,9 @@
 ||pub-57d49e8fa0dd434c89fd6eb10b10cbf8.r2.dev^
 ||pub-58ae3089ad854c6583bb2d8055663d28.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
+||pub-5c15f6de915d475d94825387734e7c48.r2.dev^
 ||pub-6147d6c64e7f4407b7a87743ce02914f.r2.dev^
+||pub-61cc331a04ca488f8a544b40ad7ff227.r2.dev^
 ||pub-659044bb68384dc99a6f10639a2ce0f8.r2.dev^
 ||pub-661b53fed9cd4f549125768c52464fd0.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
@@ -262,6 +277,7 @@
 ||pub-7aacccb1dcc74364914ea11649460a33.r2.dev^
 ||pub-7d35bd045205438b985be38f19d3320b.r2.dev^
 ||pub-814357b3d980410c97b84c93e0f03986.r2.dev^
+||pub-84f841c1cbc3400d93d3ee7215e6f709.r2.dev^
 ||pub-8eab0c35f1eb4dacafaaa2b16d81a149.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-997733a6993b41e3b3cfa23a4254fdc8.r2.dev^
@@ -282,14 +298,17 @@
 ||pub-cbaabd801f124c2480bfbff1f6a830e7.r2.dev^
 ||pub-d2430ee851ff44c0a6487c8b6c19a658.r2.dev^
 ||pub-d641499d78924ed68c8bc1d8ffdf3d00.r2.dev^
+||pub-d833c1b1ed3f4c0bbb58f558a2699e99.r2.dev^
 ||pub-d8b30e127daa4b588dcaf695265188a3.r2.dev^
 ||pub-e17703d96c0f41a88925dbbc021fd6ad.r2.dev^
 ||pub-e5a0b6e7047e410aa2ac8663042f1271.r2.dev^
 ||pub-e9654273890b4c22aa104b8caa956c46.r2.dev^
 ||pub-f62c162b56594358978550e6b7fdea83.r2.dev^
 ||pub-f89154ffc49646d5989f6be64f0c5d62.r2.dev^
+||pub-fb519c378293463b80af37ad2b874aaa.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
+||reactivate-device.firebaseapp.com^
 ||relaxed-cuchufli-77c365.netlify.app^
 ||resadkhibktm.activehosted.com^
 ||security-page-community-standards.blogspot.al^
@@ -307,6 +326,8 @@
 ||tokenpbaket.tel^
 ||userviceps.blogspot.co.il^
 ||userviceps.blogspot.in^
+||vcs1-gratis.teleme.icu^
+||vcs3-gratis.teleme.icu^
 ||verify-office-outlook.com^
 ||vinyl-replacement-windows.org^
 ||vit-fyp-viral-malayu.group-telegram.my.id^
@@ -314,9 +335,13 @@
 ||wallerpay0908.imtokenpay1125.com^
 ||wallleconnects.gitbook.io^
 ||walllecuonnects.gitbook.io^
+||web-tg.telgam.org^
+||web.tlgrm.app^
 ||winter-bush-1c13.yassmens124.workers.dev^
 ||worker-autumn-disk-8e8c.amo-shahab736.workers.dev^
+||worker-home-american-eb1d.heleyas570.workers.dev^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
+||www.72611781-coinbase.com^
 ||www.es-bbva-proteccion.com^
 ||www.kdshufef.dns-dynamic.net^
 ||www.seo015.asia^
