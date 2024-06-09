@@ -1,30 +1,28 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717892744
-# Database Hash: f01762abbebf8d89c67164bbcbdb556bb71dad82
-# Generated at: 2024-06-09 00:25:44
-# Number of domains: 206
+# Version: 1717899597
+# Database Hash: 93d219946e152e25ed35218021c4ed6b1619384c
+# Generated at: 2024-06-09 02:19:57
+# Number of domains: 183
 # Last 10 TLD counts:
-# dev: 46
-# com: 30
-# app: 12
+# dev: 38
+# com: 28
+# app: 9
 # mk: 4
 # ug: 4
-# xyz: 4
-# net: 4
 # uk: 3
-# cy: 3
+# dk: 3
 # nl: 3
+# link: 3
+# xyz: 3
 ||72611781-coinbase.com^
 ||a0991447.xsph.ru^
 ||accounts.google.com^
-||ace-aviation.co.nz^
 ||ads-account-support-da191-761640t10.netlify.app^
 ||alr.bnb9131.com^
 ||amazon-by-aftab.netlify.app^
 ||amazon.jpdkhon.cyou^
 ||athomecleaner.com^
-||ba12t.hd996.xyz^
 ||bafkreihqclneucowxhcd2ermvnhhde336ccga56dyboe2odej5aiv7bexq.ipfs.dweb.link^
 ||bafybeieckx4lkqi7ioacaaofhbqfvdehjjv5tmpny6bb3vhy54gsgz7hgm.ipfs.dweb.link^
 ||bafybeiexsxyc55uxgiwf3q3txm3hz4pixhzn4uyku5hl4khnjxa3vq2wpe.ipfs.dweb.link^
@@ -41,9 +39,7 @@
 ||coinbase-com-55480.engenuripeivg.workers.dev^
 ||coinbase-quantify.com^
 ||correos-esxpress.tempurl.host^
-||d1g85xjy0c48cv.cloudfront.net^
 ||d4n4indonesiaaaa.buyerrxlstore.cfd^
-||dompet-digital-indonesia-v5kk4.kinsta.page^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||facebook.check-protect-account.me^
 ||facebooksecurity.blogspot.ug^
@@ -56,7 +52,6 @@
 ||google.cjysec.workers.dev^
 ||healthgoodhistory.com^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
-||hello-world-super-wind-0b73.onholdaccount123.workers.dev^
 ||help8261.facebook-guidelines.com^
 ||hotel4dmaju.com^
 ||hotmail-alerts.chelsie15.workers.dev^
@@ -64,7 +59,6 @@
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||imtoken-at.biz^
 ||info-bancosantander-app.com^
-||instagram-my.ru^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.am^
 ||instagramprofiileurl.blogspot.bg^
@@ -98,10 +92,8 @@
 ||instagramprofiileurl.blogspot.rs^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
-||instahdjvdkddhdjdbdkevndd.blogspot.com^
 ||ipfs.io^
 ||itsssl.com^
-||klepon-soft-id4964-28955d6.netlify.app^
 ||lambent-soft-id4964-c0bb664.netlify.app^
 ||luluhaha1102.blogspot.com^
 ||mail1.g00gle1.workers.dev^
@@ -164,34 +156,26 @@
 ||netflixgpt-98554.firebaseapp.com^
 ||netflixs-job.com^
 ||netflixs-task.com^
-||office.gmcc22.workers.dev^
 ||onedrive.microsoftlive1.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||palestinevotein.blogspot.com^
 ||profound-beignet-562245.netlify.app^
 ||pub-0603927d81c44c29945d86c4d44687c5.r2.dev^
 ||pub-082b4f0e49914620991d91d041239f8f.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-256e8a1eda654ce1b066cfed5102eff9.r2.dev^
-||pub-25a8ec1666384304ad1688999392f156.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
-||pub-4f21d42cb98e42dd8ebf4aa090684cad.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-5c15f6de915d475d94825387734e7c48.r2.dev^
 ||pub-61cc331a04ca488f8a544b40ad7ff227.r2.dev^
-||pub-64bdafaf82574428b5c02cc317e4d853.r2.dev^
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-84f841c1cbc3400d93d3ee7215e6f709.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
-||pub-9e8a613363a14ab49d7caca3c14df7ea.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
-||pub-d2d454e4dd7148c7a4853027dc2aa965.r2.dev^
 ||pub-d833c1b1ed3f4c0bbb58f558a2699e99.r2.dev^
-||pub-e1e4d0b4665d4d8996bf04516d898fb2.r2.dev^
 ||pub-f3a335c3131047a7a157d355c61847fa.r2.dev^
 ||pub-fb519c378293463b80af37ad2b874aaa.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
@@ -201,12 +185,8 @@
 ||taghavi-nissan.pimfaa.workers.dev^
 ||telegramcasino.top^
 ||userviceps.blogspot.co.uk^
-||vcs1-gratis.teleme.icu^
-||vcs3-gratis.teleme.icu^
-||vcs4-gratis.teleme.icu^
 ||verify-office-outlook.com^
 ||vww-facebook.xyz^
-||warm-trifle-5a3dcb.netlify.app^
 ||web-tg.telgam.org^
 ||web.tlgrm.app^
 ||worker-home-american-eb1d.heleyas570.workers.dev^
@@ -214,10 +194,7 @@
 ||www-facebook-com.vn^
 ||www.72611781-coinbase.com^
 ||www.es-bbva-proteccion.com^
-||www.fhktu7u.dns-dynamic.net^
 ||www.kdshufef.dns-dynamic.net^
 ||www.linkedin.com^
-||www.meskb.app^
 ||www.seo015.asia^
-||yenib345.top^
 ||zikooooo2-7ae2d.firebaseapp.com^
