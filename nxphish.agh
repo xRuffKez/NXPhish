@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717956383
-# Database Hash: ddb2b6063139dac8fdc85477eef2e594f3be6d78
-# Generated at: 2024-06-09 18:06:23
-# Number of domains: 208
+# Version: 1717963553
+# Database Hash: ef396cd51f5cde69de1644b3c4721bea5968d595
+# Generated at: 2024-06-09 20:05:53
+# Number of domains: 204
 # Last 10 TLD counts:
-# dev: 50
+# dev: 48
 # com: 24
 # app: 9
 # top: 7
-# net: 6
 # io: 6
-# shop: 5
+# net: 6
+# shop: 4
 # mk: 4
-# dk: 3
 # lu: 3
+# nl: 3
 ||a0991447.xsph.ru^
 ||activa-dinamica.blogspot.com^
 ||activityloginerror-jp-now.web.app^
@@ -51,7 +51,6 @@
 ||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
-||i6ave.shop^
 ||info-bancosantander-app.com^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.am^
@@ -158,7 +157,6 @@
 ||myoutlook-alerts0.lofeze.workers.dev^
 ||netflixs-job.com^
 ||netflixs-task.com^
-||nftstorage.link^
 ||onedrive.microsoftlive1.workers.dev^
 ||ourtime.media-app.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
@@ -167,7 +165,6 @@
 ||procesupdt-detail.com^
 ||pub-01bdbf8de69b4f43bd79471820b70760.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
-||pub-3e59e6a70318440583ed96e64eb7f303.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
 ||pub-4b28aa63796c46e6bf0b58a0f67835ec.r2.dev^
 ||pub-529eadd53e464b79a8e42aaf8c437ef2.r2.dev^
@@ -175,7 +172,6 @@
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
-||pub-7d39e3f7500946b38ec205c06b8339c6.r2.dev^
 ||pub-7d92cd0bfba4484281fe4ef7b7323120.r2.dev^
 ||pub-7ee911a6faf241b6a84d2558aaa5e6e1.r2.dev^
 ||pub-8198ef94712a43e5a05e0ea8720214fd.r2.dev^
