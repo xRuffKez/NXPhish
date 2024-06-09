@@ -1,24 +1,25 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717927560
-# Database Hash: 8939a9ce74407151fd7515f442dd7f7c86188883
-# Generated at: 2024-06-09 10:06:00
-# Number of domains: 171
+# Version: 1717934920
+# Database Hash: 21d975789154c24be7a47c6099c6aa83bd0c9905
+# Generated at: 2024-06-09 12:08:40
+# Number of domains: 223
 # Last 10 TLD counts:
-# dev: 43
-# com: 25
-# app: 15
-# ug: 4
+# dev: 60
+# com: 35
+# app: 20
+# io: 7
+# net: 6
 # it: 4
-# dk: 3
-# nl: 3
-# se: 3
-# net: 3
-# io: 3
+# ug: 4
+# top: 4
+# shop: 4
+# lu: 4
 ||72611781-coinbase.com^
 ||8686868634234gdfgd.blogspot.sn^
 ||accounts.google.com^
 ||ace-aviation.co.nz^
+||activityloginerror-jp-now.web.app^
 ||ads-account-support-da191-761640t10.netlify.app^
 ||amazon-by-aftab.netlify.app^
 ||amazon.jpdkhon.cyou^
@@ -36,24 +37,35 @@
 ||book.hotelsret.com^
 ||buildproject-nfts.web.app^
 ||capable-crumble-71bcdf.netlify.app^
+||chikbalapur.blogspot.com^
 ||coinbase-assets.com^
 ||coinbase-quantify.com^
+||conncctvallet.gitbook.io^
 ||d4n4indonesiaaaa.buyerrxlstore.cfd^
+||dana-id-customer6382.fbzsa.com^
 ||dfdgf46567567.blogspot.sk^
+||dngtnpqnwb.1myall.com^
 ||edhjzswehzshzsh.blogspot.it^
 ||ee.sgdjrygjg.dns-dynamic.net^
 ||enter-mantanetwork.app^
+||etisa.mimascota.pe^
+||fac1as-g434a-6b1e0b-trn1as.netlify.app^
 ||facebooksecurity.blogspot.lu^
 ||facebooksecuritys.blogspot.mk^
 ||get-windows-replaced.today^
+||ggzklqy22.njkirkorpwko86.dns-dynamic.net^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
+||googleaccounts.jiqigushi.top^
+||greenanymorewaytogo.florece4.workers.dev^
+||hccjad-f-b-01.web.app^
 ||healthgoodhistory.com^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||holaslot-hoki.icu^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||hotvideoustiktok2021.blogspot.ug^
+||i6ave.shop^
 ||imtoken-rp.top^
 ||info-bancosantander-app.com^
 ||instagrammalo.blogspot.nl^
@@ -79,10 +91,18 @@
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
 ||join-mantagalaxy.com^
+||joioplre.firebaseapp.com^
+||joioplre.web.app^
 ||kingdave511.activehosted.com^
 ||klepon-soft-id4964-28955d6.netlify.app^
+||kmt5m8m3.qmffrhk.dns-dynamic.net^
+||l4pv9.shop^
 ||lambent-soft-id4964-c0bb664.netlify.app^
 ||mail1.g00gle1.workers.dev^
+||matemacskwaliet.gitbook.io^
+||matemas-kwalllit.gitbook.io^
+||mattupd-c161.serv-upda0.workers.dev^
+||mcphail1519.activehosted.com^
 ||metamask-loxginn.gitbook.io^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.ca^
@@ -122,26 +142,34 @@
 ||metamaskinc.blogspot.si^
 ||metamaskinc.blogspot.ug^
 ||micr0soft-login-now.rywepomo.workers.dev^
+||moorimex.s-mahdi-torabi93.workers.dev^
+||msutamasklogin.gitbook.io^
 ||mx.yyyy.cf^
 ||myqrcode.com^
 ||myuaphold-login.gitbook.io^
 ||netflixs-job.com^
 ||netflixs-task.com^
+||nftstorage.link^
 ||oakley009.blogspot.com^
 ||office.gmcc22.workers.dev^
 ||onedrive.microsoftlive1.workers.dev^
+||ourtime.media-app.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||pc-visio01.firebaseapp.com^
 ||platipus-protect-pn2807-49685.netlify.app^
+||pr-resolvecheck-appeal.firebaseapp.com^
+||procesupdt-detail.com^
 ||profound-beignet-562245.netlify.app^
 ||pub-082b4f0e49914620991d91d041239f8f.r2.dev^
 ||pub-12085eb3af1144e88e8859dea0809473.r2.dev^
 ||pub-256e8a1eda654ce1b066cfed5102eff9.r2.dev^
 ||pub-31d1ab9640584314a0b643ace7d092f0.r2.dev^
 ||pub-3a12a51b73874cc1b3734cfeca7767df.r2.dev^
+||pub-3e59e6a70318440583ed96e64eb7f303.r2.dev^
 ||pub-3ea1fac02e8243e2b20226b9aa87b6aa.r2.dev^
 ||pub-4102a659106847e299eae8cc87536224.r2.dev^
 ||pub-4e9d559e11c54314b7639d20c3d13682.r2.dev^
+||pub-529eadd53e464b79a8e42aaf8c437ef2.r2.dev^
 ||pub-5a168076dcfe486a8856de069ec44b84.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-5c15f6de915d475d94825387734e7c48.r2.dev^
@@ -150,32 +178,52 @@
 ||pub-6f65a77143a146c39956cd6d0797a2df.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-7ccd9eed2f7746f0844d3881a62a4c3f.r2.dev^
+||pub-7d39e3f7500946b38ec205c06b8339c6.r2.dev^
+||pub-7d92cd0bfba4484281fe4ef7b7323120.r2.dev^
+||pub-8198ef94712a43e5a05e0ea8720214fd.r2.dev^
 ||pub-84f841c1cbc3400d93d3ee7215e6f709.r2.dev^
 ||pub-8e400b9271f24921a443ccacc73dbe3f.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
+||pub-94a7b8da1a6c48fcadb0ac5db316b0da.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
 ||pub-ac99e90cc3fb49b68a88e889a91072fd.r2.dev^
 ||pub-b45143c0466f447895a998370c1a64d5.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
+||pub-ba96159d1291425cb890b943fa0f8c76.r2.dev^
 ||pub-c3c1b24b4817402a85b98a13acc9688d.r2.dev^
+||pub-d483a085a76d445eaee7c66ed25b087c.r2.dev^
 ||pub-d7a9b8e4b26a426a9a820c9c1ee41573.r2.dev^
 ||pub-d833c1b1ed3f4c0bbb58f558a2699e99.r2.dev^
 ||pub-e1e4d0b4665d4d8996bf04516d898fb2.r2.dev^
+||pub-e2c84832f771406785e1f132d4eea051.r2.dev^
 ||pub-e62d154d06574646a79b5caa10c81604.r2.dev^
+||pub-f92a28ed1dbe4d3b9f2a757cfdcaeebc.r2.dev^
 ||pub-fb519c378293463b80af37ad2b874aaa.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
+||r6nm4.shop^
 ||reactivate-device.firebaseapp.com^
+||remove-page-violation-submit.netlify.app^
+||rgrehreerg.blogspot.lu^
+||s6yfq.shop^
 ||security-page-community-standards.blogspot.com.eg^
 ||slimhealth.us^
+||snowy-hat-6872.on.fleek.co^
+||sporevidiothebest.vvipsg.com^
 ||spotify-clone31.netlify.app^
+||sqp.sharonconnors.dns-dynamic.net^
+||steam.communityfileshareds.com^
 ||support-ads-team-c5e5c.firebaseapp.com^
 ||swisscome.blogspot.se^
+||telegracm.org^
+||tg.adctweb.club^
 ||titakgege56.anakembok.de^
+||tokeyp0cket.top^
 ||uckdie-f-bb-02.web.app^
 ||userviceps.blogspot.com.uy^
 ||userviceps.blogspot.it^
+||uwagboe.blogspot.com^
 ||verify-office-outlook.com^
 ||vww-facebook.xyz^
 ||web-tg.telgam.org^
@@ -183,6 +231,10 @@
 ||welcome-telegram.ru^
 ||worker-home-american-eb1d.heleyas570.workers.dev^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
+||worker-wild-cloud-e7e2.pjjc4816.workers.dev^
+||workers-playground-tight-king-67e1.bagodam539.workers.dev^
 ||www.72611781-coinbase.com^
 ||www.82776152-coinbase.com^
 ||www.meskb.app^
+||xl.cstklgg.workers.dev^
+||yenib356.top^
