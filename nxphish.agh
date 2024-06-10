@@ -1,9 +1,9 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717985948
-# Database Hash: 522943b190f20d905d7caf4e816b5d25d0759912
-# Generated at: 2024-06-10 02:19:08
-# Number of domains: 171
+# Version: 1717992477
+# Database Hash: a54d757f95cbb9562f06bd996a2106bf07280943
+# Generated at: 2024-06-10 04:07:57
+# Number of domains: 174
 # Last 10 TLD counts:
 # dev: 47
 # com: 24
@@ -12,8 +12,8 @@
 # io: 6
 # top: 5
 # shop: 4
-# ug: 3
-# id: 3
+# dk: 3
+# nl: 3
 # mk: 3
 ||aa.fut7yghvj.dns-dynamic.net^
 ||activityloginerror-jp-now.web.app^
@@ -22,12 +22,14 @@
 ||amazon-by-aftab.netlify.app^
 ||amazon.jpdkhon.cyou^
 ||ao.cloudns.org^
+||apple-ke.site^
 ||bagix-hadiahyx-dana1idzfr.wepp.my.id^
 ||barclayschat-livehelp.com^
 ||bc.hgktuk.dns-dynamic.net^
 ||cdn.010802.workers.dev^
 ||chikbalapur.blogspot.com^
 ||coinbase-assets.com^
+||coinbaseclaim.xyz^
 ||conncctvallet.gitbook.io^
 ||d2w57hu2y3cqhr.cloudfront.net^
 ||dana-id-customer6382.fbzsa.com^
@@ -77,6 +79,7 @@
 ||joioplre.web.app^
 ||kmt5m8m3.qmffrhk.dns-dynamic.net^
 ||l4pv9.shop^
+||linkedinx.icu^
 ||matemacskwaliet.gitbook.io^
 ||matemas-kwalllit.gitbook.io^
 ||mattupd-c161.serv-upda0.workers.dev^
