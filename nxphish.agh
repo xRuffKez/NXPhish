@@ -1,25 +1,24 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718006898
-# Database Hash: 3d8e048ca8b1f9a120c062b060b71cc1f9a04f9c
-# Generated at: 2024-06-10 08:08:18
-# Number of domains: 244
+# Version: 1718013976
+# Database Hash: 93751e3f801e96c78d1f27debace936bab64bb2e
+# Generated at: 2024-06-10 10:06:16
+# Number of domains: 243
 # Last 10 TLD counts:
-# dev: 59
-# com: 36
-# app: 19
-# net: 6
-# io: 6
-# id: 6
-# shop: 5
+# dev: 58
+# com: 33
+# app: 20
+# id: 7
+# shop: 6
+# net: 5
+# io: 5
 # top: 4
-# cy: 3
-# co: 3
+# pe: 3
+# ug: 3
 ||82776152-coinbase.com^
 ||a0991447.xsph.ru^
 ||activityloginerror-jp-now.web.app^
 ||ad-content-not-following-community-st.netlify.app^
-||adv-supporrtpagesclose-fb.com^
 ||afdf.daftardanafisik.my.id^
 ||amazon-by-aftab.netlify.app^
 ||amazon.jpdkhon.cyou^
@@ -53,6 +52,8 @@
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
 ||googleaccounts.jiqigushi.top^
+||gpfkk.ktt55.my.id^
+||gpt2.yuen.us.kg^
 ||greenanymorewaytogo.florece4.workers.dev^
 ||h7nz1.shop^
 ||hccjad-f-b-01.web.app^
@@ -159,7 +160,6 @@
 ||metamaskinc.blogspot.sk^
 ||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
-||metamasknglogin.gitbook.io^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
 ||millions-apple-echoing.on-fleek.app^
@@ -180,7 +180,6 @@
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||oyster-app-a8q2s.ondigitalocean.app^
 ||pr-resolvecheck-appeal.firebaseapp.com^
-||procesupdt-detail.com^
 ||productsgallerydetails.com^
 ||protection-association-cd77841-z21.netlify.app^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
@@ -188,7 +187,6 @@
 ||pub-2c4b3690a6594baeb0be57a6c5f72951.r2.dev^
 ||pub-3e59e6a70318440583ed96e64eb7f303.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
-||pub-4d7bb43e25dd47908d2cb9ee14b0aa96.r2.dev^
 ||pub-4f7caf5d0ca34235adaad28638873447.r2.dev^
 ||pub-529eadd53e464b79a8e42aaf8c437ef2.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
@@ -219,6 +217,7 @@
 ||r6nm4.shop^
 ||read-dot-sharepointsaver-358401.wm.r.appspot.com^
 ||remove-page-violation-submit.netlify.app^
+||resplendent-semolina-0f7cdf.netlify.app^
 ||rgrehreerg.blogspot.lu^
 ||ri53rd.web.app^
 ||s6yfq.shop^
@@ -228,7 +227,6 @@
 ||sporevidiothebest.vvipsg.com^
 ||spotify-clone31.netlify.app^
 ||sqp.sharonconnors.dns-dynamic.net^
-||steam.communityfileshareds.com^
 ||steamcommuritly.com^
 ||steamcomnuwity.com^
 ||support-team-t440706-44xeo12.netlify.app^
@@ -240,6 +238,7 @@
 ||tokeyp0cket.top^
 ||unrivaled-squirrel-204339.netlify.app^
 ||us.manks.workers.dev^
+||usps-cfs.shop^
 ||uwagboe.blogspot.com^
 ||validatedebts.com^
 ||verify-office-outlook.com^
@@ -254,8 +253,8 @@
 ||www-facebook-com.vn^
 ||www.amazon.com^
 ||www.es-bbva-proteccion.com^
-||www.gdfruj.dns-dynamic.net^
 ||www.kdshufef.dns-dynamic.net^
+||www.roblox.com.ni^
 ||www.seo018.asia^
 ||xl.cstklgg.workers.dev^
 ||yenib356.top^
