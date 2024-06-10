@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718035635
-# Database Hash: 6d2e9e9e9cc5aa578a7aad9870473f54b8861787
-# Generated at: 2024-06-10 16:07:15
-# Number of domains: 227
+# Version: 1718042824
+# Database Hash: 934cee446c0126ab6b791d83b32fd72d49f235d7
+# Generated at: 2024-06-10 18:07:04
+# Number of domains: 229
 # Last 10 TLD counts:
 # dev: 62
 # com: 30
 # app: 17
 # id: 9
-# nl: 3
+# cfd: 3
 # dk: 3
-# ug: 3
-# cy: 3
 # mk: 3
+# cy: 3
 # top: 3
+# ug: 3
 ||6868.replyhelp.cfd^
 ||accounts-dot-devsnapchat.appspot.com^
 ||adorable-raindrop-eb5cdf.netlify.app^
@@ -31,6 +31,8 @@
 ||barclayschat-livehelp.com^
 ||bhf.mkhhfgd4aw1.dns-dynamic.net^
 ||business-support-groupcd9688-z6.netlify.app^
+||cache.netflix.com.my1.porpuse.cfd^
+||cache.netflix.com.sg1.porpuse.cfd^
 ||ccorreos.life^
 ||ci.trezar-suite.io^
 ||clodh-4716.obcuaclze.workers.dev^
