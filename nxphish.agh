@@ -1,51 +1,67 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718013976
-# Database Hash: 93751e3f801e96c78d1f27debace936bab64bb2e
-# Generated at: 2024-06-10 10:06:16
-# Number of domains: 243
+# Version: 1718021369
+# Database Hash: 75de935757a39452f843c8b335b13e45a89dae69
+# Generated at: 2024-06-10 12:09:29
+# Number of domains: 283
 # Last 10 TLD counts:
-# dev: 58
-# com: 33
-# app: 20
-# id: 7
+# dev: 75
+# com: 39
+# app: 25
+# id: 10
 # shop: 6
-# net: 5
-# io: 5
-# top: 4
+# net: 6
+# io: 6
+# top: 5
 # pe: 3
-# ug: 3
+# co: 3
+||6868.replyhelp.cfd^
 ||82776152-coinbase.com^
 ||a0991447.xsph.ru^
 ||activityloginerror-jp-now.web.app^
 ||ad-content-not-following-community-st.netlify.app^
 ||afdf.daftardanafisik.my.id^
+||akwkwa2025.holxc1.my.id^
+||allegro.memeonsquare.lol^
 ||amazon-by-aftab.netlify.app^
 ||amazon.jpdkhon.cyou^
 ||apple-irecovery.com^
 ||apple-ke.site^
+||bafybeia4zzt5x6wgr5n4sulvx5zmgguifgmvs2ggl4lfysdr2gxd4ghge4.ipfs.dweb.link^
 ||bagix-hadiahx-danax7fr.gett.biz.id^
 ||barclayschat-livehelp.com^
+||bhf.mkhhfgd4aw1.dns-dynamic.net^
 ||biinance.lol^
+||business-support-groupcd9688-z6.netlify.app^
 ||ccorreos.life^
 ||chikbalapur.blogspot.com^
+||ci.trezar-suite.io^
+||clodh-4716.obcuaclze.workers.dev^
 ||coinbase-assets.com^
 ||coinbase-com-55191.rqbnjpujjr.workers.dev^
 ||coinbase-com-55480.engenuripeivg.workers.dev^
 ||coinbaseclaim.xyz^
 ||conncctvallet.gitbook.io^
 ||dana-id-customer6382.fbzsa.com^
+||dana-layananofficial.jagadtani.my.id^
 ||dev-solidone.pantheonsite.io^
+||dgdfgd2345454.blogspot.com.eg^
 ||dngtnpqnwb.1myall.com^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||etisa.mimascota.pe^
+||excel-file.netlify.app^
 ||eygltrh.com^
 ||fac1as-g434a-6b1e0b-trn1as.netlify.app^
+||facebook-online-values.firebaseapp.com^
+||facebook-platform-policy.firebaseapp.com^
 ||facebook.check-protect-account.me^
 ||facebooksecuritys.blogspot.mk^
+||fancy-cherry-de6f.8n2jthl6.workers.dev^
 ||fastidious-pika-7a8cdf.netlify.app^
 ||ff-members-garena.io.vn^
+||flowcv.me^
 ||fmi-apple.cc^
+||foodnetworkcookingprogramintercome.blogspot.com^
 ||get-windows-replaced.today^
 ||ggzklqy22.njkirkorpwko86.dns-dynamic.net^
 ||glittery-souffle-1accdf.netlify.app^
@@ -98,13 +114,16 @@
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
 ||itsssl.com^
+||jeff1220.blogspot.com^
 ||joioplre.firebaseapp.com^
 ||joioplre.web.app^
 ||kmt5m8m3.qmffrhk.dns-dynamic.net^
 ||l4pv9.shop^
 ||linkedinx.icu^
 ||linkx-dna-id-xcom.resmi-cominfo.my.id^
+||linkx-dna-indonesiax-xcom.resmi-cominfo.my.id^
 ||login.update-ourtime.workers.dev^
+||lucky-rabanadas-002cdf.netlify.app^
 ||mail.pemulihannnakunndxnaa.sitepay.biz.id^
 ||matemacskwaliet.gitbook.io^
 ||matemas-kwalllit.gitbook.io^
@@ -175,6 +194,8 @@
 ||nubrdq4b.hlrdsjkl.dns-dynamic.net^
 ||oakley009.blogspot.com^
 ||onedrive.microsoftlive1.workers.dev^
+||onedrive4c.firebaseapp.com^
+||onedrive4c.web.app^
 ||ourtime.media-app.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
@@ -183,13 +204,19 @@
 ||productsgallerydetails.com^
 ||protection-association-cd77841-z21.netlify.app^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
+||pub-1abc1c8b35d5420cb789e922413e42de.r2.dev^
 ||pub-21a4c77f090b4fbab64ac6d5818ed0c1.r2.dev^
 ||pub-2c4b3690a6594baeb0be57a6c5f72951.r2.dev^
 ||pub-3e59e6a70318440583ed96e64eb7f303.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
+||pub-47cf88b9b6f343a5a501976be6adf17e.r2.dev^
+||pub-4cd21a3705234b90ad407f8b0cb39a8f.r2.dev^
 ||pub-4f7caf5d0ca34235adaad28638873447.r2.dev^
 ||pub-529eadd53e464b79a8e42aaf8c437ef2.r2.dev^
+||pub-5314867eb87a4403bb3b5e9f21b4c1cf.r2.dev^
+||pub-565f3f6445ae477c87e64310b60eb61b.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
+||pub-62960396eb844c29a8476340a24e7b25.r2.dev^
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-77b662a49d5c4796a6c7dd1064939d1e.r2.dev^
@@ -200,20 +227,29 @@
 ||pub-88d5ca909af945ed978343d19a7d435f.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-94a7b8da1a6c48fcadb0ac5db316b0da.r2.dev^
+||pub-971a2e3bbabc46089125cde1eaa8d3b2.r2.dev^
 ||pub-97c8902c9c3b4ec0b4a2b0568cedcfd6.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
+||pub-a40af34dcce94355973b0e837bd9a6b2.r2.dev^
+||pub-a6d1b5d294e74ebfa58fae6d4ec861ef.r2.dev^
+||pub-b8038d5ce7e24f13bd0516b91cc22ca3.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
 ||pub-ba96159d1291425cb890b943fa0f8c76.r2.dev^
+||pub-c7d85c3f857e42498f73a89506b4d8a1.r2.dev^
 ||pub-d246ad26959c48f98f9906f029e03763.r2.dev^
 ||pub-d483a085a76d445eaee7c66ed25b087c.r2.dev^
+||pub-de070dc664904ed28782265ba717e609.r2.dev^
 ||pub-e2c84832f771406785e1f132d4eea051.r2.dev^
 ||pub-e6af964b9abc4261b6749b0c80a7a931.r2.dev^
+||pub-e71254423b034559af36305db5e4530d.r2.dev^
 ||pub-ed4436928a0f4db6a9860bf39f13ccf7.r2.dev^
+||pub-ee8cbd2a39354da89ac98986277fdc17.r2.dev^
 ||pub-f3922f20d4c74ba1869fd3db906e3295.r2.dev^
 ||pub-f92a28ed1dbe4d3b9f2a757cfdcaeebc.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
+||query-tt4.dashboardr.workers.dev^
 ||r6nm4.shop^
 ||read-dot-sharepointsaver-358401.wm.r.appspot.com^
 ||remove-page-violation-submit.netlify.app^
@@ -229,13 +265,17 @@
 ||sqp.sharonconnors.dns-dynamic.net^
 ||steamcommuritly.com^
 ||steamcomnuwity.com^
+||stearmcommnuty.com^
 ||support-team-t440706-44xeo12.netlify.app^
+||t0kotp2cket.top^
 ||taghavi-nissan.pimfaa.workers.dev^
 ||telegracm.org^
 ||telegram.htl87.vip^
 ||tg.adctweb.club^
 ||tok2npo2krt.top^
 ||tokeyp0cket.top^
+||tpoken.app^
+||tptken.in^
 ||unrivaled-squirrel-204339.netlify.app^
 ||us.manks.workers.dev^
 ||usps-cfs.shop^
