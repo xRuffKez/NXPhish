@@ -1,22 +1,23 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1717979026
-# Database Hash: 41683d65cc493b8b4a313dc84b3dfb11cb7fb8e1
-# Generated at: 2024-06-10 00:23:46
-# Number of domains: 162
+# Version: 1717985948
+# Database Hash: 522943b190f20d905d7caf4e816b5d25d0759912
+# Generated at: 2024-06-10 02:19:08
+# Number of domains: 171
 # Last 10 TLD counts:
-# dev: 44
-# com: 23
+# dev: 47
+# com: 24
 # app: 10
-# net: 7
-# io: 5
+# net: 9
+# io: 6
 # top: 5
+# shop: 4
 # ug: 3
-# shop: 3
-# nl: 3
-# dk: 3
+# id: 3
+# mk: 3
 ||aa.fut7yghvj.dns-dynamic.net^
 ||activityloginerror-jp-now.web.app^
+||adv-supporrtpagesclose-fb.com^
 ||aktivasi-dana-indonesia.link-vvip99.xyz^
 ||amazon-by-aftab.netlify.app^
 ||amazon.jpdkhon.cyou^
@@ -48,6 +49,7 @@
 ||helpmetasmsk-app.gitbook.io^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
+||i6ave.shop^
 ||info-bancosantander-app.com^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.am^
@@ -114,12 +116,15 @@
 ||metamaskinc.blogspot.sg^
 ||metamaskinc.blogspot.si^
 ||metamaskinc.blogspot.ug^
+||metamasknglogin.gitbook.io^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||misty-boat-f15a.rdbyrnceweaia9045.workers.dev^
 ||moorimex.s-mahdi-torabi93.workers.dev^
 ||msutamasklogin.gitbook.io^
 ||netflixs-job.com^
 ||netflixs-task.com^
+||nftstorage.link^
+||nubrdq4b.hlrdsjkl.dns-dynamic.net^
 ||onedrive.microsoftlive1.workers.dev^
 ||ourtime.media-app.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
@@ -129,12 +134,15 @@
 ||pub-0562dd1239744504922bb041e3f2f2eb.r2.dev^
 ||pub-2a2af4adff814e44ad26d01b7fba6c43.r2.dev^
 ||pub-2c4b3690a6594baeb0be57a6c5f72951.r2.dev^
+||pub-3e59e6a70318440583ed96e64eb7f303.r2.dev^
+||pub-4d7bb43e25dd47908d2cb9ee14b0aa96.r2.dev^
 ||pub-4f21d42cb98e42dd8ebf4aa090684cad.r2.dev^
 ||pub-529eadd53e464b79a8e42aaf8c437ef2.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-6808fc2d4e1b46a784bfa17b251af8f7.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-7aef0558769d4eda8248efdaf76aa6a1.r2.dev^
+||pub-7d39e3f7500946b38ec205c06b8339c6.r2.dev^
 ||pub-7d92cd0bfba4484281fe4ef7b7323120.r2.dev^
 ||pub-8198ef94712a43e5a05e0ea8720214fd.r2.dev^
 ||pub-88e1b8069ef7456fb61d68e69497e36f.r2.dev^
@@ -174,6 +182,7 @@
 ||worker-wild-cloud-e7e2.pjjc4816.workers.dev^
 ||workers-playground-tight-king-67e1.bagodam539.workers.dev^
 ||www.cricketbettingpro.com^
+||www.gdfruj.dns-dynamic.net^
 ||xl.cstklgg.workers.dev^
 ||yenib345.top^
 ||yenib356.top^
