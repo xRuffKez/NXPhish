@@ -1,37 +1,30 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718057167
-# Database Hash: 2e002a1665a5582b7058f6bfd4a26370dd83b7d5
-# Generated at: 2024-06-10 22:06:07
-# Number of domains: 237
+# Version: 1718065359
+# Database Hash: 0c08306bf286b73551f565c2f64ae3d72164d0f1
+# Generated at: 2024-06-11 00:22:39
+# Number of domains: 212
 # Last 10 TLD counts:
-# dev: 63
-# com: 32
-# app: 17
-# id: 9
-# net: 5
-# top: 4
-# io: 4
+# dev: 58
+# com: 23
+# app: 12
+# id: 7
+# io: 5
+# net: 4
 # dk: 3
-# mk: 3
+# top: 3
 # cy: 3
-||accounts-dot-devsnapchat.appspot.com^
-||adorable-raindrop-eb5cdf.netlify.app^
+# ug: 3
 ||akwkwa2025.holxc1.my.id^
 ||allegro.memeonsquare.lol^
-||allegrolokalnie.c98a20.pl^
 ||amazon-by-aftab.netlify.app^
-||amazon.jpdkhon.cyou^
-||amz-proxy.smile31768.workers.dev^
 ||apple-ke.site^
-||astonishing-druid-626cdf.netlify.app^
+||bafkreifwk3baebzdxlzg4gkgfjrrtftwlf5pybtsfnl4sa73duyquel7bq.ipfs.dweb.link^
 ||bafybeia4zzt5x6wgr5n4sulvx5zmgguifgmvs2ggl4lfysdr2gxd4ghge4.ipfs.dweb.link^
-||bagi-hadiah-balance-x1pay.1here.my.id^
 ||barclayschat-livehelp.com^
 ||bhf.mkhhfgd4aw1.dns-dynamic.net^
+||boisterous-kringle-cdf.netlify.app^
 ||business-support-groupcd9688-z6.netlify.app^
-||cache.netflix.com.my1.porpuse.cfd^
-||cache.netflix.com.sg1.porpuse.cfd^
 ||ccorreos.life^
 ||ci.trezar-suite.io^
 ||clodh-4716.obcuaclze.workers.dev^
@@ -39,38 +32,33 @@
 ||coinbase-com-55191.rqbnjpujjr.workers.dev^
 ||coinbase-com-55480.engenuripeivg.workers.dev^
 ||coinbaseclaim.xyz^
-||community-flagged-124330.netlify.app^
-||dana-customer-bantuann.anakdara9.art^
 ||dana-layananofficial.jagadtani.my.id^
+||danaaaa.pictt.art^
 ||dev-btvorange.pantheonsite.io^
 ||dgdfgd2345454.blogspot.com.eg^
 ||elqanas-netflix-clone.firebaseapp.com^
-||ew2qii.dsadrasdqw.club^
 ||excel-file.netlify.app^
-||eygltrh.com^
-||facebbook.app^
 ||facebook-online-values.firebaseapp.com^
 ||facebook-platform-policy.firebaseapp.com^
 ||facebook.check-protect-account.me^
 ||facebooksecuritys.blogspot.mk^
 ||fancy-cherry-de6f.8n2jthl6.workers.dev^
-||fastidious-pika-7a8cdf.netlify.app^
+||ff-members-garena.io.vn^
 ||flowcv.me^
 ||fmi-apple.cc^
 ||foodnetworkcookingprogramintercome.blogspot.com^
 ||get-windows-replaced.today^
-||gikoluhonedi.blogspot.com^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
-||h5.896e.com^
+||gpfkk.ktt55.my.id^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
+||help8261.facebook-guidelines.com^
 ||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||idevicefindmy.com^
-||imtoken-bl.com^
+||ilyustratsiya.deti-vesenniy.shop^
 ||info-bancosantander-app.com^
-||informationofjaani.blogspot.com^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.am^
 ||instagramprofiileurl.blogspot.bg^
@@ -106,11 +94,9 @@
 ||instagramprofiileurl.blogspot.ug^
 ||ipfs.io^
 ||jeff1220.blogspot.com^
-||kk.guyun.link^
 ||linkx-dna-indonesiax-xcom.resmi-cominfo.my.id^
 ||lucky-rabanadas-002cdf.netlify.app^
-||mail.pemulihannnakunndxnaa.sitepay.biz.id^
-||mdickleroakley.blogspot.com^
+||me-airbnb.com^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.am^
 ||metamask-wallett.blogspot.ba^
@@ -160,6 +146,7 @@
 ||metamaskinc.blogspot.sg^
 ||metamaskinc.blogspot.si^
 ||metamaskinc.blogspot.sk^
+||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
@@ -170,38 +157,32 @@
 ||onedrive.microsoftlive1.workers.dev^
 ||onedrive4c.firebaseapp.com^
 ||onedrive4c.web.app^
+||ourtime.upgrade-membeer.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||palestinevoteing.blogspot.com^
 ||photos.trezar-suite.io^
-||platipus-platium-pn2807-49682.netlify.app^
 ||pmmodifreerecharge2025.blogspot.com^
 ||prevorang1.firebaseapp.com^
-||pub-042eed7f62444456a2fa3ec642bf6289.r2.dev^
-||pub-04aae174a4cd485698e09a1f3cc662e5.r2.dev^
-||pub-0d805b203dc7413bb8c3066b9359c5e4.r2.dev^
-||pub-11a96ef055be46e582083021168dcb72.r2.dev^
+||production.discoveronline.discoverloginacces.workers.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
+||pub-166b904ae438414b90587eff4ad1e897.r2.dev^
 ||pub-1abc1c8b35d5420cb789e922413e42de.r2.dev^
-||pub-26127ab785d24d2087170e787e815171.r2.dev^
+||pub-2e5bcd2214db421a94bd578b8a1e084b.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
 ||pub-47cf88b9b6f343a5a501976be6adf17e.r2.dev^
 ||pub-4cd21a3705234b90ad407f8b0cb39a8f.r2.dev^
-||pub-4d3a8e0568334555b4dd31711d55b454.r2.dev^
 ||pub-5314867eb87a4403bb3b5e9f21b4c1cf.r2.dev^
 ||pub-565f3f6445ae477c87e64310b60eb61b.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
-||pub-5c578c6dd0864b909783ef15feb4d9b7.r2.dev^
-||pub-5c6ceb8eec9b45bd87409120ca51a44a.r2.dev^
-||pub-61ac09141709473f837e393e6142aca0.r2.dev^
 ||pub-62960396eb844c29a8476340a24e7b25.r2.dev^
-||pub-682ad3b65d944376b919745aae3c56d4.r2.dev^
+||pub-666a7c55e5374a52b3a998ed22309906.r2.dev^
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
+||pub-6e21c288b11544eeba9629b2a5f89448.r2.dev^
+||pub-6faf435cb5494687a0991f4bb3e75776.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
-||pub-798464f3fd9d44d0b3d15c59379a2110.r2.dev^
-||pub-7ee911a6faf241b6a84d2558aaa5e6e1.r2.dev^
-||pub-8d46e1573c324401be9676b14b12098a.r2.dev^
-||pub-8e330937471f4b7ea52a9eb0ec42f196.r2.dev^
+||pub-724860db1cc744d68f746bade6c2daf6.r2.dev^
+||pub-7c11203ae52e4cd1a7feeca45dd9650d.r2.dev^
+||pub-8c1c14c3b0d64d0099312bb4670f2e23.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-971a2e3bbabc46089125cde1eaa8d3b2.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
@@ -209,46 +190,40 @@
 ||pub-a40af34dcce94355973b0e837bd9a6b2.r2.dev^
 ||pub-a6d1b5d294e74ebfa58fae6d4ec861ef.r2.dev^
 ||pub-b8038d5ce7e24f13bd0516b91cc22ca3.r2.dev^
+||pub-b8bbbd543997401cb01de602d69d75ee.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
+||pub-c2c6f86ebbdf4c3594627055ebc1e6e6.r2.dev^
 ||pub-c7d85c3f857e42498f73a89506b4d8a1.r2.dev^
 ||pub-de070dc664904ed28782265ba717e609.r2.dev^
-||pub-e6ac6df7960249b5875dff78d9c962a6.r2.dev^
 ||pub-e71254423b034559af36305db5e4530d.r2.dev^
-||pub-eac097de094c43aeada41cf4d8b131d4.r2.dev^
+||pub-e818d76521c6492287dc03e970800e98.r2.dev^
 ||pub-ee8cbd2a39354da89ac98986277fdc17.r2.dev^
+||pub-f331c3a02ce34d5c8a96925f3f40081b.r2.dev^
 ||pub-f3a335c3131047a7a157d355c61847fa.r2.dev^
-||pub-fac85d0e53e24247bdaf3817eabc6785.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
-||py.rdfhikhbcfhvgn.dns-dynamic.net^
 ||query-tt4.dashboardr.workers.dev^
-||server.h3pf.com^
-||spiffy-biscuit-f2152c.netlify.app^
+||resplendent-semolina-0f7cdf.netlify.app^
+||security-help-center-ab6da.firebaseapp.com^
+||snapchatregister-u1ukrd.blogspot.com^
 ||spotify-clone31.netlify.app^
-||steanmcomnmnunnity.com^
 ||stearmcommnuty.com^
-||stecmcommunily.com^
+||support-ads-team-b40bf.firebaseapp.com^
 ||t0koop2cket.top^
 ||t0kotp2cket.top^
 ||te.basdfs.cfd^
-||tok2np0ckct.top^
-||tok2npo2ket.top^
 ||tokenpbiket.run^
 ||tpoken.app^
 ||tptken.in^
-||update.att-services.workers.dev^
-||validatedebts.com^
-||vanshijwelleryshoot.blogspot.com^
+||trustalletextesion.gitbook.io^
+||undianx-hadiahx-dxnaidyxr.f-3.my.id^
 ||verify-office-outlook.com^
-||voluble-moxie-67tr41.netlify.app^
-||voting-mantanetwork.net^
-||web-skype.icu^
+||warm-malasada-63tr2a.netlify.app^
 ||worker-frosty-lake-2886.michelle-e9a.workers.dev^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||wwe.v6i1iojn.dns-dynamic.net^
 ||www-facebook-com.vn^
 ||www.aixnwsuaoallegro.net^
 ||www.es-bbva-proteccion.com^
-||www.telegramkp.com^
-||yarismanto.my.id^
-||zx1dana-claim-hadiahfry4.official-dagetespay.biz.id^
+||www.jhkydss.dns-dynamic.net^
+||yenib352.top^
