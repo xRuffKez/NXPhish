@@ -1,28 +1,30 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718100374
-# Database Hash: 095580164394d8ce5b6809f0b6d8497c3527e436
-# Generated at: 2024-06-11 10:06:14
-# Number of domains: 249
+# Version: 1718107779
+# Database Hash: 4f25301bf2dc9f3f93d09d4875fb393ec5239660
+# Generated at: 2024-06-11 12:09:39
+# Number of domains: 275
 # Last 10 TLD counts:
-# dev: 85
-# com: 37
-# app: 25
-# id: 5
+# dev: 91
+# com: 43
+# app: 26
+# id: 10
+# io: 5
 # top: 4
-# io: 4
-# ug: 3
-# dk: 3
-# nl: 3
 # cy: 3
+# nl: 3
+# mk: 3
+# co: 3
 ||ad-content-not-following-community-st.netlify.app^
 ||admvisitors-approveeguests.com^
 ||amazon-by-aftab.netlify.app^
 ||amazon.jpdkhon.cyou^
 ||apple-ke.site^
+||apps.daftardanafisik.my.id^
 ||bafybeia4zzt5x6wgr5n4sulvx5zmgguifgmvs2ggl4lfysdr2gxd4ghge4.ipfs.dweb.link^
 ||bafybeiamoymqpl5uolz6b3sune5f2mag7xruoio4fa545vmwoyqxhltcoi.ipfs.cloudflare-ipfs.com^
 ||bafybeibhv2soguxoxxeuhu5wzoqr7o6v77evlxeiztxmanukwj53towppm.ipfs.w3s.link^
+||bafybeidu7lqw7ls7lcaxytltxl3vr7xk3hne5lrs22rmndx7vvc5ovsbiu.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
 ||bhf.mkhhfgd4aw1.dns-dynamic.net^
 ||bitly.cx^
@@ -60,6 +62,7 @@
 ||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
+||iinfo-prroses-hadiiah-giveawayy2-xxyzxx.vsc-yon.my.id^
 ||imtoken-5g.biz^
 ||imtoken-etc.com^
 ||info-bancosantander-app.com^
@@ -93,10 +96,15 @@
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
 ||instaofficiallog.blogspot.com^
+||irs.amazononline.vip^
 ||jeff1220.blogspot.com^
+||jeuconcoursorange.com^
 ||kw.xhzip.top^
+||layanan-danaindonesia.0fficial.my.id^
 ||linea.orcmrj.workers.dev^
 ||linkx-dna-indonesiax-xcom.resmi-cominfo.my.id^
+||macos.tlgr.org^
+||meecdcdogin.gitbook.io^
 ||melodious-meze-id4964-38eea91.netlify.app^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.ca^
@@ -143,6 +151,7 @@
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||millions-apple-echoing.on-fleek.app^
 ||monumental-crostata-62tre3.netlify.app^
+||myblog-mj8a8i2o1g.live-website.com^
 ||myblog-n5d9akzuoo.live-website.com^
 ||netflixs-job.com^
 ||netflixs-task.com^
@@ -188,6 +197,7 @@
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-779d25a31fda4cea979dad4c122c0706.r2.dev^
 ||pub-833119caf1874a1a955bb8288e675086.r2.dev^
+||pub-8703c05b55104eceae0cf09ce5a95e54.r2.dev^
 ||pub-879871612ca142959804d328fad0a538.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-931d66d70cab4affba39239d19fd1352.r2.dev^
@@ -196,6 +206,7 @@
 ||pub-9aab6aca879f4f8eae81d3b00f170ead.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
+||pub-9e66257952d346a98debe823b5ba70d3.r2.dev^
 ||pub-9e6afd19d25c42328b732ac8a34d62bb.r2.dev^
 ||pub-a40af34dcce94355973b0e837bd9a6b2.r2.dev^
 ||pub-a6d1b5d294e74ebfa58fae6d4ec861ef.r2.dev^
@@ -207,6 +218,8 @@
 ||pub-c7d85c3f857e42498f73a89506b4d8a1.r2.dev^
 ||pub-cc87db8636d3479a8418d9985707930b.r2.dev^
 ||pub-cece57d8d2864d24b41d6f56ef2fee01.r2.dev^
+||pub-cf1d32d677f14509929d7df156233b4d.r2.dev^
+||pub-d0f1967a51f34a8c9a5eea137dcee527.r2.dev^
 ||pub-d140e2ab97e047a09b69d723f7716835.r2.dev^
 ||pub-d3a78bd6d95a4a1f9366f0a5faa413b5.r2.dev^
 ||pub-d3f4937f67534e389e5dbebf58c8da44.r2.dev^
@@ -219,6 +232,7 @@
 ||pub-e7be145935f648eaa59329583c5ab8b4.r2.dev^
 ||pub-eda7cf51b27041f0b49a173cd1f832e5.r2.dev^
 ||pub-ee8cbd2a39354da89ac98986277fdc17.r2.dev^
+||pub-f963d29c502142f5b94ff4877a2f8df5.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||push-aktiv.app^
@@ -228,6 +242,8 @@
 ||rgrehreerg.blogspot.com^
 ||scintillating-cosmic-id4964-01e85b6.netlify.app^
 ||scvw323.privrendom.com^
+||security-help-center-e3f48.firebaseapp.com^
+||spchatt-meeeta-us-f-bb-06.web.app^
 ||spotify-clone31.netlify.app^
 ||starc-solutions.co.uk^
 ||steamcomuntty.com^
@@ -235,15 +251,19 @@
 ||steanmcomnuniity.com^
 ||stearmcommnuty.com^
 ||super-wind-4708.manl.workers.dev^
+||support-ads-team-3744a.firebaseapp.com^
 ||support-ads-team-4eb07.firebaseapp.com^
 ||support-team-t440706-44xeo12.netlify.app^
 ||t0koop2cket.top^
 ||t0kotp2cket.top^
 ||takipcifox.com^
+||tanmakinateknik.com^
+||thaaps.aswee.my.id^
 ||thunderous-gumdrop-09tr40.netlify.app^
 ||topup-claim.event12.biz.id^
 ||tpoken.app^
 ||tptken.in^
+||unis-wapore.xyz^
 ||unisvvape.xyz^
 ||update.att-services.workers.dev^
 ||user.aasstg.shop^
@@ -252,15 +272,21 @@
 ||voluble-moxie-67tr41.netlify.app^
 ||vote-manta.com^
 ||warm-trifle-5a3dcb.netlify.app^
+||watercycling.com.ar^
+||website-dan4-log.sfiles.biz.id^
 ||west-wood-windows.com^
 ||wilmse-d767.eoethehorbmnlkntua.workers.dev^
 ||windows-12-crack.com^
 ||wiouf-chotch-mcclioz.yolasite.com^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||www-apple-apple-signin.com^
+||www.allegroc.net^
 ||www.es-bbva-proteccion.com^
 ||www.fhktu7u.dns-dynamic.net^
+||www.flowcode.com^
 ||www.gestaocaixadirectanet.com^
 ||www.me-airbnb.com^
+||www3.authe.workers.dev^
 ||www3.cmosm.workers.dev^
+||xn--rppl034h-freeprtlm806apolo6hott32-00-pxd.pagedemo.co^
 ||yenib345.top^
