@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718122033
-# Database Hash: 2ed620fffacdf75a35b07964dfd08b61d41ef64e
-# Generated at: 2024-06-11 16:07:13
+# Version: 1718129209
+# Database Hash: a415dd2cfa0ba35172228d8e552e031c3143bd61
+# Generated at: 2024-06-11 18:06:49
 # Number of domains: 194
 # Last 10 TLD counts:
 # dev: 49
 # com: 26
 # app: 10
 # id: 7
-# dk: 3
-# cy: 3
-# xyz: 3
-# io: 3
 # co: 3
-# ug: 3
+# ar: 3
+# nl: 3
+# io: 3
+# dk: 3
+# mk: 3
 ||5f679.pyhfdrtyjf.dns-dynamic.net^
 ||a0993041.xsph.ru^
 ||amazon-by-aftab.netlify.app^
