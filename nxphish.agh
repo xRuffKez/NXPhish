@@ -1,32 +1,38 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718151767
-# Database Hash: e90565eda472b0c9b77cc8ce6a2a27ff2648758c
-# Generated at: 2024-06-12 00:22:47
-# Number of domains: 165
+# Version: 1718158705
+# Database Hash: 5248928d976430802f38b8a85b0111708fd5f073
+# Generated at: 2024-06-12 02:18:25
+# Number of domains: 177
 # Last 10 TLD counts:
-# dev: 45
-# com: 22
+# dev: 48
+# com: 25
 # app: 5
-# ug: 3
-# mk: 3
-# nl: 3
-# ar: 3
+# io: 4
+# id: 3
 # cy: 3
 # dk: 3
-# se: 2
+# link: 3
+# mk: 3
+# ug: 3
 ||amazon-by-aftab.netlify.app^
+||asricegoodpronice.world^
 ||bafybeia4zzt5x6wgr5n4sulvx5zmgguifgmvs2ggl4lfysdr2gxd4ghge4.ipfs.dweb.link^
 ||bafybeidu7lqw7ls7lcaxytltxl3vr7xk3hne5lrs22rmndx7vvc5ovsbiu.ipfs.dweb.link^
+||bafybeie5nxsg5hx2scn22e5drdjzu7mfnxogzz2dltnd6zjmyheql54tla.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
 ||business-help-ads-98d47.firebaseapp.com^
 ||cheezstore.com^
 ||ci.trezar-suite.io^
 ||coinbase-assets.com^
+||cs2anchor.com^
+||danaid213.fbzsa.com^
 ||davidjuniorpro.com^
+||dev-11445365463.pantheonsite.io^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||facebook.check-protect-account.me^
 ||facebooksecuritys.blogspot.mk^
+||fb.phoenixcloud.workers.dev^
 ||foodnetworkcookingprogramintercome.blogspot.com^
 ||get-windows-replaced.today^
 ||google-jobsoffer7655.pages.dev^
@@ -120,6 +126,7 @@
 ||metamaskinc.blogspot.ug^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
+||mntramasklogn.gitbook.io^
 ||myblog-mj8a8i2o1g.live-website.com^
 ||myoutlook-alerts0.lofeze.workers.dev^
 ||netflixs-job.com^
@@ -130,6 +137,7 @@
 ||pub-10050726d25949d8bd6cb438a8b6b09c.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-1abc1c8b35d5420cb789e922413e42de.r2.dev^
+||pub-2ba2f00d7b84414c955f7291fd3bcc1c.r2.dev^
 ||pub-335d2165ecaa490ba8b6fbb5d856d740.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
 ||pub-47cf88b9b6f343a5a501976be6adf17e.r2.dev^
@@ -153,6 +161,7 @@
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
 ||pub-cf1d32d677f14509929d7df156233b4d.r2.dev^
 ||pub-d0f1967a51f34a8c9a5eea137dcee527.r2.dev^
+||pub-dfe10178e667487cb0844af52c944e4e.r2.dev^
 ||pub-e71254423b034559af36305db5e4530d.r2.dev^
 ||pub-ee8cbd2a39354da89ac98986277fdc17.r2.dev^
 ||pub-f7c4e07e581b476e9fb4f4b237e77a89.r2.dev^
@@ -167,6 +176,7 @@
 ||t0koop2cket.top^
 ||t0kotp2cket.top^
 ||tanmakinateknik.com^
+||thaaps.aswee.my.id^
 ||tpoken.app^
 ||tptken.in^
 ||verify-office-outlook.com^
@@ -177,6 +187,8 @@
 ||www-facebook-com.vn^
 ||www.allegroc.net^
 ||www.es-bbva-proteccion.com^
+||www.flowcode.com^
 ||www.is.gd^
 ||www3.authe.workers.dev^
 ||wwwservicemsnlive-44741196.hubspotpagebuilder.com^
+||xn--rppl034h-freeprtlm806apolo6hott32-00-pxd.pagedemo.co^
