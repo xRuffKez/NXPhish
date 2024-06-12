@@ -1,8 +1,8 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718194142
-# Database Hash: d60628696b764dfeec71c585a01b0eaf75558d05
-# Generated at: 2024-06-12 12:09:02
+# Version: 1718201154
+# Database Hash: ae7f7ef4a163b27a0777d2baa2b8326261ba303f
+# Generated at: 2024-06-12 14:05:54
 # Number of domains: 316
 # Last 10 TLD counts:
 # dev: 101
@@ -11,10 +11,10 @@
 # id: 10
 # io: 7
 # net: 5
-# link: 4
 # mk: 4
-# shop: 3
-# top: 3
+# link: 4
+# nl: 3
+# am: 3
 ||101.dajibadadada.eu.org^
 ||2h.ae^
 ||44a3.secure-lllc.workers.dev^
