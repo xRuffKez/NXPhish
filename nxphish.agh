@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718165199
-# Database Hash: 6d599e5d6dd495909ba7b170b5b910a780030248
-# Generated at: 2024-06-12 04:06:39
-# Number of domains: 177
+# Version: 1718172457
+# Database Hash: 11511ad8723dc69653177bcc97bd71969079a515
+# Generated at: 2024-06-12 06:07:37
+# Number of domains: 178
 # Last 10 TLD counts:
 # dev: 48
-# com: 25
+# com: 26
 # app: 5
 # io: 4
-# ar: 3
+# dk: 3
+# mk: 3
 # ug: 3
 # id: 3
-# co: 3
-# dk: 3
-# cy: 3
+# link: 3
+# nl: 3
 ||amazon-by-aftab.netlify.app^
 ||asricegoodpronice.world^
 ||bafybeia4zzt5x6wgr5n4sulvx5zmgguifgmvs2ggl4lfysdr2gxd4ghge4.ipfs.dweb.link^
@@ -129,6 +129,7 @@
 ||mntramasklogn.gitbook.io^
 ||myblog-mj8a8i2o1g.live-website.com^
 ||myoutlook-alerts0.lofeze.workers.dev^
+||netflix-premium.paiperr.com^
 ||netflixs-job.com^
 ||netflixs-task.com^
 ||onedrive.microsoftlive1.workers.dev^
