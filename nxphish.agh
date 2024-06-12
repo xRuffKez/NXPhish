@@ -1,23 +1,22 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718215640
-# Database Hash: 077aadee9f4de3beb9a9483baf8e3cb0c0ac094e
-# Generated at: 2024-06-12 18:07:20
-# Number of domains: 255
+# Version: 1718222780
+# Database Hash: ca0d1e12f6a10bd3a2cd887219c1931bfe7fb452
+# Generated at: 2024-06-12 20:06:20
+# Number of domains: 246
 # Last 10 TLD counts:
-# dev: 84
-# com: 32
-# app: 19
+# dev: 83
+# com: 30
+# app: 18
 # io: 8
-# id: 5
 # net: 4
-# ug: 3
-# am: 3
-# cy: 3
-# es: 3
+# id: 4
+# pe: 3
+# mk: 3
+# dk: 3
+# nl: 3
 ||0906.donglou.me^
 ||44a3.secure-lllc.workers.dev^
-||65b7d3757c56390008a2d84a--ods-android.netlify.app^
 ||advertisingerror-needinfo-peru.firebaseapp.com^
 ||advertisingerror-needinfo-peru.web.app^
 ||allegrolokalnie.oferta97.pl^
@@ -44,7 +43,6 @@
 ||daftar-limit-paylater-cs-2024.fbzsa.com^
 ||dancing-voluble-id4964-9295663.netlify.app^
 ||direct.adachi6.eu.org^
-||discord.sticker3032.workers.dev^
 ||dngtpnhgbb.1myall.com^
 ||dpfkf.aweys.net^
 ||elqanas-netflix-clone.firebaseapp.com^
@@ -66,7 +64,6 @@
 ||gikoluhonedi.blogspot.am^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
-||hadiiah-danaa-xkagetx-xnxzy2024-id.aspi-web.my.id^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||help--exxten-mettamask.gitbook.io^
 ||help-apps-metamas.gitbook.io^
@@ -174,7 +171,6 @@
 ||onlinedanaindonesia.klikdisini2023.my.id^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||peemesaan-lpgg-gass-tabungg-subsusidii.wixzey.com^
-||pnlweaver.activehosted.com^
 ||pub-01b87d1052c64af190b83e5e20db8aba.r2.dev^
 ||pub-0b923ff1432049fd8f970ab968ed2ee5.r2.dev^
 ||pub-0dbe1765cde946a2bd17d236f0411cac.r2.dev^
@@ -244,14 +240,11 @@
 ||service.atttonline.workers.dev^
 ||sg.zhouazhou.workers.dev^
 ||simekolinu.blogspot.com^
-||sports.pubgxbest.com^
 ||spotify-clone31.netlify.app^
 ||steamcommnuiety.com^
 ||support.zoom.us.sgz-2.viperxgod.biz.id^
 ||t0kosp2cket.top^
-||telegram.grafana.es^
 ||tglsme.ru^
-||twint.applikation.network^
 ||upgrade-kartu-fisik.resmi-et.com^
 ||url1.io^
 ||v12fgq-g24g2-88e7cc-g12bdfc.netlify.app^
@@ -265,8 +258,6 @@
 ||www-facebook-com.vn^
 ||www.allegroc.cc^
 ||www.es-bbva-proteccion.com^
-||www.instagram.sawamuraplatform.art^
 ||www.keepo.io^
 ||www.ln.run^
 ||www.oilbaseindia.co.in^
-||yenib362.top^
