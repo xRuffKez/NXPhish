@@ -1,9 +1,9 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718179652
-# Database Hash: d8ddc55cd6a21b761bdf2278e709bff65deb97fa
-# Generated at: 2024-06-12 08:07:32
-# Number of domains: 251
+# Version: 1718186777
+# Database Hash: 57c9541e056a46313af222bb9cca5668fccdfa75
+# Generated at: 2024-06-12 10:06:17
+# Number of domains: 250
 # Last 10 TLD counts:
 # dev: 80
 # com: 36
@@ -11,10 +11,10 @@
 # app: 6
 # io: 5
 # mk: 4
-# org: 3
-# link: 3
 # ug: 3
-# ar: 3
+# nl: 3
+# co: 3
+# cy: 3
 ||101.dajibadadada.eu.org^
 ||2h.ae^
 ||amazon-shopmall.com^
@@ -95,7 +95,6 @@
 ||instagramprofiileurl.blogspot.ug^
 ||iovvallet-ip.top^
 ||ipfs.io^
-||irs.amazononline.vip^
 ||it-microsoft.com^
 ||jeakm.shop^
 ||jeuconcoursorange.com^
