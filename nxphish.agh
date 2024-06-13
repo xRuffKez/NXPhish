@@ -1,9 +1,9 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718294851
-# Database Hash: faa7aa906e2f06df07d5fc6a03f6bc2c14e31cac
-# Generated at: 2024-06-13 16:07:31
-# Number of domains: 186
+# Version: 1718302018
+# Database Hash: c6b6271bc6ff55e1e6c72149ab0fd44742c911e7
+# Generated at: 2024-06-13 18:06:58
+# Number of domains: 187
 # Last 10 TLD counts:
 # dev: 56
 # com: 28
@@ -11,9 +11,9 @@
 # shop: 6
 # net: 4
 # io: 4
-# mk: 3
-# nl: 3
+# ug: 3
 # id: 3
+# nl: 3
 # org: 3
 ||0717.yorkxiaobaibai.xyz^
 ||advertisingerror-needinfo-peru.firebaseapp.com^
@@ -196,6 +196,7 @@
 ||worker-mute-lab-7765.xuyufeng16.workers.dev^
 ||worker-red-sun-1329.dcibsz.workers.dev^
 ||www.allegroc.cc^
+||www.apple.com.cn^
 ||www.dabing010.asia^
 ||www.ln.run^
 ||www3.coso.workers.dev^
