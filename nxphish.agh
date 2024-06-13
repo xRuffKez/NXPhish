@@ -1,25 +1,24 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718238151
-# Database Hash: face078c4ea6d219ae03847d0b5be0858e3a7a8c
-# Generated at: 2024-06-13 00:22:31
-# Number of domains: 237
+# Version: 1718245088
+# Database Hash: cdac3a92801fe2bf645023047ef9bbdb365b71f3
+# Generated at: 2024-06-13 02:18:08
+# Number of domains: 235
 # Last 10 TLD counts:
-# dev: 80
+# dev: 78
 # com: 35
 # app: 20
 # io: 10
+# net: 6
 # id: 6
-# net: 5
-# mk: 3
 # ar: 3
-# xyz: 3
 # nl: 3
+# mk: 3
+# xyz: 3
 ||44a3.secure-lllc.workers.dev^
 ||abbewells.com^
 ||advertisingerror-needinfo-peru.firebaseapp.com^
 ||advertisingerror-needinfo-peru.web.app^
-||allegrolokalnie.oferta97.pl^
 ||amazon-shopmall.com^
 ||apple-mappe.com^
 ||astonish-melt-zip-da191-1161255m9.netlify.app^
@@ -84,6 +83,7 @@
 ||instagramprofiileurl.blogspot.ug^
 ||iovvallet-ip.top^
 ||it-microsoft.com^
+||janur9.b-cdn.net^
 ||jeuconcoursorange.com^
 ||leboncoin.4688532.shop^
 ||login-leddgeerauuth.gitbook.io^
@@ -174,7 +174,6 @@
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-77df9b631c8848faa2fbe37207e985ac.r2.dev^
 ||pub-7b5417ccfacf4950ae749ae05d832b4c.r2.dev^
-||pub-7facb6727f1942b8beeddeb3c09d2c77.r2.dev^
 ||pub-840f88e3288a4f17b5efba5dbcc493d8.r2.dev^
 ||pub-85898ccf2bf04ae9bbc716993ae9553d.r2.dev^
 ||pub-867982fc061e46f293e0759a4cd22332.r2.dev^
@@ -195,7 +194,6 @@
 ||pub-9ec1967945504971b7ee3cd05fc7a4f9.r2.dev^
 ||pub-a41cdc4d632245ff92063aab62958a69.r2.dev^
 ||pub-b005527110da4b4eb4ea480c24d51a46.r2.dev^
-||pub-b1172bcfe649426dadb6a4112e0feb98.r2.dev^
 ||pub-b26443603be74865bdafa09363210cfe.r2.dev^
 ||pub-b611ed1d7c7b437a8c433875c05ac3a1.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
@@ -216,7 +214,6 @@
 ||q6zp9.shop^
 ||quiet-ephemeral-pn2807-49682.netlify.app^
 ||samsp-cha-qg02.firebaseapp.com^
-||sea-doo.cloud^
 ||seahorse-dulcet-id4964-26fadc4.netlify.app^
 ||security-help-center-e3f48.firebaseapp.com^
 ||service.atttonline.workers.dev^
@@ -227,6 +224,7 @@
 ||support-ads-team-87f8a.firebaseapp.com^
 ||support.zoom.us.sgz-2.viperxgod.biz.id^
 ||tanmakinateknik.com^
+||telegram.grafana.es^
 ||tglsme.ru^
 ||tvf.umw7h.dns-dynamic.net^
 ||ualltconnect.gitbook.io^
