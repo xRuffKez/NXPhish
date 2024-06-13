@@ -1,21 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718266056
-# Database Hash: 43e94963d5aff1846ba49b4a2dfd6817629ea458
-# Generated at: 2024-06-13 08:07:36
-# Number of domains: 315
+# Version: 1718273156
+# Database Hash: 8a3cd50a03fe2c3d5114d1fc8fe3ba470fc6c159
+# Generated at: 2024-06-13 10:05:56
+# Number of domains: 309
 # Last 10 TLD counts:
-# dev: 129
-# com: 41
+# dev: 128
+# com: 40
 # app: 20
-# id: 8
 # io: 8
+# id: 6
 # net: 6
 # uk: 4
-# it: 3
-# br: 3
-# dk: 3
-||44a3.secure-lllc.workers.dev^
+# mk: 3
+# xyz: 3
+# nl: 3
 ||abbewells.com^
 ||advertisingerror-needinfo-peru.firebaseapp.com^
 ||advertisingerror-needinfo-peru.web.app^
@@ -108,9 +107,7 @@
 ||janur9.b-cdn.net^
 ||kw.xhzip.top^
 ||langkhvriifksi-144.fp1.my.id^
-||leboncoin.4688532.shop^
 ||login-leddgeerauuth.gitbook.io^
-||login-to-confir-your-vote4.blogspot.com^
 ||login-to-confir-your-vote44.blogspot.com^
 ||long-lake-ac9f.vospipuspa185.workers.dev^
 ||lpoirew.web.app^
@@ -175,7 +172,6 @@
 ||office106f03ea2a0d310d8f0bb2ae6d0e256e106f03ea2a0d310d8f0bb2ae6.travius01.workers.dev^
 ||official-danaxdget-forx.t-7.my.id^
 ||onedrive.microsoftlive1.workers.dev^
-||onlinedanaindonesia.klikdisini2023.my.id^
 ||optusnet-com.blogspot.lt^
 ||orange-hall-453b.0ffice365-authmail.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
@@ -302,9 +298,7 @@
 ||super-wind-4708.manl.workers.dev^
 ||support-ads-team-4eb07.firebaseapp.com^
 ||support-ads-team-87f8a.firebaseapp.com^
-||support.zoom.us.sgz-2.viperxgod.biz.id^
 ||telegram.grafana.es^
-||tglsme.ru^
 ||tourmaline-sable-5d3ddc.netlify.app^
 ||tvf.umw7h.dns-dynamic.net^
 ||ualltconnect.gitbook.io^
