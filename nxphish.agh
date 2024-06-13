@@ -1,8 +1,8 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718251633
-# Database Hash: 24b5fb499106753f0c187b3c593c0b2a1962d56d
-# Generated at: 2024-06-13 04:07:13
+# Version: 1718258849
+# Database Hash: de2d2c97425cdfde3735afd1809deb26a220f824
+# Generated at: 2024-06-13 06:07:29
 # Number of domains: 309
 # Last 10 TLD counts:
 # dev: 127
@@ -12,9 +12,9 @@
 # io: 8
 # net: 6
 # uk: 4
+# nl: 3
 # cy: 3
 # xyz: 3
-# ug: 3
 ||44a3.secure-lllc.workers.dev^
 ||abbewells.com^
 ||advertisingerror-needinfo-peru.firebaseapp.com^
