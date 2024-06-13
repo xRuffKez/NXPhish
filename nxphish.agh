@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718258849
-# Database Hash: de2d2c97425cdfde3735afd1809deb26a220f824
-# Generated at: 2024-06-13 06:07:29
-# Number of domains: 309
+# Version: 1718266056
+# Database Hash: 43e94963d5aff1846ba49b4a2dfd6817629ea458
+# Generated at: 2024-06-13 08:07:36
+# Number of domains: 315
 # Last 10 TLD counts:
-# dev: 127
-# com: 40
-# app: 19
+# dev: 129
+# com: 41
+# app: 20
 # id: 8
 # io: 8
 # net: 6
 # uk: 4
-# nl: 3
-# cy: 3
-# xyz: 3
+# it: 3
+# br: 3
+# dk: 3
 ||44a3.secure-lllc.workers.dev^
 ||abbewells.com^
 ||advertisingerror-needinfo-peru.firebaseapp.com^
@@ -51,6 +51,7 @@
 ||ezi.rijhgrjn.dns-dynamic.net^
 ||facebooksecuritys.blogspot.mk^
 ||fasf33asdf-42t53-5c002f-f3asd.netlify.app^
+||flowto.it^
 ||foodnetworkcookingpro.blogspot.com^
 ||friendly-melomakarona-d221cc.netlify.app^
 ||g23t1-bv24g-dd9dda-1v213.netlify.app^
@@ -212,8 +213,10 @@
 ||pub-51eba391ef51471b88ff4cc1f3c28130.r2.dev^
 ||pub-5274618e0b0147ed8e1e1de19e222862.r2.dev^
 ||pub-5467c077ab604ce0a0a65334a47a7aa9.r2.dev^
+||pub-55365dff732b459f9b2705c284a2495f.r2.dev^
 ||pub-558fe2dce39c40ca80174755c1fbe7af.r2.dev^
 ||pub-578040898e97448fab462cfa3f671292.r2.dev^
+||pub-5951c9805b754b349e7780aa7d7195e9.r2.dev^
 ||pub-5984fc6299ba445c9db7b6cacf61b227.r2.dev^
 ||pub-5a9bcbd76a5641b2b43a8d930524da27.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
@@ -291,7 +294,9 @@
 ||samsp-cha-qg02.firebaseapp.com^
 ||seahorse-dulcet-id4964-26fadc4.netlify.app^
 ||service.atttonline.workers.dev^
+||signin-id.top^
 ||simekolinu.blogspot.com^
+||smeeplumb.activehosted.com^
 ||spotify-clone31.netlify.app^
 ||starc-solutions.co.uk^
 ||super-wind-4708.manl.workers.dev^
@@ -300,6 +305,7 @@
 ||support.zoom.us.sgz-2.viperxgod.biz.id^
 ||telegram.grafana.es^
 ||tglsme.ru^
+||tourmaline-sable-5d3ddc.netlify.app^
 ||tvf.umw7h.dns-dynamic.net^
 ||ualltconnect.gitbook.io^
 ||ultimatequiz.org^
