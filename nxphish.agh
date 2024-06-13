@@ -1,18 +1,18 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718309414
-# Database Hash: 337e61bbe067dc29c65f322f71e2cab3e967c7c6
-# Generated at: 2024-06-13 20:10:14
-# Number of domains: 160
+# Version: 1718316376
+# Database Hash: 4fc555bd3dcfc261e06a77cbad59956d356fc979
+# Generated at: 2024-06-13 22:06:16
+# Number of domains: 161
 # Last 10 TLD counts:
 # dev: 40
-# com: 22
+# com: 23
 # app: 12
 # net: 4
-# id: 3
-# uk: 3
 # mk: 3
+# id: 3
 # dk: 3
+# uk: 3
 # nl: 3
 # ug: 3
 ||advertisingerror-needinfo-peru.firebaseapp.com^
@@ -33,6 +33,7 @@
 ||encr.pw^
 ||ezi.rijhgrjn.dns-dynamic.net^
 ||f4assgh5-f432as-af6ef5-f34asz.netlify.app^
+||facebook-business-id8fa97ah2cc7a1cdabc1c6fae777a92.miracle-chain.com^
 ||facebooksecuritys.blogspot.mk^
 ||foodnetworkcookingpro.blogspot.com^
 ||friendly-melomakarona-d221cc.netlify.app^
