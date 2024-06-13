@@ -1,22 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718287543
-# Database Hash: 9a9bee25e7ffb634e128aceafce9f0ce268adde7
-# Generated at: 2024-06-13 14:05:43
-# Number of domains: 229
+# Version: 1718294851
+# Database Hash: faa7aa906e2f06df07d5fc6a03f6bc2c14e31cac
+# Generated at: 2024-06-13 16:07:31
+# Number of domains: 186
 # Last 10 TLD counts:
-# dev: 75
-# com: 31
-# app: 20
-# io: 10
+# dev: 56
+# com: 28
+# app: 13
 # shop: 6
-# net: 5
-# id: 4
-# xyz: 4
-# nl: 3
+# net: 4
+# io: 4
 # mk: 3
+# nl: 3
+# id: 3
+# org: 3
 ||0717.yorkxiaobaibai.xyz^
-||abbewells.com^
 ||advertisingerror-needinfo-peru.firebaseapp.com^
 ||advertisingerror-needinfo-peru.web.app^
 ||af1asf-13rtdf-14926b-1asdfrt.netlify.app^
@@ -30,27 +29,22 @@
 ||bafybeibgnjg5yulg6lfwtxobgudhbktz7tcyevebieygldhpdbjvtvcx2a.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
 ||big-bad-jewl-da191-1261125k12.netlify.app^
-||biinance.xyz^
-||bimkilo28.blogspot.com^
 ||booking.hotel-731651.eu^
 ||business-help-4f4ff2.netlify.app^
 ||coinbase-assets.com^
-||comecx.xyz^
 ||daftar-dana-paylater-cs-2024.fbzsa.com^
 ||daftar-limit-dana-paylater24.fbzsa.com^
-||dana-htgiveaway1.cs-ojk.xyz^
 ||dancing-voluble-id4964-9295663.netlify.app^
 ||dayachtsook.cloud^
 ||dpfkf.aweys.net^
 ||encr.pw^
 ||esalaz.shop^
 ||ezi.rijhgrjn.dns-dynamic.net^
+||f4assgh5-f432as-af6ef5-f34asz.netlify.app^
 ||facebooksecuritys.blogspot.dk^
 ||facebooksecuritys.blogspot.mk^
 ||fan.erli.eu.org^
-||fasf33asdf-42t53-5c002f-f3asd.netlify.app^
 ||feceboolk.blogspot.de^
-||flowto.it^
 ||foodnetworkcookingpro.blogspot.com^
 ||friendly-melomakarona-d221cc.netlify.app^
 ||g23t1-bv24g-dd9dda-1v213.netlify.app^
@@ -60,14 +54,14 @@
 ||gikoluhonedi.blogspot.am^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
-||graceful-cat-b78cdf.netlify.app^
-||greens-bitcoins.web.app^
 ||h5uox.shop^
+||hk.yyyy.cf^
 ||hotel-731651.eu^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||hshs2.privrendom.com^
 ||info-bancosantander-app.com^
+||instagram.isihussain.com^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.am^
 ||instagramprofiileurl.blogspot.co.id^
@@ -89,9 +83,6 @@
 ||jet1gpr9m.shop^
 ||lambarek-motogielda.pl^
 ||lnk.sk^
-||login-leddgeerauuth.gitbook.io^
-||login-to-confir-your-vote44.blogspot.com^
-||long-lake-ac9f.vospipuspa185.workers.dev^
 ||lpoirew.web.app^
 ||meatamacks-login.gitbook.io^
 ||meatamasklogine.gitbook.io^
@@ -124,69 +115,48 @@
 ||metamaskinc.blogspot.ug^
 ||metamsa.blogspot.com^
 ||micr0soft-login-now.rywepomo.workers.dev^
-||mofa-new-20240215.nicetempfox.workers.dev^
-||ncrtoday.in^
 ||netflix-n.blogspot.com^
 ||netflix-premium.paiperr.com^
 ||netflixs-job.com^
-||news.kellyclarkson.us^
-||nsa.bhuji89ik.dns-dynamic.net^
-||office106f03ea2a0d310d8f0bb2ae6d0e256e106f03ea2a0d310d8f0bb2ae6.travius01.workers.dev^
-||official-danaxdget-forx.t-7.my.id^
-||orange-hall-453b.0ffice365-authmail.workers.dev^
+||onlinedanaindonesia.klikdisini2023.my.id^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||poll-manta.app^
+||pentesting.microsoft-login.workers.dev^
+||play-google-69.com^
 ||premiusm.ru^
-||pub-05ac5e9bbd614ca482ca1255c2e7251f.r2.dev^
 ||pub-089eb7a737454afbab9ce710b4d422d0.r2.dev^
 ||pub-0b923ff1432049fd8f970ab968ed2ee5.r2.dev^
 ||pub-0dbe1765cde946a2bd17d236f0411cac.r2.dev^
-||pub-1079cd52bb984844a777cdd0a8c9560e.r2.dev^
 ||pub-13afad03ee134552b3e46f8b7cfb2537.r2.dev^
 ||pub-14bf9fb368c341f598f6c02e9ec8700b.r2.dev^
 ||pub-1ac9a3a0d2d14ae49dfdb69ec723c652.r2.dev^
-||pub-2c75792c69d1439daeb281a81f3f4c50.r2.dev^
 ||pub-30984890657744baad27fb8faa5b5cc9.r2.dev^
 ||pub-36ad9f0ba5ac48abafb6762745b544f0.r2.dev^
 ||pub-3f2a693b47c5443abaf3cfd354fcdc14.r2.dev^
-||pub-3f71f1f36b5f434facc2e77ec401f4cf.r2.dev^
-||pub-494c49fb185e40e49cff057ef9decc35.r2.dev^
-||pub-4d0a115db8fb4f15a6bf3059fadf5ec9.r2.dev^
-||pub-5274618e0b0147ed8e1e1de19e222862.r2.dev^
 ||pub-52fecd83f49f4ba18c71358c5cfeaa68.r2.dev^
 ||pub-5467c077ab604ce0a0a65334a47a7aa9.r2.dev^
-||pub-55365dff732b459f9b2705c284a2495f.r2.dev^
-||pub-5951c9805b754b349e7780aa7d7195e9.r2.dev^
-||pub-5984fc6299ba445c9db7b6cacf61b227.r2.dev^
 ||pub-5a9bcbd76a5641b2b43a8d930524da27.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-5f55dcf46e2c4e018b4bf54f43757e34.r2.dev^
 ||pub-64f4fb77a46d4ac9bffc647982d19712.r2.dev^
 ||pub-694f7e137dec4cea9b9a7b9aa060bc95.r2.dev^
-||pub-6bd3829d0f4d486e901aeb5e3c9212b6.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-77df9b631c8848faa2fbe37207e985ac.r2.dev^
 ||pub-79ff6c7625cf43c59c1c3c3a0aea7ccb.r2.dev^
-||pub-7b5417ccfacf4950ae749ae05d832b4c.r2.dev^
+||pub-7c532146682542b09155ee7cf10be237.r2.dev^
 ||pub-7f5e4341e83541bb840145bbe46638c6.r2.dev^
 ||pub-840f88e3288a4f17b5efba5dbcc493d8.r2.dev^
 ||pub-85898ccf2bf04ae9bbc716993ae9553d.r2.dev^
 ||pub-867982fc061e46f293e0759a4cd22332.r2.dev^
 ||pub-88ba7d567b5b43ae887e34c8fa46cd48.r2.dev^
 ||pub-8c916bed11a64fe78963837d569b2937.r2.dev^
-||pub-8da2694064b84f84bf1179f0ac01c4fb.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-8f63062ff4514a44b21b0711ce03eaba.r2.dev^
-||pub-903cd42f250e4526ad35bcac86048a96.r2.dev^
 ||pub-9578f172016b4e88930d7c9115bac4ce.r2.dev^
 ||pub-99b5c3466f52474c877bb48aca98b2d8.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
 ||pub-9b65faa059b54cfda00c42ae93e87450.r2.dev^
-||pub-b005527110da4b4eb4ea480c24d51a46.r2.dev^
-||pub-b611ed1d7c7b437a8c433875c05ac3a1.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
-||pub-bac135989b0542928118600d0be3e449.r2.dev^
 ||pub-bd7df3def0f74086ab2e4089dfc15af4.r2.dev^
 ||pub-cfed504c29ce4abfb436fd9297bceb4e.r2.dev^
 ||pub-d6e69ee2eb1947d9a825380b744a77d0.r2.dev^
@@ -194,53 +164,40 @@
 ||pub-db0fb4ee8be64898875945a11de3fa1d.r2.dev^
 ||pub-dde186d3ef204edd89e847d256cdf5bd.r2.dev^
 ||pub-e42cb528b102447385e3145197916f51.r2.dev^
-||pub-f830d06fc41d4a9e8942793fb9defe92.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pubguchilesitv.com^
-||quiet-ephemeral-pn2807-49682.netlify.app^
 ||samsp-cha-qg02.firebaseapp.com^
-||seahorse-dulcet-id4964-26fadc4.netlify.app^
 ||security-page-community-standards.blogspot.ch^
 ||service.atttonline.workers.dev^
+||sharepoint-office365-onedrive.murrycarghill.workers.dev^
 ||shaundesign.biz^
 ||shwhwj1.privrendom.com^
-||signin-id.top^
 ||simekolinu.blogspot.com^
 ||simekolinu.blogspot.com.ng^
-||smeeplumb.activehosted.com^
 ||spotify-clone31.netlify.app^
-||support-ads-team-87f8a.firebaseapp.com^
 ||teiegam.org^
 ||telegram.grafana.es^
 ||tge-aunth.pics^
 ||tokenpbdket.com^
-||tourmaline-sable-5d3ddc.netlify.app^
-||ualltconnect.gitbook.io^
 ||upgrade-kartu-fisik.resmi-et.com^
 ||upholdlogixs.gitbook.io^
-||uppdaterz-eventx-danafyz4.t-1.my.id^
 ||url1.io^
 ||v12fgq-g24g2-88e7cc-g12bdfc.netlify.app^
 ||v7lt5.shop^
 ||verify-office-outlook.com^
+||vip-apple.com^
 ||votengpalesn.blogspot.com^
 ||vpn.professior404.workers.dev^
 ||vww-facebook.com.vn^
-||waletconectd.gitbook.io^
-||waletsconacts.gitbook.io^
-||walletconiectt.gitbook.io^
-||walletconnect-docs.gitbook.io^
 ||warphk.dedo.eu.org^
 ||web-telegram.club^
 ||wenxin6688.llzhangwendi.workers.dev^
-||willowy-fox-dabcdf.netlify.app^
+||west-wood-windows.co.uk^
 ||worker-mute-lab-7765.xuyufeng16.workers.dev^
 ||worker-red-sun-1329.dcibsz.workers.dev^
 ||www.allegroc.cc^
 ||www.dabing010.asia^
 ||www.ln.run^
-||www.roblox0.com^
-||www.smartsurvey.co.uk^
 ||www3.coso.workers.dev^
 ||x8r77.shop^
 ||y2zfx.shop^
