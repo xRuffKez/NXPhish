@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718388465
-# Database Hash: c76e6765f4ba9ae134bd57f181037f877af58239
-# Generated at: 2024-06-14 18:07:45
-# Number of domains: 301
+# Version: 1718395562
+# Database Hash: 7a27c56363709f018be50979a571dcd5e237c1f5
+# Generated at: 2024-06-14 20:06:02
+# Number of domains: 299
 # Last 10 TLD counts:
-# dev: 85
+# dev: 84
 # com: 48
-# io: 23
+# io: 22
 # app: 20
 # net: 8
-# shop: 7
+# shop: 8
 # link: 6
-# es: 4
 # id: 4
-# at: 3
+# es: 4
+# mk: 3
 ||44a3.secure-lllc.workers.dev^
 ||65b7d3757c56390008a2d84a--ods-android.netlify.app^
 ||a4snv.shop^
@@ -197,7 +197,6 @@
 ||metamsa.blogspot.com^
 ||metamssiklogen.gitbook.io^
 ||metamssklogin.gitbook.io^
-||metausxmasklogin.gitbook.io^
 ||metismaskologn.gitbook.io^
 ||metomesklognem.gitbook.io^
 ||micr0soft-login-now.rywepomo.workers.dev^
@@ -212,12 +211,11 @@
 ||onedrive.microsoftlive1.workers.dev^
 ||outlook138.yolasite.com^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
+||p4rv6.shop^
 ||patpal-l0gin-myfccount.gitbook.io^
 ||pear-01.dvberg.eu.org^
 ||pemeesaanan-lpgtabung-gas-agenn-ressmidelivery.wixzey.com^
 ||pnlweaver.activehosted.com^
-||productsgallerysourcing.org^
-||profile-ourtime.iriwasfulte.workers.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-1778406e4fec4394901793111c187dd9.r2.dev^
 ||pub-1a7fa004c1084d53981950dec3793537.r2.dev^
