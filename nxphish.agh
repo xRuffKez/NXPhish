@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718410950
-# Database Hash: b9e07c1437261b898902ff51d43e5f9f3ed3ad8a
-# Generated at: 2024-06-15 00:22:30
-# Number of domains: 221
+# Version: 1718417860
+# Database Hash: b7ab214933ad9c2d74092c5519daa87dac77531b
+# Generated at: 2024-06-15 02:17:40
+# Number of domains: 219
 # Last 10 TLD counts:
 # dev: 60
 # com: 30
 # io: 18
 # app: 15
-# shop: 6
 # id: 6
 # net: 5
-# link: 4
+# shop: 5
+# mk: 3
 # dk: 3
-# ug: 3
+# link: 3
 ||44a3.secure-lllc.workers.dev^
 ||65b7d3757c56390008a2d84a--ods-android.netlify.app^
 ||abueme-96e1.ehnelacsrralo.workers.dev^
@@ -27,7 +27,6 @@
 ||axemaul.com^
 ||b-t-coomunicationspage.w3spaces.com^
 ||bafkreibukhtoi2tz3um5f4aycxjjorb6zmi4rum3pq3u66jb6ygrh4hs6e.ipfs.dweb.link^
-||bafybeiaszvdnnob336ofawin4wcb2lpt7kjt76ejo3xtkzani4vifom4oi.ipfs.dweb.link^
 ||bafybeibgnjg5yulg6lfwtxobgudhbktz7tcyevebieygldhpdbjvtvcx2a.ipfs.dweb.link^
 ||bafybeiext3bfigscivcn27ahalf5no7323es6ycovglh27wjrq7ryiduby.ipfs.dweb.link^
 ||barbedview.com^
@@ -169,9 +168,9 @@
 ||onlinedanaindonesia.klikdisini2023.my.id^
 ||outlook138.yolasite.com^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||p4rv6.shop^
 ||pear-01.dvberg.eu.org^
 ||pemeesaanan-lpgtabung-gas-agenn-ressmidelivery.wixzey.com^
+||profile-ourtime.iriwasfulte.workers.dev^
 ||pub-4525eefde2ba4fc7beb9340e26fd9fc3.r2.dev^
 ||pub-458e050fc52644c690a3e9a4e0547c70.r2.dev^
 ||pub-5467c077ab604ce0a0a65334a47a7aa9.r2.dev^
@@ -226,7 +225,6 @@
 ||v9tdt.shop^
 ||verify-office-outlook.com^
 ||votengpalesn.blogspot.com^
-||worker-broken-dew-4262.317819394.workers.dev^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||worker-withered-pine-975e.hoseindarnk13.workers.dev^
 ||worker20231022.dongfang3008.workers.dev^
