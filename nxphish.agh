@@ -1,30 +1,30 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718546741
-# Database Hash: 9c557ec84af808cda96f8b56d97bad4596f2dd9c
-# Generated at: 2024-06-16 14:05:41
-# Number of domains: 498
+# Version: 1718553958
+# Database Hash: 712dc05c2e59f475d2f71bdf7ce59e11b1b47765
+# Generated at: 2024-06-16 16:05:58
+# Number of domains: 484
 # Last 10 TLD counts:
-# dev: 158
-# com: 77
+# dev: 155
+# com: 72
 # io: 55
-# app: 40
-# id: 16
-# net: 11
-# top: 10
-# link: 6
+# app: 39
+# id: 15
+# net: 10
+# top: 9
 # shop: 6
+# link: 6
 # za: 4
 ||10yongge.adoubleice.workers.dev^
 ||3esfand1402.iranten50.workers.dev^
 ||44a3.secure-lllc.workers.dev^
+||638ca12d-ba2f-451c-8418-faf56b7de7ff.htmlcomponentservice.com^
 ||65b7d3757c56390008a2d84a--ods-android.netlify.app^
 ||859273-coinbase.com^
 ||900825.xyz^
 ||advertisingerror-needinfo-peru.firebaseapp.com^
 ||advertisingerror-needinfo-peru.web.app^
 ||afncorponline.us-east-1.linodeobjects.com^
-||air-bnb.check-id8901.com^
 ||air.bnb-id8303.com^
 ||aktifkan-dana-paylater-24.fbzsa.com^
 ||ap1s.net^
@@ -35,7 +35,6 @@
 ||aut.telegcrem.icu^
 ||automatedhubcraig.com^
 ||autumn-haze-7b45.fhzpzvz6.workers.dev^
-||b7780.top^
 ||bafkreibdytnxndeifgkl3e6hgzh5g57qgsv3gribtxf3yb5uegsebf4fdm.ipfs.cf-ipfs.com^
 ||bafkreibdytnxndeifgkl3e6hgzh5g57qgsv3gribtxf3yb5uegsebf4fdm.ipfs.dweb.link^
 ||bafkreibukhtoi2tz3um5f4aycxjjorb6zmi4rum3pq3u66jb6ygrh4hs6e.ipfs.cf-ipfs.com^
@@ -60,9 +59,7 @@
 ||c7940.top^
 ||cache.netflix.com.id.ryo.biz.id^
 ||ccorreos.life^
-||challenge-01-captcha-251959.web.app^
 ||claimdanapemenang2.anakdara9.art^
-||clubeliveloprime.com^
 ||coinbase-assets.com^
 ||coinbase-mdex.com^
 ||comecx.xyz^
@@ -74,7 +71,6 @@
 ||daftar-dana-paylater-cs-2024.fbzsa.com^
 ||daggeett.pandhost.my.id^
 ||danaaa-giveaawayrp.pictte.com^
-||danaald-paylaterr.klik-ayo.biz.id^
 ||dancing-voluble-id4964-9295663.netlify.app^
 ||danial80.dsdanialds.workers.dev^
 ||ddd.chaos201501.workers.dev^
@@ -108,7 +104,6 @@
 ||fdsf31-g5g42-bdc1ed-j5y123.netlify.app^
 ||fghgfhgvfhredfdgfdgdg.blogspot.com^
 ||fkoinsprof.top^
-||foodnerworkcontestinrreswt.blogspot.com^
 ||foodnetworkcookingpro.blogspot.com^
 ||freefire.ff-garenav.vn^
 ||freefiremalaysia.evernt.xyz^
@@ -148,7 +143,6 @@
 ||help-phantom.gitbook.io^
 ||helps-metuamask.gitbook.io^
 ||hotel-731651.eu^
-||hotel-info3456733.eu^
 ||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
@@ -191,7 +185,6 @@
 ||instagramprofiileurl.blogspot.rs^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
-||instagramversiono.blogspot.com^
 ||investors.spotify.com.id.ryo.biz.id^
 ||iomettamaskloginsx.gitbook.io^
 ||ipfs.io^
@@ -199,7 +192,6 @@
 ||k8lq4.shop^
 ||krakensslogin.gitbook.io^
 ||lcloud-login-us.info^
-||ledgerlive-web3.com^
 ||lobster-app-xvyb9.ondigitalocean.app^
 ||login-leddgeerauuth.gitbook.io^
 ||login-to-confir-your-vote4.blogspot.com^
@@ -310,7 +302,6 @@
 ||netflixs-task.com^
 ||news.kellyclarkson.us^
 ||no3.abvizaf073.workers.dev^
-||notifyhubss.net^
 ||office-82edc.web.app^
 ||official-danaxdget-forx.t-7.my.id^
 ||onedrive.microsoftlive1.workers.dev^
@@ -329,18 +320,17 @@
 ||postly.link^
 ||productsdetailgallery.com^
 ||proxy-to-t-me.mtf-xyn-bdxyn.workers.dev^
-||proxy-to-telegram-org.mtf-xyn-bdxyn.workers.dev^
 ||pub-05ac5e9bbd614ca482ca1255c2e7251f.r2.dev^
 ||pub-0cf524a084094179b2c5681583139860.r2.dev^
 ||pub-0e52bbb216134494b634bbf064aeea5b.r2.dev^
 ||pub-0f43fb4a920a49f185794337e3d405fb.r2.dev^
 ||pub-1079cd52bb984844a777cdd0a8c9560e.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
-||pub-1592c2be7661400ba6f15b95e70c0068.r2.dev^
 ||pub-1dce8f5133cd41708dc3ec7e6864bb58.r2.dev^
 ||pub-238f01dd643c42f082469a85feccfb1c.r2.dev^
 ||pub-249e613421224859beb2b8f5902bf0ee.r2.dev^
 ||pub-2c75792c69d1439daeb281a81f3f4c50.r2.dev^
+||pub-3398851e7c8a4091a89bedf19adecbd5.r2.dev^
 ||pub-35312b95baf4482f8dd1d6c35e6943a1.r2.dev^
 ||pub-371f9c4d7f744dac9fc88f32be0943e5.r2.dev^
 ||pub-3f71f1f36b5f434facc2e77ec401f4cf.r2.dev^
@@ -381,6 +371,7 @@
 ||pub-9ef66142b91549f59e8666308ecf15e2.r2.dev^
 ||pub-a68f996b9a71495ea8c5b86cf8ff2f0c.r2.dev^
 ||pub-a7051849f97e40258b2898070eea69ef.r2.dev^
+||pub-a77375725cbe4ebebbbb725baa062262.r2.dev^
 ||pub-a99c53d6c23946e4a025da611a9aea62.r2.dev^
 ||pub-b1172bcfe649426dadb6a4112e0feb98.r2.dev^
 ||pub-b143f45073b548598e1a8efc44876e1e.r2.dev^
@@ -401,9 +392,7 @@
 ||pub-d91a268d1f314eeebe9770974d730478.r2.dev^
 ||pub-d99482a6cd354defb811ad7877f90aac.r2.dev^
 ||pub-e42cb528b102447385e3145197916f51.r2.dev^
-||pub-e6ea9391258a4d40b3747440c24150ba.r2.dev^
 ||pub-f3a335c3131047a7a157d355c61847fa.r2.dev^
-||pub-faefade63c574567a1b666b64420a38b.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fd681af1ebd74b59b62fe0cc768cc07e.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
@@ -434,7 +423,6 @@
 ||silver-melba-id4964-1406245.netlify.app^
 ||simekolinu.blogspot.com^
 ||sisikss.codashoppeventss.my.id^
-||sixtybae.activehosted.com^
 ||soutra-4b902.firebaseapp.com^
 ||sparkling-pasca-id49640c07442.netlify.app^
 ||spicy-jalapeno-bum-da191-1461105t10.netlify.app^
@@ -478,7 +466,6 @@
 ||walletoiconnect.gitbook.io^
 ||walletrccnnect.gitbook.io^
 ||wdd.4u6tbu.dns-dynamic.net^
-||we360.com.br^
 ||website--bantuandana.bageing.biz.id^
 ||wengelbehotels.world^
 ||wildcard1.maralhost.shop^
@@ -510,6 +497,5 @@
 ||www.www-bt006.com^
 ||www3.authe.workers.dev^
 ||y.fyb5188-107.workers.dev^
-||yaho-world-bold-union-96d2.calmohigni.workers.dev^
 ||yt-worker-2.smhash.workers.dev^
 ||zd.feixue318p.cloudns.biz^
