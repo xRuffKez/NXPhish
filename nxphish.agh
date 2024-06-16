@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718518019
-# Database Hash: c52d771fb9abd5fdfd23a1ead81c8121df139bd6
-# Generated at: 2024-06-16 06:06:59
-# Number of domains: 345
+# Version: 1718525212
+# Database Hash: 5fd6a219553dedfc92fcf9ae7106351687824738
+# Generated at: 2024-06-16 08:06:52
+# Number of domains: 344
 # Last 10 TLD counts:
 # dev: 106
 # com: 57
-# app: 41
+# app: 39
 # io: 17
-# id: 11
+# id: 12
 # net: 10
 # top: 6
 # is: 4
 # eu: 4
-# ug: 3
+# dk: 3
 ||44a3.secure-lllc.workers.dev^
 ||65b7d3757c56390008a2d84a--ods-android.netlify.app^
 ||859273-coinbase.com^
@@ -54,6 +54,7 @@
 ||comecx.xyz^
 ||daftar-dana-paylater-cs-2024.fbzsa.com^
 ||danaald-claim-saldoo.e-fills.biz.id^
+||danaald-paylaterr.klik-ayo.biz.id^
 ||dancing-voluble-id4964-9295663.netlify.app^
 ||danial80.dsdanialds.workers.dev^
 ||dataddit-genup.com^
@@ -141,7 +142,6 @@
 ||instagramversiono.blogspot.com^
 ||janur9.b-cdn.net^
 ||k8lq4.shop^
-||leboncoin-paiement-7548c.web.app^
 ||ledgerlive-web3.com^
 ||link-dna-indonesiax-xcom.resmi-v1.my.id^
 ||login-leddgeerauuth.gitbook.io^
@@ -309,7 +309,6 @@
 ||services.att0nline.workers.dev^
 ||sharepoint-office365-onedrive.murrycarghill.workers.dev^
 ||shiny-boat-f36d.fesponokni3351.workers.dev^
-||shopsummerdreams.app^
 ||simekolinu.blogspot.com^
 ||sisikss.codashoppeventss.my.id^
 ||sixtybae.activehosted.com^
