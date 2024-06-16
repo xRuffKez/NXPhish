@@ -1,22 +1,23 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718504407
-# Database Hash: 096488241931f16cd8bf41ea499e8e86bf5347fe
-# Generated at: 2024-06-16 02:20:07
-# Number of domains: 368
+# Version: 1718510792
+# Database Hash: c39c1cb1f47ebcd668f3d2ad25d4b454723bce36
+# Generated at: 2024-06-16 04:06:32
+# Number of domains: 370
 # Last 10 TLD counts:
 # dev: 118
-# com: 51
+# com: 53
 # app: 29
 # io: 25
 # shop: 10
 # net: 8
 # id: 7
-# eu: 4
 # es: 4
-# link: 4
+# eu: 4
+# mk: 4
 ||44a3.secure-lllc.workers.dev^
 ||65b7d3757c56390008a2d84a--ods-android.netlify.app^
+||859273-coinbase.com^
 ||882657.com^
 ||advertisingerror-needinfo-peru.firebaseapp.com^
 ||advertisingerror-needinfo-peru.web.app^
@@ -40,6 +41,7 @@
 ||barbedview.com^
 ||barclayschat-livehelp.com^
 ||big-bad-jewl-da191-1261125k12.netlify.app^
+||binanceevn.com^
 ||booking.hotel-731651.eu^
 ||business-help-4f4ff2.netlify.app^
 ||c7940.top^
