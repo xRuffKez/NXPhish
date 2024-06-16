@@ -1,19 +1,19 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718553958
-# Database Hash: 712dc05c2e59f475d2f71bdf7ce59e11b1b47765
-# Generated at: 2024-06-16 16:05:58
-# Number of domains: 484
+# Version: 1718561186
+# Database Hash: ae0ef56904dcd9e7c5fb01fc4f17a4e2341b32d7
+# Generated at: 2024-06-16 18:06:26
+# Number of domains: 487
 # Last 10 TLD counts:
-# dev: 155
+# dev: 157
 # com: 72
 # io: 55
-# app: 39
+# app: 41
 # id: 15
 # net: 10
 # top: 9
-# shop: 6
 # link: 6
+# shop: 6
 # za: 4
 ||10yongge.adoubleice.workers.dev^
 ||3esfand1402.iranten50.workers.dev^
@@ -127,7 +127,6 @@
 ||google-player.click^
 ||google.cjysec.workers.dev^
 ||google.tommy365.workers.dev^
-||gpt.4net.eu.org^
 ||h5.9qu2.com^
 ||hello-world-billowing-rain-a124.68sheng720.workers.dev^
 ||hello-world-falling-grass-3f58.homlovitro.workers.dev^
@@ -157,6 +156,7 @@
 ||inislot.xyz^
 ||instagram.isihussain.com^
 ||instagram.lordval.net^
+||instagramm.linkbarux.my.id^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.am^
 ||instagramprofiileurl.blogspot.co.at^
@@ -340,6 +340,7 @@
 ||pub-5984fc6299ba445c9db7b6cacf61b227.r2.dev^
 ||pub-5a9bcbd76a5641b2b43a8d930524da27.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
+||pub-5dfda753a0044475a0a7ab4a3257d3bf.r2.dev^
 ||pub-5f55dcf46e2c4e018b4bf54f43757e34.r2.dev^
 ||pub-66d7f7e3006d494dad36bd02e99535cd.r2.dev^
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
@@ -380,6 +381,7 @@
 ||pub-b4f19f47bf054b6589fb36a7a9659885.r2.dev^
 ||pub-b611ed1d7c7b437a8c433875c05ac3a1.r2.dev^
 ||pub-b71ceadb77a943aabe274226b732448a.r2.dev^
+||pub-b72160c1be55402089f090c7b22ce04d.r2.dev^
 ||pub-ba1dd5dbb411430b87e9e175a73bbf05.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
 ||pub-bac135989b0542928118600d0be3e449.r2.dev^
@@ -438,6 +440,7 @@
 ||sucursal-activa6.w3spaces.com^
 ||suite-matter-pycenter.firebaseapp.com^
 ||suite-matter-pycenter.web.app^
+||system-message-glitch.netlify.app^
 ||tchjdjee-f-b-02.firebaseapp.com^
 ||telegram.grafana.es^
 ||telegrcm.me^
@@ -449,11 +452,11 @@
 ||tz.hongfulai.vip^
 ||u6gge.shop^
 ||upgrade-kartu-fisik.resmi-et.com^
-||uppdaterz-eventx-danafyz4.t-1.my.id^
 ||url1.io^
 ||user20.xanad89088.workers.dev^
 ||uspeaholdlogn.gitbook.io^
 ||v12fgq-g24g2-88e7cc-g12bdfc.netlify.app^
+||validate-infringement-ads.netlify.app^
 ||verify-office-outlook.com^
 ||violation-support-461206ta-04apc3.netlify.app^
 ||vip-apple.com^
