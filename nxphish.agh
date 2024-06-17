@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718626162
-# Database Hash: 94b96b79b2bba3a67b6db18bbea3068f5bd7b985
-# Generated at: 2024-06-17 12:09:22
+# Version: 1718633175
+# Database Hash: 474b331cb87780bf5a88b7a9c7ea3f893b098ce2
+# Generated at: 2024-06-17 14:06:15
 # Number of domains: 344
 # Last 10 TLD counts:
 # dev: 99
 # com: 50
-# io: 29
 # app: 29
+# io: 29
 # id: 14
 # net: 11
 # eu: 5
-# za: 4
 # mk: 4
-# nl: 3
+# za: 4
+# at: 3
 ||44a3.secure-lllc.workers.dev^
 ||65b7d3757c56390008a2d84a--ods-android.netlify.app^
 ||900825.xyz^
