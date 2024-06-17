@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718604479
-# Database Hash: ca6899b7b13f889b6390f03962c5fe08fbdaeab5
-# Generated at: 2024-06-17 06:07:59
-# Number of domains: 271
+# Version: 1718611708
+# Database Hash: 4c749ff8262364dbe250b680c561ec75a7ad71da
+# Generated at: 2024-06-17 08:08:28
+# Number of domains: 289
 # Last 10 TLD counts:
-# dev: 80
-# com: 45
-# app: 31
-# io: 25
+# dev: 82
+# com: 46
+# app: 32
+# io: 26
+# id: 15
+# net: 10
 # top: 6
-# id: 6
-# net: 6
+# eu: 3
 # ug: 3
-# br: 3
-# link: 3
+# mk: 3
 ||44a3.secure-lllc.workers.dev^
 ||65b7d3757c56390008a2d84a--ods-android.netlify.app^
 ||advertisingerror-needinfo-peru.firebaseapp.com^
@@ -37,6 +37,8 @@
 ||big-bad-jewl-da191-1261125k12.netlify.app^
 ||booking.hotel-731651.eu^
 ||business-help-4f4ff2.netlify.app^
+||cache.netflix.com.jp.ryo.biz.id^
+||cache.netflix.com.sg.ryo.biz.id^
 ||challenge-01-captcha-251959.web.app^
 ||clubeliveloprime.com^
 ||coinbase-assets.com^
@@ -45,7 +47,10 @@
 ||daftar-dana-paylater-cs-2024.fbzsa.com^
 ||dancing-voluble-id4964-9295663.netlify.app^
 ||danial80.dsdanialds.workers.dev^
+||dev-myjobportal.pantheonsite.io^
 ||diarmrininfieomzisacxc.ellieb7.workers.dev^
+||discord.aass-1234561.workers.dev^
+||dna-log-idx-yx.cominfo.my.id^
 ||dpfkf.aweys.net^
 ||eextension-metamask-chrome.gitbook.io^
 ||encr.pw^
@@ -68,6 +73,7 @@
 ||generatorfreeaccounts.blogspot.co.za^
 ||get-windows-replaced.today^
 ||gikoluhonedi.blogspot.am^
+||gl.eventmidasbuys.com^
 ||gnome-big-booty-da191-1162325b4.netlify.app^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
@@ -83,6 +89,7 @@
 ||info-bancosantander-app.com^
 ||info.hotel-73931.eu^
 ||instagram.isihussain.com^
+||instagramm.linkbarux.my.id^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.am^
 ||instagramprofiileurl.blogspot.co.id^
@@ -102,9 +109,12 @@
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
 ||instagramversiono.blogspot.com^
+||investors.spotify.com.jp.ryo.biz.id^
+||investors.spotify.com.sg.ryo.biz.id^
 ||janur9.b-cdn.net^
 ||klaim-saldo.danahitz.my.id^
 ||komputer-z-allegro-czy-warto-cz-i.mp3cielo.co^
+||layanan-bantuandana.bageing.biz.id^
 ||ledgerlive-web3.com^
 ||link-dna-indonesiax-news.resmi-v1.my.id^
 ||lobster-app-xvyb9.ondigitalocean.app^
@@ -119,6 +129,7 @@
 ||meatamacks-login.gitbook.io^
 ||meatamausk-loaggein.gitbook.io^
 ||meettaamskk-logiinn.gitbook.io^
+||meptem0.com^
 ||metaa-masklogn-us.gitbook.io^
 ||metaasklmiogin.gitbook.io^
 ||metamask-wallett.blogspot.al^
@@ -222,6 +233,7 @@
 ||pub-bac135989b0542928118600d0be3e449.r2.dev^
 ||pub-c220de8da8b04d34acb16070cfcd5baa.r2.dev^
 ||pub-c238f8f2bbb64711a6e5633d1966ec98.r2.dev^
+||pub-c613903628154b7e971252c962071102.r2.dev^
 ||pub-d91a268d1f314eeebe9770974d730478.r2.dev^
 ||pub-d99482a6cd354defb811ad7877f90aac.r2.dev^
 ||pub-e42cb528b102447385e3145197916f51.r2.dev^
@@ -250,7 +262,6 @@
 ||soutra-4b902.web.app^
 ||sparkling-pasca-id49640c07442.netlify.app^
 ||spotify-clone31.netlify.app^
-||steanmcomnuniity.com^
 ||sucursal-activa5.w3spaces.com^
 ||sucursal-activa6.w3spaces.com^
 ||suite-matter-pycenter.web.app^
@@ -273,10 +284,16 @@
 ||walletmitsmask.gitbook.io^
 ||we360.com.br^
 ||weathered-pond-21d2.alwdqh1p.workers.dev^
+||website-bantuandanaindonesia.bageing.biz.id^
 ||willowy-fox-dabcdf.netlify.app^
 ||winter-rice-f6fe.myatminmyo14196.workers.dev^
 ||wolletkonect.gitbook.io^
 ||worker-home-american-eb1d.heleyas570.workers.dev^
+||wwe.ygtqywn.dns-dynamic.net^
+||wwf.jfdr4f.dns-dynamic.net^
+||wws.sue23.dns-dynamic.net^
+||wws.vut7.dns-dynamic.net^
+||www-pemulihan-akundana.e-fills.biz.id^
 ||www.aixnwsuaoallegro.top^
 ||www.amazon-tradein.com^
 ||www.ln.run^
@@ -285,4 +302,5 @@
 ||www.teccna.de^
 ||www.www-bt006.com^
 ||yaho-world-bold-union-96d2.calmohigni.workers.dev^
+||zaxscdvdfvf-vfvfbgbgbgbgbgbgb-45xup.ondigitalocean.app^
 ||zd.feixue318p.cloudns.biz^
