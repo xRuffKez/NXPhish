@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718590784
-# Database Hash: 043e25982705b302e00dfa7afcd048cc1e162c8b
-# Generated at: 2024-06-17 02:19:44
-# Number of domains: 271
+# Version: 1718597292
+# Database Hash: 0c9120d007f1590c7555673583a5de0fcbe319cd
+# Generated at: 2024-06-17 04:08:12
+# Number of domains: 270
 # Last 10 TLD counts:
 # dev: 80
 # com: 44
 # app: 31
 # io: 25
-# id: 7
-# net: 6
 # top: 6
-# nl: 3
-# ug: 3
+# id: 6
+# net: 6
+# mk: 3
 # br: 3
+# eu: 3
 ||44a3.secure-lllc.workers.dev^
 ||65b7d3757c56390008a2d84a--ods-android.netlify.app^
 ||advertisingerror-needinfo-peru.firebaseapp.com^
@@ -43,7 +43,6 @@
 ||comecx.xyz^
 ||conebaesignin.gitbook.io^
 ||daftar-dana-paylater-cs-2024.fbzsa.com^
-||danaald-paylaterr.klik-ayo.biz.id^
 ||dancing-voluble-id4964-9295663.netlify.app^
 ||danial80.dsdanialds.workers.dev^
 ||diarmrininfieomzisacxc.ellieb7.workers.dev^
