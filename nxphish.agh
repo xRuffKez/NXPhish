@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718647620
-# Database Hash: c89206ffc823ffacbb942f5fedd96a885afe011c
-# Generated at: 2024-06-17 18:07:00
-# Number of domains: 256
+# Version: 1718654755
+# Database Hash: 4d8f986cf7a7f39acb377831b7edd796e7f94d58
+# Generated at: 2024-06-17 20:05:55
+# Number of domains: 246
 # Last 10 TLD counts:
 # dev: 82
-# com: 45
+# com: 39
 # app: 26
 # net: 9
 # io: 8
-# eu: 5
-# id: 4
-# br: 3
-# ug: 3
+# eu: 4
+# mk: 3
 # dk: 3
+# nl: 3
+# ug: 3
 ||44a3.secure-lllc.workers.dev^
 ||65b7d3757c56390008a2d84a--ods-android.netlify.app^
 ||advertisingerror-needinfo-peru.firebaseapp.com^
@@ -23,26 +23,21 @@
 ||air-bnb.check-id8901.com^
 ||ap1s.net^
 ||apple-idsupport.com^
-||ashwateg.blogspot.com^
 ||astonish-melt-zip-da191-1161255m9.netlify.app^
 ||aut.telegcrem.icu^
 ||automatedhubcraig.com^
 ||autumn-haze-7b45.fhzpzvz6.workers.dev^
-||aws.himalata.xyz^
 ||bafybeibgnjg5yulg6lfwtxobgudhbktz7tcyevebieygldhpdbjvtvcx2a.ipfs.dweb.link^
 ||bafybeifl3qwgq3rqrht2racbspomgwmm67gfffqgebey7nxcjqd3o3j4eu.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
 ||big-bad-jewl-da191-1261125k12.netlify.app^
-||booking.hotel-71892.eu^
 ||booking.hotel-731651.eu^
 ||business-help-4f4ff2.netlify.app^
 ||challenge-01-captcha-251959.web.app^
 ||checks.qualitysolutionpage.cloud^
-||clubeliveloprime.com^
 ||coinbase-assets.com^
 ||coinbase-reset-support.com^
 ||comecx.xyz^
-||confrm-guestsrsrv.com^
 ||crownjul-dreasm-7206.olinltjsacnrai.workers.dev^
 ||daftar-dana-paylater-cs-2024.fbzsa.com^
 ||daftar-dana-paylater24.fbzsa.com^
@@ -72,7 +67,6 @@
 ||gnome-big-booty-da191-1162325b4.netlify.app^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
-||grandifter.blogspot.com^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||hotel-731651.eu^
 ||hotel-info3456733.eu^
@@ -102,7 +96,6 @@
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
-||instagramversiono.blogspot.com^
 ||janur9.b-cdn.net^
 ||kraikenlogima.gitbook.io^
 ||ledgerlive-web3.com^
@@ -161,7 +154,6 @@
 ||netflixs-job.com^
 ||netflixs-task.com^
 ||news.kellyclarkson.us^
-||notifyhubss.net^
 ||onedrive.microsoftlive1.workers.dev^
 ||onlinedanaindonesia.klikdisini2023.my.id^
 ||orange-hall-453b.0ffice365-authmail.workers.dev^
@@ -221,7 +213,6 @@
 ||pub-d91a268d1f314eeebe9770974d730478.r2.dev^
 ||pub-d99482a6cd354defb811ad7877f90aac.r2.dev^
 ||pub-e42cb528b102447385e3145197916f51.r2.dev^
-||pub-e6ea9391258a4d40b3747440c24150ba.r2.dev^
 ||pub-faefade63c574567a1b666b64420a38b.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fd681af1ebd74b59b62fe0cc768cc07e.r2.dev^
@@ -237,8 +228,6 @@
 ||sg3.adminviper5.workers.dev^
 ||sharepoint-office365-onedrive.murrycarghill.workers.dev^
 ||simekolinu.blogspot.com^
-||sisikss.codashoppeventss.my.id^
-||sixtybae.activehosted.com^
 ||sparkling-pasca-id49640c07442.netlify.app^
 ||spotify-clone31.netlify.app^
 ||sss.free-032.dns-dynamic.net^
@@ -250,6 +239,7 @@
 ||tglsme.ru^
 ||upgrade-kartu-fisik.resmi-et.com^
 ||url1.io^
+||uyh.vxuef2q.dns-dynamic.net^
 ||v12fgq-g24g2-88e7cc-g12bdfc.netlify.app^
 ||validate-infringement-ads.netlify.app^
 ||verify-office-outlook.com^
@@ -258,7 +248,6 @@
 ||votengpalesn.blogspot.com^
 ||walletconiectt.gitbook.io^
 ||walletconnect-docs.gitbook.io^
-||we360.com.br^
 ||willowy-fox-dabcdf.netlify.app^
 ||wolletkonect.gitbook.io^
 ||worker-home-american-eb1d.heleyas570.workers.dev^
@@ -270,4 +259,5 @@
 ||www.teccna.de^
 ||www.www-bt006.com^
 ||yaho-world-bold-union-96d2.calmohigni.workers.dev^
+||yomosmoarmocz.fynn81.workers.dev^
 ||zd.feixue318p.cloudns.biz^
