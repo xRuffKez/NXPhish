@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718633175
-# Database Hash: 474b331cb87780bf5a88b7a9c7ea3f893b098ce2
-# Generated at: 2024-06-17 14:06:15
-# Number of domains: 344
+# Version: 1718640388
+# Database Hash: 7135f75e7fb9842056d73e5c0d596ebac430469e
+# Generated at: 2024-06-17 16:06:28
+# Number of domains: 341
 # Last 10 TLD counts:
-# dev: 99
-# com: 50
-# app: 29
-# io: 29
-# id: 14
-# net: 11
+# dev: 102
+# com: 54
+# io: 30
+# app: 28
+# net: 10
+# id: 5
 # eu: 5
-# mk: 4
 # za: 4
-# at: 3
+# mk: 4
+# br: 3
 ||44a3.secure-lllc.workers.dev^
 ||65b7d3757c56390008a2d84a--ods-android.netlify.app^
 ||900825.xyz^
@@ -41,31 +41,32 @@
 ||booking.hotel-71892.eu^
 ||booking.hotel-731651.eu^
 ||business-help-4f4ff2.netlify.app^
-||cache.netflix.com.jp.ryo.biz.id^
-||cache.netflix.com.sg.ryo.biz.id^
 ||ccorreos.life^
 ||challenge-01-captcha-251959.web.app^
+||checks.qualitysolutionpage.cloud^
 ||clubeliveloprime.com^
 ||coinbase-assets.com^
+||coinbase-reset-support.com^
 ||comecx.xyz^
 ||confrm-guestsrsrv.com^
+||crownjul-dreasm-7206.olinltjsacnrai.workers.dev^
 ||daberres.blogspot.com^
 ||daftar-dana-paylater-cs-2024.fbzsa.com^
+||daftar-dana-paylater24.fbzsa.com^
+||daftar-paylater7280.fbzsa.com^
 ||dancing-voluble-id4964-9295663.netlify.app^
 ||danial80.dsdanialds.workers.dev^
-||dev-myjobportal.pantheonsite.io^
 ||diarmrininfieomzisacxc.ellieb7.workers.dev^
 ||dinhsuu1201.blogspot.hr^
-||discord.aass-1234561.workers.dev^
 ||discord.y62.net^
 ||divine-fire-196c.nc5ctekl.workers.dev^
-||dna-log-idx-yx.cominfo.my.id^
 ||dpfkf.aweys.net^
 ||dratgafw.blogspot.com^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||encr.pw^
 ||etrctrkaneting.com^
 ||ezi.rijhgrjn.dns-dynamic.net^
+||facebook-business-pages-id8fa97ah2cc7a1cdabc1c6fae777a92.miracle-chain.com^
 ||facebook.check-protect-account.me^
 ||facebooksecurity.blogspot.co.za^
 ||facebooksecuritys.blogspot.co.at^
@@ -85,7 +86,6 @@
 ||gbscuy5.6bplmu2bji5.dns-dynamic.net^
 ||get-windows-replaced.today^
 ||gikoluhonedi.blogspot.am^
-||gl.eventmidasbuys.com^
 ||gnome-big-booty-da191-1162325b4.netlify.app^
 ||goodproductionqualityprogramnn.blogspot.com^
 ||google-jobsoffer7655.pages.dev^
@@ -103,7 +103,6 @@
 ||info-bancosantander-app.com^
 ||info.hotel-73931.eu^
 ||instagram.isihussain.com^
-||instagramm.linkbarux.my.id^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.am^
 ||instagramprofiileurl.blogspot.co.at^
@@ -127,15 +126,13 @@
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
 ||instagramversiono.blogspot.com^
-||investors.spotify.com.jp.ryo.biz.id^
-||investors.spotify.com.sg.ryo.biz.id^
 ||iomettamaskloginsx.gitbook.io^
 ||ipfs.io^
 ||janur9.b-cdn.net^
 ||kendralust266.activehosted.com^
 ||krackinogeinn.gitbook.io^
+||kraikenlogima.gitbook.io^
 ||krakensslogin.gitbook.io^
-||layanan-bantuandana.bageing.biz.id^
 ||lcloud-login-us.info^
 ||ledgerlive-web3.com^
 ||lobster-app-xvyb9.ondigitalocean.app^
@@ -150,7 +147,7 @@
 ||matemacsklogxn.gitbook.io^
 ||meatamacks-login.gitbook.io^
 ||meetamumassklogin.gitbook.io^
-||meptem0.com^
+||meiatuemckloginn.gitbook.io^
 ||metaddddddlogin.gitbook.io^
 ||metaismasxkxlogiin.gitbook.io^
 ||metamask-wallett.blogspot.al^
@@ -218,6 +215,7 @@
 ||mj.jack110.workers.dev^
 ||mofa-new-20240215.nicetempfox.workers.dev^
 ||moitamsk-login-1.gitbook.io^
+||motuchotu787ygfdfinst.blogspot.com^
 ||mutamaaskklogin.gitbook.io^
 ||myoutlook-alerts0.lofeze.workers.dev^
 ||ncrtoday.in^
@@ -246,6 +244,7 @@
 ||pub-35312b95baf4482f8dd1d6c35e6943a1.r2.dev^
 ||pub-371f9c4d7f744dac9fc88f32be0943e5.r2.dev^
 ||pub-3f71f1f36b5f434facc2e77ec401f4cf.r2.dev^
+||pub-403945d0f82b44a49f74553f849770ce.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
 ||pub-4e9d559e11c54314b7639d20c3d13682.r2.dev^
 ||pub-5274618e0b0147ed8e1e1de19e222862.r2.dev^
@@ -255,6 +254,7 @@
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-5dfda753a0044475a0a7ab4a3257d3bf.r2.dev^
 ||pub-5f55dcf46e2c4e018b4bf54f43757e34.r2.dev^
+||pub-6151cbb4115d47dda1a50e6b3f392453.r2.dev^
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-6bd3829d0f4d486e901aeb5e3c9212b6.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
@@ -266,12 +266,14 @@
 ||pub-85898ccf2bf04ae9bbc716993ae9553d.r2.dev^
 ||pub-867982fc061e46f293e0759a4cd22332.r2.dev^
 ||pub-87370549686248abaf668cfffcf181c1.r2.dev^
+||pub-879871612ca142959804d328fad0a538.r2.dev^
 ||pub-8acec952c4af4c2bac2c751a3fe96c29.r2.dev^
 ||pub-8c916bed11a64fe78963837d569b2937.r2.dev^
 ||pub-8da2694064b84f84bf1179f0ac01c4fb.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-8f63062ff4514a44b21b0711ce03eaba.r2.dev^
 ||pub-920afb70b2e441cd94492ad878133acb.r2.dev^
+||pub-9226289884a548239e1df8557017505d.r2.dev^
 ||pub-9578f172016b4e88930d7c9115bac4ce.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
@@ -289,7 +291,6 @@
 ||pub-c220de8da8b04d34acb16070cfcd5baa.r2.dev^
 ||pub-c238f8f2bbb64711a6e5633d1966ec98.r2.dev^
 ||pub-c504ff5c21bb43b58fe9783f3e5edb74.r2.dev^
-||pub-c613903628154b7e971252c962071102.r2.dev^
 ||pub-d91a268d1f314eeebe9770974d730478.r2.dev^
 ||pub-d99482a6cd354defb811ad7877f90aac.r2.dev^
 ||pub-e42cb528b102447385e3145197916f51.r2.dev^
@@ -317,6 +318,9 @@
 ||spotify-clone31.netlify.app^
 ||square-cell-3082.charles-ourtime.workers.dev^
 ||square-smoke-4c62.4tjwj7mx.workers.dev^
+||sss.free-032.dns-dynamic.net^
+||sss.free-10.dns-dynamic.net^
+||steamcommunuity.com^
 ||system-message-glitch.netlify.app^
 ||telegram.grafana.es^
 ||telegrcm.me^
@@ -336,26 +340,19 @@
 ||walletrccnnect.gitbook.io^
 ||walletvconnec.gitbook.io^
 ||we360.com.br^
-||website-bantuandanaindonesia.bageing.biz.id^
 ||willowy-fox-dabcdf.netlify.app^
 ||wolletkonect.gitbook.io^
 ||worker-home-american-eb1d.heleyas570.workers.dev^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||worker-site.aopages.workers.dev^
 ||wwe.ygtqywn.dns-dynamic.net^
-||wwf.jfdr4f.dns-dynamic.net^
-||wws.sue23.dns-dynamic.net^
-||wws.vut7.dns-dynamic.net^
 ||www-facebook-com.vn^
-||www-pemulihan-akundana.e-fills.biz.id^
 ||www.amazon-tradein.com^
 ||www.es-bbva-proteccion.com^
-||www.ln.run^
 ||www.magicbath.co.in^
 ||www.shopeemitra.com^
 ||www.smartsurvey.co.uk^
 ||www.teccna.de^
 ||www.www-bt006.com^
 ||yaho-world-bold-union-96d2.calmohigni.workers.dev^
-||zaxscdvdfvf-vfvfbgbgbgbgbgbgb-45xup.ondigitalocean.app^
 ||zd.feixue318p.cloudns.biz^
