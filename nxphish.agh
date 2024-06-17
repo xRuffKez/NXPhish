@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718575572
-# Database Hash: 5a8532d560735573da8b08e037e805c8b680e1e0
-# Generated at: 2024-06-16 22:06:12
-# Number of domains: 319
+# Version: 1718583830
+# Database Hash: 9ace02000faf6151b66145b40f3ba4aab279f7a5
+# Generated at: 2024-06-17 00:23:50
+# Number of domains: 317
 # Last 10 TLD counts:
 # dev: 101
 # com: 48
 # app: 32
 # io: 15
-# id: 12
+# id: 10
 # net: 6
 # top: 4
-# am: 3
-# dk: 3
 # eu: 3
+# shop: 3
+# cy: 3
 ||10yongge.adoubleice.workers.dev^
 ||44a3.secure-lllc.workers.dev^
 ||65b7d3757c56390008a2d84a--ods-android.netlify.app^
@@ -97,7 +97,6 @@
 ||info-bancosantander-app.com^
 ||info.hotel-73931.eu^
 ||instagram.isihussain.com^
-||instagramm.linkbarux.my.id^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.am^
 ||instagramprofiileurl.blogspot.co.at^
@@ -200,7 +199,6 @@
 ||netflixs-task.com^
 ||news.kellyclarkson.us^
 ||notifyhubss.net^
-||official-danaxdget-forx.t-7.my.id^
 ||onedrive.microsoftlive1.workers.dev^
 ||onlinedanaindonesia.klikdisini2023.my.id^
 ||orange-hall-453b.0ffice365-authmail.workers.dev^
@@ -256,7 +254,6 @@
 ||pub-b143f45073b548598e1a8efc44876e1e.r2.dev^
 ||pub-b49e2e76414244ea95df3c893bb52160.r2.dev^
 ||pub-b611ed1d7c7b437a8c433875c05ac3a1.r2.dev^
-||pub-b72160c1be55402089f090c7b22ce04d.r2.dev^
 ||pub-ba1dd5dbb411430b87e9e175a73bbf05.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
 ||pub-bac135989b0542928118600d0be3e449.r2.dev^
@@ -322,6 +319,7 @@
 ||wolletkonect.gitbook.io^
 ||worker-bold-bar-e863.biwolaj414.workers.dev^
 ||worker-broken-dew-4262.317819394.workers.dev^
+||worker-home-american-eb1d.heleyas570.workers.dev^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||www-facebook-com.vn^
 ||www.amazon-tradein.com^
