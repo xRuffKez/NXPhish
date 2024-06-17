@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718618822
-# Database Hash: 97eef02c0e89df36acde8dbb47fca32cb01dd5c8
-# Generated at: 2024-06-17 10:07:02
-# Number of domains: 339
+# Version: 1718626162
+# Database Hash: 94b96b79b2bba3a67b6db18bbea3068f5bd7b985
+# Generated at: 2024-06-17 12:09:22
+# Number of domains: 344
 # Last 10 TLD counts:
 # dev: 99
-# com: 48
+# com: 50
 # io: 29
 # app: 29
 # id: 14
 # net: 11
-# mk: 4
+# eu: 5
 # za: 4
-# at: 3
-# br: 3
+# mk: 4
+# nl: 3
 ||44a3.secure-lllc.workers.dev^
 ||65b7d3757c56390008a2d84a--ods-android.netlify.app^
 ||900825.xyz^
@@ -25,10 +25,12 @@
 ||aolmaiillogin.blogspot.com^
 ||ap1s.net^
 ||apple-idsupport.com^
+||ashwateg.blogspot.com^
 ||astonish-melt-zip-da191-1161255m9.netlify.app^
 ||aut.telegcrem.icu^
 ||automatedhubcraig.com^
 ||autumn-haze-7b45.fhzpzvz6.workers.dev^
+||aws.himalata.xyz^
 ||bafybeib2wjhgvx3rhurqfpc7tovaejae6cybbmn73oubydbr3r44cqczhi.ipfs.w3s.link^
 ||bafybeibgnjg5yulg6lfwtxobgudhbktz7tcyevebieygldhpdbjvtvcx2a.ipfs.dweb.link^
 ||bafybeifl3qwgq3rqrht2racbspomgwmm67gfffqgebey7nxcjqd3o3j4eu.ipfs.dweb.link^
@@ -36,6 +38,7 @@
 ||bar-a6b6.att0serv.workers.dev^
 ||barclayschat-livehelp.com^
 ||big-bad-jewl-da191-1261125k12.netlify.app^
+||booking.hotel-71892.eu^
 ||booking.hotel-731651.eu^
 ||business-help-4f4ff2.netlify.app^
 ||cache.netflix.com.jp.ryo.biz.id^
@@ -45,6 +48,7 @@
 ||clubeliveloprime.com^
 ||coinbase-assets.com^
 ||comecx.xyz^
+||confrm-guestsrsrv.com^
 ||daberres.blogspot.com^
 ||daftar-dana-paylater-cs-2024.fbzsa.com^
 ||dancing-voluble-id4964-9295663.netlify.app^
@@ -87,9 +91,11 @@
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
 ||google.tommy365.workers.dev^
+||grandifter.blogspot.com^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||help-phantom.gitbook.io^
 ||hotel-731651.eu^
+||hotel-info3456733.eu^
 ||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
@@ -295,7 +301,6 @@
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||quarekdenogi.gitbook.io^
 ||quiet-ephemeral-pn2807-49682.netlify.app^
-||register-bankofamerica.com^
 ||remarkable-jalebi-91bfa1.netlify.app^
 ||risk-management-b8b72c.netlify.app^
 ||samsp-cha-qg02.firebaseapp.com^
