@@ -1,30 +1,27 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718698056
-# Database Hash: 4916ced77b2bb95b6c6b533f66b1f7db40c8a30a
-# Generated at: 2024-06-18 08:07:36
-# Number of domains: 182
+# Version: 1718705169
+# Database Hash: 517ca729b9768e94ae5fd855af99bf99c282dfc9
+# Generated at: 2024-06-18 10:06:09
+# Number of domains: 188
 # Last 10 TLD counts:
-# dev: 73
-# com: 25
+# dev: 77
+# com: 27
 # app: 9
 # net: 5
-# br: 3
-# mk: 3
 # nl: 3
-# dk: 3
 # ug: 3
-# eu: 2
-||account-creation-errorr.netlify.app^
+# br: 3
+# dk: 3
+# mk: 3
+# cz: 2
+||21425-coinbase.com^
+||78324824-coinbase.com^
 ||air-bnb.check-id8901.com^
 ||apple-oficial.com^
 ||aut.telegcrem.icu^
-||authserver-00europ-sbbcffffs.firebaseapp.com^
-||automatedhubcraig.com^
-||autorizebnbreserv.com^
 ||bafybeifl3qwgq3rqrht2racbspomgwmm67gfffqgebey7nxcjqd3o3j4eu.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
-||booking.hotel-71892.eu^
 ||cache.netflix.com.sg1.ryo.biz.id^
 ||cloudd-9049.tolevilmtohean.workers.dev^
 ||coinbase-assets.com^
@@ -41,14 +38,12 @@
 ||get-windows-replaced.today^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
-||grandifter.blogspot.com^
 ||harsh-keyboard-most.on-fleek.app^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||hsbc98.xyz^
-||id.address-match.workers.dev^
 ||info-bancosantander-app.com^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.am^
@@ -68,9 +63,9 @@
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
+||instagramversiono.blogspot.com^
 ||kjkjkkkhgdcsas.blogspot.com.mt^
 ||ledgerlive-web3.com^
-||lincking012h.blogspot.com^
 ||linrhua.nokia1982linrhua9868.workers.dev^
 ||majestic-biscotti-tk1111-807a7a.netlify.app^
 ||metamask-wallett.blogspot.al^
@@ -111,11 +106,14 @@
 ||metamaskinc.blogspot.si^
 ||metamaskinc.blogspot.ug^
 ||micr0soft-login-now.rywepomo.workers.dev^
+||microsoft-office365.online^
 ||netflixs-job.com^
 ||netflixs-task.com^
 ||notifyhubss.net^
 ||onedrive.microsoftlive1.workers.dev^
+||ourtime.members-dashboard.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
+||panckaceswap.com^
 ||proxy-to-t-me.mtf-xyn-bdxyn.workers.dev^
 ||proxy-to-telegram-org.mtf-xyn-bdxyn.workers.dev^
 ||pub-0c3a840de7004b4ba0e6e237abfdaa83.r2.dev^
@@ -125,6 +123,7 @@
 ||pub-15a40181d9494e9d9ae93ed8c8a4ff90.r2.dev^
 ||pub-1c861328e4394134a30770372c6b7a26.r2.dev^
 ||pub-1d772181dd95482a80ce0d878afd8d78.r2.dev^
+||pub-1eaf8d9fdf504256ad21005c83cb81f5.r2.dev^
 ||pub-2631b47084924d11bdd545d395f8147c.r2.dev^
 ||pub-270874c6727e44ffa71030e32b3e116f.r2.dev^
 ||pub-2baec7fbe55e462d9ff048f145ad9186.r2.dev^
@@ -144,10 +143,12 @@
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-722720be67154192a1102b2cf085d306.r2.dev^
 ||pub-7a6b99614f4b41658cd677a620b18951.r2.dev^
+||pub-86ffae7269a1476ea6a73ebed3540b2c.r2.dev^
 ||pub-87370549686248abaf668cfffcf181c1.r2.dev^
 ||pub-8af83b8bdbe34837a5c52b8f62abfddb.r2.dev^
 ||pub-8bc21cd47e354f7cb32dedddaa8be7e6.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
+||pub-8f65f9d5fa9b4344928c7d39a69c7046.r2.dev^
 ||pub-905d3c4f23d24cef9a5699af2c2d5cee.r2.dev^
 ||pub-920afb70b2e441cd94492ad878133acb.r2.dev^
 ||pub-93447d52bbd14ef0872d9ebe64bd09eb.r2.dev^
@@ -174,17 +175,21 @@
 ||pub-fd681af1ebd74b59b62fe0cc768cc07e.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||pub-ff311b1e15554610b58d6fd862e39083.r2.dev^
+||register-bankofamerica.com^
 ||remarkable-jalebi-91bfa1.netlify.app^
 ||resonant-belekoy-bbtcdf.netlify.app^
 ||risk-management-b8b72c.netlify.app^
 ||sixtybae.activehosted.com^
+||sp.26skins.com^
 ||spotify-clone31.netlify.app^
-||srtagaamkols.blogspot.com^
-||statick.hotel-82941.eu^
+||steam.poweredworkshop.com^
 ||steamcomuntty.com^
 ||tarassa.sa.com^
 ||teiegrom.vip^
 ||telepgrmn.xyz^
+||tiny-snow-f3d5.ccache.workers.dev^
+||ttpdev.kinsta.cloud^
+||update-payment.web.app^
 ||user-notification-error.netlify.app^
 ||verify-office-outlook.com^
 ||we360.com.br^
@@ -194,6 +199,7 @@
 ||wwe.ghfhh4h56.dns-dynamic.net^
 ||wwe.renk.dns-dynamic.net^
 ||www.es-bbva-proteccion.com^
+||www.paypal-support-cn.com^
 ||www.pr-newsroom-wp.appspot.com^
 ||www.santander.pt^
 ||yaho-world-bold-union-96d2.calmohigni.workers.dev^
