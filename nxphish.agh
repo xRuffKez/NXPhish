@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718705169
-# Database Hash: 517ca729b9768e94ae5fd855af99bf99c282dfc9
-# Generated at: 2024-06-18 10:06:09
-# Number of domains: 188
+# Version: 1718712551
+# Database Hash: c289cd7396f340873a425df73e6f63486f20e67f
+# Generated at: 2024-06-18 12:09:11
+# Number of domains: 214
 # Last 10 TLD counts:
-# dev: 77
-# com: 27
-# app: 9
-# net: 5
-# nl: 3
-# ug: 3
+# dev: 89
+# com: 31
+# app: 11
+# net: 6
 # br: 3
-# dk: 3
+# io: 3
+# ug: 3
 # mk: 3
-# cz: 2
+# nl: 3
+# dk: 3
 ||21425-coinbase.com^
 ||78324824-coinbase.com^
 ||air-bnb.check-id8901.com^
@@ -23,13 +23,21 @@
 ||bafybeifl3qwgq3rqrht2racbspomgwmm67gfffqgebey7nxcjqd3o3j4eu.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
 ||cache.netflix.com.sg1.ryo.biz.id^
+||call.sanaweb.workers.dev^
+||carousell.webikeo.shop^
+||claim-dana-hadiah0471.fbzsa.com^
+||claim-hadiah-dana0145.fbzsa.com^
 ||cloudd-9049.tolevilmtohean.workers.dev^
+||cn.im-tekon.net^
 ||coinbase-assets.com^
+||creative-twilight-29trce.netlify.app^
+||cs.uomao.com^
 ||dana-bantuan-giveaway.anakdara9.art^
 ||danial80.dsdanialds.workers.dev^
 ||diarmrininfieomzisacxc.ellieb7.workers.dev^
 ||dratfgola.blogspot.com^
 ||elqanas-netflix-clone.firebaseapp.com^
+||enter-nftsmint.web.app^
 ||facebooks-com.vn^
 ||facebooksecuritys.blogspot.mk^
 ||find-my-apple.com^
@@ -40,6 +48,8 @@
 ||google.cjysec.workers.dev^
 ||harsh-keyboard-most.on-fleek.app^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
+||hotel-82012.eu^
+||hotel-95372.eu^
 ||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
@@ -68,6 +78,7 @@
 ||ledgerlive-web3.com^
 ||linrhua.nokia1982linrhua9868.workers.dev^
 ||majestic-biscotti-tk1111-807a7a.netlify.app^
+||metamask-loxgin.gitbook.io^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.ca^
 ||metamask-wallett.blogspot.ch^
@@ -107,13 +118,19 @@
 ||metamaskinc.blogspot.ug^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoft-office365.online^
+||mskpan.skilling.top^
+||netflixcloneakm.freewebhostmost.com^
 ||netflixs-job.com^
 ||netflixs-task.com^
 ||notifyhubss.net^
 ||onedrive.microsoftlive1.workers.dev^
+||orange-unit-b3cb.pzlvl5p6.workers.dev^
+||ourtime.match-member.workers.dev^
 ||ourtime.members-dashboard.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||panckaceswap.com^
+||pgct-vyiufcut.loxibehi.workers.dev^
+||production.purple-queen-4b70.msautha.workers.dev^
 ||proxy-to-t-me.mtf-xyn-bdxyn.workers.dev^
 ||proxy-to-telegram-org.mtf-xyn-bdxyn.workers.dev^
 ||pub-0c3a840de7004b4ba0e6e237abfdaa83.r2.dev^
@@ -124,6 +141,7 @@
 ||pub-1c861328e4394134a30770372c6b7a26.r2.dev^
 ||pub-1d772181dd95482a80ce0d878afd8d78.r2.dev^
 ||pub-1eaf8d9fdf504256ad21005c83cb81f5.r2.dev^
+||pub-26156386d0f54a95aea30594f13fbc44.r2.dev^
 ||pub-2631b47084924d11bdd545d395f8147c.r2.dev^
 ||pub-270874c6727e44ffa71030e32b3e116f.r2.dev^
 ||pub-2baec7fbe55e462d9ff048f145ad9186.r2.dev^
@@ -142,7 +160,9 @@
 ||pub-6f8cf9a8420a401baaad7eace58de617.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-722720be67154192a1102b2cf085d306.r2.dev^
+||pub-72c93b4a02504d078fc4f9b793c041e9.r2.dev^
 ||pub-7a6b99614f4b41658cd677a620b18951.r2.dev^
+||pub-805b0f12ec704416b27c6c461ba00352.r2.dev^
 ||pub-86ffae7269a1476ea6a73ebed3540b2c.r2.dev^
 ||pub-87370549686248abaf668cfffcf181c1.r2.dev^
 ||pub-8af83b8bdbe34837a5c52b8f62abfddb.r2.dev^
@@ -156,9 +176,11 @@
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
 ||pub-9ef66142b91549f59e8666308ecf15e2.r2.dev^
 ||pub-a7051849f97e40258b2898070eea69ef.r2.dev^
+||pub-aaf7250c529447cba79618bd3130c66b.r2.dev^
 ||pub-ba1dd5dbb411430b87e9e175a73bbf05.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
 ||pub-bdbdb45e16614709b65d7f1947c1cc6d.r2.dev^
+||pub-c808132868b74a96badd12203353a957.r2.dev^
 ||pub-c8359756db87419caf41dd63f709b0a7.r2.dev^
 ||pub-c9e64147d3574630a977dc0fc6d899b0.r2.dev^
 ||pub-d1a9e4969a11464bb22824ec941169dc.r2.dev^
@@ -169,6 +191,7 @@
 ||pub-ecb1731253fc43b1be7bb38cb575d5d6.r2.dev^
 ||pub-ee9fa8b6a6f1426699d52df860c610c5.r2.dev^
 ||pub-f18c3d444059460880d86ed436e28dd3.r2.dev^
+||pub-f262d09145624a2f9f56872191585d4f.r2.dev^
 ||pub-faefade63c574567a1b666b64420a38b.r2.dev^
 ||pub-fc5f8ad81bfe4fea81442121f47506a6.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
@@ -179,6 +202,7 @@
 ||remarkable-jalebi-91bfa1.netlify.app^
 ||resonant-belekoy-bbtcdf.netlify.app^
 ||risk-management-b8b72c.netlify.app^
+||sheet-sky-3224.edgardoupton.workers.dev^
 ||sixtybae.activehosted.com^
 ||sp.26skins.com^
 ||spotify-clone31.netlify.app^
@@ -198,6 +222,8 @@
 ||wwe.emso.dns-dynamic.net^
 ||wwe.ghfhh4h56.dns-dynamic.net^
 ||wwe.renk.dns-dynamic.net^
+||wwjr0013.bitbucket.io^
+||www.bandishare.io^
 ||www.es-bbva-proteccion.com^
 ||www.paypal-support-cn.com^
 ||www.pr-newsroom-wp.appspot.com^
