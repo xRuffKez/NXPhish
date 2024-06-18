@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718683611
-# Database Hash: 09add1cfb8a5789421af022c9fc2caf5fe751469
-# Generated at: 2024-06-18 04:06:51
+# Version: 1718690850
+# Database Hash: a54cd127f21614410161986c43dd0a96f5965267
+# Generated at: 2024-06-18 06:07:30
 # Number of domains: 125
 # Last 10 TLD counts:
 # dev: 35
 # com: 20
 # app: 8
 # net: 4
-# eu: 3
 # mk: 3
 # br: 3
+# eu: 3
 # ug: 3
-# link: 2
-# se: 2
+# qa: 2
+# mx: 2
 ||666ee76db67e7400089be749--mabanque-connexionbnpparibas.netlify.app^
 ||account-creation-errorr.netlify.app^
 ||air-bnb.check-id8901.com^
