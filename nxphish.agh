@@ -1,24 +1,25 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718677112
-# Database Hash: 8d3a38ba1928ce5fda5acea1b92df71adc587e72
-# Generated at: 2024-06-18 02:18:32
-# Number of domains: 122
+# Version: 1718683611
+# Database Hash: 09add1cfb8a5789421af022c9fc2caf5fe751469
+# Generated at: 2024-06-18 04:06:51
+# Number of domains: 125
 # Last 10 TLD counts:
 # dev: 35
-# com: 18
+# com: 20
 # app: 8
 # net: 4
+# eu: 3
 # mk: 3
 # br: 3
 # ug: 3
-# eu: 3
-# ar: 2
-# nl: 2
+# link: 2
+# se: 2
 ||666ee76db67e7400089be749--mabanque-connexionbnpparibas.netlify.app^
 ||account-creation-errorr.netlify.app^
 ||air-bnb.check-id8901.com^
 ||app.gopay.co.id.sg.sattt.us.kg^
+||apple-oficial.com^
 ||aut.telegcrem.icu^
 ||authserver-00europ-sbbcffffs.firebaseapp.com^
 ||automatedhubcraig.com^
@@ -37,6 +38,7 @@
 ||facebooksecuritys.blogspot.mk^
 ||faster.wechat.cloudns.ch^
 ||fb.verrycenter28.com^
+||find-my-apple.com^
 ||fkoinsprof.top^
 ||foodnerworkcontestinrreswt.blogspot.com^
 ||freefire.ff-garenav.vn^
@@ -45,6 +47,7 @@
 ||google.cjysec.workers.dev^
 ||grandifter.blogspot.com^
 ||hotmail-update-349c.tbtea3.workers.dev^
+||hsbc98.xyz^
 ||id.address-match.workers.dev^
 ||info-bancosantander-app.com^
 ||instagram.lordval.net^
