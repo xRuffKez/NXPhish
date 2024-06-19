@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718784476
-# Database Hash: 0dfbc719350f78ad302638ba74cbf3b7b2c65a2c
-# Generated at: 2024-06-19 08:07:56
-# Number of domains: 324
+# Version: 1718791607
+# Database Hash: dc6b9eb6c69b9cb46f88b6a36bcb316127f70f0e
+# Generated at: 2024-06-19 10:06:47
+# Number of domains: 323
 # Last 10 TLD counts:
 # dev: 171
-# com: 37
+# com: 36
 # app: 7
 # io: 7
 # eu: 6
-# link: 4
 # id: 4
+# link: 4
 # mk: 4
-# ug: 3
-# pt: 3
+# cy: 3
+# top: 3
 ||1kb.link^
 ||465-049-9084-58.nyrhdu9.top^
 ||alynmarketinggroup.com^
@@ -45,7 +45,6 @@
 ||cn.im-tekon.net^
 ||coinbase-assets.com^
 ||creative-twilight-29trce.netlify.app^
-||cs.uomao.com^
 ||cvcdanalogin-indon3sia.e-filled.my.id^
 ||dana-indonesia.link-dana-kaget-2023.biz.id^
 ||danarefuncc2.anakdara9.art^
