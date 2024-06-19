@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718813190
-# Database Hash: 758de323d72c7986c86ba605e0897508c89f3bb2
-# Generated at: 2024-06-19 16:06:30
-# Number of domains: 269
+# Version: 1718820407
+# Database Hash: 297ad80780b69fd8381c5c25d935e67f0991781b
+# Generated at: 2024-06-19 18:06:47
+# Number of domains: 267
 # Last 10 TLD counts:
 # dev: 109
 # com: 34
 # io: 13
 # app: 12
-# top: 6
-# id: 6
 # net: 6
+# top: 6
+# id: 5
 # eu: 5
-# dk: 3
-# ch: 3
+# link: 3
+# ug: 3
 ||1.584846241.workers.dev^
 ||451vyxmj.aaizaiz.me^
 ||aktivasi-16juta-dana-claim.e-filled.biz.id^
@@ -39,7 +39,6 @@
 ||business-community-4ff2be.netlify.app^
 ||call.sanaweb.workers.dev^
 ||capitalist-enterprise-876307.netlify.app^
-||carousell.webikeo.shop^
 ||cctv-cloud-bc5e.wechat.cloudns.ch^
 ||cdn-bird-3d4f.wechat.cloudns.ch^
 ||cf.1937166357.workers.dev^
@@ -105,7 +104,6 @@
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
 ||kedpeer-1062.dnadlbae.workers.dev^
-||kklaim-danakagett-id.from34.biz.id^
 ||luluhaha1102.blogspot.com.ng^
 ||m-facebookk.xyz^
 ||m0ezk.shop^
