@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718756580
-# Database Hash: 892f9f9aac9ed4a96c89194b635859c5c53d571d
-# Generated at: 2024-06-19 00:23:00
-# Number of domains: 235
+# Version: 1718763519
+# Database Hash: 4a5a8f2ee2871529af2e36a6d09d09900c2aa0f5
+# Generated at: 2024-06-19 02:18:39
+# Number of domains: 240
 # Last 10 TLD counts:
-# dev: 74
-# com: 33
+# dev: 75
+# com: 34
 # app: 13
 # net: 8
+# io: 7
 # eu: 6
-# io: 6
-# mk: 4
-# ug: 4
-# shop: 4
 # top: 4
+# ug: 4
+# mk: 4
+# shop: 4
 ||28sd2w-5000.csb.app^
 ||666ee7cc4221bb0008fc6cf7--letstryfirst.netlify.app^
 ||account-creation-errorr.netlify.app^
@@ -23,6 +23,7 @@
 ||apple-oficial.com^
 ||ariadimari.eu^
 ||authserver-00europ-sbbcffffs.firebaseapp.com^
+||autoiothiatowers.firebaseapp.com^
 ||bafybeid2kyrhgkvukuaz3pxzpt6gjexevmdkd73nrtvciaxw3ecprvdlzm.ipfs.w3s.link^
 ||bafybeigtxfblznndrygbnd77b454kghl5titqxqh2b64iodzf3cepamkwm.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
@@ -49,6 +50,7 @@
 ||cs.uomao.com^
 ||dana-aktivasi.privasi.xyz^
 ||dana-bantuan-giveaway.anakdara9.art^
+||dana-indonesia.link-dana-kaget-2023.biz.id^
 ||dratfgola.blogspot.com^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||enter-nftsmint.web.app^
@@ -97,6 +99,7 @@
 ||instagramprofiileurl.blogspot.ug^
 ||ipfs.io^
 ||kjkjkkkhgdcsas.blogspot.com.mt^
+||kklaim-danakagett-id.from34.biz.id^
 ||league-ximmortal.com^
 ||lincking012h.blogspot.com^
 ||linrhua.nokia1982linrhua9868.workers.dev^
@@ -151,6 +154,7 @@
 ||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
 ||metaweborg.blogspot.com^
+||metmsklegn.gitbook.io^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
 ||mitamusk-lugen.gitbook.io^
@@ -176,6 +180,7 @@
 ||pub-15a40181d9494e9d9ae93ed8c8a4ff90.r2.dev^
 ||pub-166b904ae438414b90587eff4ad1e897.r2.dev^
 ||pub-1c861328e4394134a30770372c6b7a26.r2.dev^
+||pub-25fa1faa5f684182864f4dc3e0d9bcc0.r2.dev^
 ||pub-26156386d0f54a95aea30594f13fbc44.r2.dev^
 ||pub-270874c6727e44ffa71030e32b3e116f.r2.dev^
 ||pub-2baec7fbe55e462d9ff048f145ad9186.r2.dev^
