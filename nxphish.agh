@@ -1,29 +1,30 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718820407
-# Database Hash: 297ad80780b69fd8381c5c25d935e67f0991781b
-# Generated at: 2024-06-19 18:06:47
+# Version: 1718827552
+# Database Hash: 903cd1cc62c587b4e2e81ec22230a0e1f7d6c905
+# Generated at: 2024-06-19 20:05:52
 # Number of domains: 267
 # Last 10 TLD counts:
-# dev: 109
+# dev: 111
 # com: 34
 # io: 13
 # app: 12
 # net: 6
 # top: 6
-# id: 5
 # eu: 5
-# link: 3
-# ug: 3
+# link: 4
+# id: 3
+# xyz: 3
 ||1.584846241.workers.dev^
 ||451vyxmj.aaizaiz.me^
-||aktivasi-16juta-dana-claim.e-filled.biz.id^
+||818yg.knowitall.wiki^
 ||apple-idsupport.com^
 ||apple-oficial.com^
 ||aps892.cc^
 ||ar-inv-linkedin.com^
 ||autoiothiatowers.firebaseapp.com^
 ||bafybeiai24pydgismg4s26kzb7usmp6bcbxccikqufjxqceru4ok7ed2ra.ipfs.dweb.link^
+||bafybeialomciiihr2v2bznftf4fwb5o5b3lxzel6sckpvpx2imvjsv5ede.ipfs.dweb.link^
 ||bafybeib3a34sjyrfuenufdu6qjwttwtbbtlmioh2y3hzhmgfsksp2t64fq.ipfs.cf-ipfs.com^
 ||bafybeic7egv4bneioj7yw5kf22rs7tg4khtfmtel7nrcitjfkntz7dqtvi.ipfs.dweb.link^
 ||bafybeigcouhnbnqy6w7pjkne3ncencdgyo4gdhkki3l2sywwjyzheqhto4.ipfs.dweb.link^
@@ -33,7 +34,6 @@
 ||berk.azureedge.net^
 ||biinance.lol^
 ||bobmcllane92882.activehosted.com^
-||booking.safedeta-uptades.info^
 ||booking.vierfijedlogin.com^
 ||btaccesssite.w3spaces.com^
 ||business-community-4ff2be.netlify.app^
@@ -153,6 +153,7 @@
 ||metmsklegn.gitbook.io^
 ||metoskkllogin.gitbook.io^
 ||micr0soft-login-now.rywepomo.workers.dev^
+||microsoft-copilot-porxy.1807744634.workers.dev^
 ||mitamusk-logen.gitbook.io^
 ||mskpan.skilling.top^
 ||mydl.flyswordss.workers.dev^
@@ -225,6 +226,7 @@
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
 ||pub-bad46fd90bd14dae8d48c13ca2274cbf.r2.dev^
 ||pub-c177952452c646a391cc294992a69f45.r2.dev^
+||pub-c44474e8133d4fddbf151f6624ad1a44.r2.dev^
 ||pub-c808132868b74a96badd12203353a957.r2.dev^
 ||pub-c8081993976f4133a3dfae4662ed3d09.r2.dev^
 ||pub-c980033c0ecd4fdca1b54292a1221fc0.r2.dev^
@@ -257,10 +259,8 @@
 ||tight-wood-8fc2.zip-confirm.workers.dev^
 ||tok2np0ckjt.top^
 ||tokenp0ckht.one^
-||update2024daget.e-file.my.id^
 ||use.shiban9527.cloudns.biz^
 ||usjx.czaqcbzu.top^
-||uzbenjoyer.fun^
 ||verify-office-outlook.com^
 ||vl.xingmel.top^
 ||voice-ourtime.ifoselovec.workers.dev^
