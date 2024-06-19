@@ -1,18 +1,18 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718763519
-# Database Hash: 4a5a8f2ee2871529af2e36a6d09d09900c2aa0f5
-# Generated at: 2024-06-19 02:18:39
-# Number of domains: 240
+# Version: 1718770029
+# Database Hash: 76c602ae338f7d17b5be59b5a161ff2eafd50e42
+# Generated at: 2024-06-19 04:07:09
+# Number of domains: 242
 # Last 10 TLD counts:
 # dev: 75
-# com: 34
+# com: 35
 # app: 13
 # net: 8
 # io: 7
 # eu: 6
-# top: 4
 # ug: 4
+# xyz: 4
 # mk: 4
 # shop: 4
 ||28sd2w-5000.csb.app^
@@ -21,6 +21,7 @@
 ||airbnb.sync103.com^
 ||app.gopay.co.id.sg.sattt.us.kg^
 ||apple-oficial.com^
+||ar-inv-linkedin.com^
 ||ariadimari.eu^
 ||authserver-00europ-sbbcffffs.firebaseapp.com^
 ||autoiothiatowers.firebaseapp.com^
@@ -103,6 +104,7 @@
 ||league-ximmortal.com^
 ||lincking012h.blogspot.com^
 ||linrhua.nokia1982linrhua9868.workers.dev^
+||m-facebookk.xyz^
 ||metamask-loxgin.gitbook.io^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.am^
