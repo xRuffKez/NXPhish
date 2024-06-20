@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718834796
-# Database Hash: 58391cf36b4c59fba1ee3800077d92f0283d82f0
-# Generated at: 2024-06-19 22:06:36
-# Number of domains: 284
+# Version: 1718842980
+# Database Hash: bf5abe3599473382740f7f037109afb098484b0e
+# Generated at: 2024-06-20 00:23:00
+# Number of domains: 310
 # Last 10 TLD counts:
-# dev: 125
-# com: 34
-# io: 12
+# dev: 135
+# com: 38
+# io: 13
 # app: 9
-# top: 7
+# top: 9
 # eu: 6
 # ug: 4
-# xyz: 4
 # mk: 4
-# nl: 3
+# xyz: 4
+# id: 4
 ||34564-coinbase.com^
 ||818yg.knowitall.wiki^
 ||alynmarketinggroup.com^
@@ -35,6 +35,8 @@
 ||call.sanaweb.workers.dev^
 ||ccorreos.life^
 ||cf.jjiu.top^
+||cf.qinbo13235.workers.dev^
+||cfvl.houniao.top^
 ||checking23z.blogspot.com^
 ||checking51.blogspot.com^
 ||chimerical-sunshine-bc1682.netlify.app^
@@ -46,6 +48,7 @@
 ||courageous-dusk-06tre9.netlify.app^
 ||creative-twilight-29trce.netlify.app^
 ||dana-indonesia.link-dana-kaget-2023.biz.id^
+||danaaxx-indoonesiaaxxa.id-cfy.my.id^
 ||danarefuncc2.anakdara9.art^
 ||dev-1111111c.pantheonsite.io^
 ||discord.372776363.workers.dev^
@@ -55,6 +58,7 @@
 ||facebook.check-protect-account.me^
 ||facebook52016.blogspot.ug^
 ||facebooksecuritys.blogspot.mk^
+||facebooksecuritys.blogspot.no^
 ||find-my-apple.com^
 ||fjfjhfigguffkitrrff.blogspot.com^
 ||fnxx.info^
@@ -72,6 +76,7 @@
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||hsbc98.xyz^
+||illjsjsjsjjzdgghhbnn.tyr-i.store^
 ||imtoken-aw.com^
 ||imtoken-yd.top^
 ||imtoken-ys.top^
@@ -95,11 +100,14 @@
 ||instagramprofiileurl.blogspot.ug^
 ||ipfs.io^
 ||jasvasomappmnoetxz.khamarid95.workers.dev^
+||killwall.dbsjacky.workers.dev^
 ||m-facebookk.xyz^
 ||m0ezk.shop^
+||mail.dxnacspaylllater.sitepay.biz.id^
 ||mdrew7967.activehosted.com^
 ||meittasmaskwalletrs.gitbook.io^
 ||member-ourtime.valley-assign.workers.dev^
+||metaaskewlogin.gitbook.io^
 ||metamask-loxgin.gitbook.io^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.am^
@@ -170,6 +178,7 @@
 ||netflixs-job.com^
 ||netflixs-task.com^
 ||onedrive.microsoftlive1.workers.dev^
+||onlineleads.fi^
 ||orange-glade-4cf2.thgod.workers.dev^
 ||orange-unit-b3cb.pzlvl5p6.workers.dev^
 ||ourtime-sign.secure-datings.workers.dev^
@@ -186,6 +195,8 @@
 ||pub-09a55f0b5ac14dbbbc79ab40abc0b630.r2.dev^
 ||pub-0c22e16cbbb7428ebf3fa3404210f46e.r2.dev^
 ||pub-0c3f1711aeaa4bd6895f2c4dd1551d72.r2.dev^
+||pub-0e377ab24fd344118368ae252716a899.r2.dev^
+||pub-116057290341412ab54efee140db5938.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-12738973c41d4dcdb2799d0494acb1b5.r2.dev^
 ||pub-157bad336b6b4904b1c67bed2aa6611f.r2.dev^
@@ -194,13 +205,14 @@
 ||pub-17d7828daac64fc3a83940a40d8b01d8.r2.dev^
 ||pub-1ae98389b74a4e93a372af10c78c00f4.r2.dev^
 ||pub-1e4b561991d545f3a10b9828a1713056.r2.dev^
+||pub-20f98e56820a4eb89b1918736cd8ac70.r2.dev^
 ||pub-21f1368604c2454690e479f4ee00165d.r2.dev^
 ||pub-2598caa00dcf4c658bf8753f6761f962.r2.dev^
-||pub-25fa1faa5f684182864f4dc3e0d9bcc0.r2.dev^
 ||pub-26156386d0f54a95aea30594f13fbc44.r2.dev^
 ||pub-2a539288712c464ca8a30ff6802a6e2f.r2.dev^
 ||pub-2a64f782845943beae62e9f09c473700.r2.dev^
 ||pub-2fad846527d7473aa1d1ed2a45595d9d.r2.dev^
+||pub-30cc7b882cd84be187266469e2449f33.r2.dev^
 ||pub-359838c8e3ae4346a2978592c2639c53.r2.dev^
 ||pub-3fcb1f87ac1c4eb984136f6eb4365987.r2.dev^
 ||pub-431e7b650e964cd7adbcb8f97d634cbf.r2.dev^
@@ -217,6 +229,7 @@
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-72c93b4a02504d078fc4f9b793c041e9.r2.dev^
 ||pub-736f51ece87a453f83a1011952938f36.r2.dev^
+||pub-773b3953138b4f5c95b324f61f457dfc.r2.dev^
 ||pub-778c9922a88c4d2c839b01025172bb0b.r2.dev^
 ||pub-7d35bd045205438b985be38f19d3320b.r2.dev^
 ||pub-7e808d7f765743618c3202117de18f17.r2.dev^
@@ -224,6 +237,7 @@
 ||pub-805b0f12ec704416b27c6c461ba00352.r2.dev^
 ||pub-805caf5435984aefbab34ec65d2eb583.r2.dev^
 ||pub-83fb1b435e2a4100ba9e51297bc0ee8a.r2.dev^
+||pub-879871612ca142959804d328fad0a538.r2.dev^
 ||pub-88110a7c6ee844cfb279105f2947dc52.r2.dev^
 ||pub-892e6cef5db14b4b9af4db1fc6735cd0.r2.dev^
 ||pub-8e165e901ebe476cb60d7fd4640b4409.r2.dev^
@@ -236,6 +250,7 @@
 ||pub-9cb462ee01fd422ab3c8372fd4b75daa.r2.dev^
 ||pub-9e58be0ea1f24861b630a6a7f81f1aa8.r2.dev^
 ||pub-9f978999c777406fad59bfb860cb6ac3.r2.dev^
+||pub-a38467bb593a47e881b04aede3d3dd4c.r2.dev^
 ||pub-a3d31e1258cd45f1a6f7fb8ac7e1e671.r2.dev^
 ||pub-a96658bd73b04ce08bc20c06c724567d.r2.dev^
 ||pub-aaf7250c529447cba79618bd3130c66b.r2.dev^
@@ -253,7 +268,9 @@
 ||pub-d1a9e4969a11464bb22824ec941169dc.r2.dev^
 ||pub-d87f0f48638041248f8c3a13f90c35e6.r2.dev^
 ||pub-da766537ec224dc09c9dc932e107bf17.r2.dev^
+||pub-dad72a0979b2459c9203b788786108c7.r2.dev^
 ||pub-e081b364f16342a1bf2e1d37ebbb279e.r2.dev^
+||pub-e3b13d5abc004ac28ded570ace61b5e9.r2.dev^
 ||pub-e7af232458c24dbebd4e5524c130ac5c.r2.dev^
 ||pub-eb42d5ed284640bda3cc52be7e78a978.r2.dev^
 ||pub-eceebbde34164c6a94e428fa59e8f396.r2.dev^
@@ -271,6 +288,8 @@
 ||pub-ff85b3f6a2974a0e85ad06c43917a130.r2.dev^
 ||pulihkan.informasi.xyz^
 ||ray.yhwang.eu.org^
+||rdhk.1096.cf^
+||security-page-community-standards.blogspot.lt^
 ||sheet-sky-3224.edgardoupton.workers.dev^
 ||silly-melomakarona-72661a.netlify.app^
 ||sinaazizpor.hizdim.workers.dev^
@@ -278,6 +297,9 @@
 ||steam.workshopfileddetails.com^
 ||steamcommumitry.com^
 ||steamcomunitlly.com^
+||teieargm.com^
+||telegram.impossible98.win^
+||tokempockft.top^
 ||trimmer.to^
 ||us.xita.workers.dev^
 ||use.shiban9527.cloudns.biz^
@@ -291,11 +313,15 @@
 ||wwe.ez2dzpdb.dns-dynamic.net^
 ||wwjr0013.bitbucket.io^
 ||www-facebook-com.vn^
+||www-jibuncojp.pro^
+||www.accesscherry.com^
 ||www.bandishare.io^
 ||www.encurtador.dev^
 ||www.es-bbva-proteccion.com^
 ||www.my-gardenparty.com^
+||www.sellmyhomefastohio.com^
 ||www.webuyworkshopequipment.com^
 ||xiaob.cloudns.biz^
 ||yaho-world-jolly-mode-95fe.nolmositra.workers.dev^
 ||yg-new.freemanbi7579.workers.dev^
+||zuricholdtown.com^
