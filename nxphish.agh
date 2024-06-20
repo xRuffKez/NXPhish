@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718870866
-# Database Hash: a24fb8fccf82a5ba440cfe243e2bf54f7df1b713
-# Generated at: 2024-06-20 08:07:46
-# Number of domains: 255
+# Version: 1718877959
+# Database Hash: ae283ea1e60b01bbcfae50e948bd8ae1a3cbfc61
+# Generated at: 2024-06-20 10:05:59
+# Number of domains: 254
 # Last 10 TLD counts:
 # dev: 114
-# com: 30
-# io: 9
+# com: 28
+# io: 10
 # app: 6
 # eu: 5
-# link: 4
 # mk: 4
+# link: 4
 # cy: 3
-# dk: 3
-# nl: 3
+# ug: 3
+# de: 3
 ||1kb.link^
 ||34564-coinbase.com^
 ||apple-oficial.com^
@@ -24,9 +24,7 @@
 ||bafybeigcouhnbnqy6w7pjkne3ncencdgyo4gdhkki3l2sywwjyzheqhto4.ipfs.dweb.link^
 ||bafybeihhyil2rbmgrs2kp65qtbjkiwjv7v3waho5vym65hdbp6cvzy5uza.ipfs.cf-ipfs.com^
 ||barclayschat-livehelp.com^
-||bbtt.booqable.store^
 ||booking.hotel-37387.com^
-||booking.vierfijedlogin.com^
 ||call.sanaweb.workers.dev^
 ||ccorreos.life^
 ||cf.jjiu.top^
@@ -40,9 +38,11 @@
 ||courageous-dusk-06tre9.netlify.app^
 ||creative-twilight-29trce.netlify.app^
 ||discord.372776363.workers.dev^
+||disneyplus.lillbjorkensbyggeri.se^
 ||eliseotermeit.eu^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||enter-nftsmint.web.app^
+||ertgheh55234.anakembok.de^
 ||facebook.check-protect-account.me^
 ||facebooksecuritys.blogspot.mk^
 ||files.emailmeform.com^
@@ -79,7 +79,7 @@
 ||instagramprofiileurl.blogspot.ug^
 ||ipfs.io^
 ||m0ezk.shop^
-||mdrew7967.activehosted.com^
+||maeitamicklogins.gitbook.io^
 ||meittasmaskwalletrs.gitbook.io^
 ||member-ourtime.valley-assign.workers.dev^
 ||messagriesfrorg0338802541075.yolasite.com^
@@ -254,7 +254,6 @@
 ||svo.guru^
 ||use.shiban9527.cloudns.biz^
 ||verify-office-outlook.com^
-||vl.xingmel.top^
 ||votingforpalestainers.blogspot.com^
 ||wk.448836.xyz^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
