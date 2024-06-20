@@ -1,22 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718842980
-# Database Hash: bf5abe3599473382740f7f037109afb098484b0e
-# Generated at: 2024-06-20 00:23:00
-# Number of domains: 310
+# Version: 1718849867
+# Database Hash: 85ab9e510f27bbf650098e0ccf28fa2c53571906
+# Generated at: 2024-06-20 02:17:47
+# Number of domains: 303
 # Last 10 TLD counts:
-# dev: 135
+# dev: 133
 # com: 38
 # io: 13
-# app: 9
 # top: 9
+# app: 9
 # eu: 6
-# ug: 4
-# mk: 4
-# xyz: 4
 # id: 4
+# mk: 4
+# ug: 4
+# xyz: 3
 ||34564-coinbase.com^
-||818yg.knowitall.wiki^
 ||alynmarketinggroup.com^
 ||ant.jormmy.top^
 ||apple-oficial.com^
@@ -24,7 +23,6 @@
 ||audit-anomaly-reports.netlify.app^
 ||autoiothiatowers.firebaseapp.com^
 ||bafybeiai24pydgismg4s26kzb7usmp6bcbxccikqufjxqceru4ok7ed2ra.ipfs.dweb.link^
-||bafybeialomciiihr2v2bznftf4fwb5o5b3lxzel6sckpvpx2imvjsv5ede.ipfs.dweb.link^
 ||bafybeigcouhnbnqy6w7pjkne3ncencdgyo4gdhkki3l2sywwjyzheqhto4.ipfs.dweb.link^
 ||bafybeihhyil2rbmgrs2kp65qtbjkiwjv7v3waho5vym65hdbp6cvzy5uza.ipfs.cf-ipfs.com^
 ||barclayschat-livehelp.com^
@@ -61,9 +59,7 @@
 ||facebooksecuritys.blogspot.no^
 ||find-my-apple.com^
 ||fjfjhfigguffkitrrff.blogspot.com^
-||fnxx.info^
 ||galihdanratna.anakembok.de^
-||gateway.crustgateway.online^
 ||get-windows-replaced.today^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
@@ -101,7 +97,6 @@
 ||ipfs.io^
 ||jasvasomappmnoetxz.khamarid95.workers.dev^
 ||killwall.dbsjacky.workers.dev^
-||m-facebookk.xyz^
 ||m0ezk.shop^
 ||mail.dxnacspaylllater.sitepay.biz.id^
 ||mdrew7967.activehosted.com^
@@ -164,7 +159,6 @@
 ||metaweborg.blogspot.com^
 ||metmsklegn.gitbook.io^
 ||micr0soft-login-now.rywepomo.workers.dev^
-||microsoft-copilot-porxy.1807744634.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
 ||mitamusk-logen.gitbook.io^
 ||morvariiiiiid.maxxis-edison.workers.dev^
@@ -261,7 +255,6 @@
 ||pub-b4c2008e832a425fb1d4769acece9da2.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
 ||pub-bcbf1611790a40b8893295a926394c80.r2.dev^
-||pub-c44474e8133d4fddbf151f6624ad1a44.r2.dev^
 ||pub-c808132868b74a96badd12203353a957.r2.dev^
 ||pub-c8dc8d57c6e24653a737a5acb81893ee.r2.dev^
 ||pub-ca22a10ffb7349aca30da700c49a0d87.r2.dev^
