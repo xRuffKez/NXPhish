@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718993252
-# Database Hash: 983e959dfcbf61649aea153b49392943d7d8b766
-# Generated at: 2024-06-21 18:07:32
-# Number of domains: 245
+# Version: 1719000404
+# Database Hash: db1c5926257fccf42682d49b767aafe3bba1294e
+# Generated at: 2024-06-21 20:06:44
+# Number of domains: 248
 # Last 10 TLD counts:
 # dev: 60
-# com: 34
+# com: 38
 # io: 13
 # link: 13
 # app: 10
 # today: 6
-# id: 5
-# ug: 4
 # mk: 4
-# cy: 3
+# id: 4
+# ug: 4
+# nl: 3
 ||48519283-86de-4ef6-9db2-7be27af47c73.htmlcomponentservice.com^
 ||4hia5wm7.aaizaiz.me^
 ||abud-7c60.ratynrkeo.workers.dev^
@@ -54,7 +54,6 @@
 ||decentralizedprotocolapp.web.app^
 ||dfdgf46567567.blogspot.co.za^
 ||disneyplus.lillbjorkensbyggeri.se^
-||dty1k.asd6t.my.id^
 ||dulcet-sundae-eafb61.netlify.app^
 ||eklch2xdgaskq2ah.000webhostapp.com^
 ||elqanas-netflix-clone.firebaseapp.com^
@@ -161,7 +160,7 @@
 ||metamaskinc.blogspot.sk^
 ||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
-||metamaskpplogin.gitbook.io^
+||metamasmklogin.gitbook.io^
 ||metamasskluginn.blogspot.is^
 ||metamskleogn.gitbook.io^
 ||metaxmask-llogin.gitbook.io^
@@ -219,16 +218,19 @@
 ||sage-axolotl-81cf4f.netlify.app^
 ||santander-kunde.info^
 ||secure-us.blogspot.com^
+||securewebmail-outlookwebapp-28279a.netlify.app^
 ||sfjdutdtugoea.blogspot.com^
-||sleepnbeauty.app^
 ||spotify-clone31.netlify.app^
 ||steamaccountrepairs.com^
+||steamcommumitry.com^
 ||sumydeko.blogspot.com.au^
 ||supportpalest.blogspot.com^
 ||swisscome.blogspot.hk^
 ||swisscome.blogspot.li^
+||telegramgu.com^
 ||tesdan.anakdara9.art^
 ||test.chm852098505.workers.dev^
+||texerda.blogspot.com^
 ||text1.welcome525.workers.dev^
 ||tight-thunder-0b41.ourtimee-pregs.workers.dev^
 ||tokenpbmket.com^
@@ -258,5 +260,6 @@
 ||www.is.gd^
 ||www.magicbath.co.in^
 ||www.metamask.bond^
+||www.telegrampw.com^
 ||yg-101.huvista.cloudns.biz^
 ||zen-goodall-8f8dc9.netlify.app^
