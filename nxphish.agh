@@ -1,24 +1,25 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718964372
-# Database Hash: 9eed6119225c157d3a270197fdb09f581e1f433b
-# Generated at: 2024-06-21 10:06:12
-# Number of domains: 268
+# Version: 1718971714
+# Database Hash: d01efe56f9a149db10169a98997730e7ed4ff22b
+# Generated at: 2024-06-21 12:08:34
+# Number of domains: 289
 # Last 10 TLD counts:
-# dev: 77
-# com: 28
-# app: 13
+# dev: 80
+# com: 31
+# app: 17
+# io: 15
 # link: 12
-# io: 11
+# eu: 6
+# net: 6
 # today: 6
-# eu: 5
-# cy: 5
 # ug: 5
-# top: 4
+# cy: 5
 ||a5.oyzb.link^
 ||abud-7c60.ratynrkeo.workers.dev^
 ||akbarinewv2.morteza638n.workers.dev^
 ||aktavasi-paylater-dana.update-informasi-2024.my.id^
+||allegromore.com^
 ||aolmaiillogin.blogspot.co.id^
 ||apple-oficial.com^
 ||ar-inv-linkedin.com^
@@ -40,6 +41,7 @@
 ||camilonu3.blogspot.com.cy^
 ||canus-aude.netlify.app^
 ||case-noti614778671562.meetaafacebook.com^
+||cdn.designer-images.net^
 ||cf.chatopen.link^
 ||cf.jjiu.top^
 ||cf11088.368211.xyz^
@@ -58,8 +60,11 @@
 ||complaint.hotel-43012.eu^
 ||creative-twilight-29trce.netlify.app^
 ||dazzling-monstera-31trf3.netlify.app^
+||decentralizedprotocolapp.web.app^
 ||dfdgf46567567.blogspot.co.za^
 ||dlwk.cccalan.workers.dev^
+||dty1k.asd6t.my.id^
+||dulcet-sundae-eafb61.netlify.app^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||enter-nftsmint.web.app^
 ||facebook-bm888.com^
@@ -71,6 +76,8 @@
 ||facebooksecuritys.blogspot.ug^
 ||falv1ca-f1v21a-ebf226-bk34s12.netlify.app^
 ||find-my-apple.com^
+||findspins.com^
+||gemini-logau.gitbook.io^
 ||get-windows-replaced.today^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
@@ -105,14 +112,18 @@
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
 ||ipfs.io^
+||jaygolakwokss.blogspot.com^
 ||limingle.xyz^
 ||livewalletconnect.blogspot.pe^
+||login2portal-access.click^
 ||loginx-robinhoodx.blogspot.md^
 ||loon1.spitz1jwq-7df.workers.dev^
 ||m0ezk.shop^
 ||mall.amzshoessale.com^
+||mattamssk-loggin.gitbook.io^
 ||meittasmaskwalletrs.gitbook.io^
 ||memekombat-in.web.app^
+||meta-musk-log.gitbook.io^
 ||metamask-loxgin.gitbook.io^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.am^
@@ -170,6 +181,7 @@
 ||metamaskinc.blogspot.sk^
 ||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
+||metamaskpplogin.gitbook.io^
 ||metamassklogin-2.gitbook.io^
 ||metamasskluginn.blogspot.hr^
 ||metamasskluginn.blogspot.pe^
@@ -203,6 +215,7 @@
 ||pub-26156386d0f54a95aea30594f13fbc44.r2.dev^
 ||pub-2fad846527d7473aa1d1ed2a45595d9d.r2.dev^
 ||pub-34ae76b320c445628f3e2bca4a192394.r2.dev^
+||pub-3822b9b75ede41ae96f6d2707fe5572b.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
 ||pub-4c0ab1497fef4aad8bf16b461a3853ed.r2.dev^
 ||pub-5287bb05bc8149adadd508ff20a600e4.r2.dev^
@@ -231,6 +244,7 @@
 ||pub-c808132868b74a96badd12203353a957.r2.dev^
 ||pub-d87f0f48638041248f8c3a13f90c35e6.r2.dev^
 ||pub-e081b364f16342a1bf2e1d37ebbb279e.r2.dev^
+||pub-e0c25eaff08d41d18558dbbf4f2f71d4.r2.dev^
 ||pub-e603387d42fb4510ad8991f5520e1668.r2.dev^
 ||pub-f262d09145624a2f9f56872191585d4f.r2.dev^
 ||pub-f3a335c3131047a7a157d355c61847fa.r2.dev^
@@ -244,6 +258,7 @@
 ||sheet-sky-3224.edgardoupton.workers.dev^
 ||silly-melomakarona-72661a.netlify.app^
 ||sinaazizpor.hizdim.workers.dev^
+||sleepnbeauty.app^
 ||spotify-clone31.netlify.app^
 ||srecmconmmunnltly.com^
 ||sss.free-0400.dns-dynamic.net^
@@ -251,6 +266,7 @@
 ||steamaccountrepairs.com^
 ||swisscome.blogspot.li^
 ||test.chm852098505.workers.dev^
+||tight-thunder-0b41.ourtimee-pregs.workers.dev^
 ||tokenpanket.com^
 ||tokenpbmket.com^
 ||twitch-tv-gift.ru^
@@ -260,6 +276,7 @@
 ||userviceps.blogspot.fr^
 ||usex.dcstjy.top^
 ||verify-office-outlook.com^
+||visitor602937.eu^
 ||vpns.sasykho8.workers.dev^
 ||vv.guyun.link^
 ||windows-estimates.today^
@@ -273,13 +290,17 @@
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||worker-shy-dew.wrytd.workers.dev^
 ||worker-spring-voice-bc0c.eveliaherschelman904.workers.dev^
+||wvw-facebookk.xyz^
 ||wwe.ez2dzpdb.dns-dynamic.net^
+||wwe.ryehfd.dns-dynamic.net^
 ||wwjr0013.bitbucket.io^
 ||www-facebook-com.vn^
 ||www.ama889.vip^
 ||www.bandishare.io^
 ||www.es-bbva-proteccion.com^
 ||www.is.gd^
+||www.metamask.bond^
 ||xiaob.cloudns.biz^
 ||yg-101.huvista.cloudns.biz^
 ||yg.lfvps.eu.org^
+||zen-goodall-8f8dc9.netlify.app^
