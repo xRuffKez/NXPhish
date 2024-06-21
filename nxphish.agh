@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1718936269
-# Database Hash: 3c7a6b02c0bfe77d6573feff77357bb152326446
-# Generated at: 2024-06-21 02:17:49
-# Number of domains: 330
+# Version: 1718942820
+# Database Hash: fa72e94dc5f82d64ea7a4778bb1313fad814ff95
+# Generated at: 2024-06-21 04:07:00
+# Number of domains: 339
 # Last 10 TLD counts:
 # dev: 106
-# com: 45
+# com: 47
 # link: 23
 # app: 13
 # io: 12
 # eu: 6
+# today: 6
 # cy: 5
-# co: 4
-# mk: 4
 # net: 4
+# ug: 4
 ||1010.facbook.eu.org^
 ||51x7.cfd^
 ||a5.oyzb.link^
@@ -70,6 +70,7 @@
 ||chat.convercatioon.workers.dev^
 ||checking23z.blogspot.com^
 ||chimerical-sunshine-bc1682.netlify.app^
+||citrix-productq1.shop^
 ||claim-dana-hadiah0471.fbzsa.com^
 ||claim-hadiah-dana0145.fbzsa.com^
 ||classvers.xichenova.workers.dev^
@@ -91,6 +92,7 @@
 ||eklch2xdgaskq2ah.000webhostapp.com^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||enter-nftsmint.web.app^
+||facebook-bm888.com^
 ||facebook.check-protect-account.me^
 ||facebooksecurity.blogspot.com.cy^
 ||facebooksecuritys.blogspot.al^
@@ -296,6 +298,7 @@
 ||ri53rd.firebaseapp.com^
 ||roundcube0004.web.app^
 ||sage-axolotl-81cf4f.netlify.app^
+||santander-kunde.info^
 ||security-ads-team-cfc7a.firebaseapp.com^
 ||sheet-sky-3224.edgardoupton.workers.dev^
 ||sinaazizpor.hizdim.workers.dev^
@@ -303,6 +306,7 @@
 ||spotify-clone31.netlify.app^
 ||srecmconmmunnltly.com^
 ||sss.free-0400.dns-dynamic.net^
+||steamaccountrepairs.com^
 ||sumydeko.blogspot.bg^
 ||sumydeko.blogspot.co.uk^
 ||sumydeko.blogspot.com^
@@ -327,6 +331,11 @@
 ||vldtbnbdatosinvitado.com^
 ||votter-to.top^
 ||vv.guyun.link^
+||windows-estimates.today^
+||windows-installation.today^
+||windows-replacement-contractors.today^
+||windows-replacement.today^
+||windows-residential.today^
 ||wk.zpaper.top^
 ||wlp.wangkj.asia^
 ||worker-floral-dust-8de3.testeruhggt.workers.dev^
