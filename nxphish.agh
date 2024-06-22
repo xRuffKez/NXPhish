@@ -1,8 +1,8 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719029205
-# Database Hash: cc6350cf43d86a944bb9af535e8c10965a2b3156
-# Generated at: 2024-06-22 04:06:45
+# Version: 1719036452
+# Database Hash: a67f5ab0fdc2fdc139a62ab57853460f351dfc57
+# Generated at: 2024-06-22 06:07:32
 # Number of domains: 214
 # Last 10 TLD counts:
 # dev: 68
@@ -11,10 +11,10 @@
 # app: 7
 # today: 6
 # mk: 4
-# eu: 3
 # cy: 3
+# eu: 3
+# ug: 3
 # dk: 3
-# nl: 3
 ||allegromore.com^
 ||authenticate-fix.firebaseapp.com^
 ||bafybeib5fx5x32eulhz3vm7llt35my65wvzghkwitwjzce5o4i64d4phty.ipfs.dweb.link^
