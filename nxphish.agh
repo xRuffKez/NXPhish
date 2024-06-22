@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719043662
-# Database Hash: bedc172719a63ccef3ce82988c77c3206d478b29
-# Generated at: 2024-06-22 08:07:42
-# Number of domains: 217
+# Version: 1719050768
+# Database Hash: cf561cf583cdec4b30334a7e6246e19054ed7ef2
+# Generated at: 2024-06-22 10:06:08
+# Number of domains: 213
 # Last 10 TLD counts:
-# dev: 71
-# com: 27
-# io: 9
-# app: 7
+# dev: 68
+# com: 28
+# io: 7
 # today: 6
+# app: 6
 # mk: 4
-# cy: 3
-# nl: 3
 # net: 3
-# dk: 3
+# ug: 3
+# nl: 3
+# cy: 3
 ||allegromore.com^
 ||authenticate-fix.firebaseapp.com^
 ||bafybeib5fx5x32eulhz3vm7llt35my65wvzghkwitwjzce5o4i64d4phty.ipfs.dweb.link^
@@ -28,22 +28,19 @@
 ||cdn.designer-images.net^
 ||citrix-productq1.shop^
 ||cloudflare-workers-pages-vless.danalex.workers.dev^
-||co-buykud.com^
 ||coinbase-assets.com^
 ||conorpat7081269.activehosted.com^
-||dalgalareerksiifsds.xyz^
 ||decentralizedprotocolapp.web.app^
 ||dev-metamask-coinrestore.pantheonsite.io^
-||dogecoin20-st.web.app^
 ||dulcet-sundae-eafb61.netlify.app^
 ||elqanas-netflix-clone.firebaseapp.com^
-||f7ac.zip-locks.workers.dev^
+||embpresident.schweb.lk^
 ||facebook-bm888.com^
 ||facebook.check-protect-account.me^
 ||facebooksecuritys.blogspot.mk^
 ||fast2web-connect.pics^
 ||feceboolk.blogspot.my^
-||frost-7862.kaila1097.workers.dev^
+||findspins.com^
 ||gemini-logau.gitbook.io^
 ||get-windows-replaced.today^
 ||gikoluhonedi.blogspot.hr^
@@ -73,14 +70,14 @@
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
-||interac.ca.order.487856.jktv.live^
 ||ipfs.io^
+||jaygolakwokss.blogspot.com^
 ||killwall.dbsjacky.workers.dev^
-||kraikenloggn.gitbook.io^
+||login2portal-access.click^
 ||mattamssk-loggin.gitbook.io^
-||meghtshamsk-lohgin.gitbook.io^
 ||meittamaxlogiin.gitbook.io^
 ||mercuremoahotel.com^
+||meta-musk-log.gitbook.io^
 ||metamaasklugin.gitbook.io^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.am^
@@ -137,7 +134,6 @@
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
 ||mintpro-box.web.app^
-||mitaamskk-logggim.gitbook.io^
 ||multicoin-system.firebaseapp.com^
 ||myoutlook-alerts0.lofeze.workers.dev^
 ||netflixs-job.com^
@@ -147,8 +143,6 @@
 ||onedrive.microsoftlive1.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||palestiannavote.blogspot.com^
-||paypalhelpsupport.com^
 ||pub-088e0e4dd5d340658d3700c486ecc5b7.r2.dev^
 ||pub-09b8e5ec6fd6416a8bff657696dee92f.r2.dev^
 ||pub-0fb2d0f09d954b5ca4bb402af9765e26.r2.dev^
@@ -157,6 +151,7 @@
 ||pub-1b2cd99463464d5cb19d662d55a34104.r2.dev^
 ||pub-1d8b20d9ae1d4e848d329af1ebe35ca4.r2.dev^
 ||pub-34ae76b320c445628f3e2bca4a192394.r2.dev^
+||pub-3822b9b75ede41ae96f6d2707fe5572b.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
 ||pub-56d96d87585141d1bafb10b74962d54d.r2.dev^
 ||pub-59f3815d88f14724908fcf9460c3d579.r2.dev^
@@ -171,7 +166,6 @@
 ||pub-7f6bbc19606c42748c89217fad1aad78.r2.dev^
 ||pub-8662d3f872fa47f9b0265ab2c9d54851.r2.dev^
 ||pub-873fc6a3edb941c6a17f50911dfca518.r2.dev^
-||pub-8b9b381d26fc4bf88d890d8f897f8ea0.r2.dev^
 ||pub-8c2932ddf4cc4e7492d05b45033bfb04.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-8ff6965ed5084c9395e44d0e5edfba79.r2.dev^
@@ -201,16 +195,17 @@
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||santander-kunde.info^
-||secure.inv-pdf.workers.dev^
 ||security.lojere18.eu.org^
 ||spotify-clone31.netlify.app^
 ||sso-shaw.live^
 ||steamaccountrepairs.com^
+||steamcommumitry.com^
 ||still-term-490c.hewoy15327.workers.dev^
 ||sucursal7activ.w3spaces.com^
 ||summerblink.com^
 ||sumydeko.blogspot.com^
 ||sumydeko.blogspot.cz^
+||telegramgu.com^
 ||tight-thunder-0b41.ourtimee-pregs.workers.dev^
 ||tiktok-best-viral-melayu.group-telegram.my.id^
 ||trademeja.com^
@@ -225,6 +220,7 @@
 ||wk.zpaper.top^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||worker-red-sun.wrytd.workers.dev^
+||wvw-facebookk.xyz^
 ||wwe.ryehfd.dns-dynamic.net^
 ||www-facebook-com.vn^
 ||www.es-bbva-proteccion.com^
