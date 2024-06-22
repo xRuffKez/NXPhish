@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719015733
-# Database Hash: 0f56e545f20794ebd6502b3a65b2515a953fad51
-# Generated at: 2024-06-22 00:22:13
-# Number of domains: 171
+# Version: 1719022640
+# Database Hash: d7468e83e17398f44829b0f4b24b42ee9c7f36e2
+# Generated at: 2024-06-22 02:17:20
+# Number of domains: 172
 # Last 10 TLD counts:
-# dev: 44
-# com: 23
-# io: 7
-# today: 6
+# dev: 47
+# com: 20
+# io: 8
 # app: 6
+# today: 6
 # link: 5
 # cy: 4
-# dk: 3
 # ug: 3
 # mk: 3
+# nl: 3
 ||allegromore.com^
 ||authenticate-fix.firebaseapp.com^
 ||bafybeiaej6ccbl2daj4td7327oo7isi5ipodnbcx5xuujcrgrxmjlqdjk4.ipfs.dweb.link^
@@ -32,17 +32,21 @@
 ||citrix-productq1.shop^
 ||clickvideohothotwww.blogspot.com.cy^
 ||cloudflare-workers-pages-vless.danalex.workers.dev^
+||co-buykud.com^
 ||coinbase-assets.com^
 ||complaint-17338.eu^
+||dalgalareerksiifsds.xyz^
 ||decentralizedprotocolapp.web.app^
 ||dev-metamask-coinrestore.pantheonsite.io^
+||dogecoin20-st.web.app^
 ||dulcet-sundae-eafb61.netlify.app^
 ||elqanas-netflix-clone.firebaseapp.com^
+||f7ac.zip-locks.workers.dev^
 ||facebook-bm888.com^
 ||facebook.check-protect-account.me^
 ||facebooksecuritys.blogspot.mk^
 ||fast2web-connect.pics^
-||findspins.com^
+||frost-7862.kaila1097.workers.dev^
 ||gemini-logau.gitbook.io^
 ||get-windows-replaced.today^
 ||google-jobsoffer7655.pages.dev^
@@ -68,12 +72,12 @@
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
+||interac.ca.order.487856.jktv.live^
 ||ipfs.io^
-||jaygolakwokss.blogspot.com^
-||login2portal-access.click^
+||kraikenloggn.gitbook.io^
 ||mattamssk-loggin.gitbook.io^
+||meghtshamsk-lohgin.gitbook.io^
 ||meittamaxlogiin.gitbook.io^
-||meta-musk-log.gitbook.io^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.am^
 ||metamask-wallett.blogspot.ba^
@@ -121,10 +125,10 @@
 ||metamaskinc.blogspot.sk^
 ||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
-||metamasmklogin.gitbook.io^
 ||metamasskluginn.blogspot.gr^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
+||mitaamskk-logggim.gitbook.io^
 ||myoutlook-alerts0.lofeze.workers.dev^
 ||netflixs-job.com^
 ||netflixs-task.com^
@@ -132,10 +136,11 @@
 ||onedrive.microsoftlive1.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
+||palestiannavote.blogspot.com^
+||paypalhelpsupport.com^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-15d0b61e949f4b1ba837a8cf663864dc.r2.dev^
 ||pub-1b2cd99463464d5cb19d662d55a34104.r2.dev^
-||pub-3822b9b75ede41ae96f6d2707fe5572b.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
 ||pub-56d96d87585141d1bafb10b74962d54d.r2.dev^
 ||pub-59f3815d88f14724908fcf9460c3d579.r2.dev^
@@ -145,6 +150,7 @@
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-7d35bd045205438b985be38f19d3320b.r2.dev^
 ||pub-7f6bbc19606c42748c89217fad1aad78.r2.dev^
+||pub-8b9b381d26fc4bf88d890d8f897f8ea0.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-8ff6965ed5084c9395e44d0e5edfba79.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
@@ -163,14 +169,11 @@
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||santander-kunde.info^
-||securewebmail-outlookwebapp-28279a.netlify.app^
+||secure.inv-pdf.workers.dev^
 ||spotify-clone31.netlify.app^
 ||sso-shaw.live^
 ||steamaccountrepairs.com^
-||steamcommumitry.com^
 ||summerblink.com^
-||telegramgu.com^
-||texerda.blogspot.com^
 ||tight-thunder-0b41.ourtimee-pregs.workers.dev^
 ||verify-office-outlook.com^
 ||visitor602937.eu^
@@ -180,9 +183,7 @@
 ||windows-replacement.today^
 ||windows-residential.today^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
-||wvw-facebookk.xyz^
 ||wwe.ryehfd.dns-dynamic.net^
 ||www.es-bbva-proteccion.com^
 ||www.metamask.bond^
-||www.telegrampw.com^
 ||zen-goodall-8f8dc9.netlify.app^
