@@ -1,35 +1,47 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719008155
-# Database Hash: 5692b65e89626578593fee8654dd9ea961b1211a
-# Generated at: 2024-06-21 22:15:55
-# Number of domains: 142
+# Version: 1719015733
+# Database Hash: 0f56e545f20794ebd6502b3a65b2515a953fad51
+# Generated at: 2024-06-22 00:22:13
+# Number of domains: 171
 # Last 10 TLD counts:
-# dev: 30
-# com: 18
-# app: 6
+# dev: 44
+# com: 23
+# io: 7
 # today: 6
-# io: 5
+# app: 6
+# link: 5
 # cy: 4
 # dk: 3
-# link: 3
-# mk: 3
 # ug: 3
+# mk: 3
 ||allegromore.com^
+||authenticate-fix.firebaseapp.com^
 ||bafybeiaej6ccbl2daj4td7327oo7isi5ipodnbcx5xuujcrgrxmjlqdjk4.ipfs.dweb.link^
 ||bafybeiaxxrkx4kgvmy7e7yooovv4bbsrblfhenebdd2o6te6synkdiimni.ipfs.dweb.link^
+||bafybeib5fx5x32eulhz3vm7llt35my65wvzghkwitwjzce5o4i64d4phty.ipfs.dweb.link^
+||bafybeigetwjqz26or3og65klvf2oefze44ct4oukkncojpcb5wocbc6x7a.ipfs.dweb.link^
 ||bafybeignc2ejmcnx7443s7erkrsvs4nec24zf3zil5j2ad7pbx3akmddna.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
+||booking.access2net-quick.homes^
+||booking.access2net-quick.shop^
+||booking.fast2web-connect.pics^
+||booking.hotelid-173847.com^
+||booking.idhotel-291823.com^
 ||cdn.designer-images.net^
 ||citrix-productq1.shop^
 ||clickvideohothotwww.blogspot.com.cy^
+||cloudflare-workers-pages-vless.danalex.workers.dev^
 ||coinbase-assets.com^
+||complaint-17338.eu^
 ||decentralizedprotocolapp.web.app^
+||dev-metamask-coinrestore.pantheonsite.io^
 ||dulcet-sundae-eafb61.netlify.app^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||facebook-bm888.com^
 ||facebook.check-protect-account.me^
 ||facebooksecuritys.blogspot.mk^
+||fast2web-connect.pics^
 ||findspins.com^
 ||gemini-logau.gitbook.io^
 ||get-windows-replaced.today^
@@ -60,6 +72,7 @@
 ||jaygolakwokss.blogspot.com^
 ||login2portal-access.click^
 ||mattamssk-loggin.gitbook.io^
+||meittamaxlogiin.gitbook.io^
 ||meta-musk-log.gitbook.io^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.am^
@@ -115,31 +128,47 @@
 ||myoutlook-alerts0.lofeze.workers.dev^
 ||netflixs-job.com^
 ||netflixs-task.com^
+||omanpornvideorealvip.real-vvip.com^
 ||onedrive.microsoftlive1.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
+||pub-15d0b61e949f4b1ba837a8cf663864dc.r2.dev^
+||pub-1b2cd99463464d5cb19d662d55a34104.r2.dev^
 ||pub-3822b9b75ede41ae96f6d2707fe5572b.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
+||pub-56d96d87585141d1bafb10b74962d54d.r2.dev^
+||pub-59f3815d88f14724908fcf9460c3d579.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-5c211e39d961437091110f7e2231d955.r2.dev^
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
+||pub-7d35bd045205438b985be38f19d3320b.r2.dev^
+||pub-7f6bbc19606c42748c89217fad1aad78.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
+||pub-8ff6965ed5084c9395e44d0e5edfba79.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
+||pub-a7c48054614f4e3c9ee304ba9fc1ea25.r2.dev^
+||pub-ac99e90cc3fb49b68a88e889a91072fd.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
 ||pub-bfa996da206341bf95ad2ae06c6571cc.r2.dev^
+||pub-c596c4508c974decb7ae668ecd24b7f7.r2.dev^
+||pub-cc99663696dc4aafb18a60ba78e8e18e.r2.dev^
+||pub-ced63b7b99dc4dd882b4e84eacc3e732.r2.dev^
 ||pub-e0c25eaff08d41d18558dbbf4f2f71d4.r2.dev^
 ||pub-e4d6d22fe1174b81a4ca91746362819f.r2.dev^
 ||pub-f3a335c3131047a7a157d355c61847fa.r2.dev^
+||pub-f6514dd3aa3d44b1b0582408e57005f3.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||santander-kunde.info^
 ||securewebmail-outlookwebapp-28279a.netlify.app^
 ||spotify-clone31.netlify.app^
+||sso-shaw.live^
 ||steamaccountrepairs.com^
 ||steamcommumitry.com^
+||summerblink.com^
 ||telegramgu.com^
 ||texerda.blogspot.com^
 ||tight-thunder-0b41.ourtimee-pregs.workers.dev^
