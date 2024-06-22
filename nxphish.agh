@@ -1,8 +1,8 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719058072
-# Database Hash: 8ef12a09018d0c55f2e24a54fc41478affebffd2
-# Generated at: 2024-06-22 12:07:52
+# Version: 1719065156
+# Database Hash: 6c257acf60505cc7fea4ffc9f68733d16bedc444
+# Generated at: 2024-06-22 14:05:56
 # Number of domains: 292
 # Last 10 TLD counts:
 # dev: 80
@@ -11,10 +11,10 @@
 # io: 12
 # app: 7
 # today: 6
+# br: 4
+# rs: 4
 # id: 4
 # ee: 4
-# rs: 4
-# br: 4
 ||1015.molsa.cn^
 ||818xg.chumeng.link^
 ||activa-sucursal.blogspot.com^
