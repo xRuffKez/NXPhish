@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719158765
-# Database Hash: 7d9f200b471b97886c3df6bf9f06fee51c8c2ee4
-# Generated at: 2024-06-23 16:06:05
-# Number of domains: 170
+# Version: 1719165985
+# Database Hash: e4a3ecb26b5eafbfccbff296d09fb751aa985e83
+# Generated at: 2024-06-23 18:06:25
+# Number of domains: 172
 # Last 10 TLD counts:
 # dev: 42
-# com: 23
+# com: 25
 # app: 10
 # today: 6
 # eu: 5
 # io: 5
 # mk: 4
+# cy: 3
 # nl: 3
 # ug: 3
-# dk: 3
 ||887256.com^
 ||aiifasgaisfii.wiki^
 ||allegromore.com^
@@ -26,6 +26,7 @@
 ||coinbase-assets.com^
 ||complaint.visitor37199.eu^
 ||decentralizedprotocolapp.web.app^
+||dropboxsharefileview00101.activehosted.com^
 ||dulcet-sundae-eafb61.netlify.app^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||embpresident.schweb.lk^
@@ -126,6 +127,7 @@
 ||myoutlook-alerts0.lofeze.workers.dev^
 ||n2406221552229423.diaonima.asia^
 ||netflixesdynamic.000webhostapp.com^
+||netflixfreerecharge07.blogspot.com^
 ||netflixs-job.com^
 ||netflixs-task.com^
 ||onedrive.microsoftlive1.workers.dev^
