@@ -1,19 +1,19 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719122846
-# Database Hash: 0e451ea773b8b2977a4fc3e17fc9eb7f5a3fdd24
-# Generated at: 2024-06-23 06:07:26
-# Number of domains: 166
+# Version: 1719129997
+# Database Hash: 88723f4e71fa564b737759cad545911c191397f4
+# Generated at: 2024-06-23 08:06:37
+# Number of domains: 165
 # Last 10 TLD counts:
-# dev: 42
-# com: 23
-# today: 6
+# dev: 43
+# com: 22
 # app: 6
+# today: 6
 # eu: 5
 # nl: 3
-# io: 3
 # dk: 3
-# mk: 3
+# net: 3
+# io: 3
 # cy: 3
 ||0918.yongliang.tk^
 ||allegromore.com^
@@ -23,7 +23,6 @@
 ||booking.hotel-43294.eu^
 ||cdn.designer-images.net^
 ||citrix-productq1.shop^
-||claim-hadia-dana62920.fbzsa.com^
 ||coinbase-assets.com^
 ||complaint.visitor229182.eu^
 ||complete-signing13295.eu^
@@ -38,7 +37,6 @@
 ||facebooksecuritys.blogspot.mk^
 ||fb.com-case0927.me^
 ||findspins.com^
-||form-dna-log-idx-news.xv-site-v1.my.id^
 ||gemini-logau.gitbook.io^
 ||get-windows-replaced.today^
 ||google-jobsoffer7655.pages.dev^
@@ -130,6 +128,7 @@
 ||onedrive.microsoftlive1.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||palestinevoteingd.blogspot.com^
+||pub-028eca4f9d2e4dbb932d44013f976a40.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-151b42f43d0c49ffa6a5525cf23f3a67.r2.dev^
 ||pub-1936b1d3ad084d3db021f7b5754f052d.r2.dev^
