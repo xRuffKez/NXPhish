@@ -1,22 +1,22 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719252416
-# Database Hash: df1f9bd89a142a22d613af58c46de10236e4c6e3
-# Generated at: 2024-06-24 18:06:56
-# Number of domains: 300
+# Version: 1719259566
+# Database Hash: 6c99b69f5f5e83a1091107a56010fb0e19aef78b
+# Generated at: 2024-06-24 20:06:06
+# Number of domains: 291
 # Last 10 TLD counts:
-# dev: 88
-# com: 60
-# app: 19
-# io: 14
+# dev: 85
+# com: 57
+# app: 18
+# io: 13
 # today: 6
 # net: 5
 # mk: 4
-# art: 3
-# nl: 3
+# link: 3
 # ug: 3
+# vip: 3
+||a.prakashfutures.com^
 ||aatikabintishujaa.blogspot.com^
-||admin-verif182b9.com^
 ||aktifkan-dana-paylater.anakdara9.art^
 ||allegromore.com^
 ||amazon-us.kcloudx.workers.dev^
@@ -24,7 +24,6 @@
 ||apple--music.com^
 ||apple-music.vip^
 ||authenticate-fix.firebaseapp.com^
-||authenticatefixdapp.firebaseapp.com^
 ||autoiothiatowers.firebaseapp.com^
 ||baeeventsscotland.com^
 ||bafybeib5fx5x32eulhz3vm7llt35my65wvzghkwitwjzce5o4i64d4phty.ipfs.dweb.link^
@@ -34,7 +33,6 @@
 ||booking.fast2web-connect.pics^
 ||booking.secure8361.com^
 ||business-community-cd9688s5.netlify.app^
-||businesssocialweb.com^
 ||cache.netflix.com.kr.ryo.biz.id^
 ||case-noti614778671562.meetaafacebook.com^
 ||cbusepruologen.gitbook.io^
@@ -47,6 +45,7 @@
 ||cloudflare-workers-pages-vless.danalex.workers.dev^
 ||co-buykud.com^
 ||coinbase-assets.com^
+||complaint.hotel-60129.com^
 ||decentralizedprotocolapp.web.app^
 ||dev-metamask-coinrestore.pantheonsite.io^
 ||dev-vanilabid.pantheonsite.io^
@@ -59,7 +58,6 @@
 ||ebay67.cc^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||embpresident.schweb.lk^
-||exchanges-skin.kraftonevent.com^
 ||facebook-bm888.com^
 ||facebook.check-protect-account.me^
 ||facebooksecuritys.blogspot.mk^
@@ -102,7 +100,6 @@
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
-||interflon-tradingcompanyllc.com^
 ||investors.spotify.com.kr.ryo.biz.id^
 ||ipfs.io^
 ||iridescent-lily-16tr59.netlify.app^
@@ -113,8 +110,8 @@
 ||ldpulihh-danaa.plcte.com^
 ||limited.kraftonevent.com^
 ||login2portal-access.click^
+||logn-live-shared.query41.workers.dev^
 ||mattamssk-loggin.gitbook.io^
-||matter-legal-issue-activtiytw.web.app^
 ||meittamaxlogiin.gitbook.io^
 ||meta-musk-log.gitbook.io^
 ||metamask-wallett.blogspot.al^
@@ -252,7 +249,6 @@
 ||pub-9ee42db8121548b18dd215b5524c7cba.r2.dev^
 ||pub-a7c48054614f4e3c9ee304ba9fc1ea25.r2.dev^
 ||pub-a81aa4bbf83846b8a892985d5bbc3a6f.r2.dev^
-||pub-aaadb567b6be4640bbf2dd4d150827ab.r2.dev^
 ||pub-ac99e90cc3fb49b68a88e889a91072fd.r2.dev^
 ||pub-ae4fe17ee30b46fc8f4bfb4dc7194bdf.r2.dev^
 ||pub-b08aeee4e2bd44a9ab6da15a07f61d39.r2.dev^
@@ -266,16 +262,13 @@
 ||pub-e30c8214b84448878c528442b22412c3.r2.dev^
 ||pub-f3a335c3131047a7a157d355c61847fa.r2.dev^
 ||pub-f6514dd3aa3d44b1b0582408e57005f3.r2.dev^
-||pub-f748e0193d3f480bad08b8a9dc99c73e.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||refined-city-purring.on-fleek.app^
 ||refnetkenya.com^
-||robbinhod-loggin.gitbook.io^
 ||s.yam.com^
 ||santander-kunde.info^
 ||server.h3pf.com^
-||silent-scene-7f66.asaa-ua.workers.dev^
 ||skype.aliusaf.com^
 ||small-dawn-443d.layajox934.workers.dev^
 ||spotify-clone31.netlify.app^
@@ -301,7 +294,6 @@
 ||windows-replacement-contractors.today^
 ||windows-replacement.today^
 ||windows-residential.today^
-||worker-lively-firefly-f8c4.xoharey104.workers.dev^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||wwe.ryehfd.dns-dynamic.net^
 ||www-facebook-com.vn^
@@ -312,6 +304,5 @@
 ||www.fapil.fr^
 ||www.metamask.bond^
 ||xiazaiapp.wallet9.app^
-||yummyulo.blogspot.co.za^
 ||zen-goodall-8f8dc9.netlify.app^
 ||zesty-bonbon-id4964-b932665.netlify.app^
