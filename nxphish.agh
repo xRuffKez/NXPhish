@@ -1,22 +1,24 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719195548
-# Database Hash: d532166ad19244f6cc5658c51fd60f7c9015a703
-# Generated at: 2024-06-24 02:19:08
-# Number of domains: 166
+# Version: 1719202031
+# Database Hash: fe13ef8c429d7da658dd5a90a93c51c1a6379756
+# Generated at: 2024-06-24 04:07:11
+# Number of domains: 170
 # Last 10 TLD counts:
 # dev: 45
-# com: 23
+# com: 26
 # io: 7
 # today: 6
 # app: 5
 # mk: 4
 # dk: 3
-# nl: 3
 # ug: 3
+# nl: 3
 # cy: 3
 ||allegromore.com^
+||apple--music.com^
 ||apple-auths.com^
+||apple-music.vip^
 ||authenticate-fix.firebaseapp.com^
 ||bafybeib5fx5x32eulhz3vm7llt35my65wvzghkwitwjzce5o4i64d4phty.ipfs.dweb.link^
 ||bafybeigetwjqz26or3og65klvf2oefze44ct4oukkncojpcb5wocbc6x7a.ipfs.dweb.link^
@@ -120,6 +122,7 @@
 ||metamaskinc.blogspot.sk^
 ||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
+||metamasktop.com^
 ||metamhaskklogin.gitbook.io^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
@@ -178,6 +181,7 @@
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||wwe.ryehfd.dns-dynamic.net^
 ||www-facebook-com.vn^
+||www.apple.com^
 ||www.es-bbva-proteccion.com^
 ||www.metamask.bond^
 ||zen-goodall-8f8dc9.netlify.app^
