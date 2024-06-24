@@ -1,8 +1,8 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719202031
-# Database Hash: fe13ef8c429d7da658dd5a90a93c51c1a6379756
-# Generated at: 2024-06-24 04:07:11
+# Version: 1719209274
+# Database Hash: 7aeaaf5db62ac86b346e103987c8d63dfb07d1b1
+# Generated at: 2024-06-24 06:07:54
 # Number of domains: 170
 # Last 10 TLD counts:
 # dev: 45
@@ -12,9 +12,9 @@
 # app: 5
 # mk: 4
 # dk: 3
-# ug: 3
-# nl: 3
 # cy: 3
+# nl: 3
+# ug: 3
 ||allegromore.com^
 ||apple--music.com^
 ||apple-auths.com^
