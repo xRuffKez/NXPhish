@@ -1,31 +1,37 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719188928
-# Database Hash: fa1575c57c054b61b092ec1229365756abd26df1
-# Generated at: 2024-06-24 00:28:48
-# Number of domains: 157
+# Version: 1719195548
+# Database Hash: d532166ad19244f6cc5658c51fd60f7c9015a703
+# Generated at: 2024-06-24 02:19:08
+# Number of domains: 166
 # Last 10 TLD counts:
-# dev: 43
-# com: 19
+# dev: 45
+# com: 23
+# io: 7
 # today: 6
-# io: 5
 # app: 5
 # mk: 4
+# dk: 3
 # nl: 3
-# net: 3
-# cy: 3
 # ug: 3
+# cy: 3
 ||allegromore.com^
+||apple-auths.com^
+||authenticate-fix.firebaseapp.com^
+||bafybeib5fx5x32eulhz3vm7llt35my65wvzghkwitwjzce5o4i64d4phty.ipfs.dweb.link^
+||bafybeigetwjqz26or3og65klvf2oefze44ct4oukkncojpcb5wocbc6x7a.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
+||booking.fast2web-connect.pics^
 ||case-noti614778671562.meetaafacebook.com^
 ||cdn.designer-images.net^
 ||citrix-productq1.shop^
+||cloudflare-workers-pages-vless.danalex.workers.dev^
+||co-buykud.com^
 ||coinbase-assets.com^
 ||complaint.hotel-50682.com^
 ||decentralizedprotocolapp.web.app^
-||dev-461444444446444.pantheonsite.io^
+||dev-metamask-coinrestore.pantheonsite.io^
 ||dulcet-sundae-eafb61.netlify.app^
-||ebay67.cc^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||embpresident.schweb.lk^
 ||facebook-bm888.com^
@@ -58,10 +64,10 @@
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
 ||ipfs.io^
-||jaygansolwoks.blogspot.com^
 ||jaygolakwokss.blogspot.com^
 ||login2portal-access.click^
 ||mattamssk-loggin.gitbook.io^
+||meittamaxlogiin.gitbook.io^
 ||meta-musk-log.gitbook.io^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.am^
@@ -114,48 +120,52 @@
 ||metamaskinc.blogspot.sk^
 ||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
+||metamhaskklogin.gitbook.io^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||microsoftsolutions-upgrade.devin3r-c22.workers.dev^
 ||myoutlook-alerts0.lofeze.workers.dev^
 ||netflixs-job.com^
 ||netflixs-task.com^
+||omanpornvideorealvip.real-vvip.com^
 ||onedrive.microsoftlive1.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||pub-0d37f32ce00942e09e06244e2c2042d5.r2.dev^
+||paypalhelpsupport.com^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
-||pub-26c27b235d494adca5cb267c04ef254a.r2.dev^
+||pub-15d0b61e949f4b1ba837a8cf663864dc.r2.dev^
+||pub-1b2cd99463464d5cb19d662d55a34104.r2.dev^
 ||pub-2947c4e236f3444eaa99d5e8be0d9437.r2.dev^
-||pub-2edc96b3f8b94367bd9d7cd7d42f37ab.r2.dev^
 ||pub-34ae76b320c445628f3e2bca4a192394.r2.dev^
 ||pub-3822b9b75ede41ae96f6d2707fe5572b.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
+||pub-56d96d87585141d1bafb10b74962d54d.r2.dev^
+||pub-59f3815d88f14724908fcf9460c3d579.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
-||pub-699e84f217f5423c837b00ebdb05ca69.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
+||pub-7d35bd045205438b985be38f19d3320b.r2.dev^
+||pub-7f6bbc19606c42748c89217fad1aad78.r2.dev^
 ||pub-8bc2c8a117ed4c20bf3f63b1de20b0f4.r2.dev^
-||pub-8c2932ddf4cc4e7492d05b45033bfb04.r2.dev^
-||pub-8e3e0d6fe7c4429e975f087ebb16d878.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
-||pub-984030b6e52744f79aa3379f90ae8229.r2.dev^
+||pub-8ff6965ed5084c9395e44d0e5edfba79.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
-||pub-9ebecf90769441d5af9bc30fd5a509a5.r2.dev^
-||pub-b788f6c4e7604883b62e7ebfdd7d5420.r2.dev^
+||pub-a7c48054614f4e3c9ee304ba9fc1ea25.r2.dev^
+||pub-ac99e90cc3fb49b68a88e889a91072fd.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
-||pub-ba5a046c69974217b0431bca4ba43740.r2.dev^
-||pub-c39b6dbdc91e4d408986dd58bcdeb19f.r2.dev^
-||pub-d36c1bc4d5284e12aa4539bb9825e69e.r2.dev^
+||pub-c596c4508c974decb7ae668ecd24b7f7.r2.dev^
+||pub-cc99663696dc4aafb18a60ba78e8e18e.r2.dev^
+||pub-ced63b7b99dc4dd882b4e84eacc3e732.r2.dev^
 ||pub-e0c25eaff08d41d18558dbbf4f2f71d4.r2.dev^
 ||pub-f3a335c3131047a7a157d355c61847fa.r2.dev^
+||pub-f6514dd3aa3d44b1b0582408e57005f3.r2.dev^
 ||pub-f89610a0d5fc46ef83eff97ec7a2c74d.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||santander-kunde.info^
-||security-help-center-16d99.firebaseapp.com^
 ||spotify-clone31.netlify.app^
 ||steamcommumitry.com^
+||summerblink.com^
 ||telegramgu.com^
 ||tight-thunder-0b41.ourtimee-pregs.workers.dev^
 ||verify-office-outlook.com^
@@ -168,7 +178,6 @@
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||wwe.ryehfd.dns-dynamic.net^
 ||www-facebook-com.vn^
-||www.allegroaixkxmuatap.net^
 ||www.es-bbva-proteccion.com^
 ||www.metamask.bond^
 ||zen-goodall-8f8dc9.netlify.app^
