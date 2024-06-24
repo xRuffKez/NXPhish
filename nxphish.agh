@@ -1,35 +1,39 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719216480
-# Database Hash: bc2ad239eb6d97d565c32114ba5bf88c1f7390c6
-# Generated at: 2024-06-24 08:08:00
-# Number of domains: 237
+# Version: 1719223620
+# Database Hash: ebf4218e15994218e22a739d4a7833355226f08e
+# Generated at: 2024-06-24 10:07:00
+# Number of domains: 264
 # Last 10 TLD counts:
-# dev: 69
-# com: 34
+# dev: 81
+# com: 41
+# app: 11
 # io: 11
-# app: 9
 # eu: 8
 # today: 6
-# xyz: 4
+# net: 5
 # ug: 4
-# asia: 4
 # mk: 4
+# asia: 4
 ||1111.5acb.sbs^
 ||aanmeldpuntflv-24.xyz^
+||aatikabintishujaa.blogspot.com^
 ||aktiv-push.app^
 ||allegromore.com^
+||amazontejas.netlify.app^
 ||apple--music.com^
-||apple-auths.com^
 ||apple-music.vip^
 ||authenticate-fix.firebaseapp.com^
 ||bafybeib5fx5x32eulhz3vm7llt35my65wvzghkwitwjzce5o4i64d4phty.ipfs.dweb.link^
 ||bafybeigetwjqz26or3og65klvf2oefze44ct4oukkncojpcb5wocbc6x7a.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
+||bitly.cx^
 ||booking.ecuktraknet.com^
 ||booking.fast2web-connect.pics^
 ||booking.prepotry5256.com^
+||booking.secure8361.com^
 ||cdn.designer-images.net^
+||charityhome037.blogspot.com^
 ||citrix-productq1.shop^
 ||cloudflare-workers-pages-vless.danalex.workers.dev^
 ||co-buykud.com^
@@ -39,8 +43,10 @@
 ||decentralizedprotocolapp.web.app^
 ||dev-metamask-coinrestore.pantheonsite.io^
 ||dgdfgd2345454.blogspot.com^
+||document2-be2c0.firebaseapp.com^
 ||dulcet-sundae-eafb61.netlify.app^
 ||duoys-brars-hrauently.yolasite.com^
+||ebay67.cc^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||embpresident.schweb.lk^
 ||extrextanet-hotel16315.eu^
@@ -50,6 +56,8 @@
 ||findspins.com^
 ||gemini-logau.gitbook.io^
 ||get-windows-replaced.today^
+||ggb.llopwhsfag.dns-dynamic.net^
+||goodteasesbloggingwebsite.blogspot.com^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
 ||h2nbk7.xyz^
@@ -61,6 +69,7 @@
 ||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
+||hto29.vip^
 ||id.chatt.workers.dev^
 ||info-bancosantander-app.com^
 ||instagram-ro.blogspot.ug^
@@ -83,6 +92,7 @@
 ||investors.spotify.com.kr.ryo.biz.id^
 ||ipfs.io^
 ||jaygolakwokss.blogspot.com^
+||late-tooth.granzinhannah.workers.dev^
 ||login2portal-access.click^
 ||matemascskven.gitbook.io^
 ||mattamssk-loggin.gitbook.io^
@@ -151,33 +161,43 @@
 ||nathan.qnfh.info^
 ||netflixs-job.com^
 ||netflixs-task.com^
+||ols.kiujdyt5ga.dns-dynamic.net^
 ||omanpornvideorealvip.real-vvip.com^
 ||onedrive.microsoftlive1.workers.dev^
+||opensea-package.firebaseapp.com^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
+||pay.pagamentosvirtualbrasil2.com^
 ||paypalhelpsupport.com^
+||pub-008c560686bd44e3904523af46e9d22b.r2.dev^
 ||pub-01473a91ab104bf0a0dc34369aee0957.r2.dev^
 ||pub-052b47a671f0418093368444ba49732f.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
+||pub-12085eb3af1144e88e8859dea0809473.r2.dev^
 ||pub-15d0b61e949f4b1ba837a8cf663864dc.r2.dev^
 ||pub-1a6be78383a449d8a5cc40e8bc7f3fdb.r2.dev^
 ||pub-1b2cd99463464d5cb19d662d55a34104.r2.dev^
 ||pub-215e6422b0bb4f4ca003961b652ae466.r2.dev^
 ||pub-21beea42d44e4f0e83b5336b9ac3900a.r2.dev^
 ||pub-2683e2a469ba4d69be32aba80b9872d7.r2.dev^
+||pub-26c27b235d494adca5cb267c04ef254a.r2.dev^
+||pub-27d68c1ce3c54457be3711ce2233c509.r2.dev^
 ||pub-2947c4e236f3444eaa99d5e8be0d9437.r2.dev^
 ||pub-34ae76b320c445628f3e2bca4a192394.r2.dev^
 ||pub-3822b9b75ede41ae96f6d2707fe5572b.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
+||pub-4fcd017d40984b478f0c76818159fa4d.r2.dev^
 ||pub-56d96d87585141d1bafb10b74962d54d.r2.dev^
 ||pub-59f3815d88f14724908fcf9460c3d579.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
+||pub-6485cce88b5c4997b9c9c7ac57a0867f.r2.dev^
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-6d8db2febbd04ec7b452db2422cc18df.r2.dev^
 ||pub-6faf435cb5494687a0991f4bb3e75776.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-736b2e68b946471c8e8d50f4f3da1425.r2.dev^
 ||pub-783142150b6146fda36673e880e8d058.r2.dev^
+||pub-7aacccb1dcc74364914ea11649460a33.r2.dev^
 ||pub-7d35bd045205438b985be38f19d3320b.r2.dev^
 ||pub-7f6bbc19606c42748c89217fad1aad78.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
@@ -185,11 +205,14 @@
 ||pub-928ffaf37dd04d12b4e22eab0dc5391f.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
+||pub-9ebecf90769441d5af9bc30fd5a509a5.r2.dev^
 ||pub-a16297173b9f41efb0673a313849c551.r2.dev^
 ||pub-a7c48054614f4e3c9ee304ba9fc1ea25.r2.dev^
 ||pub-ac99e90cc3fb49b68a88e889a91072fd.r2.dev^
 ||pub-ae39ac8bf3cf4f919ba244e451378f38.r2.dev^
+||pub-ae4fe17ee30b46fc8f4bfb4dc7194bdf.r2.dev^
 ||pub-aebd43e191a44da0b6877cb3acdc80fb.r2.dev^
+||pub-b788f6c4e7604883b62e7ebfdd7d5420.r2.dev^
 ||pub-b7dce649ff3945a29748f31b287c1dff.r2.dev^
 ||pub-b97bc8a320084b3a8721b338e5f42e96.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
@@ -200,6 +223,7 @@
 ||pub-d99482a6cd354defb811ad7877f90aac.r2.dev^
 ||pub-e0c25eaff08d41d18558dbbf4f2f71d4.r2.dev^
 ||pub-e6243915c1bd4a7c89dbde8a9f0a8802.r2.dev^
+||pub-e7b486cba03943a3b5a8950d7617ff59.r2.dev^
 ||pub-e7be145935f648eaa59329583c5ab8b4.r2.dev^
 ||pub-f1abb18954ad4b48aa526035ec38d41f.r2.dev^
 ||pub-f3922f20d4c74ba1869fd3db906e3295.r2.dev^
@@ -210,11 +234,13 @@
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||pubgm.kraftonevent.com^
 ||qbr.ushorupt.com^
+||refined-city-purring.on-fleek.app^
 ||santander-kunde.info^
 ||shopamazon2.com^
 ||shopeecoins.blogspot.com^
 ||sif1av-kgrrex-kgriu1-qnv4az.netlify.app^
 ||spotify-clone31.netlify.app^
+||stceamconmmumnltly.com^
 ||steamcommumitry.com^
 ||summerblink.com^
 ||telegramgu.com^
@@ -250,5 +276,6 @@
 ||www.telegramhk.com^
 ||www.ting004.asia^
 ||www.trx005.asia^
+||xprepuestos.com.ar^
 ||yenib391.top^
 ||zen-goodall-8f8dc9.netlify.app^
