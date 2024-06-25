@@ -1,24 +1,23 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719274948
-# Database Hash: 2f1acd0b9b6fca15924aea1ebea09867081e6fcc
-# Generated at: 2024-06-25 00:22:28
-# Number of domains: 315
+# Version: 1719281910
+# Database Hash: 5ecc5f90db04bba8649bf3697b082b27d98f2a63
+# Generated at: 2024-06-25 02:18:30
+# Number of domains: 307
 # Last 10 TLD counts:
-# dev: 98
-# com: 67
-# app: 18
+# dev: 95
+# com: 64
+# app: 17
 # io: 14
 # today: 6
 # shop: 5
 # top: 4
 # nl: 4
-# net: 4
-# ru: 3
+# art: 3
+# dk: 3
 ||0892-coinbase.com^
 ||24thjunewin1.netlify.app^
 ||50183963-coinbase.com^
-||a.prakashfutures.com^
 ||a0991447.xsph.ru^
 ||aatikabintishujaa.blogspot.com^
 ||accessamerica-authfirstl0g.web.app^
@@ -54,7 +53,6 @@
 ||coinbase-assets.com^
 ||complaint.hotel-43077.eu^
 ||complaint.hotel-43894.eu^
-||complaint.hotel-60129.com^
 ||conlineteam.com^
 ||createcheckfor-kr-appeal.firebaseapp.com^
 ||decentralizedprotocolapp.web.app^
@@ -63,7 +61,6 @@
 ||directive-breach-messages.netlify.app^
 ||discord.misakamikoto.top^
 ||document2-be2c0.firebaseapp.com^
-||dohfp.aweys.net^
 ||dulcet-sundae-eafb61.netlify.app^
 ||ebay67.cc^
 ||elqanas-netflix-clone.firebaseapp.com^
@@ -123,7 +120,6 @@
 ||limited.kraftonevent.com^
 ||livelopromo.shop^
 ||login2portal-access.click^
-||logn-live-shared.query41.workers.dev^
 ||m.verryspcenter218.com^
 ||mails-aol-login-en-us-services-live.pixperfectit.com^
 ||materials.midasbuyplus.com^
@@ -197,12 +193,10 @@
 ||paypalhelpsupport.com^
 ||pemulihanakundanaa.anakdara9.art^
 ||play-google-slots.cc^
-||preeminent-bienenstitch-adtrcd.netlify.app^
 ||preventbnbcancelation.com^
 ||prismatic-strudel-9btr47.netlify.app^
 ||pub-008c560686bd44e3904523af46e9d22b.r2.dev^
 ||pub-042beab565ca415f95ad4dc390bd6f1a.r2.dev^
-||pub-0d3d4bae617d4c3a8d1c9e97fc3a4d8d.r2.dev^
 ||pub-0f129597b1c54dd9b9d80e64ad0fdb84.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-12085eb3af1144e88e8859dea0809473.r2.dev^
@@ -240,7 +234,6 @@
 ||pub-7e44371053d34827a5d5d444be9153a7.r2.dev^
 ||pub-7f6bbc19606c42748c89217fad1aad78.r2.dev^
 ||pub-847eddcd6c57475f8e2081a93bd3cda8.r2.dev^
-||pub-8c076fa8f7514964bc9c14079029e90e.r2.dev^
 ||pub-8e61166db1dc47df9dc29386e6392556.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-8ff6965ed5084c9395e44d0e5edfba79.r2.dev^
@@ -291,7 +284,6 @@
 ||supportt-f-bb-u-s-02.firebaseapp.com^
 ||supportt-f-bb-u-s-02.web.app^
 ||t-me-welcomenudes.ru^
-||takipcifox.com^
 ||tecnoplusonline.com.ar^
 ||teiegramk.com^
 ||telegramgu.com^
