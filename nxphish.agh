@@ -1,8 +1,8 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719331633
-# Database Hash: 765acc46140a620b74028bfe056c94985927b4b3
-# Generated at: 2024-06-25 16:07:13
+# Version: 1719338872
+# Database Hash: 74f506b745ed54248605b926f35755b1f4061967
+# Generated at: 2024-06-25 18:07:52
 # Number of domains: 231
 # Last 10 TLD counts:
 # dev: 71
@@ -12,9 +12,9 @@
 # today: 6
 # mk: 4
 # net: 4
-# nl: 3
-# dk: 3
 # ug: 3
+# dk: 3
+# id: 3
 ||0892-coinbase.com^
 ||50183963-coinbase.com^
 ||a0991447.xsph.ru^
