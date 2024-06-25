@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719302900
-# Database Hash: 5857f8404d4cd1ac0423b5169016d10ccfc9b64e
-# Generated at: 2024-06-25 08:08:20
-# Number of domains: 218
+# Version: 1719309989
+# Database Hash: 68f3a0bb90bdd72dfae3deb7ec0e76dded7cd1c4
+# Generated at: 2024-06-25 10:06:29
+# Number of domains: 213
 # Last 10 TLD counts:
-# dev: 67
-# com: 41
+# dev: 64
+# com: 40
 # app: 12
-# io: 11
+# io: 10
 # today: 6
-# net: 3
+# ug: 3
 # nl: 3
+# net: 3
 # ru: 3
-# top: 3
-# eu: 3
+# mk: 3
 ||0892-coinbase.com^
 ||50183963-coinbase.com^
 ||a0991447.xsph.ru^
@@ -42,7 +42,6 @@
 ||conveyancingportal.com^
 ||decentralizedprotocolapp.web.app^
 ||dev-metamask-coinrestore.pantheonsite.io^
-||dev-vanilabid.pantheonsite.io^
 ||directive-breach-messages.netlify.app^
 ||discord.misakamikoto.top^
 ||document2-be2c0.firebaseapp.com^
@@ -63,7 +62,6 @@
 ||google.cjysec.workers.dev^
 ||googlelive.icu^
 ||h2nbk7.xyz^
-||hello-world-hidden-wave-f1fa.26335442079873.workers.dev^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||home-clientes-gaiicia.site^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
@@ -166,7 +164,6 @@
 ||pub-59f3815d88f14724908fcf9460c3d579.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-6485cce88b5c4997b9c9c7ac57a0867f.r2.dev^
-||pub-6c245ff4202048aaad8d243486b1dfdc.r2.dev^
 ||pub-711d1f561a6b4533a774c3d5388dae32.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
 ||pub-7aacccb1dcc74364914ea11649460a33.r2.dev^
@@ -192,7 +189,6 @@
 ||pub-cc99663696dc4aafb18a60ba78e8e18e.r2.dev^
 ||pub-ced63b7b99dc4dd882b4e84eacc3e732.r2.dev^
 ||pub-e0c25eaff08d41d18558dbbf4f2f71d4.r2.dev^
-||pub-e30c8214b84448878c528442b22412c3.r2.dev^
 ||pub-f6514dd3aa3d44b1b0582408e57005f3.r2.dev^
 ||pub-f89610a0d5fc46ef83eff97ec7a2c74d.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
@@ -227,7 +223,6 @@
 ||wwe.ryehfd.dns-dynamic.net^
 ||www.accesscherry.com^
 ||www.apple.com^
-||www.colombiacraigslist11.com^
 ||www.metamask.bond^
 ||www.pncfinc.com^
 ||www.vilbuy.com^
