@@ -1,9 +1,9 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719403779
-# Database Hash: 907a2992a1948cb9197408f59cb51ee544cc5e58
-# Generated at: 2024-06-26 12:09:39
-# Number of domains: 337
+# Version: 1719410753
+# Database Hash: 91e5278068c751f9aa494c755d0536fd711c3616
+# Generated at: 2024-06-26 14:05:53
+# Number of domains: 338
 # Last 10 TLD counts:
 # dev: 123
 # com: 52
@@ -11,8 +11,8 @@
 # app: 15
 # eu: 7
 # today: 6
-# net: 5
 # link: 5
+# net: 5
 # shop: 5
 # cfd: 4
 ||0892-coinbase.com^
@@ -206,6 +206,7 @@
 ||penerima-danaa2.anakdara9.art^
 ||play-google-slots.cc^
 ||pool-mintnft.web.app^
+||promo-netfllx.club^
 ||pub-008c560686bd44e3904523af46e9d22b.r2.dev^
 ||pub-02289f87e8ce43fe8c47a86f49b0a533.r2.dev^
 ||pub-04836febb1fc46fca4a8c225ef7d2a38.r2.dev^
