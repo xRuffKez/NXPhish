@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719511599
-# Database Hash: a3536d8b3bad445d0e9083209f1b7d1ee9f79804
-# Generated at: 2024-06-27 18:06:39
-# Number of domains: 230
+# Version: 1719518769
+# Database Hash: 2a9949d2a4f5e75388f36eca1534fd318c23be08
+# Generated at: 2024-06-27 20:06:09
+# Number of domains: 234
 # Last 10 TLD counts:
-# dev: 69
-# com: 30
+# dev: 70
+# com: 31
 # io: 15
 # link: 12
-# id: 7
 # app: 7
-# top: 4
+# id: 7
+# top: 5
 # ug: 4
-# mk: 3
-# eu: 3
+# nl: 3
+# vip: 3
 ||0818.kelefeng.link^
 ||17dh07.com^
 ||account.midtrans.com.jp.ryo.biz.id^
@@ -22,6 +22,7 @@
 ||apple-traking.com^
 ||approving-coinbase.com^
 ||aradcofeenet1.aradcofeenet1.workers.dev^
+||arstmping003.web.app^
 ||axscdscvfdv-fvdfvdvfdvfvfv-6xxkr.ondigitalocean.app^
 ||bafybeia33cpofmebwylumg3anbxlt7ltkarjemgt422o4nketoskts2bpe.ipfs.dweb.link^
 ||bafybeic2yujfepevt3kaga2mswxfni7leg32xxdqt3d4rjiqy54jy3s7bi.ipfs.dweb.link^
@@ -58,6 +59,7 @@
 ||facebook.lojaseofertas.com^
 ||facebooksecuritys.blogspot.mk^
 ||fekertan.blogspot.com^
+||g7fy3.shop^
 ||gembualogin.gitbook.io^
 ||get-windows-replaced.today^
 ||gikoluhonedi.blogspot.fi^
@@ -71,6 +73,7 @@
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||hto45.vip^
 ||imtoken-etc.com^
+||imtoken-ne.top^
 ||imtoken-nh.top^
 ||imtoken-qe.one^
 ||imtokenb.com^
@@ -215,11 +218,10 @@
 ||pub-f6b9ef3dc806400887c2a514346820d7.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
-||push-hilfe.app^
 ||replacement-windows-near-you.bond^
 ||reservation.hotel-80314.eu^
 ||script.google.com^
-||sek20.shop^
+||slimhealth.us^
 ||spotify-clone31.netlify.app^
 ||sumydeko.blogspot.in^
 ||sweet-truth-af82.igtyitifweh.workers.dev^
@@ -227,11 +229,13 @@
 ||t0kocp2cket.top^
 ||test.sdfsdfsgbsdvsdvsv.workers.dev^
 ||tok2npo2kpt.top^
+||tokenpalket.com^
 ||tornado98freedom.taherim36.workers.dev^
 ||turkiyehsber219.xyz^
 ||verify-office-outlook.com^
 ||video-porn455785.blogspot.md^
 ||windows-replacement-nearby-389.today^
+||worker-orange-sun-ea26.zhangdee15.workers.dev^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||worker-wandering-smoke-4513.denesemattlincbex-w-6-5-25.workers.dev^
 ||www-facebook-com.vn^
