@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719590800
-# Database Hash: 252c20b567064e4f02bf24fac461d5e78ac5673d
-# Generated at: 2024-06-28 16:06:40
-# Number of domains: 316
+# Version: 1719598042
+# Database Hash: be3cc504b8b9ea69b4f62448b6f9dd0629053aea
+# Generated at: 2024-06-28 18:07:22
+# Number of domains: 313
 # Last 10 TLD counts:
-# dev: 90
-# com: 47
+# dev: 89
+# com: 46
 # io: 27
 # link: 15
 # app: 12
-# top: 10
+# top: 9
 # shop: 6
 # xyz: 5
-# ug: 4
 # mk: 4
+# ug: 4
 ||0818.kelefeng.link^
 ||17dh07.com^
 ||4v.banwagonghost.net^
@@ -98,7 +98,6 @@
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||i8uuh.shop^
 ||id-apple.click^
-||imtoken-ne.top^
 ||imtoken-nh.top^
 ||imtoken-qc.one^
 ||imtoken-qe.one^
@@ -212,7 +211,6 @@
 ||od.polatojegeq2.workers.dev^
 ||onedrive.microsoftlive1.workers.dev^
 ||ourtime-cdn.datings-idn.workers.dev^
-||ourtime.datings-cloud.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||pay-on-opensea.gitbook.io^
@@ -304,7 +302,6 @@
 ||throbbing-queen-9a16.cxxc.workers.dev^
 ||tmagic.powerinside.tk^
 ||tok2npo2kpt.top^
-||tokenpalket.com^
 ||trustwallet-dai.web.app^
 ||twint.buzz^
 ||upholdcomlogins.gitbook.io^
