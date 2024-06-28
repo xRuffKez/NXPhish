@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719554878
-# Database Hash: e0098a20d428225df24d00b41d650e8344d840e2
-# Generated at: 2024-06-28 06:07:58
-# Number of domains: 263
+# Version: 1719562430
+# Database Hash: e5e756ff6300c12eb89c47c4c188bd20c1954bb7
+# Generated at: 2024-06-28 08:13:50
+# Number of domains: 162
 # Last 10 TLD counts:
-# dev: 88
-# com: 31
-# link: 13
-# io: 12
-# top: 7
-# de: 6
-# app: 6
-# ug: 4
-# shop: 4
+# dev: 41
+# com: 17
+# link: 11
+# io: 4
 # mk: 4
+# ug: 4
+# top: 4
+# app: 3
+# nl: 3
+# cy: 3
 ||0818.kelefeng.link^
 ||17dh07.com^
 ||5468-coinbase.com^
@@ -27,57 +27,29 @@
 ||bafybeifevzdzqlffdkezpnwjtpshofqgpenrefedtmcc3q7tfeujtj2qyq.ipfs.dweb.link^
 ||bafybeifkmymv3s6duhxxakhk5vebghyoerxbm72mhpqhsazvdqq7gcmpiy.ipfs.dweb.link^
 ||bafybeifvsjs3mqura4qkbyr4vcl4sid7ewtwyxehvq3a6f6yervsngpqp4.ipfs.dweb.link^
-||bafybeigueh3nk3mmcoe5yr3n37iizmiblgw6gxwo6tpoq2oygkr5z4hsgm.ipfs.w3s.link^
 ||bafybeihzus6c4egogjb25ghuoyulrnwmnlimik5wvmdtycrrqvhrqavpwq.ipfs.dweb.link^
 ||bagherpour.com^
 ||barclayschat-livehelp.com^
 ||bimkilo28.blogspot.li^
 ||bimkilo28.blogspot.ug^
-||booking.offer345731.shop^
-||c9ww4.shop^
 ||case-noti614778671562.meetaafacebook.com^
-||ccounbseprologue.gitbook.io^
-||cf-ipfs.com^
 ||cf.cfly0476.workers.dev^
 ||cf.jensenge.workers.dev^
 ||cf.wentian.workers.dev^
-||chunlee.store^
-||ciplest.anakembok.de^
-||clone-netflix.netlify.app^
 ||cloudflare01.lihom22lihom22.workers.dev^
 ||coinbase-assets.com^
-||crome--metamaskk-help.gitbook.io^
-||dainty-biscotti-990baf.netlify.app^
-||de-dhl-track.cc^
-||dermafluid.de^
-||discord.truefar.workers.dev^
-||dmarket.comortelis.com^
-||ebaycom.top^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||facebook.check-protect-account.me^
 ||facebooksecuritys.blogspot.mk^
-||fan.erli.eu.org^
-||fekertan.blogspot.com^
 ||get-windows-replaced.today^
-||getconfirmationid.com^
 ||gikoluhonedi.blogspot.fi^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
-||google.com^
-||h4wn3.shop^
-||hello-world-late-base-5bb0.ahmadvatani67.workers.dev^
-||hello-world-muddy-frost-aaab.hoseindarnk7.workers.dev^
 ||hello-world-royal.queenaili.workers.dev^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
-||hello-world-winter-tooth-b199.lakkodirta.workers.dev^
-||help-fb.fb244.click^
-||hotel-591027.eu^
-||hotel-complaint952815.eu^
 ||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
-||hto45.vip^
-||id-apple.click^
 ||imtoken-nh.top^
 ||imtoken-qe.one^
 ||imtokenb.com^
@@ -98,18 +70,11 @@
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
-||inusualinteriorismo.com^
 ||ipfs.io^
 ||j9dd3.shop^
-||justc1ck.cdsconstructionservices.workers.dev^
-||justc1iiclk.cdsconstructionservices.workers.dev^
-||keurr-mcliaofy-kluobly.yolasite.com^
 ||ldaget-ld.pictte.com^
-||mail.yttx.akuanakmamah.de^
-||mateimasik-login.gitbook.io^
+||matemas-kwalllit.gitbook.io^
 ||matumasklogin.gitbook.io^
-||metamaiisklogein.gitbook.io^
-||metamaosklgin.gitbook.io^
 ||metamask-wallett.blogspot.al^
 ||metamask-wallett.blogspot.am^
 ||metamask-wallett.blogspot.ba^
@@ -164,117 +129,51 @@
 ||metamaskinc.blogspot.sk^
 ||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
-||metamaskkloggiinnn.gitbook.io^
-||metamesklogg.gitbook.io^
-||metamisk-logix.gitbook.io^
 ||metasakmwallet.gitbook.io^
 ||micr0soft-login-now.rywepomo.workers.dev^
-||microsoft-copilot-porxy.lovjyu.workers.dev^
 ||mj.black6577.workers.dev^
-||moiitamsklogin.gitbook.io^
 ||myoutlook-alerts0.lofeze.workers.dev^
-||net24login.com^
 ||netflixs-job.com^
 ||netflixs-task.com^
-||nikaoapsomtainidaev.t3et5qm7.workers.dev^
 ||notcoingivewayi.top^
-||officesoftnew.realtimesharepoint.workers.dev^
-||one.link^
 ||onedrive.microsoftlive1.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||pages-facebook-verif.go-midfer.com^
-||pay.kiwify.com.br^
-||pgp-nwipinwaf.cosixe6193.workers.dev^
-||projectspotifybyanilmeena.freewebhostmost.com^
-||promo-netfllx.club^
 ||prosess-claimm-bshadiah.bpomri-cs.xyz^
-||pub-01bdbf8de69b4f43bd79471820b70760.r2.dev^
-||pub-01d7f9df34b245c9877bc00c12149560.r2.dev^
-||pub-0ed5a1f263894eab8341e034994e9627.r2.dev^
-||pub-0f9c926c063d4b3d9889bb88535b80b3.r2.dev^
+||pub-082b4f0e49914620991d91d041239f8f.r2.dev^
 ||pub-11a96ef055be46e582083021168dcb72.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
 ||pub-2fc77195cf584ce8a57a128ca6fc6317.r2.dev^
-||pub-3424228f58ac440c9523afb01100ed68.r2.dev^
 ||pub-34ae76b320c445628f3e2bca4a192394.r2.dev^
 ||pub-38db564309474be6ab4246cec0aaa027.r2.dev^
-||pub-3a7b7ca4ea944c9180e188aad1408d36.r2.dev^
-||pub-3effac6d23f2413a9d96aee720182902.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
-||pub-4d91c26a627e4db3b594b3b029651df0.r2.dev^
-||pub-502474bc7aed47108fb22f94d1f1ad41.r2.dev^
-||pub-529eadd53e464b79a8e42aaf8c437ef2.r2.dev^
+||pub-4d0a115db8fb4f15a6bf3059fadf5ec9.r2.dev^
 ||pub-52e14e9b8cf84e48885151652cfe94bd.r2.dev^
-||pub-5537a9d77c064a0099b3040a09577445.r2.dev^
-||pub-56536c4c85894b68af18f31f792de0b5.r2.dev^
-||pub-578040898e97448fab462cfa3f671292.r2.dev^
-||pub-5984fc6299ba445c9db7b6cacf61b227.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
-||pub-606ae465ae6543a4a6f9f5ba82186af6.r2.dev^
+||pub-65fa584a342c4e68a06813f06305a0e2.r2.dev^
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
-||pub-6d8db2febbd04ec7b452db2422cc18df.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
-||pub-7ac1647c9c7c47bd9bcd47ccb1147540.r2.dev^
-||pub-7c532146682542b09155ee7cf10be237.r2.dev^
-||pub-879871612ca142959804d328fad0a538.r2.dev^
-||pub-88d5ca909af945ed978343d19a7d435f.r2.dev^
-||pub-8900102e86d14baa8aa72ab424da2634.r2.dev^
-||pub-8b61ad4cb0674663a2e4dd1b222ecb7b.r2.dev^
-||pub-8bb2af2b13cd4e2d90a81254aea0d169.r2.dev^
-||pub-8cc4fdf972304092b2aa97a68f50cd88.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
-||pub-8f5a3a8c87734158b0a4e77d9e747500.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
-||pub-ab9522f1c3a9451fb5bf68fa1c6bcfca.r2.dev^
-||pub-b08cf417828946e7aaa1a51805e57275.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
-||pub-bfe1345fe8cd44409e886d6caf7edc40.r2.dev^
-||pub-c3b980d52bd146d2bd031f659e17fd7b.r2.dev^
-||pub-c9be3a27381e45eca3eea38660277e57.r2.dev^
-||pub-cece57d8d2864d24b41d6f56ef2fee01.r2.dev^
-||pub-d2d454e4dd7148c7a4853027dc2aa965.r2.dev^
-||pub-d55459157ebb42a9815eb5a80662b7e8.r2.dev^
-||pub-dc33361244e44a62b5f0dce5a67f4ae7.r2.dev^
 ||pub-f3a335c3131047a7a157d355c61847fa.r2.dev^
-||pub-f7c4e07e581b476e9fb4f4b237e77a89.r2.dev^
-||pub-f89166a1cb7b47178292e3aaf0ee81b5.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
-||resolvepr-trustact.web.app^
-||rfv.bqavsfwkefhlwe.dns-dynamic.net^
-||s2of6gbqxs.free.hr^
-||scgakbisa.anakembok.de^
-||sdrnj35tujr6t.blogspot.bg^
+||rondoc-b7ce.lvauayt.workers.dev^
 ||spotify-clone31.netlify.app^
-||steaemcoonmmunnltly.com^
-||steelblue-mule-ar0jwjzgjps7xxvo.builder-preview.com^
-||sumur55ujyye655.anakembok.de^
 ||sweet-truth-af82.igtyitifweh.workers.dev^
 ||t0kenpoekct.com^
 ||t0kocp2cket.top^
-||techcomm.docusgn-sharedviaoffic3.workers.dev^
 ||tok2npo2kpt.top^
-||tokempockpt.top^
 ||verify-office-outlook.com^
 ||video-porn455785.blogspot.md^
-||white-sun-0346.0ffice365-authmail.workers.dev^
+||visitor99281.eu^
 ||windows-replacement-near-me-389.today^
-||worker-aliggggg.farnazmonsef1.workers.dev^
-||worker-holy-resonance-bd1d.serds5551.workers.dev^
+||worker-lingering-frost-51ba.mhmdy000918.workers.dev^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||worker-wandering-smoke-4513.denesemattlincbex-w-6-5-25.workers.dev^
-||worker-winter-voice-2d98.mlzfuyun.workers.dev^
 ||www-facebook-com.vn^
 ||www.es-bbva-proteccion.com^
-||www.f997.sbs^
 ||www.htu14.vip^
-||www.id-facebook.com^
-||www.ln.run^
 ||www.telegramkp.com^
-||www.youkonew.anakembok.de^
-||x-play.pubgxbest.com^
-||xform-dna-log-vx.resmi-v1.biz.id^
-||y0ur0ffice-65.docusgn-sharedviaoffic3.workers.dev^
-||yenib403.top^
