@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719684367
-# Database Hash: 734adc7a97214e9ba69fe8332583e236babe842f
-# Generated at: 2024-06-29 18:06:07
-# Number of domains: 286
+# Version: 1719691584
+# Database Hash: 2b49ba9c8037a54b4418097e57a00b15b6f512df
+# Generated at: 2024-06-29 20:06:24
+# Number of domains: 292
 # Last 10 TLD counts:
-# dev: 88
-# com: 44
+# dev: 92
+# com: 45
 # io: 21
 # app: 15
 # link: 6
 # net: 5
-# mk: 4
-# ug: 4
 # top: 4
-# ru: 3
+# mk: 4
+# br: 4
+# ug: 4
 ||5476-coinbase.com^
 ||5mq.vegag432.dns-dynamic.net^
 ||aatikabintishujaa.blogspot.co.il^
@@ -36,8 +36,10 @@
 ||coinbase-assets.com^
 ||community-guidelines-cd77841-a31.netlify.app^
 ||cpnspppkterbaru2024-update.try-4pp.com^
+||dana-kaget.dana-real.biz.id^
 ||dev-0546541641654.pantheonsite.io^
 ||dinhsuu1201.blogspot.li^
+||discord-proxy.loaderlivebusiness.workers.dev^
 ||discord.hmziyan.com^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||ephemeral-blini-e3trc1.netlify.app^
@@ -86,6 +88,7 @@
 ||login.update-ourtime.workers.dev^
 ||logincrsakensa.gitbook.io^
 ||lordfilm-netflix.ru^
+||maie-124e.bfyrppzr.workers.dev^
 ||matemacskwaliet.gitbook.io^
 ||mbwaysecurept.com^
 ||mdrew7967.activehosted.com^
@@ -151,6 +154,7 @@
 ||metamaskinc.blogspot.ug^
 ||metamasklogiine.gitbook.io^
 ||metamasmkxlogin.gitbook.io^
+||metaprevestibular.com.br^
 ||metemasckzzlogus.gitbook.io^
 ||metoimasklolgin.gitbook.io^
 ||metsaxsk-login.gitbook.io^
@@ -165,13 +169,11 @@
 ||netflixs-task.com^
 ||notificationbyfacebook.firebaseapp.com^
 ||notificationbyfacebook.web.app^
-||office-login.outlookserv.workers.dev^
 ||onedrive.microsoftlive1.workers.dev^
 ||optusnet-com.blogspot.co.za^
 ||ourtime-cdn.datings-idn.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||pancakeswap-proclaim.space^
 ||paypalzkawyv0.blogspot.am^
 ||paypalzkawyv0.blogspot.com.ee^
 ||paypalzkawyv0.blogspot.com.es^
@@ -191,6 +193,7 @@
 ||pub-005ceeda28c049c5893402169635d4a4.r2.dev^
 ||pub-01b87d1052c64af190b83e5e20db8aba.r2.dev^
 ||pub-025d255a622b4cada281d58a1c78809e.r2.dev^
+||pub-06a0ddd488ad4d718aa2fe44a42ac548.r2.dev^
 ||pub-10339512e99a45d697573c895fd39249.r2.dev^
 ||pub-11a96ef055be46e582083021168dcb72.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
@@ -233,6 +236,7 @@
 ||pub-7b5417ccfacf4950ae749ae05d832b4c.r2.dev^
 ||pub-82f4e9862bc4496c82d53a6792053fed.r2.dev^
 ||pub-864dd5559409407da817adb144831b51.r2.dev^
+||pub-8b99011c7ee949f3b617f8431dfb69eb.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-900c3ef0cf2f40428080505f48a930f0.r2.dev^
 ||pub-903cd42f250e4526ad35bcac86048a96.r2.dev^
@@ -250,6 +254,7 @@
 ||pub-daf00a6f20624cfd9b208401c382f012.r2.dev^
 ||pub-e76511c8e4434245bc4d27a2045584d4.r2.dev^
 ||pub-ebe076311e834ba599f7374e37ca7f7a.r2.dev^
+||pub-f1e04b98359046b48a9ea6fc65667ed9.r2.dev^
 ||pub-f3a335c3131047a7a157d355c61847fa.r2.dev^
 ||pub-f646fcf921a042849665079efef1b168.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
@@ -262,6 +267,7 @@
 ||short4.net^
 ||splendid-renewal-f821ca2e70.media.strapiapp.com^
 ||spotify-clone31.netlify.app^
+||steaemcoonmmunnltly.com^
 ||steam.poweredartworks.com^
 ||steam.workshopshareddetail.com^
 ||steamucommunity.com^
