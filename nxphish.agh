@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719707115
-# Database Hash: f8f862a506493fff7d4bdd81212163d9666b5dbf
-# Generated at: 2024-06-30 00:25:15
-# Number of domains: 355
+# Version: 1719714034
+# Database Hash: 4119f9ddee23af76ce211e2f54dcdca71764a749
+# Generated at: 2024-06-30 02:20:34
+# Number of domains: 352
 # Last 10 TLD counts:
-# dev: 117
-# com: 52
+# dev: 115
+# com: 51
 # io: 25
-# app: 22
-# id: 6
+# app: 23
 # link: 6
+# id: 6
 # net: 6
-# br: 4
-# mk: 4
 # shop: 4
+# ug: 4
+# top: 4
 ||1.ggboy2793.free.hr^
 ||5476-coinbase.com^
 ||aatikabintishujaa.blogspot.co.il^
@@ -56,7 +56,6 @@
 ||dev-credit-agricole-secure-pass.pantheonsite.io^
 ||dich-vu-khcn-vip-vpbank.com^
 ||dinhsuu1201.blogspot.li^
-||discord-proxy.loaderlivebusiness.workers.dev^
 ||discord.hmziyan.com^
 ||discordclaim-nft.web.app^
 ||discordlaunch.xyz^
@@ -69,6 +68,7 @@
 ||facebook.check-protect-account.me^
 ||facebooksecuritys.blogspot.mk^
 ||familytbjw.shop^
+||fancyz-quokka-29id4964-bf30082.netlify.app^
 ||ffyugioi.xyz^
 ||foodnwtqork.blogspot.com^
 ||g9zq3.shop^
@@ -117,7 +117,6 @@
 ||lnky.ru^
 ||login.update-ourtime.workers.dev^
 ||mag3a2-g34s34-71d08e-qngrfz.netlify.app^
-||maie-124e.bfyrppzr.workers.dev^
 ||matemacskwaliet.gitbook.io^
 ||mbwaysecurept.com^
 ||mdrew7967.activehosted.com^
@@ -184,7 +183,6 @@
 ||metamaskinc.blogspot.sn^
 ||metamaskinc.blogspot.ug^
 ||metamsck-xtension.gitbook.io^
-||metaprevestibular.com.br^
 ||metemasckzzlogus.gitbook.io^
 ||metoimasklolgin.gitbook.io^
 ||metsaxsk-login.gitbook.io^
@@ -226,7 +224,6 @@
 ||pub-01b87d1052c64af190b83e5e20db8aba.r2.dev^
 ||pub-025d255a622b4cada281d58a1c78809e.r2.dev^
 ||pub-042eed7f62444456a2fa3ec642bf6289.r2.dev^
-||pub-06a0ddd488ad4d718aa2fe44a42ac548.r2.dev^
 ||pub-0f43fb4a920a49f185794337e3d405fb.r2.dev^
 ||pub-10339512e99a45d697573c895fd39249.r2.dev^
 ||pub-1079cd52bb984844a777cdd0a8c9560e.r2.dev^
@@ -257,6 +254,7 @@
 ||pub-5162644455604427aa3c34397279ff52.r2.dev^
 ||pub-51be7f1d83564bf18c7b091b4258b53b.r2.dev^
 ||pub-51e2b30cd4ec421b9b3660945793dfc7.r2.dev^
+||pub-54adec8f083e43faacd277b041c5a3f4.r2.dev^
 ||pub-57cccedc1a104ac293574d8936903efe.r2.dev^
 ||pub-58021b15a40e466fb3c40445b33be53f.r2.dev^
 ||pub-5951c9805b754b349e7780aa7d7195e9.r2.dev^
@@ -268,6 +266,7 @@
 ||pub-5f77b2b15c504f8c95df17915a88aa03.r2.dev^
 ||pub-60870322f7c441b289dc921c320b936d.r2.dev^
 ||pub-659044bb68384dc99a6f10639a2ce0f8.r2.dev^
+||pub-66c7d34b92f6411f9df59e134d7de913.r2.dev^
 ||pub-6808fc2d4e1b46a784bfa17b251af8f7.r2.dev^
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-69d2c56782eb4e2aa9910179d35a7dde.r2.dev^
@@ -280,7 +279,6 @@
 ||pub-782d7a7c667a4d8bbb132990f45ff1e0.r2.dev^
 ||pub-82f4e9862bc4496c82d53a6792053fed.r2.dev^
 ||pub-864dd5559409407da817adb144831b51.r2.dev^
-||pub-8b99011c7ee949f3b617f8431dfb69eb.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-900c3ef0cf2f40428080505f48a930f0.r2.dev^
 ||pub-903cd42f250e4526ad35bcac86048a96.r2.dev^
@@ -293,6 +291,7 @@
 ||pub-b55f8b62eb1e4d519f6e5f74590dfc58.r2.dev^
 ||pub-b9e139ac24e24424a15db125838281df.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
+||pub-bd7df3def0f74086ab2e4089dfc15af4.r2.dev^
 ||pub-c07269e848ba49d4ae4b2820072eb3fa.r2.dev^
 ||pub-c0df57d4b2b24134b5e898580846dc70.r2.dev^
 ||pub-c61d677863cd437ea7ba5e20c8e010c4.r2.dev^
@@ -304,7 +303,6 @@
 ||pub-d8ee52f2e86b49caba542c9fc5533130.r2.dev^
 ||pub-daf00a6f20624cfd9b208401c382f012.r2.dev^
 ||pub-e76511c8e4434245bc4d27a2045584d4.r2.dev^
-||pub-f1e04b98359046b48a9ea6fc65667ed9.r2.dev^
 ||pub-f3a335c3131047a7a157d355c61847fa.r2.dev^
 ||pub-f646fcf921a042849665079efef1b168.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
@@ -324,7 +322,6 @@
 ||splendid-renewal-f821ca2e70.media.strapiapp.com^
 ||spotify-clone31.netlify.app^
 ||stceamconmmumnltly.com^
-||steaemcoonmmunnltly.com^
 ||steam.poweredartworks.com^
 ||steam.workshopshareddetail.com^
 ||steamcomuniry.com^
