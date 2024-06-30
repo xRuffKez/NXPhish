@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719698818
-# Database Hash: a23907e03f40b0aec30e2179fed9fee727951122
-# Generated at: 2024-06-29 22:06:58
-# Number of domains: 323
+# Version: 1719707115
+# Database Hash: f8f862a506493fff7d4bdd81212163d9666b5dbf
+# Generated at: 2024-06-30 00:25:15
+# Number of domains: 355
 # Last 10 TLD counts:
-# dev: 105
-# com: 49
-# io: 23
-# app: 20
+# dev: 117
+# com: 52
+# io: 25
+# app: 22
+# id: 6
+# link: 6
 # net: 6
-# link: 5
-# ug: 4
-# top: 4
-# mk: 4
 # br: 4
+# mk: 4
+# shop: 4
 ||1.ggboy2793.free.hr^
 ||5476-coinbase.com^
 ||aatikabintishujaa.blogspot.co.il^
@@ -28,7 +28,9 @@
 ||bafybeickyem7qf4vd2ujvpahu2jeb2snj5sccgfnafuejd4ejpjuzrm7aq.ipfs.cf-ipfs.com^
 ||bafybeifvsfftur3i7mbq36u6237kvtw6vxgswi3dju5qamo4zx77eecyri.ipfs.dweb.link^
 ||bafybeigehtwxmjsrzxhblpnc77uaququwuwauvrb7ewq75nwbm6pk2dsbq.ipfs.dweb.link^
+||bafybeih5623bma65irukngcj4yqy3miwbolk6imn7zt4rpkdc6jtjyyy7e.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
+||basic-bundle-wispy-morning-11f0.darrenmastriannaft1540.workers.dev^
 ||bimkilo28.blogspot.com.es^
 ||blue-king-b8c1.mailatt.workers.dev^
 ||boisterous-selkie-d3tr8c.netlify.app^
@@ -36,15 +38,21 @@
 ||business-community-c38d77.netlify.app^
 ||business-help-015e53.netlify.app^
 ||business-team-support-5f0ea9.netlify.app^
+||businesssocialweb.com^
+||cache.netflix.com.jp.ryo.biz.id^
 ||case-noti614778671562.meetaafacebook.com^
 ||ceobessaprologinn.gitbook.io^
 ||cipher.hediatat.com^
 ||coinbase-assets.com^
 ||community-guidelines-cd77841-a31.netlify.app^
+||complaint.hotel-591027.eu^
 ||conncctvallet.gitbook.io^
 ||cuautiu.com^
+||dana-indonesla.anakdara9.icu^
 ||dana-kaget.dana-real.biz.id^
+||danakagetbuatindo.glgw.my.id^
 ||dev-0546541641654.pantheonsite.io^
+||dev-55418545154.pantheonsite.io^
 ||dev-credit-agricole-secure-pass.pantheonsite.io^
 ||dich-vu-khcn-vip-vpbank.com^
 ||dinhsuu1201.blogspot.li^
@@ -52,25 +60,32 @@
 ||discord.hmziyan.com^
 ||discordclaim-nft.web.app^
 ||discordlaunch.xyz^
+||dnahaloghin.reall1.me^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||ephemeral-blini-e3trc1.netlify.app^
 ||erv.bfhdgry67tu8jm.dns-dynamic.net^
+||eu.jormmy.workers.dev^
 ||events-uc.kraftonevent.com^
 ||facebook.check-protect-account.me^
 ||facebooksecuritys.blogspot.mk^
 ||familytbjw.shop^
 ||ffyugioi.xyz^
 ||foodnwtqork.blogspot.com^
+||g9zq3.shop^
 ||gaminiloginsignin.gitbook.io^
 ||generatorfreeaccounts.blogspot.com^
 ||get-windows-replaced.today^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
+||h7nz1.shop^
+||hello-world-long-river-9cbd.bbtboy.workers.dev^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||help-metoaaskhelp.gitbook.io^
+||hotel-3789532.eu^
 ||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
+||howling-china-few.on-fleek.app^
 ||identify-friendly-pn2807-496812.netlify.app^
 ||imtoken-qc.one^
 ||info-bancosantander-app.com^
@@ -90,8 +105,10 @@
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
+||instagramshshjsjsjssjjsjsjshsb.blogspot.com^
 ||ipfs.io^
 ||jovial-fudge-tk1111-423da1.netlify.app^
+||klikdisini.piwzstoreee.my.id^
 ||kraioken-logein.gitbook.io^
 ||l3z.gt65sswf.dns-dynamic.net^
 ||lancelot391.freewebhostmost.com^
@@ -180,6 +197,8 @@
 ||nameless-bar-9cf0.asaa-ua.workers.dev^
 ||netflixs-job.com^
 ||netflixs-task.com^
+||neversurrenderswap.io^
+||newport80-new-new.hassane69m.workers.dev^
 ||onedrive.microsoftlive1.workers.dev^
 ||optusnet-com.blogspot.ca^
 ||optusnet-com.blogspot.co.za^
@@ -201,22 +220,28 @@
 ||perubahantarif-okq-link-bank-bri.anakdara9.icu^
 ||phantm-wertllem.gitbook.io^
 ||pnlweaver.activehosted.com^
+||pomerdoge-en.web.app^
 ||portal.negociebra.com.br^
 ||prehistoric-potato-tiny.on-fleek.app^
 ||pub-01b87d1052c64af190b83e5e20db8aba.r2.dev^
 ||pub-025d255a622b4cada281d58a1c78809e.r2.dev^
+||pub-042eed7f62444456a2fa3ec642bf6289.r2.dev^
 ||pub-06a0ddd488ad4d718aa2fe44a42ac548.r2.dev^
+||pub-0f43fb4a920a49f185794337e3d405fb.r2.dev^
 ||pub-10339512e99a45d697573c895fd39249.r2.dev^
 ||pub-1079cd52bb984844a777cdd0a8c9560e.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
+||pub-1d1c8ce698cc4584affc922ba1e4fa90.r2.dev^
 ||pub-1dce8f5133cd41708dc3ec7e6864bb58.r2.dev^
 ||pub-1e41c7aecaee4933bcad5aa1587c30f6.r2.dev^
+||pub-1e680dcaae094b5a809011eb2ab3f370.r2.dev^
 ||pub-2015a8822233428099bf178992d7c2e7.r2.dev^
 ||pub-20cfdc3c226149f1ad785b63a8a97ca6.r2.dev^
 ||pub-21dd4dc659614ceb93e45a6de4434502.r2.dev^
 ||pub-2770f771ef924d6ea022ddfd01eb5f06.r2.dev^
 ||pub-2947c4e236f3444eaa99d5e8be0d9437.r2.dev^
 ||pub-2deedb30aff5494b826a955e4e27f0d5.r2.dev^
+||pub-2e9f7e6a49e643e4bb5ae441acd938a7.r2.dev^
 ||pub-303fc0e5e27a4be483685c3e55248df3.r2.dev^
 ||pub-3424228f58ac440c9523afb01100ed68.r2.dev^
 ||pub-34ae76b320c445628f3e2bca4a192394.r2.dev^
@@ -228,6 +253,7 @@
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
 ||pub-47f4fe3f7f294eae9bbe42c346a2e63a.r2.dev^
 ||pub-4a83150196904cd1adfa0ab86f686213.r2.dev^
+||pub-4b1fc264d5744406b6ccfb941b355ab7.r2.dev^
 ||pub-5162644455604427aa3c34397279ff52.r2.dev^
 ||pub-51be7f1d83564bf18c7b091b4258b53b.r2.dev^
 ||pub-51e2b30cd4ec421b9b3660945793dfc7.r2.dev^
@@ -270,6 +296,7 @@
 ||pub-c07269e848ba49d4ae4b2820072eb3fa.r2.dev^
 ||pub-c0df57d4b2b24134b5e898580846dc70.r2.dev^
 ||pub-c61d677863cd437ea7ba5e20c8e010c4.r2.dev^
+||pub-cba9af68b9f3498da6b908c1650f5a51.r2.dev^
 ||pub-d246ad26959c48f98f9906f029e03763.r2.dev^
 ||pub-d43ad3acfa6f478a8742af16784dbbf2.r2.dev^
 ||pub-d4c909acb34c46f8b9924b1d09431fe3.r2.dev^
@@ -289,8 +316,10 @@
 ||repl-mess.myfreesites.net^
 ||rhl.holktfsc.dns-dynamic.net^
 ||scootjames771.activehosted.com^
+||server.n6b8.com^
 ||shielding-instrument-n-1.netlify.app^
 ||short4.net^
+||site1.misterb.site^
 ||skinboxs.com^
 ||splendid-renewal-f821ca2e70.media.strapiapp.com^
 ||spotify-clone31.netlify.app^
@@ -324,10 +353,12 @@
 ||walletconanect.gitbook.io^
 ||web.teleqram.at^
 ||worker-fragrant-rice-3f38.videbap899.workers.dev^
+||worker-mute-lab-7765.xuyufeng16.workers.dev^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||wsmislmmoodomriz.jenasciad02.workers.dev^
 ||www-facebook-com.vn^
 ||www.ace-aviation.co.nz^
+||www.coin-ku.in^
 ||www.e-sports.pubgxbest.com^
 ||www.encurtador.dev^
 ||www.es-bbva-proteccion.com^
@@ -337,4 +368,5 @@
 ||www.notifyhubss.net^
 ||www.pubg.kraftonevent.com^
 ||www.telegnem.org^
+||xn-dna-log-news.resmi-v1.biz.id^
 ||zesty-marzipan-29id4964-9fa6513.netlify.app^
