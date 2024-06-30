@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719727872
-# Database Hash: fa1c40c45bbb0e55a42f311a6215deadbcd31deb
-# Generated at: 2024-06-30 06:11:12
-# Number of domains: 438
+# Version: 1719734813
+# Database Hash: 382739d9695a71780e99fde66d46fa8dda969798
+# Generated at: 2024-06-30 08:06:53
+# Number of domains: 436
 # Last 10 TLD counts:
 # dev: 151
 # com: 62
 # app: 33
-# io: 30
-# id: 9
-# xyz: 8
+# io: 29
 # net: 8
-# top: 6
+# id: 8
+# xyz: 8
 # shop: 6
-# ug: 4
+# top: 6
+# icu: 4
 ||0717.yorkxiaobaibai.xyz^
 ||0822.ukxxj.eu.org^
 ||5476-coinbase.com^
@@ -227,7 +227,6 @@
 ||netflix-clone.vikrantrathi.com^
 ||netflixs-job.com^
 ||netflixs-task.com^
-||neversurrenderswap.io^
 ||newport80-new-new.hassane69m.workers.dev^
 ||nmacouai-80bf.edohlriapdnoap.workers.dev^
 ||nvdinvd.pro^
@@ -448,7 +447,6 @@
 ||www3.coso.workers.dev^
 ||xeroxm32.firebaseapp.com^
 ||xform-dna-xv-news.resmi-v1.biz.id^
-||xn-dna-log-news.resmi-v1.biz.id^
 ||yota.ge^
 ||yui.gssw13kfy.dns-dynamic.net^
 ||zenith.ofereome.com^
