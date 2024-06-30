@@ -1,9 +1,9 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719763639
-# Database Hash: 1213a184914ce7ac5f50a56442c84262cdec8aab
-# Generated at: 2024-06-30 16:07:19
-# Number of domains: 210
+# Version: 1719770796
+# Database Hash: cedd4a5fe4518767a415b4634a98f0d99c9924af
+# Generated at: 2024-06-30 18:06:36
+# Number of domains: 211
 # Last 10 TLD counts:
 # dev: 74
 # com: 25
@@ -11,10 +11,10 @@
 # app: 7
 # top: 5
 # br: 4
-# nl: 3
-# co: 3
-# mk: 3
+# dk: 3
 # ee: 3
+# nl: 3
+# id: 3
 ||anmilopbe.blogspot.com.es^
 ||bafkreievoeduvx6muiycsndw7gthiklsik2zo3vsu6xc3wwybcyo3hyj6y.ipfs.cf-ipfs.com^
 ||bafybeibmmvewkwr6pe34lygt52drstqvkcjer2lv3fsphdrnarm7f3jrba.ipfs.dweb.link^
@@ -225,3 +225,4 @@
 ||x8nv1.shop^
 ||xeroxm32.firebaseapp.com^
 ||zesty-marzipan-29id4964-9fa6513.netlify.app^
+||zetflix-online.link^
