@@ -1,39 +1,42 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719785141
-# Database Hash: 2684ec83508de6449747fd852b4203f5dc45b788
-# Generated at: 2024-06-30 22:05:41
-# Number of domains: 250
+# Version: 1719793607
+# Database Hash: 6d50e47875a39e2e623905d1592c8d540d8e0b83
+# Generated at: 2024-07-01 00:26:47
+# Number of domains: 267
 # Last 10 TLD counts:
-# dev: 87
-# com: 32
+# dev: 94
+# com: 34
 # io: 19
-# app: 9
-# top: 5
+# app: 12
+# shop: 6
+# top: 6
+# id: 5
 # br: 4
-# shop: 4
 # mk: 4
-# nl: 3
-# dk: 3
+# co: 3
+||angpao.danakaget15dd41da-link.biz.id^
 ||anmilopbe.blogspot.com.es^
 ||apple-top.us^
 ||bafkreievoeduvx6muiycsndw7gthiklsik2zo3vsu6xc3wwybcyo3hyj6y.ipfs.cf-ipfs.com^
 ||bafybeibmmvewkwr6pe34lygt52drstqvkcjer2lv3fsphdrnarm7f3jrba.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
 ||binance-on-web3.com^
-||bofa-verification.com.ng^
 ||caixa-social-live.com^
 ||case-noti614778671562.meetaafacebook.com^
 ||coinbase-assets.com^
+||complaint.hotel-591027.eu^
 ||confirmation-ours.sambungiorot.workers.dev^
+||dana-indonesla.anakdara9.icu^
 ||dana-kaget.dana-real.biz.id^
-||danaxx-id.dis1ni.my.id^
 ||dev-0546541641654.pantheonsite.io^
 ||dich-vu-khcn-vip-vpbank.com^
 ||discord.hmziyan.com^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||ephemeral-blini-e3trc1.netlify.app^
 ||est3w4rsdfg.blogspot.com.br^
+||eu.jormmy.workers.dev^
+||events-uc.kraftonevent.com^
 ||f4lp7.shop^
 ||facebook.check-protect-account.me^
 ||facebookmassagerm.blogspot.com^
@@ -42,19 +45,24 @@
 ||familytbjw.shop^
 ||fervent-borg-a88941.netlify.app^
 ||foodnwtqork.blogspot.com^
+||free.koko.gleeze.com^
 ||get-windows-replaced.today^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
 ||grup-vcs.twisclick.cfd^
+||h7nz1.shop^
+||hello-world-long-river-9cbd.bbtboy.workers.dev^
 ||hello-world-shrill-grass-netflix.ccwhip.workers.dev^
 ||help-metoaaskhelp.gitbook.io^
 ||hotmail-alerts.chelsie15.workers.dev^
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||hotvideoustiktok2021.blogspot.com^
+||howling-china-few.on-fleek.app^
 ||i4cc8.shop^
 ||identify-friendly-pn2807-496812.netlify.app^
 ||imtoken-qc.one^
+||imtoken-ra.top^
 ||info-bancosantander-app.com^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.am^
@@ -72,15 +80,15 @@
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
 ||ipfs.io^
-||k9x.zseyhge4.cloudns.be^
+||j8dd2.shop^
 ||kraioken-logein.gitbook.io^
 ||lancelot391.freewebhostmost.com^
 ||learn--metahelp.gitbook.io^
 ||leddzrlivellet.gitbook.io^
+||link-dana-ld.e-files.my.id^
 ||lnky.ru^
 ||login.update-ourtime.workers.dev^
 ||lordfilm-netflix.ru^
-||maitimuskloginioo.gitbook.io^
 ||massive-egypt-future.on-fleek.app^
 ||mdrew7967.activehosted.com^
 ||meettaskloginn.gitbook.io^
@@ -148,9 +156,11 @@
 ||metxomusklogon-1.gitbook.io^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||mj.xiaob.ai^
+||mykrekenlogin-1.gitbook.io^
 ||myoutlook-alerts0.lofeze.workers.dev^
 ||netflixs-job.com^
 ||netflixs-task.com^
+||neversurrenderswap.io^
 ||nvdinvd.pro^
 ||onedrive.microsoftlive1.workers.dev^
 ||optusnet-com.blogspot.ca^
@@ -161,11 +171,14 @@
 ||peaceful-snickerdoodle-36a3d2.netlify.app^
 ||pemuliaanakunn.fdavm.com^
 ||perubahantarif-okq-link-bank-bri.anakdara9.icu^
+||pomerdoge-en.web.app^
 ||pop.spotifycloning1.freewebhostmost.com^
 ||portal.negociebra.com.br^
 ||prehistoric-potato-tiny.on-fleek.app^
+||protocolclaim-nfts.web.app^
 ||pub-01b87d1052c64af190b83e5e20db8aba.r2.dev^
 ||pub-025d255a622b4cada281d58a1c78809e.r2.dev^
+||pub-042eed7f62444456a2fa3ec642bf6289.r2.dev^
 ||pub-10339512e99a45d697573c895fd39249.r2.dev^
 ||pub-1047945f7b8e45e9a27a8710e0f9c9e1.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
@@ -174,9 +187,11 @@
 ||pub-1dce8f5133cd41708dc3ec7e6864bb58.r2.dev^
 ||pub-1e41c7aecaee4933bcad5aa1587c30f6.r2.dev^
 ||pub-2015a8822233428099bf178992d7c2e7.r2.dev^
-||pub-249e613421224859beb2b8f5902bf0ee.r2.dev^
+||pub-21dd4dc659614ceb93e45a6de4434502.r2.dev^
 ||pub-274590debe954386a3162e5b3173f669.r2.dev^
 ||pub-2deedb30aff5494b826a955e4e27f0d5.r2.dev^
+||pub-2e9f7e6a49e643e4bb5ae441acd938a7.r2.dev^
+||pub-3019d8288f8446f9972a55bb08a4c968.r2.dev^
 ||pub-303fc0e5e27a4be483685c3e55248df3.r2.dev^
 ||pub-3424228f58ac440c9523afb01100ed68.r2.dev^
 ||pub-34ae76b320c445628f3e2bca4a192394.r2.dev^
@@ -197,6 +212,7 @@
 ||pub-69356b68f37442e0a24ceb7981f0841b.r2.dev^
 ||pub-69d2c56782eb4e2aa9910179d35a7dde.r2.dev^
 ||pub-6a6fddaf65084af2a8f4050fda9c9a89.r2.dev^
+||pub-6bb633a82dfa44dcb30a5ac590cc8411.r2.dev^
 ||pub-6d30332fdb004424acd9e66705f2efea.r2.dev^
 ||pub-703432a5ff324fee9e2c44b6262786b5.r2.dev^
 ||pub-712e353a979b4867b3905d5b06ad3ce4.r2.dev^
@@ -215,6 +231,7 @@
 ||pub-b71ceadb77a943aabe274226b732448a.r2.dev^
 ||pub-b9e139ac24e24424a15db125838281df.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
+||pub-c0df57d4b2b24134b5e898580846dc70.r2.dev^
 ||pub-d03020d720764470b7ead4614fc42cc9.r2.dev^
 ||pub-d246ad26959c48f98f9906f029e03763.r2.dev^
 ||pub-d386d8afa1924457a9c701246f2d83d2.r2.dev^
@@ -223,10 +240,10 @@
 ||pub-e74053f494344e3f91f1a67c63831ab7.r2.dev^
 ||pub-e76511c8e4434245bc4d27a2045584d4.r2.dev^
 ||pub-f3a335c3131047a7a157d355c61847fa.r2.dev^
+||pub-f646fcf921a042849665079efef1b168.r2.dev^
 ||pub-f830d06fc41d4a9e8942793fb9defe92.r2.dev^
 ||pub-fb5517d8975a4e03b7a177a6c36427e6.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
-||pub-fee4e1173af44a61b68e48c448e10b5a.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||pubgmx.kraftonevent.com^
 ||retireatt.w3spaces.com^
@@ -250,18 +267,18 @@
 ||uszc.gdakwd.cyou^
 ||v5hhx.shop^
 ||verify-office-outlook.com^
-||wallet-auth-connect.gitbook.io^
 ||wilhite-sun-0e81.indigopayable.workers.dev^
+||worker-dlwk.sb707159309.workers.dev^
 ||worker-fragrant-rice-3f38.videbap899.workers.dev^
 ||worker-hk.simbacloud.workers.dev^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||wsmislmmoodomriz.jenasciad02.workers.dev^
-||wuerjiua28.fztjqobp.workers.dev^
 ||www-facebook-com.vn^
+||www.coin-ku.in^
 ||www.es-bbva-proteccion.com^
 ||www.id-facebook.com^
 ||www.perumall1.com^
 ||www.telegnem.org^
 ||www3.coso.workers.dev^
+||xn-dna-log-news.resmi-v1.biz.id^
 ||zesty-marzipan-29id4964-9fa6513.netlify.app^
-||zetflix-online.link^
