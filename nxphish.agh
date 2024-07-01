@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719835797
-# Database Hash: 503933995e431a3406a928a710a2ef014c7ca525
-# Generated at: 2024-07-01 12:09:57
-# Number of domains: 232
+# Version: 1719842753
+# Database Hash: 1042f3a000db8d67e9ae94688cd87550efba1c28
+# Generated at: 2024-07-01 14:05:53
+# Number of domains: 233
 # Last 10 TLD counts:
 # dev: 85
 # com: 28
 # io: 12
 # app: 11
-# eu: 5
 # top: 5
+# eu: 5
 # id: 4
-# cy: 3
+# ug: 3
+# mk: 3
 # nl: 3
-# dk: 3
 ||4562236.xxx-link.biz.id^
 ||635301.playcode.io^
 ||air-bnb.check-id8901.com^
@@ -243,6 +243,7 @@
 ||www-facebook-com.vn^
 ||www.e2go-project.eu^
 ||www.es-bbva-proteccion.com^
+||www.itaa.be^
 ||www.ln.run^
 ||www.tpckn.app^
 ||zesty-marzipan-29id4964-9fa6513.netlify.app^
