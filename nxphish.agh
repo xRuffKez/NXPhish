@@ -1,25 +1,30 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719828455
-# Database Hash: 861d891890f1336d884e65ebf2b4e0e398a5a2d2
-# Generated at: 2024-07-01 10:07:35
-# Number of domains: 204
+# Version: 1719835797
+# Database Hash: 503933995e431a3406a928a710a2ef014c7ca525
+# Generated at: 2024-07-01 12:09:57
+# Number of domains: 232
 # Last 10 TLD counts:
-# dev: 78
-# com: 21
-# io: 9
-# app: 9
+# dev: 85
+# com: 28
+# io: 12
+# app: 11
 # eu: 5
-# ug: 3
-# dk: 3
+# top: 5
+# id: 4
 # cy: 3
 # nl: 3
-# mk: 3
+# dk: 3
+||4562236.xxx-link.biz.id^
+||635301.playcode.io^
 ||air-bnb.check-id8901.com^
 ||alm.telegnem.org^
 ||bafybeiaamq7qrezzm7cbko4e6hl5c3fcjqntup4343z5as3j2jnxs7s4p4.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
+||binance.support-case.com^
 ||blog.roupitz21.bplaced.net^
+||cbusepruologen.gitbook.io^
+||clinquant-buttercream-d4fa95.netlify.app^
 ||coinbase-assets.com^
 ||complaint.visitor136273.eu^
 ||dana-dompet-digital.anakdara9.icu^
@@ -30,6 +35,8 @@
 ||elqanas-netflix-clone.firebaseapp.com^
 ||ephemeral-blini-e3trc1.netlify.app^
 ||facebook.check-protect-account.me^
+||facebookhooam.blogspot.com^
+||facebookpagemmmm.blogspot.com^
 ||facebooksecuritys.blogspot.mk^
 ||foodnwtqork.blogspot.com^
 ||gamergift.xyz^
@@ -44,6 +51,8 @@
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||htt-konfirmasii-vsihadiahh.bikerup.xyz^
+||im15.net^
+||im888.app^
 ||info-bancosantander-app.com^
 ||instagrammalo.blogspot.nl^
 ||instagramprofiileurl.blogspot.am^
@@ -60,8 +69,10 @@
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
+||instagramshshjsjsjssjjsjsjshshahayyyy.blogspot.com^
 ||ipfs.io^
 ||kraioken-logein.gitbook.io^
+||laaayaaanannnn-danaaaaa.neewz2023.my.id^
 ||lancelot391.freewebhostmost.com^
 ||login-made-in-china-com.bitbucket.io^
 ||login.update-ourtime.workers.dev^
@@ -119,7 +130,10 @@
 ||metoimasklolgin.gitbook.io^
 ||micr0soft-login-now.rywepomo.workers.dev^
 ||mj.xiaob.ai^
+||mmatamskk-walleta.gitbook.io^
 ||myoutlook-alerts0.lofeze.workers.dev^
+||nail.womanthedoctor.shop^
+||netflixgpt-b1a8a.firebaseapp.com^
 ||netflixs-job.com^
 ||netflixs-task.com^
 ||newupfgfdhfddfv.nsinglett.workers.dev^
@@ -149,6 +163,8 @@
 ||pub-44672067528c462ea47a10cc0c07ac29.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
 ||pub-49c3dd1f770e49ce9842685dff76a6eb.r2.dev^
+||pub-4e9d559e11c54314b7639d20c3d13682.r2.dev^
+||pub-5368773319744330ab3064fa0af95c87.r2.dev^
 ||pub-571990fbc4d7477ca2778da44c110ad8.r2.dev^
 ||pub-57cccedc1a104ac293574d8936903efe.r2.dev^
 ||pub-58021b15a40e466fb3c40445b33be53f.r2.dev^
@@ -166,6 +182,7 @@
 ||pub-82f4e9862bc4496c82d53a6792053fed.r2.dev^
 ||pub-852d349dab374f1cadb6988fb691dada.r2.dev^
 ||pub-8571d3bc1b9c4806bcb0949ad138f71e.r2.dev^
+||pub-8960a597c3c44f1b879578a730d968f0.r2.dev^
 ||pub-8d33d66c31084ab3b602af0c111b9be3.r2.dev^
 ||pub-8d80ac938c6b433695a7e0831c963d56.r2.dev^
 ||pub-8eab0c35f1eb4dacafaaa2b16d81a149.r2.dev^
@@ -173,6 +190,7 @@
 ||pub-903cd42f250e4526ad35bcac86048a96.r2.dev^
 ||pub-934a2bbd24a74e9da34f4214c7356fe2.r2.dev^
 ||pub-94a7b8da1a6c48fcadb0ac5db316b0da.r2.dev^
+||pub-99aeb47fb0bd4710b5498ea11ff318ed.r2.dev^
 ||pub-9a5b0ca5211b4887921e12b4a5cad628.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
@@ -200,18 +218,27 @@
 ||spotify-clone31.netlify.app^
 ||steam.workshopshareddetail.com^
 ||steamucommunity.com^
+||support-case.com^
 ||terminaldeomnibus-provincia-buenosaires.com^
 ||tokenap.app^
 ||tpkab.app^
 ||tx.suxss.workers.dev^
 ||updated.tomcruise4fans.workers.dev^
+||urlz.fr^
 ||usbd.oydtag.cyou^
+||usis.qcshiz.top^
 ||uski.brjrpf.top^
+||usmk.rnqeml.cyou^
+||usse.vfwnlmzq.top^
+||usvl.uqejok.top^
 ||usxl.yaykms.top^
 ||vali-2h1.srabrshknsoskg.workers.dev^
 ||verify-office-outlook.com^
 ||vidio-viral-melayu.4pp4u.vip^
+||vip.max99a.workers.dev^
 ||visitor136290.eu^
+||weathered-pond-21d2.alwdqh1p.workers.dev^
+||worker-muddy-meadow-fahim.fahimmlbb77.workers.dev^
 ||worker-outlook-1bdc.vaheli5766.workers.dev^
 ||www-facebook-com.vn^
 ||www.e2go-project.eu^
@@ -219,3 +246,4 @@
 ||www.ln.run^
 ||www.tpckn.app^
 ||zesty-marzipan-29id4964-9fa6513.netlify.app^
+||zyexx.com^
