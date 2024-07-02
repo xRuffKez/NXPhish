@@ -1,31 +1,33 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719914782
-# Database Hash: db7e6f0d663804922e10810ce454b150ea3cc8cf
-# Generated at: 2024-07-02 10:06:22
-# Number of domains: 307
+# Version: 1719922143
+# Database Hash: e41f285f509ffb57b6b7d0aa26d2df81f1832e7c
+# Generated at: 2024-07-02 12:09:03
+# Number of domains: 344
 # Last 10 TLD counts:
-# dev: 103
-# com: 46
-# io: 25
-# app: 12
+# dev: 124
+# com: 53
+# io: 28
+# app: 15
+# id: 5
 # shop: 5
 # ar: 4
-# br: 4
 # eu: 4
 # net: 4
-# cy: 3
+# br: 4
 ||048818.com^
 ||5476-coinbase.com^
 ||635301.playcode.io^
 ||6681bcb282106b84f7b9ba0e--creative-trifle-c3f697.netlify.app^
 ||account.booking-hotel-147936.eu^
 ||air-bnb.check-id8901.com^
+||allegro-999.com^
 ||am130.1.com.ar^
 ||amazon-tw.netlify.app^
 ||apple-lnc.com^
 ||apple-top.us^
 ||att-1n3fxtp.gamma.site^
+||attconfirm.attonlinesys.workers.dev^
 ||bafkreifznvmladu7nmsp4bp5z3tbuhzfytej4ummm5ky63p2bmrnopmfvu.ipfs.dweb.link^
 ||bafybeia6g2v6547awzehrdnlrfm5wxbwr2blkoltymmfuxcsvywoeodvju.ipfs.dweb.link^
 ||barclayschat-livehelp.com^
@@ -41,8 +43,10 @@
 ||complaint.hotel-66486.eu^
 ||d.afirkz56924.workers.dev^
 ||damp-pine-9b71.kxy3oc4m.workers.dev^
+||deff1a-g45g3e-9g891b-qnf3as.netlify.app^
 ||dev-2d94ef75-7297-4651-836f-6da630a3c2.pantheonsite.io^
 ||discord.hmziyan.com^
+||dlwk--tc.tc631177452.workers.dev^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||ephemeral-blini-e3trc1.netlify.app^
 ||events-uc.kraftonevent.com^
@@ -55,7 +59,9 @@
 ||familytbjw.shop^
 ||foodnwtqork.blogspot.com^
 ||gbapkpro.net^
+||geiminizlngie.gitbook.io^
 ||get-windows-replaced.today^
+||ghuj1.badp4r.biz.id^
 ||google-jobsoffer7655.pages.dev^
 ||google.cjysec.workers.dev^
 ||gumenilogiz.gitbook.io^
@@ -67,6 +73,7 @@
 ||hotmail-milfsexx70-whatsapp265.netlify.app^
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||identify-friendly-pn2807-496812.netlify.app^
+||idxgame.kraftonevent.com^
 ||im15.net^
 ||im16.net^
 ||im888.app^
@@ -97,9 +104,11 @@
 ||livelopremier.top^
 ||lnky.ru^
 ||lordfilm-netflix.ru^
+||lowongan-pekerjaan-indonesia.c0-1d.com^
 ||maavhkpo.elementor.cloud^
 ||maglit.me^
 ||maiitamaskloggin.gitbook.io^
+||mail.midasxs.kraftonevent.com^
 ||maile-temp2.aolquery.workers.dev^
 ||mailupdate11.w3spaces.com^
 ||matamaasklog-ioo.gitbook.io^
@@ -109,6 +118,7 @@
 ||meintmasklogio.gitbook.io^
 ||meitamaisk-loginn.gitbook.io^
 ||meitmask-login.gitbook.io^
+||mentmaskloegionn.gitbook.io^
 ||mestakasklogyn.gitbook.io^
 ||metaddadddlogin.gitbook.io^
 ||metamakcromextensun.mypixieset.com^
@@ -183,11 +193,13 @@
 ||mithumaakslegn.gitbook.io^
 ||mmahdi-dehghan-server2156.kokibef505.workers.dev^
 ||mmatamskk-walleta.gitbook.io^
+||mutasmaklogin.gitbook.io^
 ||myoutlook-alerts0.lofeze.workers.dev^
 ||nail.womanthedoctor.shop^
 ||netflixgpt-b1a8a.firebaseapp.com^
 ||netflixs-job.com^
 ||netflixs-task.com^
+||ns43q4.csb.app^
 ||office-login.outlookserv.workers.dev^
 ||olx-pt.order-2021.click^
 ||onedrive.microsoftlive1.workers.dev^
@@ -196,6 +208,7 @@
 ||ourtime.profiles-male.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
+||owa-oauthkoohpdqtskcaysblxgalarcdsnluqvoauth.buerhb.com^
 ||pack.kraftonevent.com^
 ||patient-sun-cb77.wehop62550.workers.dev^
 ||peaceful-snickerdoodle-36a3d2.netlify.app^
@@ -209,26 +222,33 @@
 ||pub-06257d8448d04b78a06d23f66f477057.r2.dev^
 ||pub-107dbb4f7c784dbeb1aa052e56f63455.r2.dev^
 ||pub-11ad37ea29184ea3a36927777b3ce7b3.r2.dev^
+||pub-14bf9fb368c341f598f6c02e9ec8700b.r2.dev^
 ||pub-18b28ac5e5464fd0a2816d0c2a5c270f.r2.dev^
 ||pub-1e41c7aecaee4933bcad5aa1587c30f6.r2.dev^
 ||pub-21dd4dc659614ceb93e45a6de4434502.r2.dev^
 ||pub-2ca0fe6961414f9688ad633e830ee18e.r2.dev^
 ||pub-2e0bae6afbef42ce8714462fe1d4a4c0.r2.dev^
 ||pub-303fc0e5e27a4be483685c3e55248df3.r2.dev^
+||pub-3201b0059e074b9486139d100a5af429.r2.dev^
 ||pub-34ae76b320c445628f3e2bca4a192394.r2.dev^
+||pub-35de464c802e4d0588769f7c2ca35da2.r2.dev^
 ||pub-3e59e6a70318440583ed96e64eb7f303.r2.dev^
 ||pub-3fe449a0b97d4863abe2243a3b6900f7.r2.dev^
 ||pub-403945d0f82b44a49f74553f849770ce.r2.dev^
+||pub-44e87636723d4f07b7aa30ef302ff42a.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
 ||pub-47f4fe3f7f294eae9bbe42c346a2e63a.r2.dev^
 ||pub-49c3dd1f770e49ce9842685dff76a6eb.r2.dev^
 ||pub-4b1fc264d5744406b6ccfb941b355ab7.r2.dev^
 ||pub-4de2a44d1f984c9ab619f82de2ef6ca3.r2.dev^
 ||pub-4e9d559e11c54314b7639d20c3d13682.r2.dev^
+||pub-51b3ca6392244b5bb14982b7ddf92f27.r2.dev^
+||pub-5206ca2abf0942c49df4a560d5734839.r2.dev^
 ||pub-5368773319744330ab3064fa0af95c87.r2.dev^
 ||pub-5adaa3bc2ad04aefbd8e7ab219b03ffd.r2.dev^
 ||pub-5addf61612cc47efa0a19bdf3c8e12d2.r2.dev^
 ||pub-5dfda753a0044475a0a7ab4a3257d3bf.r2.dev^
+||pub-5e6b0686d1ed4b08a45463767e44da66.r2.dev^
 ||pub-5f77b2b15c504f8c95df17915a88aa03.r2.dev^
 ||pub-6179f7b40073429c858246371a6233d0.r2.dev^
 ||pub-659044bb68384dc99a6f10639a2ce0f8.r2.dev^
@@ -249,41 +269,56 @@
 ||pub-8c507d4a74cd46b3844da85bd145ab76.r2.dev^
 ||pub-8d33d66c31084ab3b602af0c111b9be3.r2.dev^
 ||pub-8d80ac938c6b433695a7e0831c963d56.r2.dev^
+||pub-8e315825f4c1475c9f81d812a0ec1d22.r2.dev^
 ||pub-8eab0c35f1eb4dacafaaa2b16d81a149.r2.dev^
 ||pub-8f0c7a409fba4da9b5e820fe9817ee46.r2.dev^
 ||pub-8f63062ff4514a44b21b0711ce03eaba.r2.dev^
+||pub-94779c88b34c4a6a8ec24308e9a82d18.r2.dev^
 ||pub-99aeb47fb0bd4710b5498ea11ff318ed.r2.dev^
+||pub-9a4ff9e9568b4b57ad339f9738ad0e53.r2.dev^
 ||pub-9a5b0ca5211b4887921e12b4a5cad628.r2.dev^
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
+||pub-a5e38dcefaf84bf8b00b2bacb76c5ccb.r2.dev^
 ||pub-a68f996b9a71495ea8c5b86cf8ff2f0c.r2.dev^
 ||pub-acb1b1ab712940d88d38676cbe98117b.r2.dev^
 ||pub-aeb3695f12e9466c8a408f69d9b439de.r2.dev^
 ||pub-b4f19f47bf054b6589fb36a7a9659885.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
+||pub-c0c326d288cf4c5b80a80b10af7d23f5.r2.dev^
+||pub-c0d6bfb50fff44edad9ea7a58c30af47.r2.dev^
 ||pub-c0df57d4b2b24134b5e898580846dc70.r2.dev^
 ||pub-c5245046975740ab85f68ca216f0e471.r2.dev^
 ||pub-c676c1511e7242519f5658114dc08db5.r2.dev^
+||pub-c9e64147d3574630a977dc0fc6d899b0.r2.dev^
+||pub-cbf5134528224215a6fb50904907282f.r2.dev^
 ||pub-d246ad26959c48f98f9906f029e03763.r2.dev^
 ||pub-da5f65720a8341b6afcb5e585db11690.r2.dev^
+||pub-db0fb4ee8be64898875945a11de3fa1d.r2.dev^
 ||pub-dc2f331affca4613888af7bf79d0f4ae.r2.dev^
 ||pub-dc43d25f0fba4dd487756ade2a2ebe9b.r2.dev^
 ||pub-dc4ad4d9f393437ca7d416e8c47411cf.r2.dev^
 ||pub-dc5f65eeb16d48d5906827f9055252fb.r2.dev^
+||pub-dc8a60f6e83348bab2db3a41e04e7ed0.r2.dev^
 ||pub-e74053f494344e3f91f1a67c63831ab7.r2.dev^
 ||pub-e76511c8e4434245bc4d27a2045584d4.r2.dev^
 ||pub-e8da6e6b49034b83bd099125f4301391.r2.dev^
+||pub-e99c19c8957e498ead69349684cabbd4.r2.dev^
 ||pub-f3a335c3131047a7a157d355c61847fa.r2.dev^
+||pub-f55e4a7a38f54e858d6f6bb74100ff5d.r2.dev^
 ||pub-f93ab1d9907c472085520ee7033cd2a0.r2.dev^
 ||pub-fd5baa54f2714f068701be4a7563f2de.r2.dev^
 ||pub-fef94e8fd76842a4818865dd78ef618f.r2.dev^
 ||pubgmx.kraftonevent.com^
 ||radiobravafm.com.ar^
+||reg1a-g4ad23-269fe50-lqng5s.netlify.app^
 ||relaxed-sorbet-17-da191-1901k12.netlify.app^
 ||request-violation.w3spaces.com^
 ||rool.ink^
 ||royal-glade-286f.kdsj.workers.dev^
 ||sage-cassata-1id4964-ac50f93.netlify.app^
+||scamwebsite.com^
+||semimst.cam^
 ||speedtest.gr^
 ||spotify-clone31.netlify.app^
 ||steam.poweredartworks.com^
@@ -315,10 +350,12 @@
 ||www-facebook-com.vn^
 ||www.es-bbva-proteccion.com^
 ||www.id-facebook.com^
+||www.idxgame.kraftonevent.com^
 ||www.morewealth.biz^
 ||www.pompeumg.com.br^
 ||www.speedtest.gr^
 ||www3.coso.workers.dev^
 ||x8nv1.shop^
 ||xt-dna-ind-news.xxtl-v1.biz.id^
+||zx-dna-log-vcom.xxtl-v1.biz.id^
 ||zyexx.com^
