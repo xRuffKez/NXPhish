@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719943613
-# Database Hash: 7cc5ed43d22bb9b4edd44034bce1071fbd83a663
-# Generated at: 2024-07-02 18:06:53
-# Number of domains: 211
+# Version: 1719950764
+# Database Hash: eaea4649d8a7a6dffc630e91f7de56795580c4a4
+# Generated at: 2024-07-02 20:06:04
+# Number of domains: 208
 # Last 10 TLD counts:
-# dev: 79
-# com: 26
+# dev: 78
+# com: 25
 # app: 8
 # io: 6
+# top: 4
 # id: 4
 # eu: 4
-# top: 4
-# dk: 3
-# ru: 3
-# mk: 3
+# cy: 3
+# ug: 3
+# nl: 3
 ||5476-coinbase.com^
 ||admbooking.response-complaints.com^
 ||allegro-999.com^
@@ -30,7 +30,6 @@
 ||complaint.hotel-591027.eu^
 ||complaint.visitor136273.eu^
 ||deff1a-g45g3e-9g891b-qnf3as.netlify.app^
-||dlwk--tc.tc631177452.workers.dev^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||epayu.cc^
 ||facebook.check-protect-account.me^
@@ -138,7 +137,6 @@
 ||online.a0lservice.workers.dev^
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
-||owa-oauthkoohpdqtskcaysblxgalarcdsnluqvoauth.buerhb.com^
 ||pomerdoge-en.web.app^
 ||pttgov-ds.top^
 ||pttgov-ou.top^
@@ -202,7 +200,6 @@
 ||s899573325.websitebuilder.online^
 ||scamwebsite.com^
 ||scotiabank-secure.ru^
-||semimst.cam^
 ||sing.whwdelikesi.workers.dev^
 ||spotify-clone31.netlify.app^
 ||steady-bonbon-128cdf.netlify.app^
