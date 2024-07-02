@@ -1,8 +1,8 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719936456
-# Database Hash: 84d2f1588469f1391cfc292b4daaaafe50316391
-# Generated at: 2024-07-02 16:07:36
+# Version: 1719943613
+# Database Hash: 7cc5ed43d22bb9b4edd44034bce1071fbd83a663
+# Generated at: 2024-07-02 18:06:53
 # Number of domains: 211
 # Last 10 TLD counts:
 # dev: 79
@@ -12,9 +12,9 @@
 # id: 4
 # eu: 4
 # top: 4
-# cy: 3
-# nl: 3
-# br: 3
+# dk: 3
+# ru: 3
+# mk: 3
 ||5476-coinbase.com^
 ||admbooking.response-complaints.com^
 ||allegro-999.com^
