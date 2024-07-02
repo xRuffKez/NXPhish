@@ -1,22 +1,21 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719907669
-# Database Hash: 1a29baf506fca211d6615283adf6bea5818f0c93
-# Generated at: 2024-07-02 08:07:49
-# Number of domains: 296
+# Version: 1719914782
+# Database Hash: db7e6f0d663804922e10810ce454b150ea3cc8cf
+# Generated at: 2024-07-02 10:06:22
+# Number of domains: 307
 # Last 10 TLD counts:
-# dev: 98
-# com: 45
+# dev: 103
+# com: 46
 # io: 25
 # app: 12
-# shop: 4
-# id: 4
+# shop: 5
 # ar: 4
 # br: 4
 # eu: 4
-# ug: 3
+# net: 4
+# cy: 3
 ||048818.com^
-||4562236.xxx-link.biz.id^
 ||5476-coinbase.com^
 ||635301.playcode.io^
 ||6681bcb282106b84f7b9ba0e--creative-trifle-c3f697.netlify.app^
@@ -51,6 +50,7 @@
 ||facebookhooam.blogspot.com^
 ||facebookpagemmmm.blogspot.com^
 ||facebookrecovery-page10066354334.miracle-chain.com^
+||facebooksecurity.blogspot.com^
 ||facebooksecuritys.blogspot.mk^
 ||familytbjw.shop^
 ||foodnwtqork.blogspot.com^
@@ -68,6 +68,7 @@
 ||hotmail-update-349c.tbtea3.workers.dev^
 ||identify-friendly-pn2807-496812.netlify.app^
 ||im15.net^
+||im16.net^
 ||im888.app^
 ||info-bancosantander-app.com^
 ||inpost-pl-id18409.w3spaces.com^
@@ -97,12 +98,14 @@
 ||lnky.ru^
 ||lordfilm-netflix.ru^
 ||maavhkpo.elementor.cloud^
+||maglit.me^
 ||maiitamaskloggin.gitbook.io^
 ||maile-temp2.aolquery.workers.dev^
 ||mailupdate11.w3spaces.com^
 ||matamaasklog-ioo.gitbook.io^
 ||mdrew7967.activehosted.com^
 ||mediumspringgreen-oyster-alpojmqbl9ukdz9y.builder-preview.com^
+||megaboxbrawl.ru^
 ||meintmasklogio.gitbook.io^
 ||meitamaisk-loginn.gitbook.io^
 ||meitmask-login.gitbook.io^
@@ -178,6 +181,7 @@
 ||midasx.kraftonevent.com^
 ||miseenplacemoinsplusok.mydurable.com^
 ||mithumaakslegn.gitbook.io^
+||mmahdi-dehghan-server2156.kokibef505.workers.dev^
 ||mmatamskk-walleta.gitbook.io^
 ||myoutlook-alerts0.lofeze.workers.dev^
 ||nail.womanthedoctor.shop^
@@ -193,6 +197,7 @@
 ||outlook-updatesall-f608.fimlaraspa.workers.dev^
 ||outlooklihow-fbed.36892165b3ac94.workers.dev^
 ||pack.kraftonevent.com^
+||patient-sun-cb77.wehop62550.workers.dev^
 ||peaceful-snickerdoodle-36a3d2.netlify.app^
 ||play.google.com^
 ||plus.krafton-redeem.com^
@@ -207,9 +212,11 @@
 ||pub-18b28ac5e5464fd0a2816d0c2a5c270f.r2.dev^
 ||pub-1e41c7aecaee4933bcad5aa1587c30f6.r2.dev^
 ||pub-21dd4dc659614ceb93e45a6de4434502.r2.dev^
+||pub-2ca0fe6961414f9688ad633e830ee18e.r2.dev^
 ||pub-2e0bae6afbef42ce8714462fe1d4a4c0.r2.dev^
 ||pub-303fc0e5e27a4be483685c3e55248df3.r2.dev^
 ||pub-34ae76b320c445628f3e2bca4a192394.r2.dev^
+||pub-3e59e6a70318440583ed96e64eb7f303.r2.dev^
 ||pub-3fe449a0b97d4863abe2243a3b6900f7.r2.dev^
 ||pub-403945d0f82b44a49f74553f849770ce.r2.dev^
 ||pub-469449c4cd8747eeb0686f1e63aaa620.r2.dev^
@@ -250,6 +257,7 @@
 ||pub-9ab5a2326cc7498ca88d41b695cf49c8.r2.dev^
 ||pub-9b4beb6d08394d6ebaa821836a539954.r2.dev^
 ||pub-a68f996b9a71495ea8c5b86cf8ff2f0c.r2.dev^
+||pub-acb1b1ab712940d88d38676cbe98117b.r2.dev^
 ||pub-aeb3695f12e9466c8a408f69d9b439de.r2.dev^
 ||pub-b4f19f47bf054b6589fb36a7a9659885.r2.dev^
 ||pub-ba357d95075c4d879b3d01b38b24ecc6.r2.dev^
@@ -273,6 +281,7 @@
 ||radiobravafm.com.ar^
 ||relaxed-sorbet-17-da191-1901k12.netlify.app^
 ||request-violation.w3spaces.com^
+||rool.ink^
 ||royal-glade-286f.kdsj.workers.dev^
 ||sage-cassata-1id4964-ac50f93.netlify.app^
 ||speedtest.gr^
@@ -284,6 +293,7 @@
 ||support-case.com^
 ||takipcihilesico.com^
 ||telegrcxm.club^
+||templat65sldh.myfreesites.net^
 ||terminaldeomnibus-provincia-buenosaires.com^
 ||testing.aoe1937.cloudns.biz^
 ||tronbot.network^
@@ -292,6 +302,7 @@
 ||uscu.scnrrt.top^
 ||usjv.krpkrx.top^
 ||v5hhx.shop^
+||vanessa-rodriges.shop^
 ||verify-office-outlook.com^
 ||vip.max99a.workers.dev^
 ||vp.sazman-cloud2.workers.dev^
