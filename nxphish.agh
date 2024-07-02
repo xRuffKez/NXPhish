@@ -1,19 +1,19 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719950764
-# Database Hash: eaea4649d8a7a6dffc630e91f7de56795580c4a4
-# Generated at: 2024-07-02 20:06:04
-# Number of domains: 208
+# Version: 1719957982
+# Database Hash: 1ea69d841bb10caeddee5cd5a45724829733f0a9
+# Generated at: 2024-07-02 22:06:22
+# Number of domains: 209
 # Last 10 TLD counts:
 # dev: 78
 # com: 25
 # app: 8
 # io: 6
-# top: 4
 # id: 4
+# top: 4
 # eu: 4
+# mk: 3
 # cy: 3
-# ug: 3
 # nl: 3
 ||5476-coinbase.com^
 ||admbooking.response-complaints.com^
@@ -71,6 +71,7 @@
 ||itsssl.com^
 ||klikdisini.piwzstoreee.my.id^
 ||lowongan-pekerjaan-indonesia.c0-1d.com^
+||m.instagram.com.xyoru.xyz^
 ||mahdi.5943259ec42ab58ed58b101b82e22382.workers.dev^
 ||mail.midasxs.kraftonevent.com^
 ||meettaamskk-logiinn.gitbook.io^
