@@ -1,24 +1,25 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719973095
-# Database Hash: b61682636beaba61f4dbeb280a01e4b43d814c61
-# Generated at: 2024-07-03 02:18:15
-# Number of domains: 247
+# Version: 1719979621
+# Database Hash: 963de359243ec863ee7a92c9e4a326419515dc36
+# Generated at: 2024-07-03 04:07:01
+# Number of domains: 249
 # Last 10 TLD counts:
 # dev: 106
 # com: 32
 # app: 8
-# net: 5
 # io: 5
+# net: 5
 # top: 4
-# pe: 3
-# id: 3
+# cy: 3
+# mk: 3
+# ug: 3
 # nl: 3
-# dk: 3
 ||allegro-999.com^
 ||alynmarketinggroup.com^
 ||amazon-tw.netlify.app^
 ||apple-lnc.com^
+||apple-supports.help^
 ||attconfirm.attonlinesys.workers.dev^
 ||auth-75710.eu^
 ||azure11.prodigideal.com^
@@ -244,6 +245,7 @@
 ||strategicpostnetwork.top^
 ||templat65sldh.myfreesites.net^
 ||terminaldeomnibus-provincia-buenosaires.com^
+||twitter.land^
 ||usiy.filhca.top^
 ||usps.expresspostnetwork.top^
 ||usps.postparcelcorp.top^
