@@ -1,8 +1,8 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719979621
-# Database Hash: 963de359243ec863ee7a92c9e4a326419515dc36
-# Generated at: 2024-07-03 04:07:01
+# Version: 1719986913
+# Database Hash: 7996fa04bf4e1874bab968c5e6fcf0ae5f856d34
+# Generated at: 2024-07-03 06:08:33
 # Number of domains: 249
 # Last 10 TLD counts:
 # dev: 106
@@ -11,10 +11,10 @@
 # io: 5
 # net: 5
 # top: 4
-# cy: 3
-# mk: 3
-# ug: 3
+# pe: 3
 # nl: 3
+# ug: 3
+# dk: 3
 ||allegro-999.com^
 ||alynmarketinggroup.com^
 ||amazon-tw.netlify.app^
