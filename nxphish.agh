@@ -1,20 +1,20 @@
 # Title: NXPhish
 # Author: xRuffKez
-# Version: 1719994072
-# Database Hash: 8aecdecd18f93980ac3ac36baedbd2a928c40c5c
-# Generated at: 2024-07-03 08:07:52
+# Version: 1720001188
+# Database Hash: c34b599444446841190ab2032d4f51ff3e27cde9
+# Generated at: 2024-07-03 10:06:28
 # Number of domains: 203
 # Last 10 TLD counts:
-# dev: 83
+# dev: 84
 # com: 22
-# io: 6
 # app: 6
-# dk: 3
-# cy: 3
-# xyz: 3
+# io: 6
 # id: 3
 # ug: 3
 # mk: 3
+# dk: 3
+# nl: 3
+# cy: 3
 ||allegro-999.com^
 ||apple-lnc.com^
 ||apple-supports.help^
@@ -28,6 +28,7 @@
 ||cinemagpt-28afa.firebaseapp.com^
 ||coinbase-assets.com^
 ||deff1a-g45g3e-9g891b-qnf3as.netlify.app^
+||dlwk--tc.tc631177452.workers.dev^
 ||elqanas-netflix-clone.firebaseapp.com^
 ||facebook.check-protect-account.me^
 ||facebooksecuritys.blogspot.mk^
@@ -60,7 +61,6 @@
 ||instagramprofiileurl.blogspot.qa^
 ||instagramprofiileurl.blogspot.se^
 ||instagramprofiileurl.blogspot.ug^
-||investors.spotify.com.kr.noyszfourfect.xyz^
 ||ipfs.io^
 ||iphone-lelong-2024.try-4pp.com^
 ||lowongan-pekerjaan-indonesia.c0-1d.com^
